@@ -1,7 +1,8 @@
 .section {
   background-color: transparent;
   pointer-events: none;
-  &.active {
+  &.active,
+  &.section__7 {
     pointer-events: auto;
   }
 }
@@ -11,7 +12,7 @@
   margin: 0 auto;
   @media screen and (min-width: $grid-breakpoints-lg) {
     width: 100vw;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
   }
 }
 
@@ -22,7 +23,7 @@
     position: fixed;
     width: 100vw;
     height: 100vh;
-    z-index: -5;
+    z-index: auto;
     left: 50%;
     top: 50%;
     margin-left: -50vw;
@@ -32,12 +33,36 @@
 
 .section-text {
   transition: all .5s ease-in-out;
+  p {
+    transition: opacity .5s ease-in-out;
+  }
+  p:nth-child(1) {
+    transition-delay: 0s;
+  }
+  p:nth-child(2) {
+    transition-delay: .25s;
+  }
+  p:nth-child(3) {
+    transition-delay: .5s;
+  }
+  p:nth-child(4) {
+    transition-delay: .75s;
+  }
+  p:nth-child(5) {
+    transition-delay: 1s;
+  }
   @media screen and (min-width: $grid-breakpoints-lg) {
     opacity: 0;
-  }
-  .active & {
-    opacity: 1;
-    transform: translateX(0);
+    p {
+      opacity: 0;
+    }
+    .active & {
+      transform: translateX(0);
+      opacity: 1;
+      p {
+        opacity: 1;
+      }
+    }
   }
 }
 
@@ -46,7 +71,7 @@
   font-size: 16px;
   line-height: 24px;
   @media screen and (min-width: $grid-breakpoints-lg) {
-    transform: translateX(-100%);
+    transform: translateX(0);
     font-size: 20px;
   }
   h2 {
@@ -69,7 +94,10 @@
 }
 
 .section-text__inner {
-  padding: 0 40px;
+  padding: 0 16px;
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    padding: 0 40px;
+  }
   @media screen and (min-width: $grid-breakpoints-xl) {
     padding: 0 80px;
   }
@@ -99,7 +127,16 @@
     }
   }
 }
-
+.section__1 {
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    margin-bottom: 20vw;
+  }
+}
+.section__7 {
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    margin-top: 20vw;
+  }
+}
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;

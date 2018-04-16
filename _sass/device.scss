@@ -1,14 +1,10 @@
 .device {
   position: absolute;
-  transform: scale(.8);
-  @media screen and (min-width: $grid-breakpoints-lg) {
-    position: fixed;
-    transform: scale(1);
-  }
+  transform: scale(.75);
   z-index: 5;
   width: $device-width;
-  height: 491px;
-  top: 50%;
+  height: $device-height;
+  top: 60%;
   left: 50%;
   margin-left: -$device-width/2;
   margin-top: -$device-height/2 + $mt-100/2;
@@ -19,6 +15,11 @@
   border-radius: 22px;
   box-shadow: 0px 10px 50px rgba(0, 0, 0, .3);
   transition: opacity .5s ease-out, margin-top .5s ease-in-out;
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    position: fixed;
+    transform: scale(1);
+    top: 50%;
+  }
   body.is-scrolled & {
     z-index: -2;
   }
@@ -68,7 +69,7 @@
 }
 
 .col__device__mobile {
-  width: 75%;
+  width: 70%;
   margin: 16px 15%;
   @media screen and (min-width: $grid-breakpoints-md) {
     width: 50%;

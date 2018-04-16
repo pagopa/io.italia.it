@@ -52,7 +52,7 @@ $(function () {
         (function (i) {
             new ScrollMagic.Scene({
                 triggerElement: "#section_" + i,
-                duration: window.innerHeight - 100 // TODO da rivedere
+                duration: window.innerHeight - 50 // window.innerHeight - header height
             })
                 .on("enter", function () {
                     if (i !== 1) {
@@ -84,7 +84,6 @@ $(function () {
     };
 
     (function loopingFunction() {
-
         setTimeout(loopingFunction, 1000);
     })();
 
@@ -109,7 +108,7 @@ $(function () {
 
     animate(0);
 
-    $(window).on('load scroll', function (event) {
+    $(window).on('load scroll', function () {
         if ($(window).scrollTop() > $('.section__1').height() - 50) {
             $('body').addClass('is-scrolled');
             parallaxInstance.disable();
@@ -119,7 +118,7 @@ $(function () {
         }
     });
 
-    $(window).on('resize', function (event) {
+    $(window).on('resize', function () {
         smallDevice = window.innerWidth < 992;
     });
 
