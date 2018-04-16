@@ -5,6 +5,7 @@
     pointer-events: auto;
   }
 }
+
 .section-wrapper {
   display: table;
   margin: 0 auto;
@@ -13,6 +14,7 @@
     height: calc(100vh - 100px);
   }
 }
+
 .section-wrapper__inner {
   display: table-cell;
   @media screen and (min-width: $grid-breakpoints-lg) {
@@ -27,16 +29,18 @@
     margin-top: -$device-height/2 + $mt-100/2;
   }
 }
+
 .section-text {
   transition: all .5s ease-in-out;
   @media screen and (min-width: $grid-breakpoints-lg) {
-    opacity:0;
+    opacity: 0;
   }
   .active & {
     opacity: 1;
     transform: translateX(0);
   }
 }
+
 .section-text--left {
   color: $color--light-blue;
   font-size: 16px;
@@ -53,6 +57,7 @@
     font-weight: 400;
   }
 }
+
 .section-text--right {
   color: #5C6F82;
   font-size: 16px;
@@ -62,6 +67,7 @@
     font-size: 20px;
   }
 }
+
 .section-text__inner {
   padding: 0 40px;
   @media screen and (min-width: $grid-breakpoints-xl) {
@@ -77,8 +83,9 @@
     position: absolute;
     top: calc(-50vh + 100px); // opposto di .carillon__inner + 25px
     width: 100%;
-    text-align:center;
+    text-align: center;
     color: $color--white;
+    pointer-events: auto;
     @media screen and (min-width: $grid-breakpoints-lg) {
       margin-top: 50px;
     }
@@ -86,8 +93,13 @@
       font-weight: 400;
       font-size: 24px;
     }
+    .io-logo--top {
+      width: 32px;
+      margin-top: -4px;
+    }
   }
 }
+
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;

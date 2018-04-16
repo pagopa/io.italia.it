@@ -3,28 +3,27 @@
   @media screen and (min-width: $grid-breakpoints-lg) {
     display: block;
     position: fixed;
-    width: 70vw;
-    height: calc(100vh - 50px);
+    width: 50vw;
+    height: calc(100vh - 100px);
     background-color: #E6E9F2;
     left: 0;
     margin: 0 auto;
     z-index: -5;
-    top: 50px;
-    max-width: 600px;
+    top: 100px;
     right: 0;
   }
 }
 .italia__dot {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 100px);
   background: transparent url(img/green-dot.png) 0 0 no-repeat;
   background-size: 80px 80px;
 }
 .italia__shape {
   position: absolute;
   width: 100%;
-  height: 100vh;
+  height: calc(100vh - 100px);
   background: transparent url(img/italy-dotted.png) center center no-repeat;
   background-size: cover;
 }

@@ -39,7 +39,7 @@
 .device__logo {
   width: 120px;
   height: 100px;
-  background-image: url(img/io-logo-temp@3x.png);
+  background-image: url(img/io-logo.svg);
   background-size: cover;
   margin: 32px auto 12px;
 }
@@ -68,7 +68,13 @@
 }
 
 .col__device__mobile {
-  width: 70%;
+  width: 75%;
   margin: 16px 15%;
-
+  @media screen and (min-width: $grid-breakpoints-md) {
+    width: 50%;
+    margin: 16px 25%;
+  }
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    display: none;
+  }
 }
