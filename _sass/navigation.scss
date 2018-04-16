@@ -12,7 +12,7 @@
   top: 0;
   background: rgba(23, 57, 102, .95);
   transition: background .2s ease-out;
-  @media screen and (min-width: $grid-breakpoints-md) {
+  @media screen and (min-width: $grid-breakpoints-lg) {
     background: rgba(23, 57, 102, 0);
   }
   body.is-scrolled & {
@@ -53,6 +53,11 @@
     left: 0;
     z-index: 3;
   }
+  a {
+    color: $color--light-blue;
+    font-size: 16px;
+    font-weight: 600;
+  }
 }
 .offcanvas-collapse {
   background-color: #FFF;
@@ -62,6 +67,5 @@
   }
 }
 .io__icon {
-  width: 36px;
-  padding-left: 12px;
+  width: 32px;
 }
