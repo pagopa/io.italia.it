@@ -1,0 +1,53 @@
+$copy-width : 303px;
+$copy-height: 200px;
+.copy {
+  position: fixed;
+  width: 100vw;
+  height: calc(100vh - 150px);
+  z-index: -4;
+  top: 100px;
+  left: 50%;
+  margin-left: -50vw;
+  background-size: cover;
+  overflow: hidden;
+  transition: all .5s ease-out;
+}
+
+.copy__content {
+  transition: all .5s ease-out;
+  position: absolute;
+  width: $copy-width;
+  opacity: 0;
+  &.copy__content--in {
+    opacity: 1
+  }
+}
+
+.copy__logo {
+  width: 120px;
+  height: 100px;
+  background-image: url(img/io-logo-temp@3x.png);
+  background-size: cover;
+  margin: 72px auto 36px;
+}
+
+.copy__list {
+  list-style-type: none;
+  padding: 0 72px;
+  text-align: left;
+  li {
+    color: #06C;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 4px 0;
+  }
+}
+
+.copy__icon {
+  width: 24px;
+  padding-right: 8px;
+}
+
+.col__copy {
+  width: $copy-width !important;
+}

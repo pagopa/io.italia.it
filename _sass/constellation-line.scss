@@ -1,0 +1,78 @@
+.line {
+  position: absolute;
+  height: 1px;
+  line-height: 1px;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+.line--ticket {
+  width: 43px;
+  top: 29px;
+  transform: rotate(18deg);
+  left: 224px;
+}
+.line--prescrizioni {
+  width: 80px;
+  top: 59px;
+  transform: rotate(-46deg);
+  left: 130px;
+}
+.line--esenzioni {
+  width: 51px;
+  top: 86px;
+  transform: rotate(94deg);
+  left: 250px;
+}
+.line--referti {
+  width: 102px;
+  top: 114px;
+  transform: rotate(-169deg);
+  left: 154px;
+}
+.line--anagrafe {
+  width: 140px;
+  top: 38px;
+  transform: rotate(154deg);
+  left: 20px;
+}
+.line--mensa {
+  width: 60px;
+  top: 38px;
+  transform: rotate(58deg);
+  left: 170px;
+}
+.line--multe {
+  width: 86px;
+  top: 95px;
+  transform: rotate(160deg);
+  left: 126px;
+}
+.line--tari {
+  width: 72px;
+  top: 97px;
+  transform: rotate(20deg);
+  left: 27px;
+}
+.line--avvisi {
+  width: 140px;
+  top: 19px;
+  transform: rotate(173deg);
+  left: 19px;
+}
+.line--f24 {
+  width: 90px;
+  top: 63px;
+  transform: rotate(123deg);
+  left: 96px;
+}
+.line--rimborsi {
+  width: 100px;
+  top: 74px;
+  transform: rotate(37deg);
+  left: 7px;
+}
+.line--bollo {
+  width: 40px;
+  top: 10px;
+  transform: rotate(156deg);
+  left: 12px;
+}

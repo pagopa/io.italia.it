@@ -1,0 +1,87 @@
+<section id="section_1" class="section section__1">
+
+  <div class="universe text-center text-white d-flex py-0">
+    <div class="galaxy" style="position: absolute">
+      <div class="galaxy__layer galaxy__layer--one" data-depth="0.2"></div>
+      <div class="galaxy__layer galaxy__layer--two" data-depth="0.3"></div>
+      <div class="galaxy__layer galaxy__layer--three" data-depth="0.6"></div>
+    </div>
+
+    <div class="container carillon">
+      <div class="carillon__inner">
+        <div class="section-title">
+          <div class="row justify-content-md-center">
+            <div class="col col-md-6">
+              <h1><img src="{{ '/assets/img/io-logo@3x.png' | relative_url }}" style="width: 32px" alt="io"/>, l'app dei servizi pubblici</h1>
+              <span class="x-small">Nell’estate 2018 inizieranno i primi test con i cittadini<br/>di alcuni territori e con alcuni enti centrali e locali.</span>
+            </div>
+          </div>
+        </div>
+        <div class="constellations d-none d-lg-block">
+          <div class="constellation">
+            {% include home/constellation-regione.html %}
+          </div>
+          <div class="constellation">
+            {% include home/constellation-comune.html %}
+          </div>
+          <div class="constellation">
+            {% include home/constellation-entrate.html %}
+          </div>
+          <div class="constellation">
+            {% include home/constellation-aci.html %}
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col">
+            <div class="carillon__line carillon__line--left"></div>
+            <div class="carillon__line carillon__line--left"></div>
+            <div class="carillon__line carillon__line--left"></div>
+            <div class="carillon__line carillon__line--left"></div>
+            <div class="carillon__line carillon__line--left"></div>
+            {% for carillon_path in site.data.carillon.carillon_paths %}
+            {% if carillon_path.is_left == true %}
+            <div class="carillon__path d-none d-lg-block"
+                 data-index="{{ forloop.index }}"
+                 data-name="{{ carillon_path.name }}"
+                 data-delay="{{ carillon_path.delay }}"
+                 data-duration="{{ carillon_path.duration }}"
+                 data-sound="{{ carillon_path.sound }}"
+                 style="{{ carillon_path.position }}">
+              <div class="carillon__note"></div>
+              {{ carillon_path.shape }}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+          <div class="col__device">
+            <div class="carillon__line carillon__line--white"></div>
+            <div class="carillon__line carillon__line--white"></div>
+            <div class="carillon__line carillon__line--white"></div>
+            <div class="carillon__line carillon__line--white"></div>
+            <div class="carillon__line carillon__line--white"></div></div>
+          <div class="col">
+            <div class="carillon__line carillon__line--right"></div>
+            <div class="carillon__line carillon__line--right"></div>
+            <div class="carillon__line carillon__line--right"></div>
+            <div class="carillon__line carillon__line--right"></div>
+            <div class="carillon__line carillon__line--right"></div>
+            {% for carillon_path in site.data.carillon.carillon_paths %}
+            {% if carillon_path.is_left != true %}
+            <div class="carillon__path d-none d-lg-block"
+                 data-index="{{ forloop.index }}"
+                 data-name="{{ carillon_path.name }}"
+                 data-delay="{{ carillon_path.delay }}"
+                 data-duration="{{ carillon_path.duration }}"
+                 data-sound="{{ carillon_path.sound }}"
+                 style="{{ carillon_path.position }}; text-align: left">
+              <div class="carillon__note"></div>
+              {{ carillon_path.shape }}
+            </div>
+            {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

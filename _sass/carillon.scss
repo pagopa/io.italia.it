@@ -1,0 +1,73 @@
+.carillon {
+  transition: all 0.7s ease-out;
+}
+
+.carillon__inner {
+  position: relative;
+  margin-top: calc(50vh - 75px);
+}
+
+.carillon__line {
+  height: 1px;
+  margin: 40px 0px;
+  width: 100%;
+}
+
+.carillon__line--left {
+  background: linear-gradient(90deg, rgba(85, 132, 193, 0) 0%, #628DC5 8.59%, #5584C1 74.8%, #FFFFFF 100%);
+}
+
+.carillon__line--right {
+  background: linear-gradient(270deg, rgba(85, 132, 193, 0) 0%, #628DC5 8.59%, #5584C1 74.8%, #FFFFFF 100%);
+}
+
+.carillon__line--white {
+  background: #FFF;
+}
+
+.carillon__note {
+  pointer-events: none;
+  width: 8px;
+  height: 8px;
+  margin: 1px;
+  background-color: #00FFF8;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -4px;
+  margin-left: -4px;
+  opacity: 0;
+
+  &:before,
+  &:after {
+    content: "";
+    width: 48px;
+    height: 48px;
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #00FFF8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -24px;
+    transform: scale(.1);
+    transition: all 1s ease;
+  }
+  &:after {
+    border: 1px solid #00FFF8;
+    transform: scale(.2);
+    transition: all 2s ease;
+  }
+  &.carillon__note--burst {
+    opacity: 0;
+    &:before,
+    &:after {
+      transform: scale(1.5);
+      opacity: 0;
+    }
+  }
+}
+
+.carillon__path {
+  position: absolute;
+  right: 0px;
+}

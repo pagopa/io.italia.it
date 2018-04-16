@@ -1,0 +1,29 @@
+.title {
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  opacity: .2;
+  position: absolute;
+}
+.title--regione {
+  top: 25px;
+  left: 55px;
+  @media screen and (min-width: $grid-breakpoints-xl) {
+    left: 0px;
+  }
+}
+.title--comune {
+  top: 5px;
+  left: 5px;
+}
+.title--entrate {
+  top: 40px;
+  left: 180px;
+}
+.title--aci {
+  top: 40px;
+  left: 40px;
+}
