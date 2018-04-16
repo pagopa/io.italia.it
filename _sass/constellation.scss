@@ -1,0 +1,41 @@
+.constellations {
+  position:absolute;
+  width: 100%;
+}
+.constellation__inner {
+  position: absolute;
+  color: white;
+}
+.constellation__inner--regione {
+  top: -130px;
+  left: -77px;
+  @media screen and (min-width: $grid-breakpoints-xl) {
+    left: 14px;
+  }
+}
+.constellation__inner--comune {
+  top: -150px;
+  right: 223px;
+  @media screen and (min-width: $grid-breakpoints-xl) {
+    right: 313px;
+  }
+}
+.constellation__inner--entrate {
+  top: 250px;
+  left: 0;
+  @media screen and (min-width: $grid-breakpoints-xl) {
+    left: 90px;
+  }
+}
+.constellation__inner--aci {
+  top: 287px;
+  right: 252px;
+  @media screen and (min-width: $grid-breakpoints-xl) {
+    right: 342px;
+  }
+}
+
+@import "constellation-title";
+@import "constellation-text";
+@import "constellation-ball";
+@import "constellation-line";

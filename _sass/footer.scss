@@ -1,0 +1,23 @@
+.footer {
+  background-color: $color--dark-grey;
+  color: $color--white;
+
+  @media screen and (min-width: $grid-breakpoints-sm) {
+    text-align: left;
+  }
+  .team-logo {
+    &--icon {
+      width: 72px;
+    }
+    &--text {
+      font-size: 16px;
+      line-height: 1rem;
+      max-width: 160px;
+      text-transform: uppercase;
+    }
+  }
+  .small-prints {
+    color: $color--italia-green;
+    font-weight: 600;
+  }
+}

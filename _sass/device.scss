@@ -1,0 +1,74 @@
+.device {
+  position: absolute;
+  transform: scale(.8);
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    position: fixed;
+    transform: scale(1);
+  }
+  z-index: 5;
+  width: $device-width;
+  height: 491px;
+  top: 50%;
+  left: 50%;
+  margin-left: -$device-width/2;
+  margin-top: -$device-height/2 + $mt-100/2;
+  background-image: url(img/device.svg);
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 22px;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, .3);
+  transition: opacity .5s ease-out, margin-top .5s ease-in-out;
+  body.is-scrolled & {
+    z-index: -2;
+  }
+}
+
+.device__content {
+  transition: all .2s ease-out;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  &.device__content--in {
+    opacity: 1;
+    pointer-events: auto;
+  }
+}
+
+.device__logo {
+  width: 120px;
+  height: 100px;
+  background-image: url(img/io-logo-temp@3x.png);
+  background-size: cover;
+  margin: 32px auto 12px;
+}
+
+.device__list {
+  list-style-type: none;
+  padding: 0 72px;
+  text-align: left;
+  li {
+    color: #06C;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 8px 0;
+  }
+}
+
+.device__icon {
+  width: 24px;
+  padding-right: 8px;
+}
+
+.col__device {
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    width: $device-width !important;
+  }
+}
+
+.col__device__mobile {
+  width: 70%;
+  margin: 16px 15%;
+
+}
