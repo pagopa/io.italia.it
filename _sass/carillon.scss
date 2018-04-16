@@ -5,6 +5,12 @@
 .carillon__inner {
   position: relative;
   margin-top: calc(50vh - 75px);
+  .row {
+    transform: scale(.75);
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      transform: scale(1);
+    }
+  }
 }
 
 .carillon__line {
