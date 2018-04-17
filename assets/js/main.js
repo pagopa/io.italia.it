@@ -84,7 +84,7 @@ $(function () {
     };
 
     (function loopingFunction() {
-        setTimeout(loopingFunction, 1000);
+        setTimeout(loopingFunction, 1500);
     })();
 
     let lastTime = 0;
@@ -120,6 +120,12 @@ $(function () {
 
     $(window).on('resize', function () {
         smallDevice = window.innerWidth < 992;
+    });
+    $('.volume').on('click', function() {
+        $volumeElement = $(this).toggleClass('volume__mute');
+        [].forEach.call(document.querySelectorAll("audio"), function(elem) {
+            elem.muted = $volumeElement.hasClass('volume__mute');
+        })
     });
 
 });
