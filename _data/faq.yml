@@ -1,0 +1,25 @@
+- title: Quando potrò installare la app?
+  body: "Nell’estate 2018 inizieranno i primi test con i cittadini: questo significa che in una prima fase inviteremo un numero limitato di persone ad usare il servizio, e\
+        non sarà possibile per chiunque installare direttamente l’applicazione dagli store. Iscriviti alla newsletter per restare aggiornato. Il progetto è open source, se sei uno sviluppatore puoi seguirne gli sviluppi del progetto nei repositories \
+        [https://github.com/teamdigitale/italia-app](https://github.com/teamdigitale/italia-app) e [https://github.com/teamdigitale/italia-backend](https://github.com/teamdigitale/italia-backend)"
+- title: Che servizi saranno attivi quando inizierà la fase di test? 
+  body: "Questo dipende da dove risiedi. Molti servizi sono erogati dagli enti locali, quindi sperimenteremo la app in alcuni territori specifici, dove potremo integrare un numero significativo di servizi locali e nazionali"
+- title: Potrò usare tutti i servizi di io anche da browser web?
+  body : "In una prima fase abbiamo deciso di concentrarci sulle applicazioni mobile, e sulle piattaforme android e ios, che sono di gran lunga le più diffuse. Alcune funzioni saranno disponibili da subito anche dal web,\
+          per consentire la gestione di privacy e sicurezza nel caso in cui non si abbia più a disposizione lo smartphone. In futuro integreremo nel browser quasi tutte le altre funzioni."
+- title: Perchè devo per forza avere spid per usare la app?
+  body: "Io, in quanto canale di informazioni personali e potenzialmente sensibili, si baserà sul presupposto che chi utilizza la app sia con certezza un determinato individuo,\ 
+        che ha diritto di accesso a quei dati. Inoltre in alcuni contesti l’integrazione con altri servizi è possibile solo grazie a spid. Per questo il poter disporre di un account spid \
+        sarà condizione necessaria e sufficiente per usare la app."
+- title: Come posso essere sicuro che la app continuerà ad esistere e ad essere aggiornata?
+  body: "Il [CAD, “Codice dell’Amministrazione Digitale”](https://cad.readthedocs.io/), istituisce il “punto di accesso telematico”, particolare se ne parla agli articoli [7](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo1_sezione2_art7.html) e [64-bis](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo5_sezione3_art64-bis.html).\ 
+        Quindi io deve esistere “per legge”. Inoltre il cad dice che diventa un diritto per il cittadino dal momento stesso in cui l’app sarà effettivamente disponibile."
+- title: Il nome dell’app negli store sarà proprio “io”?
+  body: "Non lo sappiamo ancora con certezza. **io.italia.it** è il nome con cui internamente ad AgID ed al Team Digitale si fa riferimento al progetto. Ma il nome definitivo dipenderà da una ulteriore analisi e dai dati che raccoglieremo grazie ai primi test con gli utenti."
+- title: Come fanno le PA a sapere chi contattare? 
+  body: "*Io* individuerà il cittadino grazie al proprio codice fiscale. Le pubbliche amministrazioni potranno utilizzare gli strumenti di io passando come parametro identificativo proprio un codice fiscale. Ovviamente questo codice fiscale deve essere già presente dei database del singolo ente,\
+         e l’ente dovrà utilizzare gli strumenti di io coerentemente con il proprio mandato istituzionale."  
+- title: L’app resterà gratuita?
+  body: "Si, per sempre."
+- title: L’infrastruttura su cui si basa la app sarà sicura?
+  body: "Lo sviluppo dell’applicazione mobile e di tutte le componenti software a supporto avviene in conformità delle linee guida sulla sicurezza definite nel [Piano Triennale per l’ICT](http://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html). Inoltre tutto il codice software sviluppato è open source, per cui aperto allo scrutinio di tutta la comunità IT."
