@@ -1,13 +1,39 @@
 .footer {
-  background-color: $color--dark-grey;
+  background-color: #00264D;
   color: $color--white;
+  padding: 3em 0;
 
   @media screen and (min-width: $grid-breakpoints-sm) {
     text-align: left;
   }
+
+  .social {
+    font-size: 1.2em;
+    color: #fff;
+    & > span {
+      margin-right: 1em;
+    }
+    .icon {
+      color: #00264D;
+      background-color: #fff;
+      padding: 0.2em 0.4em;
+      border-radius: 100%;;
+    }
+    @media screen and (max-width: $grid-breakpoints-md) {
+      text-align: left !important;
+      margin-top: 1em;
+    }
+  }
+  .agid-logo {
+    height: 56px;
+  }
+  .agid-collab {
+    margin-top: 1em;
+  }
   .team-logo {
     &--icon {
       width: 72px;
+
     }
     &--text {
       font-size: 16px;
@@ -19,5 +45,12 @@
   .small-prints {
     color: $color--italia-green;
     font-weight: 600;
+  }
+  .colophon {
+    border-top: 1px solid rgba(255,255,255,0.1);
+    margin-top: 2em;
+    .list-inline-item:not(:last-child){
+      margin-right: 1.5em;
+    }
   }
 }

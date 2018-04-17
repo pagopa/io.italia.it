@@ -1,22 +1,47 @@
-<footer class="footer text-muted">
+<footer class="footer text-muted padding-umd">
   <div class="container">
-    <div class="d-flex justify-content-between align-items-center py-4">
-      <div class="d-flex">
-        <div class="px-2 team-logo--icon">
-          <img src="{{ '/assets/img/logo-team-digitale.svg' | relative_url }}" alt="Team per la Trasformazione Digitale"/>
-        </div>
-        <div class="px-2 border-white border-left team-logo--text text-white">Team per la Trasformazione Digitale</div>
+    <div class="row d-none d-md-block">
+      <div class="col-md-3 offset-md-3">
+        <p>In collaborazione con</p>
       </div>
     </div>
-    <div class="row py-4 border-white border-top">
+    <div class="row align-items-center">
+      <div class="col-md-3">
+          <div class="d-flex">
+          <div class="px-2 team-logo--icon">
+            <a href="http://teamdigitale.governo.it/" target="_blank">
+            <img src="{{ '/assets/img/logo-team-digitale.svg' | relative_url }}" alt="Team per la Trasformazione Digitale"/>
+            </a>
+          </div>
+          <div class="px-2 border-white border-left team-logo--text text-white">Team per la Trasformazione Digitale</div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="agid-collab d-md-none d-lg-none">In collaborazione con</p>
+        <a href="http://www.agid.gov.it/" target="_blank" >
+          <img class="agid-logo img-responsive" src="{{ '/assets/img/logo-agid.svg' | relative_url }}" alt="Agenzia per l'Italia Digitale"/>
+          </a>
+      </div>
+      <div class="col-md-6">
+        <div class="text-right social">
+          <span>Seguici su:</span><i class="icon it-github"></i> <i class="icon it-twitter"></i>
+        </div>
+      </div>
+    </div><!--/row-->
+    <div class="row py-4 colophon">
       <ul class="col list-inline small">
         <li class="list-inline-item">
-          <a href="https://developers.italia.it//it/privacy-policy/" class="small-prints">Privacy Policy</a>
+          <a href="privacy-policy" class="small-prints">Privacy Policy</a>
         </li>
         <li class="list-inline-item">
-          <a href="https://developers.italia.it//it/note-legali/" class="small-prints">Note Legali</a>
+          <a href="cookies-policy" class="small-prints">Cookies Policy</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="https://developers.italia.it/it/note-legali/" class="small-prints">Note Legali</a>
         </li>
       </ul>
+      <p>I servizi presentati nei mockup sono esempi per far capire le future funzionalità dell’applicazione. </p>
     </div>
+    
   </div>
 </footer>
