@@ -12,11 +12,14 @@
   top: 0;
   background: rgba(23, 57, 102, .95);
   transition: background .2s ease-out;
-  @media screen and (min-width: $grid-breakpoints-lg) {
-    background: rgba(23, 57, 102, 0);
-  }
+  
   body.is-scrolled & {
     background: rgba(23, 57, 102, 1);
+  }
+  body.layout--home & {
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      background: rgba(23, 57, 102, 0);
+    }
   }
 }
 
