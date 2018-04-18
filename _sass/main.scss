@@ -17,7 +17,9 @@
 
 body {
   background-color: $color--light-grey;
-  font-size: 14px;
+  &.layout--home {
+    font-size: 14px;
+  }
 }
 .bg-white {
   background-color: $color--white;
@@ -30,4 +32,7 @@ body {
 }
 .small {
   font-size: 14px;
+}
+.post {
+  max-width: 40em;
 }
