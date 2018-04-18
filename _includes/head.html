@@ -34,6 +34,10 @@
     {%- include analytics/hotjar.html -%}
     {%- include analytics/piwik.html -%}
   {%- endif -%}
+
+  {% if site.google_verify %}
+  <meta name="google-site-verification" content="{{ site.google_verify }}">
+  {% endif %}
 </head>
 
 
