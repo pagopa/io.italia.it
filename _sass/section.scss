@@ -25,12 +25,11 @@
     vertical-align: middle;
     position: fixed;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     z-index: auto;
     left: 50%;
-    top: 50%;
+    top: 200px;
     margin-left: -50vw;
-    margin-top: -$device-height/2 + $mt-100/2;
   }
 }
 
@@ -78,7 +77,7 @@
     font-size: 20px;
   }
   h2 {
-    margin: 60px 0;
+    margin: 60px 0 16px;
     @media screen and (min-width: $grid-breakpoints-lg) {
       margin: 0;
     }
@@ -148,7 +147,8 @@
 
     }
     th {
-      border-bottom: 2px solid #d6dce3;
+      border-bottom: none;
+      border-top: 2px solid #d6dce3;
     }
 
     tr > td:last-child, tr > th:last-child {
@@ -267,14 +267,11 @@
   background-size: cover;
   .section-title {
     position: absolute;
-    top: calc(-50vh + 100px); // opposto di .carillon__inner + 25px
     width: 100%;
     text-align: center;
     color: $color--white;
     pointer-events: auto;
-    @media screen and (min-width: $grid-breakpoints-lg) {
-      margin-top: 50px;
-    }
+    margin-top: 50px;
     h1 {
       font-weight: 400;
       font-size: 24px;
