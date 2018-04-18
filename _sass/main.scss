@@ -12,6 +12,7 @@
 @import 'carillon';
 @import 'copy';
 @import 'footer';
+@import 'cookiebar';
 @import 'navigation';
 
 body {
@@ -26,4 +27,7 @@ body {
 }
 .overflow-x--hidden {
 	overflow-x: hidden;
+}
+.small {
+  font-size: 14px;
 }

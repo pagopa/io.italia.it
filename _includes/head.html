@@ -29,8 +29,10 @@
   {% include favicons.html %}
   {% include social.html %}
 
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-  {%- include google-analytics.html -%}
+  {%- if jekyll.environment == 'production' -%}
+    {%- include analytics/google-analytics.html -%}
+    {%- include analytics/hotjar.html -%}
+    {%- include analytics/piwik.html -%}
   {%- endif -%}
 </head>
 

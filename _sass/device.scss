@@ -1,24 +1,23 @@
 .device {
   position: absolute;
-  transform: scale(.75);
   z-index: 5;
   width: $device-width;
   height: $device-height;
-  top: 60%;
+  top: 160px;
   left: 50%;
   margin-left: -$device-width/2;
-  margin-top: -$device-height/2 + $mt-100/2;
   background-image: url(img/device.svg);
   background-size: cover;
   text-align: center;
   overflow: hidden;
-  border-radius: 22px;
-  box-shadow: 0px 10px 50px rgba(0, 0, 0, .3);
+  border-radius: $device-border-radius;
+  box-shadow: $device-box-shadow;
   transition: opacity .5s ease-out, margin-top .5s ease-in-out;
   @media screen and (min-width: $grid-breakpoints-lg) {
     position: fixed;
-    transform: scale(1);
-    top: 50%;
+  }
+  @media screen and (max-width: $grid-breakpoints-lg) {
+    margin-top: 50px;
   }
   body.is-scrolled & {
     z-index: -2;
@@ -71,6 +70,8 @@
 .col__device__mobile {
   width: 70%;
   margin: 16px 15%;
+  border-radius: $device-border-radius;
+  box-shadow: $device-box-shadow;
   @media screen and (min-width: $grid-breakpoints-md) {
     width: 50%;
     margin: 16px 25%;
