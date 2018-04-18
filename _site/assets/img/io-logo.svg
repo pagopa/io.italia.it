@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="118px" height="100px" viewBox="0 0 118 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>52F60C45-BE3A-4EB1-8145-216C512F4DD5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M739.505921,371 C719.667832,371 704.862434,356.117956 704.862434,337.760024 C704.862434,319.402092 719.667832,304.520047 739.505921,304.520047 C756.194602,304.520047 771,319.402092 771,337.760024 C771,356.117956 756.194602,371 739.505921,371 Z M675.091036,318.396226 L686.918584,318.396226 C688.327923,318.396226 689.470418,319.538721 689.470418,320.948061 L689.470418,365.580241 C689.470418,366.98958 688.327923,368.132075 686.918584,368.132075 L675.091036,368.132075 C673.681697,368.132075 672.539202,366.98958 672.539202,365.580241 L672.539202,320.948061 C672.539202,319.538721 673.681697,318.396226 675.091036,318.396226 Z M681.00481,309.113208 C675.479306,309.113208 671,304.610713 671,299.056604 C671,293.502495 675.479306,289 681.00481,289 C686.530314,289 691.00962,293.502495 691.00962,299.056604 C691.00962,304.610713 686.530314,309.113208 681.00481,309.113208 Z" id="path-1"></path>
+        <filter x="-9.0%" y="-11.0%" width="136.0%" height="143.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="9" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="-wip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="io.italia.it---preview" transform="translate(-671.000000, -289.000000)">
+            <g id="io---logo">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
