@@ -230,9 +230,19 @@
     color: #fff;
     font-size: 1.5em;
     padding-left: 0;
+    font-weight: 400 !important;
+    border-top: 1px solid rgba(255,255,255,0.2);
+
+    &:focus {
+      outline: none !important;
+    }
+  }
+  &.collapse-div {
+  border-bottom: none;
   }
   .collapse-header[data-toggle=collapse] {
     border-top: 1px solid rgba(255,255,255,0.16);
+
   }
   .collapse-header [data-toggle=collapse]:after {
     position: relative;
