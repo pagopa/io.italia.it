@@ -237,6 +237,9 @@
       outline: none !important;
     }
   }
+  &.collapse-div {
+  border-bottom: none;
+  }
   .collapse-header[data-toggle=collapse] {
     border-top: 1px solid rgba(255,255,255,0.16);
 
