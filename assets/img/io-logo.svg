@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="118px" height="100px" viewBox="0 0 118 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: sketchtool 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>52F60C45-BE3A-4EB1-8145-216C512F4DD5</title>
-    <desc>Created with sketchtool.</desc>
+<svg width="136px" height="100px" viewBox="0 0 136 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-        <path d="M739.505921,371 C719.667832,371 704.862434,356.117956 704.862434,337.760024 C704.862434,319.402092 719.667832,304.520047 739.505921,304.520047 C756.194602,304.520047 771,319.402092 771,337.760024 C771,356.117956 756.194602,371 739.505921,371 Z M675.091036,318.396226 L686.918584,318.396226 C688.327923,318.396226 689.470418,319.538721 689.470418,320.948061 L689.470418,365.580241 C689.470418,366.98958 688.327923,368.132075 686.918584,368.132075 L675.091036,368.132075 C673.681697,368.132075 672.539202,366.98958 672.539202,365.580241 L672.539202,320.948061 C672.539202,319.538721 673.681697,318.396226 675.091036,318.396226 Z M681.00481,309.113208 C675.479306,309.113208 671,304.610713 671,299.056604 C671,293.502495 675.479306,289 681.00481,289 C686.530314,289 691.00962,293.502495 691.00962,299.056604 C691.00962,304.610713 686.530314,309.113208 681.00481,309.113208 Z" id="path-1"></path>
+        <path d="M86.5059209,82 C66.6678323,82 51.8624339,67.1179556 51.8624339,48.7600236 C51.8624339,30.4020915 66.6678323,15.5200472 86.5059209,15.5200472 C103.194602,15.5200472 118,30.4020915 118,48.7600236 C118,67.1179556 103.194602,82 86.5059209,82 Z M22.0910357,29.3962264 L33.9185843,29.3962264 C35.3279234,29.3962264 36.4704185,30.5387215 36.4704185,31.9480605 L36.4704185,76.5802413 C36.4704185,77.9895804 35.3279234,79.1320755 33.9185843,79.1320755 L22.0910357,79.1320755 C20.6816966,79.1320755 19.5392015,77.9895804 19.5392015,76.5802413 L19.5392015,31.9480605 C19.5392015,30.5387215 20.6816966,29.3962264 22.0910357,29.3962264 Z M28.00481,20.1132075 C22.479306,20.1132075 18,15.6107127 18,10.0566038 C18,4.50249487 22.479306,2.84217094e-14 28.00481,2.84217094e-14 C33.530314,2.84217094e-14 38.00962,4.50249487 38.00962,10.0566038 C38.00962,15.6107127 33.530314,20.1132075 28.00481,20.1132075 Z" id="path-1"></path>
         <filter x="-9.0%" y="-11.0%" width="136.0%" height="143.9%" filterUnits="objectBoundingBox" id="filter-2">
             <feOffset dx="9" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
-    <g id="-wip" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="io.italia.it---preview" transform="translate(-671.000000, -289.000000)">
-            <g id="io---logo">
-                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-            </g>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="io">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
         </g>
     </g>
 </svg>
