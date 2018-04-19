@@ -11,7 +11,7 @@
       {% for f in faq %}
         <div class="collapse-header" id="headingA{{forloop.index}}">
           <button data-toggle="collapse" data-target="#accordion{{forloop.index}}"
-          aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{forloop.index}}">
+          aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{forloop.index}}" role="tabpanel">
             <span>{{f.title}}</span>
           </button>
         </div>

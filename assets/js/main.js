@@ -8,6 +8,10 @@ $(function () {
 
         let parallaxInstance;
 
+        $('.preload').fadeOut(400).promise().done(function (el) {
+            el.remove();
+        });
+
         // Per ogni Path SVG esiste un'animazione senza autoplay
         $('.carillon__path').each(function (index) {
 
@@ -128,27 +132,27 @@ $(function () {
         $(window).on('resize', function () {
             smallDevice = window.innerWidth < 992;
         });
-        $('.volume').on('click', function() {
+        $('.volume').on('click', function () {
             $volumeElement = $(this).toggleClass('volume__mute');
-            [].forEach.call(document.querySelectorAll("audio"), function(elem) {
+            [].forEach.call(document.querySelectorAll("audio"), function (elem) {
                 elem.muted = $volumeElement.hasClass('volume__mute');
             })
         });
     }
 
     // SMOOTH INTERNAL LINKS
-    $("a[href!='#']").on('click', function(event) {
-    if (this.hash !== "") {
-      event.preventDefault();
-      var hash = this.hash;
+    $("a[href!='#']").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
 
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 1000, function(){
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 1000, function () {
 
-        window.location.hash = hash;
-      });
-    } 
+                window.location.hash = hash;
+            });
+        }
     });
 
 });
