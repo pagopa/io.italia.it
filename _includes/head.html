@@ -7,8 +7,7 @@
   <meta name="description" content="{{ page.description | default: site.description | smartify }}">
   <meta name="author" content="{{ site.authors }}">
   <meta name="generator" content="Jekyll v{{ jekyll.version }}">
-  <meta name="robots" content="noindex">
-
+  <meta name="robots" content="noindex">{%comment %}TODO REMOVE ME!{% endcomment %}
   <title>
     {%- if page.title -%}
     {{ page.title | smartify }} · {{ site.title | smartify }}
@@ -16,7 +15,6 @@
     {{ site.title | smartify }} · {{ site.description | smartify }}
     {%- endif -%}
   </title>
-  <meta name="robots" content="noindex">{%comment %}TODO REMOVE ME!{% endcomment %}
 
   <link rel="stylesheet" href="{{ '/assets/css/italia-icon-font.css?' | append: buildTime | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/bootstrap-italia.min.css?' | append: buildTime | relative_url }}">
