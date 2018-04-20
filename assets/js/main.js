@@ -16,7 +16,6 @@ $(function () {
         $('.carillon__path').each(function (index) {
 
             let pathID = $(this).data('index');
-            let soundID = $(this).data('sound');
             let pathName = $(this).data('name');
             let path = anime.path('[data-index="' + pathID + '"] path');
 
@@ -31,7 +30,7 @@ $(function () {
                 complete: function () {
                     $('.ball--' + pathName).removeClass('ball--burst');
                     $('[data-index="' + pathID + '"] .carillon__note').addClass('carillon__note--burst').fadeTo("slow", 0);
-                    document.getElementById('sound-0' + soundID).play();
+                    $('.carillon__sound-' + pathID)[0].play();
                 }
             });
 

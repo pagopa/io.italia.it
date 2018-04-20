@@ -7,28 +7,28 @@
   color: white;
 }
 .constellation__inner--regione {
-  top: 158px;
+  top: 148px;
   left: -77px;
   @media screen and (min-width: $grid-breakpoints-xl) {
     left: 14px;
   }
 }
 .constellation__inner--comune {
-  top: 138px;
+  top: 128px;
   right: 223px;
   @media screen and (min-width: $grid-breakpoints-xl) {
     right: 313px;
   }
 }
 .constellation__inner--entrate {
-  top: 540px;
+  top: 550px;
   left: 0;
   @media screen and (min-width: $grid-breakpoints-xl) {
     left: 90px;
   }
 }
 .constellation__inner--aci {
-  top: 574px;
+  top: 575px;
   right: 252px;
   @media screen and (min-width: $grid-breakpoints-xl) {
     right: 342px;

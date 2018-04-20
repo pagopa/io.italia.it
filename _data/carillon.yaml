@@ -1,86 +1,146 @@
 carillon_paths:
   - name: prescrizioni
-    shape: '<svg width="301px" height="95px" viewBox="0 0 301 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M1,0.5 L1,80 C1,87.7319865 7.2680135,94 15,94 L301,94"></path></svg>'
-    position: 'right: 0; top: -12px'
+    w: 300
+    h: 100
+    path: 'M0,0 L0,75 C0,90 10,100 25,100 L300,100'
+    position: 'right: 0; top: -18px'
     delay: 100
     duration: 1000
     is_left: true
     sound: 6
+  - name: ticket
+    w: 220
+    h: 260
+    path: 'M0,0 L0,235 C0,250 10,260 25,260 L220,260'
+    position: 'right: 0; top: -96px'
+    delay: 100
+    duration: 1000
+    is_left: true
+    sound: 7
+  - name: esenzioni
+    w: 140
+    h: 240
+    path: 'M0,0 L0,215 C0,230 10,240 25,240 L140,240'
+    position: 'right: 0; top: -76px'
+    delay: 200
+    duration: 1000
+    is_left: true
+    sound: 6
   - name: referti
-    shape: '<svg width="157px" height="30px" viewBox="0 0 157 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M1,0 L1,15 C1,22.7319865 7.2680135,29 15,29 L157,29"></path></svg>'
+    w: 150
+    h: 30
+    path: 'M0,0 L0,5 C0,20 10,30 25,30 L150,30'
     position: 'right: 0; top: 11px'
     delay: 200
     duration: 1000
     is_left: true
     sound: 5
   - name: anagrafe
-    shape: '<svg width="137px" height="184px" viewBox="0 0 137 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M136.5,0 C136.5,71.8453423 136.5,163.845342 136.5,169 C136.5,176.731986 130.231986,183 122.5,183 C117.345342,183 72.8453423,183 0,183" id="anagrafe"></path></svg>'
-    position: 'left: 0; top: -61px'
+    w: 130
+    h: 180
+    path: 'M130,0 L130,155 C130,170 120,180 105,180 L0,180'
+    position: 'left: 0; top: -57px'
     delay: 400
     duration: 1000
     delay: 200
     sound: 4
-  - name: tari
-    shape: '<svg width="243px" height="108px" viewBox="0 0 243 108" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M243,0 C243,71.8453423 243,87.3453423 243,92.5 C243,100.231986 236.731986,106.5 229,106.5 C223.845342,106.5 72.8453423,106.5 0,106.5" id="tari"></path></svg>'
-    position: 'left: 0; top: -25px'
-    delay: 100
-    duration: 1000
-    sound: 3
-  - name: multe
-    shape: '<svg width="355px" height="144px" viewBox="0 0 355 144" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M353.5,0 C353.5,71.8453423 353.5,123.845342 353.5,129 C353.5,136.731986 347.231986,143 339.5,143 C334.345342,143 72.8453423,143 0,143" id="multe"></path></svg>'
-    position: 'left: 0; top: -61px'
-    delay: 600
-    duration: 1000
-    sound: 2
   - name: mensa
-    shape: '<svg width="303px" height="178px" viewBox="0 0 303 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M302.5,0 C302.5,71.8453423 302.5,157.345342 302.5,162.5 C302.5,170.231986 296.231986,176.5 288.5,176.5 C283.345342,176.5 72.8453423,176.5 0,176.5" id="mensa"></path></svg>'
-    position: 'left: 0; top: -136px'
+    w: 300
+    h: 180
+    path: 'M300,0 L300,155 C300,170 290,180 275,180 L0,180'
+    position: 'left: 0; top: -139px'
     delay: 200
     duration: 1000
     sound: 1
-  - name: ticket
-    shape: '<svg width="216px" height="262px" viewBox="0 0 216 262" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M0,0 L0,247.5 C0,255.231986 6.2680135,261.5 14,261.5 L215.5,261.5" id="ticket"></path></svg>'
-    position: 'right: 0; top: -98px'
-    delay: 100
-    duration: 1000
-    is_left: true
-    sound: 7
-  - name: esenzioni
-    shape: '<svg width="148px" height="241px" viewBox="0 0 148 241" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M0,0 L0,226 C0,233.731986 6.2680135,240 14,240 L148,240" id="esenzioni"></path></svg>'
-    position: 'right: 0; top: -76px'
+  - name: mensa
+    w: 300
+    h: 303
+    path: 'M300,0 L300,278 C300,293 290,303 275,303 L0,303'
+    position: 'left: 0; top: -139px'
     delay: 200
     duration: 1000
-    is_left: true
-    sound: 6
+    sound: 1
+  - name: multe
+    w: 350
+    h: 140
+    path: 'M350,0 L350,115 C350,130 340,140 325,140 L0,140'
+    position: 'left: 0; top: -58px'
+    delay: 600
+    duration: 1000
+    sound: 2
+  - name: tari
+    w: 240
+    h: 110
+    path: 'M240,0 L240,85 C240,100 230,110 215,110 L0,110'
+    position: 'left: 0; top: -29px'
+    delay: 100
+    duration: 1000
+    sound: 3
   - name: avvisi
-    shape: '<svg width="352px" height="147px" viewBox="0 0 352 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M0,147 C0,27.487991 0,19.1546577 0,14 C0,6.2680135 6.2680135,0 14,0 C19.1546577,0 257.154658,0 352,0" id="avvisi"></path></svg>'
+    w: 350
+    h: 150
+    path: 'M0,150 L0,25 C0,10 10,0 25,0 L350,0'
     position: 'right: 0; top: 123px'
     delay: 300
     duration: 1000
     is_left: true
     sound: 5
-  - name: f24
-    shape: '<svg width="243px" height="231px" viewBox="0 0 243 231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M0,231 C0,111.487991 0,19.1546577 0,14 C0,6.2680135 6.2680135,0 14,0 C19.1546577,0 148.154658,0 243,0" id="f24"></path></svg>'
-    position: 'right: 0; top: 123px'
-    delay: 500
-    duration: 1000
-    is_left: true
-    sound: 4
   - name: rimborsi
-    shape: '<svg width="176px" height="168px" viewBox="0 0 176 168" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M0,167.5 C0,47.987991 0,19.1546577 0,14 C0,6.2680135 6.2680135,0 14,0 C19.1546577,0 81.1546577,0 176,0" id="rimborsi"></path></svg>'
+    w: 180
+    h: 170
+    path: 'M0,170 L0,25 C0,10 10,0 25,0 L180,0'
     position: 'right: 0; top: 82px'
     delay: 300
     duration: 1000
     is_left: true
     sound: 3
+  - name: rimborsi
+    w: 180
+    h: 88
+    path: 'M0,88 L0,25 C0,10 10,0 25,0 L180,0'
+    position: 'right: 0; top: 164px'
+    delay: 300
+    duration: 1000
+    is_left: true
+    sound: 3
+  - name: f24
+    w: 240
+    h: 230
+    path: 'M0,230 L0,25 C0,10 10,0 25,0 L240,0'
+    position: 'right: 0; top: 123px'
+    delay: 500
+    duration: 1000
+    is_left: true
+    sound: 4
+  - name: f24
+    w: 240
+    h: 271
+    path: 'M0,271 L0,25 C0,10 10,0 25,0 L240,0'
+    position: 'right: 0; top: 82px'
+    delay: 500
+    duration: 1000
+    is_left: true
+    sound: 4
   - name: bollo
-    shape: '<svg width="101px" height="175px" viewBox="0 0 101 175" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M100.02648,175 C100.02648,72.8213243 100.02648,19.1546577 100.02648,14 C100.02648,6.2680135 93.7584666,0 86.0264801,0 C80.8718224,0 52.1963291,0 0,0" id="bollo"></path></svg>'
+    w: 100
+    h: 180
+    path: 'M100,180 L100,25 C100,10 90,0 75,0 L0,0'
     position: 'left: 0; top: 123px'
     delay: 200
     duration: 1000
     sound: 2
+  - name: bollo
+    w: 100
+    h: 262
+    path: 'M100,262 L100,25 C100,10 90,0 75,0 L0,0'
+    position: 'left: 0; top: 41px'
+    delay: 200
+    duration: 1000
+    sound: 2
   - name: certificati
-    shape: '<svg width="164px" height="151px" viewBox="0 0 164 151" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path stroke="rgba(255, 255, 255, .25)" fill="none" d="M162.52648,150.5 C162.52648,64.6546577 162.52648,19.1546577 162.52648,14 C162.52648,6.2680135 156.258467,0 148.52648,0 C143.371822,0 93.8629957,0 0,0" id="Oval"></path></svg>'
+    w: 160
+    h: 150
+    path: 'M160,150 L160,25 C160,10 150,0 135,0 L0,0'
     position: 'left: 0; top: 123px'
     delay: 0
     duration: 1000
