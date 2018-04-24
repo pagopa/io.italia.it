@@ -2,11 +2,11 @@ $(function () {
 
     if ($('body').hasClass('layout--home')) {
 
-        let smallDevice = window.innerWidth < 992;
+        var smallDevice = window.innerWidth < 992;
 
-        let carillonPathArray = [];
+        var carillonPathArray = [];
 
-        let parallaxInstance;
+        var parallaxInstance;
 
         $('.preload').fadeOut(400).promise().done(function (el) {
             el.remove();
@@ -15,11 +15,11 @@ $(function () {
         // Per ogni Path SVG esiste un'animazione senza autoplay
         $('.carillon__path').each(function (index) {
 
-            let pathID = $(this).data('index');
-            let pathName = $(this).data('name');
-            let path = anime.path('[data-index="' + pathID + '"] path');
+            var pathID = $(this).data('index');
+            var pathName = $(this).data('name');
+            var path = anime.path('[data-index="' + pathID + '"] path');
 
-            let animeTimeline = anime.timeline({
+            var animeTimeline = anime.timeline({
                 targets: '[data-index="' + pathID + '"] .carillon__note',
                 easing: 'easeInOutQuart',
                 autoplay: false,
@@ -53,10 +53,10 @@ $(function () {
             parallaxInstance = new Parallax($('.galaxy')[0]);
 
         // ScrollMagic
-        let controller = new ScrollMagic.Controller();
+        var controller = new ScrollMagic.Controller();
 
         // Sezioni 2, 3, 4, 5, 6
-        for (let _i = 2; _i < 7; _i++) {
+        for (var _i = 2; _i < 7; _i++) {
             (function (i) {
                 new ScrollMagic.Scene({
                     triggerElement: "#section_" + i,
@@ -79,8 +79,8 @@ $(function () {
             })(_i);
         }
 
-        let greenDotAnimation = function () {
-            let el = $('.italia__dot');
+        var greenDotAnimation = function () {
+            var el = $('.italia__dot');
             el.fadeTo(200, 0)
                 .promise()
                 .done(function () {
@@ -95,9 +95,9 @@ $(function () {
             setTimeout(loopingFunction, 1500);
         })();
 
-        let lastTime = 0;
+        var lastTime = 0;
 
-        let animate = function (currentTime) {
+        var animate = function (currentTime) {
             if (currentTime >= lastTime + 1000) {
                 // one second has passed, run some code here
                 if (!smallDevice) {
