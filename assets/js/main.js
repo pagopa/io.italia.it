@@ -59,7 +59,7 @@ $(function () {
         for (var _i = 2; _i < 7; _i++) {
             (function (i) {
                 new ScrollMagic.Scene({
-                    triggerElement: "#section_" + i,
+                    triggerElement: ".section__" + i,
                     duration: window.innerHeight - 50 // window.innerHeight - header height
                 })
                     .on("enter", function () {
@@ -148,7 +148,6 @@ $(function () {
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
             }, 1000, function () {
-
                 window.location.hash = hash;
             });
         }

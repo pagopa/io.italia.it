@@ -6,6 +6,8 @@ layout: default
 {%- include navigation.html -%}
 
 <div class="internal-page">
+
+  {% comment %}
   <div class="container mw-60">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb px-0">
@@ -14,9 +16,10 @@ layout: default
       </ol>
     </nav>
   </div>
+  {% endcomment %}
 
   <article class="my-5 {{ page.layout_class }}">
-    <div class="container mw-60">
+    <div class="container">
       <h1>{{page.title}}</h1>
       <h2>{{page.subtitle}}</h2>
     </div>
@@ -24,10 +27,8 @@ layout: default
       {{content}}
     </div>
   </article>
+
 </div>
-
-
-
 
 {%- include footer.html -%}
 {%- include cookiebar.html -%}

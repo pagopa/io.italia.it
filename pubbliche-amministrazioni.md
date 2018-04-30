@@ -44,7 +44,7 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 <section class="container mw-60 pa-schema__wrapper" >
 <h2 class="text-center">Le componenti del progetto e i soggetti che le usano</h2>
 <div class="pa-schema__inner">
-	<img class="pa-schema" src="{{ '/assets/img/pa-schema.svg' | relative_url }}">
+	<img class="pa-schema" src="{{ '/assets/img/schema@2x.png' | relative_url }}">
 </div>
 </section>
 

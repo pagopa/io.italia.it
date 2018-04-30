@@ -1,6 +1,6 @@
 ---
 layout: internal
-layout_class: post
+layout_class: container post
 title: Cookies Policy
 permalink: /cookies-policy/
 ---

@@ -156,7 +156,7 @@ body {
 	.pa-schema {
 		max-width: 100%;
 		@media screen and (max-width: $grid-breakpoints-md) {
-			max-width: none;
+			max-width: 1200px;
 		}
 	}
 

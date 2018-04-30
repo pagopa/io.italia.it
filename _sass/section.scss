@@ -279,6 +279,8 @@
 .section__1 {
   background-image: url(img/sky-bg.jpg);
   background-size: cover;
+  position: relative;
+  z-index: 1;
   .section-title {
     position: absolute;
     width: 100%;
