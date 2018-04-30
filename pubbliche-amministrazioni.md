@@ -67,3 +67,19 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 	</p>
 	</div>
 </section>
+
+<section class="privacy__wrapper">
+	<div class="container mw-60">
+	<h2>Privacy e dati personali</h2>
+	<p class="privacy__subtitle">Funzioni comuni a disposizione di tutti i servizi pubblici</p>
+	<p class="privacy__paragraph">
+	IO si configura come un canale a disposizione dalle pubbliche amministrazioni per l’erogazione di alcune componenti (funzioni) dei loro servizi digitali. <br>E’ per certi aspetti assimilabile all’uso della posta elettronica come comunicare con i cittadini: la titolarità dei dati dell’utente resta quindi agli enti titolari dei servizi.</p><p class="privacy__paragraph">
+IO conserva nell’infrastruttura cloud alcuni dei dati al solo scopo di rendere per il cittadino semplice e amichevole la fruzione dell’app.<br>
+I dati non vengono in alcun modo ceduti a terzi. <br>
+Sui dati non vengono fatti analisi se non allo scopo di migliorare l’esperienza utente: indicizzare i contenuti ed i metadati al fine di rendere più semplice la ricerca di documenti e messaggi, tracciare eventuali errori o bug, risolvere evetuali problemi legati all’uso dell’applicazione.<br>
+I dati sono criptati secondo le più recenti prassi internazionali [INSERIRE LINK] e non possono essere letti nemmeno dal cloud-provider.<br>
+I dati sono trattati secondo il GDPR, General Data Protection Regulation- Regolamento UE 2016/679 [link wikipedia]: il cittadino conserva il controllo dei dati.<br>
+IO per semplifica
+	</p>
+	</div>
+</section>

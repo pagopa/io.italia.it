@@ -91,6 +91,27 @@ body {
 			width: 51px;
 		}
 	}
+	.privacy {
+		&__wrapper {
+		padding-top: 1rem;
+		padding-bottom: 3rem;
+			background-color: #5C6F82;
+			h2 {
+				font-weight: 700;
+				font-size: 3rem;
+				margin-top: 3rem;
+				color: #fff;
+			}
+		}
+		&__subtitle {
+			font-size: 1.8rem;
+			color: #fff;
+			margin-bottom: 2rem;
+		}
+		&__paragraph {
+			color: #fff;
+		}
+	}
 	.attorno-utente {
 		&__wrapper {
 		margin-top: 3rem;
