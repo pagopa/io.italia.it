@@ -37,3 +37,127 @@ body {
 .post {
   max-width: 40em;
 }
+.mw-40 {
+	max-width: 40rem;
+}
+.mw-60 {
+	max-width: 60rem;
+}
+.internal-page {
+	color: #5C6F82;
+	margin-top: 12rem;
+
+	section {
+		margin-top: 4rem;
+		margin-bottom: 4rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		color: $color--italia;
+	}
+	h2 {
+		color: $color--italia;
+		font-weight: 300;
+		font-size: 1.8rem;
+		margin-top: 1rem;
+		letter-spacing: 0;
+	}
+	&__content {
+		margin-top: 3rem;
+		font-size: 1rem;
+	}
+	&__bodytable {
+		padding-right: 2em;
+	}
+	aside {
+		padding: 0 2em ;
+		border-left: 1px solid #E6E9F2;
+
+		@media screen and (max-width: $grid-breakpoints-md) {
+			border-top: 1px solid #E6E9F2;
+			border-left: none;
+			padding: 2em 1em;
+		}
+	}
+	.facilita-pa {
+		margin-top: 2rem;
+		color: #5C6F82;
+		font-weight: 600;
+		font-size: 1.1rem;
+		line-height: 1.2;
+
+		img {
+			width: 51px;
+		}
+	}
+	.privacy {
+		&__wrapper {
+		padding-top: 1rem;
+		padding-bottom: 3rem;
+			background-color: #5C6F82;
+			h2 {
+				font-weight: 700;
+				font-size: 3rem;
+				margin-top: 3rem;
+				color: #fff;
+			}
+		}
+		&__subtitle {
+			font-size: 1.8rem;
+			color: #fff;
+			margin-bottom: 2rem;
+		}
+		&__paragraph {
+			color: #fff;
+		}
+	}
+	.attorno-utente {
+		&__wrapper {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+		background-image: url(img/confetti.svg);
+		background-repeat: no-repeat;
+		background-position-x: center;
+			h2 {
+			font-weight: 700;
+			font-size: 3rem;
+			margin-top: 3rem;
+			}
+			
+		}
+		&__subtitle {
+			font-size: 1.8rem;
+			color: $color--light-blue;
+			margin-bottom: 2rem;
+			}
+		&__paragraph {
+			margin: 0.7rem auto;
+			padding: 0 0.5rem;
+		}
+		
+	}
+	.pa-schema__wrapper {
+		margin-top: 10rem;
+		background-color: #FAFBFD;
+
+		h2 {
+			margin-top: 2em;
+			margin-bottom: 2em;
+		}
+	}
+	.pa-schema__inner {
+		@media screen and (max-width: $grid-breakpoints-md) {
+			overflow-x: auto;
+		}
+	}
+	.pa-schema {
+		max-width: 100%;
+		@media screen and (max-width: $grid-breakpoints-md) {
+			max-width: 1200px;
+		}
+	}
+
+}

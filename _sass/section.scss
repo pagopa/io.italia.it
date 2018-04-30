@@ -55,14 +55,18 @@
   }
   @media screen and (min-width: $grid-breakpoints-lg) {
     opacity: 0;
+    pointer-events: none;
     p {
       opacity: 0;
+      pointer-events: none;
     }
     .active & {
-      transform: translateX(0);
+      transform: translate(0, 0);
       opacity: 1;
+      pointer-events: auto;
       p {
         opacity: 1;
+        pointer-events: auto;
       }
     }
   }
@@ -73,7 +77,7 @@
   font-size: 16px;
   line-height: 24px;
   @media screen and (min-width: $grid-breakpoints-lg) {
-    transform: translateX(0);
+    transform: translate(0, 20px);
     font-size: 20px;
   }
   h2 {
@@ -90,7 +94,7 @@
   font-size: 16px;
   line-height: 24px;
   @media screen and (min-width: $grid-breakpoints-lg) {
-    transform: translateX(100%);
+    transform: translate(0, 20px);
     font-size: 20px;
   }
 }
@@ -111,6 +115,7 @@
   color: #5C6F82;
 
   &_inner {
+    position: relative;
     padding-bottom: 4em;
     padding-top: 4em;
   }
@@ -274,6 +279,8 @@
 .section__1 {
   background-image: url(img/sky-bg.jpg);
   background-size: cover;
+  position: relative;
+  z-index: 1;
   .section-title {
     position: absolute;
     width: 100%;
@@ -291,7 +298,7 @@
     }
   }
 }
-.section__1 {
+/*.section__1 {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-bottom: 20vw;
   }
@@ -300,7 +307,7 @@
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 20vw;
   }
-}
+}*/
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;
