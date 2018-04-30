@@ -4,7 +4,8 @@ title: I vantaggi per la PA
 subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 ---
 
-<section class="row">
+<section class="container mw-60">
+	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
 		<p>
 		Il progetto <b>io</b> parte dall’analisi dalle necessità dei cittadini, ma costituisce un vantaggio anche per tutti i soggetti pubblici che erogano servizi digitali.
@@ -38,15 +39,31 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 		</div>
 	</aside>
 	</div>
+	</div>
 </section>
-<section class="pa-schema__wrapper" >
+<section class="container mw-60 pa-schema__wrapper" >
 <h2 class="text-center">Le componenti del progetto e i soggetti che le usano</h2>
 <div class="pa-schema__inner">
-	<img class="pa-schema" src="{{ '/assets/img/pa-schema.png' | relative_url }}">
+	<img class="pa-schema" src="{{ '/assets/img/pa-schema.svg' | relative_url }}">
 </div>
 </section>
 
 <section class="attorno-utente__wrapper">
-	
-
+	<div class="container mw-60">
+	<div class="text-center">
+	<img src="{{ '/assets/img/icon-user-green.svg' | relative_url }}" height="148">
+	</div>
+	<h2 class="text-center">attorno all'utente</h2>
+	<p class="text-center attorno-utente__subtitle">
+	Basta conoscere il <b>codice fiscale</b> di un cittadino<br>per usare le funzioni di IO
+	</p>
+	<p class="text-center mw-40 attorno-utente__paragraph">
+	Oggi per molti enti pubblici conoscere i recapiti o altre informazioni anagrafiche dell’utente è difficile e spesso comporta un notevole sforzo e tempi lunghi. Lo stesso vale per i cittadini, che sono costretti a completare il proprio profilo e le proporie schede anagrafiche presso il sito di ogni ente di cui vogliono o devono usare i servizi. </p>
+	<p class="text-center mw-40 attorno-utente__paragraph">
+	IO risolve questo problema consentendo a qualunque ente che conosca il codice fiscale di un cittadino di utilizzare le API di IO per contattare l’utente, inviargli documenti o avvisi, o per leggere le preferenze che il cittadino ha scelto di impostare.
+	La certezza di avere dall’altra parte esattamente il cittadino è garantita dal processo di autenticazione basato su spid.</p>
+	<p class="text-center mw-40 attorno-utente__paragraph">
+	Se il cittadino non ha ancora attivato la app, io lo notificherà immediatamente al servizio.
+	</p>
+	</div>
 </section>

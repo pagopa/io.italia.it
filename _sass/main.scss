@@ -37,8 +37,13 @@ body {
 .post {
   max-width: 40em;
 }
+.mw-40 {
+	max-width: 40rem;
+}
+.mw-60 {
+	max-width: 60rem;
+}
 .internal-page {
-	max-width: 60em;
 	color: #5C6F82;
 	margin-top: 12rem;
 
@@ -86,6 +91,33 @@ body {
 			width: 51px;
 		}
 	}
+	.attorno-utente {
+		&__wrapper {
+		margin-top: 3rem;
+		margin-bottom: 3rem;
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+		background-image: url(img/confetti.svg);
+		background-repeat: no-repeat;
+		background-position-x: center;
+			h2 {
+			font-weight: 700;
+			font-size: 3rem;
+			margin-top: 3rem;
+			}
+			
+		}
+		&__subtitle {
+			font-size: 1.8rem;
+			color: $color--light-blue;
+			margin-bottom: 2rem;
+			}
+		&__paragraph {
+			margin: 0.7rem auto;
+			padding: 0 0.5rem;
+		}
+		
+	}
 	.pa-schema__wrapper {
 		margin-top: 10rem;
 		background-color: #FAFBFD;
@@ -106,10 +138,5 @@ body {
 			max-width: none;
 		}
 	}
-	.attorno-utente__wrapper {
-		h2 {
-			font-weight: 700;
-			font-size: 3rem;
-		}
-	}
+
 }
