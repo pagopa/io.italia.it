@@ -21,19 +21,19 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 	<aside>
 	<b>io</b> facilita a tutte le pubbliche amministrazioni:
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="/assets/img/icon-messages.svg"></div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-messages.svg' | relative_url }}" alt="Messaggi"></div>
 			<div class="col-9">l’invio di notifiche e messaggi</div>
 		</div>
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="/assets/img/icon-wallet.svg"></div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-wallet.svg' | relative_url }}" alt="Pagamenti"></div>
 			<div class="col-9">i pagamenti e le transazioni economiche</div>
 		</div>
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="/assets/img/icon-document.svg"></div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-document.svg' | relative_url }}" alt="Documenti"></div>
 			<div class="col-9">l’invio e la richiesta di documenti</div>
 		</div>
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="/assets/img/icon-settings.svg"></div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-settings.svg' | relative_url }}" alt="Preferenze"></div>
 			<div class="col-9">le gestione delle preferenze dell’utente</div>
 		</div>
 	</aside>
@@ -42,7 +42,7 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 <section class="pa-schema__wrapper" >
 <h2 class="text-center">Le componenti del progetto e i soggetti che le usano</h2>
 <div class="pa-schema__inner">
-	<img class="pa-schema" src="/assets/img/pa-schema.svg">
+	<img class="pa-schema" src="{{ '/assets/img/pa-schema.png' | relative_url }}">
 </div>
 </section>
 

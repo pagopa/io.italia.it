@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: internal
+layout_class: post
 title: Privacy Policy
 permalink: /privacy-policy/
 ---

@@ -52,7 +52,7 @@
                  style="{{ carillon_path.position }}">
               <div class="carillon__note"></div>
               {% comment %} Preloading audio files {% endcomment %}
-              <audio class="carillon__sound-{{forloop.index}}" src="{{ '/assets/mp3/io-sound-0' | append: carillon_path.sound | append: '.mp3' relative_url }}" preload></audio>
+              <audio class="carillon__sound-{{forloop.index}}" src="{{ '/assets/mp3/io-sound-0' | append: carillon_path.sound | append: '.mp3' | relative_url }}" preload></audio>
               <svg width="{{ carillon_path.w }}" height="{{ carillon_path.h }}" viewBox="0 0 {{ carillon_path.w }} {{ carillon_path.h }}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path stroke="rgba(255, 255, 255, .25)" fill="none" d="{{ carillon_path.path }}"></path>
               </svg>
@@ -84,7 +84,7 @@
                  style="{{ carillon_path.position }}; text-align: left">
               <div class="carillon__note"></div>
               {% comment %} Preloading audio files {% endcomment %}
-              <audio class="carillon__sound-{{forloop.index}}" src="{{ '/assets/mp3/io-sound-0' | append: carillon_path.sound | append: '.mp3' relative_url }}" preload></audio>
+              <audio class="carillon__sound-{{forloop.index}}" src="{{ '/assets/mp3/io-sound-0' | append: carillon_path.sound | append: '.mp3' | relative_url }}" preload></audio>
               <svg width="{{ carillon_path.w }}" height="{{ carillon_path.h }}" viewBox="0 0 {{ carillon_path.w }} {{ carillon_path.h }}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <path stroke="rgba(255, 255, 255, .25)" fill="none" d="{{ carillon_path.path }}"></path>
               </svg>
