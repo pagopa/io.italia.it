@@ -10,18 +10,14 @@
   }
   color: #FFF;
   top: 0;
-  background: rgba(23, 57, 102, .95);
+  background: rgba(0, 102, 204, 1);
   transition: background .2s ease-out;
-  
   @media screen and (min-width: $grid-breakpoints-lg) {
-      background: rgba(23, 57, 102, 0);
+      background: rgba(0, 102, 204, 0);
   }
-
+  body:not(.layout--home) &,
   body.is-scrolled & {
-    background: rgba(23, 57, 102, 1);
-  }
-  body.layout--page &, body.layout--internal & {
-    background: rgb(23, 57, 102) !important;
+    background: rgba(0, 102, 204, 1) !important;
   }
 }
 
@@ -49,7 +45,13 @@
       top: -8px;
     }
   }
-  body.is-scrolled &, body.layout--internal & {
+  a {
+    color: $color--light-blue;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  body:not(.layout--home) &,
+  body.is-scrolled & {
     position: fixed;
     @media screen and (min-width: $grid-breakpoints-md) {
       top: 50px;
@@ -57,14 +59,6 @@
     right: 0;
     left: 0;
     z-index: 3;
-  }
-  a {
-    color: $color--light-blue;
-    font-size: 16px;
-    font-weight: 600;
-    &.active {
-      border-bottom: 2px solid currentColor;
-    }
   }
 }
 .offcanvas-collapse {
@@ -75,5 +69,5 @@
   }
 }
 .io__icon {
-  width: 32px;
+  width: 36px;
 }

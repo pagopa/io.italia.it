@@ -5,21 +5,28 @@ layout: default
 {%- include navigation-slim.html -%}
 {%- include navigation.html -%}
 
-
-<article class="container internal-page">
-  <h1>{{page.title}}</h1>
-  <h2>{{page.subtitle}}</h2>
-
-  <div class="internal-page__content">
-  {{content}}
+<div class="container internal-page">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb px-0">
+        <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+      </ol>
+    </nav>
   </div>
 
-</article>
-<div style="margin: 2em 0;"></div>
+  <article class="container my-5 {{ page.layout_class }}">
+    <h1>{{page.title}}</h1>
+    <h2>{{page.subtitle}}</h2>
+    <div class="internal-page__content">
+      {{content}}
+    </div>
+  </article>
+</div>
+
+
 
 
 {%- include footer.html -%}
-
 {%- include cookiebar.html -%}
-
 {%- include scripts.html -%}

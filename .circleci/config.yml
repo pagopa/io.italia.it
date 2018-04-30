@@ -39,7 +39,8 @@ jobs:
 
       - run:
           name: Build jekyll website
-          command: bundle exec jekyll build
+          # including _config_production.yml to override baseurl path for io.italia.it
+          command: bundle exec jekyll build --config _config.yml,_config_production.yml
 
       - persist_to_workspace:
           root: /home/circleci
