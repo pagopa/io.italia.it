@@ -16,7 +16,7 @@
 title: IO, l'app dei servizi pubblici
 authors: Team per la Trasformazione Digitale & AgID
 description: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/italia-landing" # used by local & testing environment https://teamdigitale.github.io/italia-landing/
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
