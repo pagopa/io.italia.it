@@ -1,10 +1,11 @@
 ---
 layout: internal
+full_width: true
 title: I vantaggi per la PA
 subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 ---
 
-
+<section class="container mw-60">
 	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
 		<p>
@@ -108,7 +109,7 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo ci permette di no
 	<div class="text-center container sicurezza__aliens">
 		<img src="{{ '/assets/img/aliens.png' | relative_url }}" class="img-fluid">
 	</div>
-
+</section>
 
 <section class="legge__wrapper">
 	<div class="container mw-60">

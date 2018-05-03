@@ -24,11 +24,14 @@ layout: default
       <h2>{{page.subtitle}}</h2>
     </div>
     <div class="internal-page__content">
+      {%if page.full_width %}
+        {{content}}
+      {% else %}
       <section class="container mw-60">
-
-      {{content}}
-      
+        {{content}}
       </section>
+      {% endif %}
+
     </div>
   </article>
 
