@@ -18,13 +18,20 @@ layout: default
   </div>
   {% endcomment %}
 
-  <article class="my-5 {{ page.layout_class }}">
+  <article class="{{ page.layout }}">
     <div class="container mw-60">
       <h1>{{page.title}}</h1>
       <h2>{{page.subtitle}}</h2>
     </div>
     <div class="internal-page__content">
-      {{content}}
+      {%if page.full_width %}
+        {{content}}
+      {% else %}
+      <section class="container mw-60">
+        {{content}}
+      </section>
+      {% endif %}
+
     </div>
   </article>
 

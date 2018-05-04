@@ -1,6 +1,5 @@
 ---
 layout: internal
-layout_class: container post
 title: Note legali
 permalink: /note-legali/
 ---
@@ -28,4 +27,3 @@ Per qualunque segnalazione o suggerimento è possibile scrivere all’indirizzo 
 In nessun caso l'Agenzia per l'Italia Digitale può essere ritenuta responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall'accesso al sito, dall'incapacità o impossibilità di accedervi.
 I collegamenti a siti esterni, indicati nel presente sito, sono forniti come semplice servizio agli utenti, con esclusione di ogni responsabilità sulla correttezza e sulla completezza dell’insieme dei collegamenti indicati.
 L’indicazione dei collegamenti non implica da parte dell'Agenzia per l'Italia Digitale alcun tipo di approvazione o condivisione di responsabilità in relazione alla legittimità, alla completezza e alla correttezza delle informazioni contenute nei siti indicati.
-
