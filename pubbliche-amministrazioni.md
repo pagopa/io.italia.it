@@ -58,15 +58,15 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 	<div class="row">
 	<div class="col-md-8">
 	<p class="privacy__paragraph">
-	IO si configura come un canale a disposizione dalle pubbliche amministrazioni per l’erogazione di alcune componenti (funzioni) dei loro servizi digitali. 
+	IO si configura come un canale a disposizione dalle pubbliche amministrazioni per l’erogazione di alcune componenti (funzioni) dei loro servizi digitali.
 E’ per certi aspetti assimilabile all’uso della posta elettronica come comunicare con i cittadini: la titolarità dei dati dell’utente resta quindi agli enti titolari dei servizi.</p><p class="privacy__paragraph">
 IO applica il  inoltre nel principio della “privacy by design”: il percorso dei dati è definito all’inizio delle fasi di progettazione affinché quelli personali vengano trattati secondo la normativa vigente inclusi (ovviamente) le recenti indicazioni del GDPR.
 </p><p class="privacy__paragraph">
-IO si configura come responsabile del trattamento dei dati che veicola. I titolari dei dati restano gli enti regolatori dei rispettivi servizi. Cittadinanza Digitale utilizza parte dei dati anonimizzati al solo scopo di migliorare la qualità del servizio offerto ai cittadini. 
+IO si configura come responsabile del trattamento dei dati che veicola. I titolari dei dati restano gli enti regolatori dei rispettivi servizi. Cittadinanza Digitale utilizza parte dei dati anonimizzati al solo scopo di migliorare la qualità del servizio offerto ai cittadini.
 </p><p class="privacy__paragraph">
 Documenti e messaggi vengono conservati in un database dispiegato su datacenter europei che utilizza l’”encryption at rest”. Il contenuto è presente nei sistemi del provider esclusivamente per il tempo che serve a garantirne l’invio. I dati relativi a transazioni e metodi di pagamento sono trattati da un fornitore certificato PCI.
 </p><p class="privacy__paragraph">
-Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà scegliere di effettuare un download di tutti quelli che lo riguardano o cancellare la sua iscrizione dal servizio rimuovendo i dati salvati. 
+Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà scegliere di effettuare un download di tutti quelli che lo riguardano o cancellare la sua iscrizione dal servizio rimuovendo i dati salvati.
 	</p>
 	</div>
 	<div class="col-md-4 text-center">
@@ -95,10 +95,10 @@ La certezza di avere dall’altra parte esattamente il cittadino è garantita da
 </section>
 
 <section class="sicurezza__wrapper">
-	<img src="{{ '/assets/img/alien.png' | relative_url }}" width="176" class="sicurezza__alien">
+	<img src="{{ '/assets/img/alien.gif' | relative_url }}" width="176" class="sicurezza__alien">
 	<div class="container mw-60">
 	<h2 class="text-center">Sicurezza e privacy</h2>
-	
+
 	<p class="text-justified mw-40 sicurezza__paragraph">
 	Il fatto stesso di essere open source garantisce sta alla base dell'approccio alla sicurezza del progetto IO, che inverte il paradigma della “sicurezza tramite segretezza”: i codici dell’applicazione e delle piattaforme di back end sono infatti a disposizione di tutti, compresi coloro che scelgono di dare una mano segnalando malfunzionamenti ed eventuali bug.</p><p class="text-justified mw-40 sicurezza__paragraph">
 Durante lo sviluppo del codice vengono messe in pratica le best practice OWASP e vengono utilizzati tool che permettono di monitorare l’integrità delle dipendenze. Ma garantire la sicurezza è un processo continuativo: l’aiuto della community è un fattore importante per il successo delle pratiche di “responsible disclosure”.
@@ -145,7 +145,7 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo ci permette di no
 	<h2 class="text-center">Vuoi portare i tuoi servizi su IO?</h2>
 	<p class="text-center onboard__subtitle">Vuoi essere fra le prime PA a utilizzare le fuzioni di IO?</p>
 	<p class="text-center onboard__paragraph mw-50 mb-4">
-	Io è un progetto aperto, qualunque ente pubblico può partecipare alla sperimentazione. In una prima fase avranno priorità i cittadini dei territori in cui è più alta la concentrazione di enti e servizi che partecipano, e gli enti che offrono i servizi al maggior numero di cittadini. Descrivi nella apposita sezione del forum quali sono i servizi per cui vorresti usare le funzioni di IO. 
+	Io è un progetto aperto, qualunque ente pubblico può partecipare alla sperimentazione. In una prima fase avranno priorità i cittadini dei territori in cui è più alta la concentrazione di enti e servizi che partecipano, e gli enti che offrono i servizi al maggior numero di cittadini. Descrivi nella apposita sezione del forum quali sono i servizi per cui vorresti usare le funzioni di IO.
 	</p>
 	<div class="text-center">
 	<button type="button" class="btn btn-primary mt-4 mb-4">Partecipa alla sperimentazione!</button>
