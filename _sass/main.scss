@@ -284,3 +284,34 @@ body {
 	}
 
 }
+
+.giornalisti__slides {
+
+	&-container {
+		position: relative;
+		margin-left: -150px;
+		@media screen and (max-width: 1270px) {
+			margin-left: auto;
+		}
+	}
+	&-item {
+		position: relative;
+		max-width: 33%;
+		padding: 1rem;
+		img {
+			max-width: 100%;
+			border: 1px solid #0073E6;
+		}
+		&:hover:after {
+			position: absolute;
+			z-index: 10;
+			content: url('img/icon-zoom.svg');
+			bottom: 1rem;
+			left: 1rem;
+			background: #0073E6;
+		}
+		@media screen and (max-width: $grid-breakpoints-md) {
+			max-width: 50%;
+		}
+	}
+}
