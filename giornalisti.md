@@ -1,5 +1,6 @@
 ---
 layout: internal
+full_width: true
 title: Informazioni per i giornalisti
 subtitle:
 ---
@@ -96,19 +97,19 @@ IO è un progetto aperto: qualunque Pubblica Amministrazione è invitata a parte
 </section>
 
 <section class="giornalisti__slides pt-3 pt-md-4 pb-3 pb-md-4">
-    <div class="container">
+    <div class="container mw-60">
         <h2>Galleria slides di presentazione</h2>
     </div>
-    <div class="giornalisti__slides-container mt-2 mt-md-5">
-        <div class="d-flex flex-row flex-wrap">
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/io.italia.it-cover@2x.jpg' | relative_url}}"></a>
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/slide-02-messaggi@2x.png' | relative_url}}"></a>
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/slide-03-pagamenti@2x.png' | relative_url}}"></a>
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/slide-04-documenti@2x.png' | relative_url}}"></a>
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/slide-05-preferenze@2x.png' | relative_url}}"></a>
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/slide-06-profilo@2x.png' | relative_url}}"></a>
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/slide-07-architettura-01@2x.png' | relative_url}}"></a>
-            <a class="giornalisti__slides-item" href="#"><img src="{{'/assets/img/slides/slide-07-architettura-02@2x.png' | relative_url}}"></a>
+    <div class="container giornalisti__slides-container mt-2 mt-md-5">
+        <div class="d-flex flex-row flex-wrap giornalisti__slides-content">
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/io.italia.it-cover@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/io.italia.it-cover.jpg' | relative_url}}" alt="io.italia.it - cover"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-02-messaggi@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-02-messaggi.jpg' | relative_url}}" alt="io.italia.it - messaggi"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-03-pagamenti@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-03-pagamenti.jpg' | relative_url}}" alt="io.italia.it - pagamenti"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-04-documenti@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-04-documenti.jpg' | relative_url}}" alt="io.italia.it - documenti"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-05-preferenze@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-05-preferenze.jpg' | relative_url}}" alt="io.italia.it - preferenze"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-06-profilo@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-06-profilo.jpg' | relative_url}}" alt="io.italia.it - profilo"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-07-architettura-01@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-07-architettura-01.jpg' | relative_url}}" alt="io.italia.it - architettura 01"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-07-architettura-02@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-07-architettura-02.jpg' | relative_url}}" alt="io.italia.it - architettura 02"></a>
         </div>
     </div>
 </section>
