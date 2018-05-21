@@ -59,12 +59,14 @@ subtitle:
                         <span  class="font-weight-bold">io.italia.it - cover jpeg - alta risoluzione</span>
                     </a>
                 </li>
+                <!--
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="#" >
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span  class="font-weight-bold">Screencast del prototipo mpg4 - fullHD</span>
                     </a>
                 </li>
+                -->
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/io-slides.zip' | relative_url }}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
