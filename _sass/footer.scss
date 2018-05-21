@@ -13,11 +13,16 @@
     & > span {
       margin-right: 1em;
     }
+    .small-prints {
+      font-size: initial;
+    }
     .icon {
       color: #00264D;
       background-color: #fff;
       padding: 0.2em 0.4em;
-      border-radius: 100%;;
+      border-radius: 100%;
+      font-size: initial;
+      margin-right: 0.4em;
     }
     @media screen and (max-width: $grid-breakpoints-md) {
       text-align: left !important;
@@ -46,10 +51,6 @@
   .small-prints {
     color: $color--italia-green;
     font-weight: 600;
-    font-size: 0;
-    .icon {
-      font-size: initial;
-    }
   }
   .colophon {
     border-top: 1px solid rgba(255,255,255,0.1);
