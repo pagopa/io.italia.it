@@ -46,7 +46,7 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 <section class=" pa-schema__wrapper" >
 <h2 class="text-center">Le componenti del progetto e i soggetti che le usano</h2>
 <div class="pa-schema__inner">
-	<img class="pa-schema" src="{{ '/assets/img/schema@2x.png' | relative_url }}">
+	<img class="pa-schema" src="{{ '/assets/img/schema@2x.png' | relative_url }}" alt="Schema dell'architettura">
 </div>
 </section>
 
@@ -70,7 +70,9 @@ Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà sceglie
 	</p>
 	</div>
 	<div class="col-md-4 text-center">
-	<img src="{{ '/assets/img/screen-pa-privacy.png' | relative_url }}" class="img-fluid">
+	<div class="col__device__privacy">
+	<img src="{{ '/assets/img/screen-privacy.png' | relative_url }}" class="w-100" alt="Schermata Privacy">
+	</div>
 	</div>
 	</div>
 	</div>
@@ -79,7 +81,7 @@ Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà sceglie
 <section class="attorno-utente__wrapper">
 	<div class="container mw-60">
 	<div class="text-center">
-	<img src="{{ '/assets/img/icon-user-green.svg' | relative_url }}" height="148">
+	<img src="{{ '/assets/img/icon-user-green.svg' | relative_url }}" height="148" alt="icona utente">
 	</div>
 	<h2 class="text-center">Attorno al cittadino</h2>
 	<p class="text-center attorno-utente__subtitle">
@@ -95,7 +97,7 @@ La certezza di avere dall’altra parte esattamente il cittadino è garantita da
 </section>
 
 <section class="sicurezza__wrapper">
-	<img src="{{ '/assets/img/alien.gif' | relative_url }}" width="176" class="sicurezza__alien">
+	<img src="{{ '/assets/img/alien.gif' | relative_url }}" width="176" alt="icona alieno" class="sicurezza__alien">
 	<div class="container mw-60">
 	<h2 class="text-center">Sicurezza e privacy</h2>
 
@@ -107,7 +109,7 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di 
 	</p>
 	</div>
 	<div class="text-center container sicurezza__aliens">
-		<img src="{{ '/assets/img/aliens.png' | relative_url }}" class="img-fluid">
+		<img src="{{ '/assets/img/aliens.png' | relative_url }}" alt="icona alieni" class="img-fluid">
 	</div>
 </section>
 

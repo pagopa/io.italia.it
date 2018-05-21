@@ -106,8 +106,6 @@ body {
 				color: #fff;
 			}
 			img {
-				position: relative;
-				top: -1rem;
 				@media screen and (max-width: $grid-breakpoints-md) {
 					top: 0;
 				}

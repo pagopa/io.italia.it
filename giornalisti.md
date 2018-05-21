@@ -44,49 +44,49 @@ IO è un progetto aperto: qualunque Pubblica Amministrazione è invitata a parte
             <ul class="list-unstyled mt-2 mt-md-5">
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span class="font-weight-bold">Mockup ambientato #1 jpeg - alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span class="font-weight-bold">Mockup ambientato #2 jpeg - alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/mockup-io-iphonex-transparent.png' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span class="font-weight-bold">Mockup iphonex trasparente png - alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/schema-architetturale@3x.png' | relative_url}}" >
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span  class="font-weight-bold">Schema architetturale png - alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/io.italia.it-cover-high.jpg' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span  class="font-weight-bold">io.italia.it - cover jpg - alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="#" >
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span  class="font-weight-bold">Screencast del prototipo mpg4 - fullHD</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/io-slides.zip' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span  class="font-weight-bold">Pacchetto slide presentazione Jpeg FullHD</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="#">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span  class="font-weight-bold">Comunicato stampa ForumPA 2018 rtf</span>
                     </a>
                 </li>
@@ -94,6 +94,13 @@ IO è un progetto aperto: qualunque Pubblica Amministrazione è invitata a parte
             </aside>
         </div>
     </div><!--/row-->
+</section>
+
+<section class="giornalisti__slides pt-3 pt-md-4 pb-3 pb-md-4">
+    <div class="container mw-60">
+        <h2>Ufficio stampa</h2>
+        <p>Ludovico Poggi<br/>Email: <a href="mailto:media.teamdigitale@governo.it">media.teamdigitale@governo.it</a></p>
+    </div>
 </section>
 
 <section class="giornalisti__slides pt-3 pt-md-4 pb-3 pb-md-4">

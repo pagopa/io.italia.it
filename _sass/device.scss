@@ -80,3 +80,10 @@
     display: none;
   }
 }
+
+.col__device__privacy {
+  width: 70%;
+  margin: 16px 15%;
+  border-radius: $device-border-radius;
+  box-shadow: $device-box-shadow;
+}
