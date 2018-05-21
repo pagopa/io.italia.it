@@ -68,7 +68,6 @@ body {
 	}
 	&__content {
 		margin-top: 3rem;
-		font-size: 1rem;
 	}
 	&__bodytable {
 		padding-right: 2em;
@@ -122,6 +121,7 @@ body {
 		}
 		&__paragraph {
 			color: #fff;
+            font-size: 1rem;
 		}
 	}
 	.attorno-utente {
