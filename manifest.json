@@ -1,5 +1,6 @@
 {
-	"name": "DIGITAL TRASFORMATION TEAM",
+	"name": "io, l'app dei servizi pubblici",
+    "short_name": "io app",
 	"icons": [
 		{
 			"src": "\/android-chrome-192x192.png",

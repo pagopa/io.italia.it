@@ -46,6 +46,10 @@
   .small-prints {
     color: $color--italia-green;
     font-weight: 600;
+    font-size: 0;
+    .icon {
+      font-size: initial;
+    }
   }
   .colophon {
     border-top: 1px solid rgba(255,255,255,0.1);
