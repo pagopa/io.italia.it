@@ -18,6 +18,7 @@ authors: Team per la Trasformazione Digitale & AgID
 description: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
 baseurl: "/italia-landing" # used by local & testing environment https://teamdigitale.github.io/italia-landing/
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+social_card_path: "/assets/img/social-card.jpg"
 twitter_username:
 github_username:
 google_verify: BNVPPeU89nJ0EEzVBq2xufxMJsV06vVPXjsEtbqEsrE

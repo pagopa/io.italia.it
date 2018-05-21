@@ -99,7 +99,7 @@ La certezza di avere dall’altra parte esattamente il cittadino è garantita da
 	<div class="container mw-60">
 	<h2 class="text-center">Sicurezza e privacy</h2>
 
-	<p class="text-justified mw-40 sicurezza__paragraph">
+	<p class="text-justify mw-40 sicurezza__paragraph">
 	L'approccio alla sicurezza seguito nel progetto IO parte dal suo essere open source. Viene invertito il paradigma della “sicurezza tramite segretezza”: i codici dell’applicazione e delle piattaforme di back end sono infatti a disposizione di tutti, compresi coloro che scelgono di dare una mano segnalando malfunzionamenti ed eventuali bug.</p><p class="text-justified mw-40 sicurezza__paragraph">
 Durante lo sviluppo del codice vengono messe in pratica le best practice OWASP e vengono utilizzati tool che permettono di monitorare l’integrità delle dipendenze. Ma garantire la sicurezza è un processo continuativo: l’aiuto della community è un fattore importante per il successo delle pratiche di “responsible disclosure”.
 </p><p class="text-justify mw-40 sicurezza__paragraph">
@@ -118,22 +118,22 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di 
 	<div class="row">
 		<article class="col-sm-6 col-md-3">
 		<h1 >Il "Punto di Accesso telematico ai servizi della PA"</h1>
-		<p class="text-justified legge__paragraph">
+		<p class="text-justify legge__paragraph">
 	L'articolo 64-bis istituisce il "punto di accesso telematico attivato presso la Presidenza del Consiglio dei Ministri" attraverso il quale tutti i soggetti pubblici devono rendere fruibili i propri servizi.</p>
 		</article>
 		<article class="col-sm-6 col-md-3">
 		<h1 >Il "Diritto a servizi on-line semplici e integrati"</h1>
-		<p class="text-justified legge__paragraph">
+		<p class="text-justify legge__paragraph">
 	L'articolo 7 aggiunge che tutti i cittadini hanno il diritto di fruire dei servizi erogati dai soggetti pubblici in forma digitale e in modo integrato, anche tramite il punto di accesso telematico e attraverso dispositivi mobili.</p>
 		</article>
 		<article class="col-sm-6 col-md-3">
 		<h1 >I doveri delle Pubbliche Amministrazioni</h1>
-		<p class="text-justified legge__paragraph">
+		<p class="text-justify legge__paragraph">
 	Per rendere effettivo questo diritto tutte le pubbliche amministrazioni devono progettare i propri servizi digitali in modo da garantire l'integrazione e l'interoperabilità con il backend di IO, riorganizzando e aggiornando i propri servizi a partire dalle reali esigenze degli utenti.</p>
 		</article>
 		<article class="col-sm-6 col-md-3">
 		<h1 >Da quando saranno integrati i servizi?"</h1>
-		<p class="text-justified legge__paragraph">
+		<p class="text-justify legge__paragraph">
 	Il correttivo al CAD afferma che tutti i cittadini devono poter usufruire di questo diritto a partire dalla data di attivazione del "punto di accesso telematico", quindi da quando IO uscirà dalla fase beta. </p>
 		</article>
 	</div>
@@ -148,7 +148,8 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di 
 	Io è un progetto aperto, qualunque ente pubblico può partecipare alla sperimentazione. In una prima fase avranno priorità i cittadini dei territori in cui è più alta la concentrazione di enti e servizi che partecipano, e gli enti che offrono i servizi al maggior numero di cittadini. Descrivi nella apposita sezione del forum quali sono i servizi per cui vorresti usare le funzioni di IO.
 	</p>
 	<div class="text-center">
-	<button type="button" class="btn btn-primary mt-4 mb-4">Partecipa alla sperimentazione!</button>
+	    <a href="https://forum.italia.it/c/progetto-io/proponi-un-servizio" class="btn btn-primary mt-4 mb-4">Partecipa alla sperimentazione!</a>
 	</div>
 	</div>
 </section>
+

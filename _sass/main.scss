@@ -68,7 +68,6 @@ body {
 	}
 	&__content {
 		margin-top: 3rem;
-		font-size: 1rem;
 	}
 	&__bodytable {
 		padding-right: 2em;
@@ -122,6 +121,7 @@ body {
 		}
 		&__paragraph {
 			color: #fff;
+            font-size: 1rem;
 		}
 	}
 	.attorno-utente {
@@ -283,4 +283,44 @@ body {
 		}
 	}
 
+}
+
+.giornalisti__slides {
+	&-container {
+		position: relative;
+		@media screen and (max-width: 1270px) {
+			margin-left: auto;
+		}
+	}
+	&-item {
+		position: relative;
+		max-width: 33%;
+		padding: 1rem;
+        outline: none;
+		img {
+			max-width: 100%;
+			border: 1px solid $color--light-blue;
+		}
+		&:hover:after {
+			position: absolute;
+			z-index: 10;
+			content: url('img/icon-zoom.svg');
+            line-height: 0;
+			bottom: 1rem;
+			left: 1rem;
+			background: $color--light-blue;
+		}
+		@media screen and (max-width: $grid-breakpoints-md) {
+			max-width: 50%;
+		}
+	}
+}
+
+button.baguetteBox-button {
+  &:focus {
+    outline: none;
+  }
+  & svg {
+    transform: scale(.5);
+  }
 }
