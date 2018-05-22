@@ -8,7 +8,7 @@ subtitle:
 <section class="container mw-60">
     <div class="row">
         <div class="col-md-7 internal-page__bodytable">
-            <h2>Comunicato stampa ForumPA 2018</h2>
+            <!--<h2>Comunicato stampa ForumPA 2018</h2>-->
             <h3 class="mt-2 mt-md-5 mb-2 mb-md-4 h6">NASCE <i>IO</i>, IL PROGETTO PER SVILUPPARE L’APP DEI SERVIZI PUBBLICI</h3>
             <p class="font-italic mb-md-4">Il Team per la Trasformazione Digitale presso la Presidenza del Consiglio dei Ministri annuncia la nascita di IO, progetto per lo sviluppo della app dei servizi pubblici che consentirà al cittadino di gestire il rapporto con le Pubbliche Amministrazioni e che avvierà una fase di test con alcuni cittadini e alcune amministrazioni in estate.</p>
             <p class="font-weight-bold mb-md-4 text-center">Segui il progetto su <a  href="https://io.italia.it">io.italia.it</a></p>
