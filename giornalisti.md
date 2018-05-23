@@ -87,7 +87,7 @@ subtitle:
 
 <section class="giornalisti__slides pt-3 pt-md-4 pb-3 pb-md-4">
     <div class="container mw-60">
-        <h2>Galleria slides di presentazione</h2>
+        <h2>Galleria slide di presentazione</h2>
     </div>
     <div class="container giornalisti__slides-container mt-2 mt-md-5">
         <div class="d-flex flex-row flex-wrap giornalisti__slides-content">
