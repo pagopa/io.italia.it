@@ -16,5 +16,5 @@
   body: "Sì, per sempre."
 - title: L’infrastruttura su cui si basa la app sarà sicura?
   body: "Lo sviluppo dell’applicazione mobile e di tutte le componenti software a supporto avviene in conformità delle linee guida sulla sicurezza definite nel [Piano Triennale per l’ICT](http://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html). Inoltre tutto il codice software sviluppato è open source, realizzato grazie alla collaborazione di tanti e controllato dalla comunità di sviluppatori, e aperto allo scrutinio di tutta la comunità IT."
-- title: É possibile diventare betatester dell’app?
+- title: È possibile diventare betatester dell’app?
   body: "Non sappiamo ancora su quali territori e con quali servizi l’app verrà testata. La cosa da fare ora è iscriversi alla newsletter su [https://io.italia.it](https://io.italia.it), manderemo aggiornamenti attraverso quel canale quando la closed-beta inizierà."
