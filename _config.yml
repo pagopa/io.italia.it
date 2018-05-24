@@ -13,9 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: IO, il progetto per sviluppare l'app dei servizi pubblici
-authors: Team per la Trasformazione Digitale & AgID
-description: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
+title: 
+  it: IO, il progetto per sviluppare l'app dei servizi pubblici
+  en: IO, il progetto per sviluppare l'app dei servizi pubblici
+authors: 
+  it: Team per la Trasformazione Digitale & AgID
+  en: Digital Transformation Team & AgID
+description: 
+  it: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
+  en: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
 baseurl: "" # used by local & testing environment https://teamdigitale.github.io/italia-landing/
 url: "https://io.italia.it" # the base hostname & protocol for your site, e.g. http://example.com
 social_card_path: "/assets/img/social-card.jpg"

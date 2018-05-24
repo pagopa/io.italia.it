@@ -1,0 +1,19 @@
+it:
+  slim_owner: 'Team<span class="d-none d-md-inline"> per la Trasformazione</span> Digitale + AgID'
+  slim_owner_url: https://teamdigitale.governo.it/
+  home-section-1:
+    h1: il progetto per sviluppare l'app dei servizi pubblici
+    tieniti-aggiornato: 
+      <span >Nell’estate 2018 inizieranno i primi test con i cittadini
+      <br/>di alcuni territori e con alcuni enti centrali e locali.
+      <a class="text-white" href="#newsletter"><u>Tieniti aggiornato</u></a>!</span>
+
+en:
+  slim_owner: 'Digital<span class="d-none d-md-inline"> Transformation</span> Team + AgID'
+  slim_owner_url: https://teamdigitale.governo.it/en/
+  home-section-1:
+    h1: il progetto per sviluppare l'app dei servizi pubblici
+    tieniti-aggiornato: 
+      <span >Nell’estate 2018 inizieranno i primi test con i cittadini
+      <br/>di alcuni territori e con alcuni enti centrali e locali.
+      <a class="text-white" href="#newsletter"><u>Tieniti aggiornato</u></a>!</span>
