@@ -136,7 +136,7 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di 
 	Per rendere effettivo questo diritto tutte le pubbliche amministrazioni devono progettare i propri servizi digitali in modo da garantire l'integrazione e l'interoperabilità con il back-end di IO, riorganizzando e aggiornando i propri servizi a partire dalle reali esigenze degli utenti.</p>
 		</article>
 		<article class="col-sm-6 col-md-3">
-		<h1 >Da quando saranno integrati i servizi?"</h1>
+		<h1 >Da quando saranno integrati i servizi?</h1>
 		<p class=" legge__paragraph">
 	Il correttivo al CAD afferma che tutti i cittadini devono poter usufruire di questo diritto a partire dalla data di attivazione del "punto di accesso telematico", quindi da quando IO uscirà dalla fase beta. </p>
 		</article>
