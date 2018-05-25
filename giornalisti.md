@@ -3,6 +3,7 @@ layout: internal
 full_width: true
 title: Informazioni per i giornalisti
 subtitle:
+lang: it
 ---
 
 <section class="container mw-60">

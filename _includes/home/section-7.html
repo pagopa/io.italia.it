@@ -3,134 +3,49 @@
     <div class="container py-3">
       <div class="row justify-content-md-center">
         <div class="col col-md-8">
-          <h1 class="text-primary text-center">I servizi che potrai usare tramite <b>io</b></h1>
+          <h1 class="text-primary text-center">{{t.home-section-7.title}}</h1>
           <div class="row">
             <div class="col-md-6">
-              <b>IO</b> parte dai bisogni dei cittadini: lavoreremo con gli enti titolari di ciascun servizio per integrarlo nell’app.
-              <br/>Per stabilire le priorità abbiamo organizzato i servizi in base a quante persone effettivamente li potrebbero usare a quanto spesso  entrano nella vita quotidiana di ciascuno di noi. I servizi che vedi su questo sito sono solo dei possibili esempi.
+              {{t.home-section-7.par1}}
             </div>
             <div class="col-md-6">
-              Per alcuni di essi abbiamo attivato una sperimentazione a livello locale o nazionale. Per quelli più complessi dovremo aspettare mesi o anni. Sicuramente altri li abbiamo dimenticati: se ti viene in mente un altro servizio che ti sembra interessante proponilo nell’<a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">apposita sezione del forum</a>.
+              {{t.home-section-7.par2}}
             </div>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
-        <h5 class="text-center">Mappa di utilizzo dei servizi pubblici</h5>
+        <h5 class="text-center">{{t.home-section-7.map_title}}</h5>
       </div>
       <div class="row justify-content-center">
-        <p>Nelle colonne puoi vedere la <b>percentuale di popolazione coinvolta</b>, nelle righe la diversa <b>frequenza d'uso</b>.</p>
+        <p>{{t.home-section-7.map_desc}}</p>
         <div class="col col-md-10 table-wrapper">
           <table class="table">
             <tbody>
               <tr>
                 <th></th>
-                <th class="text-uppercase">Meno del 30%</th>
-                <th class="text-uppercase">Più del 30%</th>
-                <th class="text-uppercase">Più del 60%</th>
-                <th class="text-uppercase">Più del 90%</th>
+                {% for item in t.home-section-7.map_th %}
+                <th class="text-uppercase">{{item}}</th>
+                {% endfor %}
               </tr>
+              {% for row in t.home-section-7.map_tr%}
               <tr>
-                <td>Più volte al mese</td>
-                <td></td>
-                <td></td>
-                <td>
-                  <ul>
-                    <li>Cambiamenti di viabilità</li>
-                    <li>Allerte meteo</li>
-                  </ul>
-                </td>
-                <td></td>
+                {% for item in  row%}
+                  <td>
+                    {% if item.first %}
+                      <ul>
+                      {% for subitem in item %}
+                        <li>{{subitem}}</li>
+                      {% endfor %}
+                      </ul>
+                    {% else %}
+                      {{item}}
+                    {% endif %}
+                  </td>
+                {% endfor %}
               </tr>
-              <tr>
-                <td>Molte volte in un anno</td>
-                <td></td>
-                <td><ul>
-                    <li>Tasse scolastiche</li>
-                    <li>Multe</li>
-                    <li>Colloqui e pagelle</li>
-                    <li>Bandi e gare</li>
-                  </ul></td>
-                <td>
-                  <ul>
-                    <li>Posizione contributiva</li>
-                    <li>Certificati malattia</li>
-                    <li>Pagamenti collaboratori domestici</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul>
-                    <li>Ricette mediche</li>
-                    <li>Rimborsi acquisti medicinali</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>Qualche volta in un anno</td>
-                <td><ul>
-                    <li>Contributi previdenziali</li>
-                    <li>Stato bonus</li>
-                  </ul></td>
-                <td>
-                  <ul>
-                    <li>Tributi</li>
-                    <li>Iscrizioni a scuola</li>
-                    <li>Assenze scolastiche</li>
-                    <li>Permesso parcheggio</li>
-                    <li>Graduatoria asilo</li>
-                    <li>Attività imprese</li>
-                    <li>Storico pagamenti PA</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul>
-                    <li>Scadenza bollo</li>
-                    <li>Punti patente</li>
-                    <li>Scadenza assicurazione</li>
-                    <li>Referti esami medici</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul>
-                    <li>Spese mediche</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td>Qualche volta nella vita</td>
-                <td>
-                  <ul>
-                    <li>Cartelle esattoriali</li>
-                    <li>Atti giudiziari</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul>
-                    <li>Cambio residenza</li>
-                    <li>Congedo parentale</li>
-                    <li>Scadenza passaporto</li>
-                    <li>Rimozione auto</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul>
-                    <li>Preferenze pagamento</li>
-                    <li>Richiamo vaccini</li>
-                    <li>Stato proprietà immobiliari</li>
-                    <li>Scadenza patente</li>
-                  </ul>
-                </td>
-                <td>
-                  <ul>
-                    <li>Scadenza carta di identità</li>
-                    <li>Scadenza tessera elettorale</li>
-                    <li>Certificato di nascita</li>
-                    <li>Stato di famiglia</li>
-                    <li>Scelta medico di base</li>
-                    <li>Scadenza revisione auto</li>
-                  </ul>
-                </td>
-              </tr>
+              {%endfor%}
+              
             </tbody>
           </table>
         </div>

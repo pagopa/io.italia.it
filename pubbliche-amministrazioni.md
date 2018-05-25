@@ -3,6 +3,7 @@ layout: internal
 full_width: true
 title: I vantaggi per la PA
 subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
+lang: it
 ---
 
 <section class="container mw-60">
