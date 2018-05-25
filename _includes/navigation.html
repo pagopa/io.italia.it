@@ -9,20 +9,20 @@
           <div class="col-12 col-md-4 order-md-1">
             <div class="row">
               <div class="col-12 col-md-6 text-md-center p-3 px-md-0">
-                <a {% if page.name=='index.md' %}class="active"{% endif %} href="{{ site.baseurl }}/">Cittadini</a>
+                <a {% if page.name=='index.md' %}class="active"{% endif %} href="{{ site.baseurl }}/">{{t.navigation.cittadini}}</a>
               </div>
               <div class="col-12 col-md-6 text-md-center p-3 px-md-0">
-                <a {% if page.name=='pubbliche-amministrazioni.md' %}class="active"{% endif %} href="{{ site.baseurl }}/pubbliche-amministrazioni">P<span class="d-inline d-md-none d-xl-inline">ubbliche </span>A<span class="d-inline d-md-none d-xl-inline">mministrazioni</span></a>
+                <a {% if page.name=='pubbliche-amministrazioni.md' %}class="active"{% endif %} href="{{ site.baseurl }}/pubbliche-amministrazioni">{{t.navigation.pa}}</a>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-4 order-md-3">
             <div class="row">
               <div class="col-12 col-md-6 text-md-center p-3 px-md-0 {% if page.name=='sviluppatori.md' %}active{% endif %}">
-                <a {% if page.name=='sviluppatori.md' %}class="active"{% endif %} href="{{ site.baseurl }}/sviluppatori">Sviluppatori</a>
+                <a {% if page.name=='sviluppatori.md' %}class="active"{% endif %} href="{{ site.baseurl }}/sviluppatori">{{t.navigation.sviluppatori}}</a>
               </div>
               <div class="col-12 col-md-6 text-md-center p-3 px-md-0 {% if page.name=='giornalisti.md' %}active{% endif %}">
-                <a {% if page.name=='giornalisti.md' %}class="active"{% endif %} href="{{ site.baseurl }}/giornalisti">Giornalisti</a>
+                <a {% if page.name=='giornalisti.md' %}class="active"{% endif %} href="{{ site.baseurl }}/giornalisti">{{t.navigation.giornalisti}}</a>
               </div>
             </div>
           </div>
