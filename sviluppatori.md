@@ -2,6 +2,7 @@
 layout: internal
 title: Informazioni per gli sviluppatori
 subtitle:
+lang: it
 ---
 
 <section class="container mw-60">

@@ -2,6 +2,8 @@
 layout: internal
 title: Note legali
 permalink: /note-legali/
+lang: it
+ref: 'note-legali'
 ---
 
 [https://io.italia.it](https://io.italia.it) è un sito che ha l’obiettivo di contribuire alla crescita e al coordinamento di una community di sviluppatori e di utenti interessati allo sviluppo e all'utilizzo del progetto IO Italia.

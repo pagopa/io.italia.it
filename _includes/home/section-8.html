@@ -5,10 +5,10 @@
         <div class="col col-md-6">
           <div>
           	<p class="text-center">
-              <img src="{{ '/assets/img/io-logo.svg' | relative_url }}" alt="io" class="io__icon"/> è il progetto per lo sviluppo dell'applicazione del Governo italiano che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
+              <img src="{{ '/assets/img/io-logo.svg' | relative_url }}" alt="io" class="io__icon"/> {{t.home-section-8.title}}
             </p>
           	<p class="text-center">
-          		E’ un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nell’estate 2018 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.
+                {{t.home-section-8.desc}}
           	</p>
           	<form method="" action="https://a1a9g2.emailsp.com/frontend/subscribe.aspx" class="newsletter-form">
               <div class="form-row align-items-center">
@@ -16,10 +16,10 @@
                   <div class="input-group-prepend">
                     <span class="input-group-text bg-white input-icon it-mail"></span>
                   </div>
-                  <input type="text" name="email" class="form-control bg-white input-email" placeholder="Indirizzo e-mail">
+                  <input type="text" name="email" class="form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
                   <input type="hidden" name="list" value="2">
                   <div class="input-group-append">
-                    <button type="submit" class="input-group-text bg-primary input-submit">Iscriviti</button>
+                    <button type="submit" class="input-group-text bg-primary input-submit">{{t.home-section-8.button}}</button>
                   </div>
                 </div>
               </div>
