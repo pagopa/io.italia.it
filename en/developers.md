@@ -2,7 +2,7 @@
 layout: internal
 title: Informazioni per gli sviluppatori
 subtitle:
-lang: it
+lang: en
 ref: sviluppatori
 ---
 
