@@ -1,7 +1,7 @@
 ---
 layout: internal
 full_width: true
-title: Informazioni per i giornalisti
+title: Information for journalists
 subtitle:
 lang: en
 ref: giornalisti
@@ -11,25 +11,23 @@ ref: giornalisti
     <div class="row">
         <div class="col-md-7 internal-page__bodytable">
             <!--<h2>Comunicato stampa ForumPA 2018</h2>-->
-            <h3 class="mt-2 mt-md-5 mb-2 mb-md-4 h6">NASCE <i>IO</i>, IL PROGETTO PER SVILUPPARE L’APP DEI SERVIZI PUBBLICI</h3>
-            <p class="font-italic mb-md-4">Il Team per la Trasformazione Digitale presso la Presidenza del Consiglio dei Ministri annuncia la nascita di IO, progetto per lo sviluppo della app dei servizi pubblici che consentirà al cittadino di gestire il rapporto con le Pubbliche Amministrazioni e che avvierà una fase di test con alcuni cittadini e alcune amministrazioni in estate.</p>
-            <p class="font-weight-bold mb-md-4 text-center">Segui il progetto su <a  href="https://io.italia.it">io.italia.it</a></p>
+            <h3 class="mt-2 mt-md-5 mb-2 mb-md-4 h6"><i>IO</i>, THE PROJECT TO DEVELOP THE PUBLIC SERVICE APP IS HERE.</h3>
+            <p class="font-italic mb-md-4">The Digital Transformation Team at the Presidency of the Council of Ministers announces the launch of IO, a project to develop a public services app that will allow citizens to manage their relationship with the Public Administrations. A test phase is set to commence with a select number of citizens and administrations this summer.</p>
+            <p class="font-weight-bold mb-md-4 text-center">Follow the project on <a  href="https://io.italia.it">io.italia.it</a></p>
             <p class="font-weight-bold text-center">#progettoIO</p>
-            <p>Roma, 22 maggio 2018 - Il Team per la Trasformazione Digitale della Presidenza del Consiglio, in collaborazione con AgID (Agenzia per l’Italia Digitale), annuncia <b>la nascita di <i>IO</i></b>, il progetto per <b>lo sviluppo di un’applicazione sperimentale che permetterà ai cittadini di gestire direttamente dal proprio smartphone i rapporti con la Pubblica Amministrazione e l’accesso ai servizi pubblici</b>. L’anteprima del prototipo e i dettagli del progetto sono disponibili su <a  href="https://io.italia.it"><b>io.italia.it</b></a>. Grazie alla nuova app, ogni utente potrà chiedere e conservare documenti e certificati, accettare ed effettuare pagamenti, ricevere comunicazioni, messaggi e promemoria.</p>
-            <p><i>“L’app permetterà di ridurre drasticamente i tempi degli adempimenti del cittadino verso la Pubblica Amministrazione.”</i> afferma <b>Diego Piacentini</b>, Commissario Straordinario per l'attuazione dell'Agenda Digitale, che continua <i>“Con un sistema di notifiche, pagamenti e scadenze, in pochi minuti si potranno svolgere operazioni che prima richiedevano molto più tempo”</i>.</p>
-            <p><b>L’applicazione non è attualmente presente negli app store e inizierà presto la fase di “closed beta”</b>: infatti, a partire dall’estate 2018, alcuni servizi locali e nazionali verranno erogati anche attraverso l’app. In alcuni territori, quelli in cui il numero e l’importanza dei servizi saranno più alti, inviteremo i cittadini a partecipare al test dell’applicazione che entrerà così a far parte della loro vita quotidiana. Con l’aumento di funzioni e servizi sarà ampliato progressivamente il bacino di utenti della versione beta.</p>
-
-            <h4 class="mt-2 mt-md-4">Come funzionerà l’app?</h4>
-            <p>L’app si baserà sull’integrazione di altri sistemi già in funzione che convergeranno facilitando l’esperienza del cittadino e il lavoro delle pubbliche amministrazioni, le quali potranno usare le funzionalità della piattaforma IO per erogare tutti i propri servizi.</p>
-            <p><i>“Stiamo lavorando alle piattaforme abilitanti, quei componenti necessari, ma non sufficienti, per rendere l’app completamente operativa”</i> spiega <b>Diego Piacentini</b> <i>“l’anagrafe unica ANPR permetterà di sincronizzare tutti i dati dei cittadini che a oggi sono sparsi in circa 8000 anagrafi diverse, SPID ne garantirà un accesso sicuro e unico, il nodo dei pagamenti PagoPA diventerà il motore del borsellino digitale dell’app”</i>.</p>
-
-            <h4 class="mt-2 mt-md-4">Quali vantaggi per le Pubbliche Amministrazioni?</h4>
-            <p><i>IO</i> parte dall’analisi dalle necessità dei cittadini, ma costituisce un vantaggio anche per tutti i soggetti pubblici che erogano servizi digitali. Il progetto mette infatti a disposizione, anche grazie all’integrazione di PagoPA, ANPR e SPID, la maggior parte delle funzioni che sono comuni a tutti i servizi della Pubblica Amministrazione.</p>
-            <p><i>“IO è un progetto aperto”</i> dice <b>Matteo De Santi</b>, responsabile UX/UI & Product Design del Team per la Trasformazione Digitale, <i>“qualunque ente pubblico può partecipare alla sperimentazione, anzi, è invitato a farlo. IO è pensato con una logica open source, cioè tutto il processo di realizzazione sia della app che dell’infrastruttura è completamente pubblica, e chiunque può vedere come la stiamo portando avanti e darci una mano. Il Team per la Trasformazione Digitale, inoltre, sta utilizzando tecnologie e metodologie che ci auguriamo costituiscano delle best practices per tutti i servizi digitali del nostro Paese”</i>.</p>
+            <p>Rome, 22nd May 2018 - The Digital Transformation Team of the Presidency of the Council, in collaboration with AgID (Agenzia per l’Italia Digitale), announces <b>the birth of <i>IO</i></b>, a project <b>to develop an experimental application that will allow citizens to manage their rapport with the Public Administration and access public services directly from their smartphone</b>. A preview of the prototype and details of the project are available on <a  href="https://io.italia.it"><b>io.italia.it</b></a>. Thanks to the new app, every user can request and store documents and certificates, accept and make payments, as well as receive communications, messages and reminders.</p>
+            <p><i>"The app will make it possible to drastically reduce the time it takes to comply with Public Administration requirements," affirms Diego Piacentini, Special Commissioner for the implementation of the Digital Agenda. He continues, "With this notification, payment and deadline system, operations that previously required a great deal of time can now be completed in just a few minutes."</i>.</p>
+            <p><b>The application is not currently present in app stores, with the "closed beta" phase scheduled to commence shortly</b>. In fact, as of the summer of 2018, certain local and national services will also be provided through the app. In some territories, being those in which the number and importance of services are higher, we will invite citizens to take part in testing the application that will become part of their daily lives. With the increase in functions and services, the beta user basin will gradually be expanded.</p>
+            <h4 class="mt-2 mt-md-4">How will the app work?</h4>
+            <p>The app will be based on the integration of other systems already in operation that will converge in order to facilitate the citizen's experience and the operation of the Public Administrations, being able to use the functionalities of the IO platform to provide all of their services.</p>
+            <p><i>"We are working on enabling platforms, whose components are necessary but not sufficient, to render the app fully operational,"</i> explains <b>Diego Piacentini</b>. <i>"The unique ANPR (National Resident Population Register) will permit a synchronization of all citizen data that is currently scattered throughout some 8,000 different registers. SPID will guarantee a secure and unique means of access, whilst the PagoPA payment node will become the engine of the app's digital purse."</i></p>
+            <h4 class="mt-2 mt-md-4">What are the advantages for the Public Administrations?</h4>
+            <p><i>IO</i> sets out from an analysis of the needs of the citizens yet offers an advantage for all public entities that provide digital services. Thanks to the integration of PagoPA, ANPR and SPID, the project makes most of the functions available being common to all Public Administration services.</p>
+            <p><i>"IO is an open project,"</i> explains <b>Matteo De Santi</b>, Manager for UX/UI & Product Design of the Digital Transformation Team. <i>"Any public entity can participate in the experiment, indeed, they are invited to do so. IO is designed with an open source logic, meaning the entire process of creating both the app and the infrastructure is completely public. Anyone can see how we are carrying it out and even lend a helping hand. Furthermore, the Digital Transformation Team is using technologies and methodologies that we hope will constitute best practices for all the digital services in Italy."</i></p>
         </div>
         <div class="col-md-5" >
 	        <aside class="mt-0 mt-md-5 pt-3 pt-md-5 pb-3 pb-md-5">
-            <p class="font-weight-bold">Materiale da scaricare</p>
+            <p class="font-weight-bold">Material to download</p>
             <ul class="list-unstyled mt-2 mt-md-5">
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
@@ -80,7 +78,7 @@ ref: giornalisti
                     </a>
                 </li>
             </ul>
-            <p class="font-weight-bold pt-2 pt-md-4">Ufficio stampa</p>
+            <p class="font-weight-bold pt-2 pt-md-4">Press office</p>
             <p>Ludovico Poggi<br/>Email: <a href="mailto:media.teamdigitale@governo.it">media.teamdigitale@governo.it</a></p>
             </aside>
         </div>
@@ -89,7 +87,7 @@ ref: giornalisti
 
 <section class="giornalisti__slides pt-3 pt-md-4 pb-3 pb-md-4">
     <div class="container mw-60">
-        <h2>Galleria slide di presentazione</h2>
+        <h2>Slides gallery</h2>
     </div>
     <div class="container giornalisti__slides-container mt-2 mt-md-5">
         <div class="d-flex flex-row flex-wrap giornalisti__slides-content">
