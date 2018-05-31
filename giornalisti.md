@@ -4,6 +4,7 @@ full_width: true
 title: Informazioni per i giornalisti
 subtitle:
 lang: it
+ref: giornalisti
 ---
 
 <section class="container mw-60">

@@ -1,8 +1,8 @@
 ---
 layout: internal
 full_width: true
-title: I vantaggi per la PA
-subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
+title: Advantages for the PA
+subtitle: Common functions available to all public services
 lang: en
 ref: pubbliche-amministrazioni
 ---
@@ -10,43 +10,37 @@ ref: pubbliche-amministrazioni
 <section class="container mw-60">
 	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
-		<p>
-		Il progetto <b>IO</b> parte dall’analisi dalle necessità dei cittadini e costituisce un vantaggio per tutti i soggetti pubblici che erogano servizi digitali.
-Fornisce infatti le principali funzioni necessarie all'interazione tra la pubblica amministrazione e i cittadini, grazie anche all'integrazione con le piattaforme abilitanti pagoPA, ANPR e SPID.
-		</p>
-		<p>Gli enti che aderiscono al progetto potranno sfruttare le open API (Application Programming Interface) della piattaforma di <b>IO</b> per l'invio di notifiche e messaggi ai cittadini, le transazioni economiche, l’invio e la richiesta di documenti dell’utente e la gestione delle preferenze generali.
-		</p><p>
-		Non sarà più necessario preoccuparsi di chiedere al cittadino di indicare e tenere aggiornato su ogni sito l’indirizzo email, il numero di cellulare, le proprie coordinate bancarie, la modalità preferita per i contatti, la lingua parlata, etc.
-		</p><p>
-		Per utilizzare il servizio l'ente, che deve avere aderito esplicitamente al progetto IO, deve disporre del codice fiscale del cittadino, e deve ovviamente essere autorizzato ad usarlo. Questo può avvenire per effettivo mandato istituzionale e/o perché il cittadino ha effettivamente sottoscritto appositi termini di utilizzo nei confronti dell'ente.
-		</p>
-		<a href="#onboard" class="font-weight-bold " >Rappresenti una PA e vuoi portare i tuoi servizi su <b>IO</b>?</a>
+	<p>The <b>IO</b> project sets out from the analysis of the needs of the citizens, being an advantage for all public entities that provide digital services. In fact, it provides the main functions necessary for interaction between the Public Administration and citizens, also thanks to the integration with the enabling platforms pagoPA, ANPR and SPID.</p>
+	<p>Organizations participating in the project will be able to avail of the open API (Application Programming Interface) of the <b>IO</b> platform for sending notifications and messages to citizens, completing economic transactions, sending and requesting user documents and managing general preferences.</p>
+	<p>Citizens will no longer need to provide and update their email address, mobile telephone number, bank details, preferred contact method, language spoken, etc., on each and every site.</p>
+	<p>To use the service, the institution (which must be explicitly taking part in the IO project), will need to avail of the tax code of the citizen, and obviously be authorized to utilize it. This can be done by an effective institutional mandate and/or because the citizen has actually signed the specific terms of use with regards to the institution.</p>
+		<a href="#onboard" class="font-weight-bold " >Do you represent a PA and want to add your services to <b>IO</b>?</a>
 	</div>
 	<div class="col-md-4" >
 	<aside>
-	<b>io</b> facilita a tutte le pubbliche amministrazioni:
+	<b>io</b> facilitates all Public Administrations:
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-messages.svg' | relative_url }}" alt="Messaggi"></div>
-			<div class="col-9">l’invio di notifiche e messaggi</div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-messages.svg' | relative_url }}" alt="Messages"></div>
+			<div class="col-9">The sending of notifications and messages</div>
 		</div>
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-wallet.svg' | relative_url }}" alt="Pagamenti"></div>
-			<div class="col-9">i pagamenti e le transazioni economiche</div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-wallet.svg' | relative_url }}" alt="Payments"></div>
+			<div class="col-9">Economic payments and transactions</div>
 		</div>
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-document.svg' | relative_url }}" alt="Documenti"></div>
-			<div class="col-9">l’invio e la richiesta di documenti</div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-document.svg' | relative_url }}" alt="Documents"></div>
+			<div class="col-9">Sending and requesting documents</div>
 		</div>
 		<div class="row facilita-pa">
-			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-settings.svg' | relative_url }}" alt="Preferenze"></div>
-			<div class="col-9">le gestione delle preferenze dell’utente</div>
+			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-settings.svg' | relative_url }}" alt="Preferences"></div>
+			<div class="col-9">Managing user preferences</div>
 		</div>
 	</aside>
 	</div>
 	</div>
 </section>
 <section class=" pa-schema__wrapper" >
-<h2 class="text-center">Le componenti del progetto e i soggetti che le usano</h2>
+<h2 class="text-center">The components of the project and the subjects who use them</h2>
 <div class="pa-schema__inner">
 	<img class="pa-schema" src="{{ '/assets/img/schema@2x.png' | relative_url }}" alt="Schema dell'architettura">
 </div>
@@ -55,28 +49,27 @@ Fornisce infatti le principali funzioni necessarie all'interazione tra la pubbli
 
 <section class="privacy__wrapper">
 	<div class="container mw-60">
-	<h2>Privacy e dati personali</h2>
+	<h2>Privacy and personal data</h2>
 	<p class="privacy__subtitle"></p>
 	<div class="row">
 	<div class="col-md-8">
 	<p class="privacy__paragraph">
-	IO si configura come un canale a disposizione delle pubbliche amministrazioni per l’erogazione di alcune componenti (funzioni) dei loro servizi digitali.
-E’ per certi aspetti assimilabile all’uso della posta elettronica come canale di comunicazione con i cittadini: la titolarità dei dati personali dell’utente resta in capo agli enti titolari dei servizi.
+	IO is configured as a channel that the Public Administrations can utilize in the provision of certain components (functions) of their digital services. It is in some respects similar to the use of electronic mail as a means of communication with citizens, with the user’s personal data being stored by the entities that manage the services.
 </p>
 <p class="privacy__paragraph">
-IO è stato concepito e sviluppato tenendo conto delle prescrizioni della normativa vigente, incluse  le recenti indicazioni del nuovo regolamento privacy (GDPR), in ossequio al principio "privacy by design".
+IO has been conceived and developed by taking into account the provisions of the current legislation, including the recent directives of the new privacy regulation (GDPR), in accordance with the principle of "privacy by design".
 </p>
 <p class="privacy__paragraph">
-IO si configura come responsabile del trattamento dei dati che veicola. I titolari dei dati restano gli enti erogatori dei rispettivi servizi. IO utilizza parte dei dati anonimizzati al solo scopo di migliorare la qualità del servizio offerto ai cittadini.
+IO is configured as the data processor responsible for the data it carries. The data controllers remain the providers of the respective services. IO uses part of the anonymized data for the sole purpose of improving the quality of the service offered to citizens.
 </p><p class="privacy__paragraph">
-Documenti e messaggi vengono conservati in un database dispiegato su datacenter europei che utilizza l’”encryption at rest”. Il contenuto è presente nei sistemi del provider esclusivamente per il tempo che serve a garantirne l’invio. I dati relativi a transazioni e metodi di pagamento sono trattati da un fornitore certificato PCI.
+Documents and messages are stored in a database spread across European data centers that utilize "encryption at rest". The content is present in the provider's systems exclusively for the time necessary to ensure the transmission. Data relating to transactions and payment methods are processed by a certified PCI provider.
 </p><p class="privacy__paragraph">
-Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà scegliere di effettuare un download di tutti i dati che lo riguardano o cancellare la sua iscrizione dal servizio rimuovendo i dati salvati.
+The citizen remains the owner of his or her data. At any time, they can choose to download all the data concerning themselves or cancel their subscription to the service with the removal of the stored data.
 	</p>
 	</div>
 	<div class="col-md-4 text-center">
 	<div class="col__device__privacy">
-	<img src="{{ '/assets/img/screen-privacy.png' | relative_url }}" class="w-100" alt="Schermata Privacy">
+	<img src="{{ '/assets/img/screen-privacy.png' | relative_url }}" class="w-100" alt="Privacy view">
 	</div>
 	</div>
 	</div>
@@ -86,30 +79,29 @@ Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà sceglie
 <section class="attorno-utente__wrapper">
 	<div class="container mw-60">
 	<div class="text-center">
-	<img src="{{ '/assets/img/icon-user-green.svg' | relative_url }}" height="148" alt="icona utente">
+	<img src="{{ '/assets/img/icon-user-green.svg' | relative_url }}" height="148" alt="user icon">
 	</div>
-	<h2 class="text-center">Attorno al cittadino</h2>
+	<h2 class="text-center">Around the citizen</h2>
 	<p class="text-center attorno-utente__subtitle">
-	Per le PA è sufficiente conoscere il <b>codice fiscale</b> <br>di un utente per usare le funzioni di IO
+	It is sufficient for PAs to have a user's <b>tax code</b><br> in order to utilize IO's functions
 	</p>
 	<p class="text-justify mw-40 attorno-utente__paragraph">
-	Oggi per molti enti pubblici conoscere i recapiti o altre informazioni anagrafiche dell’utente è difficile: spesso comporta un notevole sforzo e tempi lunghi.<br>
-Lo stesso vale per i cittadini, che sono costretti a completare il proprio profilo e le proprie schede anagrafiche presso il sito di ogni ente di cui vogliono usare i servizi.<br>
-IO risolve questo problema consentendo a qualunque ente che conosca il codice fiscale di un cittadino di utilizzare le API di IO per contattare l’utente, inviargli documenti o avvisi, o per leggere le preferenze che il cittadino ha scelto di impostare.<br>
-La certezza di avere dall’altra parte esattamente il cittadino è garantita dal processo di autenticazione basato su SPID. Se il cittadino non ha ancora attivato la app, IO si occuperà di recapitare il messaggio attraverso il canale tradizionale, oppure notificherà il servizio che il cittadino non è ancora a bordo.
+	Today, it is difficult for many public entities to determine the contact details or other personal information of the user, often involving considerable effort and lengthy timeframes.<br>The same applies to citizens, who are forced to complete their profile and provide their personal data on the website of each institution whose services they wish to utilize.<br>
+IO solves this problem by allowing any entity in possession of a citizen's tax code to use IO's APIs to contact the user, send them documents or notices, or to read the preferences that the citizen has chosen to set.<br>
+The certainty of communicating directly with the citizen is guaranteed by the authentication process based on SPID. If the citizen has not yet activated the app, IO will ensure to deliver the message through the traditional channel, or will notify the service that the citizen is not yet on board.
 	</p>
 	</div>
 </section>
 
 <section class="sicurezza__wrapper">
-	<img src="{{ '/assets/img/alien.gif' | relative_url }}" width="176" alt="icona alieno" class="sicurezza__alien">
+	<img src="{{ '/assets/img/alien.gif' | relative_url }}" width="176" alt="alien icon" class="sicurezza__alien">
 	<div class="container mw-60">
-	<h2 class="text-center">Sicurezza e privacy</h2>
+	<h2 class="text-center">Security and privacy</h2>
 	<p class="text-justify mw-40 sicurezza__paragraph">
-	IO è un progetto open source. Questo permette di rovesciare il paradigma della “sicurezza tramite segretezza”: i codici dell’applicazione e delle piattaforme di back-end sono infatti a disposizione di tutti, compresi coloro che scelgono di dare una mano segnalando malfunzionamenti ed eventuali bug.</p><p class="text-justified mw-40 sicurezza__paragraph">
-Il codice è sviluppato mettendo in pratica le best practice OWASP e vengono utilizzati tool che permettono di monitorare l’integrità delle dipendenze. Ma garantire la sicurezza è un processo continuativo: l’aiuto della community è un fattore importante per il successo delle pratiche di “responsible disclosure”.
+	IO is an open source project. This allows us to upturn the paradigm of "security through secrecy". The application codes and backend platforms are, in fact, available to all, including those who choose to help out by reporting malfunctions and possible bugs.</p><p class="text-justified mw-40 sicurezza__paragraph">
+The code is developed by implementing OWASP best practices and tools that monitor the integrity of the requirements. However, to ensure security is a continuous process, community help is an important factor for the success of "responsible disclosure" practices.
 </p><p class="text-justify mw-40 sicurezza__paragraph">
-L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di non gestire direttamente le password e gli eventuali meccanismi di aggiornamento che vengono delegati agli IDP. Oltre alle credenziali SPID, al fine di garantire un’esperienza utente più efficace, verrà chiesto di impostare un PIN e, se il dispositivo in uso supporta la funzionalità, un meccanismo di riconoscimento biometrico. Sia il PIN che i dati necessari al riconoscimento (es. impronta digitale) non lasciano il dispositivo né vengono condivisi con terze parti.
+Authentication occurs safely via SPID. This ensures that IO does not directly manage passwords and any update mechanisms that are delegated to the IDPs. In addition to the SPID credentials, in order to ensure a more effective user experience, the setting of a PIN will be requested and, if the device used supports the functionality, a biometric recognition mechanism. Both the PIN and the data necessary for recognition (such as a fingerprint) do not leave the device nor are they shared with third parties.
 	</p>
 	</div>
 	<div class="text-center container sicurezza__aliens">
@@ -119,28 +111,31 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di 
 
 <section class="legge__wrapper">
 	<div class="container mw-60">
-	<h2 class="text-center">La Legge e IO</h2>
-	<p class="text-center attorno-utente__subtitle">Le indicazioni del Codice dell’Amministrazione Digitale</p>
+	<h2 class="text-center">The Law and IO</h2>
+	<p class="text-center attorno-utente__subtitle">The instructions of the Digital Administration Code</p>
 	<div class="row">
 		<article class="col-sm-6 col-md-3">
-		<h1 >Il "Punto di Accesso telematico ai servizi della PA"</h1>
+		<h1 >The "Electronic Access Point for PA services"</h1>
 		<p class="legge__paragraph">
-	L'articolo 64-bis istituisce il "punto di accesso telematico attivato presso la Presidenza del Consiglio dei Ministri", come il canale attraverso cui tutti i soggetti pubblici devono rendere fruibili i propri servizi.</p>
+	Article 64-bis establishes the "electronic access point activated via the Presidency of the Council of Ministers", as the channel through which all public entities must make their services usable.
+</p>
 		</article>
 		<article class="col-sm-6 col-md-3">
-		<h1 >Il "Diritto a servizi on-line semplici e integrati"</h1>
+		<h1 >The "Right to simple and integrated online services"</h1>
 		<p class="legge__paragraph">
-	L'articolo 7 aggiunge che tutti i cittadini hanno il diritto di fruire dei servizi erogati dai soggetti pubblici in forma digitale e in modo integrato, anche tramite il punto di accesso telematico e attraverso dispositivi mobili.</p>
+	Article 7 adds that all citizens have the right to use the services provided by public entities in digital form and in an integrated way, including via an electronic access point and through mobile devices.
+</p>
 		</article>
 		<article class="col-sm-6 col-md-3">
-		<h1 >I doveri delle Pubbliche Amministrazioni</h1>
+		<h1 >The duties of the Public Administrations</h1>
 		<p class="legge__paragraph">
-	Per rendere effettivo questo diritto tutte le pubbliche amministrazioni devono progettare i propri servizi digitali in modo da garantire l'integrazione e l'interoperabilità con il back-end di IO, riorganizzando e aggiornando i propri servizi a partire dalle reali esigenze degli utenti.</p>
+	To enact this right, all Public Administrations must design their own digital services in order to guarantee the integration and interoperability with the IO backend, reorganizing and updating their services, setting out from the real needs of users.
+</p>
 		</article>
 		<article class="col-sm-6 col-md-3">
-		<h1 >Da quando saranno integrati i servizi?</h1>
+		<h1 >When will the services be integrated?</h1>
 		<p class=" legge__paragraph">
-	Il correttivo al CAD afferma che tutti i cittadini devono poter usufruire di questo diritto a partire dalla data di attivazione del "punto di accesso telematico", quindi da quando IO uscirà dalla fase beta. </p>
+	The CAD update states that all citizens must be able to use this right from the date on which the "electronic access point" is activated, thus as soon as IO completes its beta phase.</p>
 		</article>
 	</div>
 	</div>
@@ -148,13 +143,14 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di 
 
 <section class="onboard__wrapper" id="onboard" >
 	<div class="container mw-60">
-	<h2 class="text-center">Vuoi portare i tuoi servizi su IO?</h2>
-	<p class="text-center onboard__subtitle">Vuoi essere fra le prime PA a utilizzare le funzioni di IO?</p>
+	<h2 class="text-center">Do you want to add your services to IO?
+</h2>
+	<p class="text-center onboard__subtitle">Do you want to be amongst the first PAs to use the IO functions?</p>
 	<p class="text-center onboard__paragraph mw-50 mb-4">
-	Io è un progetto aperto, qualunque ente pubblico può partecipare alla sperimentazione. In una prima fase avranno priorità i cittadini dei territori in cui è più alta la concentrazione di enti e servizi che partecipano, e gli enti che offrono i servizi al maggior numero di cittadini. Descrivi nella apposita sezione del forum quali sono i servizi per cui vorresti usare le funzioni di IO.
+	IO is an open project, hence any public body can participate in the experiment. In the initial phase, priority will be given to citizens in the territories in which the concentration of participating entities and services is highest, and to the entities that offer services to the greatest number of citizens. Describe in the appropriate section of the forum the services that you would like to equip with the IO functions.
 	</p>
 	<div class="text-center">
-	    <a href="https://forum.italia.it/c/progetto-io/proponi-un-servizio" class="btn btn-primary mt-4 mb-4" target="_blank" rel="noopener">Partecipa alla sperimentazione!</a>
+	    <a href="https://forum.italia.it/c/progetto-io/proponi-un-servizio" class="btn btn-primary mt-4 mb-4" target="_blank" rel="noopener">Take part in the experiment!</a>
 	</div>
 	</div>
 </section>
