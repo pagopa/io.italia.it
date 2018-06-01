@@ -15,7 +15,7 @@ ref: giornalisti
             <p class="font-italic mb-md-4">The Digital Transformation Team at the Presidency of the Council of Ministers announces the launch of IO, a project to develop a public services app that will allow citizens to manage their relationship with the Public Administrations. A test phase is set to commence with a select number of citizens and administrations this summer.</p>
             <p class="font-weight-bold mb-md-4 text-center">Follow the project on <a  href="https://io.italia.it">io.italia.it</a></p>
             <p class="font-weight-bold text-center">#progettoIO</p>
-            <p>Rome, 22nd May 2018 - The Digital Transformation Team of the Presidency of the Council, in collaboration with AgID (Agenzia per l’Italia Digitale), announces <b>the birth of <i>IO</i></b>, a project <b>to develop an experimental application that will allow citizens to manage their rapport with the Public Administration and access public services directly from their smartphone</b>. A preview of the prototype and details of the project are available on <a  href="https://io.italia.it"><b>io.italia.it</b></a>. Thanks to the new app, every user can request and store documents and certificates, accept and make payments, as well as receive communications, messages and reminders.</p>
+            <p>Rome, 22nd May 2018 - The Digital Transformation Team of the Presidency of the Council, in collaboration with AgID (Agenzia per l’Italia Digitale), announces <b>the birth of <i>IO</i></b>, a project <b>to develop an experimental application that will allow citizens to manage their relationship with the Public Administration and access public services directly from their smartphone</b>. A preview of the prototype and details of the project are available on <a  href="https://io.italia.it"><b>io.italia.it</b></a>. Thanks to the new app, every user can request and store documents and certificates, accept and make payments, as well as receive communications, messages and reminders.</p>
             <p><i>"The app will make it possible to drastically reduce the time it takes to comply with Public Administration requirements," affirms Diego Piacentini, Special Commissioner for the implementation of the Digital Agenda. He continues, "With this notification, payment and deadline system, operations that previously required a great deal of time can now be completed in just a few minutes."</i>.</p>
             <p><b>The application is not currently present in app stores, with the "closed beta" phase scheduled to commence shortly</b>. In fact, as of the summer of 2018, certain local and national services will also be provided through the app. In some territories, being those in which the number and importance of services are higher, we will invite citizens to take part in testing the application that will become part of their daily lives. With the increase in functions and services, the beta user basin will gradually be expanded.</p>
             <h4 class="mt-2 mt-md-4">How will the app work?</h4>
@@ -27,54 +27,54 @@ ref: giornalisti
         </div>
         <div class="col-md-5" >
 	        <aside class="mt-0 mt-md-5 pt-3 pt-md-5 pb-3 pb-md-5">
-            <p class="font-weight-bold">Material to download</p>
+            <p class="font-weight-bold">Media downloads</p>
             <ul class="list-unstyled mt-2 mt-md-5">
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #1 jpeg - alta risoluzione</span>
+                        <span class="font-weight-bold">Photographic mock-up #1 - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #2 jpeg - alta risoluzione</span>
+                        <span class="font-weight-bold">Photographic mock-up #2 - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" download="mockup-io-iphonex-transparent.png" href="{{'/assets/download/mockup-io-iphonex-transparent.png' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup iphonex trasparente png - alta risoluzione</span>
+                        <span class="font-weight-bold">Transparent mock-up - hi-res png</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" download="schema-architetturale@3x.png" href="{{'/assets/download/schema-architetturale@3x.png' | relative_url}}" >
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Schema architetturale png - alta risoluzione</span>
+                        <span  class="font-weight-bold">Architecture diagram - hi-res png</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" download="io.italia.it-cover-high.jpg" href="{{'/assets/download/io.italia.it-cover-high.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">io.italia.it - cover jpeg - alta risoluzione</span>
+                        <span  class="font-weight-bold">Website - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/video/screencast-io-fullhd.mp4' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Screencast del prototipo mpg4 - fullHD</span>
+                        <span  class="font-weight-bold">Prototype screencast - fullHD mpg4</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/io-slides.zip' | relative_url }}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Pacchetto slide presentazione Jpeg FullHD</span>
+                        <span  class="font-weight-bold">Presentation kit - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Comunicato stampa ForumPA 2018 rtf</span>
+                        <span  class="font-weight-bold">Press release ForumPA 2018 - rtf - italian language</span>
                     </a>
                 </li>
             </ul>

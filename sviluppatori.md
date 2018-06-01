@@ -16,10 +16,9 @@ ref: sviluppatori
   <p>La app ed il suo backend vogliono essere un esempio da seguire per le Pubbliche Amministrazioni che si approcciano a problemi e contesti simili.</p>
   <p>Il progetto IO vuole porsi quindi come implementazione di riferimento per l'integrazione con le piattaforme previste dal <a href="https://pianotriennale-ict.italia.it/" target="_blank">piano di trasformazione digitale della PA</a>:
     <ul>
-      <li>
-        <a href="https://www.spid.gov.it/" target="_blank">SPID</a>, il Sistema Pubblico di Identità Digitale</li>
-      <li><a href="http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/pagamenti-elettronici" target="_blank">PagoPA</a>, il sistema dei pagamenti a tutte le Pubbliche Amministrazioni</li>
-      <li><a href="https://www.anpr.interno.it/portale/" target="_blank">ANPR</a>, l'Anagrafe Nazionale della Popolazione Residente</li>
+      <li><a href="https://developers.italia.it/it/spid" target="_blank">SPID</a>, il Sistema Pubblico di Identità Digitale</li>
+      <li><a href="https://developers.italia.it/it/pagopa" target="_blank">PagoPA</a>, il sistema dei pagamenti a tutte le Pubbliche Amministrazioni</li>
+      <li><a href="https://developers.italia.it/it/anpr" target="_blank">ANPR</a>, l'Anagrafe Nazionale della Popolazione Residente</li>
       <li>il <a href="https://pianotriennale-ict.italia.it/piattaforme-abilitanti/" target="_blank">Sistema di avvisi e notifiche di cortesia</a></li>
     </ul>
   </p>
