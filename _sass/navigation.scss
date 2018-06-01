@@ -6,7 +6,7 @@
   width: 100%;
   z-index: 100;
   @media screen and (min-width: $grid-breakpoints-md) {
-    z-index: 2;
+    z-index: 4;
   }
   color: #FFF;
   top: 0;
@@ -80,4 +80,12 @@
 }
 .io__icon {
   width: 36px;
+}
+
+.lang_switch {
+  .dropdown-menu {
+    left: auto;
+    right: 0;
+    min-width: 6rem;
+  }
 }

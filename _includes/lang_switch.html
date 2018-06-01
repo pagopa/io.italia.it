@@ -1,0 +1,15 @@
+{% assign languages = site.data.languages %}
+{% assign pages_ref = site.pages | where: "ref", page.ref %}
+
+<div class="dropdown lang_switch mr-4 mr-md-1">
+    <a class="text-uppercase text-white small" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="it-expand"></i> {{languages[current_lang].code}}
+    </a>
+  
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+        {% for l in languages %}
+            {% assign target_page = pages_ref | where:"lang", l[0] | first %}
+            <a class="dropdown-item small text-uppercase {% if target_page.lang==current_lang%}active{%endif%} " href="{{target_page.url}}">{{l[1].code}}</a>
+        {% endfor %}
+    </div>
+  </div>
