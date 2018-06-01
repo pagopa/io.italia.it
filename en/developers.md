@@ -16,13 +16,12 @@ ref: sviluppatori
 
   <h2 class="h3">Reference implementation</h2>
   <p>The app and its back end are aimed to set an example for Public Administrations to follow in addressing similar problems and contexts.</p>
-  <p>The IO project is intended to be a point of reference in achieving integration with the platforms envisaged under <a href="https://pianotriennale-ict.italia.it/" target="_blank">the PA digital transformation plan</a>:</p>
+  <p>The IO project is intended to be a point of reference in achieving integration with the platforms envisaged under the <a href="https://pianotriennale-ict.italia.it/en/" target="_blank">PA digital transformation plan</a>:</p>
     <ul>
-      <li>
-        <a href="https://www.spid.gov.it/" target="_blank">SPID</a>, being the Public Digital Identity System</li>
-      <li><a href="http://www.agid.gov.it/agenda-digitale/pubblica-amministrazione/pagamenti-elettronici" target="_blank">PagoPA</a>, , the payment system for all Public Administrations</li>
-      <li><a href="https://www.anpr.interno.it/portale/" target="_blank">ANPR</a>, being the National Resident Population Register</li>
-      <li>il <a href="https://pianotriennale-ict.italia.it/piattaforme-abilitanti/" target="_blank">The courtesy notification and alert system</a></li>
+      <li><a href="https://developers.italia.it/en/spid" target="_blank">SPID</a>, being the Public Digital Identity System</li>
+      <li><a href="https://developers.italia.it/en/pagopa" target="_blank">PagoPA</a>, the payment system for all Public Administrations</li>
+      <li><a href="https://developers.italia.it/en/anpr" target="_blank">ANPR</a>, being the National Resident Population Register</li>
+      <li>The <a href="https://pianotriennale-ict.italia.it/en/enabling-platforms/" target="_blank">courtesy notification and alert system</a></li>
     </ul>
 
   <h2 class="h3 mt-5">Agile approach</h2>
@@ -37,7 +36,7 @@ ref: sviluppatori
         To plan activities and track their progress, the IO team uses Pivotal Tracker, defining the features of the application and the back end using the method of user stories grouped into epics. This technique means that service features can be easily designed without ever losing sight of the real impact of each activity on the overall user experience. </li>
       <li><b><a href="https://github.com/teamdigitale/digital-citizenship/blob/master/CONTRIBUTING.it.md#google-drive-ita" target="_blank">Google Documents</a></b><br>
        Good documentation is the basis of any open project. The collaborative writing tool offered free of charge by Google permits working on the same document, simply updating it to track the evolution of the project and easily allowing new employees to be included.</li>
-      <li><b><a href="https://github.com/teamdigitale/digital-citizenship/blob/master/CONTRIBUTING.it.md#slack" target="_blank">Slack chanel</a></b><br>
+      <li><b><a href="https://github.com/teamdigitale/digital-citizenship/blob/master/CONTRIBUTING.it.md#slack" target="_blank">Slack channel</a></b><br>
         Slack is the most efficient and versatile tool currently available for working remotely. Every conversation concerning the digital citizenship project takes place within public Slack channels. This means that anyone wanting to participate in the conversation or understand how certain project decisions have been made can enter, even as an observer, and read past and present conversations and even participate in future ones at any time.
       </li>
     </ul>

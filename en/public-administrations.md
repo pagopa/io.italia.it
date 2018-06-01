@@ -11,7 +11,7 @@ ref: pubbliche-amministrazioni
 	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
 	<p>The <b>IO</b> project sets out from the analysis of the needs of the citizens, being an advantage for all public entities that provide digital services. In fact, it provides the main functions necessary for interaction between the Public Administration and citizens, also thanks to the integration with the enabling platforms pagoPA, ANPR and SPID.</p>
-	<p>Organizations participating in the project will be able to avail of the open API (Application Programming Interface) of the <b>IO</b> platform for sending notifications and messages to citizens, completing economic transactions, sending and requesting user documents and managing general preferences.</p>
+	<p>Organizations participating in the project will benefit from the open API (Application Programming Interface) of the <b>IO</b> platform for sending notifications and messages to citizens, completing economic transactions, sending and requesting user documents and managing general preferences.</p>
 	<p>Citizens will no longer need to provide and update their email address, mobile telephone number, bank details, preferred contact method, language spoken, etc., on each and every site.</p>
 	<p>To use the service, the institution (which must be explicitly taking part in the IO project), will need to avail of the tax code of the citizen, and obviously be authorized to utilize it. This can be done by an effective institutional mandate and/or because the citizen has actually signed the specific terms of use with regards to the institution.</p>
 		<a href="#onboard" class="font-weight-bold " >Do you represent a PA and want to add your services to <b>IO</b>?</a>
@@ -21,7 +21,7 @@ ref: pubbliche-amministrazioni
 	<b>io</b> facilitates all Public Administrations:
 		<div class="row facilita-pa">
 			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-messages.svg' | relative_url }}" alt="Messages"></div>
-			<div class="col-9">The sending of notifications and messages</div>
+			<div class="col-9">Sending notifications and messages</div>
 		</div>
 		<div class="row facilita-pa">
 			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-wallet.svg' | relative_url }}" alt="Payments"></div>
@@ -29,7 +29,7 @@ ref: pubbliche-amministrazioni
 		</div>
 		<div class="row facilita-pa">
 			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-document.svg' | relative_url }}" alt="Documents"></div>
-			<div class="col-9">Sending and requesting documents</div>
+			<div class="col-9">Delivering and requesting documents</div>
 		</div>
 		<div class="row facilita-pa">
 			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-settings.svg' | relative_url }}" alt="Preferences"></div>
