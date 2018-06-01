@@ -3,6 +3,7 @@ layout: internal
 title: Legal notes
 lang: en
 ref: 'note-legali'
+permalink: /en/legal-notes/
 ---
 
 [https://io.italia.it](https://io.italia.it) is a website that aims to contribute to the growth and coordination of a community of developers and users interested in the development and utilization of the IO Italia project. The site is managed by the Agency for Digital Italy.

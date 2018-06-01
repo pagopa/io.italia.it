@@ -3,6 +3,7 @@ layout: internal
 title: Cookies Policy
 lang: en
 ref: 'cookies-policy'
+permalink: /en/cookies-policy/
 ---
 
 Cookies are small text files that the visited websites send to the terminal (computer, tablet, smartphone, notebook) of the user, where they are stored and subsequently re-transmitted to the same websites on subsequent visits.

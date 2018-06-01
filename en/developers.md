@@ -4,6 +4,7 @@ title: Information for developers
 subtitle:
 lang: en
 ref: sviluppatori
+permalink: /en/developers/
 ---
 
 <section class="container mw-60">
