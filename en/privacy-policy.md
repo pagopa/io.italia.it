@@ -3,6 +3,7 @@ layout: internal
 title: Privacy Policy
 lang: en
 ref: 'privacy-policy'
+permalink: /en/privacy-policy/
 ---
 
 This page describes the methods and conditions of processing the personal data of those utilizing the website (hereinafter, also "users") who access and use the website [https://io.italia.it](https://io.italia.it) (hereinafter, also the "website"). The information is provided pursuant to Article 13 of Legislative Decree no. 196/2003 - Personal Data Protection Code for all users who, by interacting with the website, provide their personal data. The validity of the information contained in this page is limited to this website only and does not extend to other websites that may be viewed via hyperlink. The Data Controller for the data collected through the website is AgID - Agency for Digital Italy, located in Via Liszt 21 - 00144 Rome, with email address [protocollo@pec.agid.gov.it](protocollo@pec.agid.gov.it). Any third parties to whom the data could be communicated for the execution of processing operations connected with the purposes specified in this notice, will be previously designated by the Data Controller as Data Processors pursuant to Article 29 of the Data Protection Code. The personal data of users, other than the information the user publishes directly on the website in the appropriate area of ​​discussion, will not be subject to discussion.

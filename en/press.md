@@ -5,6 +5,7 @@ title: Information for journalists
 subtitle:
 lang: en
 ref: giornalisti
+permalink: /en/press/
 ---
 
 <section class="container mw-60">

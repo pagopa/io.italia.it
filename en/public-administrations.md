@@ -5,6 +5,7 @@ title: Advantages for the PA
 subtitle: Common functions available to all public services
 lang: en
 ref: pubbliche-amministrazioni
+permalink: /en/public-administrations/
 ---
 
 <section class="container mw-60">
