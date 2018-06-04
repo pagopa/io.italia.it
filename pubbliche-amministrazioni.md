@@ -5,6 +5,7 @@ title: I vantaggi per la PA
 subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 lang: it
 ref: pubbliche-amministrazioni
+permalink: /pubbliche-amministrazioni/
 ---
 
 <section class="container mw-60">
