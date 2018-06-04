@@ -173,29 +173,29 @@ en:
   agid: Agenzia per l'Italia Digitale
   collaborazione: In collaboration with
   seguici: 'Follow us on:'
-  footer_disclaimer: The services presented in the mock-ups are examples, used to understand the future functionality of the application.
+  footer_disclaimer: The services presented in the mock-ups are just examples to provide a taste of  the future application functionalities.
   note_legali: Legal notes
   slim_owner: 'Digital<span class="d-none d-md-inline"> Transformation</span> Team + AgID'
   slim_owner_url: https://teamdigitale.governo.it/en/
   cookies_disclaimer: This site uses technical cookies, analytic cookies and third-party cookies. By continuing to browse, you accept the use of cookies
   cookies_disclaimer_accept: I accept
   home-section-1:
-    h1: the public service app development project.
+    h1: the project to develop the public services app.
     tieniti-aggiornato: 
-      <span >In the summer of 2018, the first tests will commence with the help of citizens
-      <br>in select territories and with some central and local authorities. <a class="text-white" href="#newsletter"><u>Stay informed!</u></a></span>
+      <span >In the summer of 2018, the first tests will start  with some central and local authorities
+      <br>and with the help of citizens in selected territories. <a class="text-white" href="#newsletter"><u>Stay tuned!</u></a></span>
   constellation-regione:
     regione: region
     ticket: medical charges
     prescrizioni: prescriptions
-    esenzioni: exemptions
+    esenzioni: health coverage exemptions
     referti: medical reports
   constellation-comune:
     comune: Municipality
-    certificati: registry<br>certificates
+    certificati: certificates<br>of registry 
     mensa: school<br>meals
-    multe: fines
-    tari: waste tax
+    multe: penalty charge notices
+    tari: waste collection tax
   constellation-entrate:
     agenzia: Agency of Revenue
     avvisi: notices
@@ -204,7 +204,7 @@ en:
   constellation-aci:
     aci: ACI
     bollo: vehicle registration
-    certificati: ownership certificates
+    certificati: certificates of ownerships
   device:
     messaggi: Messages
     pagamenti: Payments
@@ -218,17 +218,17 @@ en:
     sviluppatori: Developers
     giornalisti: Journalists
   home-section-2:
-    title: <h2>All <b>messages</b> from the Public Administration, direct to your phone.</h2>
+    title: <h2>All <b>messages</b> from the Public Administration directly to your phone.</h2>
     desc:
       <p>Receive <b>messages</b>, alerts and communications from <b>all public entities</b>, all within a single app.</p>
-      <p>You can receive updates via email, within the app or via <b>push notifications</b> to your telephone. You decide how, for every service.</p>
+      <p>You can receive updates via email, within the app or via <b>push notifications</b> to your telephone. For every service, You decide how.</p>
       <p>Stay up-to-date on deadlines, <b>adding a reminder</b> directly to your personal calendar.</p>
-      <p><b>Complete payments</b> for services or taxes directly via the message, without leaving the app.</p>
+      <p><b>Make direct payments</b> for services or taxes via the message without leaving the app.</p>
   home-section-3:
-    title: <h2>All <b>payments</b> to the State through a simple, secure and digital tool.</h2>
+    title: <h2>Make all <b>payments</b>  to public administration bodies through a digital, secure and  easy-to-use tool.</h2>
     desc: 
-      <p>Pay <b>all Public Administration bodies</b> through PagoPA.</p>
-      <p><b>Associate your credit card</b> and bank, <b>Paypal</b> or <b>Satispay account</b>s, using them as often as you wish.</p>
+      <p>Pay <b>all public administration bodies</b> through PagoPA.</p>
+      <p><b>Associate your credit card</b> and bank account, <b>Paypal</b> or <b>Satispay account</b>s, using them as often as you wish.</p>
       <p>Pay bills received via the post, directly through the app using a QR code.</p>
       <p>Always have your <b>transaction history</b> and the related payment receipts at hand.</p>
       <p><b>Avoid paying interest and penalties</b> by always being sure you are only paying what is actually owed.</p>
@@ -238,13 +238,13 @@ en:
       <p><b>Documents, receipts, certificates</b> sent directly <b>to your smartphone</b>.</p>
       <p><b>Share the document</b> immediately with the person or office of your choice.</p>
       <p><b>Request certificates</b> and other documents directly from <b>the app</b>.</p>
-      <p><b>Preview and advanced search</b>, so as not to waste time looking for a document.</p>
+      <p><b>Preview and advanced search</b> to avoid wasting time to look for a document.</p>
   home-section-5:
-    title: <h2>All your <b>preferences</b>, set one time only.</h2>
+    title: <h2>Set your <b>preferences</b> one time only.</h2>
     desc:
-      <p>Simply select your language and email once. You will <b>no longer have to choose</b> your settings on every single Public Administration site.</p>
+      '<p>Select your language and email once: <b>No need tochoose your settings on every single public administration</b> site.</p>
       <p>You will choose <b>which messages</b> to receive, and <b>how to receive</b> them.</p>
-      <p>You will be able to elect your <b>digital address</b> directly from the app, in order to receive registered communications with legal value to a <b>certified email address</b>.</p>
+      <p>You will be able to elect your <b>digital address</b> directly from the app to receive registered communications with legal value to a <b>certified email address</b>.</p>'
   home-section-6:
     title: <h2>Digital <b>identity</b> and <b>privacy</b> always under your control.</h2>
     desc: 
@@ -252,14 +252,14 @@ en:
       <p>Set a <b>PIN</b> or use your <b>fingerprint</b> to unlock the app after the first sign-in.</p>
       <p>Keep <b>control of your personal data</b>  in full compliance with <b>GDPR regulations</b> .</p>
       <p><b>Cancel your account</b> and your data at any time.</p>
-      <p><b>Remotely revoke</b> access authorization if the <b>phone</b> is <b>stolen</b> or <b>lost</b>.</p>
+      <p><b>Revoke</b> access authorization remotely if the <b>phone</b> is <b>stolen</b> or <b>lost</b>.</p>
   home-section-7:
-    title: The services you can use through <b>io</b>
+    title: The services available through <b>io</b>
     par1: 
-      '<b>IO</b> sets out from the needs of the citizens. We will then work with the operators of each service for integration into the app.
-      <br>To set priorities, we organized the services on the basis of how many people could effectively utilize them, and how often they impact upon our daily lives. The services you see on this site are just a few examples.'
+      '<b>IO</b> stems from citizens’ needs. We will work with the operators of each service for integration into the app.
+      <br>To set priorities, we organized the services on the basis of how many people could actually use them, and how often they impact upon daily lives. The services you see on this site are just a few examples.'
     par2:
-      Trials at a local or national level have been activated for a selection of these. The more complex ones will be released in a few months or years. Without doubt, some will have been overlooked. If you think of another service that seems pertinent, please suggest it in the <a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">appropriate section of the forum</a>.
+      Trials at a local or national level have started for a selection of services. The more complex ones will be released in a few months or years. Undoubtedly, some possible services have been overlooked. If you think of another service that seems relevant, please make a suggestion  in the <a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">appropriate section of the forum</a>.
     map_title: Public Service Utilization Map
     map_desc: In the columns, you can see the percentage of the population involved, with the different <b>frequency of use</b> shown in the rows.
     map_th:
@@ -289,8 +289,8 @@ en:
           - Medical certificates
           - Payments for domestic workers
         - 
-          - Medical scripts
-          - Refunds for medicinal purchases
+          - Medical receipts
+          - Refunds for drug purchases
       -
         - A FEW TIMES A YEAR
         - 
@@ -305,9 +305,9 @@ en:
           - Business activities
           - PA payment history
         - 
-          - Stamp duty deadline
+          - Stamp duty tax deadline
           - Driving licence points
-          - Insurance expiry
+          - Insurance expiration date
           - Medical examination reports
         -
           - Medical expenses
@@ -317,18 +317,18 @@ en:
           - Tax collection portfolio
           - Judicial documents
         -
-          - Change in residence
+          - Changing  residence
           - Parental leave
-          - Passport expiry
+          - Passport expiration date
           - Car towing
         - 
           - Payment preferences
           - Vaccine reminders
           - Real estate status
-          - Driving licence expiration
+          - Driving licence expiration date
         -
-          - Identity card expiration
-          - Electoral card expiration
+          - Identity card expiration date
+          - Electoral card expiration date
           - Birth certificate
           - Family status
           - Choice of General Practitioner

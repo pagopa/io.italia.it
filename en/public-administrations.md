@@ -11,10 +11,10 @@ permalink: /en/public-administrations/
 <section class="container mw-60">
 	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
-	<p>The <b>IO</b> project sets out from the analysis of the needs of the citizens, being an advantage for all public entities that provide digital services. In fact, it provides the main functions necessary for interaction between the Public Administration and citizens, also thanks to the integration with the enabling platforms pagoPA, ANPR and SPID.</p>
-	<p>Organizations participating in the project will benefit from the open API (Application Programming Interface) of the <b>IO</b> platform for sending notifications and messages to citizens, completing economic transactions, sending and requesting user documents and managing general preferences.</p>
+	<p>The <b>IO</b> is based on the analysis of the citizens’ needs.  All public entities providing digital services will profit from <b>IO</b> as it provides the main functions necessary for the  interaction between the public administration and citizens, thanks also to the integration with the enabling platforms pagoPA, ANPR and SPID.</p>
+	<p>Organizations participating in the project will be able to take advantage of  the open API (Application Programming Interface) of the <b>IO</b> platform in order to  send notifications and messages to citizens, complete economic transactions, send and request user documents, and manage general preferences.</p>
 	<p>Citizens will no longer need to provide and update their email address, mobile telephone number, bank details, preferred contact method, language spoken, etc., on each and every site.</p>
-	<p>To use the service, the institution (which must be explicitly taking part in the IO project), will need to avail of the tax code of the citizen, and obviously be authorized to utilize it. This can be done by an effective institutional mandate and/or because the citizen has actually signed the specific terms of use with regards to the institution.</p>
+	<p>To use the service, the institution (which must be explicitly taking part in the IO project), will need to use the citizens tax code and  must the necessary authorization to use it. The authorization is achieved through  an effective institutional mandate and/or because the citizen has signed the specific terms of use with regards to the institution.</p>
 		<a href="#onboard" class="font-weight-bold " >Do you represent a PA and want to add your services to <b>IO</b>?</a>
 	</div>
 	<div class="col-md-4" >
@@ -55,7 +55,7 @@ permalink: /en/public-administrations/
 	<div class="row">
 	<div class="col-md-8">
 	<p class="privacy__paragraph">
-	IO is configured as a channel that the Public Administrations can utilize in the provision of certain components (functions) of their digital services. It is in some respects similar to the use of electronic mail as a means of communication with citizens, with the user’s personal data being stored by the entities that manage the services.
+	IO is configured as a channel that the Public Administrations can use to provide certain components (functions) of their digital services. It is in some respects similar to the use of electronic mail as a means of communication with citizens, with the user’s personal data being stored by the entities that manage the services.
 </p>
 <p class="privacy__paragraph">
 IO has been conceived and developed by taking into account the provisions of the current legislation, including the recent directives of the new privacy regulation (GDPR), in accordance with the principle of "privacy by design".
@@ -65,7 +65,7 @@ IO is configured as the data processor responsible for the data it carries. The 
 </p><p class="privacy__paragraph">
 Documents and messages are stored in a database spread across European data centers that utilize "encryption at rest". The content is present in the provider's systems exclusively for the time necessary to ensure the transmission. Data relating to transactions and payment methods are processed by a certified PCI provider.
 </p><p class="privacy__paragraph">
-The citizen remains the owner of his or her data. At any time, they can choose to download all the data concerning themselves or cancel their subscription to the service with the removal of the stored data.
+Citizens  remain owner of their  data. At any time, citizens can choose to download all the data concerning themselves or cancel their subscription to the service with the removal of the stored data.
 	</p>
 	</div>
 	<div class="col-md-4 text-center">
@@ -84,12 +84,12 @@ The citizen remains the owner of his or her data. At any time, they can choose t
 	</div>
 	<h2 class="text-center">Around the citizen</h2>
 	<p class="text-center attorno-utente__subtitle">
-	It is sufficient for PAs to have a user's <b>tax code</b><br> in order to utilize IO's functions
+	It is sufficient for PAs to have a user's tax code in order to use IO's functions
 	</p>
 	<p class="text-justify mw-40 attorno-utente__paragraph">
-	Today, it is difficult for many public entities to determine the contact details or other personal information of the user, often involving considerable effort and lengthy timeframes.<br>The same applies to citizens, who are forced to complete their profile and provide their personal data on the website of each institution whose services they wish to utilize.<br>
-IO solves this problem by allowing any entity in possession of a citizen's tax code to use IO's APIs to contact the user, send them documents or notices, or to read the preferences that the citizen has chosen to set.<br>
-The certainty of communicating directly with the citizen is guaranteed by the authentication process based on SPID. If the citizen has not yet activated the app, IO will ensure to deliver the message through the traditional channel, or will notify the service that the citizen is not yet on board.
+	Today, it is difficult for many public entities to determine the contact details or other personal information of the user, often involving considerable time and  effort.<br>The same applies to citizens, who are forced to complete their profile and provide their personal data on the website of each institution whose services they wish to use.<br>
+IO solves this problem by allowing any entity with citizens’  tax code to use IO's APIs to contact users, send them documents or notices, or to read the preferences that the citizens have chosen to set.<br>
+The assurance of communicating directly with the right citizen is guaranteed by the authentication process based on SPID. If  the citizen has not yet activated the app, IO will ensure to deliver the message through the traditional channel, or will notify the service that the citizen is not yet on board.
 	</p>
 	</div>
 </section>
@@ -99,10 +99,10 @@ The certainty of communicating directly with the citizen is guaranteed by the au
 	<div class="container mw-60">
 	<h2 class="text-center">Security and privacy</h2>
 	<p class="text-justify mw-40 sicurezza__paragraph">
-	IO is an open source project. This allows us to upturn the paradigm of "security through secrecy". The application codes and backend platforms are, in fact, available to all, including those who choose to help out by reporting malfunctions and possible bugs.</p><p class="text-justified mw-40 sicurezza__paragraph">
-The code is developed by implementing OWASP best practices and tools that monitor the integrity of the requirements. However, to ensure security is a continuous process, community help is an important factor for the success of "responsible disclosure" practices.
+	IO is an open source project. This allows us to upturn the paradigm of "security through secrecy". The application codes and backend platforms are available to all, including those who choose to help by reporting malfunctions and possible bugs.</p><p class="text-justified mw-40 sicurezza__paragraph">
+The code is developed by implementing OWASP best practices and tools that monitor the integrity of the requirements. However, security is a continuous process and community help is an important factor for the success of "responsible disclosure" practices.
 </p><p class="text-justify mw-40 sicurezza__paragraph">
-Authentication occurs safely via SPID. This ensures that IO does not directly manage passwords and any update mechanisms that are delegated to the IDPs. In addition to the SPID credentials, in order to ensure a more effective user experience, the setting of a PIN will be requested and, if the device used supports the functionality, a biometric recognition mechanism. Both the PIN and the data necessary for recognition (such as a fingerprint) do not leave the device nor are they shared with third parties.
+Authentication occurs safely via SPID. This ensures that IO does not directly manage passwords and any update mechanisms that are delegated to the IDPs. In addition to the SPID credentials, in order to ensure a more effective user experience, a PIN or  a biometric recognition mechanism will be requested, if the device in use supports this functionality.. Both the PIN and the data necessary for recognition (such as a fingerprint) do not leave the device nor are they shared with third parties.
 	</p>
 	</div>
 	<div class="text-center container sicurezza__aliens">
@@ -148,10 +148,10 @@ Authentication occurs safely via SPID. This ensures that IO does not directly ma
 </h2>
 	<p class="text-center onboard__subtitle">Do you want to be amongst the first PAs to use the IO functions?</p>
 	<p class="text-center onboard__paragraph mw-50 mb-4">
-	IO is an open project, hence any public body can participate in the experiment. In the initial phase, priority will be given to citizens in the territories in which the concentration of participating entities and services is highest, and to the entities that offer services to the greatest number of citizens. Describe in the appropriate section of the forum the services that you would like to equip with the IO functions.
+	IO is an open project, hence any public body can participate. In the initial phase, priority will be given to citizens in the territories with the highest number of participating entities and services, and to the entities that offer services to the greatest number of citizens. Please, describe in the appropriate section of the forum the services that you would like to equip with the IO functions.
 	</p>
 	<div class="text-center">
-	    <a href="https://forum.italia.it/c/progetto-io/proponi-un-servizio" class="btn btn-primary mt-4 mb-4" target="_blank" rel="noopener">Take part in the experiment!</a>
+	    <a href="https://forum.italia.it/c/progetto-io/proponi-un-servizio" class="btn btn-primary mt-4 mb-4" target="_blank" rel="noopener">Be part of the experiment!</a>
 	</div>
 	</div>
 </section>
