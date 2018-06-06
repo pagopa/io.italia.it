@@ -21,7 +21,7 @@ it:
     body: "Non sappiamo ancora su quali territori e con quali servizi l’app verrà testata. La cosa da fare ora è iscriversi alla newsletter su [https://io.italia.it](https://io.italia.it), manderemo aggiornamenti attraverso quel canale quando la closed-beta inizierà."
 en:
   - title: When can I install the app?
-    body: In the summer of 2018, the first citizens testing will start. In the initial phase, we will invite a limited number of people to utilise the service; hence, it will not yet be possible for everyone to install the application directly from app stores. Subscribe to the newsletter to keep up-to-date. As the project is open source, if you are a developer you can follow the progress of the project in the repositories of the [app](https://github.com/teamdigitale/italia-app) and the [back end](https://github.com/teamdigitale/italia-backend).
+    body: In the summer of 2018, the first citizens' testing will start. In the initial phase, we will invite a limited number of people to utilise the service; hence, it will not yet be possible for everyone to install the application directly from app stores. Subscribe to the newsletter to stay up-to-date. As the project is open source, if you are a developer you can follow the progress of the project in the repositories of the [app](https://github.com/teamdigitale/italia-app) and the [back end](https://github.com/teamdigitale/italia-backend).
   - title: What services will be active when the test phase begins?
     body: This depends on where you live, since local authorities provide many services in Italy. In some areas of the country, we will integrate a number of local services during the process of testing the service. In other areas of the country, only national services will be available in the initial phase.
   - title: Will I be able to use all IO services from web browsers also?
@@ -37,6 +37,6 @@ en:
   - title: Will the app remain free?
     body: Yes, always.
   - title: Is the infrastructure on which the app is based secure?
-    body: The development of the mobile application and of all the supporting software components is carried out in compliance with the safety guidelines defined in the [Three-Year ICT Plan](http://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html). Moreover, all the software code is open source, developed thanks to the collaboration of many and overseen by the developer community, as it is open to the scrutiny of the entire IT community.
+    body: The development of the mobile application and of all the supporting software components is carried out in compliance with the safety guidelines defined in the [Three-Year ICT Plan](https://pianotriennale-ict.readthedocs.io/en/latest/doc/08_sicurezza.html). Moreover, all the software code is open source, developed thanks to the collaboration of many and overseen by the developer community, as it is open to the scrutiny of the entire IT community.
   - title: Is it possible to become Beta Tester for the app?
     body: The territories and services that will be used throughout the app testing have not yet been decided. What you can be do now is to subscribe to the newsletter via [https://io.italia.it](https://io.italia.it). We will send updates through this channel when the closed-beta tests start.
