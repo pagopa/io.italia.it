@@ -221,14 +221,14 @@ en:
     title: <h2>All <b>messages</b> from the Public Administration directly to your phone.</h2>
     desc:
       <p>Receive <b>messages</b>, alerts and communications from <b>all public entities</b>, all within a single app.</p>
-      <p>You can receive updates via email, within the app or via <b>push notifications</b> to your telephone. For every service, You decide how.</p>
+      <p>You can receive updates via email, within the app or via <b>push notifications</b> to your telephone. For every service, you decide how.</p>
       <p>Stay up-to-date on deadlines, <b>adding a reminder</b> directly to your personal calendar.</p>
       <p><b>Make direct payments</b> for services or taxes via the message without leaving the app.</p>
   home-section-3:
     title: <h2>Make all <b>payments</b>  to public administration bodies through a digital, secure and  easy-to-use tool.</h2>
     desc: 
       <p>Pay <b>all public administration bodies</b> through PagoPA.</p>
-      <p><b>Associate your credit card</b> and bank account, <b>Paypal</b> or <b>Satispay account</b>s, using them as often as you wish.</p>
+      <p><b>Associate your credit card</b> and bank account, <b>PayPal</b> or <b>Satispay accounts</b>, using them as often as you wish.</p>
       <p>Pay bills received via the post, directly through the app using a QR code.</p>
       <p>Always have your <b>transaction history</b> and the related payment receipts at hand.</p>
       <p><b>Avoid paying interest and penalties</b> by always being sure you are only paying what is actually owed.</p>
@@ -242,7 +242,7 @@ en:
   home-section-5:
     title: <h2>Set your <b>preferences</b> one time only.</h2>
     desc:
-      '<p>Select your language and email once: <b>No need tochoose your settings on every single public administration</b> site.</p>
+      '<p>Select your language and email once: <b>No need to choose your settings on every single public administration</b> site.</p>
       <p>You will choose <b>which messages</b> to receive, and <b>how to receive</b> them.</p>
       <p>You will be able to elect your <b>digital address</b> directly from the app to receive registered communications with legal value to a <b>certified email address</b>.</p>'
   home-section-6:
@@ -250,7 +250,7 @@ en:
     desc: 
       <p><b>Log in with SPID</b> for maximum security.</p>
       <p>Set a <b>PIN</b> or use your <b>fingerprint</b> to unlock the app after the first sign-in.</p>
-      <p>Keep <b>control of your personal data</b>  in full compliance with <b>GDPR regulations</b> .</p>
+      <p>Keep <b>control of your personal data</b>  in full compliance with <b>GDPR regulations</b>.</p>
       <p><b>Cancel your account</b> and your data at any time.</p>
       <p><b>Revoke</b> access authorization remotely if the <b>phone</b> is <b>stolen</b> or <b>lost</b>.</p>
   home-section-7:
@@ -335,7 +335,7 @@ en:
           - Vehicle service deadline
   home-section-8:
     title: is focused on the development of the Italian Government's application that will allow all citizens to use national and local public services from their smartphone in a simple, modern and secure way.
-    desc: It is an <b>Open Source</b> project set to grow day-by-day, involving <b>different entities and services</b>. <br>In the summer of 2018, the first tests with citizens will begin - sign up for the newsletter to keep up-to-date.
+    desc: It is an <b>Open Source</b> project set to grow day-by-day, involving <b>different entities and services</b>. <br>In the summer of 2018, the first tests with citizens will begin - sign up for the newsletter to stay up-to-date.
     placeholder: E-mail address
     button: Sign-up
   
