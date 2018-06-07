@@ -85,7 +85,46 @@
 .lang_switch {
   .dropdown-menu {
     left: auto;
-    right: 0;
-    min-width: 6rem;
+    right: -1rem;
+    width: 8rem;
+    top: 2rem;
+
+    &:before {
+      content: '\e814';
+      font-family: "italia-icon-font";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      font-variant: normal;
+      text-transform: none;
+      line-height: 0em;
+      position: absolute;
+      font-size: 1rem;
+      top: -4px;
+      right: 1rem;
+      color: #fff;
+      position: absolute;
+      margin-right: 0.2em;
+    }
+  }
+  .droid {
+    margin-right: 0.5rem;
+    background-color: #5C6F82;
+    border-radius: 50%;
+    padding: 2px;
+    
+  }
+  .active .droid {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+  }
+  .disclaimer {
+    font-size: 0.8rem;
+    color: #5C6F82;
+    padding: 6px 24px;
   }
 }
