@@ -36,7 +36,7 @@ subtitle:
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
+                    <a class="d-flex" download="mockup-io-high-bg-2.jpg" href="{{'/assets/download/mockup-io-high-bg-2.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
                         <span class="font-weight-bold">Mockup ambientato #2 jpeg - alta risoluzione</span>
                     </a>
