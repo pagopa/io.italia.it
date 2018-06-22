@@ -31,7 +31,7 @@ en:
   - title: How can I be sure that the app will continue to exist and be updated?
     body: The [Digital Administration Code](https://cad.readthedocs.io/), establishes the "telematic access point", in particular with regards to Articles [7](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo1_sezione2_art7.html) and [64-bis](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo5_sezione3_art64-bis.html). Hence, **IO** must exist "by law". Furthermore, the CAD determines that it shall become a citizen's right from the moment the app is actually available.
   - title: Will the name of the app in stores be simply "IO"?
-    body: We are not sure yet. **io.italia.it** is the name by which the project is referred internally at AgID and the Team Digitale. However the final name will depend on further analysis and data that we will collect thanks to the initial user tests.
+    body: We are not sure yet. **io.italia.it** is the name by which AgID and the Team Digitale refer internally to  the project. The official name will depend on further analysis and data that will be collected after  the initial users’ tests.
   - title: How do the PAs know whom to contact? 
     body: IO will identify the citizen thanks via their tax code. Public Administrations will be able to adopt the IO tools by using the tax code as an identifying parameter. Obviously, this tax code should already **be available** in the databases of the individual institutions, which must use the IO tools in line with their institutional mandate.
   - title: Will the app remain free?
