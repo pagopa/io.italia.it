@@ -12,8 +12,8 @@ it:
   home-section-1:
     h1: il progetto per sviluppare l'app dei servizi pubblici
     tieniti-aggiornato: 
-      <span >Nell’estate 2018 inizieranno i primi test con i cittadini
-      <br/>di alcuni territori e con alcuni enti centrali e locali.
+      <span >Nell’estate 2018 inizieranno i primi test con un focus group di cittadini 
+      <br/>e con alcuni enti centrali e locali.
       <a class="text-white" href="#newsletter"><u>Tieniti aggiornato</u></a>!</span>
   constellation-regione:
     regione: regione
@@ -183,7 +183,7 @@ en:
     h1: the project to develop the public services app.
     tieniti-aggiornato: 
       <span >In the summer of 2018, the first tests will start  with some central and local authorities
-      <br>and with the help of citizens in selected territories. <a class="text-white" href="#newsletter"><u>Stay tuned!</u></a></span>
+      <br>and with focus groups of  citizens. <a class="text-white" href="#newsletter"><u>Stay tuned!</u></a></span>
   constellation-regione:
     regione: region
     ticket: medical charges
