@@ -103,7 +103,7 @@ carillon_paths:
     duration: 1000
     is_left: true
     sound: 3
-  - name: f24
+  - name: visure
     w: 240
     h: 230
     path: 'M0,230 L0,25 C0,10 10,0 25,0 L240,0'
@@ -112,7 +112,7 @@ carillon_paths:
     duration: 1000
     is_left: true
     sound: 4
-  - name: f24
+  - name: visure
     w: 240
     h: 271
     path: 'M0,271 L0,25 C0,10 10,0 25,0 L240,0'
