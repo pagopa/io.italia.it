@@ -30,7 +30,7 @@ it:
   constellation-entrate:
     agenzia: Agenzia delle Entrate
     avvisi: avvisi
-    f24: F24
+    visure: visure catastali
     rimborsi: rimborsi
   constellation-aci:
     aci: ACI
@@ -161,7 +161,7 @@ it:
           - Scadenza revisione auto
   home-section-8:
     title: è il progetto per lo sviluppo dell'applicazione del Governo italiano che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
-    desc: 'E’ un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nell’estate 2018 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
+    desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nell’estate 2018 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
     placeholder: Indirizzo e-mail
     button: Iscriviti
     
@@ -199,7 +199,7 @@ en:
   constellation-entrate:
     agenzia: Agency of Revenue
     avvisi: notices
-    f24: F24
+    visure: land register
     rimborsi: reimbursements
   constellation-aci:
     aci: ACI
