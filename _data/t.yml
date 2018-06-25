@@ -12,7 +12,7 @@ it:
   home-section-1:
     h1: il progetto per sviluppare l'app dei servizi pubblici
     tieniti-aggiornato: 
-      <span >Nell’estate 2018 inizieranno i primi test con un focus group 
+      <span>Nell’estate 2018 inizieranno i primi test con un focus group
       <br/>di cittadini e con alcuni enti centrali e locali.
       <a class="text-white" href="#newsletter"><u>Tieniti aggiornato</u></a>!</span>
   constellation-regione:
@@ -50,6 +50,7 @@ it:
       <p>Puoi ricevere gli aggiornamenti via mail, dentro la app, o grazie alle <b>notifiche push</b> del telefono. E sei tu a deciderlo, per ogni servizio.</p>
       <p>Resta sempre aggiornato sulle scadenze e <b>aggiungi un promemoria</b> direttamente sul calendario personale.</p>
       <p><b>Completa il pagamento</b> di servizi o tributi direttamente dal messaggio, senza lasciare l’app.</p>
+    mockup: '/assets/img/mockups/it/mockup-02-messaggi.png'
   home-section-3:
     title: <h2>Tutti i <b>pagamenti</b> verso lo Stato attraverso uno strumento semplice, sicuro e digitale.</h2>
     desc: 
@@ -58,6 +59,7 @@ it:
        <p>Paga gli avvisi cartacei direttamente dall’app usando il QR code.</p>
        <p>Porta sempre con te lo <b>storico delle tue operazioni</b> e le relative ricevute di pagamento.</p>
        <p><b>Evita interessi e sanzioni</b>: sarai sempre sicuro di pagare solo quanto effettivamente dovuto.</p>'
+    mockup: '/assets/img/mockups/it/mockup-03-portafoglio.png'
   home-section-4:
     title: <h2>Tutti i <b>documenti</b> che cerchi, sempre a disposizione nella tua tasca.</h2>
     desc: 
@@ -65,12 +67,14 @@ it:
       <p><b>Condividi</b> immediatemente <b>il documento</b> con le persona o l’ufficio che preferisci.</p>
       <p><b>Richiedi certificati</b> ed altri documenti,  direttamente <b>dall’app</b>.</p>
       <p><b>Anteprima e ricerca avanzata</b>, per non perdere tempo a cercare il documento.</p>
+    mockup: '/assets/img/mockups/it/mockup-04-documenti.png'
   home-section-5:
     title: <h2>Tutte le tue <b>preferenze</b>, impostate un'unica volta.</h2>
     desc: 
       <p>Inserisci una sola volta la tua lingua e la tua email. <b>Non dovrai più impostarla</b> in ogni singolo sito della Pubblica Amministrazione</p>
       <p>Sceglierai <b>quali messaggi</b> ricevere, e <b>come</b> riceverli.</p>
       <p>Potrai eleggere direttamente dall’app il tuo <b>domicilio digitale</b>, per ricevere le raccomandate a volere legale presso un <b>indirizzo pec</b>.</p>
+    mockup: '/assets/img/mockups/it/mockup-05-preferenze.png'
   home-section-6:
     title: <h2><b>Identità</b> digitale e <b>privacy</b> sempre sotto il tuo controllo.</h2>
     desc: 
@@ -79,6 +83,7 @@ it:
       <p>Mantieni il <b>controllo dei tuoi dati personali</b> nel pieno rispetto della <b>normativa GDPR</b>.</p>
       <p>Puoi <b>cancellare il tuo account</b> ed i tuoi dati in ogni momento.</p>
       <p><b>Revoca</b> da remoto i permessi di accesso nel caso il <b>telefono</b> venga <sb>rubato o smarrito</sb>.</p>
+    mockup: '/assets/img/mockups/it/mockup-06-profilo.png'
   home-section-7:
     title: I servizi che potrai usare tramite <b>io</b>
     par1: 
@@ -224,6 +229,7 @@ en:
       <p>You can receive updates via email, within the app or via <b>push notifications</b> to your telephone. For every service, you decide how.</p>
       <p>Stay up-to-date on deadlines, <b>adding a reminder</b> directly to your personal calendar.</p>
       <p><b>Make direct payments</b> for services or taxes via the message without leaving the app.</p>
+    mockup: '/assets/img/mockups/en/mockup-02-messages.png'
   home-section-3:
     title: <h2>Make all <b>payments</b>  to public administration bodies through a digital, secure and  easy-to-use tool.</h2>
     desc: 
@@ -232,6 +238,7 @@ en:
       <p>Pay bills received via the post, directly through the app using a QR code.</p>
       <p>Always have your <b>transaction history</b> and the related payment receipts at hand.</p>
       <p><b>Avoid paying interest and penalties</b> by always being sure you are only paying what is actually owed.</p>
+    mockup: '/assets/img/mockups/en/mockup-03-wallet.png'
   home-section-4:
     title: <h2>All the <b>documents</b> you are looking for, always available in your pocket.</h2>
     desc: 
@@ -239,12 +246,14 @@ en:
       <p><b>Share the document</b> immediately with the person or office of your choice.</p>
       <p><b>Request certificates</b> and other documents directly from <b>the app</b>.</p>
       <p><b>Preview and advanced search</b> to avoid wasting time to look for a document.</p>
+    mockup: '/assets/img/mockups/en/mockup-04-documents.png'
   home-section-5:
     title: <h2>Set your <b>preferences</b> one time only.</h2>
     desc:
       '<p>Select your language and email once: <b>No need to choose your settings on every single public administration</b> site.</p>
       <p>You will choose <b>which messages</b> to receive, and <b>how to receive</b> them.</p>
       <p>You will be able to elect your <b>digital address</b> directly from the app to receive registered communications with legal value to a <b>certified email address</b>.</p>'
+    mockup: '/assets/img/mockups/en/mockup-05-preferences.png'
   home-section-6:
     title: <h2>Digital <b>identity</b> and <b>privacy</b> always under your control.</h2>
     desc: 
@@ -253,6 +262,7 @@ en:
       <p>Keep <b>control of your personal data</b>  in full compliance with <b>GDPR regulations</b>.</p>
       <p><b>Cancel your account</b> and your data at any time.</p>
       <p><b>Revoke</b> access authorization remotely if the <b>phone</b> is <b>stolen</b> or <b>lost</b>.</p>
+    mockup: '/assets/img/mockups/en/mockup-06-profile.png'
   home-section-7:
     title: The services available through <b>io</b>
     par1: 

@@ -77,7 +77,7 @@ Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà sceglie
 	</div>
 	<div class="col-md-4 text-center">
 	<div class="col__device__privacy">
-	<img src="{{ '/assets/img/screen-privacy.png' | relative_url }}" class="w-100" alt="Schermata Privacy">
+	<img src="{{ '/assets/img/mockups/it/mockup-privacy.png' | relative_url }}" class="w-100" alt="Schermata Privacy">
 	</div>
 	</div>
 	</div>
