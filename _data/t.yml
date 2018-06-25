@@ -88,7 +88,7 @@ it:
     title: I servizi che potrai usare tramite <b>io</b>
     par1: 
       '<b>IO</b> parte dai bisogni dei cittadini: lavoreremo con gli enti titolari di ciascun servizio per integrarlo nell’app.
-      <br/>Per stabilire le priorità abbiamo organizzato i servizi in base a quante persone effettivamente li potrebbero usare a quanto spesso  entrano nella vita quotidiana di ciascuno di noi. I servizi che vedi su questo sito sono solo dei possibili esempi.'
+      <br/>Per stabilire le priorità abbiamo organizzato i servizi in base a quante persone effettivamente li potrebbero usare a quanto spesso entrano nella vita quotidiana di ciascuno di noi. I servizi che vedi su questo sito sono solo dei possibili esempi.'
     par2: 
       'Per alcuni di essi abbiamo attivato una sperimentazione a livello locale o nazionale. Per quelli più complessi dovremo aspettare mesi o anni. Sicuramente altri li abbiamo dimenticati: se ti viene in mente un altro servizio che ti sembra interessante proponilo nell’<a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">apposita sezione del forum</a>.'
     map_title: Mappa di utilizzo dei servizi pubblici
@@ -178,7 +178,7 @@ en:
   agid: Agenzia per l'Italia Digitale
   collaborazione: In collaboration with
   seguici: 'Follow us on:'
-  footer_disclaimer: The services presented in the mock-ups are just examples to provide a taste of  the future application functionalities.
+  footer_disclaimer: The services presented in the mock-ups are just examples to provide a taste of the future application functionalities.
   note_legali: Legal notes
   slim_owner: 'Digital<span class="d-none d-md-inline"> Transformation</span> Team + AgID'
   slim_owner_url: https://teamdigitale.governo.it/en/
@@ -231,9 +231,9 @@ en:
       <p><b>Make direct payments</b> for services or taxes via the message without leaving the app.</p>
     mockup: '/assets/img/mockups/en/mockup-02-messages.png'
   home-section-3:
-    title: <h2>Make all <b>payments</b>  to public administration bodies through a digital, secure and  easy-to-use tool.</h2>
+    title: <h2>Make all <b>payments</b> to public administration through a digital, secure and easy-to-use tool.</h2>
     desc: 
-      <p>Pay <b>all public administration bodies</b> through PagoPA.</p>
+      <p>Pay <b>public administration</b> through PagoPA.</p>
       <p><b>Associate your credit card</b> and bank account, <b>PayPal</b> or <b>Satispay</b> accounts, using them as often as you wish.</p>
       <p>Pay bills received via the post, directly through the app using a QR code.</p>
       <p>Always have your <b>transaction history</b> and the related payment receipts at hand.</p>
@@ -259,7 +259,7 @@ en:
     desc: 
       <p><b>Log in with SPID</b> for maximum security.</p>
       <p>Set a <b>PIN</b> or use your <b>fingerprint</b> to unlock the app after the first sign-in.</p>
-      <p>Keep <b>control of your personal data</b>  in full compliance with <b>GDPR regulations</b>.</p>
+      <p>Keep <b>control of your personal data</b> in full compliance with <b>GDPR regulations</b>.</p>
       <p><b>Cancel your account</b> and your data at any time.</p>
       <p><b>Revoke</b> access authorization remotely if the <b>phone</b> is <b>stolen</b> or <b>lost</b>.</p>
     mockup: '/assets/img/mockups/en/mockup-06-profile.png'
@@ -327,7 +327,7 @@ en:
           - Tax collection portfolio
           - Judicial documents
         -
-          - Changing  residence
+          - Changing residence
           - Parental leave
           - Passport expiration date
           - Car towing
