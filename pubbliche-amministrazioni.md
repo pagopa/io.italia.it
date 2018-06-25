@@ -49,7 +49,7 @@ Fornisce infatti le principali funzioni necessarie all'interazione tra la pubbli
 <section class=" pa-schema__wrapper" >
 <h2 class="text-center">Le componenti del progetto e i soggetti che le usano</h2>
 <div class="pa-schema__inner">
-	<img class="pa-schema" src="{{ '/assets/img/schema@2x.png' | relative_url }}" alt="Schema dell'architettura">
+	<img class="pa-schema" src="{{ '/assets/img/pa-schema-architetturale.png' | relative_url }}" alt="Schema dell'architettura">
 </div>
 </section>
 

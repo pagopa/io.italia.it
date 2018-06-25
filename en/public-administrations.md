@@ -43,7 +43,7 @@ permalink: /en/public-administrations/
 <section class=" pa-schema__wrapper" >
 <h2 class="text-center">The components of the project and the subjects who use them</h2>
 <div class="pa-schema__inner">
-	<img class="pa-schema" src="{{ '/assets/img/schema@2x.png' | relative_url }}" alt="Schema dell'architettura">
+	<img class="pa-schema" src="{{ '/assets/img/pa-architectural-schema.png' | relative_url }}" alt="Architectural Schema">
 </div>
 </section>
 
