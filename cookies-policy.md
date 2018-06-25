@@ -2,6 +2,8 @@
 layout: internal
 title: Cookies Policy
 permalink: /cookies-policy/
+lang: it
+ref: 'cookies-policy'
 ---
 
 I cookies sono piccoli file di testo che i siti visitati inviano al terminale dell’Utente, dove vengono memorizzati, per poi essere ritrasmessi agli stessi siti alla visita successiva. 

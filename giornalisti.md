@@ -3,6 +3,9 @@ layout: internal
 full_width: true
 title: Informazioni per i giornalisti
 subtitle:
+lang: it
+ref: giornalisti
+permalink: /giornalisti/
 ---
 
 <section class="container mw-60">
@@ -30,51 +33,51 @@ subtitle:
             <p class="font-weight-bold">Materiale da scaricare</p>
             <ul class="list-unstyled mt-2 mt-md-5">
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
+                    <a class="d-flex" download="01-mockup-1-high.jpg" href="{{'/assets/download/it/01-mockup-1-high.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #1 jpeg - alta risoluzione</span>
+                        <span class="font-weight-bold">Mockup ambientato #1 - jpeg ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-high-bg-2.jpg" href="{{'/assets/download/mockup-io-high-bg-2.jpg' | relative_url}}">
+                    <a class="d-flex" download="02-mockup-2-high.jpg" href="{{'/assets/download/it/02-mockup-2-high.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #2 jpeg - alta risoluzione</span>
+                        <span class="font-weight-bold">Mockup ambientato #2 - jpeg ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-iphonex-transparent.png" href="{{'/assets/download/mockup-io-iphonex-transparent.png' | relative_url}}">
+                    <a class="d-flex" download="03-mockup-3-high.png" href="{{'/assets/download/it/03-mockup-3-high.png' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup iphonex trasparente png - alta risoluzione</span>
+                        <span class="font-weight-bold">Mockup iphonex trasparente - png ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="schema-architetturale@3x.png" href="{{'/assets/download/schema-architetturale@3x.png' | relative_url}}" >
+                    <a class="d-flex" download="04-schema-architetturale-high.png" href="{{'/assets/download/it/04-schema-architetturale-high.png' | relative_url}}" >
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Schema architetturale png - alta risoluzione</span>
+                        <span  class="font-weight-bold">Schema architetturale - png ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="io.italia.it-cover-high.jpg" href="{{'/assets/download/io.italia.it-cover-high.jpg' | relative_url}}">
+                    <a class="d-flex" download="05-website-cover-high.jpg" href="{{'/assets/download/it/05-website-cover-high.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">io.italia.it - cover jpeg - alta risoluzione</span>
+                        <span  class="font-weight-bold">Sito io.italia.it - jpeg ad alta risoluzione</span>
+                    </a>
+                </li>
+                <li class="mb-2 mb-md-4 pt-2 pb-2">
+                    <a class="d-flex" href="{{'/assets/download/it/io-slides.zip' | relative_url }}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                        <span  class="font-weight-bold">Pacchetto slide presentazione - jpeg FullHD</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/video/screencast-io-fullhd.mp4' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Screencast del prototipo mpg4 - fullHD</span>
+                        <span  class="font-weight-bold">Screencast del prototipo - mpg4 fullHD</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/io-slides.zip' | relative_url }}">
+                    <a class="d-flex" href="{{'/assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Pacchetto slide presentazione Jpeg FullHD</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Comunicato stampa ForumPA 2018 rtf</span>
+                        <span  class="font-weight-bold">Comunicato stampa ForumPA 2018 - rtf</span>
                     </a>
                 </li>
             </ul>
@@ -91,14 +94,15 @@ subtitle:
     </div>
     <div class="container giornalisti__slides-container mt-2 mt-md-5">
         <div class="d-flex flex-row flex-wrap giornalisti__slides-content">
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/io.italia.it-cover@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/io.italia.it-cover.jpg' | relative_url}}" alt="io.italia.it - cover"></a>
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-02-messaggi@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-02-messaggi.jpg' | relative_url}}" alt="io.italia.it - messaggi"></a>
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-03-pagamenti@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-03-pagamenti.jpg' | relative_url}}" alt="io.italia.it - pagamenti"></a>
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-04-documenti@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-04-documenti.jpg' | relative_url}}" alt="io.italia.it - documenti"></a>
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-05-preferenze@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-05-preferenze.jpg' | relative_url}}" alt="io.italia.it - preferenze"></a>
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-06-profilo@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-06-profilo.jpg' | relative_url}}" alt="io.italia.it - profilo"></a>
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-07-architettura-01@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-07-architettura-01.jpg' | relative_url}}" alt="io.italia.it - architettura 01"></a>
-            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/slide-07-architettura-02@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/small/slide-07-architettura-02.jpg' | relative_url}}" alt="io.italia.it - architettura 02"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-01-cover@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-01-cover.jpg' | relative_url}}" alt="io.italia.it - cover"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-02-messaggi@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-02-messaggi.jpg' | relative_url}}" alt="io.italia.it - messaggi"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-03-pagamenti@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-03-pagamenti.jpg' | relative_url}}" alt="io.italia.it - pagamenti"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-04-documenti@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-04-documenti.jpg' | relative_url}}" alt="io.italia.it - documenti"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-05-preferenze@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-05-preferenze.jpg' | relative_url}}" alt="io.italia.it - preferenze"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-06-profilo@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-06-profilo.jpg' | relative_url}}" alt="io.italia.it - profilo"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-07-servizi@2x.png' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-07-servizi.png' | relative_url}}" alt="io.italia.it - servizi"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-08-architettura-01@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-08-architettura-01.jpg' | relative_url}}" alt="io.italia.it - architettura 01"></a>
+            <a class="giornalisti__slides-item" href="{{'/assets/img/slides/it/slide-09-architettura-02@2x.jpg' | relative_url}}"><img src="{{'/assets/img/slides/it/small/slide-09-architettura-02.jpg' | relative_url}}" alt="io.italia.it - architettura 02"></a>
         </div>
     </div>
 </section>

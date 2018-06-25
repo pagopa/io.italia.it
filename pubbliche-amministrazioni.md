@@ -3,6 +3,9 @@ layout: internal
 full_width: true
 title: I vantaggi per la PA
 subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
+lang: it
+ref: pubbliche-amministrazioni
+permalink: /pubbliche-amministrazioni/
 ---
 
 <section class="container mw-60">
@@ -46,7 +49,7 @@ Fornisce infatti le principali funzioni necessarie all'interazione tra la pubbli
 <section class=" pa-schema__wrapper" >
 <h2 class="text-center">Le componenti del progetto e i soggetti che le usano</h2>
 <div class="pa-schema__inner">
-	<img class="pa-schema" src="{{ '/assets/img/schema@2x.png' | relative_url }}" alt="Schema dell'architettura">
+	<img class="pa-schema" src="{{ '/assets/img/pa-schema-architetturale.png' | relative_url }}" alt="Schema dell'architettura">
 </div>
 </section>
 
@@ -74,7 +77,7 @@ Il cittadino  resta padrone dei propri dati: in qualsiasi momento potrà sceglie
 	</div>
 	<div class="col-md-4 text-center">
 	<div class="col__device__privacy">
-	<img src="{{ '/assets/img/screen-privacy.png' | relative_url }}" class="w-100" alt="Schermata Privacy">
+	<img src="{{ '/assets/img/mockups/it/mockup-privacy.png' | relative_url }}" class="w-100" alt="Schermata Privacy">
 	</div>
 	</div>
 	</div>

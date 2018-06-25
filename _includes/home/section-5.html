@@ -5,19 +5,17 @@
         <div class="row">
           <div class="col my-4 section-text section-text--5 section-text--left">
             <div class="section-text__inner">
-              <h2>Tutte le tue <b>preferenze</b>, impostate un'unica volta.</h2>
+              {{t.home-section-5.title}}
             </div>
           </div>
           <div class="col__device">
             <div class="col__device__mobile">
-              <img src="{{ '/assets/img/screen5.png' | relative_url }}" class="w-100" alt="Schermata Preferenze"/>
+              <img src="{{ t.home-section-5.mockup | relative_url }}" class="w-100" alt="{{t.device.schermata}} {{t.device.preferenze}}"/>
             </div>
           </div>
           <div class="col my-4 section-text section-text--5 section-text--right">
             <div class="section-text__inner">
-              <p>Inserisci una sola volta la tua lingua e la tua email. <b>Non dovrai più impostarla</b> in ogni singolo sito della Pubblica Amministrazione</p>
-              <p>Sceglierai <b>quali messaggi</b> ricevere, e <b>come</b> riceverli.</p>
-              <p>Potrai eleggere direttamente dall’app il tuo <b>domicilio digitale</b>, per ricevere le raccomandate a valore legale presso un <b>indirizzo pec</b>.</p>
+              {{t.home-section-5.desc}}
             </div>
           </div>
         </div>
