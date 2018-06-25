@@ -31,50 +31,50 @@ permalink: /en/press/
             <p class="font-weight-bold">Media downloads</p>
             <ul class="list-unstyled mt-2 mt-md-5">
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                    <a class="d-flex" download="01-mockup-1-high.jpg" href="{{'/assets/download/en/01-mockup-1-high.jpg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span class="font-weight-bold">Photographic mock-up #1 - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                    <a class="d-flex" download="02-mockup-2-high.jpg" href="{{'/assets/download/en/02-mockup-2-high.jpg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span class="font-weight-bold">Photographic mock-up #2 - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-iphonex-transparent.png" href="{{'/assets/download/mockup-io-iphonex-transparent.png' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                    <a class="d-flex" download="03-mockup-3-high.png" href="{{'/assets/download/en/03-mockup-3-high.png' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span class="font-weight-bold">Transparent mock-up - hi-res png</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="schema-architetturale@3x.png" href="{{'/assets/download/schema-architetturale@3x.png' | relative_url}}" >
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                    <a class="d-flex" download="04-architectural-schema-high.png" href="{{'/assets/download/en/04-architectural-schema-high.png' | relative_url}}" >
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span  class="font-weight-bold">Architecture diagram - hi-res png</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="io.italia.it-cover-high.jpg" href="{{'/assets/download/io.italia.it-cover-high.jpg' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Website - hi-res jpeg</span>
+                    <a class="d-flex" download="05-website-cover-high.jpg" href="{{'/assets/download/en/05-website-cover-high.jpg' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
+                        <span  class="font-weight-bold">Website io.italia.it - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/video/screencast-io-fullhd.mp4' | relative_url}}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Prototype screencast - fullHD mpg4</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/io-slides.zip' | relative_url }}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                    <a class="d-flex" href="{{'/assets/download/en/io-slides.zip' | relative_url }}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span  class="font-weight-bold">Presentation kit - hi-res jpeg</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
+                    <a class="d-flex" href="{{'/assets/video/screencast-io-fullhd.mp4' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
+                        <span  class="font-weight-bold">Prototype screencast - fullHD mpg4 - italian language</span>
+                    </a>
+                </li>
+                <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span  class="font-weight-bold">Press release ForumPA 2018 - rtf - italian language</span>
                     </a>
                 </li>

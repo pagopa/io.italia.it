@@ -33,51 +33,51 @@ permalink: /giornalisti/
             <p class="font-weight-bold">Materiale da scaricare</p>
             <ul class="list-unstyled mt-2 mt-md-5">
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-high-bg-1.jpg" href="{{'/assets/download/mockup-io-high-bg-1.jpg' | relative_url}}">
+                    <a class="d-flex" download="01-mockup-1-high.jpg" href="{{'/assets/download/it/01-mockup-1-high.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #1 jpeg - alta risoluzione</span>
+                        <span class="font-weight-bold">Mockup ambientato #1 - jpeg ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-high-bg-2.jpg" href="{{'/assets/download/mockup-io-high-bg-2.jpg' | relative_url}}">
+                    <a class="d-flex" download="02-mockup-2-high.jpg" href="{{'/assets/download/it/02-mockup-2-high.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #2 jpeg - alta risoluzione</span>
+                        <span class="font-weight-bold">Mockup ambientato #2 - jpeg ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="mockup-io-iphonex-transparent.png" href="{{'/assets/download/mockup-io-iphonex-transparent.png' | relative_url}}">
+                    <a class="d-flex" download="03-mockup-3-high.png" href="{{'/assets/download/it/03-mockup-3-high.png' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup iphonex trasparente png - alta risoluzione</span>
+                        <span class="font-weight-bold">Mockup iphonex trasparente - png ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="schema-architetturale@3x.png" href="{{'/assets/download/schema-architetturale@3x.png' | relative_url}}" >
+                    <a class="d-flex" download="04-schema-architetturale-high.png" href="{{'/assets/download/it/04-schema-architetturale-high.png' | relative_url}}" >
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Schema architetturale png - alta risoluzione</span>
+                        <span  class="font-weight-bold">Schema architetturale - png ad alta risoluzione</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="io.italia.it-cover-high.jpg" href="{{'/assets/download/io.italia.it-cover-high.jpg' | relative_url}}">
+                    <a class="d-flex" download="05-website-cover-high.jpg" href="{{'/assets/download/it/05-website-cover-high.jpg' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">io.italia.it - cover jpeg - alta risoluzione</span>
+                        <span  class="font-weight-bold">Sito io.italia.it - jpeg ad alta risoluzione</span>
+                    </a>
+                </li>
+                <li class="mb-2 mb-md-4 pt-2 pb-2">
+                    <a class="d-flex" href="{{'/assets/download/it/io-slides.zip' | relative_url }}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                        <span  class="font-weight-bold">Pacchetto slide presentazione - jpeg FullHD</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/video/screencast-io-fullhd.mp4' | relative_url}}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Screencast del prototipo mpg4 - fullHD</span>
+                        <span  class="font-weight-bold">Screencast del prototipo - mpg4 fullHD</span>
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/io-slides.zip' | relative_url }}">
+                    <a class="d-flex" href="{{'/assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Pacchetto slide presentazione Jpeg FullHD</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
-                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span  class="font-weight-bold">Comunicato stampa ForumPA 2018 rtf</span>
+                        <span  class="font-weight-bold">Comunicato stampa ForumPA 2018 - rtf</span>
                     </a>
                 </li>
             </ul>
