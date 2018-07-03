@@ -5,6 +5,7 @@ it:
   seguici: 'Seguici su:'
   footer_disclaimer: I servizi presentati nei mockup sono esempi per far capire le future funzionalità dell’applicazione.
   note_legali: Note Legali
+  social_card_path: "/assets/img/social-card.jpg"
   slim_owner: 'Team<span class="d-none d-md-inline"> per la Trasformazione</span> Digitale + AgID'
   slim_owner_url: https://teamdigitale.governo.it/
   cookies_disclaimer: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
@@ -180,6 +181,7 @@ en:
   seguici: 'Follow us on:'
   footer_disclaimer: The services presented in the mock-ups are just examples to provide a taste of the future application functionalities.
   note_legali: Legal notes
+  social_card_path: "/assets/img/social-card-en.jpg"
   slim_owner: 'Digital<span class="d-none d-md-inline"> Transformation</span> Team + AgID'
   slim_owner_url: https://teamdigitale.governo.it/en/
   cookies_disclaimer: This site uses technical cookies, analytic cookies and third-party cookies. By continuing to browse, you accept the use of cookies
