@@ -74,7 +74,7 @@ it:
     desc: 
       <p>Inserisci una sola volta la tua lingua e la tua email. <b>Non dovrai più impostarla</b> in ogni singolo sito della Pubblica Amministrazione</p>
       <p>Sceglierai <b>quali messaggi</b> ricevere, e <b>come</b> riceverli.</p>
-      <p>Potrai eleggere direttamente dall’app il tuo <b>domicilio digitale</b>, per ricevere le raccomandate a volere legale presso un <b>indirizzo pec</b>.</p>
+      <p>Potrai eleggere direttamente dall’app il tuo <b>domicilio digitale</b>, per ricevere le raccomandate a valore legale presso un <b>indirizzo pec</b>.</p>
     mockup: '/assets/img/mockups/it/mockup-05-preferenze.png'
   home-section-6:
     title: <h2><b>Identità</b> digitale e <b>privacy</b> sempre sotto il tuo controllo.</h2>
