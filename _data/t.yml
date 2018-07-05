@@ -170,7 +170,7 @@ it:
     desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nell’estate 2018 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
     placeholder: Indirizzo e-mail
     button: Iscriviti
-    
+    privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white" href="/privacy-policy/"><u>Privacy Policy</u></a>.
 
 
 
@@ -350,4 +350,4 @@ en:
     desc: It is an <b>Open Source</b> project set to grow day-by-day, involving <b>different entities and services</b>. <br>In the summer of 2018, the first tests with citizens will begin - sign up for the newsletter to stay up-to-date.
     placeholder: E-mail address
     button: Sign-up
-  
+    privacy-policy-disclaimer: By signing up you are accepting our <a class="text-white" href="/en/privacy-policy/"><u>Privacy Policy</u></a> terms.
