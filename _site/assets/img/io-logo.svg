@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="100px" viewBox="0 0 136 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M86.5059209,82 C66.6678323,82 51.8624339,67.1179556 51.8624339,48.7600236 C51.8624339,30.4020915 66.6678323,15.5200472 86.5059209,15.5200472 C103.194602,15.5200472 118,30.4020915 118,48.7600236 C118,67.1179556 103.194602,82 86.5059209,82 Z M22.0910357,29.3962264 L33.9185843,29.3962264 C35.3279234,29.3962264 36.4704185,30.5387215 36.4704185,31.9480605 L36.4704185,76.5802413 C36.4704185,77.9895804 35.3279234,79.1320755 33.9185843,79.1320755 L22.0910357,79.1320755 C20.6816966,79.1320755 19.5392015,77.9895804 19.5392015,76.5802413 L19.5392015,31.9480605 C19.5392015,30.5387215 20.6816966,29.3962264 22.0910357,29.3962264 Z M28.00481,20.1132075 C22.479306,20.1132075 18,15.6107127 18,10.0566038 C18,4.50249487 22.479306,2.84217094e-14 28.00481,2.84217094e-14 C33.530314,2.84217094e-14 38.00962,4.50249487 38.00962,10.0566038 C38.00962,15.6107127 33.530314,20.1132075 28.00481,20.1132075 Z" id="path-1"></path>
+        <filter x="-9.0%" y="-11.0%" width="136.0%" height="143.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="9" dy="9" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="io">
+            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>
