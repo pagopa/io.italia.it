@@ -7,6 +7,11 @@
   <meta name="description" content="{{ page.description | default: site.description[current_lang] | smartify }}">
   <meta name="author" content="{{ site.authors[current_lang] }}">
   <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+
+  {%- if page.ref == 'pagina-di-esempio'- %}
+  <meta name="robots" content=" noindex, nofollow ">
+  {%- endif -%}
+  
   <title>
     {%- if page.title -%}
     {{ page.title | smartify }} – {{ site.title[current_lang] | smartify }}

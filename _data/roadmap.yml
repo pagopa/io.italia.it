@@ -1,0 +1,78 @@
+it:
+  Quarto Trimestre 2018:
+    - title: Identificazione biometrica
+      subtitle: >-
+        IO consentirà, come alternativa al PIN, di utilizzare l’identificazione
+        biometrica disponibile nel proprio dispositivo: impronta digitale oppure
+        riconoscimento facciale (solo iOS). Richiederà comunque la scelta di un
+        PIN come fallback.
+      status: todo
+    - title: Collegamento fra avvisi di pagamento e transazioni
+      subtitle: >-
+        Nel caso di messaggi contenenti avvisi di pagamento già pagati tramite IO,
+        il messaggio presenterà al posto del pulsante "paga" un segno di spunta ed
+        il link diretto alla ricevuta della specifica transazione.
+      status: todo
+    - title: Altri metodi di pagamento
+      subtitle: >-
+        Sarà possibile pagare anche attraverso Bancomat Pay, PayPal, Satispay.
+      status: todo
+    - title: Modifica indirizzo email
+      subtitle: >-
+        Sarà possibile impostare un indirizzo email diverso da quello ereditato
+        dall’account SPID.
+      status: todo
+    - title: Cancellazione dell’account
+      subtitle: >-
+        Sarà possibile eliminare completamente tutti i dati relativi al proprio
+        profilo su IO.
+      status: todo
+    - title: Esportazione dati
+      subtitle: >-
+        Tutti i dati relativi al proprio account potranno essere esportati in
+        formato aperto.
+      status: todo
+    - title: Immagini inline nei messaggi
+      subtitle: >-
+        Gli enti potranno inserire anche immagini all’interno della formattazione
+        markdown.
+      status: todo
+
+en:
+  Fourth Quarter 2018:
+    - title: Biometric identification
+      subtitle: >-
+        IO will allow, as an alternative to the PIN, to use the biometric
+        identification available in your device: fingerprint or facial
+        recognition (iOS only). It will still require the choice of a PIN as a
+        fallback.
+      status: todo
+    - title: Payment notices and transactions will be linked
+      subtitle: >-
+        In the event of messages containing payment notices already paid by IO,
+        the message will show a check mark instead of the "pay" button and a
+        direct link to the receipt of the specific transaction.
+      status: todo
+    - title: More payment methods
+      subtitle: >-
+        You will also be able to pay through Bancomat Pay, PayPal, Satispay.
+      status: todo
+    - title: Edit your email address
+      subtitle: >-
+        You will be able to set an email address that is different from the one
+        inherited from the SPID (the Italian Public Digital Identity System)
+        account.
+      status: todo
+    - title:  Account cancellation
+      subtitle: >-
+        It will be possible to completely delete all the data related to your
+        profile on IO.
+      status: todo
+    - title: Export your data
+      subtitle: >-
+        Any data related to your account can be exported in open format.
+      status: todo
+    - title: Inline images in messages
+      subtitle: >-
+        Institutions may also include images within markdown formatting.
+      status: todo
