@@ -22,7 +22,7 @@ authors:
 description: 
   it: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
   en: Receive messages, alerts and communications from all public entities, all within a single app.
-baseurl: "" # used by local & testing environment https://teamdigitale.github.io/italia-landing/
+baseurl: "" # used by local & testing environment https://teamdigitale.github.io/io.italia.it/
 url: "https://io.italia.it" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:

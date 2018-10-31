@@ -1,6 +1,6 @@
-# italia-landing
+# io.italia.it
 
-[![CircleCI](https://circleci.com/gh/teamdigitale/italia-landing.svg?style=svg)](https://circleci.com/gh/teamdigitale/italia-landing)
+[![CircleCI](https://circleci.com/gh/teamdigitale/io.italia.it.svg?style=svg)](https://circleci.com/gh/teamdigitale/io.italia.it)
 
 
 ## Licensing
