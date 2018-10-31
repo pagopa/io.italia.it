@@ -147,7 +147,7 @@
     tr > td:first-child, tr > th:first-child {
       border-right: 2px solid #d6dce3;
       font-weight: 600;
-      text-transform: uppercase; 
+      text-transform: uppercase;
       width: 15%;
 
     }
@@ -161,7 +161,7 @@
     tbody > tr:last-child td {
       border-bottom: none !important;
     }
-    
+
     ul {
       margin-left: 0;
       padding-left: 0;
@@ -174,7 +174,7 @@
 }
 
 .section__8 {
-  
+
   color: #fff;
   font-size: 1.5em;
   line-height: 1.4;
@@ -226,8 +226,11 @@
 }
 .section__9 {
   color: #fff;
-  padding-bottom: 3em;
-  padding-top: 3em;
+  &_inner {
+    position: relative;
+    padding-bottom: 5em;
+    padding-top: 5em;
+  }
 }
 #accordionDivFAQ {
   .collapse-header button {
@@ -271,6 +274,66 @@
       color: #fff;
       font-size: inherit;
       text-decoration: underline;
+    }
+  }
+}
+
+.section__10 {
+  &_inner {
+    position: relative;
+    padding-bottom: 5em;
+    padding-top: 5em;
+  }
+  .h1, .h2, .h3, p {
+    color: #5C6F82;
+  }
+  .h1 {
+    margin-bottom: 32px;
+  }
+  .activity-title {
+    font-weight: 300;
+    color: #5C6F82;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .activity-list {
+    border-left: 1px solid #CCC;
+    margin: 16px 8px;
+    padding: 0 24px;
+    list-style-type: none;
+    .activity {
+      position: relative;
+      &:after {
+        content: " ";
+        width: 32px;
+        height: 32px;
+        line-height: 16px;
+        margin: 12px;
+        background-color: #0073E6;
+        border-radius: 50%;
+        border: 8px solid #FFF;
+        display: block;
+        text-align: center;
+        color: #FFF;
+        position: absolute;
+        left: -52px;
+        top: -12px;
+        font-size: 10px;
+      }
+      .h3 {
+        font-size: 20px;
+        font-weight: 600;
+      }
+      p {
+        font-size: 16px;
+        padding: 8px 0 16px;
+      }
+    }
+    .activity--done {
+      &:after {
+        content: "✔";
+        background-color: #00C5CA;
+      }
     }
   }
 }

@@ -1,0 +1,24 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign t = site.data.t[current_lang] %}
+
+<!DOCTYPE html>
+<html lang="{{ current_lang }}" style="height:100%">
+
+  {%- include head.html -%}
+
+  <body class="layout--{{page.layout}} overflow-x--hidden text-white">
+
+    <div class="background">
+      <div class="content-wrapper">
+        <div class="content-inner">
+          <div class="content">
+            <img src="{{ '/assets/img/io-it-logo.png' | relative_url }}" alt="io" width="120px"/>
+            {{ content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+
+</html>
