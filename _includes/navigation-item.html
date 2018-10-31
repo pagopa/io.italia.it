@@ -1,7 +1,0 @@
-{% assign item = include.navigation[include.index] %}
-{% assign current_url = page.url | remove:'.html' | append:'/' %}
-{% assign current_url = current_url | replace:'//','/' %}
-
-<div class="col-12 col-md-6 text-md-center p-3 px-md-0">
-    <a {% if current_url==item.url %}class="active"{% endif %} href="{{item.url}}">{{item.label}}</a>
-</div>

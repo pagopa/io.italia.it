@@ -1,8 +1,0 @@
-{% assign target = include.target %}
-{% assign target_pages = site.pages | where: "ref", target %}
-{% assign target_page = target_pages | where: "lang", current_lang | first %}
-{% if target_page.size==nill %}
-    {% assign target_page = target_pages | where: "lang", 'it' | first %}
-{% endif %}
-
-<a href="{{target_page.url}}" class="{{include.class}}">{{include.string}}</a>
