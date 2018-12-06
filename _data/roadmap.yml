@@ -17,11 +17,6 @@ it:
       subtitle: >-
         Sarà possibile pagare anche attraverso Bancomat Pay, PayPal, Satispay.
       status: todo
-    - title: Modifica indirizzo email
-      subtitle: >-
-        Sarà possibile impostare un indirizzo email diverso da quello ereditato
-        dall’account SPID.
-      status: todo
     - title: Cancellazione dell’account
       subtitle: >-
         Sarà possibile eliminare completamente tutti i dati relativi al proprio
@@ -56,12 +51,6 @@ en:
     - title: More payment methods
       subtitle: >-
         You will also be able to pay through Bancomat Pay, PayPal, Satispay.
-      status: todo
-    - title: Edit your email address
-      subtitle: >-
-        You will be able to set an email address that is different from the one
-        inherited from the SPID (the Italian Public Digital Identity System)
-        account.
       status: todo
     - title:  Account cancellation
       subtitle: >-
