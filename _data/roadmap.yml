@@ -1,12 +1,20 @@
 it:
   Quarto Trimestre 2018:
+    - title: Demo con gli stakeholder
+      subtitle: >-
+        Un centinaio di membri delle istituzioni e di collaboratori del teamdigitale 
+        sono stati invitati a testare l'applicazione reale sui propri dispositivi. 
+        Sono stati inviati oltre venti messaggi di diverse tipologie e sono stati testati
+        i flussi di pagamento con carta di credito, sia da messaggio che partendo da QR code. 
+      status: done
+  Primo Trimestre 2019:
     - title: Identificazione biometrica
       subtitle: >-
         IO consentirà, come alternativa al PIN, di utilizzare l’identificazione
         biometrica disponibile nel proprio dispositivo: impronta digitale oppure
         riconoscimento facciale (solo iOS). Richiederà comunque la scelta di un
         PIN come fallback.
-      status: todo
+      status: done
     - title: Collegamento fra avvisi di pagamento e transazioni
       subtitle: >-
         Nel caso di messaggi contenenti avvisi di pagamento già pagati tramite IO,
@@ -27,21 +35,29 @@ it:
         Tutti i dati relativi al proprio account potranno essere esportati in
         formato aperto.
       status: todo
-    - title: Immagini inline nei messaggi
+  Secondo Trimestre 2018:
+    - title: Test su invito di una prima versione beta (closed-beta)
       subtitle: >-
-        Gli enti potranno inserire anche immagini all’interno della formattazione
-        markdown.
+        Alcuni enti territoriali e centrali inviteranno qualche migliaio di cittadini 
+        reali a testate la app. Messaggi e pagamenti saranno realmente inviati dai 
+        sistemi degli enti, e quindi saranno perfettamente validi.
       status: todo
-
+  Terzo Trimestre 2018:
+    - title: Pubblicazione della versione beta negli store
+      subtitle: >-
+        Chiunque potrà scaricare IO dagli store di Android e iOS. Il lancio dell'applicazione
+        avverrà però su base locale, nei territori in cui gli enti abbiano effettivamente 
+        integrato un numero sufficiente di servizi.
+      status: todo    
 en:
-  Fourth Quarter 2018:
+  First Quarter 2019:
     - title: Biometric identification
       subtitle: >-
         IO will allow, as an alternative to the PIN, to use the biometric
         identification available in your device: fingerprint or facial
         recognition (iOS only). It will still require the choice of a PIN as a
         fallback.
-      status: todo
+      status: done
     - title: Payment notices and transactions will be linked
       subtitle: >-
         In the event of messages containing payment notices already paid by IO,
@@ -61,7 +77,4 @@ en:
       subtitle: >-
         Any data related to your account can be exported in open format.
       status: todo
-    - title: Inline images in messages
-      subtitle: >-
-        Institutions may also include images within markdown formatting.
-      status: todo
+
