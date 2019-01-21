@@ -35,14 +35,14 @@ it:
         Tutti i dati relativi al proprio account potranno essere esportati in
         formato aperto.
       status: todo
-  Secondo Trimestre 2018:
+  Secondo Trimestre 2019:
     - title: Test su invito di una prima versione beta (closed-beta)
       subtitle: >-
         Alcuni enti territoriali e centrali inviteranno qualche migliaio di cittadini
         a testate la app. Messaggi e pagamenti saranno realmente inviati dai
         sistemi degli enti, e quindi saranno perfettamente validi.
       status: todo
-  Terzo Trimestre 2018:
+  Terzo Trimestre 2019:
     - title: Pubblicazione della versione beta negli store
       subtitle: >-
         Chiunque potrà scaricare IO dagli store di Android e iOS. Il lancio dell'applicazione
