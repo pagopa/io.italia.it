@@ -2,10 +2,10 @@ it:
   Quarto Trimestre 2018:
     - title: Demo con gli stakeholder
       subtitle: >-
-        Un centinaio di membri delle istituzioni e di collaboratori del teamdigitale 
-        sono stati invitati a testare l'applicazione reale sui propri dispositivi. 
+        Un centinaio di membri delle istituzioni e di collaboratori del Team Digitale
+        sono stati invitati a testare l'applicazione reale sui propri dispositivi.
         Sono stati inviati oltre venti messaggi di diverse tipologie e sono stati testati
-        i flussi di pagamento con carta di credito, sia da messaggio che partendo da QR code. 
+        i flussi di pagamento con carta di credito, sia da messaggio che partendo da QR code.
       status: done
   Primo Trimestre 2019:
     - title: Identificazione biometrica
@@ -38,18 +38,26 @@ it:
   Secondo Trimestre 2018:
     - title: Test su invito di una prima versione beta (closed-beta)
       subtitle: >-
-        Alcuni enti territoriali e centrali inviteranno qualche migliaio di cittadini 
-        reali a testate la app. Messaggi e pagamenti saranno realmente inviati dai 
+        Alcuni enti territoriali e centrali inviteranno qualche migliaio di cittadini
+        a testate la app. Messaggi e pagamenti saranno realmente inviati dai
         sistemi degli enti, e quindi saranno perfettamente validi.
       status: todo
   Terzo Trimestre 2018:
     - title: Pubblicazione della versione beta negli store
       subtitle: >-
         Chiunque potrà scaricare IO dagli store di Android e iOS. Il lancio dell'applicazione
-        avverrà però su base locale, nei territori in cui gli enti abbiano effettivamente 
+        avverrà però su base locale, nei territori in cui gli enti abbiano effettivamente
         integrato un numero sufficiente di servizi.
-      status: todo    
+      status: todo
 en:
+  Fourth Quarter 2018:
+    - title: Involvement of stakeholders in testing
+      subtitle: >-
+        One hundred members of the institutions and collaborators of the Digital
+        Team were invited to test the real application on their devices.
+        Over twenty messages of different types have been sent and credit card payment
+        streams, either from a message or from a QR code, have been tested.
+      status: done
   First Quarter 2019:
     - title: Biometric identification
       subtitle: >-
@@ -77,4 +85,18 @@ en:
       subtitle: >-
         Any data related to your account can be exported in open format.
       status: todo
-
+  Second Quarter 2019:
+    - title: Test by invitation of a first beta version (closed-beta)
+      subtitle: >-
+        Some local and central authorities will invite a few thousand citizens
+        to test the app. Messages and payments will actually be sent by the
+        institutions' systems, and will therefore be perfectly valid.
+      status: todo
+  Third Quarter 2019:
+    - title: Publication of the beta version in the stores
+      subtitle: >-
+        Anyone will be able to download IO from the Android and iOS stores.
+        However, the launch of the application will take place on a local basis,
+        where institutions have effectively integrated a sufficient number of
+        services.
+      status: todo
