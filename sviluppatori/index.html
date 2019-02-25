@@ -10,12 +10,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.">
   <meta name="author" content="Team per la Trasformazione Digitale & AgID">
-  <meta name="generator" content="Jekyll v3.8.3"><title>Informazioni per gli sviluppatori – IO, il progetto per sviluppare l’app dei servizi pubblici</title>
+  <meta name="generator" content="Jekyll v3.8.5"><title>Informazioni per gli sviluppatori – IO, il progetto per sviluppare l’app dei servizi pubblici</title>
 
-  <link rel="stylesheet" href="/assets/css/italia-icon-font.css?201902191129">
-  <link rel="stylesheet" href="/assets/css/bootstrap-italia.min.css?201902191129">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" integrity="sha256-FqCzNnnyXl5HxHMdb+RQ/RV/X7fqfPcQYy+G2gFL3Xk=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/assets/main.css?201902191129">
+  <link rel="stylesheet" href="/assets/css/fonts.css?201902251443">
+  <link rel="stylesheet" href="/assets/css/italia-icon-font.css?201902251443">
+  <link rel="stylesheet" href="/assets/css/vendor/bootstrap-italia.min.css?201902251443">
+
+  
+  <link rel="stylesheet" href="/assets/css/vendor/baguetteBox.min.css" />
+  <link rel="stylesheet" href="/assets/main.css?201902251443">
 
   <!-- Favicons -->
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -70,20 +73,7 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script><!-- Piwik -->
-<script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u="//italia.piwikpro.com/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '93']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
 </script>
-<!-- End Piwik Code -->
   <meta name="google-site-verification" content="BNVPPeU89nJ0EEzVBq2xufxMJsV06vVPXjsEtbqEsrE">
   
 </head>
@@ -207,19 +197,18 @@
 
   <h2 class="h3">Reference implementation</h2>
   <p>La app ed il suo backend vogliono essere un esempio da seguire per le Pubbliche Amministrazioni che si approcciano a problemi e contesti simili.</p>
-  <p>Il progetto IO vuole porsi quindi come implementazione di riferimento per l'integrazione con le piattaforme previste dal <a href="https://pianotriennale-ict.italia.it/" target="_blank">piano di trasformazione digitale della PA</a>:
+  <p>Il progetto IO vuole porsi quindi come implementazione di riferimento per l'integrazione con le piattaforme previste dal <a href="https://pianotriennale-ict.italia.it/" target="_blank">piano di trasformazione digitale della PA</a>:</p>
     <ul>
       <li><a href="https://developers.italia.it/it/spid" target="_blank">SPID</a>, il Sistema Pubblico di Identità Digitale</li>
       <li><a href="https://developers.italia.it/it/pagopa" target="_blank">PagoPA</a>, il sistema dei pagamenti a tutte le Pubbliche Amministrazioni</li>
       <li><a href="https://developers.italia.it/it/anpr" target="_blank">ANPR</a>, l'Anagrafe Nazionale della Popolazione Residente</li>
       <li>il <a href="https://pianotriennale-ict.italia.it/piattaforme-abilitanti/" target="_blank">Sistema di avvisi e notifiche di cortesia</a></li>
     </ul>
-  </p>
   <h2 class="h3 mt-5">Approccio Agile</h2>
   <p>Sia in fase di progettazione che di implementazione l’approccio scelto è quello “agile”, che ben si sposa con il contesto dinamico del progetto: tutti i requisiti e le caratteristiche non possono (e non vogliono) essere definiti completamente up-front.</p>
   <p>Analisi e progettazione si svolgono pertanto tramite l’ausilio di strumenti ormai consolidati nel mondo del privato, ma che fino ad ora hanno trovato poco spazio in quello della Pubblica Amministrazione, quali sprint settimanali, stand-up meeting, strumenti di collaborazione che permettono  la comunicazione tra i membri del team “diffuso”.</p>
   <h2 class="h3 mt-5">Strumenti per gestire il workflow</h2>
-  <p>Tutto il processo di progettazione e sviluppo dell’applicazione avviene in maniera aperta. Chiunque può monitorare il processo di sviluppo. I tool che supportano la progettazione e lo sviluppo dell’applicazione sono:
+  <p>Tutto il processo di progettazione e sviluppo dell’applicazione avviene in maniera aperta. Chiunque può monitorare il processo di sviluppo. I tool che supportano la progettazione e lo sviluppo dell’applicazione sono:</p>
     <ul>
       <li><b><a href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md#repository-github" target="_blank">Github</a></b><br />
         Tutto il codice sorgente dell’applicazione e la relativa documentazione, così come la maggior parte del codice che è necessario alla infrastruttura su cui poggia l’applicazione, sono disponibili su GitHub, la più grande piattaforma di condivisione di codice esistente.</li>
@@ -231,7 +220,6 @@
         Slack è ad oggi lo strumento più efficiente e versatile per lavorare a distanza. Ogni conversazione che riguarda il progetto di cittadinanza digitale avviene in canali slack pubblici: questo implica che chiunque voglia partecipare alla conversazione o capire come si è arrivati a determinate scelte progettuali può in ogni momento entrare, anche solo come osservatore, e leggere le conversazioni presenti e passate, e partecipare, perchè no, a quelle future.
       </li>
     </ul>
-  </p>
   <h2 class="h3 mt-5">Infrastruttura e cloud</h2>
   <p>Abbiamo compiuto scelte infrastrutturali, basate per quanto possibile su tecnologie open source, che consentono di minimizzare i blocchi dovuti ai fornitori e facilitare la migrazione verso servizi PaaS erogati da fornitori diversi in Cloud o di cui è possibile l'installazione on-premise. L’intera infrastruttura è “codificata”, documentata e riproducibile eseguendo uno script da chiunque abbia un account su Azure. Sono a piano attività volte a generalizzare le scelte infrastrutturali consentendo di migrare l’intera piattaforma presso cloud provider completamente open source.</p>
   <h2 class="h3 mt-5">Contributori</h2>
@@ -320,20 +308,33 @@
   </p>
   <p>
     <button data-accept="cookiebar" class="btn btn-primary mr-2">Accetto</button>
-    <a href="cookies-policy" class="btn btn-outline-secondary">Cookies policy</a>
+    
+
+
+
+
+<a href="/cookies-policy/" class="btn btn-outline-secondary">Cookies Policy</a>
   </p>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
-
-<script src="/assets/js/vendor/bootstrap-italia.min.js?201902191129"></script>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js" integrity="sha256-lQrWH6UPtNlJURtEYCgKDqLyBscHa/uF/nFle9bx3tI=" crossorigin="anonymous"></script>
+<script src="/assets/js/vendor/jquery.min.js"></script>
 
 
-<script async src="/assets/js/main.js?201902191129"></script>
+<script src="/assets/js/vendor/popper.min.js"></script>
+
+<script src="/assets/js/vendor/bootstrap-italia.min.js?201902251443"></script>
+
+
+
+
+<script src="/assets/js/vendor/baguetteBox.min.js"></script>
+
+
+
+<script async src="/assets/js/main.js?201902251443"></script>
+
 
   </body>
 

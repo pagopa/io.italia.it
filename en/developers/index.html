@@ -10,12 +10,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="Receive messages, alerts and communications from all public entities, all within a single app.">
   <meta name="author" content="Digital Transformation Team & AgID">
-  <meta name="generator" content="Jekyll v3.8.3"><title>Information for developers – IO, the project to develop the public services app.</title>
+  <meta name="generator" content="Jekyll v3.8.5"><title>Information for developers – IO, the project to develop the public services app.</title>
 
-  <link rel="stylesheet" href="/assets/css/italia-icon-font.css?201902191129">
-  <link rel="stylesheet" href="/assets/css/bootstrap-italia.min.css?201902191129">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" integrity="sha256-FqCzNnnyXl5HxHMdb+RQ/RV/X7fqfPcQYy+G2gFL3Xk=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/assets/main.css?201902191129">
+  <link rel="stylesheet" href="/assets/css/fonts.css?201902251443">
+  <link rel="stylesheet" href="/assets/css/italia-icon-font.css?201902251443">
+  <link rel="stylesheet" href="/assets/css/vendor/bootstrap-italia.min.css?201902251443">
+
+  
+  <link rel="stylesheet" href="/assets/css/vendor/baguetteBox.min.css" />
+  <link rel="stylesheet" href="/assets/main.css?201902251443">
 
   <!-- Favicons -->
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -70,20 +73,7 @@
         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
         a.appendChild(r);
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script><!-- Piwik -->
-<script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u="//italia.piwikpro.com/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', '93']);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
 </script>
-<!-- End Piwik Code -->
   <meta name="google-site-verification" content="BNVPPeU89nJ0EEzVBq2xufxMJsV06vVPXjsEtbqEsrE">
   
 </head>
@@ -221,7 +211,7 @@
   <p>Both in the design and implementation phases, an "agile" approach has been chosen, as it fits well with the dynamic context of the project. All of the requirements and characteristics cannot (and should not) be defined as being completely up-front.</p>
   <p>Analysis and design are thus executed with the aid of tools now consolidated in the private sector, but that until recently have served little purpose in the Public Administration, such as weekly sprints, stand-up meetings, collaboration tools that facilitate communication amongst the members of the "widespread" team.</p>
   <h2 class="h3 mt-5">Workflow management tools</h2>
-  <p>The entire process of designing and developing the application occurs in an open way. Anyone can monitor the development process. The tools that support the design and development of the application are:
+  <p>The entire process of designing and developing the application occurs in an open way. Anyone can monitor the development process. The tools that support the design and development of the application are:</p>
     <ul>
       <li><b><a href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md#repository-github" target="_blank">Github</a></b><br />
         All of the application's source code and documentation, as well as most of the code needed for the infrastructure on which the application is based, are available on GitHub, the largest code-sharing platform in existence.</li>
@@ -233,7 +223,6 @@
         Slack is the most efficient and versatile tool currently available for working remotely. Every conversation concerning the digital citizenship project takes place within public Slack channels. This means that anyone wanting to participate in the conversation or understand how certain project decisions have been made can enter, even as an observer, and read past and present conversations and even participate in future ones at any time.
       </li>
     </ul>
-  </p>
   <h2 class="h3 mt-5">Infrastructure and Cloud</h2>
   <p>As far as possible, choices regarding infrastructure have been made based on open source technologies, which reduce blockages due to suppliers and facilitate the migration to PaaS services provided by different suppliers in Cloud or for which on-premise installation is possible. The entire infrastructure is "coded", documented and reproduced following a script by anyone with an Azure account. Activities are planned to generalize infrastructural choices, allowing the entire platform to be migrated to a fully open-source cloud provider.</p>
   <h2 class="h3 mt-5">Contributors</h2>
@@ -322,20 +311,33 @@
   </p>
   <p>
     <button data-accept="cookiebar" class="btn btn-primary mr-2">I accept</button>
-    <a href="cookies-policy" class="btn btn-outline-secondary">Cookies policy</a>
+    
+
+
+
+
+<a href="/en/cookies-policy/" class="btn btn-outline-secondary">Cookies Policy</a>
   </p>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha256-98vAGjEDGN79TjHkYWVD4s87rvWkdWLHPs5MC3FvFX4=" crossorigin="anonymous"></script>
-
-<script src="/assets/js/vendor/bootstrap-italia.min.js?201902191129"></script>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js" integrity="sha256-lQrWH6UPtNlJURtEYCgKDqLyBscHa/uF/nFle9bx3tI=" crossorigin="anonymous"></script>
+<script src="/assets/js/vendor/jquery.min.js"></script>
 
 
-<script async src="/assets/js/main.js?201902191129"></script>
+<script src="/assets/js/vendor/popper.min.js"></script>
+
+<script src="/assets/js/vendor/bootstrap-italia.min.js?201902251443"></script>
+
+
+
+
+<script src="/assets/js/vendor/baguetteBox.min.js"></script>
+
+
+
+<script async src="/assets/js/main.js?201902251443"></script>
+
 
   </body>
 
