@@ -11,7 +11,7 @@
   {%- if page.ref == 'pagina-di-esempio'- %}
   <meta name="robots" content=" noindex, nofollow ">
   {%- endif -%}
-  
+
   <title>
     {%- if page.title -%}
     {{ page.title | smartify }} – {{ site.title[current_lang] | smartify }}
@@ -20,9 +20,15 @@
     {%- endif -%}
   </title>
 
+  <link rel="stylesheet" href="{{ '/assets/css/fonts.css?' | append: buildTime | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/italia-icon-font.css?' | append: buildTime | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/bootstrap-italia.min.css?' | append: buildTime | relative_url }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" integrity="sha256-FqCzNnnyXl5HxHMdb+RQ/RV/X7fqfPcQYy+G2gFL3Xk=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="{{ '/assets/css/vendor/bootstrap-italia.min.css?' | append: buildTime | relative_url }}">
+
+  {% comment %}
+  BaguetteBox 1.10.0 - Copyright © 2018 feimosi - MIT license
+  https://github.com/feimosi/baguetteBox.js
+  {% endcomment %}
+  <link rel="stylesheet" href="{{ '/assets/css/vendor/baguetteBox.min.css' }}" />
   <link rel="stylesheet" href="{{ '/assets/main.css?' | append: buildTime | relative_url }}">
 
   {% include favicons.html %}
@@ -31,7 +37,6 @@
   {%- if jekyll.environment == 'production' -%}
     {%- include analytics/google-analytics.html -%}
     {%- include analytics/hotjar.html -%}
-    {%- include analytics/piwik.html -%}
   {%- endif -%}
 
   {% if site.google_verify %}
