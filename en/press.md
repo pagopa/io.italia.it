@@ -73,7 +73,7 @@ permalink: /en/press/
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
+                    <a class="d-flex" href="{{'/assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span  class="font-weight-bold">Press release ForumPA 2018 - rtf - italian language</span>
                     </a>

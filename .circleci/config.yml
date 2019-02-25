@@ -3,7 +3,7 @@
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
 
-var_1: &cache_key v1-dependencies-{{ checksum "Gemfile.lock" }}
+var_1: &cache_key v2-dependencies-{{ checksum "Gemfile.lock" }}
 
 defaults: &defaults
   working_directory: /home/circleci/io.italia.it
