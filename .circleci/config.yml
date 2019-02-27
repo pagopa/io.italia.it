@@ -2,8 +2,11 @@
 #
 # Check https://circleci.com/docs/2.0/language-ruby/ for more details
 #
+
+var_1: &cache_key v2-dependencies-{{ checksum "Gemfile.lock" }}
+
 defaults: &defaults
-  working_directory: /home/circleci/italia-landing
+  working_directory: /home/circleci/io.italia.it
   docker:
     - image: circleci/ruby:2.4.1-node
       environment:
@@ -11,20 +14,25 @@ defaults: &defaults
         BUNDLE_RETRY: 3
         BUNDLE_PATH: vendor/bundle
         JEKYLL_ENV: production
-        WEBSITE_BRANCH: gh-pages
-        GIT_USER_EMAIL: "cittadinanzadigitale@italia.it"
+
+# we use a rw SSH key instead of the default one injected by CircleCI because we
+# use it for deploy as well
+anchor_2: &add_ssh_keys
+    fingerprints:
+      - "ab:b0:fa:6a:d8:a2:c1:83:2f:35:32:0f:04:e3:7f:5f"
 
 version: 2
 jobs:
   build:
     <<: *defaults
     steps:
+      - add_ssh_keys: *add_ssh_keys
       - checkout
 
       # Download and cache dependencies
       - restore_cache:
           keys:
-          - v1-dependencies-{{ checksum "Gemfile.lock" }}
+          - *cache_key
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
 
@@ -35,7 +43,7 @@ jobs:
       - save_cache:
           paths:
             - ./vendor/bundle
-          key: v1-dependencies-{{ checksum "Gemfile.lock" }}
+          key: *cache_key
 
       - run:
           name: Build jekyll website
@@ -45,13 +53,13 @@ jobs:
       - persist_to_workspace:
           root: /home/circleci
           paths:
-            - italia-landing
+            - io.italia.it
             # the following setting is needed in order to avoid errors
             #  with known_hosts during the deploy job (git push)
             - .ssh
 
       - store_artifacts:
-          path: /home/circleci/italia-landing/_site
+          path: /home/circleci/io.italia.it/_site
 
   test:
     <<: *defaults
@@ -68,9 +76,29 @@ jobs:
       - attach_workspace:
           at: /home/circleci
 
-      - run:
-          name: Push website to GitHub
-          command: bash ./deploy.sh
+      - add_ssh_keys: *add_ssh_keys
+
+      # Deploy the site to GitHub Pages
+      - checkout:
+          path: /tmp/gh-pages
+      - deploy:
+          name: Deploy
+          command: |
+            git config --global user.email no-reply@teamdigitale.governo.it
+            git config --global user.name "Deploy Bot"
+
+            cd /tmp/gh-pages
+            git checkout gh-pages || git checkout --orphan gh-pages
+            git rm -rf .
+
+            cp -a /home/circleci/io.italia.it/_site/. .
+            echo "io.italia.it" > CNAME
+            # copy .circleci as well so that the branch filter is honored
+            mkdir -p .circleci && cp -a /home/circleci/io.italia.it/.circleci/. .circleci/.
+
+            git add -A
+            git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}" --allow-empty
+            git push origin gh-pages
 
 workflows:
   version: 2
@@ -79,7 +107,7 @@ workflows:
       - build:
           filters:
             branches:
-              only: master
+              ignore: gh-pages
       # TODO
       # - test:
       #     requires:
@@ -92,4 +120,6 @@ workflows:
             - build
           filters:
             branches:
-              only: master
+              only:
+                - master
+                - gh-pages-deploy

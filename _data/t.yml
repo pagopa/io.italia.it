@@ -13,7 +13,7 @@ it:
   home-section-1:
     h1: il progetto per sviluppare l'app dei servizi pubblici
     tieniti-aggiornato: 
-      <span>Nell’estate 2018 inizieranno i primi test con un focus group
+      <span>Nel secondo trimestre del 2019 inizieranno i primi test con un focus group
       <br/>di cittadini e con alcuni enti centrali e locali.
       <a class="text-white" href="#newsletter"><u>Tieniti aggiornato</u></a>!</span>
   constellation-regione:
@@ -167,7 +167,7 @@ it:
           - Scadenza revisione auto
   home-section-8:
     title: è il progetto per lo sviluppo dell'applicazione del Governo italiano che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
-    desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nell’estate 2018 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
+    desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nel secondo trimestre del 2019 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
     placeholder: Indirizzo e-mail
     button: Iscriviti
     privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white" href="/privacy-policy/"><u>Privacy Policy</u></a>.
@@ -189,7 +189,7 @@ en:
   home-section-1:
     h1: the project to develop the public services app.
     tieniti-aggiornato: 
-      <span >In summer 2018, testing will start with few central and local
+      <span >In the second quarter of 2019, testing will start with few central and local
       <br>authorities and focus groups of citizens. <a class="text-white" href="#newsletter"><u>Stay tuned!</u></a></span>
   constellation-regione:
     regione: region
@@ -347,7 +347,7 @@ en:
           - Vehicle service deadline
   home-section-8:
     title: is focused on the development of the Italian Government's application that will allow all citizens to use national and local public services from their smartphone in a simple, modern and secure way.
-    desc: It is an <b>Open Source</b> project set to grow day-by-day, involving <b>different entities and services</b>. <br>In the summer of 2018, the first tests with citizens will begin - sign up for the newsletter to stay up-to-date.
+    desc: It is an <b>Open Source</b> project set to grow day-by-day, involving <b>different entities and services</b>. <br>In the second quarter of 2019, the first tests with citizens will begin - sign up for the newsletter to stay up-to-date.
     placeholder: E-mail address
     button: Sign-up
     privacy-policy-disclaimer: By signing up you are accepting our <a class="text-white" href="/en/privacy-policy/"><u>Privacy Policy</u></a> terms.
