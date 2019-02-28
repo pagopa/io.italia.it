@@ -802,7 +802,12 @@ textarea {
     text-align: center;
     color: #FFF;
     pointer-events: auto;
-    margin-top: 50px; }
+    margin-top: 28px; }
+    @media screen and (min-width: 992px) {
+      .section__1 .section-title {
+        margin-top: 56px; } }
+    .section__1 .section-title .limit-w {
+      max-width: 480px; }
     .section__1 .section-title h1 {
       font-weight: 400;
       font-size: 24px; }
@@ -1116,11 +1121,6 @@ textarea {
       .footer .social {
         text-align: left !important;
         margin-top: 1em; } }
-  .footer .agid-logo {
-    height: 56px;
-    max-width: 100%; }
-  .footer .agid-collab {
-    margin-top: 1em; }
   .footer .team-logo--icon {
     width: 72px; }
   .footer .team-logo--text {
