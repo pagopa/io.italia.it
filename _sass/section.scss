@@ -350,7 +350,13 @@
     text-align: center;
     color: $color--white;
     pointer-events: auto;
-    margin-top: 50px;
+    margin-top: 28px;
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      margin-top: 56px;
+    }
+    .limit-w {
+      max-width: 480px;
+    }
     h1 {
       font-weight: 400;
       font-size: 24px;
