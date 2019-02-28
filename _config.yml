@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 
+title:
   it: IO, il progetto per sviluppare l'app dei servizi pubblici
   en: IO, the project to develop the public services app.
-authors: 
-  it: Team per la Trasformazione Digitale & AgID
-  en: Digital Transformation Team & AgID
-description: 
+authors:
+  it: Team per la Trasformazione Digitale
+  en: Digital Transformation Team
+description:
   it: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
   en: Receive messages, alerts and communications from all public entities, all within a single app.
 baseurl: "" # used by local & testing environment https://teamdigitale.github.io/io.italia.it/
