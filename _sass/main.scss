@@ -15,12 +15,22 @@
 @import 'navigation';
 @import 'full-screen';
 @import 'loading';
+@import 'offcanvas';
 
 body {
   background-color: $color--light-grey;
   &.layout--home {
     font-size: 14px;
   }
+}
+.section {
+  padding: 0; // overrides Bootstrap Italia colliding selector
+  .table {
+    color: #5C6F82;
+  }
+}
+.text-primary {
+  color: $color--italia !important;
 }
 .bg-white {
   background-color: $color--white;
@@ -57,16 +67,7 @@ body {
 		margin-top: 4rem;
 		margin-bottom: 4rem;
 	}
-
-	h1 {
-		font-size: 3rem;
-		color: $color--italia;
-	}
 	h2 {
-		color: $color--italia;
-		font-weight: 300;
-		font-size: 1.8rem;
-		margin-top: 1rem;
 		letter-spacing: 0;
 	}
 	&__content {
@@ -274,7 +275,7 @@ body {
 		margin: 0 auto;
 		@media screen and (max-width: $grid-breakpoints-md) {
 			overflow-x: auto;
-			max-width: auto;
+			max-width: none;
 		}
 	}
 	.pa-schema {
