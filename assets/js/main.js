@@ -149,26 +149,27 @@ $(function () {
             })
         });
 
-        $('[data-toggle="offcanvas"]').on('click', function () {
-            $('.offcanvas-collapse').toggleClass('open');
-        });
-
-        // SMOOTH INTERNAL LINKS
-        $("a[href!='#']").on('click', function (event) {
-            if (this.hash !== "") {
-                event.preventDefault();
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 1000, function () {
-                    window.location.hash = hash;
-                });
-            }
-        });
-
         managePageOffset();
     }
+
+    // Off canvas menu
+    $('[data-toggle="offcanvas"]').on('click', function () {
+        $('.offcanvas-collapse').toggleClass('open');
+    });
+
+    // Smooth internal links
+    $("a[href!='#']").on('click', function (event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 1000, function () {
+                window.location.hash = hash;
+            });
+        }
+    });
 
     if (window.baguetteBox)
         window.baguetteBox.run('.giornalisti__slides-content');
