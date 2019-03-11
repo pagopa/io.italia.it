@@ -1,5 +1,17 @@
 $(function () {
 
+    function managePageOffset() {
+        if ($(window).scrollTop() > $('.section__1').height() - 50) {
+            $('body').addClass('is-scrolled');
+            if (parallaxInstance)
+                parallaxInstance.disable();
+        } else {
+            $('body').removeClass('is-scrolled');
+            if (parallaxInstance)
+                parallaxInstance.enable();
+        }
+    }
+
     if ($('body').hasClass('layout--home')) {
 
         var smallDevice = window.innerWidth < 992;
@@ -58,7 +70,7 @@ $(function () {
         // ScrollMagic
         if (window.ScrollMagic) {
             var controller = new ScrollMagic.Controller();
-            
+
             // Sezioni 2, 3, 4, 5, 6
             for (var _i = 2; _i < 7; _i++) {
                 (function (i) {
@@ -122,29 +134,24 @@ $(function () {
 
         animate(0);
 
-        $(window).on('load scroll', function () {
-            if ($(window).scrollTop() > $('.section__1').height() - 50) {
-                $('body').addClass('is-scrolled');
-                if (parallaxInstance)
-                    parallaxInstance.disable();
-            } else {
-                $('body').removeClass('is-scrolled');
-                if (parallaxInstance)
-                    parallaxInstance.enable();
-            }
+        $(window).on('scroll load', function () {
+            managePageOffset();
         });
 
         $(window).on('resize', function () {
             smallDevice = window.innerWidth < 992;
         });
+
         $('.volume').on('click', function () {
             $volumeElement = $(this).toggleClass('volume__mute');
             [].forEach.call(document.querySelectorAll("audio"), function (elem) {
                 elem.muted = $volumeElement.hasClass('volume__mute');
             })
         });
-    }
 
+        managePageOffset();
+    }
+    
     // SMOOTH INTERNAL LINKS
     $("a[href!='#']").on('click', function (event) {
         if (this.hash !== "") {
