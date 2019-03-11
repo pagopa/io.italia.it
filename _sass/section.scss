@@ -226,13 +226,15 @@
 }
 .section__9 {
   color: #fff;
+
   &_inner {
     position: relative;
     padding-bottom: 5em;
     padding-top: 5em;
   }
 }
-#accordionDivFAQ {
+
+.collapse-faq {
   .collapse-header button {
     color: #fff;
     font-size: 1.5em;
@@ -247,25 +249,28 @@
   &.collapse-div {
   border-bottom: none;
   }
-  .collapse-header[data-toggle=collapse] {
+  .collapse-header [data-toggle=collapse] {
     border-top: 1px solid rgba(255,255,255,0.16);
-
+    &:before {
+      width: 2.5rem;
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFF' d='M12 10.25L16.77 15a.75.75 0 0 0 1.06 0 .74.74 0 0 0 0-1.06l-4.77-4.75a1.51 1.51 0 0 0-2.12 0L6.17 14a.74.74 0 0 0 0 1.06.75.75 0 0 0 1.06 0z'%3E%3C/path%3E%3C/svg%3E");
+    }
+    &:hover {
+      background-color: transparent;
+    }
+    &:after {
+      position: relative;
+      margin-right: -12px;
+    }
+    &[aria-expanded=false] {
+      color: #FFF;
+    }
   }
-  .collapse-header [data-toggle=collapse]:after {
-    position: relative;
-    margin-right: -12px;
-  }
-  & > .collapse-header:first-child [data-toggle='collapse'] {
+  & > .collapse-header:first-child [data-toggle=collapse] {
     border-top: none;
     margin-top: 1em;
   }
-  .collapse-header [data-toggle=collapse][aria-expanded=true]:before {
-    display: none !important;
-  }
-  .collapse-header [data-toggle=collapse]:hover {
-    background-color: transparent;
-  }
-  .collapse-body  {
+  .collapse-body {
     font-size: 1.1em;
     line-height: 1.6;
     margin: 1.2em 0;
