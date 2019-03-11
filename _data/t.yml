@@ -4,6 +4,7 @@ it:
   seguici: 'Seguici su:'
   footer_disclaimer: I servizi presentati nei mockup sono esempi per far capire le future funzionalità dell’applicazione.
   note_legali: Note Legali
+  informativa_newsletter: Informativa newsletter
   social_card_path: "/assets/img/social-card.jpg"
   slim_owner: 'Team<span class="d-none d-md-inline"> per la Trasformazione</span> Digitale'
   slim_owner_url: https://teamdigitale.governo.it/
@@ -168,7 +169,7 @@ it:
     desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nel secondo trimestre del 2019 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
     placeholder: Indirizzo e-mail
     button: Iscriviti
-    privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white" href="/privacy-policy/"><u>Privacy Policy</u></a>.
+    privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white" href="/informativa-newsletter/"><u>informativa sul trattamento dei dati personali per la newsletter</u></a>.
 
 
 

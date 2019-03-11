@@ -14,9 +14,15 @@
       <div class="col-sm-12 col-md-4 col-lg-6">
         <div class="text-right social">
           <span>{{t.seguici}}</span>
-          <a href="https://github.com/italia/" class="small-prints px-1"><i class="icon it-github"></i>GitHub</a>
-          <a href="https://twitter.com/teamdigitaleIT" class="small-prints px-1"><i class="icon it-twitter"></i>Twitter</a>
-          <a href="https://www.linkedin.com/company/teamdigitale/" class="small-prints px-1"><i class="icon it-linkedin"></i>LinkedIn</a>
+          <a href="https://github.com/italia/" class="small-prints px-1">
+            <svg class="icon"><use xlink:href="/assets/svg/sprite.svg#it-github"></use></svg>GitHub
+          </a>
+          <a href="https://twitter.com/teamdigitaleIT" class="small-prints px-1">
+            <svg class="icon"><use xlink:href="/assets/svg/sprite.svg#it-twitter"></use></svg>Twitter
+          </a>
+          <a href="https://www.linkedin.com/company/teamdigitale/" class="small-prints px-1">
+            <svg class="icon"><use xlink:href="/assets/svg/sprite.svg#it-linkedin"></use></svg>LinkedIn
+          </a>
         </div>
       </div>
     </div><!--/row-->
@@ -24,6 +30,9 @@
       <ul class="col list-inline small">
         <li class="list-inline-item">
           {% include internal-link.html target='privacy-policy' class='small-prints' string='Privacy Policy' %}
+        </li>
+        <li class="list-inline-item">
+          {% include internal-link.html target='informativa-newsletter' class='small-prints' string=t.informativa_newsletter %}
         </li>
         <li class="list-inline-item">
           {% include internal-link.html target='cookies-policy' class='small-prints' string='Cookies Policy' %}

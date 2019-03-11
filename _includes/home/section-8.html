@@ -11,19 +11,20 @@
                 {{t.home-section-8.desc}}
           	</p>
           	<form method="GET" action="https://a0x0b4.emailsp.com/frontend/subscribe.aspx" class="newsletter-form">
-              <div class="form-row align-items-center">
+              <div class="form-group my-4">
                 <div class="input-group">
                   <div class="input-group-prepend">
-                    <span class="input-group-text bg-white input-icon it-mail"></span>
+                    <div class="input-group-text"><svg class="icon icon-sm icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-mail"></use></svg></div>
                   </div>
-                  <input type="text" name="email" class="form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
+                  <input type="email" name="email" class="form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
                   <input type="hidden" name="list" value="6">
                   <div class="input-group-append">
-                    <button type="submit" class="input-group-text bg-primary input-submit">{{t.home-section-8.button}}</button>
+                    <button type="submit" class="btn btn-primary input-submit">{{t.home-section-8.button}}</button>
                   </div>
                 </div>
               </div>
             </form>
+
             <p class="text-center">
               <small>
               {{ t.home-section-8.privacy-policy-disclaimer }}

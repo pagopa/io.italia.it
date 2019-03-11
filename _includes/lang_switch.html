@@ -3,10 +3,9 @@
 
 <div class="dropdown lang_switch mr-4 mr-md-1">
     <a class="text-uppercase text-white small" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    {{languages[current_lang].code}}
-    <i class="it-expand ml-2"></i> 
+    {{languages[current_lang].code}}<svg class="icon icon-sm icon-white"><use xlink:href="/assets/svg/sprite.svg#it-expand"></use></svg>
     </a>
-  
+
     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
         {% for l in languages %}
             {% assign target_page = pages_ref | where:"lang", l[0] | first %}
