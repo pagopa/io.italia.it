@@ -713,34 +713,37 @@ textarea {
     padding-bottom: 5em;
     padding-top: 5em; }
 
-#accordionDivFAQ .collapse-header button {
+.collapse-faq .collapse-header button {
   color: #fff;
   font-size: 1.5em;
   padding-left: 0;
   font-weight: 400 !important;
   border-top: 1px solid rgba(255, 255, 255, 0.2); }
-  #accordionDivFAQ .collapse-header button:focus {
+  .collapse-faq .collapse-header button:focus {
     outline: none !important; }
-#accordionDivFAQ.collapse-div {
+.collapse-faq.collapse-div {
   border-bottom: none; }
-#accordionDivFAQ .collapse-header[data-toggle=collapse] {
+.collapse-faq .collapse-header [data-toggle=collapse] {
   border-top: 1px solid rgba(255, 255, 255, 0.16); }
-#accordionDivFAQ .collapse-header [data-toggle=collapse]:after {
-  position: relative;
-  margin-right: -12px; }
-#accordionDivFAQ > .collapse-header:first-child [data-toggle='collapse'] {
+  .collapse-faq .collapse-header [data-toggle=collapse]:before {
+    width: 2.5rem;
+    content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23FFF' d='M12 10.25L16.77 15a.75.75 0 0 0 1.06 0 .74.74 0 0 0 0-1.06l-4.77-4.75a1.51 1.51 0 0 0-2.12 0L6.17 14a.74.74 0 0 0 0 1.06.75.75 0 0 0 1.06 0z'%3E%3C/path%3E%3C/svg%3E"); }
+  .collapse-faq .collapse-header [data-toggle=collapse]:hover {
+    background-color: transparent; }
+  .collapse-faq .collapse-header [data-toggle=collapse]:after {
+    position: relative;
+    margin-right: -12px; }
+  .collapse-faq .collapse-header [data-toggle=collapse][aria-expanded=false] {
+    color: #FFF; }
+.collapse-faq > .collapse-header:first-child [data-toggle=collapse] {
   border-top: none;
   margin-top: 1em; }
-#accordionDivFAQ .collapse-header [data-toggle=collapse][aria-expanded=true]:before {
-  display: none !important; }
-#accordionDivFAQ .collapse-header [data-toggle=collapse]:hover {
-  background-color: transparent; }
-#accordionDivFAQ .collapse-body {
+.collapse-faq .collapse-body {
   font-size: 1.1em;
   line-height: 1.6;
   margin: 1.2em 0;
   padding: 0; }
-  #accordionDivFAQ .collapse-body a {
+  .collapse-faq .collapse-body a {
     color: #fff;
     font-size: inherit;
     text-decoration: underline; }
@@ -1172,6 +1175,7 @@ textarea {
   display: block;
   width: 100%;
   z-index: 100;
+  padding: 8px 16px !important;
   color: #FFF;
   top: 0;
   background: #0066cc;
@@ -1228,12 +1232,6 @@ textarea {
       body:not(.layout--home) .navigation, body.is-scrolled .navigation {
         top: 50px; } }
 
-.offcanvas-collapse {
-  background-color: #FFF;
-  top: 50px; }
-  .offcanvas-collapse.open {
-    left: auto; }
-
 .io__icon {
   width: 36px; }
 
@@ -1241,26 +1239,11 @@ textarea {
   left: auto;
   right: -1rem;
   width: 8rem;
-  top: 2rem; }
+  top: 2rem;
+  background: #FFF;
+  border-radius: 4px; }
   .lang_switch .dropdown-menu:before {
-    content: '\e814';
-    font-family: "italia-icon-font";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 0em;
-    position: absolute;
-    font-size: 1rem;
-    top: -4px;
-    right: 1rem;
-    color: #fff;
-    position: absolute;
-    margin-right: 0.2em; }
+    display: none; }
 .lang_switch .droid {
   margin-right: 0.5rem;
   background-color: #5C6F82;
@@ -1330,10 +1313,32 @@ textarea {
 @-webkit-keyframes ellipsis {
   to {
     width: 1em; } }
+@media (max-width: 767.98px) {
+  .offcanvas-collapse {
+    background-color: #FFF;
+    top: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 1em;
+    width: 100%;
+    overflow-y: auto;
+    transition: transform .3s ease-in-out;
+    transform: translateX(100%); }
+    .offcanvas-collapse.open {
+      left: auto;
+      transform: translateX(-1rem); } }
 body {
   background-color: #FAFBFD; }
   body.layout--home {
     font-size: 14px; }
+
+.section {
+  padding: 0; }
+  .section .table {
+    color: #5C6F82; }
+
+.text-primary {
+  color: #06C !important; }
 
 .bg-white {
   background-color: #FFF; }
@@ -1368,14 +1373,7 @@ body {
   .internal-page section {
     margin-top: 4rem;
     margin-bottom: 4rem; }
-  .internal-page h1 {
-    font-size: 3rem;
-    color: #06C; }
   .internal-page h2 {
-    color: #06C;
-    font-weight: 300;
-    font-size: 1.8rem;
-    margin-top: 1rem;
     letter-spacing: 0; }
   .internal-page__content {
     margin-top: 3rem; }
@@ -1519,7 +1517,7 @@ body {
     @media screen and (max-width: 768px) {
       .internal-page .pa-schema__inner {
         overflow-x: auto;
-        max-width: auto; } }
+        max-width: none; } }
   .internal-page .pa-schema {
     max-width: 100%; }
     @media screen and (max-width: 768px) {
