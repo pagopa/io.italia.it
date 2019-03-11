@@ -12,7 +12,7 @@ it:
   home-section-1:
     h1: il progetto per sviluppare l'app dei servizi pubblici
     tieniti-aggiornato:
-      <span>Nel secondo trimestre del 2019 inizieranno i primi test con un focus group di cittadini e con alcuni enti centrali e locali.
+      <span>Nel secondo trimestre del 2019 inizierà la fase di closed-beta con un primo gruppo di cittadini ed enti centrali e locali.
       <a class="text-white" href="#newsletter"><u>Tieniti aggiornato</u></a>!</span>
   constellation-regione:
     regione: regione
@@ -186,8 +186,8 @@ en:
   home-section-1:
     h1: the project to develop the public services app.
     tieniti-aggiornato:
-      <span >In the second quarter of 2019, testing will start with few central and local
-      <br>authorities and focus groups of citizens. <a class="text-white" href="#newsletter"><u>Stay tuned!</u></a></span>
+      <span>In the second quarter of 2019 the closed-beta phase will start with a first group of citizens and central and local authorities.
+      <a class="text-white" href="#newsletter"><u>Stay tuned!</u></a></span>
   constellation-regione:
     regione: region
     ticket: medical charges

@@ -19,6 +19,14 @@
       </div>
     </div>
 
+    {% if page.redirect %}
+    <script>
+        setTimeout(function(){
+            window.location = "{{ page.redirect }}";
+        }, 3000);
+    </script>
+    {% endif %}
+
   </body>
 
 </html>
