@@ -12,20 +12,20 @@ permalink: /pubbliche-amministrazioni/
 	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
 		<p>
-		Il progetto <b>IO</b> parte dall’analisi dalle necessità dei cittadini e costituisce un vantaggio per tutti i soggetti pubblici che erogano servizi digitali.
+		Il progetto IO parte dall’analisi dalle necessità dei cittadini e costituisce un vantaggio per tutti i soggetti pubblici che erogano servizi digitali.
 Fornisce infatti le principali funzioni necessarie all'interazione tra la pubblica amministrazione e i cittadini, grazie anche all'integrazione con le piattaforme abilitanti pagoPA, ANPR e SPID.
 		</p>
-		<p>Gli enti che aderiscono al progetto potranno sfruttare le open API (Application Programming Interface) della piattaforma di <b>IO</b> per l'invio di notifiche e messaggi ai cittadini, le transazioni economiche, l’invio e la richiesta di documenti dell’utente e la gestione delle preferenze generali.
+		<p>Gli enti che aderiscono al progetto potranno sfruttare le open API (Application Programming Interface) della piattaforma di IO per l'invio di notifiche e messaggi ai cittadini, le transazioni economiche, l’invio e la richiesta di documenti dell’utente e la gestione delle preferenze generali.
 		</p><p>
 		Non sarà più necessario preoccuparsi di chiedere al cittadino di indicare e tenere aggiornato su ogni sito l’indirizzo email, il numero di cellulare, le proprie coordinate bancarie, la modalità preferita per i contatti, la lingua parlata, etc.
 		</p><p>
 		Per utilizzare il servizio l'ente, che deve avere aderito esplicitamente al progetto IO, deve disporre del codice fiscale del cittadino, e deve ovviamente essere autorizzato ad usarlo. Questo può avvenire per effettivo mandato istituzionale e/o perché il cittadino ha effettivamente sottoscritto appositi termini di utilizzo nei confronti dell'ente.
 		</p>
-		<a href="#onboard" class="font-weight-bold " >Rappresenti una PA e vuoi portare i tuoi servizi su <b>IO</b>?</a>
+		<a href="#onboard" class="font-weight-bold " >Rappresenti una PA e vuoi portare i tuoi servizi su IO?</a>
 	</div>
 	<div class="col-md-4" >
 	<aside>
-	<b>io</b> facilita a tutte le pubbliche amministrazioni:
+	IO facilita a tutte le pubbliche amministrazioni:
 		<div class="row facilita-pa">
 			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-messages.svg' | relative_url }}" alt="Messaggi"></div>
 			<div class="col-9">l’invio di notifiche e messaggi</div>

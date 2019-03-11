@@ -11,15 +11,15 @@ permalink: /en/public-administrations/
 <section class="container mw-60">
 	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
-	<p>The <b>IO</b> is based on the analysis of the citizens’ needs.  All public entities providing digital services will profit from <b>IO</b> as it provides the main functions necessary for the  interaction between the public administration and citizens, thanks also to the integration with the enabling platforms pagoPA, ANPR and SPID.</p>
-	<p>Organizations participating in the project will be able to take advantage of  the open API (Application Programming Interface) of the <b>IO</b> platform in order to  send notifications and messages to citizens, complete economic transactions, send and request user documents, and manage general preferences.</p>
+	<p>The IO project is based on the analysis of the citizens’ needs. All public entities providing digital services will profit from IO as it provides the main functions necessary for the  interaction between the public administration and citizens, thanks also to the integration with the enabling platforms pagoPA, ANPR and SPID.</p>
+	<p>Organizations participating in the project will be able to take advantage of  the open API (Application Programming Interface) of the IO platform in order to  send notifications and messages to citizens, complete economic transactions, send and request user documents, and manage general preferences.</p>
 	<p>Citizens will no longer need to provide and update their email address, mobile telephone number, bank details, preferred contact method, language spoken, etc., on each and every site.</p>
 	<p>To use the service, the institution (which must be explicitly taking part in the IO project), will need to use the citizens tax code and  must the necessary authorization to use it. The authorization is achieved through  an effective institutional mandate and/or because the citizen has signed the specific terms of use with regards to the institution.</p>
-		<a href="#onboard" class="font-weight-bold " >Do you represent a PA and want to add your services to <b>IO</b>?</a>
+		<a href="#onboard" class="font-weight-bold " >Do you represent a PA and want to add your services to IO?</a>
 	</div>
 	<div class="col-md-4" >
 	<aside>
-	<b>io</b> facilitates all Public Administrations:
+	IO facilitates all Public Administrations:
 		<div class="row facilita-pa">
 			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-messages.svg' | relative_url }}" alt="Messages"></div>
 			<div class="col-9">Sending notifications and messages</div>

@@ -85,9 +85,9 @@ it:
       <p><b>Revoca</b> da remoto i permessi di accesso nel caso il <b>telefono</b> venga <sb>rubato o smarrito</sb>.</p>
     mockup: '/assets/img/mockups/it/mockup-06-profilo.png'
   home-section-7:
-    title: I servizi che potrai usare tramite <b>io</b>
+    title: I servizi che potrai usare tramite IO
     par1:
-      '<b>IO</b> parte dai bisogni dei cittadini: lavoreremo con gli enti titolari di ciascun servizio per integrarlo nell’app.
+      'IO parte dai bisogni dei cittadini: lavoreremo con gli enti titolari di ciascun servizio per integrarlo nell’app.
       <br/>Per stabilire le priorità abbiamo organizzato i servizi in base a quante persone effettivamente li potrebbero usare a quanto spesso entrano nella vita quotidiana di ciascuno di noi. I servizi che vedi su questo sito sono solo dei possibili esempi.'
     par2:
       'Per alcuni di essi abbiamo attivato una sperimentazione a livello locale o nazionale. Per quelli più complessi dovremo aspettare mesi o anni. Sicuramente altri li abbiamo dimenticati: se ti viene in mente un altro servizio che ti sembra interessante proponilo nell’<a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">apposita sezione del forum</a>.'
@@ -264,9 +264,9 @@ en:
       <p><b>Revoke</b> access authorization remotely if the <b>phone</b> is <b>stolen</b> or <b>lost</b>.</p>
     mockup: '/assets/img/mockups/en/mockup-06-profile.png'
   home-section-7:
-    title: The services available through <b>io</b>
+    title: The services available through IO
     par1:
-      '<b>IO</b> stems from citizens’ needs. We will work with the operators of each service for integration into the app.
+      'IO stems from citizens’ needs. We will work with the operators of each service for integration into the app.
       <br>To set priorities, we organized the services on the basis of how many people could actually use them, and how often they impact upon daily lives. The services you see on this site are just a few examples.'
     par2:
       Trials at a local or national level have started for a selection of services. The more complex ones will be released in a few months or years. Undoubtedly, some possible services have been overlooked. If you think of another service that seems relevant, please make a suggestion  in the <a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">appropriate section of the forum</a>.
