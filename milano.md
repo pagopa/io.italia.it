@@ -4,7 +4,7 @@ title: Milano Design Week
 permalink: /milano/
 lang: it
 ref: 'milano'
-redirect: 'https://www.google.com'
+redirect: 'https://itdigitalteam.typeform.com/to/V9rpye'
 index: no-index
 ---
 
