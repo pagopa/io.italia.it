@@ -61,6 +61,12 @@ permalink: /en/press/
                     </a>
                 </li>
                 <li class="mb-2 mb-md-4 pt-2 pb-2">
+                    <a class="d-flex" download="closed-beta-preview.mp4" href="{{'/assets/video/closed-beta-preview.mp4' | relative_url}}">
+                        <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
+                        <span class="font-weight-bold">Closed beta preview video - fullHD mpg4</span>
+                    </a>
+                </li>
+                <li class="mb-2 mb-md-4 pt-2 pb-2">
                     <a class="d-flex" href="{{'/assets/download/en/io-slides.zip' | relative_url }}">
                         <img class="mr-3 mr-5" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="download icon">
                         <span  class="font-weight-bold">Presentation kit - hi-res jpeg</span>
@@ -80,7 +86,7 @@ permalink: /en/press/
                 </li>
             </ul>
             <p class="font-weight-bold pt-2 pt-md-4">Press office</p>
-            <p>Ludovico Poggi<br/>Email: <a href="mailto:media.teamdigitale@governo.it">media.teamdigitale@governo.it</a></p>
+            <p>Simona Mercandalli, Ludovico Poggi<br/>Email: <a href="mailto:media.teamdigitale@governo.it">media.teamdigitale@governo.it</a></p>
             </aside>
         </div>
     </div><!--/row-->

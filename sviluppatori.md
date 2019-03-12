@@ -46,7 +46,10 @@ permalink: /sviluppatori/
   <p>Contribuire a codice che è pubblico, visibile a tutti, è spesso sinonimo di una migliore qualità del codice stesso; lavorare in “open” aumenta la trasparenza e la solidità delle scelte adottate, fornendo a chiunque l’opportunità di condividere le proprie competenze e suggerire miglioramenti di processo e di sviluppo.</p>
   <p>Con il tuo contributo ad IO potrai avere un impatto concreto sul rapporto con la PA di milioni di cittadini, semplificando così la quotidianità dei tuoi familiari e amici.</p>
   <h2 class="h3 mt-5">Scopri di più, e partecipa</h2>
-  <p>Per seguire lo sviluppo di IO e partecipare puoi leggere il <a href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md" target="_blank">file di documentazione</a> che illustra in maniera estensiva come partecipare. Se vuoi semplicemente integrarti con le API di IO, l’indirizzo del portale sviluppatori è: <a href="https://developer.cd.italia.it/" target="_blank">https://developer.cd.italia.it/</a>.</p>
-  <p class="text-center"><a class="btn btn-primary" href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md">Come partecipare</a></p>
+  <p>Per seguire lo sviluppo di IO e partecipare puoi leggere il <a href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md" target="_blank">file di documentazione</a> che illustra in maniera estensiva come partecipare. Se vuoi semplicemente integrarti con le API di IO, l’indirizzo del portale sviluppatori è: <a href="https://developer.io.italia.it/" target="_blank">https://developer.cd.italia.it/</a>.</p>
+  <p class="text-center">
+    <a class="m-2 btn btn-outline-primary" href="https://developer.io.italia.it/openapi.html">Specifiche OpenAPI</a>
+    <a class="m-2 btn btn-primary" href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md">Come contribuire</a>
+  </p>
   <p>Oppure partecipa al canale <a href="https://developersitalia.slack.com/messages/CA70BM37X" target="_blank">#io-devel</a> sullo <a href="https://slack.developers.italia.it/" target="_blank">Slack di Developers Italia</a>!</p>
 </section>
