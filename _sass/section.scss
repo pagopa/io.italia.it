@@ -190,9 +190,6 @@
     padding-bottom: 2em;
     padding-top: 2em;
   }
-  .io__icon {
-    vertical-align: bottom;
-  }
   .newsletter-form {
     padding-bottom: 1em;
     padding-top: 1em;
@@ -356,16 +353,17 @@
     @media screen and (min-width: $grid-breakpoints-lg) {
       margin-top: 56px;
     }
-    .limit-w {
-      max-width: 480px;
+    .limit-w-540 {
+      max-width: 540px;
     }
     h1 {
       font-weight: 400;
       font-size: 24px;
     }
     .io-logo--top {
-      width: 32px;
-      margin-top: -4px;
+      width: 40px;
+      padding: 0 4px;
+      vertical-align: baseline;
     }
   }
 }
