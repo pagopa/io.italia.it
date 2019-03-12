@@ -20,7 +20,7 @@ permalink: /sviluppatori/
       <li><a href="https://developers.italia.it/it/spid" target="_blank">SPID</a>, il Sistema Pubblico di Identità Digitale</li>
       <li><a href="https://developers.italia.it/it/pagopa" target="_blank">PagoPA</a>, il sistema dei pagamenti a tutte le Pubbliche Amministrazioni</li>
       <li><a href="https://developers.italia.it/it/anpr" target="_blank">ANPR</a>, l'Anagrafe Nazionale della Popolazione Residente</li>
-      <li>il <a href="https://pianotriennale-ict.italia.it/piattaforme-abilitanti/" target="_blank">Sistema di avvisi e notifiche di cortesia</a></li>
+      <li>il <a href="https://pianotriennale-ict.italia.it/piattaforme/" target="_blank">Sistema di avvisi e notifiche di cortesia</a></li>
     </ul>
   <h2 class="h3 mt-5">Approccio Agile</h2>
   <p>Sia in fase di progettazione che di implementazione l’approccio scelto è quello “agile”, che ben si sposa con il contesto dinamico del progetto: tutti i requisiti e le caratteristiche non possono (e non vogliono) essere definiti completamente up-front.</p>
