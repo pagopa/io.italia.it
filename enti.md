@@ -1,6 +1,7 @@
 ---
 layout: internal
 title: Enti partecipanti alla closed beta
+description: Comuni, regioni e agenzie centrali che hanno confermato l’intenzione di partecipare al progetto IO
 permalink: /enti/
 lang: it
 ref: 'enti'
