@@ -1,0 +1,20 @@
+---
+layout: internal
+title: Enti partecipanti alla closed beta
+permalink: /enti/
+lang: it
+ref: 'enti'
+---
+
+Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase di closed beta con i cittadini: sono aperte molte conversazioni con altre agenzie centrali e enti su tutto il territorio nazionale, quindi questa lista è in continuo aggiornamento!
+
+* [ACI](http://www.aci.it/)
+* [Agenzia delle entrate-Riscossione](https://www.agenziaentrateriscossione.gov.it/it/)
+* [Regione Veneto](http://www.regione.veneto.it/)
+* [Comune di Milano](https://www.comune.milano.it/)
+* [Comune di Torino](http://www.comune.torino.it/)
+* [Comune di Valsamoggia](https://www.comune.valsamoggia.bo.it/)
+* [Comune di Cesena](http://www.comune.cesena.fc.it/)
+* [Comune di Palermo](https://www.comune.palermo.it/)
+* [Comune di Cagliari](https://www.comune.cagliari.it/)
+* [Comune di Brescia](http://www.comune.brescia.it/)
