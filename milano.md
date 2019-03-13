@@ -1,6 +1,6 @@
 ---
 layout: full-screen
-title: Milano Design Week
+title: Milano Digital Week
 permalink: /milano/
 lang: it
 ref: 'milano'
