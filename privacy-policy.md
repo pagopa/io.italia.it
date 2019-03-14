@@ -60,8 +60,6 @@ La base giuridica del trattamento dei soli dati raccolti tramite cookies analiti
 
 Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indicate, alcuni dati personali anche a soggetti terzi che forniscono un servizio al titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento. L’elenco dei responsabili del trattamento può essere richiesto al Titolare in qualsiasi momento, scrivendo a [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
 
-I dati personali raccolti sono altresì trattati dal personale del Garante, che agisce sulla base di specifiche istruzioni fornite in ordine a finalità e modalità del trattamento medesimo.
-
 ### Diritti degli interessati
  
 Gli interessati hanno il diritto di ottenere, nei casi previsti,  l'accesso ai propri dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. 15 e ss. del Regolamento). Tali richieste potranno essere indirizzate al Titolare, scrivendo a [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it). 
