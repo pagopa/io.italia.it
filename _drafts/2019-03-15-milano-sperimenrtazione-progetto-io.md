@@ -23,19 +23,11 @@ Tra gli enti che aderiscono alla sperimentazione sul territorio nazionale, **il 
 
 «_La app che useranno i beta-tester è un work in progress, quindi sarà oggetto di frequenti aggiornamenti nel corso del tempo_», aggiunge Matteo De Santi. «_Durante la sperimentazione, chiederemo ai cittadini di inviarci feedback precisi e con un approccio costruttivo. Per questo, è importante che abbiano chiaro il proprio ruolo di contributor del progetto IO - prima ancora di fruitori dell’app - consapevoli del valore del proprio impegno per far evolvere uno dei pilastri della trasformazione digitale della Pubblica Amministrazione italiana_».  
 
-L’invito ai milanesi a partecipare alla closed-beta dell’app IO arriva nel contesto della Digital Week, declinando appieno il significato di “Intelligenza urbana” prescelto come tema portante di questa edizione.
-
---- «Inserire virgolettato...»,
-
-afferma **Roberta Cocco**, Assessore alla Trasformazione Digitale e Servizi Civici del Comune di Milano.
+L’invito ai milanesi a partecipare alla closed-beta dell’app IO arriva nel contesto della Digital Week, declinando appieno il significato di “Intelligenza urbana” prescelto come tema portante di questa edizione. «_Continua la stretta collaborazione tra Team Digitale e Comune di Milano, che adesso si concretizza in un nuovo progetto. Non è un caso che la sperimentazione sul territorio parta proprio da Milano, città in piena trasformazione digitale che può contare su cittadini e city user che apprezzano la tecnologia - in special modo in versione mobile - soprattutto quando permette loro di accedere facilmente ai servizi, evitando per esempio code agli sportelli o lunghi spostamenti in città. A loro è rivolto il mio invito a candidarsi per offrire contributi preziosi alla realizzazione di questo ambizioso progetto_», afferma **Roberta Cocco**, Assessore alla Trasformazione Digitale e Servizi Civici del Comune di Milano.
 
 Come diventare beta-tester? 
 I cittadini che desiderano partecipare alla sperimentazione sul territorio milanese, devono essere residenti nel capoluogo lombardo, avere uno smartphone Android o iOS ed essere in possesso di un’identità digitale [SPID](https://www.spid.gov.it/) per accedere all’app. Per candidarsi, è sufficiente compilare il **modulo online** disponibile al link [io.italia.it/milano](https://io.italia.it/milano/) inserendo il **codice invito 1003**. Inserire questo codice invito consentirà ai cittadini di avere la priorità su altri eventuali partecipanti al test.
 
 Dai primi giorni di aprile, i tester riceveranno le istruzioni per scaricare l’app. Non tutti i cittadini che ne faranno richiesta potranno partecipare da subito alla sperimentazione. Il bacino di utenti della versione _beta_ di IO sarà ampliato progressivamente, così da consentire agli sviluppatori del Team Digitale di tenere sotto controllo la risposta dei sistemi e dell'infrastruttura del progetto, nonché l’integrazione dei vari servizi. 
 
----
-
-Nei prossimi mesi, la closed beta entrerà nel vivo anche in altre città e regioni, grazie all’adesione di enti locali e centrali su tutto il territorio.
-
-L'[articolo 64-bis del Codice dell’Amministrazione Digitale](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo5_sezione3_art64-bis.html) assegna alla Presidenza del Consiglio dei Ministri la responsabilità di attivare il “**punto di accesso telematico**” attraverso cui tutti gli enti pubblici centrali e locali “rendono fruibili i propri servizi”. È questa la sfida che il Team per la Trasformazione Digitale ha raccolto con il progetto IO, con l’obiettivo di semplificare l’interazione tra i cittadini e la Pubblica Amministrazione. 
+Nei prossimi mesi, la closed beta entrerà nel vivo anche in altre città e regioni, grazie all’adesione di enti locali e centrali su tutto il territorio. 
