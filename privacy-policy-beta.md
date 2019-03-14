@@ -4,9 +4,10 @@ title: Informativa sul trattamento dei dati personali
 permalink: /privacy-policy-beta/
 lang: it
 ref: 'privacy-policy-beta'
+index: no-index
 ---
 
-La presente informativa, resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”), descrive le modalità del trattamento dei dati personali di coloro che si candidano alla sperimentazione closed beta dell’[applicazione mobile IO](https://io.italia.it/) compilando l’[apposito modulo di iscrizione](https://itdigitalteam.typeform.com/to/V9rpye) (di seguito, anche gli “Iscritti”), nonché di coloro, tra gli iscritti, che verranno selezionati per la sperimentazione (di seguito, anche gli “Selezionati”). 
+La presente informativa, resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”), descrive le modalità del trattamento dei dati personali di coloro che si candidano alla sperimentazione closed beta dell’[applicazione mobile IO](https://io.italia.it/) compilando l’apposito modulo di iscrizione (di seguito, anche gli “Iscritti”), nonché di coloro, tra gli iscritti, che verranno selezionati per la sperimentazione (di seguito, anche gli “Selezionati”). 
 
 Ti segnaliamo che la presente informativa non descrive invece: 
 
