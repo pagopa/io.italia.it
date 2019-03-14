@@ -1,6 +1,6 @@
 ---
 layout: internal
-title: Informativa sul trattamento dei dati personali
+title: Informativa sul trattamento dei dati personali dei cittadini che si iscrivono alla closed beta
 permalink: /privacy-policy-beta/
 lang: it
 ref: 'privacy-policy-beta'
