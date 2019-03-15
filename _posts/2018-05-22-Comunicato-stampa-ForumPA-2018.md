@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 ### Nasce IO, il progetto per sviluppare l'app dei servizi pubblici
 
-Il Team per la Trasformazione Digitale presso la Presidenza del Consiglio dei Ministri annuncia la nascita di IO, progetto per lo sviluppo della app dei servizi pubblici che consentirà al cittadino di gestire il rapporto con le Pubbliche Amministrazioni e che avvierà una fase di test con alcuni cittadini e alcune amministrazioni in estate.
+_Il Team per la Trasformazione Digitale presso la Presidenza del Consiglio dei Ministri annuncia la nascita di IO, progetto per lo sviluppo della app dei servizi pubblici che consentirà al cittadino di gestire il rapporto con le Pubbliche Amministrazioni e che avvierà una fase di test con alcuni cittadini e alcune amministrazioni in estate._
 
 Segui il progetto su [io.italia.it](https://io.italia.it) - **#progettoIO**
 

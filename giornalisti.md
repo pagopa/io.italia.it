@@ -41,60 +41,17 @@ permalink: /giornalisti/
 	        <aside class="mt-0 mt-md-5 pt-3 pt-md-5 pb-3 pb-md-5">
             <p class="font-weight-bold">Materiale da scaricare</p>
             <ul class="list-unstyled mt-2 mt-md-5">
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="01-mockup-1-high.jpg" href="{{'/assets/download/it/01-mockup-1-high.jpg' | relative_url}}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #1 - jpeg ad alta risoluzione</span>
+                {% for download in site.data.downloads[page.lang] %}
+                <li class="mb-2 pt-2 pb-2">
+                    <a class="d-flex" download="{{ download.name }}" href="{{ download.asset | relative_url}}">
+                        <img class="icon mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                        <p>
+                        <span class="font-weight-bold">{{ download.description }}</span><br/>
+                        <span class="small">{{ download.type }}</span>
+                        </p>
                     </a>
                 </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="02-mockup-2-high.jpg" href="{{'/assets/download/it/02-mockup-2-high.jpg' | relative_url}}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup ambientato #2 - jpeg ad alta risoluzione</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="03-mockup-3-high.png" href="{{'/assets/download/it/03-mockup-3-high.png' | relative_url}}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Mockup iphonex trasparente - png ad alta risoluzione</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="04-schema-architetturale-high.png" href="{{'/assets/download/it/04-schema-architetturale-high.png' | relative_url}}" >
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Schema architetturale - png ad alta risoluzione</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="05-website-cover-high.jpg" href="{{'/assets/download/it/05-website-cover-high.jpg' | relative_url}}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Sito io.italia.it - jpeg ad alta risoluzione</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" download="closed-beta-anteprima.mp4" href="{{'/assets/video/closed-beta-anteprima.mp4' | relative_url}}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Video preview della closed beta - mpg4 fullHD</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/it/io-slides.zip' | relative_url }}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Pacchetto slide presentazione - jpeg FullHD</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/video/screencast-io-fullhd.mp4' | relative_url}}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Screencast del prototipo - mpg4 fullHD</span>
-                    </a>
-                </li>
-                <li class="mb-2 mb-md-4 pt-2 pb-2">
-                    <a class="d-flex" href="{{'/assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf' | relative_url }}">
-                        <img class="mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
-                        <span class="font-weight-bold">Comunicato stampa ForumPA 2018 - rtf</span>
-                    </a>
-                </li>
+                {% endfor %}
             </ul>
             <p class="font-weight-bold pt-2 pt-md-4">Ufficio stampa</p>
             <p>Simona Mercandalli,<br/>Ludovico Poggi<br/>Email: <a href="mailto:media.teamdigitale@governo.it">media.teamdigitale@governo.it</a></p>
