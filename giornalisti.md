@@ -22,7 +22,9 @@ permalink: /giornalisti/
                               <div><span class="data">{% include date.html date=post.date %}</span></div>
                             </div>
                           </div>
-                          <h5 class="card-title big-heading">{{ post.title }}</h5>
+                          <h5 class="card-title big-heading">
+                            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                          </h5>
                           <p class="card-text">{{ post.excerpt }}</p>
                           <span class="card-signature">{{ post.author }}</span>
                           <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">
