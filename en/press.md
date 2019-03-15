@@ -54,7 +54,7 @@ permalink: /en/press/
                 {% endfor %}
             </ul>
             <p class="font-weight-bold pt-2 pt-md-4">Press office</p>
-            <p>Simona Mercandalli,<br/>Ludovico Poggi<br/>Email: <a href="mailto:media.teamdigitale@governo.it">media.teamdigitale@governo.it</a></p>
+            <p>Gianluca Di Tommaso,<br/>Simona Mercandalli,<br/>Ludovico Poggi<br/>Email: <a href="mailto:media.teamdigitale@governo.it">media.teamdigitale@governo.it</a></p>
             </aside>
         </div>
     </div><!--/row-->
