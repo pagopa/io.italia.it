@@ -4,6 +4,7 @@ title: Comunicato stampa Gennaio 2019
 lang: it
 ref: comunicato-stampa-gennaio-2019
 excerpt_separator: <!--more-->
+download_link: "/assets/download/it/io-comunicato-stampa-gennaio-2019.rtf"
 ---
 
 ### IO, l’app dei servizi pubblici, negli store entro fine anno
@@ -27,3 +28,6 @@ Nel post sul blog vengono quindi delineati i prossimi passi della sperimentazion
 «_L'[articolo 64-bis del Codice dell’Amministrazione Digitale](https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo5_sezione3_art64-bis.html) assegna alla Presidenza del Consiglio dei Ministri la responsabilità di attivare il “punto di accesso telematico” attraverso cui tutti gli enti pubblici “rendono fruibili i propri servizi”_» aggiunge Matteo De Santi, «_è questa la sfida che il Team per la Trasformazione Digitale ha raccolto con il progetto IO_» citando nel post il ruolo fondamentale di cittadini, Comuni, Regioni, agenzie ed enti centrali senza i quali questo progetto non sarebbe stato possibile.
 
 «_Il progetto IO_» conclude il Chief Product & Design Officer del Team per la Trasformazione Digitale «_vuole quindi rappresentare anche un modo diverso e innovativo di concepire una nuova piattaforma digitale: un pezzo del [“sistema operativo” del Paese](https://medium.com/team-per-la-trasformazione-digitale/nuovo-sistema-operativo-paese-competenze-tecnologiche-programmi-be0d71b3f84b) che, prima ancora della tecnologia, mette al centro le persone ed i loro bisogni_».
+
+{% include press-release-download.html %}
+

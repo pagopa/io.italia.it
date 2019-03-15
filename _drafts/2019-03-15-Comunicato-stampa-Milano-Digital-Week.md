@@ -5,6 +5,7 @@ description: Il Comune di Milano, primo ente ad avviare la sperimentazione sul t
 lang: it
 ref: comunicato-stampa-milano-digital-week
 excerpt_separator: <!--more-->
+download_link: /assets/download/it/io-comunicato-stampa-milano-digital-week.rtf
 ---
 
 ### IO, l’app dei servizi pubblici, alla prova dei milanesi
@@ -33,3 +34,5 @@ I cittadini che desiderano partecipare alla sperimentazione sul territorio milan
 Dai primi giorni di aprile, i tester riceveranno le istruzioni per scaricare l’app. Non tutti i cittadini che ne faranno richiesta potranno partecipare da subito alla sperimentazione. Il bacino di utenti della versione _beta_ di IO sarà ampliato progressivamente, così da consentire agli sviluppatori del Team Digitale di tenere sotto controllo la risposta dei sistemi e dell'infrastruttura del progetto, nonché l’integrazione dei vari servizi. 
 
 Nei prossimi mesi, la closed beta entrerà nel vivo anche in altre città e regioni, grazie all’adesione di enti locali e centrali su tutto il territorio. 
+
+{% include press-release-download.html %}

@@ -4,6 +4,7 @@ title: Comunicato stampa ForumPA 2018
 lang: it
 ref: comunicato-stampa-ForumPA-2018
 excerpt_separator: <!--more-->
+download_link: /assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf
 ---
 
 ### Nasce IO, il progetto per sviluppare l'app dei servizi pubblici
@@ -30,3 +31,5 @@ _“Stiamo lavorando alle piattaforme abilitanti, quei componenti necessari, ma 
 IO parte dall’analisi dalle necessità dei cittadini, ma costituisce un vantaggio anche per tutti i soggetti pubblici che erogano servizi digitali. Il progetto mette infatti a disposizione, anche grazie all’integrazione di PagoPA, ANPR e SPID, la maggior parte delle funzioni che sono comuni a tutti i servizi della Pubblica Amministrazione.
 
 _“IO è un progetto aperto”_ dice **Matteo De Santi**, responsabile UX/UI & Product Design del Team per la Trasformazione Digitale, _“qualunque ente pubblico può partecipare alla sperimentazione, anzi, è invitato a farlo. IO è pensato con una logica open source, cioè tutto il processo di realizzazione sia della app che dell’infrastruttura è completamente pubblica, e chiunque può vedere come la stiamo portando avanti e darci una mano. Il Team per la Trasformazione Digitale, inoltre, sta utilizzando tecnologie e metodologie che ci auguriamo costituiscano delle best practices per tutti i servizi digitali del nostro Paese”_.
+
+{% include press-release-download.html %}
