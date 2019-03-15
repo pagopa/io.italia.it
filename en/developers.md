@@ -49,7 +49,7 @@ permalink: /en/developers/
   <p>Contributing to public coding that is visible to all is often synonymous with a better quality of the code itself. Working in an "open" manner increases the transparency and solidity of the choices made, giving everyone the opportunity to share their skills and suggest improvements in the process and development.</p>
   <p>Contributing to IO means having a concrete impact on the relationship with the PA of millions of citizens, thus simplifying the daily life of family and friends.</p>
   <h2 class="h3 mt-5">Find out more and take part</h2>
-  <p>To follow the development of IO and to participate, you can read the documentation file that illustrates in detail how to participate.  If you simply want to integrate with IO’s API, the address of the developer portal is: <a href="https://developer.io.italia.it/" target="_blank">https://developer.cd.italia.it/</a>.</p>
+  <p>To follow the development of IO and to participate, you can read the documentation file that illustrates in detail how to participate.  If you simply want to integrate with IO’s API, the address of the developer portal is: <a href="https://developer.io.italia.it/" target="_blank">developer.io.italia.it</a>.</p>
   <p class="text-center">
     <a class="m-2 btn btn-outline-primary" href="https://developer.io.italia.it/openapi.html">OpenAPI specs</a>
     <a class="m-2 btn btn-primary" href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md">How to participate</a>
