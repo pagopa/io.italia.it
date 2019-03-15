@@ -4,7 +4,7 @@
 <meta name="twitter:creator" content="{{ site.authors[current_lang] }}">
 <meta name="twitter:title" content="{{ page.title | default: site.title[current_lang] | smartify }}">
 <meta name="twitter:description" content="{{ page.description | default: site.description[current_lang] | smartify }}">
-<meta name="twitter:image" content="{% if page.title %}{{ site.baseurl | append: site.social_logo_path }}{% else %}{{ site.baseurl | append: t.social_card_path }}{% endif %}">
+<meta name="twitter:image" content="{{ site.baseurl | append: t.social_card_path }}">
 
 <!-- Facebook -->
 <meta property="og:url" content="{{ site.url | append: page.url }}">
