@@ -1,6 +1,6 @@
 ---
 layout: full-screen
-title: Milano Digital Week
+title: IO closed beta - Milano Digital Week
 permalink: /milano/
 lang: it
 ref: 'milano'
