@@ -10,7 +10,7 @@ GEM
       public_suffix (>= 2.0.2, < 4.0)
     colorator (1.1.0)
     colorize (0.8.1)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.1.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -44,16 +44,16 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.9.3)
-      jekyll (~> 3.3)
+    jekyll-feed (0.12.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.4.0)
       jekyll (~> 3.3)
-    jekyll-watch (2.1.2)
+    jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (1.17.0)
-    liquid (4.0.1)
+    liquid (4.0.3)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -95,7 +95,7 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 3.8.5)
-  jekyll-feed (~> 0.6)
+  jekyll-feed (~> 0.12)
   minima (~> 2.5)
   tzinfo-data
 
