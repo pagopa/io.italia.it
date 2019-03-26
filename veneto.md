@@ -1,6 +1,6 @@
 ---
 layout: full-screen
-title: IO closed beta - Veneto
+title: Progetto IO - Regione Veneto - Social Design PA
 permalink: /veneto/
 lang: it
 ref: 'veneto'
