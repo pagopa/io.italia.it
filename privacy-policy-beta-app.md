@@ -13,7 +13,7 @@ index: no-index
  
 _Su queste informazioni, se vuoi, ci piacerebbe avere il tuo feedback._
 
-* **Tutti i servizi** degli enti aderenti alla sperimentazione disponibili su IO **sono abilitati di _default_**. Se non desideri ricevere messaggi da alcuni di questi servizi potrai **disabilitarli andando su “Elenco dei servizi”.
+* **Tutti i servizi** degli enti aderenti alla sperimentazione disponibili su IO **sono abilitati di _default_**. Se non desideri ricevere messaggi da alcuni di questi servizi potrai **disabilitarli andando su “Elenco dei servizi”**.
 * Quando un servizio è attivo riceverai comunicazioni da parte di quel servizio nella Sezione “Messaggi” e, qualora tu abbia accettato di ricevere le notifiche push, anche tramite tali notifiche. **Potrai abilitare/disabilitare le notifiche push di ciascun servizio andando sulla relativa scheda del servizio**; 
 * Quando un servizio è attivo riceverai di _default_ le comunicazioni anche via email. Potrai attivare/disattivare l’invio delle email dalla scheda di ciascun servizio;  
 * **Se hai fornito il tuo consenso** all’atto di iscrizione alla sperimentazione, riceverai anche i servizi di enti aderenti diversi rispetto all’ente che ti ha invitato** (es. il tuo Comune di residenza). Anche in questo caso, potrai **disabilitare in qualsiasi momento i servizi che non vuoi ricevere nella sezione “Elenco dei servizi”**;
