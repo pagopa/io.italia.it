@@ -21,7 +21,7 @@ _Su queste informazioni, se vuoi, ci piacerebbe avere il tuo feedback._
 
 Qui sotto trovi l’informativa completa su come trattiamo i tuoi dati. L’informativa è anche disponibile in ogni momento nella sezione “Profilo” sotto “Privacy”. Troverai anche informative specifiche sui singoli servizi nelle relative schede servizio disponibili nell’app IO.
 
-**I tuoi feedback sono importanti per migliorare lvapp IO, anche sulle questioni privacy!** Se qualcosa che riguarda la tua privacy nell’app IO non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici usando gli appositi strumenti in-app che trovi in alto a destra (icona chat e icona coccinella), oppure scrivendo un’email a [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
+**I tuoi feedback sono importanti per migliorare l’app IO, anche sulle questioni privacy!** Se qualcosa che riguarda la tua privacy nell’app IO non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici usando gli appositi strumenti in-app che trovi in alto a destra (icona chat e icona coccinella), oppure scrivendo un’email a [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
 
 ## Informativa estesa
 
