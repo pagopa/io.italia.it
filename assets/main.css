@@ -1377,11 +1377,11 @@ body {
 .internal-page {
   color: #5C6F82;
   margin-top: 12rem; }
+  .internal-page h2 {
+    margin-top: 2rem; }
   .internal-page section {
     margin-top: 4rem;
     margin-bottom: 4rem; }
-  .internal-page h2 {
-    letter-spacing: 0; }
   .internal-page__content {
     margin-top: 3rem; }
   .internal-page__bodytable {
