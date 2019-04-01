@@ -62,9 +62,11 @@ Tali messaggi vengono anche memorizzati nell’app IO al fine di offrirti uno st
 
 L’app IO è integrata con pagoPA. Se utilizzi l’app IO per effettuare dei pagamenti, e già possiedi un’utenza pagoPA, ritroverai automaticamente nell’app i metodi di pagamento registrati e le transazioni effettuate fino a quel momento tramite pagoPA (la ricongiunzione delle utenze avviene tramite la tua email - quindi solo se l’email usata nell’account SPID e nell’account pagoPA è la stessa - e in futuro tramite il tuo codice fiscale). Se invece non possiedi un profilo pagoPA, nel momento in cui registri un metodo di pagamento su IO e/o effettui un pagamento, verrà creato un tuo profilo pagoPA che ti permetterà di gestire i tuoi metodi di pagamento ed avere lo storico delle tue transazioni. 
 
-L’app IO non memorizza i dati delle tue carte di credito (tali dati sono gestiti direttamente da pagoPA), ma l’app IO e pagoPA si scambiano un codice univoco (token) che ti identifica, nonché un codice avviso e un codice identificativo del pagamento.
+L’app IO non memorizza i dati delle tue carte di credito, ma tali dati sono gestiti direttamente da pagoPA.
 
-Per ogni transazione effettuata, l’app IO riceve i seguenti messaggi dai sistemi di pagoPA: data della transazione, descrizione, ammontare, commissioni e codice univoco pagamento, tramite il quale l’app IO può riconciliare la transazione se scaturita da un messaggio indirizzato al cittadino.
+Per ogni transazione effettuata, l’app IO riceve le seguenti informazioni dai sistemi di pagoPA: codice univoco di pagamento, data della transazione, descrizione, ammontare e commissioni.
+
+Tramite questi dati l’app IO è in grado di visualizzare anche le informazioni dell’ente che ha richiesto il pagamento.
 
 #### d) Dati trattati nella sezione “Preferenze”
 

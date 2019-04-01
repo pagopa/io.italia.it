@@ -9,27 +9,27 @@ index: no-index
 
 (art. 13 del Regolamento UE n. 2016/679)
 
-Il [Team per la Trasformazione Digitale](https://teamdigitale.governo.it/) presso la Presidenza del Consiglio dei Ministri, nell’ambito delle proprie funzioni, ha sviluppato l’[applicazione mobile IO](https://io.italia.it/) con l’obiettivo di rendere più efficaci i servizi pubblici per i cittadini. 
+Il [Team per la Trasformazione Digitale](https://teamdigitale.governo.it/) presso la Presidenza del Consiglio dei Ministri ha sviluppato l’[applicazione IO](https://io.italia.it/) con l’obiettivo di semplificare l'accesso ai servizi pubblici per i cittadini. 
 
-Prima di rendere disponibile a tutti i cittadini l’App IO, il Team Digitale ritiene utile effettuare una sperimentazione - _closed beta_ - coinvolgendo un numero limitato di persone volontarie al fine di raccogliere indicazioni e suggerimenti sull’utilizzo dell’applicazione.
+Prima di rendere disponibile a tutti i cittadini l’app IO, stiamo effettuando una sperimentazione, che chiamiamo in gergo _closed beta_, coinvolgendo un numero limitato di persone volontarie al fine di raccogliere indicazioni e suggerimenti sul funzionamento dell’applicazione e dei servizi disponibili.
 
-Al “Progetto IO” hanno aderito vari enti che in collaborazione con il Team Digitale si propongono di realizzare la sperimentazione.
+Al “Progetto IO” hanno aderito vari enti che in collaborazione con il Team Digitale supporteranno la sperimentazione.
 
 La presente informativa, resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”), descrive le modalità del trattamento dei dati personali di coloro che si candidano alla sperimentazione _closed beta_ compilando l’apposito modulo di iscrizione (di seguito, anche gli “Iscritti”), nonché di coloro, tra gli iscritti, che verranno selezionati per la sperimentazione (di seguito, anche “Selezionati”).
 
 Ti segnaliamo che la presente informativa non descrive invece: 
 
-* il trattamento dei dati personali di coloro che, una volta selezionati, scaricheranno l’app IO e cominciano ad usarla per la sperimentazione (i “Beta Tester”), i quali riceveranno apposita informativa; e    
+* il trattamento dei dati personali di coloro che, una volta selezionati, scaricheranno l’app IO e cominciano ad usarla per la sperimentazione (i “Beta Tester”), i quali riceveranno apposita informativa;    
 * il trattamento dei dati raccolti tramite il sito [io.italia.it](https://io.italia.it/), la cui privacy policy è disponibile al seguente link: [io.italia.it/privacy-policy](https://io.italia.it/privacy-policy/).
 
 ### Contitolari del trattamento
 
-In base al Regolamento, quando due o più titolari del trattamento determinano congiuntamente le finalità e i mezzi del trattamento essi sono contitolari. La realizzazione del “Progetto IO” prevede la partecipazione attiva e la condivisione delle finalità da parte dei soggetti aderenti. La lista degli enti che partecipano alla sperimentazione e relativi dati di contatto sono disponibili sul sito [io.italia.it/enti](https://io.italia.it/enti/).
+In base al Regolamento, quando due o più titolari del trattamento determinano congiuntamente le finalità e i mezzi del trattamento essi sono contitolari. La realizzazione del “Progetto IO” prevede la partecipazione attiva e la condivisione delle finalità da parte dei soggetti aderenti. 
 
 Sono contitolari del trattamento ai sensi dell’art. 26 del Regolamento: 
 
-* l’ente che ti ha invitato alla sperimentazione (es. il tuo comune di residenza): la lista degli enti che partecipano alla sperimentazione e relativi dati di contatto sono disponibili sul sito [io.italia.it/enti](https://io.italia.it/enti/); e 
-* il Commissario Straordinario per l'attuazione dell'Agenda Digitale, con sede in Palazzo Verospi, Via della Impresa, 90 00186 Roma - Italia, email [teamdigitale@governo.it](mailto:teamdigitale@governo.it), che agisce tramite la sua struttura di supporto (di seguito il “Commissario” e la struttura il “Team Digitale”). Il Team Digitale ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato al seguente indirizzo: [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it)
+* l’ente che ti ha invitato alla sperimentazione (es. il tuo comune di residenza): la lista degli enti che partecipano alla sperimentazione e relativi dati di contatto sono disponibili sul sito [io.italia.it/enti](https://io.italia.it/enti/); 
+* il Commissario Straordinario per l'attuazione dell'Agenda Digitale, con sede in Palazzo Verospi, Via della Impresa, 90 00186 Roma - Italia, email [teamdigitale@governo.it](mailto:teamdigitale@governo.it), che agisce tramite la sua struttura di supporto (di seguito il “Commissario” e la struttura il “Team Digitale”). Il Team Digitale ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato al seguente indirizzo: [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
 
 Se intendi avere maggiori informazioni su come l’ente che ti ha invitato e il Team Digitale gestiscono i tuoi dati personali in contitolarità, contatta [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
 
@@ -94,8 +94,12 @@ I dati personali saranno comunicati ai soggetti appartenenti alle seguenti categ
 
 I dati personali raccolti al momento dell’iscrizione tramite il modulo verranno conservati per tutto il periodo necessario alla conclusione della sperimentazione e comunque per un periodo ulteriore non superiore a 5 mesi dopo la sua conclusione, per la gestione delle attività tecnico - amministrative connesse alla sperimentazione stessa.
 
+### Trasferimento dati fuori dall’UE
+
+Alcuni dei fornitori terzi che utilizziamo risiedono negli USA. Abbiamo concluso con tali fornitori accordi di servizio ai sensi dell’art. 28 del Regolamento. Tutti i fornitori sono conformi al Regolamento e, quando non sono certificati Privacy Shield, abbiamo concluso con loro le Clausole Contrattuali della Commissione Europea per garantire adeguati livelli di tutela. Stiamo comunque lavorando con i nostri fornitori per cercare di evitare i trasferimenti extra-UE e abbiamo già minimizzato quanto più possibile gli stessi.  
+
 ### Diritti degli interessati
- 
+
 Gli interessati hanno il diritto di ottenere, nei casi previsti, l'accesso ai propri dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. 15 e ss. del Regolamento). Tali richieste potranno essere indirizzate a [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).
  
 Potrai comunque esercitare i tuoi diritti ai sensi del Regolamento nei confronti di ciascun contitolare del trattamento come sopra identificati.
