@@ -1,9 +1,11 @@
 ---
 layout: full-screen
 title: Progetto IO - Regione Veneto - Social Design PA
-permalink: /veneto/
 lang: it
 ref: 'veneto'
+permalink: /veneto/
+redirect_from:
+  - /it/veneto/
 redirect: 'https://itdigitalteam.typeform.com/to/V9rpye'
 index: no-index
 ---

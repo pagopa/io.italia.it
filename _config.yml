@@ -32,6 +32,7 @@ google_verify: BNVPPeU89nJ0EEzVBq2xufxMJsV06vVPXjsEtbqEsrE
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

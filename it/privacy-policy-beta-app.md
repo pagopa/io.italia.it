@@ -1,9 +1,11 @@
 ---
 layout: internal
 title: Informativa sul trattamento dei dati personali dei Beta Tester dell’app IO
-permalink: /privacy-policy-beta-app/
 lang: it
 ref: 'privacy-policy-beta-app'
+permalink: /privacy-policy-beta-app/
+redirect_from:
+  - /it/privacy-policy-beta-app/
 index: no-index
 ---
 
