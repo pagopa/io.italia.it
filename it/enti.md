@@ -5,6 +5,8 @@ description: Comuni, regioni e agenzie centrali che hanno confermato l’intenzi
 permalink: /enti/
 lang: it
 ref: 'enti'
+redirect_from:
+  - /it/enti/
 ---
 
 Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase di closed beta con i cittadini: sono aperte molte conversazioni con altre agenzie centrali e enti su tutto il territorio nazionale, quindi questa lista è in continuo aggiornamento!

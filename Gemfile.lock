@@ -44,12 +44,12 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 4)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.9.3)
-      jekyll (~> 3.3)
+    jekyll-feed (0.12.1)
+      jekyll (>= 3.7, < 5.0)
+    jekyll-redirect-from (0.15.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.4.0)
-      jekyll (~> 3.3)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -60,10 +60,6 @@ GEM
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
     minitest (5.11.3)
     nokogiri (1.10.1)
       mini_portile2 (~> 2.4.0)
@@ -95,9 +91,8 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll (~> 3.8.5)
-  jekyll-feed (~> 0.6)
-  minima (~> 2.5)
-  tzinfo-data
+  jekyll-feed (~> 0.12)
+  jekyll-redirect-from (~> 0.15)
 
 BUNDLED WITH
    1.17.3

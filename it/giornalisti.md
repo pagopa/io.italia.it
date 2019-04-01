@@ -6,6 +6,8 @@ subtitle:
 lang: it
 ref: giornalisti
 permalink: /giornalisti/
+redirect_from:
+  - /it/giornalisti/
 ---
 
 <section class="container mw-60">

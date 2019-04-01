@@ -1,9 +1,11 @@
 ---
 layout: internal
 title: Note legali
-permalink: /note-legali/
 lang: it
 ref: 'note-legali'
+permalink: /note-legali/
+redirect_from:
+  - /it/note-legali/
 ---
 
 Il sito [io.italia.it](https://io.italia.it) (di seguito il “Sito”) ha l’obiettivo di:

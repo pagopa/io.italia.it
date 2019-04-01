@@ -6,6 +6,8 @@ subtitle: Funzioni comuni a disposizione di tutti i servizi pubblici
 lang: it
 ref: pubbliche-amministrazioni
 permalink: /pubbliche-amministrazioni/
+redirect_from:
+  - /it/pubbliche-amministrazioni/
 ---
 
 <section class="container mw-60">
