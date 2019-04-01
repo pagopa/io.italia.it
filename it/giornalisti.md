@@ -27,7 +27,7 @@ redirect_from:
                           <h5 class="card-title big-heading">
                             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
                           </h5>
-                          <p class="card-text">{{ post.excerpt }}</p>
+                          <div class="card-text">{{ post.excerpt }}</div>
                           <span class="card-signature">{{ post.author }}</span>
                           <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">
                             <span class="">Continua a leggere</span>

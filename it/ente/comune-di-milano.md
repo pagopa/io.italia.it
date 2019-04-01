@@ -6,6 +6,7 @@ lang: it
 ref: 'ente-comune-di-milano'
 redirect_from:
   - /it/ente/comune-di-milano
+index: no-index
 ---
 
 Durante la fase di *closed beta*, diversi dipartimenti del Comune di Milano renderanno disponibili i propri servizi ai cittadini tramite l’app IO. 
