@@ -13,8 +13,7 @@ Durante la fase di *closed beta*, diversi dipartimenti del Comune di Milano rend
 
 Qui di seguito, sono descritte in sintesi le funzionalità che i cittadini selezionati come *beta-tester* potranno testare per ciascuno dei servizi oggetto della sperimentazione. 
 
-## Tributi locali
-***Servizio erogato dal Dipartimento: Bilancio ed Entrate*** 
+## Tributi locali 
 
 Il servizio dei Tributi Locali del Comune di Milano gestisce il tributo sui rifiuti (TARI/TARES/TARSU). Tramite IO, i cittadini milanesi potranno: 
 
@@ -22,7 +21,6 @@ Il servizio dei Tributi Locali del Comune di Milano gestisce il tributo sui rifi
 * ricevere un avviso di accertamento in caso di mancato pagamento delle rate passate e procedere al pagamento.
 
 ## Sportello unico per l'edilizia
-***Servizio erogato dal Dipartimento: Urbanistica***
 
 Lo sportello unico per l'edilizia fornisce informazioni e gestisce pratiche di protocollazione legate all'urbanistica. Tramite IO, i cittadini milanesi potranno: 
 
@@ -30,7 +28,6 @@ Lo sportello unico per l'edilizia fornisce informazioni e gestisce pratiche di p
 * ricevere una notifica in caso di disdetta di un appuntamento.
 
 ## Servizi al cittadino
-***Servizio erogato dal Dipartimento: Servizi Civici, Partecipazione e Sport***
 
 Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identità e certificazioni. Tramite IO, i cittadini milanesi potranno:
 
@@ -39,7 +36,6 @@ Lo sportello dei Servizi al Cittadino si occupa di certificati, carte d'identit�
 * ricevere un promemoria in caso di appuntamento presso l’ufficio anagrafe;
 
 ## Pass mobilità
-***Servizio erogato dal Dipartimento:  Mobilità, Ambiente ed Energia***
 
 Il servizio Pass Mobilità permette di gestire i permessi per la mobilità in città. Tramite IO, i cittadini milanesi potranno:
 
@@ -47,21 +43,18 @@ Il servizio Pass Mobilità permette di gestire i permessi per la mobilità in ci
 * ricevere un promemoria in prossimità della scadenza dei propri pass per la mobilità.
 
 ## Area B
-***Servizio erogato dal Dipartimento: Mobilità, Ambiente ed Energia***
 
 Tramite IO, i cittadini milanesi potranno:
 
 * ricevere una notifica al primo passaggio di un veicolo non autorizzato in area B.
 
 ## Procedure sanzionatorie e traffico
-***Servizio erogato dal Dipartimento: Sicurezza urbana***
 
 Il servizio Procedure Sanzionatorie e Traffico del Comune di Milano si occupa delle sanzioni al codice della strada e della riscossione dell'importo dovuto. Tramite IO, i cittadini milanesi potranno:
 
 * ricevere avvisi di pagamento in caso di emissione di un verbale e procedere al pagamento.
  
 ## Informazione al cittadino
-***Servizio di Comunicazione istituzionale***
 
 Tramite IO, i cittadini milanesi potranno:
 
@@ -75,7 +68,6 @@ essere sempre aggiornati in caso di integrazione di nuovi servizi.
 ## Dati di contatto:
 **Comune di Milano**   
 Piazza della Scala, 2 - 20121 Milano Italia  
-Codice fiscale/Partita IVA 01199250158  
-Centralino unico 02.0202
+Codice fiscale/Partita IVA 01199250158
 
 Per contattare il Responsabile della protezione dei dati del Comune di Milano: [dpo@comune.milano.it](mailto:dpo@comune.milano.it)
