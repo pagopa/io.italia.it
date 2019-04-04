@@ -15,7 +15,7 @@ Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase
 * [ACI](http://www.aci.it/)
 * [Agenzia delle entrate-Riscossione](https://www.agenziaentrateriscossione.gov.it/it/)
 * [Regione Veneto](http://www.regione.veneto.it/)
-* [Comune di Milano](https://www.comune.milano.it/)
+* [Comune di Milano]({{ site.baseurl }}/ente/comune-di-milano)
 * [Comune di Torino](http://www.comune.torino.it/)
 * [Comune di Valsamoggia](https://www.comune.valsamoggia.bo.it/)
 * [Comune di Cesena](http://www.comune.cesena.fc.it/)
