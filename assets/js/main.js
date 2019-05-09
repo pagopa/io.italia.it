@@ -174,4 +174,7 @@ $(function () {
     if (window.baguetteBox)
         window.baguetteBox.run('.giornalisti__slides-content');
 
+    if('-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style) //IE11
+        stickybits('.vademecum .it-navscroll-wrapper');
+
 });

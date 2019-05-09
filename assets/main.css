@@ -1113,7 +1113,7 @@ textarea {
     .footer .social .small-prints {
       font-size: 0; }
     .footer .social .icon {
-      color: #00264D;
+      fill: #00264D;
       background-color: #fff;
       padding: 0.2em 0.4em;
       border-radius: 100%;
@@ -1334,6 +1334,28 @@ textarea {
   .card .card-body p {
     font-size: 1rem !important;
     line-height: 1.5rem; }
+
+.vademecum .navbar.it-navscroll-wrapper.it-top-navscroll {
+  top: 50px; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .vademecum .navbar.it-navscroll-wrapper.it-top-navscroll {
+      top: 109px; } }
+.vademecum .navbar.it-navscroll-wrapper .custom-navbar-toggler {
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  text-overflow: ellipsis; }
+  @media (max-width: 992px) {
+    .vademecum .navbar.it-navscroll-wrapper .custom-navbar-toggler {
+      display: inline; } }
+@media (min-width: 992px) {
+  .vademecum .navbar.it-navscroll-wrapper {
+    background-color: transparent !important; }
+    .vademecum .navbar.it-navscroll-wrapper .menu-wrapper {
+      background-color: transparent !important; }
+    .vademecum .navbar.it-navscroll-wrapper .navbar-collapsable {
+      border-left: 1px solid #d9dadb;
+      margin-top: 96px; } }
 
 body {
   background-color: #FAFBFD; }
@@ -1561,3 +1583,20 @@ button.baguetteBox-button:focus {
   outline: none; }
 button.baguetteBox-button svg {
   transform: scale(0.5); }
+
+.max-width-full {
+  max-width: 100%; }
+
+.anchor-spacer:before {
+  content: "";
+  display: block;
+  padding-top: 98px;
+  /* header height + empty space */
+  margin-top: -50px;
+  /* header height to degrees padding’s space */ }
+  @media screen and (min-width: 768px) {
+    .anchor-spacer:before {
+      padding-top: 148px;
+      /* header height + empty space */
+      margin-top: -100px;
+      /* header height to degrees padding’s space */ } }
