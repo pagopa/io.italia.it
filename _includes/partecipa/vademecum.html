@@ -1,0 +1,178 @@
+<section id="vademecum" class="vademecum container position-sticky">
+    <div class="row">
+        <div class="col-12 col-lg-8">
+            <h2 class="it-page-section anchor-spacer" id="come-usare-io">Come usare IO</h2>
+            <p>Ogni singolo ente può decidere liberamente di utilizzare IO, attraverso delle <b>API di integrazione</b>, per:</p>
+            <ul>
+                <li>veicolare i propri servizi;</li>
+                <li>comunicare con i cittadini.</li>
+            </ul>
+            <p>Questo vuol dire che è onere degli enti l’integrazione dei propri sistemi con gli strumenti messi a disposizione da IO. In questa mini-guida ti spieghiamo in che modo <b>gestire autonomamente i primi passi di questa integrazione</b>, per essere pronto a contattare il team di IO e salire a bordo del progetto per la app dei servizi pubblici.</p>
+            <h2 class="it-page-section anchor-spacer" id="identifica-i-servizi">1. Identifica i servizi</h2>
+            <p>IO è prima di tutto <b>un canale di comunicazione</b>. Tramite l’app IO, ogni servizio ingaggia il cittadino inviandogli dei messaggi, come:</p>
+            <ul>
+                <li>messaggi informativi (es. allerta meteo);</li>
+                <li>avvisi (es. promemoria di pagamenti e documenti in scadenza);</li>
+                <li>notifiche (es. avanzamento pratiche).</li>
+            </ul>
+            <p><b>Alcuni messaggi hanno solo contenuto informativo, altri includono delle <i>call to action</i></b>, come:</p>
+            <ul>
+                <li>pagamenti (grazie all’integrazione con pagoPA);</li>
+                <li>aggiunta di promemoria nel proprio calendario;</li>
+                <li>link a dei documenti;</li>
+                <li>link a delle pagine di un sito.</li>
+            </ul>
+            <p>Un messaggio ad esempio può contenere il promemoria del rinnovo di un servizio, con un <b>link</b> che permette al cittadino di completare il rinnovo sul sito dell’ente o su pagoPA.</p>
+            <p>Per questo il primo passo da cui partire è <b>un’analisi dei servizi digitali che il tuo ente già eroga ai cittadini</b>. In questa fase, fai attenzione a distinguere il servizio dal canale attraverso cui viene fruito: ad esempio il portale di un Comune è un "canale", che probabilmente al proprio interno raccoglie una serie di servizi distinti, come il servizio per l’erogazione dei documenti di identità o il pagamento della TARI.</p>
+            <p>L'analisi deve riguardare sia i servizi la cui piattaforma tecnologica è gestita direttamente dall'ente, sia i servizi realizzati da fornitori o il cui software è acquistato in licenza.</p>
+            <p>In questo file trovi alcuni <a href="https://docs.google.com/spreadsheets/u/1/d/1BkoWtELj8LwaMmj-4MEXXQ1HZEFlMwxfZnBPdFJl2Ro/edit?usp=sharing" target="_blank">esempi di servizi</a> che le Pubbliche Amministrazioni locali e centrali stanno già integrando nel progetto IO. Puoi partire da questo modello per <b>creare un elenco dei servizi gestiti dal tuo ente</b>.</p>
+            <p>Per ciascun servizio individuato, dovrai chiederti:</p>
+            <ul>
+                <li>invia (o potrebbe inviare) <b>email o sms</b> ai cittadini?</li>
+                <li>invia (o potrebbe inviare) <b>messaggi cartacei o documenti in pdf</b> ai cittadini?</li>
+                <li>invia ai cittadini <b>avvisi di pagamento o consente di pagare</b> tramite pagoPA?</li>
+            </ul>
+            <p>Se almeno una di queste risposte è affermativa, allora ha senso pensare a come integrare il servizio nel progetto IO e proseguire la lettura.</p>
+            <p>Il progetto IO e la relativa app si arricchiranno progressivamente di nuove funzioni, quindi se per ora IO non eroga le funzioni di cui il tuo servizio ha bisogno <a href="https://io.italia.it/#newsletter">iscriviti alla newsletter</a> per restare aggiornato sulle novità che potrebbero esserti utili in futuro.</p>
+            <h2 class="it-page-section anchor-spacer" id="inizia-a-preparare-i-messaggi">2. Inizia a preparare i messaggi</h2>
+            <p>Per inviare un messaggio a un cittadino è necessario solo che l'ente conosca <b>il suo codice fiscale</b>: non serve niente altro. Il cittadino deve semplicemente aver installato la app ed aver fatto il primo login. IO si occupa anche di instradare lo stesso messaggio via mail ai cittadini che lo desiderano.</p>
+            <p>Nota bene: <b>IO non recapita per ora notifiche a valore legale</b>, quindi i messaggi inviati attraverso IO non sostituiscono una pec o una raccomandata cartacea.</p>
+            <p>Abbiamo preparato <a href="https://docs.google.com/spreadsheets/d/15YUVpXnRstJ46TKnOzktTg30X0LbzxYSMV-IM5hUoTA/edit?usp=sharing" target="_blank">uno schema</a> che aiuta a capire quali messaggi possono essere inviati, e <a href="https://docs.google.com/spreadsheets/d/1Qlu7zaVSdrat6bWfW9O6BBTMzIhd1VNZnzfwTo5JEhQ/edit?usp=sharing" target="_blank">alcuni esempi di messaggi</a> che i primi Comuni già inviano attraverso IO.</p>
+            <p>IO consente di inviare messaggi nel <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" target="_blank">formato markdown</a> che consente una formattazione base, compatibile con tutti i dispositivi. Qui trovi un <a href="https://dillinger.io/">semplice editor online</a> per capire come puoi formattare i messaggi in markdown. Attraverso questo linguaggio è possibile inserire dentro il messaggio anche una call to action, usando <b>link verificati, bottoni di pagamento e promemoria</b>.</p>
+            <p>Ai messaggi, opzionalmente, puoi associare anche:</p>
+            <ul>
+                <li>una data (una scadenza o un giorno in cui si aprono le iscrizioni a un servizio);</li>
+                <li>un importo e un codice che identifica un avviso di pagamento, generato secondo il “modello 3” di pagoPA.</li>
+            </ul>
+            <div class="text-center w-100">
+                <img class="max-width-full" width="560" height="auto" src="{{ '/assets/img/vademecum-messaggi.jpg' | relative_url }}" alt="Messaggi"/>
+                <p class="small">Esempio di alcuni messaggi su IO che integrano date e bottoni di pagamento.</p>
+            </div>
+            <p>A questo link puoi scaricare il template che devi compilare con i messaggi del tuo ente: una colonna per ciascuna tipologia di messaggio che il servizio potrebbe inviare al cittadino.</p>
+            <h2 class="it-page-section anchor-spacer" id="compila-le-schede-servizio">3. Compila le schede servizio</h2>
+            <p>IO aiuta a rendere trasparente agli occhi del cittadino la complessità della macchina amministrativa. Per questo motivo <b>i "mittenti" dei messaggi non sono gli enti, ma i singoli servizi</b> (che fanno capo ad uno specifico dipartimento di uno specifico ente).</p>
+            <p>Definire bene il servizio è fondamentale per diversi motivi:</p>
+            <ul>
+                <li>Se il cittadino non riesce a capire qualcosa in un messaggio, <b>cercherà nella scheda servizio i recapiti a cui chiedere chiarimenti</b>. Questo approccio ottimizza eventuali richieste di informazioni dei cittadini, che vengono instradate direttamente alle persone più competenti per fornire una rapida risposta.</li>
+                <li>Un cittadino può scegliere in qualunque momento di <b>non ricevere notifiche o messaggi tramite IO</b> da uno specifico servizio.</li>
+            </ul>
+            <p>Per questo all’interno di IO ad ogni servizio è associata una scheda che:</p>
+            <ul>
+                <li>identifica e descrive il servizio;</li>
+                <li>identifica chiaramente l’ente che lo eroga;</li>
+                <li>indica tutti i canali di contatto.</li>
+            </ul>
+            <p>A questo link puoi trovare <a href="https://docs.google.com/spreadsheets/d/1lUoY6KE_tjrOdoneHuZYAeOZ2ox5nvCDHZSodStw56k/edit?usp=sharing" target="_blank">alcuni esempi di schede servizio</a>, compilate da alcuni enti.</p>
+            <p>Qui puoi trovare invece il <a href="https://docs.google.com/spreadsheets/d/1Row0bYC11OG8nIFqtWLZ_W5Ed8M3yjkjB1RsGGQ6qO0/edit?usp=sharing" target="_blank">template da compilare</a> con tutte le informazioni necessarie: una colonna per ogni servizio.</p>
+            <p>Una volta che hai identificato e descritto anche i servizi, possiamo iniziare a parlare della componente tecnologica dell’integrazione.</p>
+            <h2 class="it-page-section anchor-spacer" id="ingaggia-i-partner-tecnologici">4. Ingaggia i partner tecnologici</h2>
+            <p>Arrivato a questo punto <b>hai completato la prima fase, la definizione dei servizi, dei messaggi e delle schede servizio</b> e puoi passare la palla ai partner tecnologici che si occuperanno per conto del tuo ente dell’integrazione dei servizi con IO.</p>
+            <div class="text-center w-100">
+                <img class="max-width-full" width="560" height="autp" src="{{ '/assets/img/vademecum-partner.jpg' | relative_url }}" alt="Partner"/>
+                <p class="small">Foto di <a href="https://unsplash.com/photos/pjAH2Ax4uWk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Charles</a> su <a href="https://unsplash.com/search/photos/developer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>.</p>
+            </div>
+            <p>I <b>partner tecnologici sono quelli che erogano tecnicamente il servizio</b>, e possono essere:</p>
+            <ul>
+                <li>soggetti interni (i servizi IT di un Comune, oppure una società in house);</li>
+                <li>fornitori esterni che già oggi gestiscono il servizio.</li>
+            </ul>
+            <p>Le comunicazioni di un servizio digitale passano attraverso una integrazione software (application to application). Per integrarsi ad IO è necessario:</p>
+            <ul>
+                <li>associare ad ogni specifico servizio <a href="https://developer.io.italia.it/openapi.html#section/How-to-get-an-API-key" target="_blank">una API key</a>;</li>
+                <li>integrare il proprio software con IO, aggiungendo un <a href="https://developer.io.italia.it/openapi.html" target="_blank">set minimo di istruzioni per usare le API</a> che consentono l’invio dei messaggi.</li>
+            </ul>
+            <p>Se il servizio coinvolge anche funzioni di pagamento, è necessario che vengano coinvolti anche eventuali partner tecnologici che gestiscono l'integrazione con pagoPA.</p>
+            <p><a href="https://developer.io.italia.it/openapi.html" target="_blank">A questo link è disponibile la documentazione tecnica</a> per capire come integrarsi con il progetto e come utilizzare le API.</p>
+            <p>L’integrazione è molto semplice e le API di IO possono essere utilizzate indipendentemente dai linguaggi di programmazione o dai framework tecnologici con cui sono realizzati i servizi. Questo si traduce in <b>costi di integrazione davvero ridotti</b> per l'ente e in un <b>impatto minimo sui sistemi tecnologici</b> del servizio stesso.</p>
+            <p>Per testare l’integrazione dei servizi con le API di IO, <a href="http://developer.io.italia.it" target="_blank">potrai utilizzare l’ambiente di test messo a disposizione nel portale degli sviluppatori</a>. Per ottenere le credenziali di accesso, ti verranno chieste le seguenti informazioni (tutte da fornire obbligatoriamente):</p>
+            <ul>
+                <li>un indirizzo email valido;</li>
+                <li>nome utente;</li>
+                <li>password;</li>
+                <li>il tuo nome;</li>
+                <li>il tuo cognome;</li>
+                <li>nome dell’amministrazione (“Organization”) di appartenenza;</li>
+                <li>nome del servizio in cui vuoi integrare le notifiche (es. “Avvisi di scadenza”, “Portale del cittadino”, …);</li>
+                <li>dipartimento (area) dell’amministrazione a cui afferisce il servizio di notifica.</li>
+            </ul>
+            <p>Una volta avuto accesso al portale sviluppatori segui il link “<b>Subscribe to the Digital Citizenship API</b>” e attendi che la sottoscrizione venga attivata. Al momento dell’attivazione riceverai un’email che conterrà delle istruzioni e un <b>codice fiscale fittizio</b>: da questo momento puoi iniziare a utilizzare le API in modalità di test.</p>
+            <h2 class="it-page-section anchor-spacer" id="test-di-integrazione">5. Effettua i test di integrazione</h2>
+            <p>Puoi iniziare a testare l’integrazione dei tuoi servizi su IO.</p>
+            <p>Nella modalità di test:</p>
+            <ul>
+                <li>potrai inviare singoli messaggi di prova <b>all’indirizzo email e al codice fiscale fittizio</b> che hai ricevuto in fase di registrazione;</li>
+                <li>potrai inoltrare fino a 1000 richieste API a settimana, tramite un <a href="https://teamdigitale.github.io/digital-citizenship/api.html#generare-un-client-dalle-specifiche-openapi" target="_blank">client OpenAPI</a>.</li>
+            </ul>
+            <p>Sulla documentazione dell’applicazione trovi <a href="https://teamdigitale.github.io/digital-citizenship/api.html#" target="_blank">la guida completa per la fase di test attraverso il portale degli sviluppatori</a>.</p>
+            <p>Sul portale delle API puoi trovare <a href="https://developer.io.italia.it/openapi.html#section/Messages" target="_blank">una guida e degli esempi per comporre i tuoi primi messaggi</a>.</p>
+            <h2 class="it-page-section anchor-spacer" id="assessment-privacy-e-dati">6. Fai gli assessment privacy e dati</h2>
+            <p>Come abbiamo visto finora, IO è <b>un canale</b> attraverso cui i singoli enti erogano i propri servizi digitali, veicolando comunicazioni e call to action. Spesso, per offrire questi servizi, l’ente ha la necessità di gestire dati personali dei cittadini con cui si interfaccia.</p>
+            <p>Prima di iniziare a utilizzare IO, è compito dell’ente fare <b>un assessment dei dati personali che vengono trattati per ciascun servizio</b>. Le domande che dovrai porti sono:</p>
+            <ul>
+                <li>Quali sono i dati personali che dovrai trattare per offrire quel servizio? Ricorda che i “dati personali” includono <b>qualsiasi informazione riguardante una persona fisica identificata o identificabile, anche indirettamente</b>, e che per “trattamento” si intende <b>qualsiasi operazione che puoi fare con quel dato</b>, come ad esempio la raccolta, la registrazione, la conservazione, l’utilizzo per inviare comunicazioni, la condivisione o persino la distruzione.</li>
+                <li>Stai usando <b>solo i dati essenziali</b>, nella misura minima necessaria per l’erogazione di quel servizio?</li>
+                <li>Hai previsto una modalità per permettere ai cittadini di esercitare i propri diritti secondo la normativa privacy (es. <b>avere accesso ai propri dati</b> e richiederne la modifica o la cancellazione, quando previsto dalla legge)?</li>
+                <li>Hai predisposto un registro dei trattamenti, in cui tieni traccia di tutti i trattamenti che hai fatto, stai facendo o farai su quei dati?</li>
+                <li>Per quanto tempo hai la necessità di <b>conservare quei dati</b>?</li>
+                <li>Hai la necessità di <b>condividere i dati con terzi</b> (ad esempio, dei fornitori che erogano il servizio)? Se sì, hai stipulato con tali terzi un contratto e designato gli stessi responsabili del trattamento?</li>
+            </ul>
+            <p>All’interno della normativa europea sulla privacy (GDPR), è previsto anche l’obbligo della pubblicazione di un’<b>informativa privacy</b>, che per ciascun servizio spieghi al cittadino in modo chiaro:</p>
+            <ul>
+                <li>che tipo di dati personali vengono trattati;</li>
+                <li>in che modo, per quanto tempo e con quali finalità istituzionali;</li>
+                <li>come può avere accesso ai propri dati, controllare il trattamento, chiederne la modifica o la rimozione.</li>
+            </ul>
+            <p>L’informativa privacy di ogni servizio deve necessariamente essere pubblicata tramite un link nella scheda di ciascun servizio (guarda ad esempio l’informativa privacy di IO). Contatta il tuo Responsabile della Protezione dei Dati (RDP o DPO) se hai bisogno di assistenza.</p>
+            <h2 class="it-page-section anchor-spacer" id="compila-il-form">7. Compila il form e allega i documenti compilati</h2>
+            <p>Ci siamo.</p>
+            <p>Se sei arrivato fino a questo punto, è davvero il momento di metterti in contatto con il team di IO compilando il form che segue:</p>
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/shell.js"></script>
+            <script>
+                hbspt.forms.create({
+                    portalId: "5461487",
+                    formId: "9e5d1db0-815b-40c0-833c-0ea0934bed34"
+                });
+            </script>
+            <p>Compilare il form è il modo più rapido ed efficiente per iniziare l’interlocuzione con il team di IO, ma se qualcosa ancora non ti è chiaro puoi contattarci usando i seguenti canali:</p>
+            <ul>
+                <li>scrivendo sul <a href="https://forum.italia.it/c/progetto-io">forum di IO</a>;</li>
+                <li>scrivendoci sul nostro <a href="https://developersitalia.slack.com/messages/CA70BM37X/" target="_blank">canale slack</a>;</li>
+                <li>scrivendoci una mail su <a href="mailto:io-onboarding@io.hubspot-inbox.com">io-onboarding@io.hubspot-inbox.com</a>.</li>
+            </ul>
+            <p>Da questo punto, inizia la tua avventura nel progetto IO! Benvenuto! :)</p>
+        </div>
+        <div class="col-12 col-lg-4 affix-parent">
+            <nav class="navbar it-navscroll-wrapper navbar-expand-lg it-top-navscroll affix-top">
+                <button class="custom-navbar-toggler" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarNav">1. Introduzione</button>
+                <div class="navbar-collapsable" id="navbarNav">
+                    <div class="overlay"></div>
+                    <div class="close-div sr-only">
+                        <button class="btn close-menu" type="button">chiudi</button>
+                    </div>
+                    <a class="it-back-button" href="#">
+                        <svg class="icon icon-sm icon-primary align-top">
+                            <use xlink:href="/assets/svg/sprite.svg#it-chevron-left"></use>
+                        </svg>
+                        <span>Indietro</span>
+                    </a>
+                    <div class="menu-wrapper">
+                        <div class="link-list-wrapper">
+                            <ul class="link-list">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#come-usare-io"><span>Come usare IO</span></a>
+                                    <a class="nav-link" href="#identifica-i-servizi"><span>1. Identifica i servizi </span></a>
+                                    <a class="nav-link" href="#inizia-a-preparare-i-messaggi"><span>2. Inizia a preparare i messaggi</span></a>
+                                    <a class="nav-link" href="#compila-le-schede-servizio"><span>3. Compila le schede servizio</span></a>
+                                    <a class="nav-link" href="#ingaggia-i-partner-tecnologici"><span>4. Ingaggia i partner tecnologici</span></a>
+                                    <a class="nav-link" href="#test-di-integrazione"><span>5. Effettua i test di integrazione</span></a>
+                                    <a class="nav-link" href="#assessment-privacy-e-dati"><span>6. Fai gli assessment privacy e dati</span></a>
+                                    <a class="nav-link" href="#compila-il-form"><span>7. Compila il form e allega i documenti compilati</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</section>
