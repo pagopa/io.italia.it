@@ -17,6 +17,7 @@
 @import 'loading';
 @import 'offcanvas';
 @import 'card';
+@import 'partecipa';
 
 body {
   background-color: $color--light-grey;
@@ -382,7 +383,7 @@ button.baguetteBox-button {
   display: block;
   padding-top: 98px; /* header height + empty space */
   margin-top: -50px; /* header height to degrees padding’s space */
-  @media screen and (min-width: $grid-breakpoints-lg) {
+  @media screen and (min-width: $grid-breakpoints-md) {
     padding-top: 148px; /* header height + empty space */
     margin-top: -100px; /* header height to degrees padding’s space */
   }
