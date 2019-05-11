@@ -1600,3 +1600,16 @@ button.baguetteBox-button svg {
       /* header height + empty space */
       margin-top: -100px;
       /* header height to degrees padding’s space */ } }
+
+.youtube-responsive-wrapper {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative; }
+  .youtube-responsive-wrapper iframe, .youtube-responsive-wrapper object, .youtube-responsive-wrapper embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
