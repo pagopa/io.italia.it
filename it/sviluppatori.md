@@ -1,6 +1,7 @@
 ---
 layout: internal
 title: Informazioni per gli sviluppatori
+title: Come integrarsi nei servizi di IO, aprire un account sviluppatore, contribuire attivamente al progetto open source
 subtitle:
 lang: it
 ref: sviluppatori

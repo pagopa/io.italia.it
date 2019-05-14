@@ -2,6 +2,7 @@
 layout: internal
 full_width: true
 title: Informazioni per i giornalisti
+description: Comunicati stampa, immagini, video, presentazioni, etc.
 subtitle:
 lang: it
 ref: giornalisti
