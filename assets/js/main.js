@@ -159,7 +159,7 @@ $(function () {
 
     // Smooth internal links
     $("a[href!='#']").on('click', function (event) {
-        if (this.hash !== "") {
+        if (this.hash !== "" && $(this.hash).offset()) {
             event.preventDefault();
             var hash = this.hash;
 
