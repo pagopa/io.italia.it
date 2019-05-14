@@ -44,6 +44,9 @@ Fornisce infatti le principali funzioni necessarie all'interazione tra la pubbli
 			<div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-settings.svg' | relative_url }}" alt="Preferenze"></div>
 			<div class="col-9">le gestione delle preferenze dell’utente</div>
 		</div>
+		<div class="row facilita-pa">
+			<a href="/pubbliche-amministrazioni/partecipa" class="btn btn-primary mt-4 mb-4">Partecipa alla sperimentazione!</a>
+		</div>
 	</aside>
 	</div>
 	</div>
@@ -147,7 +150,7 @@ L’autenticazione avviene in modo sicuro tramite SPID. Questo permette a IO di 
 	Io è un progetto aperto, qualunque ente pubblico può partecipare alla sperimentazione. In una prima fase avranno priorità i cittadini dei territori in cui è più alta la concentrazione di enti e servizi che partecipano, e gli enti che offrono i servizi al maggior numero di cittadini. Descrivi nella apposita sezione del forum quali sono i servizi per cui vorresti usare le funzioni di IO.
 	</p>
 	<div class="text-center">
-	    <a href="https://forum.italia.it/c/progetto-io/proponi-un-servizio" class="btn btn-primary mt-4 mb-4" target="_blank" rel="noopener">Partecipa alla sperimentazione!</a>
+	    <a href="/pubbliche-amministrazioni/partecipa" class="btn btn-primary mt-4 mb-4">Partecipa alla sperimentazione!</a>
 	</div>
 	</div>
 </section>
