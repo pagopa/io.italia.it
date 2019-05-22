@@ -11,7 +11,7 @@ redirect_from:
 
 Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase di closed beta con i cittadini: sono aperte molte conversazioni con altre agenzie centrali e enti su tutto il territorio nazionale, quindi questa lista è in continuo aggiornamento!
 
-* [ACI](http://www.aci.it/)
+* [ACI]({{ site.baseurl }}/ente/aci)
 * [Agenzia delle entrate-Riscossione](https://www.agenziaentrateriscossione.gov.it/it/)
 * [Regione Veneto](http://www.regione.veneto.it/)
 * [Comune di Milano]({{ site.baseurl }}/ente/comune-di-milano)
