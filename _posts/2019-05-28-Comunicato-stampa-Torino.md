@@ -1,11 +1,11 @@
 ---
 layout: internal
-title: Comunicato stampa Torino Museo Egizio 
+title: Comunicato stampa Torino
 description: IO, l’app dei servizi pubblici, si apre al contributo dei torinesi per migliorare l’interazione tra cittadino e Amministrazione Pubblica
 lang: it
-ref: comunicato-stampa-torino-museo-egizio
+ref: comunicato-stampa-torino
 excerpt_separator: <!--more-->
-download_link: /assets/download/it/io-comunicato-stampa-torino-museo-egizio.rtf
+download_link: /assets/download/it/io-comunicato-stampa-torino.rtf
 ---
 
 ### IO si apre al contributo di Torino
