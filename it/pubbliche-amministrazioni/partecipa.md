@@ -10,6 +10,7 @@ redirect_from:
   - /it/pubbliche-amministrazioni/partecipa
   - /it/pa/partecipa
   - /pa/partecipa
+  - /partecipa
 ---
 
 {%- include partecipa/intestazione.html -%}
