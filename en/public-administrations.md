@@ -6,6 +6,8 @@ subtitle: Common functions available to all public services
 lang: en
 ref: pubbliche-amministrazioni
 permalink: /en/public-administrations/
+redirect_from:
+  - /public-administrations/
 ---
 
 <section class="container mw-60">

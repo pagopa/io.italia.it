@@ -9,6 +9,8 @@ permalink: /pubbliche-amministrazioni/
 description: Le funzioni comuni a disposizione di tutti i servizi pubblici
 redirect_from:
   - /it/pubbliche-amministrazioni/
+  - /it/pa/
+  - /pa/
 ---
 
 <section class="container mw-60">

@@ -8,6 +8,8 @@ permalink: /pubbliche-amministrazioni/partecipa
 description: Una guida passo passo per integrare i propri servizi in IO e usare le funzioni della app dei servizi pubblici
 redirect_from:
   - /it/pubbliche-amministrazioni/partecipa
+  - /it/pa/partecipa
+  - /pa/partecipa
 ---
 
 {%- include partecipa/intestazione.html -%}
