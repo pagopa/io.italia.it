@@ -35,12 +35,14 @@ Nel corso della sperimentazione, inoltre, tramite IO i cittadini potranno riceve
 
 <hr class="my-5"/>
 
-**I cittadini che partecipano alla closed beta possono ottenere maggiori dettagli sui singoli servizi direttamente nell'app IO.**
+**I cittadini che partecipano alla _closed beta_ possono ottenere maggiori dettagli sui singoli servizi direttamente nell'app IO.**
 
 ## Dati di contatto:
 
 **ACI - Sede Legale**   
-Via Marsala 8, 00185 Roma  
+Via Marsala 8  
+00185 Roma
+
 Partita IVA 00907501001
 
 Telefono 06 49981

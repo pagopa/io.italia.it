@@ -62,11 +62,13 @@ essere sempre aggiornati in caso di integrazione di nuovi servizi.
 
 <hr class="my-5"/>
 
-**I cittadini che partecipano alla closed beta possono ottenere maggiori dettagli sui singoli servizi direttamente nell'app IO.**
+**I cittadini che partecipano alla _closed beta_ possono ottenere maggiori dettagli sui singoli servizi direttamente nell'app IO.**
 
 ## Dati di contatto:
 **Comune di Milano**   
-Piazza della Scala, 2 - 20121 Milano Italia  
+Piazza della Scala, 2  
+20121 Milano Italia
+
 Codice fiscale/Partita IVA 01199250158
 
 Per contattare il Responsabile della protezione dei dati del Comune di Milano: [dpo@comune.milano.it](mailto:dpo@comune.milano.it)
