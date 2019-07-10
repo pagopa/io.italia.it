@@ -37,6 +37,12 @@ Il servizio CIE include l'emissione della carta di identità elettronica per sca
 Il servizio “I tuoi dati” messo a disposizione dall’Anagrafe del Comune di Ripalta Cremasca permette al cittadino di tenersi aggiornato sulle informazioni che lo riguardano. Tramite IO, i cittadini potranno:
 
 * ricevere messaggi di riepilogo relativi a dati anagrafici, stato civile e dati elettorali.
+
+## Minigrest
+
+Il Minigrest è un servizio comunale (nato in collaborazione con la parrocchia) che cerca di soddisfare le necessità dei genitori che lavorano e che necessitano di un luogo tranquillo e sicuro dove lasciare i propri figli nel periodo estivo. Tramite IO, i cittadini potranno:
+
+* procedere al pagamento del servizio mensa.
  
 ## Informazione al cittadino
 
