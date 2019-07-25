@@ -13,7 +13,7 @@ it:
   home-section-1:
     h1: il progetto per sviluppare l'app dei servizi pubblici
     tieniti-aggiornato:
-      <span>Nel secondo trimestre del 2019 inizierà la fase di closed beta con un primo gruppo di cittadini ed enti centrali e locali.
+      <span>Nel secondo trimestre del 2019 è iniziata la fase di closed beta con un primo gruppo di cittadini ed enti centrali e locali.
       <a class="text-white" href="#newsletter"><u>Tieniti aggiornato</u></a>!</span>
   constellation-regione:
     regione: regione
