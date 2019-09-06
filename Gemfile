@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.8.6"
+gem "jekyll", "~> 4.0"
 
-gem "html-proofer"
+gem "html-proofer", "~> 3.12"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

@@ -1,11 +1,11 @@
 ---
 layout: internal
 title: I servizi del Comune di Torino su IO
-permalink: /ente/comune-di-torino
+permalink: /ente/comune-di-torino.html
 lang: it
 ref: 'ente-comune-di-torino'
 redirect_from:
-  - /it/ente/comune-di-torino
+  - /it/ente/comune-di-torino.html
 ---
 
 Durante la fase di *closed beta*, diversi dipartimenti del Comune di Torino renderanno disponibili i propri servizi ai cittadini tramite l’app IO. 
