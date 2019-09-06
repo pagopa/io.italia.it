@@ -13,6 +13,7 @@ defaults: &defaults
         BUNDLE_JOBS: 3
         BUNDLE_RETRY: 3
         BUNDLE_PATH: vendor/bundle
+        BUNDLER_VERSION: 2.0.1
         JEKYLL_ENV: production
 
 # we use a rw SSH key instead of the default one injected by CircleCI because we
@@ -28,6 +29,13 @@ jobs:
     steps:
       - add_ssh_keys: *add_ssh_keys
       - checkout
+
+      - run:
+          name: Configure Bundler
+          command: |
+            echo 'export BUNDLER_VERSION=$(cat Gemfile.lock | tail -1 | tr -d " ")' >> $BASH_ENV
+            source $BASH_ENV
+            gem install bundler
 
       # Download and cache dependencies
       - restore_cache:
