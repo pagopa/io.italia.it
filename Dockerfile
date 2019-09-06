@@ -1,4 +1,4 @@
-FROM nginx:1.15.12-alpine
+FROM nginx:1.17.3-alpine
 
 MAINTAINER https://teamdigitale.governo.it
 
