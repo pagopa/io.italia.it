@@ -11,14 +11,14 @@ redirect_from:
 
 Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase di closed beta con i cittadini: sono aperte molte conversazioni con altre agenzie centrali e enti su tutto il territorio nazionale, quindi questa lista è in continuo aggiornamento!
 
-* [ACI]({{ site.baseurl }}/ente/aci)
+* [ACI]({% link it/ente/aci.md %})
 * [Agenzia delle entrate-Riscossione](https://www.agenziaentrateriscossione.gov.it/it/)
 * [Comune di Brescia](http://www.comune.brescia.it/)
 * [Comune di Cagliari](https://www.comune.cagliari.it/)
 * [Comune di Cesena](http://www.comune.cesena.fc.it/)
-* [Comune di Milano]({{ site.baseurl }}/ente/comune-di-milano)
+* [Comune di Milano]({% link it/ente/comune-di-milano.md %})
 * [Comune di Palermo](https://www.comune.palermo.it/)
-* [Comune di Ripalta Cremasca]({{ site.baseurl }}/ente/comune-di-ripalta-cremasca)
-* [Comune di Torino]({{ site.baseurl }}/ente/comune-di-torino)
+* [Comune di Ripalta Cremasca]({% link it/ente/comune-di-ripalta-cremasca.md %})
+* [Comune di Torino]({% link it/ente/comune-di-torino.md %})
 * [Comune di Valsamoggia](https://www.comune.valsamoggia.bo.it/)
 * [Regione Veneto](http://www.regione.veneto.it/)
