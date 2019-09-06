@@ -189,6 +189,7 @@
     background-position-y: top;
     padding-bottom: 2em;
     padding-top: 2em;
+    background-size: cover;
   }
   .newsletter-form {
     padding-bottom: 1em;
@@ -196,6 +197,12 @@
 
     .input-group {
       box-shadow: 2px 2px 24px 0px rgba(0,0,0,0.4);
+      .input-group-append {
+        margin-right: -1px;
+      }
+      .input-group-prepend {
+        background-color: transparent;
+      }
     }
     .input-icon {
       border-top-left-radius: 5px !important;
@@ -215,6 +222,10 @@
       padding-left: 1.5em;
       padding-right: 1.5em;
     }
+  }
+
+  .form-check [type=checkbox]:not(:checked)+label::after {
+    background-color: #d5d5d5;
   }
 
 }

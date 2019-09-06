@@ -174,7 +174,16 @@ $(function () {
     if (window.baguetteBox)
         window.baguetteBox.run('.giornalisti__slides-content');
 
-    if('-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style) //IE11
+    if ('-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style) //IE11
         stickybits('.vademecum .it-navscroll-wrapper');
+
+    // Newsletter groups
+    $('.js-nl-groups .js-nl-group-option').on('change', function (e) {
+        var groupOtionsChecked = [];
+        $('.js-nl-groups .js-nl-group-option').each(function (el) {
+            if ($(this).is(":checked")) groupOtionsChecked.push($(this).data('value'))
+        })
+        document.getElementById('group').value = groupOtionsChecked.toString();
+    })
 
 });
