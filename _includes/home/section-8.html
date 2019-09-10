@@ -16,18 +16,17 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><svg class="icon icon-sm icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-mail"></use></svg></div>
                   </div>
-                  <input type="email" name="email" class="form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
+                  <input type="email" name="email" class="js-newsletter-email form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
                   <input type="hidden" name="list" value="6">
-                  <div class="input-group-append">
-                    <button type="submit" class="btn btn-primary input-submit">{{t.home-section-8.button}}</button>
-                  </div>
+
                 </div>
               </div>
               <div class="row js-nl-groups">
                 <div class="col-12 py-4">
+                  <p>Vorrei ricevere news sul progetto IO in qualità di*:</p>
                   <div class="form-check form-check-group">
                     <input class="js-nl-group-option" id="group-option-cittadino" data-value="86" type="checkbox">
-                    <label class="text-white" for="group-option-cittadino">Cittadino / Utente privato</label>
+                    <label class="text-white" for="group-option-cittadino">Cittadino</label>
                   </div>
                   <div class="form-check form-check-group">
                     <input class="js-nl-group-option" id="group-option-ente" data-value="87" type="checkbox">
@@ -39,11 +38,6 @@
                     <small id="group-option-fornitore-help" class="form-text">(presso società in-house, software house, ecc.)</small>
                   </div>
                   <div class="form-check form-check-group">
-                    <input class="js-nl-group-option" id="group-option-azienda" data-value="89" type="checkbox">
-                    <label class="text-white" for="group-option-azienda">Azienda privata</label>
-                    <small id="group-option-azienda-help" class="form-text">(non partner tecnologico di enti pubblici)</small>
-                  </div>
-                  <div class="form-check form-check-group">
                     <input class="js-nl-group-option" id="group-option-sviluppatore" data-value="90" type="checkbox">
                     <label class="text-white" for="group-option-sviluppatore">Sviluppatore</label>
                   </div>
@@ -51,10 +45,14 @@
                     <input class="js-nl-group-option" id="group-option-giornalista" data-value="91" type="checkbox">
                     <label class="text-white" for="group-option-giornalista">Giornalista</label>
                   </div>
+                  <small class="font-italic">* campo obbligatorio, con possibilità di risposta multipla</small>
                 </div>
               </div>
               <input type="hidden" name="list" value="6">
               <input id="group" name="group" type="hidden" value="">
+              <div class="text-center my-4">
+                <button type="submit" class="js-newsletter-submit btn btn-primary input-submit" disabled>{{t.home-section-8.button}}</button>
+              </div>
             </form>
             <p class="text-center">
               <small>

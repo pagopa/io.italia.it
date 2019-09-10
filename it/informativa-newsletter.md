@@ -15,9 +15,10 @@ La newsletter del progetto IO è distribuita via e-mail - in automatico e gratui
 I dati gestiti per la fornitura del servizio sono:
 
 * gli indirizzi e-mail forniti dagli utenti al momento dell’iscrizione;
+* le macro-categorie di appartenenza indicate dagli utenti al momento dell'iscrizione;
 * statistiche di lettura e apertura di ciascun messaggio. 
 
-I dati raccolti vengono utilizzati con strumenti informatici e telematici automatizzati, messi a disposizione da un fornitore esterno, al solo fine di erogare il servizio richiesto. Per tale ragione saranno conservati esclusivamente per il periodo in cui il servizio sarà attivo. 
+I dati raccolti vengono utilizzati con strumenti informatici e telematici automatizzati, messi a disposizione da un fornitore esterno, al fine di erogare il servizio richiesto e fornire contenuti quanto più confacenti agli interessi dell’utenza di questa newsletter. Per tale ragione saranno conservati esclusivamente per il periodo in cui il servizio sarà attivo. 
 
 Il Titolare del trattamento è il Commissario Straordinario per l'attuazione dell'Agenda Digitale, con sede in Palazzo Verospi Via della Impresa, 90 00186 Roma - Italia, email [teamdigitale@governo.it](mailto:teamdigitale@governo.it), che agisce tramite la sua struttura di supporto (di seguito congiuntamente il “[Team per la trasformazione digitale](https://teamdigitale.governo.it/)” o anche solo il “Team digitale”).
 Il Team digitale ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato al seguente indirizzo: [dpo@teamdigitale.governo.it](mailto:dpo@teamdigitale.governo.it).

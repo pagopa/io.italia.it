@@ -177,13 +177,30 @@ $(function () {
     if ('-ms-scroll-limit' in document.documentElement.style && '-ms-ime-align' in document.documentElement.style) //IE11
         stickybits('.vademecum .it-navscroll-wrapper');
 
+    function isEmail(email) {
+        return /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email);
+    }
+
     // Newsletter groups
-    $('.js-nl-groups .js-nl-group-option').on('change', function (e) {
+    function onFieldsChange(event) {
         var groupOtionsChecked = [];
         $('.js-nl-groups .js-nl-group-option').each(function (el) {
-            if ($(this).is(":checked")) groupOtionsChecked.push($(this).data('value'))
-        })
+            if ($(this).is(":checked"))
+                groupOtionsChecked.push($(this).data('value'));
+        });
+
+        // Sets the #group element value to a comma-separated list of ids as per
+        // http://help.mailup.com/display/mailupapi/HTTP+API+Specifications#HTTPAPISpecifications-Groups
         document.getElementById('group').value = groupOtionsChecked.toString();
-    })
+
+        // Enables submit button when at least one option is selected and the input field is filled with an actual email
+        $('.js-newsletter-submit')
+            .prop('disabled', (groupOtionsChecked.length == 0) || (!isEmail($('.js-newsletter-email').val())));
+    }
+
+    $('.js-newsletter-email')
+        .on('input', onFieldsChange);
+    $('.js-nl-groups .js-nl-group-option')
+        .on('change', onFieldsChange);
 
 });
