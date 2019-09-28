@@ -181,8 +181,24 @@ $(function () {
         return /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email);
     }
 
+    // URL params
+    function getUrlParameter(sParam) {
+        var sPageURL = window.location.search.substring(1),
+            sURLVariables = sPageURL.split('&'),
+            sParameterName,
+            i;
+
+        for (i = 0; i < sURLVariables.length; i++) {
+            sParameterName = sURLVariables[i].split('=');
+
+            if (sParameterName[0] === sParam) {
+                return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+            }
+        }
+    };
+
     // Newsletter groups
-    function onFieldsChange(event) {
+    function onFieldsChange() {
         var groupOtionsChecked = [];
         $('.js-nl-groups .js-nl-group-option').each(function (el) {
             if ($(this).is(":checked"))
@@ -196,6 +212,15 @@ $(function () {
         // Enables submit button when at least one option is selected and the input field is filled with an actual email
         $('.js-newsletter-submit')
             .prop('disabled', (groupOtionsChecked.length == 0) || (!isEmail($('.js-newsletter-email').val())));
+    }
+
+    var UrlParameterEmail = getUrlParameter('email');
+
+    // If ?email=email@example.com, pre-populates email input field
+    // TODO pre-populate entire user data
+    if (UrlParameterEmail && isEmail(UrlParameterEmail)) {
+        $('.js-newsletter-email')[0].value = UrlParameterEmail;
+        onFieldsChange();
     }
 
     $('.js-newsletter-email')
