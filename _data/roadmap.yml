@@ -20,11 +20,11 @@ it:
         Nel caso di messaggi contenenti avvisi di pagamento già pagati tramite IO,
         il messaggio presenterà al posto del pulsante "paga" un segno di spunta ed
         il link diretto alla ricevuta della specifica transazione.
-      status: todo
+      status: done
     - title: Altri metodi di pagamento
       subtitle: >-
         Sarà possibile pagare anche attraverso Bancomat Pay, PayPal, Satispay.
-      status: todo
+      status: done
     - title: Cancellazione dell’account
       subtitle: >-
         Sarà possibile eliminare completamente tutti i dati relativi al proprio
@@ -41,7 +41,7 @@ it:
         Alcuni enti territoriali e centrali inviteranno qualche migliaio di cittadini
         a testate la app. Messaggi e pagamenti saranno realmente inviati dai
         sistemi degli enti, e quindi saranno perfettamente validi.
-      status: todo
+      status: done
   Terzo Trimestre 2019:
     - title: Pubblicazione della versione beta negli store
       subtitle: >-
@@ -71,11 +71,11 @@ en:
         In the event of messages containing payment notices already paid by IO,
         the message will show a check mark instead of the "pay" button and a
         direct link to the receipt of the specific transaction.
-      status: todo
+      status: done
     - title: More payment methods
       subtitle: >-
         You will also be able to pay through Bancomat Pay, PayPal, Satispay.
-      status: todo
+      status: done
     - title:  Account cancellation
       subtitle: >-
         It will be possible to completely delete all the data related to your
@@ -91,7 +91,7 @@ en:
         Some local and central authorities will invite a few thousand citizens
         to test the app. Messages and payments will actually be sent by the
         institutions' systems, and will therefore be perfectly valid.
-      status: todo
+      status: done
   Third Quarter 2019:
     - title: Publication of the beta version in the stores
       subtitle: >-
