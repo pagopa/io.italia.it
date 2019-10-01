@@ -15,16 +15,24 @@ it:
         riconoscimento facciale (solo iOS). Richiederà comunque la scelta di un
         PIN come fallback.
       status: done
+  Terzo Trimestre 2019:
+    - title: Test su invito di una prima versione beta (closed-beta)
+      subtitle: >-
+        Alcuni enti territoriali e centrali inviteranno qualche migliaio di cittadini
+        a testate la app. Messaggi e pagamenti saranno realmente inviati dai
+        sistemi degli enti, e quindi saranno perfettamente validi.
+      status: done
+  Quarto trimestre 2019:
     - title: Collegamento fra avvisi di pagamento e transazioni
       subtitle: >-
         Nel caso di messaggi contenenti avvisi di pagamento già pagati tramite IO,
         il messaggio presenterà al posto del pulsante "paga" un segno di spunta ed
         il link diretto alla ricevuta della specifica transazione.
-      status: done
+      status: todo
     - title: Altri metodi di pagamento
       subtitle: >-
         Sarà possibile pagare anche attraverso Bancomat Pay, PayPal, Satispay.
-      status: done
+      status: todo
     - title: Cancellazione dell’account
       subtitle: >-
         Sarà possibile eliminare completamente tutti i dati relativi al proprio
@@ -35,14 +43,7 @@ it:
         Tutti i dati relativi al proprio account potranno essere esportati in
         formato aperto.
       status: todo
-  Secondo Trimestre 2019:
-    - title: Test su invito di una prima versione beta (closed-beta)
-      subtitle: >-
-        Alcuni enti territoriali e centrali inviteranno qualche migliaio di cittadini
-        a testate la app. Messaggi e pagamenti saranno realmente inviati dai
-        sistemi degli enti, e quindi saranno perfettamente validi.
-      status: done
-  Terzo Trimestre 2019:
+  Fine 2019:
     - title: Pubblicazione della versione beta negli store
       subtitle: >-
         Chiunque potrà scaricare IO dagli store di Android e iOS. Il lancio dell'applicazione
@@ -66,16 +67,24 @@ en:
         recognition (iOS only). It will still require the choice of a PIN as a
         fallback.
       status: done
+  Third Quarter 2019:
+    - title: Test by invitation of a first beta version (closed-beta)
+      subtitle: >-
+        Some local and central authorities will invite a few thousand citizens
+        to test the app. Messages and payments will actually be sent by the
+        institutions' systems, and will therefore be perfectly valid.
+      status: done
+  Fourth Quarter 2019:
     - title: Payment notices and transactions will be linked
       subtitle: >-
         In the event of messages containing payment notices already paid by IO,
         the message will show a check mark instead of the "pay" button and a
         direct link to the receipt of the specific transaction.
-      status: done
+      status: todo
     - title: More payment methods
       subtitle: >-
         You will also be able to pay through Bancomat Pay, PayPal, Satispay.
-      status: done
+      status: todo
     - title:  Account cancellation
       subtitle: >-
         It will be possible to completely delete all the data related to your
@@ -85,14 +94,7 @@ en:
       subtitle: >-
         Any data related to your account can be exported in open format.
       status: todo
-  Second Quarter 2019:
-    - title: Test by invitation of a first beta version (closed-beta)
-      subtitle: >-
-        Some local and central authorities will invite a few thousand citizens
-        to test the app. Messages and payments will actually be sent by the
-        institutions' systems, and will therefore be perfectly valid.
-      status: done
-  Third Quarter 2019:
+  End of 2019:
     - title: Publication of the beta version in the stores
       subtitle: >-
         Anyone will be able to download IO from the Android and iOS stores.
