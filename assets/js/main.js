@@ -207,7 +207,8 @@ $(function () {
 
         // Sets the #group element value to a comma-separated list of ids as per
         // http://help.mailup.com/display/mailupapi/HTTP+API+Specifications#HTTPAPISpecifications-Groups
-        document.getElementById('group').value = groupOtionsChecked.toString();
+        if (document.getElementById('group') != null)
+            document.getElementById('group').value = groupOtionsChecked.toString();
 
         // Enables submit button when at least one option is selected and the input field is filled with an actual email
         $('.js-newsletter-submit')
