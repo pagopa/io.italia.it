@@ -51,9 +51,9 @@ Il servizio Anagrafe "I tuoi dati" offerto dal portale [TorinoFacile](https://se
  
 ## Informazione al cittadino
 
-Tramite IO, i cittadini torinesi potranno:
+Tramite IO, i cittadini potranno:
 
-* ricevere messaggi informativi a carattere istituzionale che li accompagneranno nel corso della beta. Tra questi, ad esempio: _Benvenuto in IO, Cosa puoi fare con SPID, Cosa puoi fare con pagoPA_;
+* ricevere messaggi informativi a carattere istituzionale che li accompagneranno nel corso della beta. Tra questi, ad esempio: _Benvenuto in IO_, _Cosa puoi fare con SPID_, _Cosa puoi fare con pagoPA_;
 * essere sempre aggiornati in caso di integrazione di nuovi servizi.
 
 <hr class="my-5"/>

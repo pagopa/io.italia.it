@@ -46,7 +46,7 @@ Il Minigrest è un servizio comunale (nato in collaborazione con la parrocchia) 
  
 ## Informazione al cittadino
 
-Tramite IO, i cittadini di Ripalta Cremasca potranno:
+Tramite IO, i cittadini potranno:
 
 * ricevere messaggi informativi a carattere istituzionale che li accompagneranno nel corso della beta. Tra questi, ad esempio: _Benvenuto in IO, Cosa puoi fare con SPID, Cosa puoi fare con pagoPA_;
 * essere sempre aggiornati in caso di integrazione di nuovi servizi.

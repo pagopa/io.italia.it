@@ -16,22 +16,22 @@ Qui di seguito, sono descritte in sintesi le funzionalità che i cittadini selez
   
 I servizi relativi al Bollo Auto offerti dall'ACI permettono di calcolare e pagare le proprie tasse automobilistiche. Tramite IO, i cittadini potranno:
 
-- ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto;
-- pagare il Bollo Auto e ricevere una conferma del pagamento avvenuto.
+* ricevere un promemoria in prossimità della scadenza del pagamento del Bollo Auto;
+* pagare il Bollo Auto e ricevere una conferma del pagamento avvenuto.
 
 ## Certificati di proprietà
    
 Il servizio di gestione PRA dell'ACI si occupa della gestione del Pubblico Registro Automobilistico. Tramite IO, i cittadini potranno:
    
-- ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
-- ricevere un riepilogo dei propri certificati di proprietà digitali.
+* ricevere una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo;
+* ricevere un riepilogo dei propri certificati di proprietà digitali.
  
 ## Informazione al cittadino
 
 Nel corso della sperimentazione, inoltre, tramite IO i cittadini potranno ricevere da ACI:
 
-- messaggi informativi a carattere istituzionale che li accompagneranno nel corso della beta. Tra questi, ad esempio: Benvenuto in IO, Cosa puoi fare con SPID, Cosa puoi fare con pagoPA; I prossimi passi;
-- notifiche di aggiornamento in caso di integrazione di nuovi servizi.
+* ricevere messaggi informativi a carattere istituzionale che li accompagneranno nel corso della beta. Tra questi, ad esempio: _Benvenuto in IO_, _Cosa puoi fare con SPID_, _Cosa puoi fare con pagoPA_;
+* essere sempre aggiornati in caso di integrazione di nuovi servizi.
 
 <hr class="my-5"/>
 

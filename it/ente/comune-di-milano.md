@@ -55,10 +55,10 @@ Il servizio Procedure Sanzionatorie e Traffico del Comune di Milano si occupa de
  
 ## Informazione al cittadino
 
-Tramite IO, i cittadini milanesi potranno:
+Tramite IO, i cittadini potranno:
 
-* ricevere messaggi informativi a carattere istituzionale che li accompagneranno nel corso della beta. Tra questi, ad esempio: Benvenuto in IO, Cosa puoi fare con SPID, Cosa puoi fare con pagoPA;
-essere sempre aggiornati in caso di integrazione di nuovi servizi.
+* ricevere messaggi informativi a carattere istituzionale che li accompagneranno nel corso della beta. Tra questi, ad esempio: _Benvenuto in IO_, _Cosa puoi fare con SPID_, _Cosa puoi fare con pagoPA_;
+* essere sempre aggiornati in caso di integrazione di nuovi servizi.
 
 <hr class="my-5"/>
 
