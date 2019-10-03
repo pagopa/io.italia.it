@@ -275,15 +275,19 @@ textarea { resize: vertical; }
 
 .section__7 .table ul li { margin-bottom: 0.5em; }
 
-.section__8 { color: #fff; font-size: 1.5em; line-height: 1.4; }
+.section__8 { color: #fff; font-size: 1.2rem; line-height: 1.4; }
 
-@media screen and (max-width: 768px) { .section__8 { font-size: 1.2em; } }
+@media screen and (max-width: 768px) { .section__8 { font-size: 1rem; } }
 
-.section__8_inner { background-image: url("img/purple-bg.jpg"); background-repeat: none; background-position-x: center; background-position-y: top; padding-bottom: 2em; padding-top: 2em; }
+.section__8_inner { background-image: url("img/purple-bg.jpg"); background-repeat: none; background-position-x: center; background-position-y: top; padding-bottom: 2em; padding-top: 2em; background-size: cover; }
 
 .section__8 .newsletter-form { padding-bottom: 1em; padding-top: 1em; }
 
 .section__8 .newsletter-form .input-group { box-shadow: 2px 2px 24px 0px rgba(0, 0, 0, 0.4); }
+
+.section__8 .newsletter-form .input-group .input-group-append { margin-right: -1px; }
+
+.section__8 .newsletter-form .input-group .input-group-prepend { background-color: transparent; }
 
 .section__8 .newsletter-form .input-icon { border-top-left-radius: 5px !important; border-bottom-left-radius: 5px !important; padding-left: 1.5em; }
 
@@ -292,6 +296,8 @@ textarea { resize: vertical; }
 .section__8 .newsletter-form .input-email::placeholder { color: #ddd; }
 
 .section__8 .newsletter-form .input-submit { border-top-right-radius: 5px !important; border-bottom-right-radius: 5px !important; color: #fff; padding-left: 1.5em; padding-right: 1.5em; }
+
+.section__8 .form-check [type=checkbox]:not(:checked) + label::after { background-color: #d5d5d5; }
 
 .section__9 { color: #fff; }
 
