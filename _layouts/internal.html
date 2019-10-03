@@ -3,6 +3,7 @@ layout: default
 ---
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %}
 {% assign t = site.data.t[current_lang] %}
+
 {%- include navigation-slim.html -%}
 {%- include navigation.html -%}
 
@@ -42,4 +43,3 @@ layout: default
 
 {%- include footer.html -%}
 {%- include cookiebar.html -%}
-{%- include scripts.html -%}

@@ -1,6 +1,3 @@
-{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
-{% assign t = site.data.t[current_lang] %}
-
 <!DOCTYPE html>
 <html lang="{{ current_lang }}" style="height:100%">
 
@@ -26,6 +23,8 @@
         }, 3000);
     </script>
     {% endif %}
+
+    {%- include scripts.html -%}
 
   </body>
 

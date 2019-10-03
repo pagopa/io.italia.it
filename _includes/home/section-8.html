@@ -11,20 +11,47 @@
                 {{t.home-section-8.desc}}
           	</p>
           	<form method="GET" action="https://a0x0b4.emailsp.com/frontend/subscribe.aspx" class="newsletter-form">
-              <div class="form-group my-4">
+              <div class="form-group mt-4 mb-0 bg-white rounded">
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <div class="input-group-text"><svg class="icon icon-sm icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-mail"></use></svg></div>
                   </div>
-                  <input type="email" name="email" class="form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
-                  <input type="hidden" name="list" value="6">
-                  <div class="input-group-append">
-                    <button type="submit" class="btn btn-primary input-submit">{{t.home-section-8.button}}</button>
-                  </div>
+                  <input type="email" name="email" class="js-newsletter-email form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
                 </div>
               </div>
+              <div class="row js-nl-groups">
+                <div class="col-12 py-4">
+                  <p>Vorrei ricevere news sul progetto IO in qualità di*:</p>
+                  <div class="form-check form-check-group">
+                    <input class="js-nl-group-option" id="group-option-cittadino" data-value="86" type="checkbox">
+                    <label class="text-white" for="group-option-cittadino">Cittadino</label>
+                  </div>
+                  <div class="form-check form-check-group">
+                    <input class="js-nl-group-option" id="group-option-ente" data-value="87" type="checkbox">
+                    <label class="text-white" for="group-option-ente">Dipendente / Consulente di un ente pubblico</label>
+                  </div>
+                  <div class="form-check form-check-group">
+                    <input class="js-nl-group-option" id="group-option-fornitore" data-value="88" type="checkbox">
+                    <label class="text-white" for="group-option-fornitore">Partner tecnologico di un ente pubblico</label>
+                    <small id="group-option-fornitore-help" class="form-text">(presso società in-house, software house, ecc.)</small>
+                  </div>
+                  <div class="form-check form-check-group">
+                    <input class="js-nl-group-option" id="group-option-sviluppatore" data-value="90" type="checkbox">
+                    <label class="text-white" for="group-option-sviluppatore">Sviluppatore</label>
+                  </div>
+                  <div class="form-check form-check-group">
+                    <input class="js-nl-group-option" id="group-option-giornalista" data-value="91" type="checkbox">
+                    <label class="text-white" for="group-option-giornalista">Giornalista</label>
+                  </div>
+                  <small class="font-italic">* campo obbligatorio, con possibilità di risposta multipla</small>
+                </div>
+              </div>
+              <input type="hidden" name="list" value="6">
+              <input id="group" name="group" type="hidden" value="">
+              <div class="text-center my-4">
+                <button type="submit" class="js-newsletter-submit btn btn-primary input-submit" disabled>{{t.home-section-8.button}}</button>
+              </div>
             </form>
-
             <p class="text-center">
               <small>
               {{ t.home-section-8.privacy-policy-disclaimer }}
