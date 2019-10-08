@@ -5,6 +5,8 @@ lang: it
 ref: comunicato-stampa-ForumPA-2018
 excerpt_separator: <!--more-->
 download_link: /assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf
+
+narrow: true
 ---
 
 ### Nasce IO, il progetto per sviluppare l'app dei servizi pubblici

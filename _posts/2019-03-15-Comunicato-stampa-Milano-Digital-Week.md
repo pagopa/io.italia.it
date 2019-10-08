@@ -6,6 +6,8 @@ lang: it
 ref: comunicato-stampa-milano-digital-week
 excerpt_separator: <!--more-->
 download_link: /assets/download/it/io-comunicato-stampa-milano-digital-week.rtf
+
+narrow: true
 ---
 
 ### IO, l’app dei servizi pubblici, alla prova dei milanesi

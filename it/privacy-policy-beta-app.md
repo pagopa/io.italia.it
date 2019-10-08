@@ -7,6 +7,8 @@ permalink: /privacy-policy-beta-app/
 redirect_from:
   - /it/privacy-policy-beta-app/
 index: no-index
+
+narrow: true
 ---
 
 (art. 13 del Regolamento UE n. 2016/679)

@@ -7,6 +7,8 @@ lang: it
 ref: 'enti'
 redirect_from:
   - /it/enti/
+  
+narrow: true
 ---
 
 Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase di closed beta con i cittadini: sono aperte molte conversazioni con altre agenzie centrali e enti su tutto il territorio nazionale, quindi questa lista è in continuo aggiornamento!

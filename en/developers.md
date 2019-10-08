@@ -2,10 +2,19 @@
 layout: internal
 title: Information for developers
 subtitle:
+description: IO aims to facilitate the relationship between citizens and the Public Administration by creating a platform of reusable components that can make digital services more effective.
 lang: en
 ref: sviluppatori
 permalink: /en/developers/
+
+intro_image: "/assets/img/intro-sviluppatori.svg"
+intro_primary_text: "Sign up to the developer portal"
+intro_primary_link: "https://developer.io.italia.it"
+intro_secondary_text: "Read API documentation"
+intro_secondary_link: "https://teamdigitale.github.io/digital-citizenship/api.html"
 ---
+
+<div class="container" markdown="1">
 
 ## Introduction
 The open and collaborative development, along with being one of the key points of <a href="https://developers.italia.it/en" target="_blank">the new means of creating software</a> in the Italian Public Administration, perfectly aligns with this initiative that aims to facilitate the relationship between citizens and the Public Administration (PA) through the creation of a platform comprised of reusable components that can render digital services more effective.
@@ -63,3 +72,5 @@ To follow the development of IO and to participate, you can read the documentati
 </p>
 
 You can also join the <a href="https://developersitalia.slack.com/messages/CA70BM37X" target="_blank">#io-devel</a> channel on <a href="https://slack.developers.italia.it/" target="_blank">Developers Italia's Slack</a>!
+
+</div>

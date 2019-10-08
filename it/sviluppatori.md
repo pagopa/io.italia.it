@@ -1,15 +1,22 @@
 ---
 layout: internal
 title: Informazioni per gli sviluppatori
-title: Come integrarsi nei servizi di IO, aprire un account sviluppatore, contribuire attivamente al progetto open source
-subtitle:
+subtitle: Come integrarsi nei servizi di IO, aprire un account sviluppatore, contribuire attivamente al progetto open source
+description: IO mira ad agevolare la relazione tra i cittadini e la Pubblica Amministrazione attraverso la creazione di una piattaforma di componenti riutilizzabili in grado di rendere i servizi digitali più efficaci.
 lang: it
 ref: sviluppatori
 permalink: /sviluppatori/
 redirect_from:
   - /it/sviluppatori/
+  
+intro_image: "/assets/img/intro-sviluppatori.svg"
+intro_primary_text: "Registrati al back-office"
+intro_primary_link: "https://developer.io.italia.it"
+intro_secondary_text: "Leggi la documentazione API"
+intro_secondary_link: "https://teamdigitale.github.io/digital-citizenship/api.html"
 ---
 
+<div class="container mw-inner-60" markdown="1">
 
 ## Intro
 
@@ -73,3 +80,4 @@ Per seguire lo sviluppo di IO e partecipare puoi leggere il <a href="https://git
 
 Oppure partecipa al canale <a href="https://developersitalia.slack.com/messages/CA70BM37X" target="_blank">#io-devel</a> sullo <a href="https://slack.developers.italia.it/" target="_blank">Slack di Developers Italia</a>!
 
+</div>

@@ -1,47 +1,67 @@
 ---
 layout: internal
-full_width: true
 title: Information for journalists
-subtitle:
+subtitle: 
+description: Are you a journalist looking for material to write an article about the IO project? In this area you can find all the press releases issued and a series of multimedia materials you can download.
 lang: en
 ref: giornalisti
 permalink: /en/press/
+
+intro_image: "/assets/img/intro-giornalisti.svg"
+intro_primary_text: "Read our posts on Medium"
+intro_primary_link: "https://medium.com/team-per-la-trasformazione-digitale/progetto-io-app-servizi-pubblici/home"
 ---
 
-<section class="container mw-60">
+<section class="container">
     <div class="row">
         <div class="col-md-8">
             {% assign posts = site.posts | where: "lang", page.lang %}
             <div class="mt-0 mt-md-5">
                 {% for post in posts %}
-                  <div class="card-wrapper my-4">
-                    <div class="card">
-                      <div class="card-body">
-                          <div class="head-tags">
-                            <div class="d-flex justify-content-between w-100">
-                              <div><span class="data">{% include date.html date=post.date %}</span></div>
+                    <div class="card-wrapper my-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="head-tags">
+                                    <div class="d-flex justify-content-between w-100">
+                                      <div><span class="data">{% include date.html date=post.date %}</span></div>
+                                    </div>
+                                </div>
+                                <h5 class="card-title big-heading">
+                                    <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+                                </h5>
+                                <div class="card-text">{{ post.excerpt }}</div>__
+                                <a class="card-signature" href="{{ site.baseurl }}{{ post.url }}">Read</a>
+                                <a class="read-more" href="{{ site.baseurl }}{{ post.download_link }}">
+                                <span class="">Download</span>
+                                    <svg class="icon">
+                                      <use xlink:href="/assets/svg/sprite.svg#it-download"></use>
+                                </svg>
+                                </a>
                             </div>
-                          </div>
-                          <h5 class="card-title big-heading">{{ post.title }}</h5>
-                          <div class="card-text">{{ post.excerpt }}</div>
-                          <span class="card-signature">{{ post.author }}</span>
-                          <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">
-                            <span class="">Continua a leggere</span>
-                            <svg class="icon">
-                              <use xlink:href="/assets/svg/sprite.svg#it-arrow-right"></use>
-                            </svg>
-                          </a>
                         </div>
                     </div>
-                  </div>
                 {% endfor %}
             </div>
         </div>
         <div class="col-md-4">
 	        <aside class="mt-0 mt-md-5 pt-3 pt-md-5 pb-3 pb-md-5">
+            <p class="font-weight-bold">Press releases</p>
+            <ul class="list-unstyled mt-2 mt-md-5">
+                {% for download in site.data.downloads[page.lang]["press"] %}
+                <li class="mb-2 pt-2 pb-2">
+                    <a class="d-flex" download="{{ download.name }}" href="{{ download.asset | relative_url}}">
+                        <img class="icon mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">
+                        <p>
+                        <span class="font-weight-bold">{{ download.description }}</span><br/>
+                        <span class="small">{{ download.type }}</span>
+                        </p>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
             <p class="font-weight-bold">Media downloads</p>
             <ul class="list-unstyled mt-2 mt-md-5">
-                {% for download in site.data.downloads[page.lang] %}
+                {% for download in site.data.downloads[page.lang]["media"] %}
                 <li class="mb-2 pt-2 pb-2">
                     <a class="d-flex" download="{{ download.name }}" href="{{ download.asset | relative_url}}">
                         <img class="icon mr-3" src="{{'/assets/img/icon-download.svg' | relative_url}}" alt="icona download">

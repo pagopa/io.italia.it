@@ -6,6 +6,8 @@ ref: 'privacy-policy'
 permalink: /privacy-policy/
 redirect_from:
   - /it/privacy-policy/
+
+narrow: true
 ---
 
 La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche gli “Utenti”) che consultano il sito [io.italia.it](https://io.italia.it/) (di seguito, anche il “Sito”). L’informativa è resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”). 

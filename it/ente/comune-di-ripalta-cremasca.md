@@ -6,6 +6,8 @@ lang: it
 ref: 'ente-comune-di-ripalta-cremasca'
 redirect_from:
   - /it/ente/comune-di-ripalta-cremasca.html
+  
+narrow: true
 ---
 
 Durante la fase di *closed beta*, diversi dipartimenti del Comune di Ripalta Cremasca renderanno disponibili i propri servizi ai cittadini tramite l’app IO. 

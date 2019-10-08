@@ -70,6 +70,12 @@ body {
   max-width: 60rem;
 }
 
+.mw-inner-60 {
+  p, ul {
+    max-width: 60rem;
+  }
+}
+
 .navbar-toggler-icon {
   background-color: $color--italia;
 }
@@ -80,11 +86,6 @@ body {
 
   h2 {
     margin-top: 2rem;
-  }
-
-  section {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
   }
 
   &__content {
@@ -180,10 +181,32 @@ body {
     }
 
   }
+  .onboarding {
+    &__wrapper {
+      background: radial-gradient(100% 100% at 50% 0%, #0073D1 0%, #00266B 100%);
+    }
+
+    &__title {
+      font-size: 2rem;
+      padding-top: 64px;
+    }
+
+    &__subtitle {
+      font-size: 1.2rem;
+    }
+
+    &__paragraph {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      margin: 0 auto;
+    }
+
+    &__id {
+      color: #00FFF8;
+    }
+  }
 
   .onboard {
-
-
     &__wrapper {
       background-color: #00264D;
       background-image: url("img/purple-bg.jpg");
