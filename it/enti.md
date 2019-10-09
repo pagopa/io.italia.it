@@ -17,7 +17,7 @@ Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase
 * [Comune di Cagliari](https://www.comune.cagliari.it/)
 * [Comune di Cesena](http://www.comune.cesena.fc.it/)
 * [Comune di Milano]({% link it/ente/comune-di-milano.md %})
-* [Comune di Palermo](https://www.comune.palermo.it/)
+* [Comune di Palermo]({% link it/ente/comune-di-palermo.md %})
 * [Comune di Ripalta Cremasca]({% link it/ente/comune-di-ripalta-cremasca.md %})
 * [Comune di Torino]({% link it/ente/comune-di-torino.md %})
 * [Comune di Valsamoggia](https://www.comune.valsamoggia.bo.it/)
