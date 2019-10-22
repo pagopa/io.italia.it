@@ -5,7 +5,7 @@ title: IO, un'opportunità per le PA
 lang: it
 ref: pubbliche-amministrazioni
 permalink: /pubbliche-amministrazioni/
-description: "IO permette alle diverse Pubbliche Amministrazioni, locali  o nazionali, di raccogliere tutti i servizi, le comunicazioni  e i documenti in un unico luogo e di interfacciarsi in modo semplice, rapido e sicuro con i cittadini."
+description: "IO permette alle diverse Pubbliche Amministrazioni, locali o nazionali, di raccogliere tutti i servizi, le comunicazioni e i documenti in un unico luogo e di interfacciarsi in modo semplice, rapido e sicuro con i cittadini."
 redirect_from:
   - /it/pubbliche-amministrazioni/
   - /it/pa/
@@ -52,9 +52,11 @@ Fornisce infatti le principali funzioni necessarie all'interazione tra la pubbli
       <div class="col-3 text-right"><img class="img-fluid" src="{{ '/assets/img/icon-settings.svg' | relative_url }}" alt="Preferenze"></div>
       <div class="col-9">le gestione delle preferenze dell’utente</div>
     </div>
+    {% comment %}
     <div class="row facilita-pa">
       <a href="{% link it/pubbliche-amministrazioni/partecipa.md %}" class="btn btn-primary mt-4 mb-4">Partecipa alla sperimentazione!</a>
     </div>
+    {% endcomment %}
   </aside>
   </div>
   </div>
