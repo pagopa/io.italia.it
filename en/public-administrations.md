@@ -3,14 +3,21 @@ layout: internal
 full_width: true
 title: Advantages for the PA
 subtitle: Common functions available to all public services
+description: "IO allows different local or national public administrations to collect all services, communications and documents in one place and to communicate with citizens in a simple, rapid and safe manner."
 lang: en
 ref: pubbliche-amministrazioni
 permalink: /en/public-administrations/
 redirect_from:
   - /public-administrations/
+
+intro_image: "/assets/img/intro-pa.svg"
+intro_primary_text: "Join us"
+intro_primary_link: "https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a"
+intro_secondary_text: "Contact us"
+intro_secondary_link: "mailto:onboarding@io.italia.it"
 ---
 
-<section class="container mw-60">
+<section class="container">
 	<div class="row">
 	<div class="col-md-8 internal-page__bodytable">
 	<p>The IO project is based on the analysis of the citizens’ needs. All public entities providing digital services will profit from IO as it provides the main functions necessary for the  interaction between the public administration and citizens, thanks also to the integration with the enabling platforms pagoPA, ANPR and SPID.</p>
@@ -42,13 +49,56 @@ redirect_from:
 	</div>
 	</div>
 </section>
-<section class=" pa-schema__wrapper" >
-<h2 class="text-center">The components of the project and the subjects who use them</h2>
-<div class="pa-schema__inner">
-	<img class="pa-schema" src="{{ '/assets/img/pa-architectural-schema.png' | relative_url }}" alt="Architectural Schema">
-</div>
-</section>
 
+{% comment %}
+<section class=" pa-schema__wrapper" >
+    <h2 class="text-center">The components of the project and the subjects who use them</h2>
+    <div class="pa-schema__inner">
+        <img class="pa-schema" src="{{ '/assets/img/pa-architectural-schema.png' | relative_url }}" alt="Architectural Schema">
+    </div>
+</section>
+{% endcomment%}
+
+<section class="onboarding__wrapper" id="onboarding">
+  <div class="container text-center text-white">
+    <h2 class="onboarding__title">How to bring services to IO</h2>
+    <p class="onboarding__subtitle mt-3">A <strong>short guide for all institutions</strong> that want to prepare to use IO as a service delivery channel.</p>
+    <div class="row">
+      {% include onboarding/column.html
+        ordinal="01"
+        title="Service identification"
+        text="Identify <strong>which services</strong> you want to deliver through IO and prepare related messages."
+        button_text="Service and messages templates"
+        button_link="https://docs.google.com/spreadsheets/u/1/d/1dr3yt3O9_2zkCeEaxu3Riw99D5AhjYCWPpRZIoONbYI/edit?usp=sharing"
+        button_type="xls" %}
+      {% include onboarding/column.html
+        ordinal="02"
+        title="Technological integration"
+        text="Register to the back office as a developer, type the API and start testing the integration."
+        button_text="IO-back office/developer"
+        button_link="https://developer.io.italia.it"
+        button_type="backoffice" %}
+      {% include onboarding/column.html
+        ordinal="03"
+        title="Legal responsibilities"
+        text="Create your institution in the back office, identify the legal representative and perform the necessary formalities."
+        button_text="IO-back office/institutions"
+        button_link="#"
+        button_type="backoffice"
+        disabled="true" %}
+      {% include onboarding/column.html
+        ordinal="04"
+        title="Communication and launch"
+        text="Define a communication strategy to let your users know how to receive the services you developed on the IO app."
+        button_text="Communication kit"
+        button_link="https://docs.google.com/document/u/1/d/1UBe_2QSbkHSYLuIqHLecDvtdxn-3IlhC9cIoTS-Cx1Q/edit?usp=sharing"
+        button_type="kit" %}
+    </div>
+    <div class="text-center pb-5">
+      <a href="https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a" target="_blank" class="btn btn-white text-primary my-4">Discover more!</a>
+    </div>
+  </div>
+</section>
 
 <section class="privacy__wrapper">
 	<div class="container mw-60">

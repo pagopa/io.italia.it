@@ -6,6 +6,8 @@ lang: it
 ref: 'ente-comune-di-palermo'
 redirect_from:
   - /it/ente/comune-di-palermo.html
+  
+narrow: true
 ---
 
 Durante la fase di *closed beta*, diversi dipartimenti del Comune di Palermo renderanno disponibili i propri servizi ai cittadini tramite l’app IO. 

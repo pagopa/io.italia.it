@@ -1,15 +1,22 @@
 ---
 layout: internal
-title: Informazioni per gli sviluppatori
-title: Come integrarsi nei servizi di IO, aprire un account sviluppatore, contribuire attivamente al progetto open source
-subtitle:
+title: IO, una piattaforma di sviluppo aperta
+subtitle: Come integrarsi nei servizi di IO, aprire un account sviluppatore, contribuire attivamente al progetto open source
+description: IO mira ad agevolare la relazione tra i cittadini e la Pubblica Amministrazione attraverso la creazione di una piattaforma di componenti riutilizzabili in grado di rendere i servizi digitali più efficaci.
 lang: it
 ref: sviluppatori
 permalink: /sviluppatori/
 redirect_from:
   - /it/sviluppatori/
+  
+intro_image: "/assets/img/intro-sviluppatori.svg"
+intro_primary_text: "Registrati al back-office"
+intro_primary_link: "https://developer.io.italia.it"
+intro_secondary_text: "Leggi la documentazione API"
+intro_secondary_link: "https://teamdigitale.github.io/digital-citizenship/api.html"
 ---
 
+<div class="container mw-inner-60" markdown="1">
 
 ## Intro
 
@@ -67,9 +74,10 @@ Con il tuo contributo ad IO potrai avere un impatto concreto sul rapporto con la
 
 Per seguire lo sviluppo di IO e partecipare puoi leggere il <a href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md" target="_blank">file di documentazione</a> che illustra in maniera estensiva come partecipare. Se vuoi semplicemente integrarti con le API di IO, l’indirizzo del portale sviluppatori è: <a href="https://developer.io.italia.it/" target="_blank">developer.io.italia.it</a>.
 <p class="text-center">
-<a class="m-2 btn btn-outline-primary" href="https://developer.io.italia.it/openapi.html">Specifiche OpenAPI</a>
-<a class="m-2 btn btn-primary" href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md">Come contribuire</a>
+<a class="m-2 btn btn-outline-primary" href="https://developer.io.italia.it/openapi.html" target="_blank">Specifiche OpenAPI</a>
+<a class="m-2 btn btn-primary" href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md" target="_blank">Come contribuire</a>
 </p>
 
 Oppure partecipa al canale <a href="https://developersitalia.slack.com/messages/CA70BM37X" target="_blank">#io-devel</a> sullo <a href="https://slack.developers.italia.it/" target="_blank">Slack di Developers Italia</a>!
 
+</div>

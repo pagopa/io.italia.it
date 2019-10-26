@@ -2,6 +2,8 @@
 layout: internal
 title: Le tue impostazioni d'iscrizione sono state salvate
 permalink: /newsletter/impostazioni-salvate/
+
+narrow: true
 ---
 
 Bentornato!

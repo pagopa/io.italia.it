@@ -6,6 +6,8 @@ lang: it
 ref: comunicato-stampa-torino
 excerpt_separator: <!--more-->
 download_link: /assets/download/it/io-comunicato-stampa-torino.rtf
+
+narrow: true
 ---
 
 ### IO si apre al contributo di Torino

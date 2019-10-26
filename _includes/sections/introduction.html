@@ -1,0 +1,28 @@
+<section class="container mb-5{% if page.narrow %} mw-60{% endif %}" id="introduzione">
+  <div class="row">
+    <div class="col-md-6 text-primary">
+      <h1>{{ page.title }}</h1>
+      <p class="my-4">{{ page.description }}</p>
+      <div class="d-flex flex-column mb-3">
+        {%- if page.intro_primary_link -%}
+        <div class="py-2">
+          <a href="{{ page.intro_primary_link }}" class="btn btn-primary btn-sm text-uppercase" target="_blank">{{ page.intro_primary_text }}</a>
+        </div>
+        {%- endif %}
+        {%- if page.intro_secondary_link -%}
+        <div class="py-2">
+          <svg class="icon icon-sm icon-primary align-bottom"><use xlink:href="/assets/svg/sprite.svg#it-mail"></use></svg>
+          <a href="{{ page.intro_secondary_link }}" class="small" target="_blank">
+            {{ page.intro_secondary_text }}
+          </a>
+        </div>
+        {%- endif %}
+      </div>
+    </div>
+    {%- if page.intro_image -%}
+    <div class="col-md-5 offset-1">
+      <img class="img-fluid" src="{{ page.intro_image | relative_url }}" alt="Messaggi">
+    </div>
+    {%- endif -%}
+  </div>
+</section>

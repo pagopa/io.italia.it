@@ -10,7 +10,7 @@ layout: default
 <div class="internal-page">
 
   {% comment %}
-  <div class="container mw-60">
+  <div class="container">
     <nav aria-label="breadcrumb">
       <ol class="breadcrumb px-0">
         <li class="breadcrumb-item"><a href="{{ '/' | relative_url }}">Home</a></li>
@@ -21,22 +21,12 @@ layout: default
   {% endcomment %}
 
   <article class="{{ page.layout }}">
-    <div class="container mw-60">
-      <h1 class="text-primary">{{page.title}}</h1>
-      <h2>{{page.subtitle}}</h2>
-    </div>
-    <div class="internal-page__content">
-      {%if page.full_width %}
+    {% include sections/introduction.html %}
+    {% if page.narrow %}<div class="container mw-60">{% endif %}
+    <div class="internal-page__content mb-5">
         {{content}}
-      {% else %}
-      <section class="container mw-60">
-        <div class="mw-50 mx-0">
-          {{content}}
-        </div>
-      </section>
-      {% endif %}
-
     </div>
+    {% if page.narrow %}</div>{% endif %}
   </article>
 
 </div>

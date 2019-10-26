@@ -6,6 +6,8 @@ ref: 'note-legali'
 permalink: /note-legali/
 redirect_from:
   - /it/note-legali/
+
+narrow: true
 ---
 
 Il sito [io.italia.it](https://io.italia.it) (di seguito il “Sito”) ha l’obiettivo di:

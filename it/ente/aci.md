@@ -6,6 +6,8 @@ lang: it
 ref: 'ente-aci'
 redirect_from:
   - /it/ente/aci.html
+  
+narrow: true
 ---
   
 Durante la fase di *closed beta*, l’Automobile Club d’Italia (ACI) renderà disponibili alcuni dei propri servizi ai cittadini tramite l’app IO. 

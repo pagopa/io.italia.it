@@ -6,6 +6,8 @@ ref: 'informativa-newsletter'
 permalink: /informativa-newsletter/
 redirect_from:
   - /it/informativa-newsletter/
+  
+narrow: true
 ---
 
 La presente informativa viene resa ai sensi dell'art. 13 del Regolamento 2016/679 (GDPR) ed è relativa ai dati personali trattati nell’ambito dell’invio di newsletter relative al progetto IO.
