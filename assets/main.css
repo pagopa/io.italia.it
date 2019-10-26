@@ -604,13 +604,13 @@ body.layout--home { font-size: 14px; }
 
 .mw-60 { max-width: 60rem; }
 
+.mw-inner-60 p, .mw-inner-60 ul { max-width: 60rem; }
+
 .navbar-toggler-icon { background-color: #06C; }
 
 .internal-page { color: #5C6F82; margin-top: 12rem; }
 
 .internal-page h2 { margin-top: 2rem; }
-
-.internal-page section { margin-top: 4rem; margin-bottom: 4rem; }
 
 .internal-page__content { margin-top: 3rem; }
 
@@ -641,6 +641,16 @@ body.layout--home { font-size: 14px; }
 .internal-page .attorno-utente__subtitle { font-size: 1.8rem; color: #0073E6; margin-bottom: 2rem; }
 
 .internal-page .attorno-utente__paragraph { margin: 0.7rem auto; padding: 0 0.5rem; }
+
+.internal-page .onboarding__wrapper { background: radial-gradient(100% 100% at 50% 0%, #0073D1 0%, #00266B 100%); }
+
+.internal-page .onboarding__title { font-size: 2rem; padding-top: 64px; }
+
+.internal-page .onboarding__subtitle { font-size: 1.2rem; }
+
+.internal-page .onboarding__paragraph { font-size: 1.2rem; line-height: 1.5; margin: 0 auto; }
+
+.internal-page .onboarding__id { color: #00FFF8; }
 
 .internal-page .onboard__wrapper { background-color: #00264D; background-image: url("img/purple-bg.jpg"); background-repeat: no-repeat; background-position-x: center; margin-top: 3rem; margin-bottom: 0; padding-top: 3rem; padding-bottom: 3rem; }
 
