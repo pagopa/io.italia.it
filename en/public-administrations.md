@@ -95,7 +95,7 @@ intro_secondary_link: "mailto:onboarding@io.italia.it"
         button_type="kit" %}
     </div>
     <div class="text-center pb-5">
-      <a href="https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a" class="btn btn-white text-primary my-4">Discover more!</a>
+      <a href="https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a" target="_blank" class="btn btn-white text-primary my-4">Discover more!</a>
     </div>
   </div>
 </section>

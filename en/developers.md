@@ -67,8 +67,8 @@ Contributing to IO means having a concrete impact on the relationship with the P
 To follow the development of IO and to participate, you can read the documentation file that illustrates in detail how to participate.  If you simply want to integrate with IO’s API, the address of the developer portal is: <a href="https://developer.io.italia.it/" target="_blank">developer.io.italia.it</a>.
 
 <p class="text-center">
-<a class="m-2 btn btn-outline-primary" href="https://developer.io.italia.it/openapi.html">OpenAPI specs</a>
-<a class="m-2 btn btn-primary" href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md">How to participate</a>
+<a class="m-2 btn btn-outline-primary" href="https://developer.io.italia.it/openapi.html" target="_blank">OpenAPI specs</a>
+<a class="m-2 btn btn-primary" href="https://github.com/teamdigitale/io/blob/master/CONTRIBUTING.it.md" target="_blank">How to participate</a>
 </p>
 
 You can also join the <a href="https://developersitalia.slack.com/messages/CA70BM37X" target="_blank">#io-devel</a> channel on <a href="https://slack.developers.italia.it/" target="_blank">Developers Italia's Slack</a>!
