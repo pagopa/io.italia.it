@@ -5,7 +5,7 @@
     <h3 class="h4 my-3">{{ include.title }}</h3>
     <p>{{ include.text }}</p>
   </div>
-  <a class="btn btn-icon btn-outline-white btn-sm text-left mt-auto mx-3{% if include.disabled %} disabled{% endif %}" href="{{ include.button_link }}">
+  <a class="btn btn-icon btn-outline-white btn-sm text-left mt-auto mx-3{% if include.disabled %} disabled{% endif %}" href="{{ include.button_link }}" target="_blank">
     <img src="{{ '/assets/img/onboarding/tool-' | append: include.button_type  | append: '.svg' | relative_url }}" alt="File di tipo {{ include.button_type }}">
     <span class="pl-2 text-uppercase">{{ include.button_text }}</span>
   </a>
