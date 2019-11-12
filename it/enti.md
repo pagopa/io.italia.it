@@ -22,5 +22,5 @@ Questi gli enti che hanno confermato la loro intenzione di partecipare alla fase
 * [Comune di Palermo]({% link it/ente/comune-di-palermo.md %})
 * [Comune di Ripalta Cremasca]({% link it/ente/comune-di-ripalta-cremasca.md %})
 * [Comune di Torino]({% link it/ente/comune-di-torino.md %})
-* [Comune di Valsamoggia](https://www.comune.valsamoggia.bo.it/)
+* [Comune di Valsamoggia]({% link it/ente/comune-di-valsamoggia.md %})
 * [Regione Veneto](http://www.regione.veneto.it/)
