@@ -1,28 +1,34 @@
 {% assign roadmap = site.data.roadmap[current_lang] %}
 
-<section id="section_10" class="section section__10 bg-white">
-  <div id="roadmap" class="container section__10_inner">
-    <div class="row py-3 justify-content-md-center">
-      <div class="col col-md-8">
-        <h1 class="h1">Roadmap</h1>
-
-        {% for quarter in roadmap %}
-        <dt class="activity-title">{{ quarter[0] }}</dt>
-        <dd class="u-margin-left-l">
-          <ul class="activity-list">
-            {% for activity in quarter[1] %}
-            <li class="activity{% unless activity.status == 'todo' %} activity--done{% endunless %}">
-              <h3 class="h3">{{ activity.title }}</h3>
-              <div class="u-md-flex u-lg-flex">
-                <p class="u-margin-right-l">{{ activity.subtitle }}</p>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </dd>
-        {% endfor %}
-
-
+<section
+  id="section_10"
+  class="section section__10 section--wpointers roadmap_home"
+>
+  <div id="roadmap" class="container section__10_inner roadmap_bg">
+    <div class="row">
+      <div class="col py-sm-3 py-md-4 py-lg-4">
+        <h1 class="text-white text-center">Roadmap</h1>
+        <h6 class="text-white text-center font-weight-normal">
+          Un progetto in crescita giorno dopo giorno
+        </h6>
+      </div>
+    </div>
+    <div class="row">
+      <div
+        class="col py-sm-3 py-md-4 py-lg-4 text-center d-block d-sm-block d-md-none"
+      >
+        <a href="/roadmap" class="btn btn-white btn-sm" role="button">
+          <span class="text-primary text-uppercase"
+            >Vedi tutta la roadmap</span
+          ></a
+        >
+      </div>
+      <div class="col py-sm-3 py-md-4 py-lg-4 text-center d-none d-md-block">
+        <a href="/roadmap" class="btn btn-white btn-lg" role="button">
+          <span class="text-primary text-uppercase"
+            >Vedi tutta la roadmap</span
+          ></a
+        >
       </div>
     </div>
   </div>

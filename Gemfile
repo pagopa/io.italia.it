@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.0"
+gem "jekyll-watch"
 
 gem "html-proofer", "~> 3.13"
 
