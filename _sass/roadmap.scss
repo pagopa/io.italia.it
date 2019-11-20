@@ -1,60 +1,111 @@
-.roadmap_home {
-  background-image: url(img/roadmap_bg.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  // background: rgb(39, 111, 183);
-  // background: radial-gradient(
-  //     circle,
-  //     rgba(39, 111, 183, 1) 0%,
-  //     rgba(35, 49, 96, 1) 100%
-  //   );
-
-  .section__10_inner {
-    padding: 2em 0;
-
-    @media screen and (min-width: $grid-breakpoints-xl) {
-      padding: 3em 0;
-    }
-  }
-
-  .roadmap_bg {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-self: center;
-
-    background-image: url(img/roadmap.png);
-    background-position-x: center;
-    background-position-y: 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 400px;
-
-    @media screen and (min-width: $grid-breakpoints-sm) {
-      background-position-y: 80px;
-      height: 450px;
-    }
-
-    @media screen and (min-width: $grid-breakpoints-md) {
-      height: 550px;
-    }
-
-    @media screen and (min-width: $grid-breakpoints-lg) {
-      background-position-y: 60px;
-      height: 680px;
-    }
-
-    @media screen and (min-width: $grid-breakpoints-xl) {
-      height: 800px;
-    }
-  }
-
-  .img_roadmap {
+.roadmap-timeline {
+  .point-list {
     width: 100%;
-    height: auto;
   }
-}
 
-.roadmap {
+  .point-list-aside {
+    width: 50%;
+    align-items: flex-end !important;
+    padding-right: 2rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+
+    h4,
+    p {
+      color: $color--gray-text;
+    }
+
+    &.with-line {
+      &::after {
+        content: "";
+        position: absolute;
+        width: 15px;
+        height: 1px;
+        top: 3.8em;
+        right: 0;
+        transform: none;
+        border-radius: 0;
+        background-color: $color--italia;
+      }
+
+      &.with-line-right {
+        &::after {
+          right: -15px;
+        }
+      }
+    }
+  }
+
+  .point-list-content {
+    width: 50%;
+    align-items: flex-start !important;
+    padding-left: 2rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    margin-left: 0 !important;
+
+    /* & > * {
+      width: unset !important;
+    } */
+  }
+
+  .roadtip {
+    position: relative;
+    display: inline-block;
+    background-color: $color--italia;
+    padding: 5px 10px;
+    color: $color--white;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    border-radius: 5px;
+
+    &.arrow {
+      &::after {
+        top: 50%;
+        border: solid transparent;
+        content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        pointer-events: none;
+        border-width: 5px;
+        margin-top: -5px;
+      }
+
+      &.arrow-right {
+        &::after {
+          left: 100%;
+          border-left-color: $color--italia;
+        }
+      }
+
+      &.arrow-left {
+        &::after {
+          right: 100%;
+          border-right-color: $color--italia;
+        }
+      }
+    }
+  }
+
+  .roadicon {
+    width: 4em;
+    height: 4em;
+    border-radius: 2em;
+    background-color: $color--italia;
+
+    &.white {
+      background-color: $color--white;
+    }
+
+    &::after {
+      content: " ";
+    }
+
+    .icon {
+      width: 2.5em;
+      height: 2.5em;
+      margin: 0.75em;
+    }
+  }
 }
