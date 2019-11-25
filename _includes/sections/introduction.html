@@ -2,7 +2,7 @@
   class="container mb-5{% if page.narrow %} mw-60{% endif %}"
   id="introduzione"
 >
-  <div class="row">
+  <div class="row px-3 px-md-0">
     <div class="col-md-6 text-primary">
       <h1>{{ page.title }}</h1>
       <p class="my-4">{{ page.description }}</p>
@@ -16,8 +16,7 @@
             >{{ page.intro_primary_text }}</a
           >
         </div>
-        {%- endif %}
-        {%- if page.intro_secondary_link -%}
+        {%- endif %} {%- if page.intro_secondary_link -%}
         <div class="py-2">
           <svg class="icon icon-sm icon-primary align-bottom">
             <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>

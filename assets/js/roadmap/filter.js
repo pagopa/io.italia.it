@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".filter-tool button").click(function() {
+  $(".filter-buttons button").click(function() {
     var $btn = $(this);
     var $siblings = $btn.siblings();
     var filter = $btn.data("click");
