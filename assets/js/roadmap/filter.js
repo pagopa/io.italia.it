@@ -1,3 +1,8 @@
+var date = new Date();
+var year = date.getFullYear();
+var month = date.getMonth() + 1;
+var now = Number(String(year) + String(month));
+
 $(document).ready(function() {
   $(".filter-buttons button").click(function() {
     var $btn = $(this);
@@ -36,5 +41,19 @@ $(document).ready(function() {
         $point.show();
       }
     });
+  });
+
+  // Apply time class
+  $("[data-time]").each(function() {
+    var $el = $(this);
+    var date = $el.data("time");
+    if (date > now) {
+      $el.addClass("point-future");
+      var $use = $el.find("use");
+      if ($use && $use.length) {
+        var href = $use.attr("xlink:href");
+        $use.attr("xlink:href", href.replace("_b", "_g"));
+      }
+    }
   });
 });

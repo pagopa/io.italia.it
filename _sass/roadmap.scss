@@ -1,5 +1,4 @@
 .roadmap-timeline {
-  // .d-flex justify-content-start align-items-center
   .filter-tool {
     display: flex;
     flex-direction: row;
@@ -20,6 +19,26 @@
 
           &.btn-icon {
             justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  .point-list-wrapper {
+    .point-list {
+      .point-list-aside:not(.with-line) {
+        &.point-list-primary {
+          &::before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 50%;
+            right: -15px;
+            transform: translateY(-15px);
+            background-color: #f2f7fc;
+            z-index: 0;
           }
         }
       }
@@ -153,6 +172,47 @@
           &::after {
             right: -15px !important;
           }
+        }
+      }
+    }
+
+    &.point-future {
+      opacity: 0.3;
+
+      .point-list-primary {
+        border-color: $color--gray-text !important;
+        &::after {
+          background-color: $color--gray-text !important;
+        }
+      }
+
+      .roadtip {
+        background-color: $color--gray-text !important;
+
+        &.arrow-left {
+          &::after {
+            border-right-color: $color--gray-text !important;
+          }
+        }
+
+        &.arrow-right {
+          &::after {
+            border-left-color: $color--gray-text !important;
+          }
+        }
+      }
+
+      .roadicon {
+        background-color: $color--gray-text !important;
+
+        &.white {
+          background-color: $color--white !important;
+        }
+      }
+
+      .with-line {
+        &::after {
+          background-color: $color--gray-text !important;
         }
       }
     }
