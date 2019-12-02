@@ -87,7 +87,6 @@ DEPENDENCIES
   jekyll (~> 4.0)
   jekyll-feed (~> 0.12)
   jekyll-redirect-from (~> 0.15)
-  jekyll-watch
 
 BUNDLED WITH
    2.0.1
