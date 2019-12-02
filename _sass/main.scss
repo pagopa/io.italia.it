@@ -1,23 +1,26 @@
-@import 'variables';
-@import 'reset';
-@import 'animation';
-@import 'constellation';
-@import 'section';
-@import 'galaxy';
-@import 'volume';
-@import 'italia';
-@import 'device';
-@import 'carillon';
-@import 'copy';
-@import 'footer';
-@import 'cookiebar';
-@import 'preload';
-@import 'navigation';
-@import 'full-screen';
-@import 'loading';
-@import 'offcanvas';
-@import 'card';
-@import 'partecipa';
+@import "variables";
+@import "reset";
+@import "animation";
+@import "constellation";
+@import "section";
+@import "galaxy";
+@import "volume";
+@import "italia";
+@import "device";
+@import "carillon";
+@import "copy";
+@import "footer";
+@import "cookiebar";
+@import "preload";
+@import "navigation";
+@import "full-screen";
+@import "loading";
+@import "offcanvas";
+@import "card";
+@import "partecipa";
+
+// ROADMAP
+@import "roadmap";
 
 body {
   background-color: $color--light-grey;
@@ -30,7 +33,7 @@ body {
 .section {
   padding: 0; // overrides Bootstrap Italia colliding selector
   .table {
-    color: #5C6F82;
+    color: #5c6f82;
   }
 }
 
@@ -71,7 +74,8 @@ body {
 }
 
 .mw-inner-60 {
-  p, ul {
+  p,
+  ul {
     max-width: 60rem;
   }
 }
@@ -81,7 +85,7 @@ body {
 }
 
 .internal-page {
-  color: #5C6F82;
+  color: #5c6f82;
   margin-top: 12rem;
 
   h2 {
@@ -98,17 +102,17 @@ body {
 
   aside {
     padding: 0 2em;
-    border-left: 1px solid #E6E9F2;
+    border-left: 1px solid #e6e9f2;
 
     @media screen and (max-width: $grid-breakpoints-md) {
-      border-top: 1px solid #E6E9F2;
+      border-top: 1px solid #e6e9f2;
       border-left: none;
       padding: 2em 1em;
     }
   }
   .facilita-pa {
     margin-top: 2rem;
-    color: #5C6F82;
+    color: #5c6f82;
     font-weight: 600;
     font-size: 1.1rem;
     line-height: 1.2;
@@ -122,7 +126,7 @@ body {
     &__wrapper {
       padding-top: 1rem;
       padding-bottom: 3rem;
-      background-color: #5C6F82;
+      background-color: #5c6f82;
 
       h2 {
         font-weight: 700;
@@ -166,7 +170,6 @@ body {
         font-size: 3rem;
         margin-top: 3rem;
       }
-
     }
 
     &__subtitle {
@@ -179,11 +182,14 @@ body {
       margin: 0.7rem auto;
       padding: 0 0.5rem;
     }
-
   }
   .onboarding {
     &__wrapper {
-      background: radial-gradient(100% 100% at 50% 0%, #0073D1 0%, #00266B 100%);
+      background: radial-gradient(
+        100% 100% at 50% 0%,
+        #0073d1 0%,
+        #00266b 100%
+      );
     }
 
     &__title {
@@ -202,13 +208,13 @@ body {
     }
 
     &__id {
-      color: #00FFF8;
+      color: #00fff8;
     }
   }
 
   .onboard {
     &__wrapper {
-      background-color: #00264D;
+      background-color: #00264d;
       background-image: url("img/purple-bg.jpg");
       background-repeat: no-repeat;
       background-position-x: center;
@@ -223,7 +229,6 @@ body {
         margin-top: 3rem;
         color: #fff;
       }
-
     }
 
     &__subtitle {
@@ -238,7 +243,6 @@ body {
       color: #fff;
       margin: 0 auto;
     }
-
   }
 
   .legge {
@@ -258,7 +262,7 @@ body {
         h1 {
           font-size: 1.3rem;
           line-height: 1.4;
-          color: #5C6F82;
+          color: #5c6f82;
           font-weight: 600;
           letter-spacing: -1px;
         }
@@ -272,14 +276,10 @@ body {
     }
 
     &__paragraph {
-
     }
-
   }
 
   .sicurezza {
-
-
     &__alien {
       position: absolute;
       top: -6rem;
@@ -300,21 +300,25 @@ body {
       margin-bottom: 3rem;
       padding-top: 8rem;
       padding-bottom: 8rem;
-      background: linear-gradient(206.57deg, #336184 0%, #264B6A 47.16%, #17324D 100%);
+      background: linear-gradient(
+        206.57deg,
+        #336184 0%,
+        #264b6a 47.16%,
+        #17324d 100%
+      );
 
       h2 {
         font-weight: 700;
         font-size: 3rem;
         margin-top: 2rem;
         margin-bottom: 3rem;
-        color: #0BD9D3;
+        color: #0bd9d3;
       }
-
     }
 
     &__subtitle {
       font-size: 1.8rem;
-      color: #0BD9D3;
+      color: #0bd9d3;
       margin-bottom: 2rem;
     }
 
@@ -323,12 +327,11 @@ body {
       padding: 0 0.5rem;
       color: #fff;
     }
-
   }
 
   .pa-schema__wrapper {
     margin-top: 10rem;
-    background-color: #FAFBFD;
+    background-color: #fafbfd;
 
     h2 {
       margin-top: 2em;
@@ -349,7 +352,6 @@ body {
       max-width: 1200px;
     }
   }
-
 }
 
 .giornalisti__slides {
@@ -374,7 +376,7 @@ body {
     &:hover:after {
       position: absolute;
       z-index: 10;
-      content: url('img/icon-zoom.svg');
+      content: url("img/icon-zoom.svg");
       line-height: 0;
       bottom: 1rem;
       left: 1rem;
@@ -393,7 +395,7 @@ button.baguetteBox-button {
   }
 
   & svg {
-    transform: scale(.5);
+    transform: scale(0.5);
   }
 }
 
@@ -418,7 +420,9 @@ button.baguetteBox-button {
   padding-bottom: 56.25%;
   padding-top: 30px;
   position: relative;
-  iframe, object, embed {
+  iframe,
+  object,
+  embed {
     height: 100%;
     left: 0;
     position: absolute;
@@ -426,4 +430,3 @@ button.baguetteBox-button {
     width: 100%;
   }
 }
-

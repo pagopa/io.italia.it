@@ -58,4 +58,8 @@ https://github.com/dollarshaveclub/stickybits
 
 {% endif %}
 
+{%if page.ref == 'roadmap' %}
+<script src="{{ '/assets/js/roadmap/filter.js' }}"></script>
+{% endif %}
+
 <script async src="{{ '/assets/js/main.js?' | append: buildTime | relative_url }}"></script>

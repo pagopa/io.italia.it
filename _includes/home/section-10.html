@@ -1,28 +1,30 @@
 {% assign roadmap = site.data.roadmap[current_lang] %}
 
-<section id="section_10" class="section section__10 bg-white">
-  <div id="roadmap" class="container section__10_inner">
-    <div class="row py-3 justify-content-md-center">
-      <div class="col col-md-8">
-        <h1 class="h1">Roadmap</h1>
-
-        {% for quarter in roadmap %}
-        <dt class="activity-title">{{ quarter[0] }}</dt>
-        <dd class="u-margin-left-l">
-          <ul class="activity-list">
-            {% for activity in quarter[1] %}
-            <li class="activity{% unless activity.status == 'todo' %} activity--done{% endunless %}">
-              <h3 class="h3">{{ activity.title }}</h3>
-              <div class="u-md-flex u-lg-flex">
-                <p class="u-margin-right-l">{{ activity.subtitle }}</p>
-              </div>
-            </li>
-            {% endfor %}
-          </ul>
-        </dd>
-        {% endfor %}
-
-
+<section
+  id="section_10"
+  class="section section__10 section--wpointers internal-page mt-0"
+>
+  <div class="onboarding__wrapper">
+    <div class="container text-center text-white">
+      <h2 class="onboarding__title mt-0">Roadmap</h2>
+      <p class="onboarding__subtitle mt-3 text-white">
+        Un progetto in crescita giorno dopo giorno
+      </p>
+      <div class="row py-3 pb-xs-5 pb-sm-5">
+        <div class="col-12">
+          <a href="/roadmap/">
+            <img
+              src="/assets/img/roadmap.svg"
+              alt="Immagine della roadmap di progetto"
+              style="width:100%;height:auto;"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="text-center pb-5 d-none d-md-block">
+        <a href="/roadmap/" class="btn btn-white text-primary my-4"
+          ><span class="text-uppercase">Vedi tutta la roadmap</span></a
+        >
       </div>
     </div>
   </div>

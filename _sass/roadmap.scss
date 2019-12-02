@@ -1,0 +1,220 @@
+.roadmap-timeline {
+  .filter-tool {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    @media (max-width: 767px) {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .filter-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .btn {
+          margin-top: 0.5rem;
+
+          &.btn-icon {
+            justify-content: center;
+          }
+        }
+      }
+    }
+  }
+
+  .point-list-wrapper {
+    .point-list {
+      .point-list-aside:not(.with-line) {
+        &.point-list-primary {
+          &::before {
+            content: "";
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            top: 50%;
+            right: -15px;
+            transform: translateY(-15px);
+            background-color: #f2f7fc;
+            z-index: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .point-list {
+    width: 100%;
+
+    .point-list-aside {
+      width: 50%;
+      align-items: flex-end !important;
+      padding-right: 2rem !important;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+
+      h4,
+      p {
+        color: $color--gray-text;
+      }
+
+      &.with-line {
+        &::after {
+          content: "";
+          position: absolute;
+          width: 15px;
+          height: 1px;
+          top: 3.8em;
+          right: 0;
+          transform: none;
+          border-radius: 0;
+          background-color: $color--italia;
+        }
+
+        &.with-line-right {
+          &::after {
+            right: -15px;
+          }
+        }
+      }
+    }
+
+    .point-list-content {
+      width: 50%;
+      align-items: flex-start !important;
+      padding-left: 2rem !important;
+      padding-top: 2rem !important;
+      padding-bottom: 2rem !important;
+      margin-left: 0 !important;
+    }
+
+    .roadtip {
+      position: relative;
+      display: inline-block;
+      background-color: $color--italia;
+      padding: 5px 10px;
+      color: $color--white;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      border-radius: 5px;
+
+      &.arrow {
+        &::after {
+          top: 50%;
+          border: solid transparent;
+          content: " ";
+          height: 0;
+          width: 0;
+          position: absolute;
+          pointer-events: none;
+          border-width: 5px;
+          margin-top: -5px;
+        }
+
+        &.arrow-right {
+          &::after {
+            left: 100%;
+            border-left-color: $color--italia;
+          }
+        }
+
+        &.arrow-left {
+          &::after {
+            right: 100%;
+            border-right-color: $color--italia;
+          }
+        }
+      }
+    }
+
+    .roadicon {
+      width: 4em;
+      height: 4em;
+      border-radius: 2em;
+      background-color: $color--italia;
+
+      &.white {
+        background-color: $color--white;
+      }
+
+      &::after {
+        content: " ";
+      }
+
+      .icon {
+        width: 2.5em;
+        height: 2.5em;
+        margin: 0.75em;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .point-list-aside {
+        width: auto;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
+
+      .point-list-content {
+        width: 100%;
+      }
+
+      &.point-list-sx {
+        .point-list-aside {
+          & > * {
+            display: none;
+          }
+        }
+
+        .with-line {
+          &::after {
+            right: -15px !important;
+          }
+        }
+      }
+    }
+
+    &.point-future {
+      opacity: 0.7;
+
+      .point-list-primary {
+        border-color: $color--gray-text !important;
+        &::after {
+          background-color: $color--gray-text !important;
+        }
+      }
+
+      .roadtip {
+        background-color: $color--gray-text !important;
+
+        &.arrow-left {
+          &::after {
+            border-right-color: $color--gray-text !important;
+          }
+        }
+
+        &.arrow-right {
+          &::after {
+            border-left-color: $color--gray-text !important;
+          }
+        }
+      }
+
+      .roadicon {
+        background-color: $color--gray-text !important;
+
+        &.white {
+          background-color: $color--white !important;
+        }
+      }
+
+      .with-line {
+        &::after {
+          background-color: $color--gray-text !important;
+        }
+      }
+    }
+  }
+}
