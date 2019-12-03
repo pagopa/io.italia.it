@@ -1,0 +1,33 @@
+.giornalisti {
+  // hack
+  margin-bottom: -48px;
+
+  .section-resources {
+    background: radial-gradient(100% 100% at 50% 0%, #00266b 0%, #0073d1 100%);
+  }
+
+  .grid-gallery {
+    .image-item {
+      img {
+        display: block;
+      }
+    }
+
+    @media (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+      .image-item {
+        margin: 1rem;
+        width: calc(50% - 2rem);
+      }
+    }
+
+    @media (min-width: 992px) {
+      .image-item {
+        width: calc(33.3333% - 2rem);
+      }
+    }
+  }
+}
