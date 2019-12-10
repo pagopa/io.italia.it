@@ -66,5 +66,20 @@
 
   .lineright {
     border-right: 1px solid #e5e5e5;
+
+    &.media-press {
+      .media {
+        display: none;
+      }
+    }
+
+    .title-link {
+      text-decoration: none;
+      color: $color--gray-text !important;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }

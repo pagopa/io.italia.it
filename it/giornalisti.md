@@ -4,7 +4,7 @@ title: IO, un progetto da raccontare
 subtitle: Comunicati stampa, immagini, video, presentazioni, ecc.
 description: Sei un giornalista e sei alla ricerca di materiale per scrivere un articolo sul progetto IO? In questa area puoi trovare informazioni, comunicati stampa, presentazioni e altre risorse multimediali da poter scaricare.
 lang: it
-ref: giornalisti2
+ref: giornalisti
 permalink: /giornalisti/
 redirect_from:
   - /it/giornalisti/
