@@ -83,7 +83,7 @@ intro_secondary_link: "mailto:onboarding@io.italia.it"
         title="Legal responsibilities"
         text="Create your institution in the back office, identify the legal representative and perform the necessary formalities."
         button_text="IO-back office/institutions"
-        button_link="#"
+        button_link=""
         button_type="backoffice"
         disabled="true" %}
       {% include onboarding/column.html

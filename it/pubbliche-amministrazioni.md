@@ -95,7 +95,7 @@ Fornisce infatti le principali funzioni necessarie all'interazione tra la pubbli
         title="Responsabilità legali"
         text="Crea il tuo ente nel back-office, identifica il rappresentante legale e esegui gli adempimenti necessari."
         button_text="IO-back office / enti<br/>(in costruzione)"
-        button_link="#"
+        button_link=""
         button_type="backoffice"
         disabled="true" %}
       {% include onboarding/column.html
