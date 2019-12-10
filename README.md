@@ -2,20 +2,23 @@
 
 [![CircleCI](https://circleci.com/gh/teamdigitale/io.italia.it.svg?style=svg)](https://circleci.com/gh/teamdigitale/io.italia.it)
 
+A website for the IO project.
 
-## Licensing
+Getting started
+The repo contains a [Jekyll](https://jekyllrb.com/)-based website, validated and deployed with [CircleCI](https://circleci.com/gh/teamdigitale/io.italia.it). The website relies on the [Bootstrap Italia](https://italia.github.io/bootstrap-italia/) design library for basic styling and functionality.
 
-Copyright (c) the respective contributors, as shown by the AUTHORS file.
+If you already have `bundler` installed, you can install jekyll and budler gems with:
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License as published
-by the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+`bundle install`
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
+You can build the site and make it available on a local server with:
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <http://www.gnu.org/licenses/>.
+`bundle exec jekyll serve --config _config.yml,_config_dev.yml`
+
+ You can refer to the [official Jekyll docs](https://jekyllrb.com/docs/) for further details on how to install it locally.
+
+### Notes
+
+You can run the server just with `bundle exec jekyll serve`: the webiste will be available on http://localhost:4000/design-jeyll-theme. This is the default settings to allow usage with GitHub pages.
+
+The aforementioned addition of `_config_dev.yml` is needed to run the server on http://localhost:4000 without any subpath.
