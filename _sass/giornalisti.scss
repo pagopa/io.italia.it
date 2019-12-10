@@ -1,0 +1,70 @@
+.giornalisti {
+  // hack
+  margin-bottom: -48px;
+
+  .section-resources {
+    background: radial-gradient(100% 100% at 50% 0%, #00266b 0%, #0073d1 100%);
+
+    a.btn.btn-white {
+      width: 100%;
+    }
+  }
+
+  .section-medium {
+    background-color: $color--white;
+  }
+
+  .grid-gallery {
+    .image-item {
+      margin-top: 3rem;
+      &:first-child {
+        margin-top: 0;
+      }
+
+      a {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &.text-secondary {
+          color: $color--gray-text !important;
+        }
+      }
+
+      img {
+        width: 100%;
+      }
+
+      h5 {
+        font-weight: 800;
+      }
+    }
+
+    @media (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+      margin-right: -3rem;
+
+      .image-item {
+        margin: 3rem;
+        margin-top: 0;
+        margin-left: 0;
+        width: calc(50% - 3rem);
+      }
+    }
+
+    @media (min-width: 992px) {
+      .image-item {
+        width: calc(33.3333% - 3rem);
+      }
+    }
+  }
+
+  .lineright {
+    border-right: 1px solid #e5e5e5;
+  }
+}

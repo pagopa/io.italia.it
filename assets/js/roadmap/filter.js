@@ -32,15 +32,31 @@ $(document).ready(function() {
     });
 
     // apply filter for each element
-    $(".point-list[data-filter]").each(function() {
-      var $point = $(this);
-      var id = $point.data("filter");
-      if (filter && filter !== id) {
-        $point.hide();
-      } else {
-        $point.show();
+    if (filter === "done" || filter === "next") {
+      switch (filter) {
+        case "done":
+          $(".point-done").show();
+          $(".point-next").hide();
+          break;
+        case "next":
+          $(".point-next").show();
+          $(".point-done").hide();
+          break;
       }
-    });
+    } else {
+      $(".point-next").show();
+      $(".point-done").show();
+      $(".point-list[data-filter]").each(function() {
+        var $point = $(this);
+        var id = $point.data("filter");
+
+        if (filter && filter !== id) {
+          $point.hide();
+        } else {
+          $point.show();
+        }
+      });
+    }
   });
 
   // Apply time class
@@ -48,12 +64,14 @@ $(document).ready(function() {
     var $el = $(this);
     var date = $el.data("time");
     if (date > now) {
-      $el.addClass("point-future");
+      $el.addClass("point-next");
       var $use = $el.find("use");
       if ($use && $use.length) {
         var href = $use.attr("xlink:href");
         $use.attr("xlink:href", href.replace("_b", "_g"));
       }
+    } else {
+      $el.addClass("point-done");
     }
   });
 });
