@@ -1,4 +1,156 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://io.italia.it/feed.xml" rel="self" type="application/atom+xml" /><link href="https://io.italia.it/" rel="alternate" type="text/html" /><updated>2019-12-02T09:45:48+00:00</updated><id>https://io.italia.it/feed.xml</id><title type="html">{“it”=&amp;gt;”IO, il progetto per sviluppare l’app dei servizi pubblici”, “en”=&amp;gt;”IO, the project to develop the public services app.”}</title><subtitle>{&quot;it&quot;=&gt;&quot;Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.&quot;, &quot;en&quot;=&gt;&quot;Receive messages, alerts and communications from all public entities, all within a single app.&quot;}</subtitle><entry xml:lang="it"><title type="html">Comunicato stampa Torino</title><link href="https://io.italia.it/2019/05/28/Comunicato-stampa-Torino.html" rel="alternate" type="text/html" title="Comunicato stampa Torino" /><published>2019-05-28T00:00:00+00:00</published><updated>2019-05-28T00:00:00+00:00</updated><id>https://io.italia.it/2019/05/28/Comunicato-stampa-Torino</id><content type="html" xml:base="https://io.italia.it/2019/05/28/Comunicato-stampa-Torino.html">&lt;h3 id=&quot;io-si-apre-al-contributo-di-torino&quot;&gt;IO si apre al contributo di Torino&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://io.italia.it/feed.xml" rel="self" type="application/atom+xml" /><link href="https://io.italia.it/" rel="alternate" type="text/html" /><updated>2019-12-16T20:02:23+00:00</updated><id>https://io.italia.it/feed.xml</id><title type="html">{“it”=&amp;gt;”IO, il progetto per sviluppare l’app dei servizi pubblici”, “en”=&amp;gt;”IO, the project to develop the public services app.”}</title><subtitle>{&quot;it&quot;=&gt;&quot;Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.&quot;, &quot;en&quot;=&gt;&quot;Receive messages, alerts and communications from all public entities, all within a single app.&quot;}</subtitle><entry xml:lang="it"><title type="html">Comunicato stampa Valsamoggia</title><link href="https://io.italia.it/2019/12/02/Comunicato-stampa-Valsamoggia-IO.html" rel="alternate" type="text/html" title="Comunicato stampa Valsamoggia" /><published>2019-12-02T00:00:00+00:00</published><updated>2019-12-02T00:00:00+00:00</updated><id>https://io.italia.it/2019/12/02/Comunicato-stampa-Valsamoggia-IO</id><content type="html" xml:base="https://io.italia.it/2019/12/02/Comunicato-stampa-Valsamoggia-IO.html">&lt;h3 id=&quot;io-arriva-lapp-per-i-cittadini-progettata-con-i-cittadini&quot;&gt;IO: arriva l’app per i cittadini progettata con i cittadini&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Valsamoggia (Bo), primo Comune in Emilia-Romagna, entra nella sperimentazione della app che faciliterà l’accesso ai servizi digitali della PA. I cittadini sono invitati a testare IO, per contribuire a migliorare l’app in base alla propria esperienza&lt;/em&gt;&lt;/p&gt;
+
+&lt;h6 id=&quot;sul-sito-internet-del-comune-le-modalità-per-richiedere-laccesso-e-le-istruzioni-per-scaricare-la-app-obbligatorio-risiedere-sul-territorio-e-avere-lidentità-digitale-spid&quot;&gt;Sul sito internet del Comune le modalità per richiedere l’accesso e le istruzioni per scaricare la app. Obbligatorio risiedere sul territorio e avere l’identità digitale SPID&lt;/h6&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Valsamoggia, 26 novembre 2019 – Pagare il bollo auto, ricevere avvisi e informazioni sui bandi per l’iscrizione ai servizi scolastici o gestire il pagamento di nido d’infanzia, del trasporto scolastico, del prolungamento d’orario e dei buoni pasto a debito; ricevere un promemoria della scadenza di pagamento della TARI o l’avviso di accertamento per il mancato pagamento della TARI dell’anno prima e pagare il relativo importo; ricevere eventuali avvisi di contravvenzione al codice della strada e pagare le sanzioni previste. Ma anche ricevere messaggi informativi di tipo istituzionale ed essere sempre aggiornati in caso di integrazione di nuovi servizi.
+Tutto questo dal proprio smartphone, in pochi clic e attraverso un’unica applicazione grazie a &lt;strong&gt;IO, l’app dei servizi pubblici&lt;/strong&gt;, la cui sperimentazione arriva anche a Valsamoggia: comune di oltre 30mila abitanti della seconda cintura bolognese, primo ente in Emilia-Romagna a entrare nella fase di test in corso in diversi territori (tra cui Milano, Torino e Palermo) grazie al coinvolgimento di migliaia di cittadini. Attualmente, l’app IO è disponibile solo per chi partecipa alla sperimentazione. Nei prossimi mesi, IO sarà disponibile negli app store online con una prima versione beta pubblica.&lt;/p&gt;
+
+&lt;p&gt;IO è il progetto ideato e sviluppato dal Team per la Trasformazione Digitale della Presidenza del Consiglio dei Ministri e oggi in carico alla società PagoPA Spa, che ha l’obiettivo di realizzare l’&lt;strong&gt;app che faciliterà l’accesso dei cittadini italiani ai servizi digitali della Pubblica Amministrazione&lt;/strong&gt;.
+“La app IO – spiega Federica Govoni, Assessora all’Innovazione e alla semplificazione del Comune di Valsamoggia – mette il cittadino al centro del processo di erogazione dei servizi pubblici. Attraverso un’unica applicazione, le amministrazioni locali e nazionali potranno contattare direttamente i singoli cittadini via smartphone in maniera semplice e sicura per avvisarli delle prossime scadenze come ad esempio pagare un tributo, oppure per condividere informazioni relative alle pratiche in corso o ai servizi richiesti, inviando messaggi personalizzati sulle specifiche esigenze dell’utente. Perché tutto questo possa entrare a regime ci serve anche il contributo dei cittadini, che invitiamo a iniziare a testare l’app IO e a segnalare gli aspetti più graditi o eventuali malfunzionamenti, per aiutarci a migliorarla partecipando all’evoluzione di questo progetto nazionale”.&lt;/p&gt;
+
+&lt;p&gt;«IO è frutto di un progetto open source, aperto e collaborativo, che è nato coinvolgendo i cittadini e gli Enti pubblici sin dall’inizio. Ora che la prima versione beta dell’app è pronta, continuare a raccogliere input dall’esperienza diretta degli utenti finali ci consente di renderla ancora più vicina alle esigenze delle persone, ad esempio aggiungendo man mano nuove funzionalità richieste proprio da chi sta testando IO. Siamo felici di poter estendere la sperimentazione anche al Comune di Valsamoggia e speriamo faccia da traino per l’adesione di altri Enti del territorio: solo portando sull’app IO un numero crescente di servizi digitali potremo fare davvero la differenza per i cittadini», ha commentato Matteo De Santi, Chief Product &amp;amp; Design Officer di PagoPA Spa e responsabile del progetto IO.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Per candidarsi a diventare i primi fruitori della app nell’ambito della sperimentazione è necessario essere residenti sul territorio di Valsamoggia&lt;/strong&gt;, possedere uno smartphone Android o iOS, una carta di credito e un’&lt;strong&gt;identità SPID&lt;/strong&gt; che si può ottenere in 24 ore in tutti gli sportelli polifunzionali di Valsamoggia previa pre-registrazione online.&lt;/p&gt;
+
+&lt;p&gt;In questa fase sperimentale – che in gergo tecnico si definisce closed-beta – i cittadini che aderiscono a IO hanno una duplice opportunità: da un lato, iniziare a interagire con servizi reali ed effettuare operazioni e pagamenti validi a tutti gli effetti, comodamente da un unico canale sul proprio smartphone; dall’altro, aiutare il team di sviluppo a migliorare continuamente l’efficacia dell’app e l’esperienza utente.&lt;/p&gt;
+
+&lt;p&gt;Per esempio, un importante contributo arrivato dagli utenti ha permesso agli sviluppatori di collegare al calendario personale del proprio smartphone tutti i messaggi ricevuti su IO che implicano una scadenza per il cittadino come per esempio gli avvisi di pagamento. Un promemoria che consente di non mancare la scadenza. Un esempio di come non sono più gli utenti a doversi ricordare le scadenze ma è la app che tramite una notifica e un clic, aggiorna il nostro calendario.&lt;/p&gt;
+
+&lt;h4 id=&quot;i-servizi-di-enti-pubblici-nazionali-su-io-ad-oggi-e-cosa-si-riceverà-sullo-smartphone&quot;&gt;I servizi di Enti pubblici nazionali su IO ad oggi e cosa si riceverà sullo smartphone:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;ACI&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Bollo auto&lt;/strong&gt;: l’intestatario riceve un promemoria in prossimità della scadenza del pagamento del Bollo Auto, con la possibilità di pagare direttamente dall’app e ricevere conferma del pagamento avvenuto.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Certificati di proprietà&lt;/strong&gt;: l’intestatario riceve una notifica relativa al certificato di proprietà digitale disponibile per un nuovo veicolo e un riepilogo dei propri certificati di proprietà digitali.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;i-servizi-del-comune-di-valsamoggia-su-io-e-cosa-si-riceverà-sullo-smartphone&quot;&gt;I servizi del Comune di Valsamoggia su IO e cosa si riceverà sullo smartphone:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Servizio tributi – GIÀ ATTIVO&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;l’intestatario riceve un promemoria all’approssimarsi della scadenza di pagamento della TARI 2019;&lt;/li&gt;
+  &lt;li&gt;l’intestatario riceve la visura degli immobili per cui sta pagando la TARI;&lt;/li&gt;
+  &lt;li&gt;l’intestatario riceve l’avviso di accertamento per il mancato pagamento della TARI degli anni precedenti e può pagare il relativo importo, oltre a promemoria sulla scadenza IMU.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Pagamenti per Servizi scolastici – DA GENNAIO 2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;il genitore intestatario può gestire il pagamento di nido d’infanzia, trasporto scolastico e prolungamento d’orario.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Avvisi per Servizi scolastici – DA GENNAIO 2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;il genitore intestatario riceve avvisi e informazioni sui bandi per l’iscrizione ai servizi scolastici.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Polizia Municipale: verbali codice della strada e altre violazioni – DA GENNAIO 2020&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;si ricevono eventuali avvisi di contravvenzione al codice della strada, con la possibilità di pagare le sanzioni previste;&lt;/li&gt;
+  &lt;li&gt;si ricevono avvisi di pre-ruolo per contravvenzioni al codice della strada non pagate e si può procedere al pagamento.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;container mt-5&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-12 col-md-6&quot;&gt;
+      &lt;a href=&quot;/giornalisti/&quot;&gt;
+        &lt;svg class=&quot;icon icon-sm icon-primary align-top&quot;&gt;&lt;use xlink:href=&quot;/assets/svg/sprite.svg#it-chevron-left&quot;&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span&gt;Indietro&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-12 col-md-6 text-md-right&quot;&gt;
+      &lt;a href=&quot;/assets/download/it/io-comunicato-stampa-Valsamoggia-2019.rtf&quot;&gt;
+        &lt;svg class=&quot;icon icon-sm icon-primary align-top&quot;&gt;&lt;use xlink:href=&quot;/assets/svg/sprite.svg#it-download&quot;&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span&gt;Scarica il comunicato&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">IO: arriva l’app per i cittadini progettata con i cittadini Valsamoggia (Bo), primo Comune in Emilia-Romagna, entra nella sperimentazione della app che faciliterà l’accesso ai servizi digitali della PA. I cittadini sono invitati a testare IO, per contribuire a migliorare l’app in base alla propria esperienza Sul sito internet del Comune le modalità per richiedere l’accesso e le istruzioni per scaricare la app. Obbligatorio risiedere sul territorio e avere l’identità digitale SPID</summary></entry><entry xml:lang="it"><title type="html">Comunicato stampa Palermo</title><link href="https://io.italia.it/2019/10/15/Comunicato-stampa-Palermo-IO.html" rel="alternate" type="text/html" title="Comunicato stampa Palermo" /><published>2019-10-15T00:00:00+00:00</published><updated>2019-10-15T00:00:00+00:00</updated><id>https://io.italia.it/2019/10/15/Comunicato-stampa-Palermo-IO</id><content type="html" xml:base="https://io.italia.it/2019/10/15/Comunicato-stampa-Palermo-IO.html">&lt;h3 id=&quot;palermo-invita-i-cittadini-a-testare-io-lapp-dei-servizi-pubblici&quot;&gt;Palermo invita i cittadini a testare IO, l’app dei servizi pubblici&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Il Dirigente del Servizio Innovazione comunica che, dopo Milano e Torino, il Comune aderisce all’innovativo progetto di cittadinanza digitale e mette alla prova sul territorio l’app che porterà tutti i servizi della Pubblica Amministrazione su smartphone. Oltre 100 cittadini si sono già candidati. I primi risultati saranno presentati in un evento il 30 ottobre prossimo.&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Palermo, 15 ottobre 2019 - Mettere le persone e i loro bisogni al centro del processo di innovazione della Pubblica Amministrazione, per rendere più semplice ed efficace l’interazione tra i cittadini e gli enti pubblici. È questo lo spirito con cui il Comune di Palermo prosegue il percorso di adesione alle piattaforme nazionali per l’erogazione dei servizi locali in modalità digitale: dopo l’attivazione dei pagamenti digitali con pagoPA e il recente ingresso nell’Anagrafe Nazionale della Popolazione Residente (ANPR), è la volta della sperimentazione di &lt;strong&gt;&lt;a href=&quot;https://io.italia.it/&quot;&gt;IO, l’app dei servizi pubblici&lt;/a&gt; con il coinvolgimento dei cittadini&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ideata e sviluppata dal &lt;a href=&quot;https://teamdigitale.governo.it/&quot;&gt;Team per la Trasformazione Digitale&lt;/a&gt; della Presidenza del Consiglio dei Ministri, l’app IO propone un nuovo modello per l’erogazione dei servizi pubblici e rappresenta l’attuazione dell’&lt;a href=&quot;https://docs.italia.it/italia/piano-triennale-ict/codice-amministrazione-digitale-docs/it/v2017-12-13/_rst/capo5_sezione3_art64-bis.html&quot;&gt;articolo 64 bis del Codice dell’Amministrazione Digitale&lt;/a&gt;, che istituisce un unico punto di accesso ai cittadini per tutti i servizi digitali.&lt;/p&gt;
+
+&lt;p&gt;Se oggi il cittadino deve scoprire da solo dove e come usare i servizi digitali che ciascun ente eroga, identificando quale sito o app risponde alla propria esigenza, in futuro basterà una sola applicazione. &lt;strong&gt;Con IO, infatti, sono gli enti a informare il cittadino, inviandogli messaggi semplici e personalizzati direttamente sullo smartphone&lt;/strong&gt;: tramite la stessa app, ogni pubblica amministrazione potrà contattare un cittadino per ricordargli una scadenza - ad esempio, di un documento o di un tributo, che sarà possibile pagare in pochi clic dal telefono grazie a &lt;a href=&quot;https://teamdigitale.governo.it/it/projects/pagamenti-digitali.htm&quot;&gt;pagoPA&lt;/a&gt; - oppure inviargli il riepilogo di informazioni e documenti di suo interesse.&lt;/p&gt;
+
+&lt;p&gt;Dopo Milano e Torino, Palermo è la terza grande città a livello nazionale a offrire la possibilità ai propri cittadini di iniziare a usare l’app, con l’obiettivo di aiutare il Team per la Trasformazione Digitale a migliorarla prima del suo arrivo sugli store online nei prossimi mesi. Già un centinaio di persone si sono candidate a diventare tester di IO a Palermo, ma l’obiettivo è di estendere questa opportunità a molte più persone: per partecipare basta compilare il modulo online all’indirizzo &lt;a href=&quot;https://io.italia.it/palermo/&quot;&gt;io.italia.it/palermo/&lt;/a&gt; seguendo le indicazioni fornite sul &lt;a href=&quot;https://www.comune.palermo.it/io-app.php&quot;&gt;sito del Comune&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I cittadini selezionati potranno provare la app nella vita di tutti i giorni e interagire con una prima serie di servizi reali, effettuando operazioni e pagamenti validi a tutti gli effetti; tra cui:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ricevere promemoria in prossimità della scadenza del proprio pass ZTL&lt;/li&gt;
+  &lt;li&gt;ricevere eventuali avvisi di contravvenzione al codice della strada e procedere al pagamento online delle sanzioni previste&lt;/li&gt;
+  &lt;li&gt;ricevere un promemoria alla scadenza delle rate della TARI e procedere al pagamento online.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;container mt-5&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-12 col-md-6&quot;&gt;
+      &lt;a href=&quot;/giornalisti/&quot;&gt;
+        &lt;svg class=&quot;icon icon-sm icon-primary align-top&quot;&gt;&lt;use xlink:href=&quot;/assets/svg/sprite.svg#it-chevron-left&quot;&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span&gt;Indietro&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-12 col-md-6 text-md-right&quot;&gt;
+      &lt;a href=&quot;/assets/download/it/io-comunicato-stampa-Palermo-2019.rtf&quot;&gt;
+        &lt;svg class=&quot;icon icon-sm icon-primary align-top&quot;&gt;&lt;use xlink:href=&quot;/assets/svg/sprite.svg#it-download&quot;&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span&gt;Scarica il comunicato&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Palermo invita i cittadini a testare IO, l’app dei servizi pubblici Il Dirigente del Servizio Innovazione comunica che, dopo Milano e Torino, il Comune aderisce all’innovativo progetto di cittadinanza digitale e mette alla prova sul territorio l’app che porterà tutti i servizi della Pubblica Amministrazione su smartphone. Oltre 100 cittadini si sono già candidati. I primi risultati saranno presentati in un evento il 30 ottobre prossimo.</summary></entry><entry xml:lang="it"><title type="html">Comunicato stampa Ripalta Cremasca</title><link href="https://io.italia.it/2019/06/24/Comunicato-stampa-Ripalta-Cremasca-IO.html" rel="alternate" type="text/html" title="Comunicato stampa Ripalta Cremasca" /><published>2019-06-24T00:00:00+00:00</published><updated>2019-06-24T00:00:00+00:00</updated><id>https://io.italia.it/2019/06/24/Comunicato-stampa-Ripalta-Cremasca-IO</id><content type="html" xml:base="https://io.italia.it/2019/06/24/Comunicato-stampa-Ripalta-Cremasca-IO.html">&lt;h3 id=&quot;ripalta-cremasca-inizia-la-sperimentazione-di-io-lapp-dei-servizi-pubblici&quot;&gt;Ripalta Cremasca inizia la sperimentazione di IO, l’app dei servizi pubblici&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;Il Comune di Ripalta Cremasca insieme a Milano e Torino, è fra i primi enti ad avviare la sperimentazione (in gergo closed beta) sul territorio del progetto IO del Team Digitale. Il Sindaco invita i cittadini a candidarsi come beta-tester per contribuire a perfezionare la app prima del suo arrivo negli store entro la fine dell’anno.&lt;/em&gt;&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;p&gt;Ripalta Cremasca, 24 Giugno 2019 - Prosegue lo spirito innovativo del Comune di Ripalta Cremasca. Dopo la digitalizzazione del servizio mensa, l’inaugurazione dello sportello telematico polifunzionale, l’attivazione dei pagamenti digitali con pagoPA è la volta della &lt;strong&gt;sperimentazione del &lt;a href=&quot;https://io.italia.it/&quot;&gt;Progetto IO&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ideato e sviluppato dal &lt;a href=&quot;https://teamdigitale.governo.it/&quot;&gt;Team per la Trasformazione Digitale&lt;/a&gt;, IO ha l’obiettivo di realizzare l’app che faciliterà l’accesso dei cittadini italiani ai servizi digitali della Pubblica Amministrazione e propone un nuovo modello per l’erogazione dei servizi pubblici. Se oggi il cittadino deve scoprire autonomamente dove e come usare i servizi digitali che ciascun ente eroga, identificando quale sito o app risponde alla propria esigenza, in futuro basterà una sola applicazione. IO potrà essere usata da tutti gli enti pubblici, locali e nazionali, per contattare i cittadini: sarà l’ente stesso a preoccuparsi di avvisare attivamente il cittadino quando questi debba compiere qualche azione - ad esempio il pagamento di un tributo, che sarà possibile effettuare direttamente dall’app grazie a &lt;a href=&quot;https://teamdigitale.governo.it/it/projects/pagamenti-digitali.htm&quot;&gt;pagoPA&lt;/a&gt; - oppure a inviargli il riepilogo di informazioni e documenti che potrebbero essere di suo interesse, attraverso messaggi personalizzati sulle specifiche esigenze dell’utente.&lt;/p&gt;
+
+&lt;p&gt;Il Sindaco è intervenuto con parole di apprezzamento verso il programma di sperimentazione «Sono orgoglioso che Ripalta Cremasca possa contribuire alla crescita del Paese e allo sviluppo della digitalizzazione, in cui noi crediamo molto».&lt;/p&gt;
+
+&lt;p&gt;Oggi, infatti, in vista dell’arrivo dell’ app negli store entro la fine del 2019, IO si apre anche al contributo degli abitanti di Ripalta Cremasca. «IO è un progetto open source, che è nato coinvolgendo i cittadini sin dall’inizio e che vogliamo far crescere e migliorare progressivamente facendo tesoro anche di competenze esterne e dell’esperienza diretta degli utenti finali», ha commentato Matteo De Santi, Chief Product &amp;amp; Design Officer del Team per la Trasformazione Digitale. «Dall’avvio della sperimentazione ad aprile, sono già centinaia i cittadini che stanno testando l’app per aiutarci a individuare e risolvere malfunzionamenti e a ottimizzare alcune funzionalità. Ne siamo entusiasti, perché sono proprio i feedback delle persone a fare la differenza nello sviluppo di IO».&lt;/p&gt;
+
+&lt;p&gt;I cittadini selezionati come beta tester potranno provare la app nella vita di tutti i giorni e interagire con una prima serie di servizi reali, effettuando operazioni e pagamenti validi a tutti gli effetti. Quelli che il Comune di Ripalta Cremasca testerà includono ad esempio: Servizio Mensa Scolastica, Carta d’identità Elettronica; Pagamento della TARI.&lt;/p&gt;
+
+&lt;p&gt;La app che useranno i beta-tester è un work in progress, quindi sarà oggetto di frequenti aggiornamenti nel corso del tempo. Durante la sperimentazione, i cittadini dovranno inviare feedback precisi e con un approccio costruttivo. Essi avranno un ruolo di contributor del progetto IO, prima ancora di fruitori dell’app, consapevoli del valore del proprio impegno che permetterà di far evolvere uno dei pilastri della trasformazione digitale della Pubblica Amministrazione italiana.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Come diventare beta-tester?&lt;br /&gt;
+Per l’avvio della sperimentazione è previsto un evento pubblico di presentazione che si terrà presso la Villa San Michele, in via Fontanoni, 4 a Ripalta Cremasca, il prossimo &lt;ins&gt;4 Luglio alle ore 21.00&lt;/ins&gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I cittadini che desiderano partecipare alla sperimentazione nel comune di Ripalta Cremasca, devono essere residenti, avere uno smartphone Android o iOS ed essere in possesso di un’identità digitale SPID per accedere all’app. Per candidarsi, è sufficiente compilare il modulo online disponibile al link &lt;a href=&quot;https://io.italia.it/ripalta/&quot;&gt;https://io.italia.it/ripalta/&lt;/a&gt; inserendo il codice &lt;strong&gt;invito 5003&lt;/strong&gt;, raggiungibile anche dal sito web comunale. Inserire questo codice invito consentirà ai cittadini di avere la priorità su altri eventuali partecipanti al test.&lt;/p&gt;
+
+&lt;p&gt;Nei giorni successivi l’accreditamento, i tester riceveranno le istruzioni per scaricare l’app. Non tutti i cittadini che ne faranno richiesta potranno partecipare da subito alla sperimentazione. Il bacino di utenti della versione &lt;em&gt;beta&lt;/em&gt; di IO sarà ampliato progressivamente, così da consentire agli sviluppatori del Team Digitale di tenere sotto controllo la risposta dei sistemi e dell’infrastruttura del progetto, nonché l’integrazione dei vari servizi.&lt;/p&gt;
+
+&lt;div class=&quot;container mt-5&quot;&gt;
+  &lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;col-12 col-md-6&quot;&gt;
+      &lt;a href=&quot;/giornalisti/&quot;&gt;
+        &lt;svg class=&quot;icon icon-sm icon-primary align-top&quot;&gt;&lt;use xlink:href=&quot;/assets/svg/sprite.svg#it-chevron-left&quot;&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span&gt;Indietro&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-12 col-md-6 text-md-right&quot;&gt;
+      &lt;a href=&quot;/assets/download/it/io-comunicato-stampa-Ripalta-Cremasca-2019.rtf&quot;&gt;
+        &lt;svg class=&quot;icon icon-sm icon-primary align-top&quot;&gt;&lt;use xlink:href=&quot;/assets/svg/sprite.svg#it-download&quot;&gt;&lt;/use&gt;&lt;/svg&gt;
+        &lt;span&gt;Scarica il comunicato&lt;/span&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html">Ripalta Cremasca inizia la sperimentazione di IO, l’app dei servizi pubblici Il Comune di Ripalta Cremasca insieme a Milano e Torino, è fra i primi enti ad avviare la sperimentazione (in gergo closed beta) sul territorio del progetto IO del Team Digitale. Il Sindaco invita i cittadini a candidarsi come beta-tester per contribuire a perfezionare la app prima del suo arrivo negli store entro la fine dell’anno.</summary></entry><entry xml:lang="it"><title type="html">Comunicato stampa Torino</title><link href="https://io.italia.it/2019/05/28/Comunicato-stampa-Torino.html" rel="alternate" type="text/html" title="Comunicato stampa Torino" /><published>2019-05-28T00:00:00+00:00</published><updated>2019-05-28T00:00:00+00:00</updated><id>https://io.italia.it/2019/05/28/Comunicato-stampa-Torino</id><content type="html" xml:base="https://io.italia.it/2019/05/28/Comunicato-stampa-Torino.html">&lt;h3 id=&quot;io-si-apre-al-contributo-di-torino&quot;&gt;IO si apre al contributo di Torino&lt;/h3&gt;
 
 &lt;p&gt;&lt;em&gt;IO, l’app dei servizi pubblici, si apre al contributo dei torinesi per migliorare l’interazione tra cittadino e Amministrazione Pubblica&lt;/em&gt;&lt;/p&gt;
 
