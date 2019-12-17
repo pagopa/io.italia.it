@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: Comunicato stampa Ripalta Cremasca
-description: "l Comune di Ripalta Cremasca insieme a Milano e Torino, è fra i primi enti ad avviare la sperimentazione (in gergo closed beta) sul territorio del progetto IO del Team Digitale. Il Sindaco invita i cittadini a candidarsi come beta-tester per contribuire a perfezionare la app prima del suo arrivo negli store entro la fine dell’anno."
+description: "Il Comune di Ripalta Cremasca insieme a Milano e Torino, è fra i primi enti ad avviare la sperimentazione (in gergo closed beta) sul territorio del progetto IO del Team Digitale. Il Sindaco invita i cittadini a candidarsi come beta-tester per contribuire a perfezionare la app prima del suo arrivo negli store entro la fine dell’anno."
 lang: it
 ref: comunicato-stampa-ripalta-cremasca
 excerpt_separator: <!--more-->
