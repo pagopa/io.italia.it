@@ -3,6 +3,18 @@
   margin-bottom: -48px;
 
   .advantage-cards {
+    @media (min-width: 768px) {
+      .item {
+        width: 45%;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .item {
+        width: 23%;
+      }
+    }
+
     a {
       text-decoration: none;
     }
@@ -19,8 +31,54 @@
       width: 100%;
     }
 
-    .services-text p {
-      font-size: 1rem;
+    .services-text {
+      .icon {
+        height: 150px;
+
+        &.icon-srv-01 {
+          width: 157px;
+        }
+        &.icon-srv-02 {
+          width: 152px;
+        }
+        &.icon-srv-03 {
+          width: 110px;
+        }
+        &.icon-srv-04 {
+          width: 87px;
+        }
+      }
+
+      p {
+        font-size: 1rem;
+      }
+
+      .btn {
+        svg.icon {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      .row-buttons {
+        @media (min-width: 768px) {
+          .item {
+            width: 45%;
+            min-height: 450px;
+          }
+        }
+
+        @media (min-width: 992px) {
+          .item {
+            width: 23%;
+            min-height: 490px;
+          }
+        }
+
+        span {
+          font-size: 14px;
+        }
+      }
     }
   }
 
@@ -32,7 +90,7 @@
 
     &::before {
       content: "";
-      background: url(img/lista_enti_bg.jpg) center top no-repeat;
+      background: url(img/lista_enti_bg.jpg) center bottom no-repeat;
       background-size: cover;
       position: absolute;
       top: 0;
@@ -40,6 +98,22 @@
       bottom: 0;
       left: 0;
       z-index: -1;
+    }
+
+    .card-slider {
+      min-height: 250px;
+      position: relative;
+      li {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: none;
+
+        &:first-child {
+          display: inline-block;
+        }
+      }
     }
 
     .card-slider-buttons > .btn {

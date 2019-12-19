@@ -90,7 +90,15 @@ body {
 
 .internal-page {
   color: #5c6f82;
-  margin-top: 12rem;
+  margin-top: 6rem;
+
+  @media (min-width: 768px) {
+    margin-top: 10rem;
+  }
+
+  @media (min-width: 992px) {
+    margin-top: 12rem;
+  }
 
   h2 {
     margin-top: 2rem;
