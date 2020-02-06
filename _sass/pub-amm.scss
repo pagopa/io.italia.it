@@ -13,16 +13,19 @@
       .item {
         width: 23%;
       }
+      .card .card-body h5.card-title {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+      }
     }
 
     a {
       text-decoration: none;
     }
 
-    .card {
-      height: 187px;
-    }
   }
+  
 
   .section-services {
     background: radial-gradient(100% 100% at 50% 0%, #00266b 0%, #0073d1 100%);
@@ -58,6 +61,10 @@
           width: 50px;
           height: 50px;
         }
+      }
+      svg.icon.cta {
+        height: 70px;
+        max-width: 32px;
       }
 
       .row-buttons {
@@ -121,5 +128,8 @@
         outline: none;
       }
     }
+  }
+  span.badge.small {
+    font-size: 0.6em !important;
   }
 }
