@@ -16,11 +16,14 @@
             >{{ page.intro_primary_text }}</a
           >
         </div>
-        {%- endif %} {%- if page.intro_secondary_link -%}
+        {%- endif %}
+        {%- if page.intro_secondary_link -%}
         <div class="py-2">
+          {%- if intro_secondary_disable_icon != true %}
           <svg class="icon icon-sm icon-primary align-bottom">
             <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
           </svg>
+          {%- endif %}
           <a
             href="{{ page.intro_secondary_link }}"
             class="small"
@@ -28,8 +31,21 @@
           >
             {{ page.intro_secondary_text }}
           </a>
+          {%- if page.intro_ter_link -%}
+            <svg class="icon icon-sm icon-primary align-bottom ml-4">
+              <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
+            </svg>
+            <a
+              href="{{ page.intro_ter_link }}"
+              class="small"
+              target="_blank"
+            >
+              {{ page.intro_ter_text }}
+            </a>
+          {%- endif %}
         </div>
         {%- endif %}
+        
       </div>
     </div>
     {%- if page.intro_image -%}
