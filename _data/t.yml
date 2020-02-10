@@ -2,7 +2,7 @@ it:
   team: Team per la Trasformazione Digitale
   collaborazione: In collaborazione con
   seguici: 'Seguici su:'
-  footer_disclaimer: I servizi presentati nei mockup sono esempi per far capire le future funzionalità dell’applicazione.
+  footer_disclaimer: ' '
   note_legali: Note Legali
   informativa_newsletter: Informativa newsletter
   social_card_path: "/assets/img/social-card.jpg"
@@ -177,7 +177,7 @@ en:
   team: Digital Transformation Team
   collaborazione: In collaboration with
   seguici: 'Follow us on:'
-  footer_disclaimer: The services presented in the mock-ups are just examples to provide a taste of the future application functionalities.
+  footer_disclaimer: ' '
   note_legali: Legal notes
   social_card_path: "/assets/img/social-card-en.jpg"
   slim_owner: 'PagoPA S.p.A.'

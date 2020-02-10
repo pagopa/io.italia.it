@@ -54,4 +54,12 @@
                 line-height: 1.5rem;
             }
         }
+    .section-test {
+        background: radial-gradient(100% 100% at 50% 0%, #00266b 0%, #0073d1 100%);
+        margin-bottom: -48px; //trick to reset the margin bottom of internal layout
+        
+        .backoffice {
+            color: #00fff8;
+        }
+    }
 }
