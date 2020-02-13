@@ -447,6 +447,9 @@ button.baguetteBox-button {
 
 #introduzione {
   @media screen and (min-width: $grid-breakpoints-md) {
-    min-height: 300px;
+    min-height: 432px;
+  }
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    min-height: 377px;
   }
 }
