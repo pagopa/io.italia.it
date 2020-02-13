@@ -3,7 +3,7 @@
   id="introduzione"
 >
   <div class="row px-3 px-md-0">
-    <div class="col-md-6 text-primary">
+    <div class="col-md-6 text-primary order-2 order-md-1">
       <h1>{{ page.title }}</h1>
       <p class="my-4">{{ page.description }}</p>
       <div class="d-flex flex-column mb-3">
@@ -19,7 +19,7 @@
         {%- endif %}
         {%- if page.intro_secondary_link -%}
         <div class="py-2">
-          {%- if intro_secondary_disable_icon != true %}
+          {%- if page.intro_secondary_disable_icon != true %}
           <svg class="icon icon-sm icon-primary align-bottom">
             <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
           </svg>
@@ -49,7 +49,7 @@
       </div>
     </div>
     {%- if page.intro_image -%}
-    <div class="col-md-5 offset-1">
+    <div class="col-md-5 offset-md-1 order-1 order-md-2 d-flex align-items-center justify-content-center mb-2 mb-md-0">
       <img
         class="img-fluid"
         src="{{ page.intro_image | relative_url }}"
