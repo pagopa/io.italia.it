@@ -8,7 +8,12 @@
   &.section--wpointers {
     pointer-events: auto !important;
   }
+  &.section-inset-shadow {
+    -webkit-box-shadow: inset 0 1rem 1rem -1rem rgba(0,0,0,.1);
+    box-shadow: inset 0 1rem 1rem -1rem rgba(0,0,0,.1);
+  }
 }
+
 
 .section-wrapper {
   display: table;

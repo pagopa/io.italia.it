@@ -1,7 +1,7 @@
 {% assign languages = site.data.languages %}
 {% assign pages_ref = site.pages | where: "ref", page.ref %}
 
-<div class="dropdown lang_switch mr-4 mr-md-1">
+<div class="dropdown lang_switch mr-2 mr-md-1">
     <span class="text-uppercase text-white small" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     {{languages[current_lang].code}}<svg class="icon icon-sm icon-white"><use xlink:href="/assets/svg/sprite.svg#it-expand"></use></svg>
     </span>

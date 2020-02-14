@@ -29,7 +29,7 @@
 @import "sviluppatori";
 
 body {
-  background-color: $color--light-grey;
+  background-color: #fff;
 
   &.layout--home {
     font-size: 14px;
@@ -442,5 +442,14 @@ button.baguetteBox-button {
     position: absolute;
     top: 0;
     width: 100%;
+  }
+}
+
+#introduzione {
+  @media screen and (min-width: $grid-breakpoints-md) {
+    min-height: 432px;
+  }
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    min-height: 377px;
   }
 }
