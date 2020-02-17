@@ -7,7 +7,7 @@ it:
   informativa_newsletter: Informativa newsletter
   social_card_path: "/assets/img/social-card.jpg"
   slim_owner: 'PagoPA S.p.A.'
-  slim_owner_url: https://www.pagopa.gov.it/
+  slim_owner_url: https://www.pagopa.gov.it/it/pagopa-spa/
   cookies_disclaimer: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
   cookies_disclaimer_accept: Accetto
   home-section-1:
@@ -181,7 +181,7 @@ en:
   note_legali: Legal notes
   social_card_path: "/assets/img/social-card-en.jpg"
   slim_owner: 'PagoPA S.p.A.'
-  slim_owner_url: https://www.pagopa.gov.it/
+  slim_owner_url: https://www.pagopa.gov.it/it/pagopa-spa/
   cookies_disclaimer: This site uses technical cookies, analytic cookies and third-party cookies. By continuing to browse, you accept the use of cookies
   cookies_disclaimer_accept: I accept
   home-section-1:
