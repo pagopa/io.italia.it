@@ -25,6 +25,11 @@
     }
 
   }
+  .services-text .btn {
+    &:hover {
+      background-color: #0053a6;
+    }
+  }
   
 
   .section-services {
@@ -66,6 +71,7 @@
         height: 70px;
         max-width: 32px;
       }
+      
 
       .row-buttons {
         @media (min-width: 768px) {
