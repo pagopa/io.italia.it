@@ -1,7 +1,7 @@
 ---
 layout: internal
 title: Integrarsi è semplice
-subtitle: Come integrarsi nei servizi di IO, aprire un account sviluppatore, contribuire attivamente al progetto open source
+subtitle: Come contribuire all'evoluzione dell'app, aprire un account sviluppatore, contribuire attivamente al progetto open source
 description: IO mira ad agevolare la relazione tra i cittadini e la Pubblica Amministrazione attraverso la creazione di una piattaforma di componenti riutilizzabili in grado di rendere i servizi digitali più efficaci.
 lang: it
 ref: sviluppatori
