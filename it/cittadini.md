@@ -10,8 +10,8 @@ redirect_from:
   - /it/cittadini/
 
 intro_image: "/assets/img/intro-cittadini.svg"
-intro_primary_text: "Scarica l'App"
-intro_primary_link: "#"
+intro_primary_text: "Segui il progetto"
+intro_primary_link: "#newsletter"
 ---
 
 {% include cittadini.html %}

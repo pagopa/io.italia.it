@@ -1,3 +1,5 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign t = site.data.t[current_lang] %}
 <div class="page-cittadini">
     <div class="section section-muted section-inset-shadow section--wpointers">
     <div class="container pt-5 pt-md-0 pb-5 pb-md-0">
@@ -45,13 +47,13 @@
         <div class="col-md-4 order-md-2 pl-3 pt-3 py-md-5 px-md-5 my-md-5 text-center">
         <img
             class="img-fluid"
-            src="/assets/img/cittadini/screenshot-3.png"
+            src="/assets/img/cittadini/screenshot-4.png"
             alt="Screenshot"
           />
         </div>
         <div class="col-md-6 offset-md-1 order-md-1 pl-3 pt-3 py-md-5 px-md-5 my-md-5">
             <h2 class="text-primary pb-4 pt-lg-4">
-           Pagamenti sicuri verso tutte le Pubbliche Amministrazioni
+           Attivare e disattivare i servizi in base alle proprie preferenze
           </h2>
           <p>
            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -65,13 +67,13 @@
         <div class="offset-md-1 col-md-4  pl-3 pt-3 py-md-5 px-md-5 my-md-5 text-center">
         <img
             class="img-fluid"
-            src="/assets/img/cittadini/screenshot-4.png"
+            src="/assets/img/cittadini/screenshot-3.png"
             alt="Screenshot"
           />
         </div>
         <div class="col-md-6 pl-3 pt-3 py-md-5 px-md-5 my-md-5">
             <h2 class="text-primary pb-4 pt-lg-4">
-           Attivare e disattivare i servizi in base alle proprie preferenze
+           Pagamenti sicuri verso tutte le Pubbliche Amministrazioni
           </h2>
           <p>
            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -174,7 +176,7 @@
                       Documenti
                     </h5>
                     <p class="px-lg-2 text-muted">Certificati<br>Ricevute<br>Pratiche amministrative<br>
-                    <span class="badge badge-light  font-weight-light small">In arrivo nel 2020</span>
+                    <span class="badge badge-light  font-weight-light small">In arrivo</span>
                     </p>
                   </div>
                 </div>
@@ -200,40 +202,7 @@
        </div><!--/row-->
     </div><!--/container-->
     </div><!--/section-->
-    <div class="section section-muted section-download section--wpointers">
-    <div class="container pb-5">
-      <div class="row">
-        <div class="col text-center mt-5 pt-5">
-          <img
-            class="img-fluid"
-            src="/assets/img/icon-entra.svg"
-            alt="Inizia ad utilizzare IO"
-          />
-        </div>
-      </div>
-      <div class="row">
-        <div
-          class="col-md-10 offset-md-1 col-lg-8 offset-lg-2 px-3 px-md-0 text-center text-white"
-        >
-          <h2 class="pb-4">
-            Inizia ad utilizzare IO
-          </h2>
-          <p class="px-md-5">
-           Utilizzare IO è davvero semplice. Scarica l’app e fai l’accesso<br class="d-none d-md-inline"> tramite <strong>SPID</strong> o <strong>CIE</strong> per iniziare ad utilizzare tutte le<br class="d-none d-md-inline"> funzionalità e i servizi.
-          </p>
-        </div>
-      </div>
-      <div class="row pb-5">
-        <div class="col px-3 mt-4 text-center">
-          <a
-            href="#"
-            target="_blank"
-            class="btn btn-white text-primary text-uppercase col-12 col-md-5 col-lg-3"
-            >Scarica l'App</a>
-        </div>
-      </div>
-    </div>
-  </div><!--/section-->
+    {%- include home/section-8.html -%}
 
 
 </div>
