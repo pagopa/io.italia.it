@@ -9,11 +9,8 @@
           </div>
           <div class="col-12 col-md-4 order-md-1">
             <div class="row">
-              {% if page.ref == 'roadmap' %}
-                {% include navigation-item.html navigation=navigation index=0 %}
-              {% else %}
-                {% include navigation-item.html navigation=navigation index=1 %}
-              {% endif %}
+              {% include navigation-item.html navigation=navigation index=1 %}
+
               
               {% include navigation-item.html navigation=navigation index=2 %}
             </div>
