@@ -1,6 +1,6 @@
 var date = new Date();
 var year = date.getFullYear();
-var month = date.getMonth() + 1;
+var month = ("0" + (date.getMonth() + 1)).slice(-2); // to avoid months with one digit...
 var now = Number(String(year) + String(month));
 
 $(document).ready(function() {
