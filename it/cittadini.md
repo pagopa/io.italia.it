@@ -1,6 +1,6 @@
 ---
 layout: internal
-title: L’app che facilita la vita del cittadino
+title: IO, tutta la PA a portata di mano
 subtitle: L’app che facilita la vita del cittadino
 description: IO permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali, raccogliendo tutti i loro servizi, comunicazioni, pagamenti e documenti in un'unica app, in modo sicuro e sempre a portata di mano.
 lang: it
