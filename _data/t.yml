@@ -165,8 +165,8 @@ it:
           - Scelta medico di base
           - Scadenza revisione auto
   home-section-8:
-    title: è il progetto per lo sviluppo dell'app che permetterà a tutti i cittadini di usare servizi pubblici nazionali e locali dal proprio smartphone in maniera semplice, moderna e sicura.
-    desc: 'È un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo <b>enti e servizi diversi</b>. <br>Nel secondo trimestre del 2019 sono iniziati i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.'
+    title: Resta aggiornato, iscriviti alla newsletter!  
+    desc: 'IO è un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo enti e servizi diversi. Nel secondo trimestre del 2019 inizieranno i primi test con i cittadini: iscriviti alla newsletter per restare aggiornato.' 
     placeholder: Indirizzo e-mail
     button: Iscriviti
     privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white" href="/informativa-newsletter/"><u>informativa sul trattamento dei dati personali per la newsletter</u></a>.
