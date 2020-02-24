@@ -186,17 +186,22 @@
       <div class="row pb-5">
         <div class="col px-3 mt-4 text-center">
           <a
-            href="https://medium.com/team-per-la-trasformazione-digitale/progetto-io-app-servizi-pubblici/home"
+            href="{{page.intro_primary_link}}"
             target="_blank"
             class="btn btn-white text-primary text-uppercase col-12 col-md-5 col-lg-3"
-            >Registrati al back-office</a>
+            >{{page.intro_primary_text}}</a>
+            {% if page.intro_ter_link %}
+            <br>
+            <a
+            href="{{page.intro_ter_link}}"
+            target="_blank"
+            class="btn  text-white border border-white text-uppercase col-12 col-md-5 col-lg-3 mt-3"
+            >{{page.intro_ter_text}}</a>
+            {% endif %}
         </div>
       </div>
       <div class="row pb-5">
         <div class="col text-center">
-          <a href="#" class="text-white d-inline-block">
-            <span>Leggi la documentazione API</span>
-          </a>
           <a href="mailto:{{page.intro_secondary_link}}" class="mr-4 text-white d-inline-block">
             <svg class="icon icon-white mr-1">
               <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
