@@ -20,6 +20,42 @@
   body.is-scrolled & {
     background: rgba(0, 102, 204, 1) !important;
   }
+  .social {
+    font-size: 0;
+    color: #fff;
+    margin-right: 0;
+
+    & > span {
+      margin-right: 1em;
+    }
+    .small-prints {
+      font-size: 0;
+    }
+    .icon {
+      fill: rgba(0, 102, 204, 1);
+      background-color: #fff;
+      padding: 0.1em 0.2em;
+      border-radius: 100%;
+      font-size: initial;
+      width: 24px;
+      height: 24px;
+      &--inverted {
+        fill: #fff;
+        background-color: transparent;
+        width: 28px;
+        height: 28px;
+      }
+      @media screen and (min-width: $grid-breakpoints-md) {
+        margin-right: 0.2em;
+      }
+
+    }
+    @media screen and (min-width: $grid-breakpoints-md) {
+      text-align: left !important;
+      margin-top: 1em;
+      margin-right: 10px;
+    }
+  }
 }
 
 .navigation {
