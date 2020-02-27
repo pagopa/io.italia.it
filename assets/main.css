@@ -510,6 +510,20 @@ body.is-scrolled .device { z-index: -2; }
 
 body:not(.layout--home) .navigation__slim, body.is-scrolled .navigation__slim { background: #0066cc !important; }
 
+.navigation__slim .social { font-size: 0; color: #fff; margin-right: 0; }
+
+.navigation__slim .social > span { margin-right: 1em; }
+
+.navigation__slim .social .small-prints { font-size: 0; }
+
+.navigation__slim .social .icon { fill: #0066cc; background-color: #fff; padding: 0.1em 0.2em; border-radius: 100%; font-size: initial; width: 24px; height: 24px; }
+
+.navigation__slim .social .icon--inverted { fill: #fff; background-color: transparent; width: 28px; height: 28px; }
+
+@media screen and (min-width: 768px) { .navigation__slim .social .icon { margin-right: 0.2em; } }
+
+@media screen and (min-width: 768px) { .navigation__slim .social { text-align: left !important; margin-top: 1em; margin-right: 10px; } }
+
 .navigation { transition: all .5s ease-out; background: white; z-index: 100; }
 
 @media screen and (min-width: 768px) { .navigation { z-index: 3; }
@@ -673,6 +687,52 @@ body:not(.layout--home) .navigation, body.is-scrolled .navigation { position: fi
 
 .giornalisti .lineright .title-link:hover { text-decoration: underline; }
 
+.pub-amm { margin-bottom: -48px; }
+
+@media (min-width: 768px) { .pub-amm .advantage-cards .item { width: 45%; } }
+
+@media (min-width: 992px) { .pub-amm .advantage-cards .item { width: 23%; } }
+
+.pub-amm .advantage-cards a { text-decoration: none; }
+
+.pub-amm .advantage-cards .card { height: 187px; }
+
+.pub-amm .section-services { background: radial-gradient(100% 100% at 50% 0%, #00266b 0%, #0073d1 100%); }
+
+.pub-amm .section-services a.btn.btn-white { width: 100%; }
+
+.pub-amm .section-services .services-text .icon { height: 150px; }
+
+.pub-amm .section-services .services-text .icon.icon-srv-01 { width: 157px; }
+
+.pub-amm .section-services .services-text .icon.icon-srv-02 { width: 152px; }
+
+.pub-amm .section-services .services-text .icon.icon-srv-03 { width: 110px; }
+
+.pub-amm .section-services .services-text .icon.icon-srv-04 { width: 87px; }
+
+.pub-amm .section-services .services-text p { font-size: 1rem; }
+
+.pub-amm .section-services .services-text .btn svg.icon { width: 50px; height: 50px; }
+
+@media (min-width: 768px) { .pub-amm .section-services .services-text .row-buttons .item { width: 45%; min-height: 450px; } }
+
+@media (min-width: 992px) { .pub-amm .section-services .services-text .row-buttons .item { width: 23%; min-height: 490px; } }
+
+.pub-amm .section-services .services-text .row-buttons span { font-size: 14px; }
+
+.pub-amm .section-carousel { position: relative; background: rgba(0, 102, 204, 0.8); }
+
+.pub-amm .section-carousel::before { content: ""; background: url(img/lista_enti_bg.jpg) center bottom no-repeat; background-size: cover; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; }
+
+.pub-amm .section-carousel .card-slider { min-height: 250px; position: relative; }
+
+.pub-amm .section-carousel .card-slider li { position: absolute; top: 0; left: 0; display: none; }
+
+.pub-amm .section-carousel .card-slider li:first-child { display: inline-block; }
+
+.pub-amm .section-carousel .card-slider-buttons > .btn:focus { outline: none; }
+
 body { background-color: #fafbfd; }
 
 body.layout--home { font-size: 14px; }
@@ -703,7 +763,11 @@ body.layout--home { font-size: 14px; }
 
 .navbar-toggler-icon { background-color: #06c; }
 
-.internal-page { color: #5c6f82; margin-top: 12rem; }
+.internal-page { color: #5c6f82; margin-top: 6rem; }
+
+@media (min-width: 768px) { .internal-page { margin-top: 10rem; } }
+
+@media (min-width: 992px) { .internal-page { margin-top: 12rem; } }
 
 .internal-page h2 { margin-top: 2rem; }
 
