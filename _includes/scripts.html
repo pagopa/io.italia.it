@@ -55,6 +55,10 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/giornalisti.js' }}"></script>
 {% endif %}
 
+{%if page.ref == 'pubbliche-amministrazioni' %}
+<script src="{{ '/assets/js/pub-amm.js' }}"></script>
+{% endif %}
+
 <script
   async
   src="{{ '/assets/js/main.js?' | append: buildTime | relative_url }}"

@@ -1,0 +1,32 @@
+.section-header {
+  height: 800px;
+  // margin-top: 48px;
+
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 102, 204, 1) 40%,
+    rgba(0, 102, 204, 0.4) 90%
+  );
+
+  &::before {
+    content: "";
+    background: url(img/home_bg.jpg) center top no-repeat;
+    background-size: cover;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  .container {
+    padding-top: 48px;
+    color: $color--white;
+
+    .badge {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
