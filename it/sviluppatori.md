@@ -12,7 +12,7 @@ redirect_from:
 intro_image: "/assets/img/intro-sviluppatori.svg"
 intro_primary_text: "Leggi la documentazione API"
 intro_primary_link: "https://teamdigitale.github.io/digital-citizenship/api.html"
-intro_secondary_text: "Richiedi informazioni"
+intro_secondary_text: "Contatta il team di IO"
 intro_secondary_link: "mailto:onboarding@io.italia.it"
 intro_ter_text: "Registrati al Back-Office"
 intro_ter_link: "https://developer.io.italia.it/"
