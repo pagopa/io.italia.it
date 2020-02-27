@@ -22,7 +22,7 @@ Il Sito è gestito dalla società PagoPA Spa, con sede in Roma, Piazza Colonna 3
 
 La società PagoPA Spa si impegna costantemente per assicurare la qualità delle informazioni pubblicate sul Sito, nonché la loro integrità, aggiornamento , completezza, tempestività , semplicità di consultazione e accessibilità. Per qualunque segnalazione o suggerimento è possibile scrivere all’indirizzo [info@pagopa.it](mailto:info@pagopa.it). 
 
-In nessun caso la società PagoPA Spa può essere ritenuto responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall’accesso al sito, dall’incapacità o impossibilità di accedervi. 
+In nessun caso la società PagoPA Spa può essere ritenuta responsabile dei danni di qualsiasi natura causati direttamente o indirettamente dall’accesso al sito, dall’incapacità o impossibilità di accedervi. 
 
 I collegamenti a siti esterni, indicati nel presente sito, sono forniti come semplice servizio agli utenti, con esclusione di ogni responsabilità sulla correttezza e sulla completezza dell’insieme dei collegamenti indicati. 
 
