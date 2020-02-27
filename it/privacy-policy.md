@@ -38,7 +38,7 @@ Tali dati, necessari per la fruizione dei servizi web, vengono anche trattati al
 
 #### b) Dati forniti volontariamente dall’Utente
 
-Il Titolare acquisirà i dati personali eventualmente forniti dall’Utente attraverso il Sito in caso di iscrizione al servizio di newsletter. Consulta [qui](https://io.italia.it/informativa-newsletter/) la nostra informativa privacy per gli iscritti alla newsletter IO.
+Il Titolare acquisirà i dati personali eventualmente forniti dall’Utente attraverso il Sito in caso di iscrizione al servizio di newsletter. Consulta [qui](/informativa-newsletter/) la nostra informativa privacy per gli iscritti alla newsletter IO.
 
 #### c) Cookies 
 
