@@ -7,8 +7,10 @@ lang: it
 ref: comunicato-stampa-valsamoggia
 excerpt_separator: <!--more-->
 download_link: /assets/download/it/io-comunicato-stampa-Valsamoggia-2019.rtf
-
+date: 2019-12-02
+friendlydate: 2 dicembre 2019
 narrow: true
+friendlytitle: "IO: arriva l’app per i cittadini progettata con i cittadini"
 ---
 
 ### IO: arriva l’app per i cittadini progettata con i cittadini

@@ -43,8 +43,9 @@
             utenti e prevede momenti di <i>co-design</i> con i cittadini nelle
             diverse fasi di sviluppo. Ancor prima della tecnologia, sono i
             bisogni, l’esperienza e le richieste delle persone a dettare le
-            priorità nella <a href="/roadmap/">roadmap</a> dell’app IO.
+            priorità nella roadmap dell’app IO.
           </p>
+          <a href="/roadmap/" class="btn btn-outline-primary btn-sm text-uppercase mt-3 " >Vedi la roadmap</a>
         </div>
       </div>
       <div class="row">
@@ -221,7 +222,106 @@
         </div>
       </div>
     </div>
-  </div>
+  </div><!--/section-->
+
+  <div class="section section-muted section--wpointers">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col pt-5 px-3 px-md-0">
+          <h2 class="text-primary">
+            Comunicati stampa
+          </h2>
+        </div>
+      </div>
+      
+        <div class="media-press">
+          {%- assign comunicati = site.posts | where: "lang","it" -%}
+          {% for post in comunicati | sort:'date' %}
+            {% if forloop.index == 1 %}
+            <div class="row mb-3 mb-md-5">
+            <div class="media mx-2 mx-md-0 mt-5 col-12 col-md-8">
+              <div class="media-body">
+                <svg class="icon icon-lg icon-primary doc">
+                  <use xlink:href="/assets/svg/sprite.svg#it-file"></use>
+                </svg>
+                <h6 class="text-uppercase font-weight-normal mt-2 text-uppercase friendlydate">
+                  {{post.friendlydate}}
+                </h6>
+                <a
+                  href="{{post.url}}"
+                  target="_blank"
+                  class="title-link"
+                >
+                  <h2 class="my-2 my-md-3 ">{{post.friendlytitle | default: post.title}}</h2>
+                  {{post.description}}        
+                </a>
+                {% if post.download_link %}
+                <a href="{{post.download_link}}" target="_blank" class="d-flex flex-row mt-3 mt-md-5">
+                  <h6 class="text-primary text-uppercase mr-2 downloadcta">scarica</h6>
+                  <svg class="icon icon-sm icon-primary">
+                    <use xlink:href="/assets/svg/sprite.svg#it-download"></use>
+                  </svg>
+                </a>
+                {% endif %}
+              </div>
+            </div><!--media-->
+            </div>
+            {%else%}
+              {% if forloop.index == 2 %}
+              <hr class="my-5 mx-4 mx-md-0">
+              {%raw%}<div class="row my-3 my-md-5">{%endraw%}
+              {%endif%}
+            <div class="media my-3 mx-2 mx-md-0 col-md-4 {% if forloop.index > 4 %}d-none {%endif%}">
+              <div class="media-body">
+                <svg class="icon icon-lg icon-primary doc">
+                  <use xlink:href="/assets/svg/sprite.svg#it-file"></use>
+                </svg>
+                <h6 class="text-uppercase font-weight-normal mt-2 text-uppercase friendlydate">
+                  {{post.friendlydate}}
+                </h6>
+                <a
+                  href="{{post.url}}"
+                  target="_blank"
+                  class="title-link"
+                >
+                  <h2 class="my-2 my-md-3 secondary">{{post.friendlytitle | default: post.title}}</h2>      
+                </a>
+                {% if post.download_link %}
+                <a href="{{post.download_link}}" target="_blank" class="d-flex flex-row mt-3 mt-md-5">
+                  <h6 class="text-primary text-uppercase mr-2 downloadcta">scarica</h6>
+                  <svg class="icon icon-sm icon-primary">
+                    <use xlink:href="/assets/svg/sprite.svg#it-download"></use>
+                  </svg>
+                </a>
+                {% endif %}
+              </div>
+            </div><!--media-->
+              {% if forloop.last %}
+              {%raw%}</div>{%endraw%}
+              {%endif%}
+            {% endif %}
+
+          {%endfor%}
+          
+
+          <div class="row pt-3 pb-5 text-center">
+            <div class="col px-3 mt-5 ml-md-5">
+              <button
+                type="button"
+                data-click="show-more"
+                class="btn btn-primary text-white text-uppercase px-5"
+              >
+                Vedi tutti
+              </button>
+            </div>
+          </div>
+        </div>
+      
+    </div>
+  </div><!--/section-->
+
+
+
   <div class="section section-muted section-medium section--wpointers">
     <div class="container pb-5">
       <div class="row">
@@ -311,7 +411,7 @@
           <a
             href="https://medium.com/team-per-la-trasformazione-digitale/progetto-io-app-servizi-pubblici/home"
             target="_blank"
-            class="btn btn-primary text-white text-uppercase col-12 col-md-4"
+            class="btn btn-primary text-white text-uppercase px-5"
             >Leggi tutti i post</a
           >
         </div>

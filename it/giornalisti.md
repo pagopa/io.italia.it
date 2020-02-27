@@ -12,6 +12,10 @@ redirect_from:
 intro_image: "/assets/img/intro-giornalisti.svg"
 intro_primary_text: "Leggi i post su Medium"
 intro_primary_link: "https://medium.com/team-per-la-trasformazione-digitale/progetto-io-app-servizi-pubblici/home"
+intro_secondary_text: "Richiedi informazioni"
+intro_secondary_link: "mailto:onboarding@io.italia.it"
+intro_ter_text: "Scarica il backgrounder"
+intro_ter_link: "#"
 ---
 
 {% include giornalisti.html %}

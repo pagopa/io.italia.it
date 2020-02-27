@@ -64,24 +64,30 @@
     }
   }
 
-  .lineright {
-    border-right: 1px solid #e5e5e5;
 
-    &.media-press {
-      .media {
-        display: none;
+    .media-press {
+      .icon.doc {
+        left: -7px;
+        position: relative;
+      }
+      .friendlydate, .downloadcta {
+        font-size: 0.9rem;
+      }
+      .title-link {
+        text-decoration: none;
+        color: $color--gray-text !important;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+      .secondary {
+        font-size: 1.5rem;
       }
     }
 
-    .title-link {
-      text-decoration: none;
-      color: $color--gray-text !important;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
+    
+  
   .section-contatti {
     background: radial-gradient(100% 100% at 50% 0%, #00266b 0%, #0073d1 100%);
     margin-bottom: -48px; //trick to reset the margin bottom of internal layout

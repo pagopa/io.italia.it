@@ -6,8 +6,10 @@ lang: it
 ref: comunicato-stampa-ripalta-cremasca
 excerpt_separator: <!--more-->
 download_link: /assets/download/it/io-comunicato-stampa-Ripalta-Cremasca-2019.rtf
-
+date: 2019-06-24
+friendlydate: 24 giugno 2019
 narrow: true
+friendlytitle: "Ripalta Cremasca inizia la sperimentazione di IO, l’app dei servizi pubblici"
 ---
 
 ### Ripalta Cremasca inizia la sperimentazione di IO, l’app dei servizi pubblici
