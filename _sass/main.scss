@@ -37,6 +37,9 @@ body {
     font-size: 14px;
   }
 }
+.text-inherit {
+  color: inherit;
+}
 
 .section {
   padding: 0; // overrides Bootstrap Italia colliding selector
