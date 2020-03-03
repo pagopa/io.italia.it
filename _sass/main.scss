@@ -40,6 +40,9 @@ body {
 .text-inherit {
   color: inherit;
 }
+.text-italia-green {
+  color: $color--italia-green;
+}
 
 .section {
   padding: 0; // overrides Bootstrap Italia colliding selector
