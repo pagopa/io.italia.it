@@ -5,4 +5,11 @@
 layout: home
 lang: it
 ref: index
+redirect_from:
+  - /en/
+  - /en/developers/
+  - /en/legal-notes/
+  - /en/press/
+  - /en/privacy-policy/
+  - /en/public-administrations/
 ---
