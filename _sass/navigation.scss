@@ -23,13 +23,16 @@
   .social {
     font-size: 0;
     color: #fff;
-    margin-right: 0;
+    margin-right: 0.5rem;
 
     & > span {
       margin-right: 1em;
     }
     .small-prints {
       font-size: 0;
+    }
+    a {
+      padding: 0 4px;
     }
     .icon {
       fill: rgba(0, 102, 204, 1);
@@ -55,6 +58,16 @@
       margin-top: 1em;
       margin-right: 10px;
     }
+  }
+}
+.navbar-logo {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  @media screen and (min-width: $grid-breakpoints-md) {
+    -webkit-box-pack: left;
+    -ms-flex-pack: left;
+    justify-content: left;
   }
 }
 
@@ -84,20 +97,6 @@
   z-index: 100;
   @media screen and (min-width: $grid-breakpoints-md) {
     z-index: 3;
-    &:before, &:after {
-      content: '';
-      background: transparent url(img/bubble-top.svg) center bottom no-repeat;
-      position: absolute;
-      left: 0;
-      right: 0;
-      width: 100%;
-      height: 8px;
-    }
-
-    &:after{
-      background: transparent url(img/bubble-bottom.svg) center bottom no-repeat;
-      top: -8px;
-    }
   }
   a {
     color: $color--light-blue;
@@ -159,5 +158,16 @@
     font-size: 0.8rem;
     color: #5C6F82;
     padding: 6px 24px;
+  }
+}
+
+.social--nav  {
+  a {
+  color: $color--italia;
+  font-size: 0;
+  fill: $color--italia;
+  }
+  svg {
+    height: 22px; 
   }
 }

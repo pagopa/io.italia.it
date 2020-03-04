@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-1 pt-2">
-            <a class="d-flex align-items-center position-relatice" title="Home" href="/">
+            <a class="d-flex align-items-center navbar-logo" title="Home" href="/">
             <img src="{{ '/assets/img/io-it-logo-blue.svg' | relative_url }}" alt="io" class="io__icon"/>
             <span class="badge-beta">BETA</span>
             </a>
@@ -15,6 +15,11 @@
               {% for item in navigation %}
               {% include navigation-item.html navigation=navigation index=forloop.index  %}
               {% endfor %}
+            </div>
+          </div>
+          <div class="col-12 col-md-2 d-flex">
+            <div class="text-right social social--nav d-flex align-items-center">
+            {% include social-icons.html %}
             </div>
           </div>
         </div>
