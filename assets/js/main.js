@@ -24,45 +24,6 @@ $(function () {
             el.remove();
         });
 
-        if (window.anime) {
-            // Per ogni Path SVG esiste un'animazione senza autoplay
-            $('.carillon__path').each(function (index) {
-
-                var pathID = $(this).data('index');
-                var pathName = $(this).data('name');
-                var path = anime.path('[data-index="' + pathID + '"] path');
-
-                var animeTimeline = anime.timeline({
-                    targets: '[data-index="' + pathID + '"] .carillon__note',
-                    easing: 'easeInOutQuart',
-                    autoplay: false,
-                    begin: function (anim) {
-                        $('.ball--' + pathName).addClass('ball--burst');
-                        $('[data-index="' + pathID + '"] .carillon__note').removeClass('carillon__note--burst');
-                    },
-                    complete: function () {
-                        $('.ball--' + pathName).removeClass('ball--burst');
-                        $('[data-index="' + pathID + '"] .carillon__note').addClass('carillon__note--burst').fadeTo("slow", 0);
-                        $('.carillon__sound-' + pathID)[0].play();
-                    }
-                });
-
-                animeTimeline.add({
-                    opacity: 1,
-                    duration: 1000,
-                    delay: $(this).data('delay')
-                }).add({
-                    opacity: 1,
-                    translateX: path('x'),
-                    translateY: path('y'),
-                    duration: 1000
-                });
-
-                carillonPathArray.push(animeTimeline);
-
-            });
-        }
-
         // Sfondo in parallasse
         if (window.Parallax && $('.galaxy').length)
             parallaxInstance = new Parallax($('.galaxy')[0]);
@@ -114,25 +75,6 @@ $(function () {
 
         var lastTime = 0;
 
-        var animate = function (currentTime) {
-            if (currentTime >= lastTime + 1000) {
-                // one second has passed, run some code here
-                if (!smallDevice) {
-                    if (!$('body').hasClass('is-scrolled')) {
-                        // prende un Path SVG casuale nel carillon e ri-avvia l'animazione
-                        if (carillonPathArray.length)
-                            carillonPathArray[Math.floor(Math.random() * carillonPathArray.length)].restart();
-                    } else {
-                        // Imposta una posizione casuale la notifica "dot" verde
-                        greenDotAnimation();
-                    }
-                }
-                lastTime = currentTime;
-            }
-            requestAnimationFrame(animate);
-        };
-
-        animate(0);
 
         $(window).on('scroll load', function () {
             managePageOffset();
@@ -142,12 +84,6 @@ $(function () {
             smallDevice = window.innerWidth < 992;
         });
 
-        $('.volume').on('click', function () {
-            $volumeElement = $(this).toggleClass('volume__mute');
-            [].forEach.call(document.querySelectorAll("audio"), function (elem) {
-                elem.muted = $volumeElement.hasClass('volume__mute');
-            })
-        });
 
         managePageOffset();
     }

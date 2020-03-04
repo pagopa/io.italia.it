@@ -99,7 +99,7 @@
     z-index: 3;
   }
   a {
-    color: $color--light-blue;
+    color: $color--italia;
     font-size: 16px;
     font-weight: 600;
     &.active:after {
@@ -113,15 +113,14 @@
       background: #21DEDF;
     }
   }
-  body:not(.layout--home) &,
-  body.is-scrolled & {
+  & {
     position: fixed;
     @media screen and (min-width: $grid-breakpoints-md) {
       top: 0;
     }
     right: 0;
     left: 0;
-    z-index: 3;
+    z-index: 10;
   }
 }
 .io__icon {
