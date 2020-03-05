@@ -121,8 +121,39 @@
 
 .section__7 {
   background-color: #F2F7FC;
+  @media screen and (min-width: $grid-breakpoints-md) {
+    &:before {
+      content: ' ';
+      background-color: #fff;
+      height: 40%;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      z-index: 0;
+    }
+    &__inner {
+      position: relative;
+      z-index: 1;
+    }
+  }
 
   .advantage-cards {
+    img {
+      height: 88px;
+      width: auto;
+    }
+    h6 {
+      font-size: .9rem;
+    }
+    a.item {
+      transition: all .2s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+      }
+
+    }
+
     @media (min-width: 768px) {
       .item {
         width: 45%;
