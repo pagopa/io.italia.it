@@ -170,9 +170,10 @@ $(function () {
         e.preventDefault();
         var src = $(this).attr("data-url");
         $(".overlay-video").show();
+        $("#player").attr("src", src);
         setTimeout(function() {
             $(".overlay-video").addClass("o1");
-            $("#player").attr("src", src);
+            
         }, 100);
     });
     
