@@ -354,6 +354,17 @@
   }
 }
 
+.section__11 {
+  background: rgb(0,93,180);
+  background: radial-gradient(circle, rgba(0,93,180,1) 15%, rgba(0,38,107,1) 100%);
+
+  &_ptext {
+    font-size: 1rem;
+    color: #fff;
+    
+  }
+}
+
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;
