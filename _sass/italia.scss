@@ -7,7 +7,7 @@ $header--height: 50px;
     position: fixed;
     width: 60vw;
     height: calc(100vh - #{$header--height});
-    background-color: #E6E9F2;
+    background-color: #F2F7FC;
     left: 0;
     margin: 0 auto;
     z-index: -5;
@@ -16,17 +16,10 @@ $header--height: 50px;
   }
 }
 
-.italia__dot {
-  position: absolute;
-  width: 100%;
-  height: calc(100vh - #{$header--height});
-  background: transparent url(img/green-dot.png) 0 0 no-repeat;
-  background-size: 80px 80px;
-}
 .italia__shape {
   position: absolute;
   width: 100%;
   height: calc(100vh - #{$header--height});
-  background: transparent url(img/italy-dotted.png) center center no-repeat;
+  background: url(img/italy-dotted.jpg) center center no-repeat;
   background-size: cover;
 }

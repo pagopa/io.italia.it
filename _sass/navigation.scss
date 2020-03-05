@@ -80,12 +80,14 @@
   border-radius: 4px;
   margin-top: 6px;
 
+  .navbar-nav & {
   @media screen and (min-width: $grid-breakpoints-md) and (max-width: $grid-breakpoints-lg ) {
     position: absolute;
     background-color: $color--dark-grey;
     bottom: 4px;
     right: -4px;
     z-index: -1;
+  }
   }
 }
 .nav-container {
