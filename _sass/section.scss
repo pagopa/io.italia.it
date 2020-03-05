@@ -122,6 +122,30 @@
 .section__7 {
   background-color: #F2F7FC;
 
+  .advantage-cards {
+    @media (min-width: 768px) {
+      .item {
+        width: 45%;
+      }
+    }
+
+    @media (min-width: 992px) {
+      .item {
+        width: 23%;
+      }
+      .card .card-body h5.card-title {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        font-weight: 600;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+  }
+
 }
 
 .section__8 {
