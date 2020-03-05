@@ -17,10 +17,25 @@
         {% include social-icons.html %}
         </div>
         <div class="mt-5">
-        <a href="#" class="btn bg-white text-uppercase btn-video" target="_blank">
+        <a id="playvideo" href="#" class="btn bg-white text-uppercase btn-video mr-3" target="_blank"
+           data-url="https://www.youtube.com/embed/zrKOS2LiWTU?rel=0&amp;showinfo=0&amp;autoplay=1">
+        <img src="/assets/img/icon-playvideo.svg" class="mr-1" id="home-playvideo">
         Guarda il video</a>
         <a href="#" class="btn text-uppercase btn-newsletter" target="_blank">Segui la newsletter</a>
         </div>
+        </div>
+    </div>
+</div>
+<div class="overlay-video">
+    
+    <div class="videoWrapperExt">
+        <div class="videoWrapper">
+			<div class="videoWrapper__close">
+            <svg class="icon icon icon-white">
+                <use xlink:href="/assets/svg/sprite.svg#it-close-big"></use>
+            </svg>
+            </div>
+            <iframe id="player" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
 </div>
