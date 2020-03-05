@@ -369,6 +369,21 @@
   }
 }
 
+.section__12 {
+  &_bgimage {
+    height: 300px;
+    background-image: url('/assets/img/home-usertest.jpg');
+    background-repeat: no-repeat;
+    background-position:  center center;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      height: 487px;
+    }
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      background-position:  bottom right;
+    }
+  }
+}
+
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;
