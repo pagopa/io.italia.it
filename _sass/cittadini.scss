@@ -1,6 +1,10 @@
 .page-cittadini {
     // hack
     margin-bottom: -48px;
+
+    .screenshot.rounded {
+      border-radius: 22px !important;
+    }
     
     .ico-commenti {
         width: 62px;
