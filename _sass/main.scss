@@ -466,6 +466,9 @@ button.baguetteBox-button {
   &.noheight {
     min-height: unset;
   }
+  .small {
+    font-size: 1rem;
+  }
 }
 
 .card.rounded {
@@ -478,5 +481,39 @@ button.baguetteBox-button {
 .container--mid {
   @media screen and (min-width: $grid-breakpoints-lg) {
     max-width: 960px;
+  }
+}
+
+.btn {
+  letter-spacing: 1px;
+}
+.btn.bg-white, .btn.btn-white {
+  &:hover {
+    background-color: $color--dark-blue !important;
+    color: #fff !important;
+  }
+}
+.btn.btn-primary {
+  &:hover {
+    background-color: $color--dark-blue !important;
+    color: #fff !important;
+  }
+}
+.btn.border-white {
+  &:hover {
+    background-color: #fff !important;
+    color: $color--italia !important;
+  }
+}
+.btn.btn-outline-primary {
+  &:hover {
+    background-color: $color--italia !important;
+    color: #fff !important;
+  }
+}
+
+a.text-hover-green {
+  &:hover {
+    color: #21DEDF !important;
   }
 }
