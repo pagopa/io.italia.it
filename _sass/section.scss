@@ -452,8 +452,13 @@ body.is-scrolled .section__2 .section-wrapper {
   &_img {
     max-width: 100%;
     height: 741px;
-    background: url('/assets/img/home-ambientato.jpg') center center;
-
+    background-image: url('/assets/img/home-ambientato.jpg');
+    background-repeat: no-repeat;
+    background-position-x: 60%;
+    background-position-y: center;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      background-position-x: center;
+    }
 
   }
   &_inner {
