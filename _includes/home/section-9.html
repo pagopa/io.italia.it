@@ -12,37 +12,3 @@
     </div>
   </div>
 </section>
-
-
-
-
-
-{% comment %}
-{% assign faq = site.data.faq[current_lang] %}
-
-<section id="section_9" class="section section__9 bg-secondary section--wpointers padding-umd">
-  <div id="faq" class="container section__9_inner">
-    <div class="row py-3 justify-content-md-center">
-      <div class="col col-md-8">
-        <h1 >FAQ</h1>
-
-        <div id="accordionDivFAQ" class="collapse-faq collapse-div" role="tablist">
-          {% for f in faq %}
-          <div class="collapse-header" id="heading{{forloop.index}}">
-            <button data-toggle="collapse" data-target="#accordion{{forloop.index}}" aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{forloop.index}}">
-              {{f.title}}
-            </button>
-          </div>
-          <div id="accordion{{forloop.index}}" class="collapse {% if forloop.first %}show{% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDivFAQ">
-            <div class="collapse-body">
-              {{f.body | markdownify }}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-
-      </div>
-    </div>
-  </div>
-</section>
-{% endcomment %}
