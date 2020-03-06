@@ -476,5 +476,7 @@ button.baguetteBox-button {
 }
 
 .container--mid {
-  max-width: 960px;
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    max-width: 960px;
+  }
 }
