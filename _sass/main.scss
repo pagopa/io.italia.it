@@ -28,6 +28,8 @@
 @import "sviluppatori";
 // cittadini
 @import "cittadini";
+// FAQ
+@import "faq";
 
 body {
   background-color: #fff;
@@ -50,6 +52,7 @@ body {
     color: #5c6f82;
   }
 }
+
 
 .text-primary {
   color: $color--italia !important;
@@ -460,6 +463,9 @@ button.baguetteBox-button {
   @media screen and (min-width: $grid-breakpoints-lg) {
     min-height: 377px;
   }
+  &.noheight {
+    min-height: unset;
+  }
 }
 
 .card.rounded {
@@ -467,4 +473,8 @@ button.baguetteBox-button {
 }
 .card p.card-small-text {
   font-size: 0.9rem !important;
+}
+
+.container--mid {
+  max-width: 960px;
 }
