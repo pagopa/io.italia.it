@@ -235,18 +235,12 @@
   }
 
   .form-check [type=checkbox]:not(:checked)+label::after {
-    background-color: #d5d5d5;
+    border-color: #fff;
   }
 
 }
 .section__9 {
-  color: #fff;
-
-  &_inner {
-    position: relative;
-    padding-bottom: 5em;
-    padding-top: 5em;
-  }
+  background-color: #F2F7FC;
 }
 
 .collapse-faq {
@@ -370,16 +364,47 @@
 }
 
 .section__12 {
+  background-image: url('/assets/img/home-usertest.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  background-position-y: -25vw;
+  position: relative;
+
+  @media screen and (min-width: $grid-breakpoints-md) {
+    background-position-x: 50vw;
+    background-position-y: center;
+    background-size: auto 100%;
+  }
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    background-size: 50vw 100%;
+  }
+
   &_bgimage {
     height: 300px;
-    background-image: url('/assets/img/home-usertest.jpg');
-    background-repeat: no-repeat;
-    background-position:  center center;
     @media screen and (min-width: $grid-breakpoints-md) {
       height: 487px;
     }
-    @media screen and (min-width: $grid-breakpoints-lg) {
-      background-position:  bottom right;
+  }
+  &_inner {
+    position: relative;
+    z-index: 1;
+  }
+  
+  &:after {
+    content: ' ';
+    top: 45%;
+    right: 0 ;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $color--italia;
+    position: absolute;
+    z-index: 0;
+  }
+  @media screen and (min-width: $grid-breakpoints-md) {
+    &:after {
+      display: none;
     }
   }
 }

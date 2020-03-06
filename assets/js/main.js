@@ -20,6 +20,8 @@ $(function () {
 
         var parallaxInstance;
 
+        var deviceContainer = $('.device');
+
         $('.preload').fadeOut(400).promise().done(function (el) {
             el.remove();
         });
@@ -32,18 +34,19 @@ $(function () {
         if (window.ScrollMagic) {
             var controller = new ScrollMagic.Controller();
 
-            // Sezioni 2, 3, 4, 5, 6
-            for (var _i = 2; _i < 7; _i++) {
+            // Sezioni 2, 3, 4,
+            for (var _i = 2; _i < 5; _i++) {
                 (function (i) {
                     new ScrollMagic.Scene({
                         triggerElement: ".section__" + i,
-                        duration: window.innerHeight - 50 // window.innerHeight - header height
+                        duration: window.innerHeight - 0 // window.innerHeight - header height
                     })
                         .on("enter", function () {
                             if (i !== 1) {
                                 if (!smallDevice) {
                                     $(".section__" + i).addClass("active");
                                     $(".device__content--" + i).addClass("device__content--in");
+                                    deviceContainer.addClass('show');
                                 }
                             }
                         })
@@ -51,6 +54,9 @@ $(function () {
                             if (!smallDevice) {
                                 $(".section__" + i).removeClass("active");
                                 $(".device__content--" + i).removeClass("device__content--in");
+                                if ($(".section.overflow-x--hidden.active").length == 0) {
+                                    deviceContainer.removeClass('show');
+                                }
                             }
                         }).addTo(controller);
                 })(_i);
