@@ -46,15 +46,15 @@ it:
   home-section-2:
     title: <h2>I <b>messaggi</b> dalla Pubblica Amministrazione, in un'unica app</h2>
     desc:
-      <p>Ricevi avvisi e comunicazioni da qualunque Ente pubblico, tutti in un unico punto, sul tuo telefono. Resti sempre aggiornato sulle scadenze. Completi il pagamento di servizi e tributi, direttamente dall’app.</p>
+      <p>Ricevi avvisi e comunicazioni da qualunque Ente pubblico, tutti in un unico punto, sul tuo telefono.</p><p>Resti sempre aggiornato sulle scadenze.</p><p>Completi il pagamento di servizi e tributi, direttamente dall’app.</p>
     mockup: '/assets/img/mockups/it/mockup-02-messaggi.png'
   home-section-3:
-    title: <h2>Tutti i pagamenti dei servizi pubblici, in pochi secondi</h2>
+    title: <h2>I <b>pagamenti</b> dei servizi pubblici, in pochi secondi</h2>
     desc:
       <p>Con <a href="https://innovazione.gov.it/it/progetti/pagopa/" target="_blank">pagoPA</a> integrata nell’app, paghi in modo rapido e sicuro i servizi di tutti gli Enti della Pubblica Amministrazione.</p><p>Usi i tuoi metodi di pagamento preferiti e hai sempre a portata di mano lo storico di tutte le operazioni. </p>
     mockup: '/assets/img/mockups/it/mockup-03-portafoglio.png'
   home-section-4:
-    title: <h2>I servizi che ti interessano, a portata di mano</h2>
+    title: <h2>I <b>servizi</b> che ti interessano, a portata di mano</h2>
     desc:
       <p>Scegli di avere a disposizione sull’app <strong>diverse tipologie</strong> di servizi pubblici, erogati dagli Enti locali e nazionali.</p><p>Imposti le tue preferenze, per essere avvisato in prossimità di una scadenza (es. dai <strong>servizi anagrafici</strong>, per il rinnovo della Carta d’Identità), per sapere quando serve effettuare un pagamento (es. dai <strong>servizi scolastici</strong> per la mensa o dall’<strong>ufficio tributi</strong> per la TARI) o per ricevere notifiche in casi particolari (es. allerte della <strong>Protezione Civile</strong>).</p>
     mockup: '/assets/img/mockups/it/mockup-05-preferenze.png'
