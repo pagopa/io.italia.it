@@ -10,7 +10,7 @@ redirect_from:
   - /it/sviluppatori/
   
 intro_image: "/assets/img/intro-sviluppatori.svg"
-intro_primary_text: "Leggi la documentazione API"
+intro_primary_text: "Leggi la documentazione"
 intro_primary_link: "https://developer.io.italia.it/openapi"
 intro_secondary_text: "Contatta il team di IO"
 intro_secondary_link: "mailto:onboarding@io.italia.it"
