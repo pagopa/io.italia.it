@@ -7,7 +7,6 @@
 @import "volume";
 @import "italia";
 @import "device";
-@import "carillon";
 @import "copy";
 @import "footer";
 @import "cookiebar";
@@ -29,12 +28,15 @@
 @import "sviluppatori";
 // cittadini
 @import "cittadini";
+// FAQ
+@import "faq";
 
 body {
   background-color: #fff;
 
   &.layout--home {
     font-size: 14px;
+    background-color: #F2F7FC;
   }
 }
 .text-inherit {
@@ -50,6 +52,7 @@ body {
     color: #5c6f82;
   }
 }
+
 
 .text-primary {
   color: $color--italia !important;
@@ -460,6 +463,12 @@ button.baguetteBox-button {
   @media screen and (min-width: $grid-breakpoints-lg) {
     min-height: 377px;
   }
+  &.noheight {
+    min-height: unset;
+  }
+  .small {
+    font-size: 1rem;
+  }
 }
 
 .card.rounded {
@@ -467,4 +476,44 @@ button.baguetteBox-button {
 }
 .card p.card-small-text {
   font-size: 0.9rem !important;
+}
+
+.container--mid {
+  @media screen and (min-width: $grid-breakpoints-lg) {
+    max-width: 960px;
+  }
+}
+
+.btn {
+  letter-spacing: 1px;
+}
+.btn.bg-white, .btn.btn-white {
+  &:hover {
+    background-color: #034c98 !important;
+    color: #fff !important;
+  }
+}
+.btn.btn-primary {
+  &:hover {
+    background-color: #034c98 !important;
+    color: #fff !important;
+  }
+}
+.btn.border-white {
+  &:hover {
+    background-color: #fff !important;
+    color: $color--italia !important;
+  }
+}
+.btn.btn-outline-primary {
+  &:hover {
+    background-color: $color--italia !important;
+    color: #fff !important;
+  }
+}
+
+a.text-hover-green {
+  &:hover {
+    color: #21DEDF !important;
+  }
 }

@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title:
-  it: IO, il progetto per sviluppare l'app dei servizi pubblici
+  it: IO, l'app dei servizi pubblici
 authors:
   it: PagoPa S.p.A.
 description:

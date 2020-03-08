@@ -1,4 +1,5 @@
 .device {
+  visibility: hidden;
   position: absolute;
   z-index: 5;
   width: $device-width;
@@ -12,7 +13,12 @@
   overflow: hidden;
   border-radius: $device-border-radius;
   box-shadow: $device-box-shadow;
-  transition: opacity .5s ease-out, margin-top .5s ease-in-out;
+  transition: opacity .5s ease-out, margin-top .5s ease-in-out,
+              opacity .5s linear, visibility .1s linear;
+
+  &.show {
+    visibility: visible;
+  }
   @media screen and (min-width: $grid-breakpoints-lg) {
     position: fixed;
   }

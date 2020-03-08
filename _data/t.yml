@@ -44,30 +44,20 @@ it:
     profilo: Profilo
     schermata: Schermata
   home-section-2:
-    title: <h2>Tutti i <b>messaggi</b> dalla Pubblica Amministrazione, nel tuo telefono.</h2>
+    title: <h2>I <b>messaggi</b> dalla Pubblica Amministrazione, in un'unica app</h2>
     desc:
-      <p>Ricevi <b>messaggi</b>, avvisi, comunicazioni, <b>da qualunque ente pubblico</b>, tutto dentro un’unica app.</p>
-      <p>Puoi ricevere gli aggiornamenti via mail, dentro la app, o grazie alle <b>notifiche push</b> del telefono. E sei tu a deciderlo, per ogni servizio.</p>
-      <p>Resta sempre aggiornato sulle scadenze e <b>aggiungi un promemoria</b> direttamente sul calendario personale.</p>
-      <p><b>Completa il pagamento</b> di servizi o tributi direttamente dal messaggio, senza lasciare l’app.</p>
+      <p>Ricevi avvisi e comunicazioni da qualunque Ente pubblico, tutti in un unico punto, sul tuo telefono.</p><p>Resti sempre aggiornato sulle scadenze.</p><p>Completi il pagamento di servizi e tributi, direttamente dall’app.</p>
     mockup: '/assets/img/mockups/it/mockup-02-messaggi.png'
   home-section-3:
-    title: <h2>Tutti i <b>pagamenti</b> verso lo Stato attraverso uno strumento semplice, sicuro e digitale.</h2>
+    title: <h2>I <b>pagamenti</b> dei servizi pubblici, in pochi secondi</h2>
     desc:
-      '<p>Paga <b>tutti gli enti</b> della pubblica amministrazione attraverso PagoPA.</p>
-       <p><b>Associa le tue carte</b> di credito ed i tuoi conti correnti, oppure <b>Paypal</b> o <b>Satispay</b>, e usali tutte le volte che vuoi.</p>
-       <p>Paga gli avvisi cartacei direttamente dall’app usando il QR code.</p>
-       <p>Porta sempre con te lo <b>storico delle tue operazioni</b> e le relative ricevute di pagamento.</p>
-       <p><b>Evita interessi e sanzioni</b>: sarai sempre sicuro di pagare solo quanto effettivamente dovuto.</p>'
+      <p>Con <a href="https://innovazione.gov.it/it/progetti/pagopa/" target="_blank">pagoPA</a> integrata nell’app, paghi in modo rapido e sicuro i servizi di tutti gli Enti della Pubblica Amministrazione.</p><p>Usi i tuoi metodi di pagamento preferiti e hai sempre a portata di mano lo storico di tutte le operazioni. </p>
     mockup: '/assets/img/mockups/it/mockup-03-portafoglio.png'
   home-section-4:
-    title: <h2>Tutti i <b>documenti</b> che cerchi, sempre a disposizione nella tua tasca.</h2>
+    title: <h2>I <b>servizi</b> che ti interessano, a portata di mano</h2>
     desc:
-      <p><b>Documenti, ricevute, certificati</b> inviati direttamente <b>nel tuo smartphone</b>.</p>
-      <p><b>Condividi</b> immediatemente <b>il documento</b> con le persona o l’ufficio che preferisci.</p>
-      <p><b>Richiedi certificati</b> ed altri documenti,  direttamente <b>dall’app</b>.</p>
-      <p><b>Anteprima e ricerca avanzata</b>, per non perdere tempo a cercare il documento.</p>
-    mockup: '/assets/img/mockups/it/mockup-04-documenti.png'
+      <p>Scegli di avere a disposizione sull’app <strong>diverse tipologie</strong> di servizi pubblici, erogati dagli Enti locali e nazionali.</p><p>Imposti le tue preferenze, per essere avvisato in prossimità di una scadenza (es. dai <strong>servizi anagrafici</strong>, per il rinnovo della Carta d’Identità), per sapere quando serve effettuare un pagamento (es. dai <strong>servizi scolastici</strong> per la mensa o dall’<strong>ufficio tributi</strong> per la TARI) o per ricevere notifiche in casi particolari (es. allerte della <strong>Protezione Civile</strong>).</p>
+    mockup: '/assets/img/mockups/it/mockup-05-preferenze.png'
   home-section-5:
     title: <h2>Tutte le tue <b>preferenze</b>, impostate un'unica volta.</h2>
     desc:
@@ -169,4 +159,4 @@ it:
     desc: 'IO è un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo enti e servizi diversi. Iscriviti alla newsletter per restare aggiornato.' 
     placeholder: Indirizzo e-mail
     button: Iscriviti
-    privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white" href="/informativa-newsletter/"><u>informativa sul trattamento dei dati personali per la newsletter</u></a>.
+    privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white text-hover-green" href="/informativa-newsletter/"><u>informativa sul trattamento dei dati personali per la newsletter</u></a>.

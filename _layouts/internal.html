@@ -2,25 +2,12 @@
 layout: default
 ---
 
-{% assign current_lang = page.lang | default: site.lang | default: 'it' %} {%
-assign t = site.data.t[current_lang] %} {%- include navigation-slim.html -%} {%-
-include navigation.html -%}
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+{% assign t = site.data.t[current_lang] %}
+{%- include navigation-slim.html -%}
+{%- include navigation.html -%}
 
 <div class="internal-page">
-  {% comment %}
-  <div class="container">
-    <nav aria-label="breadcrumb">
-      <ol class="breadcrumb px-0">
-        <li class="breadcrumb-item">
-          <a href="{{ '/' | relative_url }}">Home</a>
-        </li>
-        <li class="breadcrumb-item active" aria-current="page">
-          {{ page.title }}
-        </li>
-      </ol>
-    </nav>
-  </div>
-  {% endcomment %}
 
   <article class="{{ page.layout }}">
     {% include sections/introduction.html %} {% if page.narrow %}
