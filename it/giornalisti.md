@@ -15,7 +15,7 @@ intro_primary_link: "https://medium.com/team-per-la-trasformazione-digitale/prog
 intro_secondary_text: "Richiedi informazioni"
 intro_secondary_link: "mailto:media@io.italia.it"
 intro_ter_text: "Scarica il Fact sheet"
-intro_ter_link: "#"
+intro_ter_link: "/assets/download/it/fact-sheet.rtf"
 ---
 
 {% include giornalisti.html %}
