@@ -10,7 +10,6 @@
 
         <div id="accordionDivFAQ" class="collapse-faq collapse-div" role="tablist">
           {% for f in faq %}
-          <a name="n{{forloop.index}}"></a>
           <div class="collapse-header" id="heading{{forloop.index}}">
             <button data-toggle="collapse" data-nfaq="n{{forloop.index}}" data-target="#accordion{{forloop.index}}" aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{forloop.index}}">
               {{f.title}}
