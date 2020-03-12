@@ -11,18 +11,19 @@
     font-size: 1.2em;
     color: #fff;
     & > span {
-      margin-right: 1em;
+      margin-right: 10px;
+      position: relative;
+      top: 4px;
     }
     .small-prints {
       font-size: 0;
     }
     .icon {
-      fill: #00264D;
-      background-color: #fff;
-      padding: 0.2em 0.4em;
-      border-radius: 100%;
+      fill: #fff;
       font-size: initial;
       margin-right: 0.4em;
+      width: 24px;
+      height: 24px;
     }
     @media screen and (max-width: $grid-breakpoints-md) {
       text-align: left !important;
@@ -50,6 +51,9 @@
     margin-top: 2em;
     .list-inline-item:not(:last-child){
       margin-right: 1.5em;
+    }
+    @media screen and (min-width: $grid-breakpoints-md) {
+      margin-top: 5em;
     }
   }
 }
