@@ -9,7 +9,7 @@
 <!-- Facebook -->
 <meta property="og:url" content="{{ site.url | append: page.url }}">
 <meta property="og:title" content="{{ page.title | default: site.title[current_lang] | smartify }}">
-<meta property="og:description" content="{{ page.description | default: site.description[current_lang] | smartify }}">
+<meta property="og:description" content="{{ page.description_social | default: page.description | default: site.description[current_lang] | smartify }}">
 <meta property="og:type" content="website">
 <meta property="og:image" content="{{ site.url | replace: 'https://', 'http://' | append: t.social_card_path }}">
 <meta property="og:image:secure_url" content="{{ site.url | append: t.social_card_path }}">

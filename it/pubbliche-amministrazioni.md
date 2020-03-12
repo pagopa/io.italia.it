@@ -6,6 +6,7 @@ lang: it
 ref: pubbliche-amministrazioni
 permalink: /pubbliche-amministrazioni/
 description: "IO permette alle diverse Pubbliche Amministrazioni, locali o nazionali, di raccogliere tutti i servizi, le comunicazioni e i documenti in un unico luogo e di interfacciarsi in modo semplice, rapido e sicuro con i cittadini."
+description_social: "IO permette ai diversi Enti, locali o nazionali, di interfacciarsi in modo semplice, rapido e sicuro con i cittadini, attraverso un unico canale."
 redirect_from:
   - /it/pubbliche-amministrazioni/
   - /it/pa/
