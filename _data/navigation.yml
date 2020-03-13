@@ -1,10 +1,7 @@
 it:
   - 
-    label: Home
-    url: '/'
-  - 
     label: Cittadini
-    url: '/'
+    url: '/cittadini/'
   - 
     label: P<span class="d-inline d-md-none d-xl-inline">ubbliche </span>A<span class="d-inline d-md-none d-xl-inline">mministrazioni</span>
     url: '/pubbliche-amministrazioni/'
@@ -14,20 +11,10 @@ it:
   - 
     label: Giornalisti
     url: '/giornalisti/'
-en:
   - 
-    label: Home
-    url: '/en/'
+    label: Roadmap
+    url: '/roadmap/'
   - 
-    label: Citizens
-    url: '/en/'
-  - 
-    label: P<span class="d-inline d-md-none d-xl-inline">ublic </span>A<span class="d-inline d-md-none d-xl-inline">dministrations</span>
-    url: '/en/public-administrations/'
-  - 
-    label: Developers
-    url: '/en/developers/'
-  - 
-    label: Press
-    url: '/en/press/'
+    label: FAQ
+    url: '/faq/'
   

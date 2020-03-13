@@ -1,27 +1,14 @@
-{% assign faq = site.data.faq[current_lang] %}
 
-<section id="section_9" class="section section__9 bg-secondary section--wpointers padding-umd">
-  <div id="faq" class="container section__9_inner">
-    <div class="row py-3 justify-content-md-center">
-      <div class="col col-md-8">
-        <h1 >FAQ</h1>
-
-        <div id="accordionDivFAQ" class="collapse-faq collapse-div" role="tablist">
-          {% for f in faq %}
-          <div class="collapse-header" id="heading{{forloop.index}}">
-            <button data-toggle="collapse" data-target="#accordion{{forloop.index}}" aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{forloop.index}}">
-              {{f.title}}
-            </button>
-          </div>
-          <div id="accordion{{forloop.index}}" class="collapse {% if forloop.first %}show{% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDivFAQ">
-            <div class="collapse-body">
-              {{f.body | markdownify }}
-            </div>
-          </div>
-          {% endfor %}
-        </div>
-
-      </div>
+<section id="section_9" class="position-relative section section__9 section--wpointers py-5">
+  <div  class="section__9_inner container py-md-5">
+    <div class="text-center py-md-3 ">
+      <h2 class="text-primary">Domande o curiosità?</h2>
+      <p class="lead text-center text-primary my-4">
+        Abbiamo provato a dare risposta alle domande più frequenti <br class="d-none d-sm-inline">sul rilascio dell'applicazione e sui servizi o funzioni <br class="d-none d-sm-inline">che verranno progressivamente aggiunte.
+      </p>
+    </div>
+    <div class="text-center py-md-3 ">
+      <a class="btn btn-primary text-uppercase px-5" href="/faq/" title="Leggi le FAQ">Leggi le FAQ</a>
     </div>
   </div>
 </section>

@@ -5,4 +5,12 @@
 layout: home
 lang: it
 ref: index
+description_social: "Un unico punto di accesso per interagire in modo semplice e sicuro con i servizi pubblici locali e nazionali, direttamente dal tuo smartphone."
+redirect_from:
+  - /en/
+  - /en/developers/
+  - /en/legal-notes/
+  - /en/press/
+  - /en/privacy-policy/
+  - /en/public-administrations/
 ---

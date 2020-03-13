@@ -4,8 +4,10 @@ title: Press release ForumPA 2018
 lang: en
 ref: comunicato-stampa-ForumPA-2018
 excerpt_separator: <!--more-->
-
+date: 2018-05-22
+friendlydate: May,22 2018
 narrow: true
+friendlytitle: "IO, the project to develop the public administration services app."
 ---
 
 ### IO, the project to develop the public administration services app.

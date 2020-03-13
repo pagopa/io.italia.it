@@ -6,8 +6,10 @@ lang: it
 ref: comunicato-stampa-torino
 excerpt_separator: <!--more-->
 download_link: /assets/download/it/io-comunicato-stampa-torino.rtf
-
+date: 2019-05-28
+friendlydate: 28 maggio 2019
 narrow: true
+friendlytitle: "IO si apre al contributo di Torino"
 ---
 
 ### IO si apre al contributo di Torino

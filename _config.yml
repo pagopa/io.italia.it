@@ -14,15 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title:
-  it: IO, il progetto per sviluppare l'app dei servizi pubblici
-  en: IO, the project to develop the public services app.
+  it: IO, l'app dei servizi pubblici
 authors:
-  it: Team per la Trasformazione Digitale
-  en: Digital Transformation Team
+  it: PagoPa S.p.A.
 description:
   it: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
-  en: Receive messages, alerts and communications from all public entities, all within a single app.
-baseurl: "" # used by local & testing environment https://teamdigitale.github.io/io.italia.it/
+baseurl: "" # used by local & testing environment 
 url: "https://io.italia.it" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:

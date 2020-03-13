@@ -1,28 +1,25 @@
 {% assign navigation = site.data.navigation[current_lang] %}
-<nav class="navbar navbar-light navigation navbar-expand-md py-0">
+<nav class="navbar navbar-light navigation navbar-expand-md py-0 shadow">
   <div class="navbar-collapse offcanvas-collapse">
-    <div class="navbar-nav mr-auto" style="width:100%;">
+    <div class="navbar-nav mr-auto w-100" >
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-4 order-md-2 text-center pt-3">
-            <a class="col col-md-2" href="{{navigation[0].url}}"><img src="{{ '/assets/img/io-it-logo-blue.svg' | relative_url }}" alt="io" class="io__icon"/></a>
+          <div class="col-12 col-md-1 pt-2">
+            <a class="d-flex align-items-center navbar-logo" title="Home" href="/">
+            <img src="{{ '/assets/img/io-it-logo-blue.svg' | relative_url }}" alt="io" class="io__icon"/>
+            <span class="badge-beta">BETA</span>
+            </a>
           </div>
-          <div class="col-12 col-md-4 order-md-1">
-            <div class="row">
-              {% if page.ref == 'roadmap' %}
-                {% include navigation-item.html navigation=navigation index=0 %}
-              {% else %}
-                {% include navigation-item.html navigation=navigation index=1 %}
-              {% endif %}
-              
-              {% include navigation-item.html navigation=navigation index=2 %}
+          <div class="col-12 col-md-9">
+            <div class="d-block d-md-flex nav-container" >
+              {% for item in navigation %}
+              {% include navigation-item.html navigation=navigation index=forloop.index  %}
+              {% endfor %}
             </div>
           </div>
-          <div class="col-12 col-md-4 order-md-3">
-            <div class="row">
-              {% include navigation-item.html navigation=navigation index=3 %}
-
-              {% include navigation-item.html navigation=navigation index=4 %}
+          <div class="col-12 col-md-2 d-flex">
+            <div class="text-right social social--nav d-flex align-items-center">
+            {% include social-icons.html %}
             </div>
           </div>
         </div>

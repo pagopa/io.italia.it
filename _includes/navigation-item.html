@@ -2,6 +2,6 @@
 {% assign current_url = page.url | remove:'.html' | append:'/' %}
 {% assign current_url = current_url | replace:'//','/' %}
 
-<div class="col-12 col-md-6 text-md-center p-3 px-md-0">
-    <a class="text-decoration-none{% if current_url==item.url %} active{% endif %}" href="{{item.url}}">{{item.label}}</a>
+<div class=" text-md-center p-3 px-md-0 position-relative" >
+    <a title="{{item.label | strip_html }}"class="text-decoration-none{% if current_url==item.url %} active{% endif %}" href="{{item.url}}">{{item.label}}</a>
 </div>

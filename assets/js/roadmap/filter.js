@@ -60,10 +60,16 @@ $(document).ready(function() {
   });
 
   // Apply time class
+  var firstNextStepFound = false;
   $("[data-time]").each(function() {
     var $el = $(this);
     var date = $el.data("time");
+    
     if (date > now) {
+      if (!firstNextStepFound) {
+        firstNextStepFound = true;
+        $el.attr('id','nextsteps');
+      }
       $el.addClass("point-next");
       var $use = $el.find("use");
       if ($use && $use.length) {

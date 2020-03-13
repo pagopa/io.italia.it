@@ -5,8 +5,10 @@ lang: it
 ref: comunicato-stampa-gennaio-2019
 excerpt_separator: <!--more-->
 download_link: /assets/download/it/io-comunicato-stampa-gennaio-2019.rtf
-
+date: 2019-01-21
+friendlydate: 21 gennaio 2019
 narrow: true
+friendlytitle: "IO, l’app dei servizi pubblici, negli store entro fine anno"
 ---
 
 ### IO, l’app dei servizi pubblici, negli store entro fine anno

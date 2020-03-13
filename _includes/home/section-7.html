@@ -1,55 +1,62 @@
-<section id="section_7" class="section section__7 section--wpointers padding-umd">
-  <div id="servizi" class="bg-white section__7_inner">
-    <div class="container py-3">
-      <div class="row justify-content-md-center">
-        <div class="col col-md-8">
-          <h1 class="text-primary text-center">{{t.home-section-7.title}}</h1>
-          <div class="row">
-            <div class="col-md-6">
-              {{t.home-section-7.par1}}
-            </div>
-            <div class="col-md-6">
-              {{t.home-section-7.par2}}
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center">
-        <h5 class="text-center">{{t.home-section-7.map_title}}</h5>
-      </div>
-      <div class="row justify-content-center">
-        <p>{{t.home-section-7.map_desc}}</p>
-        <div class="col col-md-10 table-wrapper">
-          <table class="table">
-            <tbody>
-              <tr>
-                <th></th>
-                {% for item in t.home-section-7.map_th %}
-                <th class="text-uppercase">{{item}}</th>
-                {% endfor %}
-              </tr>
-              {% for row in t.home-section-7.map_tr%}
-              <tr>
-                {% for item in  row%}
-                  <td>
-                    {% if item.first %}
-                      <ul>
-                      {% for subitem in item %}
-                        <li>{{subitem}}</li>
-                      {% endfor %}
-                      </ul>
-                    {% else %}
-                      {{item}}
-                    {% endif %}
-                  </td>
-                {% endfor %}
-              </tr>
-              {%endfor%}
-              
-            </tbody>
-          </table>
-        </div>
-      </div>
+<section id="section_7" class="position-relative section section__7 section--wpointers py-3 py-md-5 ">
+  <div  class="section__7_inner container">
+    <div class="text-center py-md-3 px-4">
+      <h2 class="text-primary">IO, un progetto speciale</h2>
+      <p class="lead text-center text-primary">Scopri tutte le novità e i vantaggi dell'app IO</p>
     </div>
-  </div>
+    <div class="row py-2 py-md-5 advantage-cards">
+        <div class="col-12">
+          <div class="d-md-flex flex-wrap justify-content-md-between">
+            <a href="/cittadini/" title="Cittadini" class="item mb-4 mb-md-0 mt-4 mt-md-4 mt-lg-0 d-flex">
+                <div class="card rounded no-after shadow">
+                  <div class="card-body text-center ">
+                    <img class="img-fluid my-4" src="/assets/img/intro-cittadini.svg" alt="Cittadini">
+                    <h6 class="text-uppercase text-primary mt-2">cittadini</h6>
+                    <h5 class="card-title text-primary">
+                     Tutta la PA a <br class="d-none d-md-inline">portata di mano
+                    </h5>
+                    <p class="card-small-text px-2">IO permette di interagire facilmente con diverse Pubbliche Amministrazioni, locali o nazionali</p>
+                  </div>
+                </div>
+            </a><!--/item-->
+            <a  href="/pubbliche-amministrazioni/" title="PA" class="item mb-4 mb-md-0 mt-4 mt-md-4 mt-lg-0 d-flex">
+                <div class="card rounded no-after shadow">
+                  <div class="card-body text-center ">
+                    <img class="img-fluid my-4" src="/assets/img/intro-pa.svg" alt="Pubblica Amministrazione">
+                    <h6 class="text-uppercase text-primary mt-2">Pubbliche Amministrazioni</h6>
+                    <h5 class="card-title text-primary ">
+                      Un’opportunità <br class="d-none d-md-inline">per le PA
+                    </h5>
+                    <p class="card-small-text px-2">IO permette a tutti gli enti locali e nazionali di interfacciarsi in modo semplice e sicuro con i cittadini.</p>
+                  </div>
+                </div>
+            </a><!--/item-->
+            <a href="/sviluppatori/" title="Sviluppatori" class="item  mb-4 mb-md-0  mt-4 mt-md-4 mt-lg-0 d-flex">
+                <div class="card rounded no-after shadow">
+                  <div class="card-body text-center ">
+                    <img class="img-fluid my-4" src="/assets/img/intro-sviluppatori.svg" alt="Sviluppatori">
+                    <h6 class="text-uppercase text-primary mt-2">sviluppatori</h6>
+                    <h5 class="card-title text-primary">
+                      Integrarsi è <br class="d-none d-md-inline">semplice
+                    </h5>
+                    <p class="card-small-text px-2">IO è una piattaforma di componenti riutilizzabili in grado di rendere i servizi digitali più efficaci.</p>
+                  </div>
+                </div>
+            </a><!--/item-->
+            <a href="/giornalisti/" title="Giornalisti"  class="item mb-4 mb-md-0  mt-4 mt-md-4 mt-lg-0 d-flex">
+                <div class="card rounded no-after shadow">
+                  <div class="card-body text-center ">
+                    <img class="img-fluid my-4" src="/assets/img/intro-giornalisti.svg" alt="Giornalisti">
+                    <h6 class="text-uppercase text-primary mt-2">giornalisti</h6>
+                    <h5 class="card-title text-primary">
+                      Una novit&agrave; da <br class="d-none d-md-inline">raccontare
+                    </h5>
+                    <p class="card-small-text px-2"> Informazioni, comunicati e risorse multimediali per avere contenuti aggiornati.</p>
+                  </div>
+                </div>
+            </a><!--/item-->
+          </div><!--/content-->
+        </div><!--/col-12-->
+      </div><!--/row-->
+  </div><!--/section__7_inner-->
 </section>
