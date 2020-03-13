@@ -85,6 +85,7 @@ DEPENDENCIES
   jekyll (~> 4.0.0)
   jekyll-feed (~> 0.13.0)
   jekyll-redirect-from (~> 0.15.0)
+  nokogiri (~> 1.10.8)
 
 BUNDLED WITH
    2.1.4
