@@ -796,13 +796,13 @@ body:not(.layout--home) .navigation__slim, body.is-scrolled .navigation__slim { 
 
 .pub-amm .section-carousel::before { content: ""; background: url(img/lista_enti_bg.jpg) center bottom no-repeat; background-size: cover; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; -webkit-transition: background-image 0.2s linear; transition: background-image 0.2s linear; }
 
-.pub-amm .section-carousel[data-slideid="1"]::before { background-image: url(img/pub-amm-1.jpg); }
+.pub-amm .section-carousel[data-slideid="1"]::before { background-image: url(img/pub-amm-1.JPG); }
 
-.pub-amm .section-carousel[data-slideid="2"]::before { background-image: url(img/pub-amm-2.jpg); }
+.pub-amm .section-carousel[data-slideid="2"]::before { background-image: url(img/pub-amm-2.JPG); }
 
-.pub-amm .section-carousel[data-slideid="3"]::before { background-image: url(img/pub-amm-3.jpg); }
+.pub-amm .section-carousel[data-slideid="3"]::before { background-image: url(img/pub-amm-3.JPG); }
 
-.pub-amm .section-carousel[data-slideid="4"]::before { background-image: url(img/pub-amm-4.jpg); }
+.pub-amm .section-carousel[data-slideid="4"]::before { background-image: url(img/pub-amm-4.JPG); }
 
 .pub-amm .section-carousel .card-slider { min-height: 250px; position: relative; }
 
