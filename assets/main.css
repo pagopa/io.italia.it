@@ -1066,13 +1066,13 @@ button.baguetteBox-button svg { transform: scale(0.5); }
 
 .btn { letter-spacing: 1px; }
 
-.btn.bg-white:hover, .btn.btn-white:hover { background-color: #034c98 !important; color: #fff !important; }
+.btn.bg-white:hover:not(:disabled), .btn.btn-white:hover:not(:disabled) { background-color: #034c98 !important; color: #fff !important; }
 
-.btn.btn-primary:hover { background-color: #034c98 !important; color: #fff !important; }
+.btn.btn-primary:hover:not(:disabled) { background-color: #034c98 !important; color: #fff !important; }
 
-.btn.border-white:hover { background-color: #fff !important; color: #06c !important; }
+.btn.border-white:hover:not(:disabled) { background-color: #fff !important; color: #06c !important; }
 
-.btn.btn-outline-primary:hover { background-color: #06c !important; color: #fff !important; }
+.btn.btn-outline-primary:hover:not(:disabled) { background-color: #06c !important; color: #fff !important; }
 
 a.text-hover-green:hover { color: #21DEDF !important; }
 
