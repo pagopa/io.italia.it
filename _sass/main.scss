@@ -488,25 +488,25 @@ button.baguetteBox-button {
   letter-spacing: 1px;
 }
 .btn.bg-white, .btn.btn-white {
-  &:hover {
+  &:hover:not(:disabled) {
     background-color: #034c98 !important;
     color: #fff !important;
   }
 }
 .btn.btn-primary {
-  &:hover {
+  &:hover:not(:disabled) {
     background-color: #034c98 !important;
     color: #fff !important;
   }
 }
 .btn.border-white {
-  &:hover {
+  &:hover:not(:disabled) {
     background-color: #fff !important;
     color: $color--italia !important;
   }
 }
 .btn.btn-outline-primary {
-  &:hover {
+  &:hover:not(:disabled) {
     background-color: $color--italia !important;
     color: #fff !important;
   }
