@@ -6,7 +6,7 @@
         <div class="col-12 col-lg-4 no-gutters">
         <div class="py-md-3 mt-2 mt-md-5">
             <h2 class="text-primary text-center text-md-left my-3">IO sul territorio</h2>
-            <p class="text-desc text-center text-md-left">La mappa mostra gli enti locali e nazionali che ad oggi sono saliti a bordo del progetto e hanno iniziato a offrire i propri servizi tramite IO.</p>
+            <p class="text-desc text-center text-md-left">La mappa mostra gli enti locali e nazionali che hanno iniziato a offrire i propri servizi tramite IO.</p>
             <div class="d-none d-md-block">
             <div class="row my-5">
                 <div class="col-2 text-center "><img src="/assets/img/legenda-ente-nazionale.png" title="Enti nazionali"></div>
@@ -29,13 +29,20 @@
                 <div class="italy-dotted-list" >
                     {% assign countDelay = 0 %}
                     {% for item in items %}
-                    
+                        {% if item.status == "active" %}
                         <div class="italy-dotted-item" style="top:{{item.coord[0]}}em;left:{{item.coord[1]}}em"
                             data-toggle="tooltip" title="{{item.title}}">
                             <div class="italy-dotted-dot {{item.type}} delay-{{countDelay}}">
                             <img src="/assets/img/dot.svg" title="">
                             </div>
                         </div>
+                        {% else %}
+                        <div class="italy-dotted-item" style="top:{{item.coord[0]}}em;left:{{item.coord[1]}}em">
+                            <div class="italy-dotted-pending {{item.type}}" title="{{item.title}}">
+                            
+                            </div>
+                        </div>
+                        {% endif %}
                     
                         {% if countDelay==3 % }
                             {% assign countDelay = 0%}

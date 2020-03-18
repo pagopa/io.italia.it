@@ -15,7 +15,7 @@ body.layout--home {
 #italy-dotted-map {
   position: relative;
   z-index: 0;
-  width: 625px;
+  width: 600px;
   max-width: 100%;
   display: inline-block;
   
@@ -47,14 +47,24 @@ body.layout--home {
     position: absolute;
     z-index: 1;
   }
+  .italy-dotted-pending {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: $color--italia;
+    &.small {
+      width: 8px;
+      height: 8px;
+    }
+  }
   .italy-dotted-title {
     font-weight: 600;
     color: $color--italia;
   }
   .italy-dotted-dot {
 
-      -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
-              animation: heartbeat 1.5s ease-in-out infinite both;
+      -webkit-animation: heartbeat 2.5s ease-in-out infinite both;
+              animation: heartbeat 2.5s ease-in-out infinite both;
     &:hover {
       -webkit-animation-play-state:paused;
       animation-play-state:paused;
@@ -63,15 +73,15 @@ body.layout--home {
     }
     &.delay-1 {
       animation-delay: 1s;
-      animation-duration: 2.5s;
+      animation-duration: 3.5s;
     }
     &.delay-2 {
       animation-delay: 2s;
-      animation-duration: 3s;
+      animation-duration: 4s;
     }
     &.delay-3 {
       animation-delay: 3s;
-      animation-duration: 3.5s;
+      animation-duration: 5s;
     }
     &.small {
       img {
@@ -94,24 +104,30 @@ body.layout--home {
             animation-timing-function: ease-out;
   }
   10% {
-    -webkit-transform: scale(0.85);
-            transform: scale(0.85);
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
   17% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
   33% {
-    -webkit-transform: scale(0.77);
-            transform: scale(0.77);
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
-  45% {
+  40% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  50% {
     -webkit-transform: scale(1);
             transform: scale(1);
     -webkit-animation-timing-function: ease-out;
@@ -128,24 +144,30 @@ body.layout--home {
             animation-timing-function: ease-out;
   }
   10% {
-    -webkit-transform: scale(0.85);
-            transform: scale(0.85);
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
   17% {
-    -webkit-transform: scale(0.95);
-            transform: scale(0.95);
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
   33% {
-    -webkit-transform: scale(0.77);
-            transform: scale(0.77);
+    -webkit-transform: scale(1.4);
+            transform: scale(1.4);
     -webkit-animation-timing-function: ease-in;
             animation-timing-function: ease-in;
   }
-  45% {
+  40% {
+    -webkit-transform: scale(1.25);
+            transform: scale(1.25);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  50% {
     -webkit-transform: scale(1);
             transform: scale(1);
     -webkit-animation-timing-function: ease-out;

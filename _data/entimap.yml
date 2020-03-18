@@ -1,41 +1,241 @@
 dots:
   - title: "Comune di Milano"
+    status: active
     type: small
-    coord: [7,8]
+    coord: [6,8]
   - title: "Comune di Torino"
+    status: active
     type: small
-    coord: [8.5,5]
+    coord: [7.5,5]
   - title: "Comune di Ripalta Cremasca"
+    status: active
     type: small
-    coord: [9,10]
+    coord: [8,10]
   - title: "Comune di Valsamoggia"
+    status: active
     type: small
-    coord: [12,18]
+    coord: [11,18]
   - title: "Comune di Palermo"
+    status: active
     type: small
-    coord: [38,24]
+    coord: [37,24]
   - title: "Unione Pedemontana Parmense"
+    status: active
+    type: small
+    coord: [8,14]
+  - title: "Comune di Reggio Emilia"
+    status: active
+    type: small
+    coord: [8,16]
+  - title: "Comune di Collecchio"
+    status: active
     type: small
     coord: [9,14]
-  - title: "Comune di Reggio Emilia"
+  - title: "Comune di Sala Baganza"
+    status: active
     type: small
-    coord: [9,16]
+    coord: [9,12]
+  - title: "Comune di Montechiarugolo"
+    status: active
+    type: small
+    coord: [10,13]
   - title: "Comune di Bagnacavallo"
+    status: active
     type: small
-    coord: [13,21]
+    coord: [12,21]
   - title: "Comune e Provincia di Trento"
+    status: active
     type: small
-    coord: [5,18] 
-  - title: "Regione Piemonte"
+    coord: [4,18] 
+  - title: "Comune di Santa Maria la Carità"
+    status: active
+    type: small
+    coord: [24,25]
+  - title: "Regione Veneto"
+    status: pending
     type: medium
-    coord: [9.5,6]
+    coord: [7,20]
+  - title: "Comune di Roma"
+    status: pending
+    type: small
+    coord: [22,20]
+  - title: "Comune di Modena"
+    status: pending
+    type: small
+    coord: [10,18]
+  - title: "Comune di Nave"
+    status: pending
+    type: small
+    coord: [6.5,12.4]
+  - title: "Comune di Alessandria"  
+    status: pending
+    type: small
+    coord: [9.2,7]
+  - title: "Comune di Garbagnate Milanese"
+    status: pending
+    type: small
+    coord: [5.8,8]
+  - title: "Comune di Venezia"
+    status: pending
+    type: small
+    coord: [7.5,21]
+  - title: "Politecnico di Milano"
+    status: pending
+    type: small
+    coord: [6.5,9]
+  - title: "Comune di Campi Bisenzio"
+    status: pending
+    type: small
+    coord: [16,16]
+  - title: "Comune di Alghero"
+    status: pending
+    type: small
+    coord: [27,6]
+  - title: "Comune di Olbia"
+    status: pending
+    type: small
+    coord: [26,11.5]
   - title: "Regione Campania"
+    status: pending
     type: medium
-    coord: [26,26]
+    coord: [26,27]
+  - title: "Regione Piemonte"
+    status: pending
+    type: medium
+    coord: [10,6]
+  - title: "Regione Umbria"
+    status: pending
+    type: medium
+    coord: [17,21]
+  - title: "Comune di Bastia Umbra"
+    status: pending
+    type: small
+    coord: [18,22]
+  - title: "Comune di Gattinara"
+    status: pending
+    type: small
+    coord: [6,6.2]
+  - title: "Comune di Bari"
+    status: pending
+    type: small
+    coord: [24.5,37]
+  - title: "Azienda Sanitaria Locale di Matera"
+    status: pending
+    type: small
+    coord: [28,36]
+  - title: "Comune di Sarzana"
+    status: pending
+    type: small
+    coord: [13,11.4]    
+  - title: "Comune di Genova"
+    status: pending
+    type: small
+    coord: [12,8.4]
+  - title: "Comune di Castrignano de' Greci"
+    status: pending
+    type: small
+    coord: [28.5,41.2]
+  - title: "Comune di Vallesaccarda"
+    status: pending
+    type: small
+    coord: [26,33.3]
+  - title: "Comune di Rimini"
+    status: pending
+    type: small
+    coord: [14,23]
+  - title: "Comune di Segrate"
+    status: pending
+    type: small
+    coord: [7,10]
+  - title: "Comune di Galluccio"
+    status: pending
+    type: small
+    coord: [25,27.5]
+  - title: "Comune di Castel d'Azzano"
+    status: pending
+    type: small
+    coord: [7,14.8]
+  - title: "Comune di Borgo Valbelluna"
+    status: pending
+    type: small
+    coord: [4,19.8]
+  - title: "Comune di Mesola"
+    status: pending
+    type: small
+    coord: [8.4,20.4]
+  - title: "Comune di Paullo"
+    status: pending
+    type: small
+    coord: [7.5,10.4]
+  - title: "Comune di Chiari"
+    status: pending
+    type: small
+    coord: [6.4,10.9]
+  - title: "Comune di Alezio"
+    status: pending
+    type: small
+    coord: [27.5,40.8]
+  - title: "Comune di Rosate"
+    status: pending
+    type: small
+    coord: [6.8,7.2]
+  - title: "Comune di Caltanissetta"
+    status: pending
+    type: small
+    coord: [39.5,28]
+  - title: "Comune di Racalmuto"
+    status: pending
+    type: small
+    coord: [39.8,27]
+  - title: "Policlinico di Catania"
+    status: pending
+    type: small
+    coord: [39.5,32]
+  - title: "Comune di Trebisacce"
+    status: pending
+    type: small
+    coord: [31,37.4]
+  - title: "Comune di Palma Campania"
+    status: pending
+    type: small
+    coord: [26,28.5]
+  - title: "Comune di Cavenago Brianza"
+    status: pending
+    type: small
+    coord: [6.2,10.1]
+  - title: "Comune di Villa di Tirano"
+    status: pending
+    type: small
+    coord: [4.6,10.7]
+  - title: "Comune di Aosta"
+    status: pending
+    type: small
+    coord: [6.6,4]
+  - title: "Comune di San Gavino Monreale"
+    status: pending
+    type: small
+    coord: [29.8,9]
+  - title: "Provincia di Foggia"
+    status: pending
+    type: small
+    coord: [22.9,31.5]
+  - title: "Comune di Parma"
+    status: pending
+    type: small
+    coord: [7.8,15.5]
+  - title: "Comune di Merano"
+    status: pending
+    type: small
+    coord: [3,18] 
+  - title: "Comune di Agnone"
+    status: pending
+    type: small
+    coord: [22,28.3]
   
 nazionali:
-  - title: "Agenzia delle Entrate-Riscossione (AdER)"
   - title: "Agenzia delle Entrate (AdE)"
+    status: active
   - title: "Motorizzazione Civile"
+    status: active
   - title: "INPS"
-  - title: "Protezione Civile"
+    status: active
