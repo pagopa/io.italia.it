@@ -409,6 +409,12 @@
   }
 }
 
+.section__14 {
+  .text-desc {
+    font-size: 1.1rem;
+    color: #5C6F82;
+  }
+}
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;

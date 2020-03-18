@@ -1,0 +1,41 @@
+dots:
+  - title: "Comune di Milano"
+    type: small
+    coord: [7,8]
+  - title: "Comune di Torino"
+    type: small
+    coord: [8.5,5]
+  - title: "Comune di Ripalta Cremasca"
+    type: small
+    coord: [9,10]
+  - title: "Comune di Valsamoggia"
+    type: small
+    coord: [12,18]
+  - title: "Comune di Palermo"
+    type: small
+    coord: [38,24]
+  - title: "Unione Pedemontana Parmense"
+    type: small
+    coord: [9,14]
+  - title: "Comune di Reggio Emilia"
+    type: small
+    coord: [9,16]
+  - title: "Comune di Bagnacavallo"
+    type: small
+    coord: [13,21]
+  - title: "Comune e Provincia di Trento"
+    type: small
+    coord: [5,18] 
+  - title: "Regione Piemonte"
+    type: medium
+    coord: [9.5,6]
+  - title: "Regione Campania"
+    type: medium
+    coord: [26,26]
+  
+nazionali:
+  - title: "Agenzia delle Entrate-Riscossione (AdER)"
+  - title: "Agenzia delle Entrate (AdE)"
+  - title: "Motorizzazione Civile"
+  - title: "INPS"
+  - title: "Protezione Civile"

@@ -1,32 +1,154 @@
-.section-header {
-  height: 800px;
-  // margin-top: 48px;
 
-  position: relative;
-  background: linear-gradient(
-    90deg,
-    rgba(0, 102, 204, 1) 40%,
-    rgba(0, 102, 204, 0.4) 90%
-  );
+body.layout--home {
 
-  &::before {
-    content: "";
-    background: url(img/home_bg.jpg) center top no-repeat;
-    background-size: cover;
-    opacity: 0.4;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: absolute;
+  .tooltip-inner {
+    background-color: #fff  !important;
+    color: $color--italia;
+    font-weight: 600;
+    font-size: 0.8rem;
   }
+  .tooltip .arrow {
+    display: none;
+  }
+}
 
-  .container {
-    padding-top: 48px;
-    color: $color--white;
+#italy-dotted-map {
+  position: relative;
+  z-index: 0;
+  width: 625px;
+  max-width: 100%;
+  display: inline-block;
+  
+  .nazionali-list {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    top: 90px;
+    width: 37%;
 
-    .badge {
-      background-color: rgba(255, 255, 255, 0.3);
+    &__header {
+      font-weight: 600;
+      font-size: 1rem;
     }
+    &__ul {
+    }
+    li {
+      font-weight: 600;
+      position: relative;
+      &:before {
+        content: '-';
+        position: absolute;
+        left: -10px;
+      }
+    }
+  }
+ 
+  .italy-dotted-item {
+    position: absolute;
+    z-index: 1;
+  }
+  .italy-dotted-title {
+    font-weight: 600;
+    color: $color--italia;
+  }
+  .italy-dotted-dot {
+
+      -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+              animation: heartbeat 1.5s ease-in-out infinite both;
+    &:hover {
+      -webkit-animation-play-state:paused;
+      animation-play-state:paused;
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+    }
+    &.delay-1 {
+      animation-delay: 1s;
+      animation-duration: 2.5s;
+    }
+    &.delay-2 {
+      animation-delay: 2s;
+      animation-duration: 3s;
+    }
+    &.delay-3 {
+      animation-delay: 3s;
+      animation-duration: 3.5s;
+    }
+    &.small {
+      img {
+        width: 30px;
+        &:hover {
+          transform: scale(1.25);
+        }
+      }
+    }
+  }
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.77);
+            transform: scale(0.77);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.85);
+            transform: scale(0.85);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.77);
+            transform: scale(0.77);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
   }
 }
