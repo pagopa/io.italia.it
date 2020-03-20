@@ -1,0 +1,36 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+{% assign enti = site.data.entimap["dots"] %}
+{% assign entisorted = enti | sort: "title" %}
+<div class="page-entipartecipanti">
+
+    <div class="container container--mid ">
+
+      <div id="enti-partecipanti" class="pb-5">
+    <div class="row py-3 justify-content-md-center">
+      <div class="col-12">
+
+        <div id="accordionDiventi" class="collapse-enti collapse-div" role="tablist">
+          {% for f in entisorted %}
+          <div class="collapse-header" id="heading{{forloop.index}}">
+            <button data-toggle="collapse" class="{% if forloop.index==1 %}border-top-0{% endif %}" data-nenti="n{{forloop.index}}" data-target="#accordion{{forloop.index}}" aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{forloop.index}}">
+              {{f.title}}
+            </button>
+          </div>
+          <div id="accordion{{forloop.index}}" class="collapse {% if forloop.first %}show{% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDiventi">
+            <div class="collapse-body">
+              {% assign subitems = f.subitems | split:"," %}
+              {% for subitem in subitems %}
+              <span>{{subitem}}</span><br>
+              {% endfor %}
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+
+      </div>
+    </div>
+  </div>
+    
+  </div><!--/container-->
+
+</div><!--/page-entipartecipanti-->

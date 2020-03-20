@@ -47,16 +47,7 @@ body.layout--home {
     position: absolute;
     z-index: 1;
   }
-  .italy-dotted-pending {
-    width: 12px;
-    height: 12px;
-    border-radius: 100%;
-    background-color: $color--italia;
-    &.small {
-      width: 8px;
-      height: 8px;
-    }
-  }
+  
   .italy-dotted-title {
     font-weight: 600;
     color: $color--italia;
@@ -83,14 +74,27 @@ body.layout--home {
       animation-delay: 3s;
       animation-duration: 5s;
     }
+    & img {
+      width: 55px;
+    }
     &.small {
       img {
-        width: 30px;
+        width: 20px;
         &:hover {
           transform: scale(1.25);
         }
       }
     }
+  }
+}
+.italy-dotted-pending {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background-color: #21DEDF;
+  &.small {
+    width: 7px;
+    height: 7px;
   }
 }
 
