@@ -2,6 +2,11 @@
 .navbar-dark .navbar-toggler-icon  {
 	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDIwIDE4Ij4gIDxnIGZpbGw9IiNEOEQ4RDgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDZDIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIgMSkiPiAgICA8bGluZSB4MT0iLjE4NCIgeDI9IjE2LjE4NCIgeTE9Ii45OTgiIHkyPSIuOTk4Ii8+ICAgIDxsaW5lIHgxPSIuMTg0IiB4Mj0iMTYuMTg0IiB5MT0iNy45OTgiIHkyPSI3Ljk5OCIvPiAgICA8bGluZSB4MT0iLjE4NCIgeDI9IjE2LjE4NCIgeTE9IjE0Ljk5OCIgeTI9IjE0Ljk5OCIvPiAgPC9nPjwvc3ZnPg==);
   background-size: 25px;
+  &:hover {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none;
+  }
 }
 .navigation__slim {
   position: fixed;
