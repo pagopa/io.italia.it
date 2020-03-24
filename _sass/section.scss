@@ -114,11 +114,14 @@
     padding: 0 80px;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     font-weight: 600;
     b,strong {
       font-weight: 700;
+    }
+    @media screen and (min-width: $grid-breakpoints-md) {
+      font-size: 2rem;
     }
   }
 }
