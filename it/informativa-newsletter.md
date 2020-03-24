@@ -12,7 +12,7 @@ narrow: true
 
 La presente informativa viene resa ai sensi dell'art. 13 del Regolamento 2016/679 (GDPR) ed è relativa ai dati personali trattati nell’ambito dell’invio di newsletter relative al progetto IO.
 
-La newsletter del progetto IO è distribuita via e-mail - in automatico e gratuitamente - a quanti fanno richiesta di riceverla, compilando il form presente alla pagina [io.italia.it](https://io.italia.it/).
+La newsletter del progetto IO è distribuita via e-mail - in automatico e gratuitamente - a quanti fanno richiesta di riceverla, compilando il form presente alla pagina [io.italia.it](https://io.italia.it/#newsletter).
 
 I dati gestiti per la fornitura del servizio sono:
 
