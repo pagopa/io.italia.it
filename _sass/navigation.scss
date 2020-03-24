@@ -2,6 +2,9 @@
 .navbar-dark .navbar-toggler-icon  {
 	background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDIwIDE4Ij4gIDxnIGZpbGw9IiNEOEQ4RDgiIGZpbGwtcnVsZT0iZXZlbm9kZCIgc3Ryb2tlPSIjMDZDIiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIgMSkiPiAgICA8bGluZSB4MT0iLjE4NCIgeDI9IjE2LjE4NCIgeTE9Ii45OTgiIHkyPSIuOTk4Ii8+ICAgIDxsaW5lIHgxPSIuMTg0IiB4Mj0iMTYuMTg0IiB5MT0iNy45OTgiIHkyPSI3Ljk5OCIvPiAgICA8bGluZSB4MT0iLjE4NCIgeDI9IjE2LjE4NCIgeTE9IjE0Ljk5OCIgeTI9IjE0Ljk5OCIvPiAgPC9nPjwvc3ZnPg==);
   background-size: 25px;
+  
+}
+.navbar-dark .navbar-toggler {
   &:hover,&:focus {
     border: none !important;
     outline: none !important;
@@ -25,10 +28,7 @@
   @media screen and (min-width: $grid-breakpoints-lg) {
       background: rgba(0, 102, 204, 0);
   }
-  body:not(.layout--home) &,
-  body.is-scrolled & {
-    background: rgba(0, 102, 204, 1) !important;
-  }
+
   .social {
     font-size: 0;
     color: #fff;
