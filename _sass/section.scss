@@ -128,7 +128,7 @@
 
 .section__7 {
   background-color: #F2F7FC;
-  @media screen and (min-width: $grid-breakpoints-md) {
+  
     &:before {
       content: ' ';
       background-color: #fff;
@@ -139,11 +139,15 @@
       position: absolute;
       z-index: 0;
     }
-    &__inner {
+    &_inner {
       position: relative;
       z-index: 1;
+      @media screen and (max-width: $grid-breakpoints-md) {
+        padding: 0;
+        max-width: unset;
+      }
     }
-  }
+  
 
   .advantage-cards {
     img {
