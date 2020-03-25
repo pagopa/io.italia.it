@@ -127,7 +127,7 @@
     }
 
     .card-slider {
-      min-height: 250px;
+      min-height: 405px;
       position: relative;
       li {
         position: absolute;
@@ -144,6 +144,9 @@
           font-size: 1.25rem;
           line-height: 1.6;
         }
+      }
+      @media screen and (min-width: $grid-breakpoints-md) {
+        min-height: 250px;
       }
     }
 

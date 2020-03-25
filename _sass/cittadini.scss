@@ -2,8 +2,14 @@
     // hack
     margin-bottom: -48px;
 
-    .screenshot.rounded {
-      border-radius: 22px !important;
+    .screenshot {
+      max-width: 260px;
+      &.rounded {
+        border-radius: 22px !important;
+      }
+      @media screen and (min-width: $grid-breakpoints-md) {
+        max-width: unset;
+      }
     }
     
     .ico-commenti {
