@@ -18,7 +18,7 @@ $(document).ready(function() {
     }
 
     // switch off sibiling buttons
-    $siblings.each(function() {
+    $siblings('btn').each(function() {
       var $sibling = $(this);
       $sibling.removeClass("btn-primary").addClass("btn-outline-primary");
 
