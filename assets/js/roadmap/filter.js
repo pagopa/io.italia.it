@@ -18,9 +18,13 @@ $(document).ready(function() {
     }
 
     // switch off sibiling buttons
-    $siblings('btn').each(function() {
+    $siblings.each(function() {
       var $sibling = $(this);
-      $sibling.removeClass("btn-primary").addClass("btn-outline-primary");
+      if ( $sibling.is( "button" ) ) {
+        $sibling.removeClass("btn-primary").addClass("btn-outline-primary");
+      } else {
+        $sibling.removeClass("btn-primary");
+      }
 
       var $sibUse = $sibling.find("use");
       if ($sibUse && $sibUse.length) {
