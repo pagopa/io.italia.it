@@ -1,10 +1,13 @@
-<nav class="navbar navbar-dark fixed-top navigation__slim d-md-none">
+<nav class="navbar navbar-dark fixed-top navigation__slim d-md-none shadow">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger small mr-auto p-2" href="{{t.slim_owner_url}}" target="_blank" rel="noopener">{{t.slim_owner}}</a>
-    <div class="text-right social">
+    <a class="d-flex align-items-center navbar-logo text-decoration-none js-scroll-trigger " title="Home" href="/">
+      <img src="{{ '/assets/img/io-it-logo-blue.svg' | relative_url }}" alt="io" class="io__icon"/>
+      <span class="badge-beta">BETA</span>
+    </a>
+    <div class="text-right social d-none d-md-block">
          {% include social-icons.html %}
     </div>
-    <div class="navbar-nav flex-row d-flex d-md-none">
+    <div class="navbar-nav flex-row d-flex d-md-none pt-1">
       <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas" aria-label="Menu">
         <span class="navbar-toggler-icon"></span>
       </button>

@@ -4,13 +4,13 @@
     <div class="navbar-nav mr-auto w-100" >
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-1 pt-2">
+          <div class="col-12 col-md-1 pt-2 d-none d-md-block">
             <a class="d-flex align-items-center navbar-logo" title="Home" href="/">
             <img src="{{ '/assets/img/io-it-logo-blue.svg' | relative_url }}" alt="io" class="io__icon"/>
             <span class="badge-beta">BETA</span>
             </a>
           </div>
-          <div class="col-12 col-md-9">
+          <div class="col-12 col-md-9 my-5 my-md-0">
             <div class="d-block d-md-flex nav-container" >
               {% for item in navigation %}
               {% include navigation-item.html navigation=navigation index=forloop.index  %}
@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="col-12 col-md-2 d-flex">
-            <div class="text-right social social--nav d-flex align-items-center">
+            <div class="text-right social social--nav d-flex align-items-center flex-fill justify-content-center">
             {% include social-icons.html %}
             </div>
           </div>

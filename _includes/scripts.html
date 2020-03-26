@@ -5,13 +5,13 @@
 </script>
 
 {% comment %} jQuery 3.3.1 - Copyright © JS Foundation and other contributors,
-https://js.foundation/ - MIT license @link https://github.com/jquery/jquery/ {%
-endcomment %}
+https://js.foundation/ - MIT license @link https://github.com/jquery/jquery/ 
+{% endcomment %}
 <script src="{{ '/assets/js/vendor/jquery.min.js' }}"></script>
 
 {% comment %} PopperJS 1.14.3 - Copyright © 2016 Federico Zivolo and
-contributors - MIT license @link https://github.com/FezVrasta/popper.js {%
-endcomment %}
+contributors - MIT license @link https://github.com/FezVrasta/popper.js
+{% endcomment %}
 <script src="{{ '/assets/js/vendor/popper.min.js' }}"></script>
 
 <script src="{{ '/assets/js/vendor/bootstrap-italia.min.js?' | append: buildTime | relative_url }}"></script>
@@ -20,6 +20,8 @@ endcomment %}
 Matthew Wagerfield - @wagerfield - MIT license @link
 https://github.com/wagerfield/parallax {% endcomment %}
 <script async src="{{ '/assets/js/vendor/parallax.min.js' }}"></script>
+
+<script src="{{ '/assets/js/vendor/owl.carousel.min.js' }}"></script>
 
 {% comment %} Anime 2.2.0 - Copyright © 2019 Julian Garnier - MIT license @link
 https://github.com/juliangarnier/anime/ {% endcomment %}
@@ -36,7 +38,9 @@ http://scrollmagic.io/docs/debug.addIndicators.html#Scene.addIndicators
   async
   src="{{ '/assets/js/vendor/debug.addIndicators.min.js' }}"
 ></script>
-{% endcomment %} {% else %} {% comment %} BaguetteBox 1.10.0 - Copyright © 2018
+{% endcomment %} 
+{% else %}
+{% comment %} BaguetteBox 1.10.0 - Copyright © 2018
 feimosi - MIT license @link https://github.com/feimosi/baguetteBox.js {%
 endcomment %}
 <script src="{{ '/assets/js/vendor/baguetteBox.min.js' }}"></script>
@@ -44,6 +48,8 @@ endcomment %}
 {% comment %} Stickybits 3.6.5 - Copyright (c) 2016 Dollar Shave Club, Inc. -
 MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/vendor/stickybits.min.js' }}"></script>
+
+
 
 {% endif %}
 
