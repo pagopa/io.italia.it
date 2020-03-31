@@ -1,6 +1,6 @@
 <div class="page-donazioni">
     <div class="section section-inset-shadow section--wpointers py-5">
-    <div class="container container--mid py-5 py-md-0">
+    <div class="container container--mid py-5 py-md-0 mb-2 mb-md-5">
       <div class="row pt-2 pt-md-5">
         <div class="col-12 col-md-8 mb-4 mb-md-0">
         <h2 class="d-inline-block m-0">Campagne</h2>
@@ -42,12 +42,12 @@
       </div><!--/row-->
       <div class="row">
         {% for ente in site.entidonazione limit:2 %}
-        <div class="col-12 col-md-6 my-2 my-md-2">
+        <div class="col-12 col-md-6 my-2 my-md-3">
         {% include donazione-card.html %}
         </div>
         {% endfor %}
         {% for ente in site.entidonazione offset:2 %}
-        <div class="col-12 col-md-4 my-2 my-md-2">
+        <div class="col-12 col-md-4 my-2 my-md-3">
         {% include donazione-card.html %}
         </div>
         {% endfor %}
