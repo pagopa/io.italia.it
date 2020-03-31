@@ -3,5 +3,5 @@
 {% assign current_url = current_url | replace:'//','/' %}
 
 <div class="text-center p-3 px-md-0 position-relative" >
-    <a title="{{item.label | strip_html }}"class="text-decoration-none{% if current_url==item.url %} active{% endif %}" href="{{item.url}}">{{item.label}}</a>
+    <a title="{{item.label | strip_html }}"class="text-decoration-none{% if current_url==item.url or current_url contains item.url %} active{% endif %}" href="{{item.url}}">{{item.label}}</a>
 </div>
