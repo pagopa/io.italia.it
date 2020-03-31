@@ -50,9 +50,15 @@
       <img
         class="img-fluid"
         src="{{ page.intro_image | relative_url }}"
-        alt="Messaggi"
+        alt="{{page.title}}"
       />
     </div>
     {%- endif -%}
-  </div>
+    {%- if page.intro_disclaimer -%}
+    <div class="col-12 order-3 text-primary">
+    <div class="intro-filetto py-3 mt-2"></div>
+    {{page.intro_disclaimer}}
+    </div>
+    {%- endif -%}
+  </div><!--/row-->
 </section>

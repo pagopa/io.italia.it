@@ -17,4 +17,7 @@ it:
   - 
     label: FAQ
     url: '/faq/'
+  - 
+    label: <img src="/assets/img/icon-heart.svg"> Donazioni
+    url: '/donazioni/'
   

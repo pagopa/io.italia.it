@@ -30,6 +30,8 @@
 @import "cittadini";
 // FAQ
 @import "faq";
+// DONAZIONI
+@import "donazioni";
 
 body {
   background-color: #fff;
@@ -468,6 +470,10 @@ button.baguetteBox-button {
   }
   .small {
     font-size: 1rem;
+  }
+  .intro-filetto {
+    width: 75px;
+    border-top: 1px solid $color--italia;
   }
 }
 

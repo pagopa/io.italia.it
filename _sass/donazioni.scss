@@ -1,0 +1,52 @@
+.page-donazioni {
+    background: rgb(0,115,209);
+    background: radial-gradient(circle, rgba(0,115,209,1) 0%, rgba(0,38,107,1) 80%);
+
+    h2,h3,h4 {
+        color: #fff;
+    }
+    #donazioni-search-string {
+        background-color: transparent;
+        border-bottom-color: #fff;
+        color: #fff;
+        & + label {
+            color: #fff;
+            font-weight: normal;
+        }
+    }
+    .donazioni-search-wrapper {
+        .input-group-text {
+            background-color: transparent;
+            border-bottom-color: #fff;
+        }
+    }
+    .donazione-card {
+        background-color: #fff;
+        border-radius: 8px;
+        &__img img {
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        &__ente , &__struttura {
+            color: $color--gray-text;
+            line-height: 1.2;
+        }
+        &__title {
+            color: $color--italia;
+            font-size: 1.5rem;
+        }
+        &__ente {
+            text-transform: uppercase;
+            font-size: 0.8rem;
+        }
+        &__struttura {
+            font-size: 1rem;
+        }
+        &__logo {
+            height: 40px;
+            width: auto;
+        }
+
+    }
+}
