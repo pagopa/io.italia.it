@@ -2,9 +2,9 @@
     <div class="section section-inset-shadow section--wpointers py-5">
     <div class="container container--mid py-5 py-md-0">
       <div class="row pt-2 pt-md-5">
-        <div class="col-12 col-md-6">
-        <h2 class="d-md-inline-block m-0">Campagne</h2>
-        <div class="dropdown d-md-inline-block text-white ml-5">
+        <div class="col-12 col-md-8 mb-4 mb-md-0">
+        <h2 class="d-inline-block m-0">Campagne</h2>
+        <div class="dropdown d-inline-block text-white ml-4">
             <div class="dropdown">
             <img src="/assets/img/icon-tags.svg">
             <a href="#" class="text-white dropdown-toggle" type="button"
@@ -23,8 +23,8 @@
             </div>
         </div>
         </div>
-        <div class="col-12 col-md-6">
-            <div class="donazioni-search-wrapper ml-0 ml-md-5">
+        <div class="col-12 col-md-4">
+            <div class="donazioni-search-wrapper">
                 <div class="form-group">
                     <div class="input-group">
                     <input type="text" class="form-control" id="donazioni-search-string">
@@ -41,25 +41,16 @@
         </div>
       </div><!--/row-->
       <div class="row">
-        <div class="col-12 col-md-6">
-            <div class="donazione-card">
-                <div class="donazione-card__img">
-                <img src="https://via.placeholder.com/464x261" class="img-fluid">
-                </div>
-                <div class="donazione-card__main p-2 p-md-4">
-                    <div class="donazione-card__header d-flex">
-                        <div class="donazione-card__header-inner">
-                        <h4 class="donazione-card__ente">Regione Lombardia</h4>
-                        <h3 class="donazione-card__struttura">Ospedale di Bergamo Papa Giovanni XXIII</h3>
-                        </div>
-                        <img class="donazione-card__logo ml-auto" src="https://via.placeholder.com/80x80">
-                    </div>
-                    <div class="donazione-card__body">
-                        <h2 class="donazione-card__title">Un aiuto per l'ospedale di Bergamo e gli anziani</h2>
-                    </div>
-                </div>
-            </div>
+        {% for ente in site.entidonazione limit:2 %}
+        <div class="col-12 col-md-6 my-2 my-md-2">
+        {% include donazione-card.html %}
         </div>
+        {% endfor %}
+        {% for ente in site.entidonazione offset:2 %}
+        <div class="col-12 col-md-4 my-2 my-md-2">
+        {% include donazione-card.html %}
+        </div>
+        {% endfor %}
       </div><!--row-->
     </div><!--/container-->
     </div><!--/section-->

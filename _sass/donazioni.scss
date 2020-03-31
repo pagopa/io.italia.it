@@ -23,6 +23,9 @@
     .donazione-card {
         background-color: #fff;
         border-radius: 8px;
+        a {
+            text-decoration: none;
+        }
         &__img img {
             width: 100%;
             border-top-left-radius: 8px;
@@ -35,6 +38,8 @@
         &__title {
             color: $color--italia;
             font-size: 1.5rem;
+            margin-top: 1.5rem;
+            text-decoration: none;
         }
         &__ente {
             text-transform: uppercase;
@@ -46,6 +51,21 @@
         &__logo {
             height: 40px;
             width: auto;
+        }
+        &__tags {
+            li {
+                font-size: 0.85rem;
+                color: $color--italia;
+                display: inline-block;
+                &:after {
+                    content: ', ';
+                }
+            }
+            ul li:last-child {
+                &::after {
+                    content: ' ';
+                }
+            }
         }
 
     }

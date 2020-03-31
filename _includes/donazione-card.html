@@ -1,0 +1,32 @@
+<div class="donazione-card h-100 mx-0 mx-md-2">
+    <div class="donazione-card__img">
+    <a href="{{ ente.url | relative_url}}" title="{{ente.title}}">
+    <img src="{{ente.img}}" class="img-fluid">
+    </a>
+    </div>
+    <div class="donazione-card__main p-4">
+        <div class="donazione-card__header d-flex">
+            <div class="donazione-card__header-inner">
+            <h4 class="donazione-card__ente">{{ente.ente}}</h4>
+            <h3 class="donazione-card__struttura">{{ente.struttura}}</h3>
+            </div>  
+            <img class="donazione-card__logo ml-auto" src="{{ente.logo}}">
+            
+        </div>
+        <div class="donazione-card__body">
+            <a href="{{ ente.url | relative_url}}" title="{{ente.title}}">
+            <h2 class="donazione-card__title">{{ente.title}}</h2>
+            </a>
+        </div>
+        <div class="donazione-card__tags">
+            <img src="/assets/img/icon-tag.svg" alt="Tags" class="d-inline-block mr-2">
+            {% if ente.tags %}
+            <ul class="list-unstyled d-inline-block m-0">
+            {% for tag in ente.tags %}
+            <li>{{tag}}</li>
+            {%endfor%}
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+</div><!--/donazione-card-->

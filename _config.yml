@@ -25,6 +25,18 @@ twitter_username:
 github_username:
 google_verify: BNVPPeU89nJ0EEzVBq2xufxMJsV06vVPXjsEtbqEsrE
 
+collections:
+  entidonazione:
+    output: true
+    permalink: /donazioni/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "entidonazione"
+    values:
+      layout: "donazione"
+
 # Build settings
 markdown: kramdown
 plugins:

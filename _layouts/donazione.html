@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+{% assign t = site.data.t[current_lang] %}
+{%- include navigation-slim.html -%}
+{%- include navigation.html -%}
+
+<div class="internal-page">
+
+  <article class="{{ page.layout }}">
+    {% include sections/introduction.html %} {% if page.narrow %}
+    <div class="container mw-60">
+      {% endif %}
+      <div class="internal-page__content mb-5">
+      DONAZIONEEE
+        {{content}}
+      </div>
+      {% if page.narrow %}
+    </div>
+    {% endif %}
+  </article>
+</div>
+
+{%- include footer.html -%} {%- include cookiebar.html -%}
