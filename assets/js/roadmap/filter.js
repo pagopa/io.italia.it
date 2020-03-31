@@ -2,6 +2,10 @@ var date = new Date();
 var year = date.getFullYear();
 var month = ("0" + (date.getMonth() + 1)).slice(-2); // to avoid months with one digit...
 var now = Number(String(year) + String(month));
+function getHash() {
+  var hash = window.location.hash;
+  return hash.substring(1); 
+}
 
 $(document).ready(function() {
   $(".filter-buttons button").click(function() {
@@ -33,6 +37,7 @@ $(document).ready(function() {
           $sibUse.attr("xlink:href", sibHref.replace("_w", "_b"));
         }
       }
+
     });
 
     // apply filter for each element
@@ -84,4 +89,17 @@ $(document).ready(function() {
       $el.addClass("point-done");
     }
   });
+
+  // go-to next on load
+  var nextHash = getHash();
+  var $nextBtn = $("a[href='#nextsteps']");
+  var $nextDiv = $("#nextsteps");
+  if (nextHash!='' && $nextBtn) {
+      var offset =  $nextDiv.offset();
+      window.scroll({
+          top: offset.top - 100, 
+          left: 0, 
+          behavior: 'smooth'
+        });
+  }
 });
