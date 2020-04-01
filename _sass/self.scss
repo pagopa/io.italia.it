@@ -13,9 +13,15 @@ a {
     color: $color--italia;
 }
 
-.m- {
-    &0 {
+.m {
+    &-0 {
         margin: 0;
+    }
+    &b-0 {
+        margin-bottom: 0 !important;
+    }
+    &b-1 {
+        margin-bottom: 7px !important;
     }
 }
 
@@ -46,15 +52,20 @@ h3,h4,h5 {
     line-height: 1.5;
     margin: ($gutter/2) 0;
 }
-h4,h5 {
+h4 {
     font-size: 1.1rem;
+}
+h5 {
+    font-size: 0.85rem;
+    font-style: italic;
+    margin: 0;
 }
 p {
     line-height: 1.5;
     margin: $gutter 0;
 }
 ul {
-    padding: 0 ($gutter * 3);
+    padding: 0 8px 0 24px;
 }
 
 .d-block {
