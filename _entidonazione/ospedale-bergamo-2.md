@@ -2,10 +2,10 @@
 title: Un aiuto per l'ospedale di Bergamo e gli anziani
 description: Un aiuto per l'ospedale di Bergamo e gli anziani
 lang: it
-img: https://via.placeholder.com/464x261
+img: https://via.placeholder.com/635x351
 ente: Regione Lombardia
 struttura: Ospedale di Bergamo Papa Giovanni XXIII
-logo: https://via.placeholder.com/80x80
+logo: https://via.placeholder.com/150x150
 tags: 
     - covid-19
     - coronavirus

@@ -7,19 +7,33 @@ layout: default
 {%- include navigation-slim.html -%}
 {%- include navigation.html -%}
 
-<div class="internal-page">
+<div class="internal-page donazione-detail">
 
   <article class="{{ page.layout }}">
-    {% include sections/introduction.html %} {% if page.narrow %}
-    <div class="container mw-60">
-      {% endif %}
-      <div class="internal-page__content mb-5">
-      DONAZIONEEE
-        {{content}}
-      </div>
-      {% if page.narrow %}
-    </div>
-    {% endif %}
+    <section class="container container--mid">
+      <div class="row donazione-detail__bg">
+        <div class="col-12 col-md-6">
+          <h6 class="donazione-detail__label"><a title="Guarda tutte le campagne" class="py-2" href="/donazioni/">IO Dono</a></h6>
+          <h2 class="donazione-detail__title ">{{page.title}}</h2>
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-12 col-md-4 d-flex align-items-center">
+          <div class="donazione-detail__header-inner">
+          <h4 class="donazione-detail__ente">{{page.ente}}</h4>
+          <h3 class="donazione-detail__struttura">{{page.struttura}}</h3>
+          </div>
+          <img class="donazione-detail__logo ml-auto" src="{{page.logo}}">
+        </div>
+      </div><!--/row-->
+      <div class="row my-3 my-md-5">
+        <div class="col-12 col-md-8">
+          asdasd
+        </div>
+        <div class="col-12 col-md-4">
+asdasd
+        </div>
+      </div><!--/row-->
+    </section>
   </article>
 </div>
 

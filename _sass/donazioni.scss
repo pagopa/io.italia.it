@@ -72,3 +72,50 @@
 
     }
 }
+
+body.layout--donazione {
+
+    background: rgb(0,115,209);
+    background: radial-gradient(circle, rgba(0,115,209,1) 0%, rgba(0,38,107,1) 80%);
+    position:relative;
+        &:after {
+            background-color: #fff;
+            position: absolute;
+            top: -12rem;
+            width: 100%;
+            height: 24rem;
+            content: ' ';
+            z-index: -1;
+
+        }
+
+    .donazione-detail {
+        
+        &__label {
+            a {
+                text-decoration: none;
+                font-size: 1.25rem;
+                font-weight: 400;
+                border-bottom: 1px solid #CCD7E1;
+            }
+        }
+        &__title {
+            color: $color--italia;
+
+        }
+        &__ente , &__struttura {
+            color: $color--gray-text;
+            line-height: 1.2;
+            font-size: 1rem;
+        }
+        &__ente {
+            text-transform: uppercase;
+            
+        }
+        &__logo {
+            height: 60px;
+            width: auto;
+        }
+
+    }
+}
