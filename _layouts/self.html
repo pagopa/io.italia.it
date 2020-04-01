@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign t = site.data.t[current_lang] %}
+{% assign buildTime =  site.time | date: '%Y%m%d%H%M' %}
+<html lang="{{ current_lang }}">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{ page.description | default: site.description[current_lang] | smartify }}">
+    <meta name="robots" content=" noindex, nofollow">
+    <title>
+        {%- if page.title -%}
+        {{ page.title | smartify }} – {{ site.title[current_lang] | smartify }}
+        {%- else -%}
+        {{ site.title[current_lang] | smartify }}
+        {%- endif -%}
+    </title>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ '/assets/self.css?' | append: buildTime | relative_url }}">
+
+    
+  </head>
+
+  <body class="layout--{{page.layout}} pagename--{{page.ref}}">
+    <div class="container d-startup-hide">
+
+    {{ content }}
+
+    </div>
+
+    <script >
+
+    var readers = document.getElementsByClassName('read-more');
+    var showEl = function() {
+        var morelabel = this.getAttribute("data-more");
+        var eles = document.getElementsByClassName(morelabel);
+        
+        for (var i=0; i<eles.length; i++) {
+            eles[i].style.display='block';
+        }
+        this.style.display='none';
+    };
+    
+    for (var i = 0; i < readers.length; i++) {
+        readers[i].addEventListener('click', showEl, false);
+        
+    }   
+
+    </script>
+
+  </body>
+
+</html>

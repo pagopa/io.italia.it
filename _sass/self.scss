@@ -1,0 +1,94 @@
+// This file is used for page "self hosted". Quickly and smart delivery.
+@import "variables";
+@import "reset";
+@import "copy";
+
+$gutter: 15px;
+
+div,section,p,h1,h2,h3,h4,h5,ul,li {
+    box-sizing: border-box;
+}
+
+a {
+    color: $color--italia;
+}
+
+.m- {
+    &0 {
+        margin: 0;
+    }
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: $color--gray-text;
+}
+.container {
+    width: 100%;
+    padding: $gutter;
+
+}
+h1,h2 {
+    color: $color--dark-grey;
+    font-size: 2rem;
+    line-height: 1.6;
+    margin: $gutter 0;
+}
+h2 {
+    font-size: 1.5rem;
+}
+h3,h4,h5 {
+    color: $color--dark-grey;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: ($gutter/2) 0;
+}
+h4,h5 {
+    font-size: 1.1rem;
+}
+p {
+    line-height: 1.5;
+    margin: $gutter 0;
+}
+ul {
+    padding: 0 ($gutter * 3);
+}
+
+.d-block {
+    display: block !important;
+}
+
+hr {
+    max-width: 50%;
+    border: none;
+    border-top: 1px solid #ddd;
+    height: 1px;
+    margin: ($gutter * 2) auto;
+    line-height: 0;
+    font-size: 0;
+    
+}
+
+.d-startup-hide {
+    & > *:not(.d-startup) {
+        display: none;
+    }
+}
+.read-more {
+    font-weight: 700;
+    color: $color--italia;
+    padding: 6px 0;
+    border-bottom: 1px solid $color--italia;
+    display: inline-block;
+    cursor: pointer;
+}
+.d-more-1, .d-more-2 {
+
+    &.active {
+        display: block;
+    }
+}
+ 
