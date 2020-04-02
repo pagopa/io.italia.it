@@ -1,6 +1,7 @@
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
 {% assign enti = site.data.entimap["dots"] %}
-{% assign entisorted = enti | sort: "title" %}
+{% assign entifiltered = enti | where_exp: "item","item.status == 'active'" %}
+{% assign entisorted = entifiltered | sort: "title" %}
 <div class="page-entipartecipanti">
 
     <div class="container container--mid ">

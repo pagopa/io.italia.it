@@ -60,7 +60,7 @@
                     <div class="text-primary nazionali-list__header">ENTI NAZIONALI</div>
                     <ul class="nazionali-list__ul list-unstyled px-2">
                         {% for item in nazionali %}
-                        <li class="text-primary my-2">{{item.title}}</li>
+                        <li class="my-2 {{item.status}}">{{item.title}}</li>
                         {% endfor %}
                     </ul>
                 </div>

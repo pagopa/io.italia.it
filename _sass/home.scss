@@ -25,6 +25,8 @@ body.layout--home {
     right: 0;
     top: 90px;
     width: 37%;
+    -webkit-user-select: none;
+    user-select: none;
 
     &__header {
       font-weight: 600;
@@ -35,10 +37,15 @@ body.layout--home {
     li {
       font-weight: 600;
       position: relative;
+      color: $color--italia;
       &:before {
         content: '-';
         position: absolute;
         left: -10px;
+      }
+      &.pending {
+        color: $color--gray-text;
+        opacity: .85;
       }
     }
   }
