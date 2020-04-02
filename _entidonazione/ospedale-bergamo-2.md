@@ -10,7 +10,7 @@ tags:
     - covid-19
     - coronavirus
     - salute
-
+supporter: https://via.placeholder.com/180x26
 ---
 
 Il territorio bergamasco è drammaticamente colpito con più di 6.400 persone contagiate. I medici e tutto il personale dell'Asst Papa Giovanni XXIII stanno lavorando senza sosta. La situazione è drammatica e nei prossimi giorni non potrà che peggiorare ulteriormente.

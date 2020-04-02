@@ -83,7 +83,7 @@ body.layout--donazione {
             position: absolute;
             top: -12rem;
             width: 100%;
-            height: 24rem;
+            height: 32rem;
             content: ' ';
             z-index: -1;
 
@@ -115,6 +115,83 @@ body.layout--donazione {
         &__logo {
             height: 60px;
             width: auto;
+        }
+        &__mainimg img {
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        &__magnet {
+            opacity: 0.5;
+        }
+        &__filetto {
+            width: 25%;
+            border-top: 1px solid #CCD7E1;
+            height: 1px;
+        }
+        &__tags {
+            font-size: 0.9rem;
+            img.icon {
+                width: 20px;
+                height: auto;
+            }
+            li {
+                display: inline-block;
+                color: $color--italia;
+                &:after {
+                    content: ', ';
+                }
+            }
+            ul li:last-child {
+                &::after {
+                    content: ' ';
+                }
+            }
+        }
+        &__supporter {
+            font-size: 0.9rem; 
+            img.icon {
+                width: 24px;
+                height: auto;
+            }
+        }
+        &__paymentform {
+            background-color: #F5F7F9;
+            border-bottom-right-radius: 8px;
+            border-bottom-left-radius: 8px;
+        }
+        &__colwrapper {
+            border-radius: 8px;
+            background-color: #fff;
+        }
+        &__dona {
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            color: $color--italia;
+            text-align: center;
+            margin-top: 1.4rem;
+        }
+        &__con {
+            text-align: center;
+            font-size: 0.9rem;
+        }
+
+        &__btn {
+            background-color: $color--italia;
+            padding: 15px;
+            color: #fff;
+            font-weight: 600;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        &__sceglitu {
+            color: $color--italia;
+            font-weight: 600;
+            padding: 7px 15px;
+            border-radius: 6px;
+            text-align: center;
+            font-size: 0.85rem;
+            border: 1.5px solid $color--italia;
         }
 
     }

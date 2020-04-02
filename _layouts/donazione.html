@@ -16,8 +16,10 @@ layout: default
           <h6 class="donazione-detail__label"><a title="Guarda tutte le campagne" class="py-2" href="/donazioni/">IO Dono</a></h6>
           <h2 class="donazione-detail__title ">{{page.title}}</h2>
         </div>
-        <div class="col-md-2"></div>
-        <div class="col-12 col-md-4 d-flex align-items-center">
+        <div class="col-md-2 d-flex align-items-end">
+          <img src="/assets/img/intro-donazioni.svg" class="donazione-detail__magnet img-fluid">
+        </div>
+        <div class="col-12 col-md-4 d-flex align-items-center px-4">
           <div class="donazione-detail__header-inner">
           <h4 class="donazione-detail__ente">{{page.ente}}</h4>
           <h3 class="donazione-detail__struttura">{{page.struttura}}</h3>
@@ -27,10 +29,53 @@ layout: default
       </div><!--/row-->
       <div class="row my-3 my-md-5">
         <div class="col-12 col-md-8">
-          asdasd
-        </div>
-        <div class="col-12 col-md-4">
-asdasd
+          <div class="donazione-detail__wrapper shadow">
+          <div class="donazione-detail__mainimg">
+            <img src="{{page.img}}" alt="{{page.title}}" class="img-fluid">
+          </div><!--/donazione-detail__mainimg-->
+          <div class="donazione-detail__body bg-white p-5">
+            <div class="donazione-detail__text mr-0 mr-md-5">
+            {{content}}
+            </div>
+            <div class="donazione-detail__filetto"></div>
+            <div class="donazione-detail__bottom mt-3">
+               {% if page.tags %}
+               <div class="donazione-detail__tags py-1">
+                <img src="/assets/img/icon-tags-grey.svg" alt="Tags" class="icon d-inline-block mr-1">
+                <span class="mr-2">Categorie</span>
+                <ul class="list-unstyled d-inline-block m-0">
+                {% for tag in page.tags %}
+                <li>{{tag}}</li>
+                {%endfor%}
+                </ul>
+               </div>
+               {% endif %}
+               {% if page.supporter %}
+                <div class="donazione-detail__supporter py-1">
+                  <img src="/assets/img/icon-partners.svg" alt="Partner" class="icon d-inline-block mr-1">
+                  <span class="mr-2">Questa campagna è supportata da</span>
+                  <img src="{{page.supporter}}" alt="Supporter">
+                </div>
+               {% endif %}
+
+            </div>
+          </div><!--/donazione-detail__body-->
+          <div class="donazione-detail__paymentform p-5">
+            --PAYMENT
+          </div><!--/donazione-detail__paymentform-->
+          </div><!--/donazione-detail__wrapper-->
+        </div><!--/--col-md-8 -->
+        <div class="col-12 col-md-4 px-4">
+          <div class="donazione-detail__colwrapper shadow p-4">
+            <h3 class="donazione-detail__dona">Dona ora</h3>
+            <p class="donazione-detail__con">con carta di credito e altro</p>
+            <div class="donazione-detail__buttons d-flex justify-content-between">
+              <div class="donazione-detail__btn">10 &euro;</div>
+              <div class="donazione-detail__btn">50 &euro;</div>
+              <div class="donazione-detail__btn">100 &euro;</div>
+            </div>
+            <div class="donazione-detail__sceglitu my-3">Scegli tu quanto donare</div>
+          </div><!--/detail__colwrapper-->
         </div>
       </div><!--/row-->
     </section>
