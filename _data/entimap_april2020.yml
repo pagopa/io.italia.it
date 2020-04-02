@@ -2,22 +2,50 @@ dots:
   - title: "Automobile Club d'Italia (ACI)"
     status: active
     category: nazionale
-    subitems: Bollo Auto, Certificati di proprietà, Informazione al cittadino
+    subitems: Bollo Auto, Certificati di proprietà
+  - title: Istituto Nazionale Previdenza Sociale (INPS)
+    status: active
+    category: nazionale
+    subitems: Cassetta postale, Esito domanda Naspi, INPS risponde, Pagamenti ai lavoratori domestici, Stato domanda, Stato pagamenti
   - title: "Agenzia delle Entrate (AdE)"
-    status: active
+    status: pending
     category: nazionale
-    subitems: Uno, due, tre
-  - title: "INPS"
-    status: active
+    subitems: Tassazione separata, Riscossione rimborsi, Contratti di locazione, Controllo automatizzato delle dichiarazioni, Deleghe F24
+  - title: "Ministero dell'Università e della Ricerca (MIUR)"
+    status: pending
     category: nazionale
-    subitems: Uno, due, tre
+    subitems: Pago in Rete
+  - title: "Agenzia delle Entrate-Riscossione (AdER)"
+    status: pending
+    category: nazionale
+    subitems: Emissione cartelle esattoriali, Scadanze pagamento definizione agevolata
+  - title: "Regione Veneto"
+    status: active
+    type: medium
+    category: locale
+    coord: [7,20]
+  - title: "Regione Piemonte"
+    status: active
+    type: medium
+    category: locale
+    coord: [7,20]
+  - title: "Regione Campania"
+    status: active
+    type: medium
+    category: locale
+    coord: [26,27]
+  - title: "Regione Umbria"
+    status: active
+    type: medium
+    category: locale
+    coord: [10,6]
   - title: "Comune di Milano"
     status: active
     type: small
     category: locale
     coord: [6,8]
     subitems: Uno, due, tre
-  - title: "Comune di Torino"
+  - title: "Città di Torino"
     status: active
     type: small
     category: locale
@@ -37,11 +65,6 @@ dots:
     type: small
     category: locale
     coord: [37,24]
-  - title: "Unione Pedemontana Parmense"
-    status: active
-    type: small
-    category: locale
-    coord: [8,14]
   - title: "Comune di Reggio Emilia"
     status: active
     type: small
@@ -52,6 +75,11 @@ dots:
     type: small
     category: locale
     coord: [9,14]
+  - title: "Comune di Felino"
+    status: active
+    type: small
+    category: locale
+    coord: [9,13]
   - title: "Comune di Sala Baganza"
     status: active
     type: small
@@ -67,7 +95,7 @@ dots:
     type: small
     category: locale
     coord: [12,21]
-  - title: "Comune e Provincia di Trento"
+  - title: "Comune di Trento"
     status: active
     type: small
     category: locale
@@ -77,16 +105,21 @@ dots:
     type: small
     category: locale
     coord: [24,25]
-  - title: "Regione Veneto"
-    status: pending
-    type: medium
-    category: locale
-    coord: [7,20]
-  - title: "Comune di Roma"
-    status: pending
+  - title: "Roma Capitale"
+    status: active
     type: small
     category: locale
     coord: [22,20]
+  - title: "Comune di Garbagnate Milanese"
+    status: active
+    type: small
+    category: locale
+    coord: [5.8,8]
+  - title: "Comune di Merano"
+    status: active
+    type: small
+    category: locale
+    coord: [3,18] 
   - title: "Comune di Modena"
     status: pending
     type: small
@@ -102,21 +135,11 @@ dots:
     type: small
     category: locale
     coord: [9.2,7]
-  - title: "Comune di Garbagnate Milanese"
-    status: pending
-    type: small
-    category: locale
-    coord: [5.8,8]
   - title: "Comune di Venezia"
     status: pending
     type: small
     category: locale
     coord: [7.5,21]
-  - title: "Politecnico di Milano"
-    status: pending
-    type: small
-    category: locale
-    coord: [6.5,9]
   - title: "Comune di Campi Bisenzio"
     status: pending
     type: small
@@ -132,21 +155,6 @@ dots:
     type: small
     category: locale
     coord: [26,11.5]
-  - title: "Regione Campania"
-    status: pending
-    type: medium
-    category: locale
-    coord: [26,27]
-  - title: "Regione Piemonte"
-    status: pending
-    type: medium
-    category: locale
-    coord: [10,6]
-  - title: "Regione Umbria"
-    status: pending
-    type: medium
-    category: locale
-    coord: [17,21]
   - title: "Comune di Bastia Umbra"
     status: pending
     type: small
@@ -162,11 +170,6 @@ dots:
     type: small
     category: locale
     coord: [24.5,37]
-  - title: "Azienda Sanitaria Locale di Matera"
-    status: pending
-    type: small
-    category: locale
-    coord: [28,36]
   - title: "Comune di Sarzana"
     status: pending
     type: small
@@ -247,11 +250,6 @@ dots:
     type: small
     category: locale
     coord: [39.8,27]
-  - title: "Policlinico di Catania"
-    status: pending
-    type: small
-    category: locale
-    coord: [39.5,32]
   - title: "Comune di Trebisacce"
     status: pending
     type: small
@@ -282,7 +280,7 @@ dots:
     type: small
     category: locale
     coord: [29.8,9]
-  - title: "Provincia di Foggia"
+  - title: "Comune di Foggia"
     status: pending
     type: small
     category: locale
@@ -292,13 +290,13 @@ dots:
     type: small
     category: locale
     coord: [7.8,15.5]
-  - title: "Comune di Merano"
-    status: pending
-    type: small
-    category: locale
-    coord: [3,18] 
   - title: "Comune di Agnone"
     status: pending
     type: small
     category: locale
     coord: [22,28.3]
+  - title: "Comune di Porpetto"
+    status: pending
+    type: small
+    category: locale
+    coord: [4,24]
