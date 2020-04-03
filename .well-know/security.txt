@@ -1,5 +1,5 @@
 Contact: security@pagopa.it
-Encryption: https://www.pagopa.gov.it/pgp-key.txt
+Encryption: https://www.pagopa.gov.it/publickey.txt
 Preferred-Languages: en, it
 Canonical: https://io.italia.it/.well-know/security.txt
 Policy: https://io.italia.it/security.html
