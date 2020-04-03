@@ -191,10 +191,12 @@ body.layout--donazione {
             border-radius: 6px;
             text-align: center;
             font-size: 1rem;
+            text-decoration: none;
+            min-width: 30%;
         }
         &__sceglitu {
             color: $color--italia;
-            font-weight: 700;
+            font-weight: 600;
             padding: 7px 15px;
             border-radius: 6px;
             text-align: center;
@@ -204,6 +206,21 @@ body.layout--donazione {
         &__frtext {
             font-size: 0.85rem;
             text-align: center;
+        }
+        &__share {
+            
+            a {
+                color: $color--italia;
+                font-weight: 600;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                padding: 12px;
+                border: 1.5px solid $color--italia;
+                border-radius: 6px;
+                font-size: 0.9rem;
+                line-height: 1.2;
+            }
         }
         &__dxdata {
             &__img {
