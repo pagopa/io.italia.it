@@ -49,7 +49,7 @@ dots:
     status: active
     type: small
     category: locale
-    coord: [7.5,5]
+    coord: [7,6]
     subitems: Avviso scadenza IMU e TASI, Avviso scadenza TARI, Canoni di affitto e locazione, Iscrizione ai nidi d’infanzia, Sportello facile
   - title: "Comune di Ripalta Cremasca"
     status: active
@@ -123,7 +123,7 @@ dots:
     status: active
     type: small
     category: locale
-    coord: [5.8,8]
+    coord: [7,8.2]
     subitems: Iscrizione pre e post scuola, Iscrizione al trasporto scolastico
   - title: "Comune di Merano"
     status: active

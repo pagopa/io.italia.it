@@ -1,8 +1,8 @@
 ---
 layout: internal
-title: Enti partecipanti alla closed beta
+title: Enti e servizi disponibili nell’app IO
 subtitle: 
-description: Comuni, regioni e agenzie centrali che hanno confermato l’intenzione di partecipare al progetto IO
+description: Ecco l’elenco completo degli enti che hanno rendono i propri servizi disponibili nella fase di open beta
 lang: it
 ref: entipartecipanti
 permalink: /enti-partecipanti-beta/

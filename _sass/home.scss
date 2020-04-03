@@ -12,43 +12,53 @@ body.layout--home {
   }
 }
 
+.italy-dotted-wrapper {
+  overflow-x: scroll;
+
+  @media screen and (min-width: $grid-breakpoints-md) {
+    overflow-x: auto;
+  }
+}
+
+.nazionali-list {
+  position: absolute;
+  z-index: 8;
+  right: 0;
+  top: 90px;
+  width: 37%;
+  -webkit-user-select: none;
+  user-select: none;
+
+  &__header {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  &__ul {
+  }
+  li {
+    font-weight: 600;
+    position: relative;
+    color: $color--italia;
+    &:before {
+      content: '-';
+      position: absolute;
+      left: -10px;
+    }
+    &.pending {
+      color: $color--gray-text;
+      opacity: .85;
+    }
+  }
+}
+
 #italy-dotted-map {
-  position: relative;
   z-index: 0;
   width: 600px;
   max-width: 100%;
   display: inline-block;
+  position: relative;
   
-  .nazionali-list {
-    position: absolute;
-    z-index: 1;
-    right: 0;
-    top: 90px;
-    width: 37%;
-    -webkit-user-select: none;
-    user-select: none;
-
-    &__header {
-      font-weight: 600;
-      font-size: 1rem;
-    }
-    &__ul {
-    }
-    li {
-      font-weight: 600;
-      position: relative;
-      color: $color--italia;
-      &:before {
-        content: '-';
-        position: absolute;
-        left: -10px;
-      }
-      &.pending {
-        color: $color--gray-text;
-        opacity: .85;
-      }
-    }
-  }
+  
  
   .italy-dotted-item {
     position: absolute;
