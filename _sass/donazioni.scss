@@ -1,3 +1,11 @@
+.flex-break {
+    flex-basis: 100%;
+    height: 0;
+}
+.flex-break-column {
+    flex-basis: 100%;
+    width: 0;
+  }
 .page-donazioni {
     // hack
     margin-bottom: -48px;
@@ -83,7 +91,7 @@ body.layout--donazione {
             position: absolute;
             top: -12rem;
             width: 100%;
-            height: 32rem;
+            height: 28rem;
             content: ' ';
             z-index: -1;
 
@@ -179,20 +187,54 @@ body.layout--donazione {
             background-color: $color--italia;
             padding: 15px;
             color: #fff;
-            font-weight: 600;
+            font-weight: 700;
             border-radius: 6px;
             text-align: center;
             font-size: 1rem;
         }
         &__sceglitu {
             color: $color--italia;
-            font-weight: 600;
+            font-weight: 700;
             padding: 7px 15px;
             border-radius: 6px;
             text-align: center;
             font-size: 0.85rem;
             border: 1.5px solid $color--italia;
         }
+        &__frtext {
+            font-size: 0.85rem;
+            text-align: center;
+        }
+        &__dxdata {
+            &__img {
+                min-height: 60px;
+            }
+            &__first {
+                color: $color--italia;
+                font-weight: 600;
+                font-size: 1.2rem;
+                text-align: center;
+            }
+            &__second {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 0.9rem;
+                text-align: center;
+            }
+            &__filetto {
+                border-top: 1px solid #CCD7E1;
+                height: 1px;
+                width: 80%;
+                margin: 2px auto;
+            }
+            &__from {
+                font-size: 0.9rem;
+                color: #CCD7E1;
+                text-align: center;
+            }
+        }
+
+        
 
     }
 }
