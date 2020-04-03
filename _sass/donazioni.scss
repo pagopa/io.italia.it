@@ -127,12 +127,13 @@ body.layout--donazione {
         &__mainimg img {
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
+            width: 100%;
         }
         &__magnet {
             opacity: 0.5;
         }
         &__filetto {
-            width: 25%;
+            width: 20%;
             border-top: 1px solid #CCD7E1;
             height: 1px;
         }
@@ -193,6 +194,11 @@ body.layout--donazione {
             font-size: 1rem;
             text-decoration: none;
             min-width: 30%;
+            &.active {
+                background-color: #fff;
+                color: $color--italia;
+                box-shadow: 0px 0px 1px 2px $color--italia;
+            }
         }
         &__sceglitu {
             color: $color--italia;
@@ -253,5 +259,42 @@ body.layout--donazione {
 
         
 
+    }
+    .paymentform {
+        
+        &__inner {
+            input {
+                border: 1.5px solid #CCD7E1;
+                border-radius: 6px;
+                color: #262D32;
+                font-size: 1.5rem;
+                height: 3.5rem;
+            }
+            .error {
+                color: #CF5656;
+            }
+            .inputerror {
+                border-color: $color--italia;
+            }
+        }
+        &__head {
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 600;
+            color: $color--italia;
+        }
+        &__buttons {
+            width: 60%;
+        }
+        &__privacypol {
+            line-height: 1.5;
+            font-size: 1.1rem;
+        }
+        &__submit {
+            text-transform: uppercase;
+            display: block;
+            border-radius: 6px;
+            width: 100%;
+        }
     }
 }

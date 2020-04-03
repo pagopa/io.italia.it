@@ -60,9 +60,83 @@ layout: default
 
             </div>
           </div><!--/donazione-detail__body-->
-          <div class="donazione-detail__paymentform p-5">
-            --PAYMENT
-          </div><!--/donazione-detail__paymentform-->
+          <section class="donazione-detail__paymentform p-5">
+            <div class="paymentform__inner mr-0 mr-md-5">
+              <div class="d-flex">
+                <h3 class="paymentform__head">Dona</h3>
+                <span class="small ml-auto">* campi obbligatorio</span>
+              </div>
+              <div class="paymentform__row1 row mt-3 mb-2">
+                <div class="col">
+                Dona subito
+                </div>
+                <div class="col text-right">
+                Scegli quanto donare
+                </div>
+              </div>
+              <div class="paymentform__row2 d-flex mt-2 mb-3">
+                <div class="donazione-detail__buttons paymentform__buttons d-flex justify-content-between">
+                  <a href="#" title="Dona 10€" class="donazione-detail__btn">10 &euro;</a>
+                  <a href="#" title="Dona 50€" class="donazione-detail__btn active">50 &euro;</a>
+                  <a href="#" title="Dona 100€" class="donazione-detail__btn">100 &euro;</a>
+                </div><!--/paymentform__buttons-->
+                <div class="paymentform__row1__choice d-flex align-items-center">
+                  <div class="small mx-md-4">oppure</div>
+                  <input type="number" min="1" name="choice" class="d-flex h-100 text-right" id="choice" >
+                  <div class="h4 ml-2 mb-0">&euro;</div>
+                </div>
+              </div><!-- /paymentform__row2-->
+              <div class="paymentform__row3  my-3 row">
+                <div class="col">
+                  <div>Nome *</div>
+                  <input type="text" min="1" name="nome" class="" id="nome" required>
+                </div>
+                <div class="col">
+                  <div>Cognome *</div>
+                  <input type="text" min="1" name="cognome" class="" id="cognome" required >
+                </div>
+              </div><!--/paymentform__row3-->
+              <div class="paymentform__row4  my-3">
+                <div class="form-check">
+                  <input id="nonmostrare" name="nonmostrare" type="checkbox" checked>
+                  <label for="nonmostrare">Non mostrare i miei dati nell'elenco dei donatori</label>
+                </div>
+              </div><!--/paymentform__row4-->
+              <div class="paymentform__row5  my-3">
+                <div>Indirizzo email * <span class="small float-right">serve per la <a href="#" class="text-decoration-none">detrazione</a></span></div>
+                <input type="email"  name="email" class="" id="email" required >
+                <span class="small">Controlla attentamente la mail che hai inserito</span>
+              </div><!--paymentform__row5-->
+              <div class="paymentform__row6  my-3">
+                <div>Il tuo codice fiscale</div>
+                <input type="text"  name="cf" class="inputerror" id="cf"  >
+                <span class="small error">Il codice fiscale inserito non è corretto</span>
+              </div><!--paymentform__row6-->
+              <div class="paymentform__row7  my-3">
+                <div class="form-check">
+                  <input id="privacypol" name="privacypol" type="checkbox" required>
+                  <label for="privacypol" class="paymentform__privacypol">Dichiaro di aver preso visione dell'<a href="#">informativa</a> e di prestare il mio consenso al <a href="#">trattamento dei dati personali</a></label>
+                </div>
+              </div><!--paymentform__row7-->
+              <div class="paymentform__row8  my-4">
+                <button type="submit" class="btn btn-primary  paymentform__submit py-3">Paga con <img class="ml-1 mt-2" src="/assets/img/icon-pagopa-logo.svg"></button>
+              </div><!--paymentform__row8-->
+              <div class="donazione-detail__filetto"></div>
+              <div class="paymentform__row9 my-3">
+                <div class="small">
+                Puoi pagare carte di credito e di debito, home banking, paypal, satispay, postepay e moltri altri metodi di pagamento
+                </div>
+                <div class="my-2">
+                  <img src="/assets/img/circuiti/mastercard.svg" alt="MasterCard">
+                  <img src="/assets/img/circuiti/maestro.svg" alt="Maestro">
+                  <img src="/assets/img/circuiti/visa.svg" alt="Visa">
+                  <img src="/assets/img/circuiti/visaelectron.svg" alt="Visa Electron">
+                  <img src="/assets/img/circuiti/postepay.svg" alt="Postepay">
+                  <img src="/assets/img/circuiti/amex.svg" alt="American Express">
+                </div>
+              </div><!--/paymentform__row9-->
+            </div><!--/detail__inner-->
+          </section><!--/donazione-detail__paymentform-->
           </div><!--/donazione-detail__wrapper-->
         </div><!--/--col-md-8 -->
         <div class="col-12 col-md-4 px-4">
@@ -103,7 +177,7 @@ layout: default
             <div class="donazione-detail__friends">
               <div class="donazione-detail__frtext">L’aiuto dei tuoi amici è importante: <b>condividi sui social</b> questa campagna</div>
             </div><!--/detail__friends-->
-            <div class="donazione-detail__share my-3">
+            <div class="donazione-detail__share mt-3">
                 <a href="#share" title="Condividi">
                 <img src="/assets/img/icon-share-love.svg" class="mr-1 mb-1">
                 CONDIVIDI</a>
