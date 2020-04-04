@@ -426,14 +426,7 @@
   position: relative;
   max-height: 400px;
 
-  .btn-download {
-    background-color: transparent;
-    color: #fff;
-    border: 1px solid #fff;
-    img {
-      margin-top: -4px;
-    }
-  }
+  
 }
 
 body.is-scrolled .section__2 .section-wrapper {
@@ -484,6 +477,7 @@ body.is-scrolled .section__2 .section-wrapper {
       border-color: #034c98;
     }
   }
+  
 
   &_img {
     position: relative;
@@ -546,10 +540,10 @@ body.is-scrolled .section__2 .section-wrapper {
         width: 80%;
       }
       @media screen and (min-width: $grid-breakpoints-lg) {
-        width: 50%;
+        width: 60%;
       }
       @media screen and (min-width: $grid-breakpoints-xl) {
-        width: 40%;
+        width: 50%;
       }
       p {
         color: #fff;
@@ -659,5 +653,14 @@ body.is-scrolled .section__2 .section-wrapper {
     @media (max-width: 767px) and (orientation: landscape) {
       display: none;
     }
+  }
+}
+
+.btn-download {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  img {
+    margin-top: -4px;
   }
 }
