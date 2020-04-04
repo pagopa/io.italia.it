@@ -11,8 +11,13 @@ redirect_from:
   - /it/cittadini/
 
 intro_image: "/assets/img/intro-cittadini.svg"
-intro_primary_text: "Segui il progetto"
+intro_primary_text: "App Store"
 intro_primary_link: "#newsletter"
+intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg ios text-uppercase px-3 px-md-5 mr-2"
+intro_ter_text: "Play Store"
+intro_ter_link: "#newsletter"
+intro_ter_customclass: "btn btn-sm btn-primary btn-download--bg android text-uppercase px-3 px-md-5 "
+disable_br: true
 ---
 
 {% include cittadini.html %}

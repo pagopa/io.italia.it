@@ -11,15 +11,15 @@
         <div class="py-2">
           <a
             href="{{ page.intro_primary_link }}"
-            class="btn btn-primary btn-sm text-uppercase"
+            class="{{page.intro_primary_customclass | default: 'btn btn-primary btn-sm text-uppercase'}}"
             target="_blank"
             >{{ page.intro_primary_text }}</a
           >
           {%- if page.intro_ter_link -%}
-          <br class="d-block d-lg-none">
+           {% if page.disable_br %} {%else%}<br class="d-block d-lg-none">{%endif%}
            <a
             href="{{ page.intro_ter_link }}"
-            class="btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0" 
+            class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}" 
             target="_blank"
             >{{ page.intro_ter_text }}</a>
           {%- endif %}

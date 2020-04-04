@@ -422,6 +422,19 @@
     color: #5C6F82;
   }
 }
+.section__15 {
+  background-color: $color--italia;
+  background-image: url('/assets/img/home-sezione-download.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  background-position-y: center;
+  position: relative;
+  max-height: 400px;
+
+  
+}
+
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;
@@ -470,6 +483,7 @@ body.is-scrolled .section__2 .section-wrapper {
       border-color: #034c98;
     }
   }
+  
 
   &_img {
     position: relative;
@@ -532,10 +546,10 @@ body.is-scrolled .section__2 .section-wrapper {
         width: 80%;
       }
       @media screen and (min-width: $grid-breakpoints-lg) {
-        width: 50%;
+        width: 60%;
       }
       @media screen and (min-width: $grid-breakpoints-xl) {
-        width: 40%;
+        width: 50%;
       }
       p {
         color: #fff;
@@ -644,6 +658,31 @@ body.is-scrolled .section__2 .section-wrapper {
     z-index: 9999;
     @media (max-width: 767px) and (orientation: landscape) {
       display: none;
+    }
+  }
+}
+
+.btn-download {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  img {
+    margin-top: -4px;
+  }
+  &--bg {
+    display: inline-flex;
+    align-items: center;
+    &.ios {
+      &:before {
+      content: url('/assets/img/icon-appstore.svg');
+      margin-right: 4px;
+      }
+    }
+    &.android {
+      &:before {
+      content: url('/assets/img/icon-playstore.svg');
+      margin-right: 4px;
+      }
     }
   }
 }
