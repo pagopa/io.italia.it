@@ -669,6 +669,9 @@ body.is-scrolled .section__2 .section-wrapper {
   img {
     margin-top: -4px;
   }
+  &:hover {
+    color: #fff;
+  }
   &--bg {
     display: inline-flex;
     align-items: center;
