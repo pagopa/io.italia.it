@@ -663,4 +663,20 @@ body.is-scrolled .section__2 .section-wrapper {
   img {
     margin-top: -4px;
   }
+  &--bg {
+    display: inline-flex;
+    align-items: center;
+    &.ios {
+      &:before {
+      content: url('/assets/img/icon-appstore.svg');
+      margin-right: 4px;
+      }
+    }
+    &.android {
+      &:before {
+      content: url('/assets/img/icon-playstore.svg');
+      margin-right: 4px;
+      }
+    }
+  }
 }
