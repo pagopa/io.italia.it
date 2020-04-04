@@ -10,13 +10,16 @@ layout: default
 <div class="internal-page donazione-detail">
 
   <article class="{{ page.layout }}">
+    <div class="d-md-none">
+            <img src="{{page.img}}" alt="{{page.title}}" class="img-fluid">
+    </div>
     <section class="container container--mid">
       <div class="row donazione-detail__bg">
         <div class="col-12 col-md-6">
           <h6 class="donazione-detail__label"><a title="Guarda tutte le campagne" class="py-2" href="/donazioni/">IO Dono</a></h6>
           <h2 class="donazione-detail__title ">{{page.title}}</h2>
         </div>
-        <div class="col-md-2 d-flex align-items-end">
+        <div class="col-md-2 d-flex align-items-end d-none d-md-flex">
           <img src="/assets/img/intro-donazioni.svg" class="donazione-detail__magnet img-fluid">
         </div>
         <div class="col-12 col-md-4 d-flex align-items-end px-4">
@@ -30,7 +33,7 @@ layout: default
       <div class="row my-3 my-md-5">
         <div class="col-12 col-md-8">
           <div class="donazione-detail__wrapper shadow">
-          <div class="donazione-detail__mainimg">
+          <div class="donazione-detail__mainimg d-none d-md-block">
             <img src="{{page.img}}" alt="{{page.title}}" class="img-fluid">
           </div><!--/donazione-detail__mainimg-->
           <div class="donazione-detail__body bg-white p-5">
