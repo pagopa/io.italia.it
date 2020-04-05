@@ -4,7 +4,7 @@ dots:
     category: nazionale
     subitems: Bollo Auto, Certificati di proprietà
   - title: Istituto Nazionale Previdenza Sociale (INPS)
-    status: active
+    status: pending
     category: nazionale
     subitems: Cassetta postale, Esito domanda Naspi, INPS risponde, Pagamenti ai lavoratori domestici, Stato domanda, Stato pagamenti
   - title: "Agenzia delle Entrate (AdE)"

@@ -2,7 +2,7 @@
 layout: internal
 title: Enti e servizi disponibili nell’app IO
 subtitle: 
-description: Ecco l’elenco completo degli enti che hanno rendono i propri servizi disponibili nella fase di open beta
+description: Ecco l’elenco completo degli enti che rendono i propri servizi disponibili nella fase di open beta
 lang: it
 ref: entipartecipanti
 permalink: /enti-partecipanti-beta/
