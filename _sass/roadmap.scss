@@ -1,4 +1,11 @@
 .roadmap-timeline {
+  .btn-next-steps {
+    background-color: $color--pagopa;
+    color: $color--italia;
+    text-transform: uppercase;
+    -webkit-box-shadow: inset 0 0 0 1px darken($color--pagopa, 7%);
+    box-shadow: inset 0 0 0 1px darken($color--pagopa, 7%);
+  }
   .filter-tool {
     display: flex;
     flex-direction: row;
