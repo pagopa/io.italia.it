@@ -666,11 +666,23 @@ body.is-scrolled .section__2 .section-wrapper {
   background-color: transparent;
   color: #fff;
   border: 1px solid #fff;
-  img {
-    margin-top: -4px;
+  .icon-os {
+    height: 20px;
+    fill: #fff;
+    position: relative;
+    &:hover {
+      fill: $color--italia;
+    }
+    &.ios {
+    top: -2px;
+    }
   }
   &:hover {
-    color: #fff;
+    color: $color--italia;
+    background-color: #fff;
+    .icon-os {
+        fill: $color--italia !important;
+    }
   }
   &--bg {
     display: inline-flex;
@@ -678,13 +690,17 @@ body.is-scrolled .section__2 .section-wrapper {
     &.ios {
       &:before {
       content: url('/assets/img/icon-appstore.svg');
-      margin-right: 4px;
+      position: relative;
+      top: 2px;
+      left: -4px;
       }
     }
     &.android {
       &:before {
       content: url('/assets/img/icon-playstore.svg');
-      margin-right: 4px;
+      position: relative;
+      top: 2px;
+      left: -4px;
       }
     }
   }

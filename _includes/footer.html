@@ -1,7 +1,7 @@
 <footer class="footer text-muted padding-umd">
   <div class="container">
-    <div class="row align-items-center">
-      <div class="col-sm-12 col-md-8 col-lg-6">
+    <div class="row ">
+      <div class="col-sm-12 col-md-4 ">
           <div class="d-flex">
           <div class="px-2 team-logo--icon">
             <a href="{{t.slim_owner_url}}" target="_blank" rel="noopener">
@@ -10,7 +10,24 @@
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-md-4 col-lg-6">
+      <div class="col-sm-12 col-md-4 ">
+        <div class="footer__badges">
+          <p>Scarica l'app:</p>
+          <ul class="col list-inline m-0">
+            <li class="list-inline-item">
+              <a href="{{site.download_url.ios}}" title="Scarica da App Store">
+              <img src="/assets/img/badge-appstore.svg" alt="App Store">
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="{{site.download_url.android}}" title="Scarica da Play Store">
+              <img src="/assets/img/badge-playstore.svg" alt="Play Store">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4 ">
         <div class="text-right social">
           <span>{{t.seguici}}</span>
           {% include social-icons.html %}
