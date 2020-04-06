@@ -1,6 +1,10 @@
+---
+layout: none
+permalink: .well-known/security.txt
+---
 Contact: security@pagopa.it
 Encryption: https://www.pagopa.gov.it/publickey.txt
 Preferred-Languages: en, it
-Canonical: https://io.italia.it/.well-know/security.txt
+Canonical: https://io.italia.it/.well-known/security.txt
 Policy: https://io.italia.it/security.html
 Hiring: https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/selezione-del-personale/reclutamento-del-personale/lavora-con-noi/
