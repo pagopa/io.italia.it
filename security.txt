@@ -1,3 +1,7 @@
+---
+layout: none
+permalink: /.well-known/security.txt
+---
 Contact: security@pagopa.it
 Encryption: https://www.pagopa.gov.it/publickey.txt
 Preferred-Languages: en, it
