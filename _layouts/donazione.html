@@ -15,14 +15,14 @@ layout: default
     </div>
     <section class="container container--mid">
       <div class="row donazione-detail__bg">
-        <div class="col-12 col-md-6">
-          <h6 class="donazione-detail__label"><a title="Guarda tutte le campagne" class="py-2" href="/donazioni/">IO Dono</a></h6>
-          <h2 class="donazione-detail__title ">{{page.title}}</h2>
+        <div class="col-12 col-md-6 order-2 order-md-1">
+          <h6 class="donazione-detail__label d-none d-md-block"><a title="Guarda tutte le campagne" class="py-2" href="/donazioni/">IO Dono</a></h6>
+          <h2 class="donazione-detail__title px-3 px-md-0">{{page.title}}</h2>
         </div>
-        <div class="col-md-2 d-flex align-items-end d-none d-md-flex">
+        <div class="col-md-2 align-items-end d-none d-md-flex order-md-2">
           <img src="/assets/img/intro-donazioni.svg" class="donazione-detail__magnet img-fluid">
         </div>
-        <div class="col-12 col-md-4 d-flex align-items-end px-4">
+        <div class="col-12 col-md-4 d-flex align-items-end px-4 order-1 order-md-3 mt-4 mt-md-0">
           <div class="donazione-detail__header-inner">
           <h4 class="donazione-detail__ente">{{page.ente}}</h4>
           <h3 class="donazione-detail__struttura">{{page.struttura}}</h3>
@@ -32,18 +32,44 @@ layout: default
       </div><!--/row-->
       <div class="row my-3 my-md-5">
         <div class="col-12 col-md-8">
-          <div class="donazione-detail__wrapper shadow">
+          <div class="donazione-detail__wrapper">
           <div class="donazione-detail__mainimg d-none d-md-block">
             <img src="{{page.img}}" alt="{{page.title}}" class="img-fluid">
           </div><!--/donazione-detail__mainimg-->
-          <div class="donazione-detail__body bg-white p-5">
+          <div class="donazione-detail__body bg-white p-3 p-md-5">
+              <div class="donazione-detail__dxdata d-flex d-md-none flex-wrap justify-content-around mt-1 mb-3">
+              <div class="d-flex flex-column">
+                <div class="donazione-detail__dxdata__img d-flex align-items-end">
+                  <img src="/assets/img/icon-donors.svg" class="mx-auto" alt="Donatori">
+                </div>
+                <div class="donazione-detail__dxdata__item my-2">
+                  <div class="donazione-detail__dxdata__first">1245</div>
+                  <div class="donazione-detail__dxdata__filetto"></div>
+                  <div class="donazione-detail__dxdata__second">Donatori</div>
+                </div>
+              </div>
+              <div class="d-flex flex-column">
+                <div class="donazione-detail__dxdata__img d-flex align-items-end">
+                  <img src="/assets/img/icon-heartbox.svg" class="mx-auto" alt="Totale donazioni">
+                </div>
+                <div class="donazione-detail__dxdata__item my-2">
+                  <div class="donazione-detail__dxdata__first">1.045.000</div>
+                  <div class="donazione-detail__dxdata__filetto"></div>
+                  <div class="donazione-detail__dxdata__second">&euro; raccolti</div>
+                </div>
+              </div>
+              <div class="flex-break-column"></div>
+              <div class="donazione-detail__dxdata__from my-2">dal 13 aprile 2020
+              </div>
+            </div><!--/detail__dxdata-->
+
             <div class="donazione-detail__text mr-0 mr-md-5">
             {{content}}
             </div>
             <div class="donazione-detail__filetto"></div>
             <div class="donazione-detail__bottom mt-3">
                {% if page.tags %}
-               <div class="donazione-detail__tags py-1">
+               <div class="donazione-detail__tags py-1 d-none d-md-block">
                 <img src="/assets/img/icon-tags-grey.svg" alt="Tags" class="icon d-inline-block mr-1">
                 <span class="mr-2">Categorie</span>
                 <ul class="list-unstyled d-inline-block m-0">
@@ -54,52 +80,64 @@ layout: default
                </div>
                {% endif %}
                {% if page.supporter %}
-                <div class="donazione-detail__supporter py-1">
+                <div class="donazione-detail__supporter py-1 d-none d-md-block">
                   <img src="/assets/img/icon-partners.svg" alt="Partner" class="icon d-inline-block mr-1">
                   <span class="mr-2">Questa campagna è supportata da</span>
                   <img src="{{page.supporter}}" alt="Supporter">
                 </div>
                {% endif %}
+               <div class="donazione-detail__friends  d-md-none">
+                  <div class="donazione-detail__frtext">L’aiuto dei tuoi amici è importante: <b>condividi sui social</b> questa campagna</div>
+                </div><!--/detail__friends-->
+               <div class="donazione-detail__share mt-3  d-md-none">
+                    <a href="#share" title="Condividi">
+                    <img src="/assets/img/icon-share-love.svg" class="mr-1 mb-1">
+                    CONDIVIDI</a>
+                </div><!--/detail__share-->
 
             </div>
           </div><!--/donazione-detail__body-->
           <a name="paymentform"></a>
-          <section class="donazione-detail__paymentform p-5">
+          <section class="donazione-detail__paymentform px-3 py-5 p-md-5 mt-4 mt-md-0">
           <form method="POST" id="paymentform" novalidate>
             <div class="paymentform__inner mr-0 mr-md-5">
               <div class="d-flex">
                 <h3 class="paymentform__head">Dona</h3>
-                <span class="small ml-auto">* campi obbligatorio</span>
+                <span class="small ml-auto">* campi obbligatori</span>
               </div>
               <div class="paymentform__row1 row mt-3 mb-2">
                 <div class="col">
                 Dona subito
                 </div>
-                <div class="col text-right">
+                <div class="col d-none d-md-block text-right">
                 Scegli quanto donare
                 </div>
               </div>
               
-              <div class="paymentform__row2 d-flex mt-2 mb-3">
+              <div class="paymentform__row2 d-md-flex mt-2 mb-3">
                 <div class="donazione-detail__buttons paymentform__buttons d-flex justify-content-between">
                   <a href="#" title="Dona 10€" class="donazione-detail__btn" data-value="10">10 &euro;</a>
                   <a href="#" title="Dona 50€" class="donazione-detail__btn " data-value="50">50 &euro;</a>
                   <a href="#" title="Dona 100€" class="donazione-detail__btn" data-value="100">100 &euro;</a>
                 </div><!--/paymentform__buttons-->
+                <div class="d-md-none my-3">
+                  <div class="small mx-md-4 mb-2">oppure</div>
+                  Scegli quanto donare
+                </div>
                 <div class="paymentform__row1__choice d-flex align-items-center">
-                  <div class="small mx-md-4">oppure</div>
+                  <div class="small mx-md-4 d-none d-md-block">oppure</div>
                   <input type="number" min="1" name="choice" class="d-flex h-100 text-right" id="choice" min="1">
                   <div class="h4 ml-2 mb-0">&euro;</div>
                 </div>  
               </div><!-- /paymentform__row2-->
-              <div class="small error text-right" for="choice">Inserire un importo superiore a 0</div>
+              <div class="small error text-md-right" for="choice">Inserire un importo superiore a 0</div>
               <div class="paymentform__row3  my-3 row">
                 <div class="col">
                   <div>Nome *</div>
                   <input type="text" min="1" name="nome" class="" id="nome" required>
                 </div>
                 <div class="col">
-                  <div>Cognome *</div>
+                  <div class="mt-3 mt-md-0">Cognome *</div>
                   <input type="text" min="1" name="cognome" class="" id="cognome" required >
                 </div>
               </div><!--/paymentform__row3-->
@@ -111,14 +149,15 @@ layout: default
                 </div>
               </div><!--/paymentform__row4-->
               <div class="paymentform__row5  my-3">
-                <div>Indirizzo email * <span class="small float-right">serve per la <a href="#" class="text-decoration-none">detrazione</a></span></div>
                 <input type="email"  name="email" class="" id="email" required >
                 <span class="small">Controlla attentamente la mail che hai inserito</span>
                 <div class="small error text-left" for="email">Inserire un indirizzo email corretto</div>
               </div><!--paymentform__row5-->
               
               <div class="paymentform__row6  my-3">
-                <div>Il tuo codice fiscale *</div>
+                <div>Il tuo codice fiscale *
+                <span class="small float-right">serve per la <a href="#" class="text-decoration-none">detrazione</a></span>
+                </div>
                 <input type="text"  name="cf" class="" id="cf" pattern="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" >
                 <div class="small error" for="cf">Il codice fiscale inserito non è corretto</div>
               </div><!--paymentform__row6-->
@@ -129,8 +168,10 @@ layout: default
                 </div>
                 <div class="small error text-left" for="privacypol">E' necessario prendere visione della Policy</div>
               </div><!--paymentform__row7-->
+              <div class="small error text-center" for="paymentform">Ci sono errori nella compilazione, per favore controlla </div>
               <div class="paymentform__row8  my-4">
                 <input type="hidden" name="amount" id="amount" value="">
+                <input type="hidden" name="title_invoice" id="title_invoice" value="{{page.title_invoice}}">
                 <button type="submit" class="btn btn-primary  paymentform__submit py-3" >Paga con <img class="ml-1 mt-2" src="/assets/img/icon-pagopa-logo.svg"></button>
               </div><!--paymentform__row8-->
               <div class="donazione-detail__filetto"></div>
@@ -162,7 +203,7 @@ layout: default
               <a href="#paymentform" title="Dona 50€" class="donazione-detail__btn" data-value="50">50 &euro;</a>
               <a href="#paymentform" title="Dona 100€" class="donazione-detail__btn" data-value="100">100 &euro;</a>
             </div>
-            <a href="#" title="Scegli tu quanto donare" class="d-block text-decoration-none donazione-detail__sceglitu my-3">Scegli tu quanto donare</a>
+            <a href="#paymentform" title="Scegli tu quanto donare" class="d-block text-decoration-none donazione-detail__sceglitu my-3">Scegli tu quanto donare</a>
             <div class="donazione-detail__dxdata d-none d-md-flex flex-wrap justify-content-around my-5">
               <div class="d-flex flex-column">
                 <div class="donazione-detail__dxdata__img d-flex align-items-end">

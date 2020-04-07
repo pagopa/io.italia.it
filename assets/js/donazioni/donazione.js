@@ -1,6 +1,35 @@
 const elToStick = '.donazione-detail__colwrapper';
 let sb = stickybits(elToStick, {useStickyClasses: true, stickyBitStickyOffset:80});
 let sbManaged = true;
+let elpaymentform = document.getElementById("paymentform");
+
+function isElementInViewport(el) {
+    let top = el.offsetTop;
+    let left = el.offsetLeft;
+    let width = el.offsetWidth;
+    let height = el.offsetHeight;
+  
+    while(el.offsetParent) {
+      el = el.offsetParent;
+      top += el.offsetTop;
+      left += el.offsetLeft;
+    }
+  
+    return (
+      top < (window.pageYOffset + window.innerHeight) &&
+      left < (window.pageXOffset + window.innerWidth) &&
+      (top + height) > window.pageYOffset &&
+      (left + width) > window.pageXOffset
+    );
+}
+
+function paymentFormInViewport(el) {
+    if (isElementInViewport(el)==true) {
+        document.body.setAttribute('data-pfvisible','1');
+    } else {
+        document.body.removeAttribute('data-pfvisible');
+    }
+}
 
 function stick () {
   if (window.innerWidth < 768){
@@ -19,8 +48,14 @@ function stick () {
 }
 window.addEventListener('resize', () => {
   stick();
+
 })
+window.addEventListener('scroll', () => {
+  paymentFormInViewport(elpaymentform);
+ }, true);
+
 stick();
+paymentFormInViewport(elpaymentform);
 
 //PAYMENT FORM
 $(function () {
@@ -34,6 +69,57 @@ $(function () {
     const $privacypol = $('#privacypol');
     const $nonmostrare = $('#nonmostrare');
     const $paymentform = $('#paymentform');
+    const $title_invoice = $('#title_invoice');
+    const serviceUrl = "https://solutionpa-coll.intesasanpaolo.com/IntermediarioPARestServer/services/netapay/activePayment";
+    const authCode = "cHRfYXNhbDokUDRnMHB0NHM0MTY2IQ==";
+
+    function sendData() {
+        let dueDate = new Date();
+        dueDate.setDate(dueDate.getDate() + 1);
+        let callbackURL = window.location.origin + window.location.pathname;
+        let totAmount = parseInt($amount.val());
+        let clientFiscalID = $cf.val();
+        let clientDescription = $nome.val() + $cognome.val();
+        let invoiceType = $title_invoice.val() ? $title_invoice.val() : document.title;
+        let clientType = $nonmostrare.is(":checked") ? 'A' : 'F';
+
+        let data = {
+            "callbackURL": callbackURL,
+            "sessionID": "XXXX",
+            "domainId": "15376371009",
+            "unitaBeneficiaria": "80050050154",
+            "tributo": "REGLOMBCOVID19",
+            "creditorTxId": "XXXXX",
+            "activePaymentList":[{
+                                    "paymentId": 1,
+                                    "totAmount": totAmount,
+                                    "invoiceType": invoiceType,
+                                    "dueDate": dueDate,
+                                    "clientType": clientType,
+                                    "clientDescription": clientDescription,
+                                    "clientFiscalID": clientFiscalID,
+                                    }
+                                 ]
+           };
+
+        $.ajax({
+            url: serviceUrl,
+            dataType: 'json',
+            method: 'POST',
+            crossDomain: true,
+            contentType: 'application/json; charset=utf-8',
+            data: JSON.stringify(data),
+            beforeSend: function (xhr) {
+                xhr.setRequestHeader("Authorization", "Basic " + authCode);
+            },
+            success: function( data, textStatus, jQxhr ){
+                console.log(data);
+            },
+            error: function( jqXhr, textStatus, errorThrown ){
+                console.log( errorThrown );
+            }
+        });
+    }
 
     $('.donazione-detail__colwrapper .donazione-detail__btn').click(function(e) {
         e.preventDefault();
@@ -119,7 +205,9 @@ $(function () {
         e.preventDefault();
         resetVal();
         if (checkVal()==true) {
-            alert('ciao');
+            sendData();
+        } else {
+            $(".error[for='paymentform']").show();
         }
 
 

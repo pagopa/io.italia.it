@@ -1,6 +1,7 @@
 ---
 title: Un aiuto per l'ospedale di Bergamo e gli anziani
 description: Un aiuto per l'ospedale di Bergamo e gli anziani
+title_invoice: Ospedale di Bergamo Papa Giovanni XXIII
 lang: it
 img: https://via.placeholder.com/464x261
 ente: Regione Lombardia
