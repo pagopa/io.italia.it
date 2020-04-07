@@ -35,13 +35,20 @@ $(function () {
     const $nonmostrare = $('#nonmostrare');
     const $paymentform = $('#paymentform');
 
+    $('.donazione-detail__colwrapper .donazione-detail__btn').click(function(e) {
+        e.preventDefault();
+        let valsel = $(this).data('value');
+        $('#paymentform .donazione-detail__btn[data-value="'+ valsel +'"]').trigger('click');
+
+    });
+
     $('#paymentform .donazione-detail__btn').click(function(e) {
         e.preventDefault();
         $(this).toggleClass('active');
         $(this).siblings().removeClass('active');
         $choice.val('');
         $amount.val( $(this).data('value') );
-    })
+    });
 
 
     function onChoice() {

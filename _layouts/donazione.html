@@ -63,6 +63,7 @@ layout: default
 
             </div>
           </div><!--/donazione-detail__body-->
+          <a name="paymentform"></a>
           <section class="donazione-detail__paymentform p-5">
           <form method="POST" id="paymentform" novalidate>
             <div class="paymentform__inner mr-0 mr-md-5">
@@ -157,9 +158,9 @@ layout: default
             <h3 class="donazione-detail__dona d-inline-flex d-md-block">Dona ora</h3>
             <p class="donazione-detail__con d-inline-flex d-md-block ml-2 ml-md-0">con carta di credito e altro</p>
             <div class="donazione-detail__buttons d-flex justify-content-between">
-              <a href="#" title="Dona 10€" class="donazione-detail__btn">10 &euro;</a>
-              <a href="#" title="Dona 50€" class="donazione-detail__btn">50 &euro;</a>
-              <a href="#" title="Dona 100€" class="donazione-detail__btn">100 &euro;</a>
+              <a href="#paymentform" title="Dona 10€" class="donazione-detail__btn" data-value="10">10 &euro;</a>
+              <a href="#paymentform" title="Dona 50€" class="donazione-detail__btn" data-value="50">50 &euro;</a>
+              <a href="#paymentform" title="Dona 100€" class="donazione-detail__btn" data-value="100">100 &euro;</a>
             </div>
             <a href="#" title="Scegli tu quanto donare" class="d-block text-decoration-none donazione-detail__sceglitu my-3">Scegli tu quanto donare</a>
             <div class="donazione-detail__dxdata d-none d-md-flex flex-wrap justify-content-around my-5">
