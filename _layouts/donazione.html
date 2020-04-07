@@ -64,6 +64,7 @@ layout: default
             </div>
           </div><!--/donazione-detail__body-->
           <section class="donazione-detail__paymentform p-5">
+          <form method="POST" id="paymentform" novalidate>
             <div class="paymentform__inner mr-0 mr-md-5">
               <div class="d-flex">
                 <h3 class="paymentform__head">Dona</h3>
@@ -77,18 +78,20 @@ layout: default
                 Scegli quanto donare
                 </div>
               </div>
+              
               <div class="paymentform__row2 d-flex mt-2 mb-3">
                 <div class="donazione-detail__buttons paymentform__buttons d-flex justify-content-between">
-                  <a href="#" title="Dona 10€" class="donazione-detail__btn">10 &euro;</a>
-                  <a href="#" title="Dona 50€" class="donazione-detail__btn active">50 &euro;</a>
-                  <a href="#" title="Dona 100€" class="donazione-detail__btn">100 &euro;</a>
+                  <a href="#" title="Dona 10€" class="donazione-detail__btn" data-value="10">10 &euro;</a>
+                  <a href="#" title="Dona 50€" class="donazione-detail__btn " data-value="50">50 &euro;</a>
+                  <a href="#" title="Dona 100€" class="donazione-detail__btn" data-value="100">100 &euro;</a>
                 </div><!--/paymentform__buttons-->
                 <div class="paymentform__row1__choice d-flex align-items-center">
                   <div class="small mx-md-4">oppure</div>
-                  <input type="number" min="1" name="choice" class="d-flex h-100 text-right" id="choice" >
+                  <input type="number" min="1" name="choice" class="d-flex h-100 text-right" id="choice" min="1">
                   <div class="h4 ml-2 mb-0">&euro;</div>
-                </div>
+                </div>  
               </div><!-- /paymentform__row2-->
+              <div class="small error text-right" for="choice">Inserire un importo superiore a 0</div>
               <div class="paymentform__row3  my-3 row">
                 <div class="col">
                   <div>Nome *</div>
@@ -99,6 +102,7 @@ layout: default
                   <input type="text" min="1" name="cognome" class="" id="cognome" required >
                 </div>
               </div><!--/paymentform__row3-->
+              <div class="small error text-left" for="nome">Inserire correttamente Nome e Cognome</div>
               <div class="paymentform__row4  my-3">
                 <div class="form-check">
                   <input id="nonmostrare" name="nonmostrare" type="checkbox" checked>
@@ -109,20 +113,24 @@ layout: default
                 <div>Indirizzo email * <span class="small float-right">serve per la <a href="#" class="text-decoration-none">detrazione</a></span></div>
                 <input type="email"  name="email" class="" id="email" required >
                 <span class="small">Controlla attentamente la mail che hai inserito</span>
+                <div class="small error text-left" for="email">Inserire un indirizzo email corretto</div>
               </div><!--paymentform__row5-->
+              
               <div class="paymentform__row6  my-3">
-                <div>Il tuo codice fiscale</div>
-                <input type="text"  name="cf" class="inputerror" id="cf"  >
-                <span class="small error">Il codice fiscale inserito non è corretto</span>
+                <div>Il tuo codice fiscale *</div>
+                <input type="text"  name="cf" class="" id="cf" pattern="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" >
+                <div class="small error" for="cf">Il codice fiscale inserito non è corretto</div>
               </div><!--paymentform__row6-->
               <div class="paymentform__row7  my-3">
                 <div class="form-check">
                   <input id="privacypol" name="privacypol" type="checkbox" required>
                   <label for="privacypol" class="paymentform__privacypol">Dichiaro di aver preso visione dell'<a href="#">informativa</a> e di prestare il mio consenso al <a href="#">trattamento dei dati personali</a></label>
                 </div>
+                <div class="small error text-left" for="privacypol">E' necessario prendere visione della Policy</div>
               </div><!--paymentform__row7-->
               <div class="paymentform__row8  my-4">
-                <button type="submit" class="btn btn-primary  paymentform__submit py-3">Paga con <img class="ml-1 mt-2" src="/assets/img/icon-pagopa-logo.svg"></button>
+                <input type="hidden" name="amount" id="amount" value="">
+                <button type="submit" class="btn btn-primary  paymentform__submit py-3" >Paga con <img class="ml-1 mt-2" src="/assets/img/icon-pagopa-logo.svg"></button>
               </div><!--paymentform__row8-->
               <div class="donazione-detail__filetto"></div>
               <div class="paymentform__row9 my-3">
@@ -139,20 +147,22 @@ layout: default
                 </div>
               </div><!--/paymentform__row9-->
             </div><!--/detail__inner-->
+            </form>
           </section><!--/donazione-detail__paymentform-->
           </div><!--/donazione-detail__wrapper-->
         </div><!--/--col-md-8 -->
         <div class="col-12 col-md-4 px-4">
           <div class="donazione-detail__colwrapper shadow p-4">
-            <h3 class="donazione-detail__dona">Dona ora</h3>
-            <p class="donazione-detail__con">con carta di credito e altro</p>
+            
+            <h3 class="donazione-detail__dona d-inline-flex d-md-block">Dona ora</h3>
+            <p class="donazione-detail__con d-inline-flex d-md-block ml-2 ml-md-0">con carta di credito e altro</p>
             <div class="donazione-detail__buttons d-flex justify-content-between">
               <a href="#" title="Dona 10€" class="donazione-detail__btn">10 &euro;</a>
               <a href="#" title="Dona 50€" class="donazione-detail__btn">50 &euro;</a>
               <a href="#" title="Dona 100€" class="donazione-detail__btn">100 &euro;</a>
             </div>
             <a href="#" title="Scegli tu quanto donare" class="d-block text-decoration-none donazione-detail__sceglitu my-3">Scegli tu quanto donare</a>
-            <div class="donazione-detail__dxdata d-flex flex-wrap justify-content-around my-5">
+            <div class="donazione-detail__dxdata d-none d-md-flex flex-wrap justify-content-around my-5">
               <div class="d-flex flex-column">
                 <div class="donazione-detail__dxdata__img d-flex align-items-end">
                   <img src="/assets/img/icon-donors.svg" class="mx-auto" alt="Donatori">
@@ -177,10 +187,10 @@ layout: default
               <div class="donazione-detail__dxdata__from my-2">dal 13 aprile 2020
               </div>
             </div><!--/detail__dxdata-->
-            <div class="donazione-detail__friends">
+            <div class="donazione-detail__friends d-none d-md-block">
               <div class="donazione-detail__frtext">L’aiuto dei tuoi amici è importante: <b>condividi sui social</b> questa campagna</div>
             </div><!--/detail__friends-->
-            <div class="donazione-detail__share mt-3">
+            <div class="donazione-detail__share mt-3  d-none d-md-block">
                 <a href="#share" title="Condividi">
                 <img src="/assets/img/icon-share-love.svg" class="mr-1 mb-1">
                 CONDIVIDI</a>

@@ -17,39 +17,37 @@ contributors - MIT license @link https://github.com/FezVrasta/popper.js
 <script src="{{ '/assets/js/vendor/bootstrap-italia.min.js?' | append: buildTime | relative_url }}"></script>
 
 {%if page.layout == 'home' %} {% comment %} Parallax 3.1.0 - Copyright © 2014
-Matthew Wagerfield - @wagerfield - MIT license @link
-https://github.com/wagerfield/parallax {% endcomment %}
-<script async src="{{ '/assets/js/vendor/parallax.min.js' }}"></script>
+  Matthew Wagerfield - @wagerfield - MIT license @link
+  https://github.com/wagerfield/parallax {% endcomment %}
+  <script async src="{{ '/assets/js/vendor/parallax.min.js' }}"></script>
 
-<script src="{{ '/assets/js/vendor/owl.carousel.min.js' }}"></script>
+  <script src="{{ '/assets/js/vendor/owl.carousel.min.js' }}"></script>
 
-{% comment %} Anime 2.2.0 - Copyright © 2019 Julian Garnier - MIT license @link
-https://github.com/juliangarnier/anime/ {% endcomment %}
-<script async src="{{ '/assets/js/vendor/anime.min.js' }}"></script>
+  {% comment %} Anime 2.2.0 - Copyright © 2019 Julian Garnier - MIT license @link
+  https://github.com/juliangarnier/anime/ {% endcomment %}
+  <script async src="{{ '/assets/js/vendor/anime.min.js' }}"></script>
 
-{% comment %} ScrollMagic 2.0.5 - Copyright © 2015 Jan Paepke - MIT license and
-the GPL @link https://github.com/janpaepke/ScrollMagic {% endcomment %}
-<script async src="{{ '/assets/js/vendor/ScrollMagic.min.js' }}"></script>
+  {% comment %} ScrollMagic 2.0.5 - Copyright © 2015 Jan Paepke - MIT license and
+  the GPL @link https://github.com/janpaepke/ScrollMagic {% endcomment %}
+  <script async src="{{ '/assets/js/vendor/ScrollMagic.min.js' }}"></script>
 
-{% comment %} This script helps with ScrollMagic 2.0.5 debug - Copyright © 2015
-Jan Paepke - MIT license and the GPL @link
-http://scrollmagic.io/docs/debug.addIndicators.html#Scene.addIndicators
-<script
-  async
-  src="{{ '/assets/js/vendor/debug.addIndicators.min.js' }}"
-></script>
-{% endcomment %} 
+  {% comment %} This script helps with ScrollMagic 2.0.5 debug - Copyright © 2015
+  Jan Paepke - MIT license and the GPL @link
+  http://scrollmagic.io/docs/debug.addIndicators.html#Scene.addIndicators
+  <script
+    async
+    src="{{ '/assets/js/vendor/debug.addIndicators.min.js' }}"
+  ></script>
+  {% endcomment %} 
 {% else %}
-{% comment %} BaguetteBox 1.10.0 - Copyright © 2018
-feimosi - MIT license @link https://github.com/feimosi/baguetteBox.js {%
-endcomment %}
-<script src="{{ '/assets/js/vendor/baguetteBox.min.js' }}"></script>
+  {% comment %} BaguetteBox 1.10.0 - Copyright © 2018
+  feimosi - MIT license @link https://github.com/feimosi/baguetteBox.js {%
+  endcomment %}
+  <script src="{{ '/assets/js/vendor/baguetteBox.min.js' }}"></script>
 
-{% comment %} Stickybits 3.6.5 - Copyright (c) 2016 Dollar Shave Club, Inc. -
-MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
-<script src="{{ '/assets/js/vendor/stickybits.min.js' }}"></script>
-
-
+  {% comment %} Stickybits 3.6.5 - Copyright (c) 2016 Dollar Shave Club, Inc. -
+  MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
+  <script src="{{ '/assets/js/vendor/stickybits.min.js' }}"></script>
 
 {% endif %}
 
@@ -67,6 +65,10 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 
 {%if page.ref == 'pubbliche-amministrazioni' %}
 <script src="{{ '/assets/js/pub-amm.js' }}"></script>
+{% endif %}
+
+{%if page.layout == 'donazione' %}
+<script src="{{ '/assets/js/donazioni/donazione.js?' | append: buildTime  }}"></script>
 {% endif %}
 
 <script
