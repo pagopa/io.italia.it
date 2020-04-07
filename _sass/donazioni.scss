@@ -296,8 +296,27 @@ body.layout--donazione {
         
 
     }
+    #paymentform.loading {
+        position: relative;
+        .paymentform__inner {
+            opacity: 0.4;
+        }
+        .paymentform__spinner {
+            display: block;
+            position: absolute;
+            top: calc(50% - 20px);
+            left: calc(50% - 20px);
+            z-index: 100;
+            width: 3rem;
+            height: 3rem;
+        }
+    }
     
     .paymentform {
+
+        &__spinner {
+            display: none;
+        }
 
         &__row3 {
             .col {

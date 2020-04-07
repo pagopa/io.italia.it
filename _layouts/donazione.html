@@ -11,7 +11,7 @@ layout: default
 
   <article class="{{ page.layout }}">
     <div class="d-md-none">
-            <img src="{{page.img}}" alt="{{page.title}}" class="img-fluid">
+            <img src="{{page.img}}" alt="{{page.title}}" class="img-fluid w-100">
     </div>
     <section class="container container--mid">
       <div class="row donazione-detail__bg">
@@ -31,7 +31,7 @@ layout: default
         </div>
       </div><!--/row-->
       <div class="row my-3 my-md-5">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-lg-8">
           <div class="donazione-detail__wrapper">
           <div class="donazione-detail__mainimg d-none d-md-block">
             <img src="{{page.img}}" alt="{{page.title}}" class="img-fluid">
@@ -99,7 +99,7 @@ layout: default
           </div><!--/donazione-detail__body-->
           <a name="paymentform"></a>
           <section class="donazione-detail__paymentform px-3 py-5 p-md-5 mt-4 mt-md-0">
-          <form method="POST" id="paymentform" novalidate>
+          <form method="POST" class="" id="paymentform" novalidate>
             <div class="paymentform__inner mr-0 mr-md-5">
               <div class="d-flex">
                 <h3 class="paymentform__head">Dona</h3>
@@ -189,11 +189,14 @@ layout: default
                 </div>
               </div><!--/paymentform__row9-->
             </div><!--/detail__inner-->
+            <div class="paymentform__spinner spinner-border text-primary" role="status">
+              <span class="sr-only">Elaborazione in corso</span>
+            </div>
             </form>
           </section><!--/donazione-detail__paymentform-->
           </div><!--/donazione-detail__wrapper-->
         </div><!--/--col-md-8 -->
-        <div class="col-12 col-md-4 px-4">
+        <div class="col-12 col-lg-4 px-4">
           <div class="donazione-detail__colwrapper shadow p-4">
             
             <h3 class="donazione-detail__dona d-inline-flex d-md-block">Dona ora</h3>

@@ -69,6 +69,7 @@ $(function () {
     const $privacypol = $('#privacypol');
     const $nonmostrare = $('#nonmostrare');
     const $paymentform = $('#paymentform');
+    const $paymentformerror = $(".error[for='paymentform']");
     const $title_invoice = $('#title_invoice');
     const serviceUrl = "https://solutionpa-coll.intesasanpaolo.com/IntermediarioPARestServer/services/netapay/activePayment";
     const authCode = "cHRfYXNhbDokUDRnMHB0NHM0MTY2IQ==";
@@ -114,9 +115,13 @@ $(function () {
             },
             success: function( data, textStatus, jQxhr ){
                 console.log(data);
+                $paymentform.removeClass('loading');
             },
             error: function( jqXhr, textStatus, errorThrown ){
                 console.log( errorThrown );
+                $paymentform.removeClass('loading');
+                $paymentformerror.text('Problemi di connessione con il server di pagamento, riprovare più tardi.');
+                $paymentformerror.show();
             }
         });
     }
@@ -204,10 +209,12 @@ $(function () {
     $paymentform.on('submit', function(e) {
         e.preventDefault();
         resetVal();
+        
         if (checkVal()==true) {
-            sendData();
+            $paymentform.addClass('loading');
+            sendData($paymentform, $paymentformerror);
         } else {
-            $(".error[for='paymentform']").show();
+            $paymentformerror.show();
         }
 
 
