@@ -193,7 +193,7 @@ body.layout--donazione {
         &__colwrapper {
             background-color: #fff;
             position: fixed;
-            z-index: 100;
+            z-index: 1;
             bottom: 0;
             width: 100%;
             left: 0;
@@ -304,11 +304,15 @@ body.layout--donazione {
         .paymentform__spinner {
             display: block;
             position: absolute;
-            top: calc(50% - 20px);
-            left: calc(50% - 20px);
             z-index: 100;
             width: 3rem;
             height: 3rem;
+            top: calc(50vh - 40px);
+            left: calc(50vw - 40px);
+            @media screen and (min-width: $grid-breakpoints-md) {
+                top: calc(50% - 20px);
+                left: calc(50% - 20px);
+            }
         }
     }
     

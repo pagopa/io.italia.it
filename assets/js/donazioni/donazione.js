@@ -169,39 +169,40 @@ $(function () {
         let cognome = $cognome.val();
         let email = $email.val();
         let cf = $cf.val();
+        let errors = false;
 
         if (amount < 1 || Number.isNaN(amount) || typeof(amount) !=='number') {
             $choice.addClass('inputerror');
             $(".error[for='" + $choice.attr('id') +"']").show();
-            return false;
+            errors = true;
         }
 
         if (nome.length < 1 || cognome.length < 1) {
             $nome.addClass('inputerror');
             $cognome.addClass('inputerror');
             $(".error[for='" + $nome.attr('id') +"']").show();
-            return false;
+            errors = true;
         }
 
         if (validateEmail(email)==false) {
             $email.addClass('inputerror');
             $(".error[for='" + $email.attr('id') +"']").show();
-            return false;
+            errors = true;
         }
 
         if (validateCF(cf)==false) {
             $cf.addClass('inputerror');
             $(".error[for='" + $cf.attr('id') +"']").show();
-            return false;
+            errors = true;
         }
 
         if ($privacypol.is(":checked")==false) {
             $privacypol.addClass('inputerror');
             $(".error[for='" + $privacypol.attr('id') +"']").show();
-            return false;
+            errors = true;
         }
 
-        return true;
+        return errors;
     }
 
     $choice.on('change', onChoice);
@@ -210,7 +211,7 @@ $(function () {
         e.preventDefault();
         resetVal();
         
-        if (checkVal()==true) {
+        if (checkVal()==false) {
             $paymentform.addClass('loading');
             sendData($paymentform, $paymentformerror);
         } else {
