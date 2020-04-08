@@ -15,12 +15,14 @@
           <p>Scarica l'app:</p>
           <ul class="col list-inline m-0">
             <li class="list-inline-item">
-              <a href="{{site.download_url.ios}}" title="Scarica da App Store">
+              <a href="{{site.download_url.ios}}" title="Scarica da App Store"
+                 onclick="ga('send', 'event', 'link', 'click', 'Download App', 1)">
               <img src="/assets/img/badge-appstore.svg" alt="App Store">
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="{{site.download_url.android}}" title="Scarica da Play Store">
+              <a href="{{site.download_url.android}}" title="Scarica da Play Store"
+                 onclick="ga('send', 'event', 'link', 'click', 'Download App', 2)">
               <img src="/assets/img/badge-playstore.svg" alt="Play Store">
               </a>
             </li>

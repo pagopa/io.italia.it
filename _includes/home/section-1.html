@@ -22,11 +22,13 @@
         Guarda il video</a>
         <a href="#newsletter" class="btn btn-sm text-uppercase btn-newsletter mt-2 mt-sm-0" >Resta aggiornato</a>
         {% endcomment %}
-        <a class="btn btn-sm btn-download text-uppercase px-3 px-md-5 mr-2" href="{{site.download_url.ios}}" title="App Store">
+        <a class="btn btn-sm btn-download text-uppercase px-3 px-md-5 mr-2" href="{{site.download_url.ios}}" title="App Store"
+           onclick="ga('send', 'event', 'link', 'click', 'Download App', 1)">
             <svg class="icon icon-os ios"><use xlink:href="/assets/svg/badgeicons.svg#icon-ios"  /></svg> App Store
             
         </a>
-        <a class="btn btn-sm btn-download text-uppercase px-3 px-md-5 ml-2" href="{{site.download_url.android}}" title="Play Store">
+        <a class="btn btn-sm btn-download text-uppercase px-3 px-md-5 ml-2" href="{{site.download_url.android}}" title="Play Store"
+           onclick="ga('send', 'event', 'link', 'click', 'Download App', 2)">
             <svg class="icon icon-os android"><use xlink:href="/assets/svg/badgeicons.svg#icon-android"  /></svg> Play Store
         </a>
         </div>
