@@ -32,7 +32,7 @@ function paymentFormInViewport(el) {
 }
 
 function stick () {
-  if (window.innerWidth < 768){
+  if (window.innerWidth < 992){
     if (sbManaged) {
       sb.cleanup();
       document.querySelector(elToStick).classList.remove('js-is-sticky--change');
@@ -72,7 +72,7 @@ $(function () {
     const $paymentformerror = $(".error[for='paymentform']");
     const $title_invoice = $('#title_invoice');
     const serviceUrl = "https://solutionpa-coll.intesasanpaolo.com/IntermediarioPARestServer/services/netapay/activePayment";
-    const authCode = "cHRfYXNhbDokUDRnMHB0NHM0MTY2IQ==";
+    const authCode = "$P4g0pt4s4166!:pt_asal";
 
     function sendData() {
         let dueDate = new Date();
@@ -108,10 +108,13 @@ $(function () {
             dataType: 'json',
             method: 'POST',
             crossDomain: true,
+            xhrFields: {
+                withCredentials: true
+            },
             contentType: 'application/json; charset=utf-8',
             data: JSON.stringify(data),
             beforeSend: function (xhr) {
-                xhr.setRequestHeader("Authorization", "Basic " + authCode);
+                xhr.setRequestHeader("Authorization", "Basic " + btoa(authCode) );
             },
             success: function( data, textStatus, jQxhr ){
                 console.log(data);
@@ -137,14 +140,20 @@ $(function () {
         e.preventDefault();
         $(this).toggleClass('active');
         $(this).siblings().removeClass('active');
-        $choice.val('');
+        $choice.val( $(this).data('value') );
         $amount.val( $(this).data('value') );
+    });
+
+    $('.donazione-detail__sceglitu').click(function(e) {
+        $choice.focus();
     });
 
 
     function onChoice() {
+        let currVal = $(this).val();
         $('#paymentform .donazione-detail__btn').removeClass('active');
-        $amount.val( $(this).val() );
+        $amount.val( currVal );
+        $('#paymentform .donazione-detail__btn[data-value="'+currVal+'"]').addClass('active');
     }
 
     function resetVal() {
@@ -205,7 +214,7 @@ $(function () {
         return errors;
     }
 
-    $choice.on('change', onChoice);
+    $choice.on('keyup', onChoice);
     
     $paymentform.on('submit', function(e) {
         e.preventDefault();
