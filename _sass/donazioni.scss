@@ -4,6 +4,32 @@
         margin-top: 50px;
     
     }
+    .slide-in {
+        -webkit-animation: slide-in 0.5s forwards;
+        animation: slide-in 0.5s forwards;
+    }
+    .slide-out {
+        -webkit-animation: slide-out 0.5s forwards;
+        animation: slide-out 0.5s forwards;
+        -webkit-transform: translateY(0%);
+        
+    }
+    
+    @keyframes slide-in {
+        100% { transform: translateY(0%); }
+    }
+    @-webkit-keyframes slide-in {
+        100% { -webkit-transform: translateY(0%); }
+    }
+    @keyframes slide-out {
+        0% { transform: translateY(0); }
+        100% { transform: translateY(25vh); }
+    }
+    @-webkit-keyframes slide-out {
+        0% { -webkit-transform: translateY(0); }
+        100% { -webkit-transform: translateY(25vh); }
+    }
+    
 }
 .flex-break {
     flex-basis: 100%;
@@ -198,6 +224,11 @@ body.layout--donazione {
             width: 100%;
             left: 0;
             border-radius: 0;
+            -webkit-box-shadow: 0 .7rem 2rem rgba(0,0,0,.5);
+            box-shadow: 0 .7rem 2rem rgba(0,0,0,.5);
+            -webkit-transform: translateY(25vh);
+            transform: translateY(25vh);
+
             @media screen and (min-width: $grid-breakpoints-lg) {
                 border-radius: 8px;
                 position: relative;
@@ -205,6 +236,11 @@ body.layout--donazione {
                 bottom: unset;
                 width: auto;
                 left: unset;
+                -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+                box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+                -webkit-transform: translateY(0) !important;
+                transform: translateY(0) !important;
+                animation: none !important;
             }            
 
         }
@@ -338,17 +374,25 @@ body.layout--donazione {
                 color: #262D32;
                 font-size: 1.5rem;
                 height: 3.5rem;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                
+                &:focus {
+                    border-color: $color--italia;
+                }
             }
             #choice {
                 width: 50%;
                 @media screen and (min-width: $grid-breakpoints-md) {
                     width: 100%;
                 }
+                
             }
             #nonmostrare + label {
                 line-height: 1.2;
                 @media screen and (min-width: $grid-breakpoints-md) {
-                    line-height: 1.5;
+                    line-height: 1.8;
                 }
             }
             .error {
@@ -387,6 +431,6 @@ body.layout--donazione {
 }
 body[data-pfvisible] .donazione-detail__colwrapper {
     @media screen and (max-width: $grid-breakpoints-md) {
-        display: none !important;
+        //display: none !important;
     }
 }

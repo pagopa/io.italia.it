@@ -99,7 +99,7 @@ layout: default
           </div><!--/donazione-detail__wrapper-->
         </div><!--/--col-md-8 -->
         <div class="col-12 col-lg-4 px-4">
-          <div class="donazione-detail__colwrapper shadow py-3 px-4 p-md-4">
+          <div class="donazione-detail__colwrapper  py-3 px-4 p-md-4">
             
             <h3 class="donazione-detail__dona d-inline-flex d-md-block m-0 my-md-3">Dona ora</h3>
             <p class="donazione-detail__con d-inline-flex d-md-block ml-2 ml-md-0">con carta di credito e altro</p>
@@ -192,11 +192,12 @@ layout: default
               <div class="small error text-left" for="nome">Inserire correttamente Nome e Cognome</div>
               <div class="paymentform__row4  my-3">
                 <div class="form-check">
-                  <input id="nonmostrare" name="nonmostrare" type="checkbox" checked>
-                  <label for="nonmostrare">Non mostrare i miei dati nell'elenco dei donatori</label>
+                  <input id="nonmostrare" name="nonmostrare" type="checkbox" >
+                  <label for="nonmostrare" class="pt-1 pt-md-0">Non mostrare i miei dati nell'elenco dei donatori</label>
                 </div>
               </div><!--/paymentform__row4-->
               <div class="paymentform__row5  my-3">
+                <div class="mt-3 mt-md-0">Indirizzo email *</div>
                 <input type="email"  name="email" class="" id="email" required >
                 <span class="small">Controlla attentamente la mail che hai inserito</span>
                 <div class="small error text-left" for="email">Inserire un indirizzo email corretto</div>
@@ -212,7 +213,7 @@ layout: default
               <div class="paymentform__row7  my-3">
                 <div class="form-check">
                   <input id="privacypol" name="privacypol" type="checkbox" required>
-                  <label for="privacypol" class="paymentform__privacypol">Dichiaro di aver preso visione dell'<a href="#">informativa</a> e di prestare il mio consenso al <a href="#">trattamento dei dati personali</a></label>
+                  <label for="privacypol" class="paymentform__privacypol pt-1 pt-md-0">Dichiaro di aver preso visione dell'<a href="#">informativa</a> e di prestare il mio consenso al <a href="#">trattamento dei dati personali</a></label>
                 </div>
                 <div class="small error text-left" for="privacypol">E' necessario prendere visione della Policy</div>
               </div><!--paymentform__row7-->

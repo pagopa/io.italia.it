@@ -3,6 +3,7 @@ let sb = stickybits(elToStick, {useStickyClasses: true, stickyBitStickyOffset:80
 let sbManaged = true;
 let elpaymentform = document.getElementById("paymentform");
 
+// test if an element is in viewport
 function isElementInViewport(el) {
     let top = el.offsetTop;
     let left = el.offsetLeft;
@@ -23,33 +24,45 @@ function isElementInViewport(el) {
     );
 }
 
+// test if paymentform is in the viewport
 function paymentFormInViewport(el) {
     if (isElementInViewport(el)==true) {
         document.body.setAttribute('data-pfvisible','1');
+        document.querySelector(elToStick).classList.remove('slide-in');
+        document.querySelector(elToStick).classList.add('slide-out');
     } else {
         document.body.removeAttribute('data-pfvisible');
+        document.querySelector(elToStick).classList.remove('slide-out');
+        document.querySelector(elToStick).classList.add('slide-in');
     }
 }
 
+// let's sticky an element
 function stick () {
   if (window.innerWidth < 992){
     if (sbManaged) {
       sb.cleanup();
       document.querySelector(elToStick).classList.remove('js-is-sticky--change');
+      document.querySelector(elToStick).classList.add('slide-in');
     }
     sbManaged = false;
   }
   else {
     if (!sbManaged) {
       sb = stickybits(elToStick, {useStickyClasses: true, stickyBitStickyOffset:80});
+      document.querySelector(elToStick).classList.remove('slide-in');
+      document.querySelector(elToStick).classList.remove('slide-out');
+      
     }
     sbManaged = true;
   }
 }
+// resize listner
 window.addEventListener('resize', () => {
   stick();
 
 })
+// scroll listner
 window.addEventListener('scroll', () => {
   paymentFormInViewport(elpaymentform);
  }, true);
