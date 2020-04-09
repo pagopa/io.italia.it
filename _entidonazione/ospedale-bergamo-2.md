@@ -5,7 +5,7 @@ lang: it
 invoiceType: Ospedale di Bergamo Papa Giovanni XXIII
 unitaBeneficiaria: 80050050154
 tributo: REGLOMBCOVID19
-img: https://via.placeholder.com/635x351
+image: https://via.placeholder.com/635x351
 ente: Regione Lombardia
 struttura: Ospedale di Bergamo Papa Giovanni XXIII
 logo: https://via.placeholder.com/150x150

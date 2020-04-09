@@ -5,10 +5,50 @@
         <div class="modal-body">
             <h3>Aiuta condividendo</h3>
             <p>Le campagne condivise sui social media raccolgono 5 volte più fondi.</p>
+            <div class="my-4 px-3">
+            <div class="row align-items-center">
+              <div class="col text-center">
+                <a href="#" aria-label="Facebook" class="text-decoration-none">
+                    <svg class="icon icon-lg icon-primary">
+                      <use xlink:href="/assets/svg/sprite.svg#it-facebook"></use>
+                    </svg>
+                    <span class="d-block text-center small mt-2">Facebook</span>
+                </a>
+              </div>
+              <div class="col text-center">
+                <a href="#" aria-label="Twitter" class="text-decoration-none">
+                    <svg class="icon icon-lg icon-primary">
+                      <use xlink:href="/assets/svg/sprite.svg#it-twitter"></use>
+                    </svg>
+                    <span class="d-block text-center small mt-2">Twitter</span>
+                </a>
+              </div>
+              <div class="col text-center">
+                <a href="#" aria-label="WhatsApp" class="text-decoration-none">
+                    <svg class="icon icon-lg icon-primary">
+                      <use xlink:href="/assets/svg/sprite.svg#it-whatsapp"></use>
+                    </svg>
+                    <span class="d-block text-center small mt-2">WhatsApp</span>
+                </a>
+              </div>
+            </div>
+            </div><!-- my-4 px-3-->
+            <div class="my-5">
+              <div class="form-group">
+              <div class="input-group">
+                  <div class="input-group-prepend">
+                    <div class="input-group-text"><svg class="icon icon-sm icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-link"></use></svg></div>
+                  </div>
+                  <label for="input-group-3">Copia il link della pagina</label>
+                  <input type="text" class="form-control" id="input-group-3" name="input-group-3" value="{{page.url}}">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" id="button-3">Copia</button>
+                  </div>
+                </div>
+            </div>
+            </div>
         </div>
-        <div class="modal-footer">
-            <button class="btn btn-primary btn-sm" data-dismiss="modal" type="button">Ok</button>
-        </div>
+
       </div>
   </div>
 </div>
