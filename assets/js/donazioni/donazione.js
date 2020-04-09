@@ -92,7 +92,7 @@ $(function () {
     function formatDateAsExpected(date) {
         let year = date.getFullYear();
         let month = ("0" + (date.getMonth() + 1)).slice(-2); // to avoid months with one digit...
-        let day = ("0" + date.getDate()).slice(-2); // to avoid months with one digit...
+        let day = ("0" + date.getDate()).slice(-2); // to avoid days with one digit...
         return day + "/" + month + "/" + year + " " + date.toLocaleTimeString();
     }
 
@@ -100,10 +100,10 @@ $(function () {
         let dueDate = new Date();
         dueDate.setDate(dueDate.getDate() + 1);
         let callbackURL = window.location.origin + window.location.pathname;
-        let totAmount = parseInt($amount.val());
+        let totAmount = parseInt($amount.val()) * 100; // pagopa process an amount by cents
         let clientFiscalID = $cf.val();
         let email = $email.val();
-        let clientDescription = $nome.val() + $cognome.val();
+        let clientDescription = $nome.val() +" "+ $cognome.val();
         let invoiceType = $invoiceType.val() ? $invoiceType.val() : document.title;
         let unitaBeneficiaria = $unitaBeneficiaria.val();
         let tributo = $tributo.val();
@@ -111,11 +111,10 @@ $(function () {
 
         let data = {
             "callbackURL": callbackURL,
-            "sessionID": "dummy",
+            "sessionID": "111",
             "domainId": "15376371009",
             "unitaBeneficiaria": unitaBeneficiaria,
             "tributo": tributo,
-            "creditorTxId": "dummy",
             "activePaymentList":[{
                                     "paymentId": 1,
                                     "totAmount": totAmount,
