@@ -12,7 +12,7 @@
         -webkit-animation: slide-out 0.5s forwards;
         animation: slide-out 0.5s forwards;
         -webkit-transform: translateY(0%);
-        
+        transform: translateY(0%);
     }
     
     @keyframes slide-in {
@@ -343,12 +343,8 @@ body.layout--donazione {
             z-index: 100;
             width: 3rem;
             height: 3rem;
-            top: calc(50vh - 40px);
-            left: calc(50vw - 40px);
-            @media screen and (min-width: $grid-breakpoints-md) {
-                top: calc(50% - 20px);
-                left: calc(50% - 20px);
-            }
+            top: calc(50% - 20px);
+            left: calc(50% - 20px);
         }
     }
     

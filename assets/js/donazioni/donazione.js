@@ -83,9 +83,18 @@ $(function () {
     const $nonmostrare = $('#nonmostrare');
     const $paymentform = $('#paymentform');
     const $paymentformerror = $(".error[for='paymentform']");
-    const $title_invoice = $('#title_invoice');
+    const $invoiceType = $('#invoiceType');
+    const $unitaBeneficiaria = $('#unitaBeneficiaria');
+    const $tributo = $('#tributo');
     const serviceUrl = "https://solutionpa-coll.intesasanpaolo.com/IntermediarioPARestServer/services/netapay/activePayment";
-    const authCode = "$P4g0pt4s4166!:pt_asal";
+    const authCode = "cHRfYXNhbDokUDRnMHB0NHM0MTY2IQ==";
+
+    function formatDateAsExpected(date) {
+        let year = date.getFullYear();
+        let month = ("0" + (date.getMonth() + 1)).slice(-2); // to avoid months with one digit...
+        let day = ("0" + date.getDate()).slice(-2); // to avoid months with one digit...
+        return day + "/" + month + "/" + year + " " + date.toLocaleTimeString();
+    }
 
     function sendData() {
         let dueDate = new Date();
@@ -93,25 +102,29 @@ $(function () {
         let callbackURL = window.location.origin + window.location.pathname;
         let totAmount = parseInt($amount.val());
         let clientFiscalID = $cf.val();
+        let email = $email.val();
         let clientDescription = $nome.val() + $cognome.val();
-        let invoiceType = $title_invoice.val() ? $title_invoice.val() : document.title;
+        let invoiceType = $invoiceType.val() ? $invoiceType.val() : document.title;
+        let unitaBeneficiaria = $unitaBeneficiaria.val();
+        let tributo = $tributo.val();
         let clientType = $nonmostrare.is(":checked") ? 'A' : 'F';
 
         let data = {
             "callbackURL": callbackURL,
-            "sessionID": "XXXX",
+            "sessionID": "dummy",
             "domainId": "15376371009",
-            "unitaBeneficiaria": "80050050154",
-            "tributo": "REGLOMBCOVID19",
-            "creditorTxId": "XXXXX",
+            "unitaBeneficiaria": unitaBeneficiaria,
+            "tributo": tributo,
+            "creditorTxId": "dummy",
             "activePaymentList":[{
                                     "paymentId": 1,
                                     "totAmount": totAmount,
                                     "invoiceType": invoiceType,
-                                    "dueDate": dueDate,
+                                    "dueDate": formatDateAsExpected(dueDate),
                                     "clientType": clientType,
                                     "clientDescription": clientDescription,
                                     "clientFiscalID": clientFiscalID,
+                                    "email" : email
                                     }
                                  ]
            };
@@ -121,20 +134,21 @@ $(function () {
             dataType: 'json',
             method: 'POST',
             crossDomain: true,
-            xhrFields: {
-                withCredentials: true
-            },
             contentType: 'application/json; charset=utf-8',
             data: JSON.stringify(data),
             beforeSend: function (xhr) {
-                xhr.setRequestHeader("Authorization", "Basic " + btoa(authCode) );
+                xhr.setRequestHeader("Authorization", "Basic " + authCode );
             },
             success: function( data, textStatus, jQxhr ){
-                console.log(data);
                 $paymentform.removeClass('loading');
+                if (data.result == 'OK') {
+                    window.location.href = data.redirectURL;
+                } else {
+                    $paymentformerror.text('Il server di pagamento ha riscontrato problemi, riprovare più tardi');
+                    $paymentformerror.show();
+                }
             },
             error: function( jqXhr, textStatus, errorThrown ){
-                console.log( errorThrown );
                 $paymentform.removeClass('loading');
                 $paymentformerror.text('Problemi di connessione con il server di pagamento, riprovare più tardi.');
                 $paymentformerror.show();

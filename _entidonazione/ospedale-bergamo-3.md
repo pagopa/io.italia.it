@@ -2,7 +2,9 @@
 title: Un aiuto per l'ospedale di Bergamo e gli anziani
 description: Un aiuto per l'ospedale di Bergamo e gli anziani
 lang: it
-title_invoice: Ospedale di Bergamo Papa Giovanni XXIII
+invoiceType: Ospedale di Bergamo Papa Giovanni XXIII
+unitaBeneficiaria: 80050050154
+tributo: REGLOMBCOVID19
 img: https://via.placeholder.com/464x261
 ente: Regione Lombardia
 struttura: Ospedale di Bergamo Papa Giovanni XXIII

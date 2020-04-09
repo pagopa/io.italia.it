@@ -220,7 +220,9 @@ layout: default
               <div class="small error text-center" for="paymentform">Ci sono errori nella compilazione, per favore controlla </div>
               <div class="paymentform__row8  my-4">
                 <input type="hidden" name="amount" id="amount" value="">
-                <input type="hidden" name="title_invoice" id="title_invoice" value="{{page.title_invoice}}">
+                <input type="hidden" name="invoiceType" id="invoiceType" value="{{page.invoiceType}}">
+                <input type="hidden" name="unitaBeneficiaria" id="unitaBeneficiaria" value="{{page.unitaBeneficiaria}}">
+                <input type="hidden" name="tributo" id="tributo" value="{{page.tributo}}">
                 <button type="submit" class="btn btn-primary  paymentform__submit py-3" >Paga con <img class="ml-1 mt-2" src="/assets/img/icon-pagopa-logo.svg"></button>
               </div><!--paymentform__row8-->
               <div class="donazione-detail__filetto"></div>
