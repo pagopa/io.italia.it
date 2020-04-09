@@ -7,10 +7,6 @@ dots:
     status: pending
     category: nazionale
     subitems: Pago in Rete
-  - title: "Agenzia delle Entrate-Riscossione (AdER)"
-    status: pending
-    category: nazionale
-    subitems: Emissione cartelle esattoriali, Scadanze pagamento definizione agevolata
   - title: "Regione Veneto"
     status: active
     type: medium

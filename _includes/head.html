@@ -32,7 +32,7 @@
   {% include favicons.html %}
   {% include social.html %}
 
-  {%- if jekyll.environment == 'production' or jekyll.environment == 'development' -%}
+  {%- if jekyll.environment == 'production' -%}
     {%- include analytics/google-analytics.html -%}
   {%- endif -%}
 
