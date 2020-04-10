@@ -119,7 +119,7 @@ dots:
     category: locale
     coord: [3,18] 
   - title: "Comune di Modena"
-    status: pending
+    status: active
     type: small
     category: locale
     coord: [10,18]
