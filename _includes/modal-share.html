@@ -40,11 +40,16 @@
                     <div class="input-group-text"><svg class="icon icon-sm icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-link"></use></svg></div>
                   </div>
                   <label for="input-group-3">Copia il link della pagina</label>
-                  <input type="text" class="form-control" id="input-group-3" name="input-group-3" value="{{page.url}}">
+                  <input type="text" class="form-control" id="seletext" name="seletext" value="{{site.url}}{{page.url}}">
                   <div class="input-group-append">
-                    <button class="btn btn-primary" type="button" id="button-3">Copia</button>
+                    <button onclick="copyInClipboard('seletext', 'seletextMessage')" class="btn btn-primary" type="button" id="seletextCopyBtn">Copia</button>
                   </div>
+                  
                 </div>
+                <div class="mt-5 text-center d-none" id="seletextMessage">
+                    <svg class="icon icon-success"><use xlink:href="/assets/svg/sprite.svg#it-check-circle"></use></svg>
+                    <span class="text-success">Link copiato</span>
+                  </div>
             </div>
             </div>
         </div>

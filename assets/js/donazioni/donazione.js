@@ -57,6 +57,23 @@ function stick () {
     sbManaged = true;
   }
 }
+
+// copy value js
+function copyInClipboard(id, message) {
+    let copyText = document.getElementById(id);
+    let messageText = document.getElementById(message);
+  
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /*For mobile devices*/
+
+    document.execCommand("copy");
+    
+    if (messageText!==undefined) {
+        messageText.classList.remove('d-none');
+    }
+
+  }
+
 // resize listner
 window.addEventListener('resize', () => {
   stick();
@@ -169,6 +186,7 @@ $(function () {
         $('.donazione-detail__btn[data-value="'+ $(this).data('value') +'"]').addClass('active');
         $choice.val( $(this).data('value') );
         $amount.val( $(this).data('value') );
+        $nome.focus();
     });
 
     $('.donazione-detail__sceglitu').click(function(e) {
