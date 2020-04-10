@@ -107,11 +107,13 @@ $(function () {
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top - 76
-            }, 1000);
-            if(history && "pushState" in history) {
-                history.pushState({}, document.title, window.location.pathname + hash);
-                return false;
-            }
+            }, 2000, function() {
+                if(history && "pushState" in history) {
+                    history.pushState({}, document.title, window.location.pathname + hash);
+                    return false;
+                }
+            });
+            
         }
     });
 
