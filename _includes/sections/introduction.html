@@ -8,12 +8,13 @@
       <p class="my-4">{{ page.description }}</p>
       <div class="d-flex flex-column mb-3">
         {%- if page.intro_primary_link -%}
+        {% assign checkHash = page.intro_primary_link | split:'#' %}
         <div class="py-2">
           <a
             href="{{ page.intro_primary_link }}"
             class="btn btn-primary btn-sm text-uppercase"
-            target="_blank"
-            >{{ page.intro_primary_text }}</a
+            {% if checkHash[1] %}{%else%}target="_blank"{%- endif -%}
+            >{{ page.intro_primary_text }} {{checkHash[1]}}</a
           >
           {%- if page.intro_ter_link -%}
           <br class="d-block d-lg-none">
