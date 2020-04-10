@@ -171,12 +171,14 @@ $(function () {
             }
         });
     }
-
+    
     $('.donazione-detail__colwrapper .donazione-detail__btn').click(function(e) {
         e.preventDefault();
         let valsel = $(this).data('value');
-        $('#paymentform .donazione-detail__btn[data-value="'+ valsel +'"]').trigger('click');
-
+        $('.donazione-detail__btn[data-value="'+ $(this).data('value') +'"]').addClass('active');
+        $('.donazione-detail__btn[data-value="'+ $(this).data('value') +'"]').siblings().removeClass('active');
+        $choice.val( $(this).data('value') );
+        $amount.val( $(this).data('value') );
     });
 
     $('#paymentform .donazione-detail__btn').click(function(e) {

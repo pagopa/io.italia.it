@@ -23,11 +23,11 @@
     }
     @keyframes slide-out {
         0% { transform: translateY(0); }
-        100% { transform: translateY(25vh); }
+        100% { transform: translateY(40vh); }
     }
     @-webkit-keyframes slide-out {
         0% { -webkit-transform: translateY(0); }
-        100% { -webkit-transform: translateY(25vh); }
+        100% { -webkit-transform: translateY(40vh); }
     }
     
 }
@@ -438,10 +438,5 @@ body.layout--donazione {
                 background-color: rgba($color--italia, 0.5);
             }
         }
-    }
-}
-body[data-pfvisible] .donazione-detail__colwrapper {
-    @media screen and (max-width: $grid-breakpoints-md) {
-        //display: none !important;
     }
 }

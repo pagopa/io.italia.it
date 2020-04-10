@@ -104,7 +104,6 @@ $(function () {
         if (this.hash !== "" && $(this.hash).offset()) {
             event.preventDefault();
             var hash = this.hash;
-
             $('html, body').animate({
                 scrollTop: $(hash).offset().top - 76
             }, 2000, function() {
