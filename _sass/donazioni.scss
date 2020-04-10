@@ -113,6 +113,21 @@
 
     }
 }
+body.pagename--donazioni {
+    #introduzione {
+        img {
+            width: 35%;
+            margin-left: auto;
+            position: relative;
+            bottom: -30px;
+            @media screen and (min-width: $grid-breakpoints-md) {
+                width: auto;
+                margin-left: unset;
+                bottom: unset;
+            }
+        }
+    }
+}
 
 body.layout--donazione {
     

@@ -165,7 +165,8 @@ $(function () {
     $('#paymentform .donazione-detail__btn').click(function(e) {
         e.preventDefault();
         $(this).toggleClass('active');
-        $(this).siblings().removeClass('active');
+        $('.donazione-detail__btn').removeClass('active');
+        $('.donazione-detail__btn[data-value="'+ $(this).data('value') +'"]').addClass('active');
         $choice.val( $(this).data('value') );
         $amount.val( $(this).data('value') );
     });
@@ -177,9 +178,9 @@ $(function () {
 
     function onChoice() {
         let currVal = $(this).val();
-        $('#paymentform .donazione-detail__btn').removeClass('active');
+        $('.donazione-detail__btn').removeClass('active');
         $amount.val( currVal );
-        $('#paymentform .donazione-detail__btn[data-value="'+currVal+'"]').addClass('active');
+        $('.donazione-detail__btn[data-value="'+currVal+'"]').addClass('active');
     }
 
     function resetVal() {
