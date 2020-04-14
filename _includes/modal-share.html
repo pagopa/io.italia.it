@@ -17,7 +17,7 @@
                 </a>
               </div>
               <div class="col text-center">
-                <a href="https://twitter.com/intent/tweet?lang=it&text={{page.title | url_encode}}&url={{site.url | append: page.url | url_encode}}" 
+                <a href="https://twitter.com/intent/tweet?lang=it&text={{page.title_social | default: page.title | url_encode}}&url={{site.url | append: page.url | url_encode}}" 
                    aria-label="Twitter" class="text-decoration-none modalShareButton" target="_blank">
                     <svg class="icon icon-lg icon-primary">
                       <use xlink:href="/assets/svg/sprite.svg#it-twitter"></use>
@@ -26,7 +26,7 @@
                 </a>
               </div>
               <div class="col text-center">
-                <a href="https://wa.me/?text={{page.title | url_encode}}%20-%20{{site.url | append: page.url | url_encode}}" 
+                <a href="https://wa.me/?text={{page.title_social | default: page.title | url_encode}}%20-%20{{site.url | append: page.url | url_encode}}" 
                    aria-label="WhatsApp" class="text-decoration-none modalShareButton" target="_blank">
                     <svg class="icon icon-lg icon-primary">
                       <use xlink:href="/assets/svg/sprite.svg#it-whatsapp"></use>

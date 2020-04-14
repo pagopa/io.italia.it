@@ -1,6 +1,6 @@
 ---
 title: Un aiuto per l'ospedale di Bergamo e gli anziani
-description: Un aiuto per l'ospedale di Bergamo e gli anziani
+title_social: Un aiuto per l'ospedale di Bergamo e gli anziani - IO Dono
 lang: it
 invoiceType: Ospedale di Bergamo Papa Giovanni XXIII
 unitaBeneficiaria: 80050050154
