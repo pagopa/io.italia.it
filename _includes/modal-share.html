@@ -8,7 +8,8 @@
             <div class="my-4 px-3">
             <div class="row align-items-center">
               <div class="col text-center">
-                <a href="#" aria-label="Facebook" class="text-decoration-none">
+                <a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_appid}}&display=popup&href={{site.url | append: page.url | url_encode}}"
+                   aria-label="Facebook" class="text-decoration-none modalShareButton" target="_blank">
                     <svg class="icon icon-lg icon-primary">
                       <use xlink:href="/assets/svg/sprite.svg#it-facebook"></use>
                     </svg>
@@ -16,7 +17,8 @@
                 </a>
               </div>
               <div class="col text-center">
-                <a href="#" aria-label="Twitter" class="text-decoration-none">
+                <a href="https://twitter.com/intent/tweet?lang=it&text={{page.title | url_encode}}&url={{site.url | append: page.url | url_encode}}" 
+                   aria-label="Twitter" class="text-decoration-none modalShareButton" target="_blank">
                     <svg class="icon icon-lg icon-primary">
                       <use xlink:href="/assets/svg/sprite.svg#it-twitter"></use>
                     </svg>
@@ -24,7 +26,8 @@
                 </a>
               </div>
               <div class="col text-center">
-                <a href="#" aria-label="WhatsApp" class="text-decoration-none">
+                <a href="https://wa.me/?text={{page.title | url_encode}}%20-%20{{site.url | append: page.url | url_encode}}" 
+                   aria-label="WhatsApp" class="text-decoration-none modalShareButton" target="_blank">
                     <svg class="icon icon-lg icon-primary">
                       <use xlink:href="/assets/svg/sprite.svg#it-whatsapp"></use>
                     </svg>
