@@ -275,7 +275,12 @@ $(function () {
         }
 
 
-    })
+    });
+
+    // MODAL SHARE
+    if (window.location.hash && window.location.hash=='#share') {
+        $('#modalShare').modal();
+    }
     
 
 });
