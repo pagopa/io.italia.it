@@ -12,11 +12,11 @@ redirect_from:
 
 intro_image: "/assets/img/intro-cittadini.svg"
 intro_primary_text: "App Store"
-intro_primary_link: "#newsletter"
+intro_primary_link: "https://apps.apple.com/us/app/io/id1501681835?ls=1"
 intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg ios text-uppercase px-3 px-md-5 mr-2"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Download App', 1)"
 intro_ter_text: "Play Store"
-intro_ter_link: "#newsletter"
+intro_ter_link: "https://play.google.com/store/apps/details?id=it.pagopa.io.app"
 intro_ter_customclass: "btn btn-sm btn-primary btn-download--bg android text-uppercase px-3 px-md-5 "
 intro_ter_onclick: "ga('send', 'event', 'link', 'click', 'Download App', 2)"
 disable_br: true
