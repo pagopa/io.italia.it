@@ -663,13 +663,18 @@ body.is-scrolled .section__2 .section-wrapper {
 }
 
 .btn-download {
-  background-color: transparent;
-  color: #fff;
-  border: 1px solid #fff;
+  background-color: #fff;
+  color: $color--italia;
+  min-width: 60%;
+  @media screen and (min-width: $grid-breakpoints-sm) {
+        min-width: auto;
+      }
+  
   .icon-os {
     height: 20px;
     fill: #fff;
     position: relative;
+    fill: $color--italia;
     &:hover {
       fill: $color--italia;
     }
@@ -678,10 +683,10 @@ body.is-scrolled .section__2 .section-wrapper {
     }
   }
   &:hover {
-    color: $color--italia;
-    background-color: #fff;
+    color: #fff;
+    background-color: #034c98;
     .icon-os {
-        fill: $color--italia !important;
+        fill: #fff !important;
     }
   }
   &--bg {
