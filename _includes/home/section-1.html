@@ -11,10 +11,6 @@
         <h2>l'app dei servizi pubblici</h2>
         <p class="mt-2 mt-md-4">Un unico punto di accesso per interagire in modo semplice e sicuro con i servizi pubblici locali e nazionali, direttamente dal tuo smartphone.
         </p>
-        <div class="social d-md-flex align-items-center my-5">
-        <span class="d-block d-md-inline text-white mr-md-4 my-2 my-md-0">Seguici su:</span>
-        {% include social-icons.html %}
-        </div>
         <div class="mt-3 mt-md-5">
         {% comment %}<a id="playvideo" href="#" class="btn btn-sm bg-white text-uppercase btn-video mr-3 mt-2 mt-sm-0"" target="_blank"
            data-url="https://www.youtube.com/embed/zrKOS2LiWTU?rel=0&amp;showinfo=0&amp;autoplay=1">
@@ -31,7 +27,13 @@
            onclick="ga('send', 'event', 'link', 'click', 'Download App', 2)">
             <svg class="icon icon-os android"><use xlink:href="/assets/svg/badgeicons.svg#icon-android"  /></svg> Play Store
         </a>
-        </div>
+        </div><!--/bottoni download-->
+
+        <div class="social d-md-flex align-items-center my-5">
+        <span class="d-block d-md-inline text-white mr-md-4 my-2 my-md-0">Seguici su:</span>
+        {% include social-icons.html %}
+        </div><!--/social-->
+        
         </div>
     </div>
 </div>
