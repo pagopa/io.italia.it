@@ -11,7 +11,7 @@ redirect_from:
   - /it/pa/partecipa.html
   - /pa/partecipa.html
   - /partecipa.html
-  
+index: no-index
 ---
 
 {%- include partecipa/intestazione.html -%}
