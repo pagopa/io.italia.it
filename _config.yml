@@ -25,7 +25,7 @@ twitter_username:
 github_username:
 google_verify: BNVPPeU89nJ0EEzVBq2xufxMJsV06vVPXjsEtbqEsrE
 download_url:
-  ios: "https://apps.apple.com/us/app/io/id1501681835?ls=1"
+  ios: "https://apps.apple.com/it/app/io/id1501681835"
   android: "https://play.google.com/store/apps/details?id=it.pagopa.io.app"
 
 # Build settings

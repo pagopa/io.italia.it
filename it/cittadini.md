@@ -12,7 +12,7 @@ redirect_from:
 
 intro_image: "/assets/img/intro-cittadini.svg"
 intro_primary_text: "App Store"
-intro_primary_link: "https://apps.apple.com/us/app/io/id1501681835?ls=1"
+intro_primary_link: "https://apps.apple.com/it/app/io/id1501681835"
 intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg ios text-uppercase px-3 px-md-5 mr-2"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Download App', 1)"
 intro_ter_text: "Play Store"
