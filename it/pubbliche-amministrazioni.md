@@ -11,7 +11,11 @@ redirect_from:
   - /it/pubbliche-amministrazioni/
   - /it/pa/
   - /pa/
-
+  - /it/pubbliche-amministrazioni/partecipa.html
+  - /it/pa/partecipa.html
+  - /pa/partecipa.html
+  - /partecipa.html
+  - /pubbliche-amministrazioni/partecipa.html
 intro_image: "/assets/img/intro-pa.svg"
 intro_primary_text: "consulta la guida"
 intro_primary_link: "https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a"
