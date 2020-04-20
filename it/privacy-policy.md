@@ -15,6 +15,11 @@ La presente informativa descrive le modalità del trattamento dei dati personali
 L’informativa è resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”).
 La validità dell’informativa contenuta nella presente pagina è limitata al solo Sito e non si estende ad altri siti web eventualmente consultabili mediante collegamento ipertestuale.
 
+### Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
+Il DPO di PagoPA SpA può essere contattato ai seguenti recapiti:
+* mail: [dpo@pagopa.it](mailto:dpo@pagopa.it);
+* PEC: [dpo@pec.pagopa.it](mailto:dpo@pec.pagopa.it);
+* indirizzo: Via Sardegna n. 38 - 00187, ROMA (sede operativa della società)
 
 ### Titolare del trattamento 
 
