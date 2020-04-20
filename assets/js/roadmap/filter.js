@@ -8,6 +8,7 @@ function getHash() {
 }
 
 $(document).ready(function() {
+  
   $(".filter-buttons button").click(function() {
     var $btn = $(this);
     var $siblings = $btn.siblings();
@@ -66,6 +67,10 @@ $(document).ready(function() {
         }
       });
     }
+  });
+  // in case of nextsteps we reset the filters
+  $(".filter-buttons a[href='#nextsteps']").click(function() {
+    $(".filter-buttons .btn-all").trigger('click');
   });
 
   // Apply time class

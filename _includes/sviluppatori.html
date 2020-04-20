@@ -233,14 +233,14 @@
       </div>
       <div class="row pb-5">
         <div class="col px-3 mt-4 text-center">
-          <a
+          <a onclick="{{page.intro_primary_onclick}}"
             href="{{page.intro_primary_link}}"
             target="_blank"
             class="btn btn-sm btn-white text-primary text-uppercase col-12 col-md-5 col-lg-3"
             >{{page.intro_primary_text}}</a>
             {% if page.intro_ter_link %}
             <br>
-            <a
+            <a onclick="{{page.intro_ter_onclick}}"
             href="{{page.intro_ter_link}}"
             target="_blank"
             class="btn btn-sm text-white border border-white text-uppercase col-12 col-md-5 col-lg-3 mt-3"
@@ -250,7 +250,7 @@
       </div>
       <div class="row pb-5">
         <div class="col text-center">
-          <a href="{{page.intro_secondary_link}}" class="mr-4 text-white text-hover-green d-inline-block">
+          <a onclick="{{page.intro_secondary_onclick}}" href="{{page.intro_secondary_link}}" class="mr-4 text-white text-hover-green d-inline-block">
             <svg class="icon icon-white mr-1">
               <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
             </svg>

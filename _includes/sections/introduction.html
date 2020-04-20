@@ -2,25 +2,24 @@
   class="container container--mid mb-5 d-flex{% if page.narrow %} mw-60{% endif %} {% if page.noheight %}noheight{%endif%}"
   id="introduzione"
 >
-  <div class="row px-3 px-md-0">
+  <div class="row px-3 px-md-0 w-100">
     <div class="{%- if page.intro_image -%}col-lg-7{% else %}col-lg-8{% endif %} text-primary order-2 order-md-1">
       <h1>{{ page.title }}</h1>
       <p class="my-4">{{ page.description }}</p>
       <div class="d-flex flex-column mb-3">
         {%- if page.intro_primary_link -%}
         <div class="py-2">
-          <a
+          <a target="_blank"
             href="{{ page.intro_primary_link }}"
-            class="btn btn-primary btn-sm text-uppercase"
-            target="_blank"
-            >{{ page.intro_primary_text }}</a
-          >
+            class="{{page.intro_primary_customclass | default: 'btn btn-primary btn-sm text-uppercase'}}"
+            {%- if page.intro_primary_onclick -%} onclick="{{page.intro_primary_onclick}}" {%- endif -%}
+            >{{ page.intro_primary_text }} </a>
           {%- if page.intro_ter_link -%}
-          <br class="d-block d-lg-none">
-           <a
+           {% if page.disable_br %} {%else%}<br class="d-block d-lg-none">{%endif%}
+           <a target="_blank"
             href="{{ page.intro_ter_link }}"
-            class="btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0" 
-            target="_blank"
+            class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}" 
+            {% if page.intro_ter_onclick %}onclick="{{page.intro_ter_onclick}}"{% endif %}
             >{{ page.intro_ter_text }}</a>
           {%- endif %}
         </div>
@@ -32,10 +31,10 @@
             <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
           </svg>
           {%- endif %}
-          <a
+          <a target="_blank"
             href="{{ page.intro_secondary_link }}"
             class="small"
-            target="_blank"
+            {%- if page.intro_secondary_onclick -%} onclick="{{page.intro_secondary_onclick}}" {%- endif -%}
           >
             {{ page.intro_secondary_text }}
           </a>

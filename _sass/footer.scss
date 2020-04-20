@@ -7,8 +7,13 @@
     text-align: left;
   }
 
+  &__badges {
+    font-size: 1rem;
+    color: #fff;  
+  }
+
   .social {
-    font-size: 1.2em;
+    font-size: 1rem;
     color: #fff;
     & > span {
       margin-right: 10px;

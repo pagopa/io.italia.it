@@ -1,5 +1,9 @@
 $(function () {
 
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    });
+
     function managePageOffset() {
         if ($(window).scrollTop() > $('.section__1').height() - 50) {
             $('body').addClass('is-scrolled');

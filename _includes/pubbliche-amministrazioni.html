@@ -176,22 +176,24 @@
               <p class="text-white mt-4">
                 Definisci come comunicare ai cittadini che potranno ?ricevere i tuoi servizi anche ?tramite l’app IO.
               </p>
-              <a
-                href="https://drive.google.com/a/pagopa.it/file/d/1qWkAroE9afWb3hXpPukmXFHo_YnRD-I9/view?usp=sharing"
-                class="btn btn-outline-white btn-icon text-left mt-auto w-100 justify-content-start"
+              <div
+                class="position-relative btn btn-outline-white btn-icon text-left mt-auto w-100 justify-content-start"
               >
                 <svg class="icon mr-2 cta">
                   <use xlink:href="/assets/svg/pub-amm.svg#srv_kit_comm"></use>
                 </svg>
-                <span class="text-uppercase">kit <br>comunicazione</span>
-              </a>
+                <span class="text-uppercase">kit <br>comunicazione
+                </span>
+                <span class="badge badge-light notavailable">Presto disponibile</span>
+                
+              </div>
             </div>
           </div>
         </div>
       </div>
       <div class="row">
           <div class="col-12 py-2 py-md-5 text-center">
-          <a href="{{page.intro_primary_link}}" target="_blank" class="btn btn-sm btn-white text-primary text-uppercase ">{{page.intro_primary_text}}</a>
+          <a href="{{page.intro_primary_link}}" onclick="ga('send', 'event', 'link', 'click', 'Guida Enti', 1)" target="_blank" class="btn btn-sm btn-white text-primary text-uppercase ">{{page.intro_primary_text}}</a>
           </div>
       </div>
     </div>
@@ -444,7 +446,7 @@ Il codice è sviluppato mettendo in pratica le best practice OWASP e vengono uti
       </div>
       <div class="row pb-5">
         <div class="col px-3 mt-4 text-center">
-          <a
+          <a onclick="ga('send', 'event', 'link', 'click', 'Guida Enti', 1)"
             href="h{{page.intro_primary_link}}"
             target="_blank"
             class="btn btn-sm btn-white text-primary text-uppercase col-12 col-md-5 col-lg-3"
@@ -453,7 +455,8 @@ Il codice è sviluppato mettendo in pratica le best practice OWASP e vengono uti
       </div>
       <div class="row pb-5">
         <div class="col text-center">
-          <a href="{{page.intro_secondary_link}}" class="text-white text-hover-green">
+          <a href="{{page.intro_secondary_link}}" class="text-white text-hover-green"
+             onclick="ga('send', 'event', 'link', 'click', 'Chiedi info enti', 1)">
             <svg class="icon icon-white mr-1">
               <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
             </svg>

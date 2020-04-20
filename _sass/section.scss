@@ -416,6 +416,25 @@
   }
 }
 
+.section__14 {
+  .text-desc {
+    font-size: 1.1rem;
+    color: #5C6F82;
+  }
+}
+.section__15 {
+  background-color: $color--italia;
+  background-image: url('/assets/img/home-sezione-download.jpg');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  background-position-y: center;
+  position: relative;
+  max-height: 400px;
+
+  
+}
+
 body.is-scrolled .section__2 .section-wrapper {
   @media screen and (min-width: $grid-breakpoints-lg) {
     margin-top: 39px;
@@ -464,6 +483,7 @@ body.is-scrolled .section__2 .section-wrapper {
       border-color: #034c98;
     }
   }
+  
 
   &_img {
     position: relative;
@@ -526,10 +546,10 @@ body.is-scrolled .section__2 .section-wrapper {
         width: 80%;
       }
       @media screen and (min-width: $grid-breakpoints-lg) {
-        width: 50%;
+        width: 60%;
       }
       @media screen and (min-width: $grid-breakpoints-xl) {
-        width: 40%;
+        width: 50%;
       }
       p {
         color: #fff;
@@ -638,6 +658,55 @@ body.is-scrolled .section__2 .section-wrapper {
     z-index: 9999;
     @media (max-width: 767px) and (orientation: landscape) {
       display: none;
+    }
+  }
+}
+
+.btn-download {
+  background-color: #fff;
+  color: $color--italia;
+  min-width: 60%;
+  @media screen and (min-width: $grid-breakpoints-sm) {
+        min-width: auto;
+      }
+  
+  .icon-os {
+    height: 20px;
+    fill: #fff;
+    position: relative;
+    fill: $color--italia;
+    &:hover {
+      fill: $color--italia;
+    }
+    &.ios {
+    top: -2px;
+    }
+  }
+  &:hover {
+    color: #fff;
+    background-color: #034c98;
+    .icon-os {
+        fill: #fff !important;
+    }
+  }
+  &--bg {
+    display: inline-flex;
+    align-items: center;
+    &.ios {
+      &:before {
+      content: url('/assets/img/icon-appstore.svg');
+      position: relative;
+      top: 2px;
+      left: -4px;
+      }
+    }
+    &.android {
+      &:before {
+      content: url('/assets/img/icon-playstore.svg');
+      position: relative;
+      top: 2px;
+      left: -4px;
+      }
     }
   }
 }
