@@ -439,4 +439,27 @@ body.layout--donazione {
             }
         }
     }
+    .modal {
+        &-content {
+            border-radius: 1rem;
+        }
+
+        &-dialog {
+            max-width: 550px;
+        }
+        &-header {
+            position: relative;
+            h3 {
+                color: $color--italia;
+            }
+            button {
+                position: absolute;
+                right: -0.5rem;
+                top: .8rem;
+            }
+            .icon {
+                fill: #CCD7E1;
+            }
+        }
+    }
 }
