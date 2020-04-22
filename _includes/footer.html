@@ -11,9 +11,9 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-4 ">
-        <div class="footer__badges">
+        <div class="footer__badges px-2 my-2 px-md-0 my-md-0">
           <p>Scarica l'app:</p>
-          <ul class="col list-inline m-0">
+          <ul class="col list-inline m-0 p-0">
             <li class="list-inline-item">
               <a href="{{site.download_url.ios}}" title="Scarica da App Store"
                  onclick="ga('send', 'event', 'link', 'click', 'Download App: iOS', 1)">
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="col-sm-12 col-md-4 ">
-        <div class="text-right social">
+        <div class="text-right social px-2 my-2 px-md-0 my-md-0">
           <span>{{t.seguici}}</span>
           {% include social-icons.html %}
         </div>
@@ -48,7 +48,7 @@
             {% include internal-link.html target='security' class='small-prints' string=t.sicurezza %}
         </li>
       </ul>
-      <p class="small text-white">{{t.footer_disclaimer}}</p>
+      <p class="small text-white px-1">{{t.footer_disclaimer}}</p>
     </div>
 
   </div>
