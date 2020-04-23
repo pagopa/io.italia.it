@@ -3,6 +3,17 @@ let sb = stickybits(elToStick, {useStickyClasses: true, stickyBitStickyOffset:80
 let sbManaged = true;
 let elpaymentform = document.getElementById("paymentform");
 
+// Grazie div
+if (window.location.hash && window.location.hash=='#grazie') {
+    let donor_name_placeholder = document.getElementById("donor_name");
+    if(sessionStorage) {
+        let donor_name = sessionStorage.getItem("donor_name");
+        donor_name_placeholder.textContent = donor_name;
+    }
+    
+    document.body.classList.add("grazie");
+}
+
 // test if an element is in viewport
 function isElementInViewport(el) {
     let top = el.offsetTop;
@@ -116,7 +127,7 @@ $(function () {
     function sendData() {
         let dueDate = new Date();
         dueDate.setDate(dueDate.getDate() + 1);
-        let callbackURL = window.location.origin + window.location.pathname;
+        let callbackURL = window.location.origin + window.location.pathname + "#grazie";
         let totAmount = parseInt($amount.val()) * 100; // pagopa process an amount by cents
         let clientFiscalID = $cf.val();
         let email = $email.val();
@@ -158,6 +169,10 @@ $(function () {
             success: function( data, textStatus, jQxhr ){
                 $paymentform.removeClass('loading');
                 if (data.result == 'OK') {
+                    if(sessionStorage) {
+                        // Store sessionstorage
+                        sessionStorage.setItem("donor_name", $nome.val());
+                    }
                     window.location.href = data.redirectURL;
                 } else {
                     $paymentformerror.text('Il server di pagamento ha riscontrato problemi, riprovare più tardi');

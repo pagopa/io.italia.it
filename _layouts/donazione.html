@@ -15,6 +15,25 @@ layout: default
     </div>
     <section class="container container--mid">
       <div class="row donazione-detail__bg">
+        
+          <div class="donazione-detail__grazie my-3 my-md-5 p-2 p-md-4 flex-row flex-wrap align-items-center justify-content-between">
+            <div class="donazione-detail__grazieimg my-2 text-center d-flex flex-shrink-1 mr-2 md-0">
+              <img src="/assets/img/ill-handshake.svg" alt="Grazie!">
+            </div><!--/detail__grazieimg-->
+            <div class="donazione-detail__graziebody my-2 d-flex flex-column flex-grow-1 ml-2 mr-0 mr-md-4 ml-md-4 pr-0 pr-md-4">
+              <div class="donazione-detail__graziestring">Grazie <span id="donor_name"></span>!</div>
+              <div class="">Il tuo contributo è prezioso: <b>condividi sui social</b> questa campagna e invita i tuoi amici a fare come te!</div>
+            </div>
+            <div class="donazione-detail__grazieshare my-2 flex-grow-1 ml-0 ml-md-2">
+                <div class="donazione-detail__share">
+                    <a href="#" title="Condividi" data-toggle="modal" data-target="#modalShare"
+                       class="bg-white" >
+                    <img src="/assets/img/icon-share-love.svg" class="mr-1 mb-1">
+                    CONDIVIDI</a>
+                </div>
+            </div>
+          </div><!--/detail__grazie-->
+        
         <div class="col-12 col-md-6 order-2 order-md-1">
           <h6 class="donazione-detail__label d-none d-md-block"><a title="Guarda tutte le campagne" class="py-2" href="/donazioni/">IO Dono</a></h6>
           <h2 class="donazione-detail__title m-0 my-md-4 px-3 px-md-0">{{page.title}}</h2>

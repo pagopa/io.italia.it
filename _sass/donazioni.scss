@@ -145,6 +145,9 @@ body.layout--donazione {
             z-index: -1;
 
         }
+        &.grazie:after {
+            height: 46rem;
+        }
     }
 
     .donazione-detail {
@@ -343,7 +346,30 @@ body.layout--donazione {
                 text-align: center;
             }
         }
-
+        &__grazie {
+            background-color: $color--italia;
+            border-radius: 8px;
+            color: #fff;
+            display: none;
+            
+            &string {
+                color: #fff;
+                font-size: 1.5rem;
+                line-height: 2rem;
+                font-weight: 600;
+            }
+            &img img {
+                width: 80px;
+                max-width: 100%;
+                @media screen and (min-width: $grid-breakpoints-md) {
+                    width: auto;
+                }
+            }
+            &body {
+                flex-basis: 50%;
+            }
+        }
+        
         
 
     }
@@ -463,3 +489,14 @@ body.layout--donazione {
         }
     }
 }
+body.grazie .donazione-detail__grazie {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+}
+body.grazie .internal-page.donazione-detail {
+    @media screen and (min-width: $grid-breakpoints-md) {
+        margin-top: 6rem;
+    }
+}
+
