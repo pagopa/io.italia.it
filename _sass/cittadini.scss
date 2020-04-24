@@ -3,11 +3,14 @@
     margin-bottom: -48px;
 
     .screenshot {
-      max-width: 260px;
+      max-width: 240px;
       &.rounded {
         border-radius: 22px !important;
       }
-      @media screen and (min-width: $grid-breakpoints-md) {
+      @media screen and (min-width: $grid-breakpoints-md) and (max-width: $grid-breakpoints-lg) {
+        max-width: 100%;
+      }
+      @media screen and (min-width: $grid-breakpoints-lg) {
         max-width: unset;
       }
     }
