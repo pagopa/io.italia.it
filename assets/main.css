@@ -996,11 +996,13 @@ body.layout--home .tooltip .arrow { display: none; }
 
 .page-cittadini { margin-bottom: -48px; }
 
-.page-cittadini .screenshot { max-width: 260px; }
+.page-cittadini .screenshot { max-width: 240px; }
 
 .page-cittadini .screenshot.rounded { border-radius: 22px !important; }
 
-@media screen and (min-width: 768px) { .page-cittadini .screenshot { max-width: unset; } }
+@media screen and (min-width: 768px) and (max-width: 992px) { .page-cittadini .screenshot { max-width: 100%; } }
+
+@media screen and (min-width: 992px) { .page-cittadini .screenshot { max-width: unset; } }
 
 .page-cittadini .ico-commenti { width: 62px; height: 49px; }
 
