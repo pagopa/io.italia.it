@@ -96,15 +96,25 @@ $(document).ready(function() {
   });
 
   // go-to next on load
-  var nextHash = getHash();
-  var $nextBtn = $("a[href='#nextsteps']");
-  var $nextDiv = $("#nextsteps");
-  if (nextHash!='' && $nextBtn) {
+  var hasHash = getHash();
+  
+  if (hasHash!='' && hasHash=='nextsteps' &&  $nextBtn) {
+      var $nextBtn = $("a[href='#nextsteps']");
+      var $nextDiv = $("#nextsteps");
       var offset =  $nextDiv.offset();
       window.scroll({
           top: offset.top - 100, 
           left: 0, 
           behavior: 'smooth'
         });
+  } else if (hasHash!='') {
+      var $anchor = $("a[name="+hasHash+"]");
+      var offset =  $anchor.offset();
+      window.scroll({
+        top: offset.top - 76, 
+        left: 0, 
+        behavior: 'smooth'
+      });
+
   }
 });
