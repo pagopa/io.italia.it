@@ -103,8 +103,10 @@ $(function () {
     // FIELDS
     const $choice = $('#choice');
     const $amount = $('#amount');
+    const $perimpresa = $('#perimpresa');
     const $nome = $('#nome');
     const $cognome = $('#cognome');
+    const $ragsociale = $('#ragsociale');
     const $email = $('#email');
     const $cf = $('#cf');
     const $privacypol = $('#privacypol');
@@ -127,11 +129,12 @@ $(function () {
     function sendData() {
         let dueDate = new Date();
         dueDate.setDate(dueDate.getDate() + 1);
+        let impresa = $perimpresa.is(":checked") ? true : false;
         let callbackURL = window.location.origin + window.location.pathname + "#grazie";
         let totAmount = parseInt($amount.val()) * 100; // pagopa process an amount by cents
         let clientFiscalID = $cf.val();
         let email = $email.val();
-        let clientDescription = $nome.val() +" "+ $cognome.val();
+        let clientDescription = impresa==true ? $nome.val() +" "+ $cognome.val() : $ragsociale.val();
         let invoiceType = $invoiceType.val() ? $invoiceType.val() : document.title;
         let unitaBeneficiaria = $unitaBeneficiaria.val();
         let tributo = $tributo.val();
@@ -210,6 +213,11 @@ $(function () {
         $choice.focus();
     });
 
+    $('[data-toggle]').click(function(e){
+        let toToggle = $(this).data('toggle');
+        $('.'+toToggle).toggleClass('d-none');
+    });
+
 
     function onChoice() {
         let currVal = $(this).val();
@@ -238,9 +246,11 @@ $(function () {
         let amount = parseInt($amount.val());
         let nome = $nome.val();
         let cognome = $cognome.val();
+        let ragsociale = $ragsociale.val();
         let email = $email.val();
         let cf = $cf.val();
         let errors = false;
+        let impresa = $perimpresa.is(":checked") ? true : false
 
         if (amount < 1 || Number.isNaN(amount) || typeof(amount) !=='number') {
             $choice.addClass('inputerror');
@@ -248,10 +258,14 @@ $(function () {
             errors = true;
         }
 
-        if (nome.length < 1 || cognome.length < 1) {
+        if (impresa==false && (nome.length < 1 || cognome.length < 1)) {
             $nome.addClass('inputerror');
             $cognome.addClass('inputerror');
             $(".error[for='" + $nome.attr('id') +"']").show();
+            errors = true;
+        } else if (impresa==true && ragsociale.length<1) {
+            $ragsociale.addClass('inputerror');
+            $(".error[for='" + $ragsociale.attr('id') +"']").show();
             errors = true;
         }
 

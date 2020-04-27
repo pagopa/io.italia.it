@@ -152,6 +152,10 @@ body.layout--donazione {
 
     .donazione-detail {
 
+        label {
+            font-size: 1.1rem;
+        }
+
         &__wrapper {
             @media screen and (min-width: $grid-breakpoints-md) {
                 -webkit-box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);

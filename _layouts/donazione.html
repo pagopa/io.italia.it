@@ -198,7 +198,13 @@ layout: default
                 </div>  
               </div><!-- /paymentform__row2-->
               <div class="small error text-md-right" for="choice">Inserire un importo superiore a 0</div>
-              <div class="paymentform__row3  my-3 row">
+              <div class="paymentform__row2b  my-3">
+                <div class="form-check">
+                  <input id="perimpresa" name="perimpresa" type="checkbox" data-toggle="source" >
+                  <label for="perimpresa" class="pt-1 pt-md-0">Dono per conto di un'impresa o altra persona giuridica</label>
+                </div>
+              </div><!--/paymentform__row2b-->
+              <div class="paymentform__row3  my-3 row source">
                 <div class="col">
                   <div>Nome *</div>
                   <input type="text" min="1" name="nome" class="" id="nome" required>
@@ -209,6 +215,12 @@ layout: default
                 </div>
               </div><!--/paymentform__row3-->
               <div class="small error text-left" for="nome">Inserire correttamente Nome e Cognome</div>
+              <div class="paymentform__row3b  my-3 source d-none" >
+                <div class="mt-3 mt-md-0">Ragione Sociale *</div>
+                <input type="text"  name="ragsociale" class="" id="ragsociale"  >
+                <div class="small error text-left" for="ragsociale">Inserire correttamente la Ragione Sociale</div>
+              </div><!--paymentform__row3b-->
+              
               <div class="paymentform__row4  my-3">
                 <div class="form-check">
                   <input id="nonmostrare" name="nonmostrare" type="checkbox" >
@@ -226,7 +238,7 @@ layout: default
                 <div>Il tuo codice fiscale *
                 <span class="small float-right">serve per la <a href="#" class="text-decoration-none">detrazione</a></span>
                 </div>
-                <input type="text"  name="cf" class="" id="cf" pattern="^[a-zA-Z]{6}[0-9]{2}[a-zA-Z][0-9]{2}[a-zA-Z][0-9]{3}[a-zA-Z]$" >
+                <input type="text"  name="cf" class="" id="cf"  >
                 <div class="small error" for="cf">Il codice fiscale inserito non è corretto</div>
               </div><!--paymentform__row6-->
               <div class="paymentform__row7  my-3">
