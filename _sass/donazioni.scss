@@ -476,6 +476,13 @@ body.layout--donazione {
 
         &-dialog {
             max-width: 550px;
+            margin-left: 24px;
+            margin-right: 24px;
+            @media screen and (min-width: $grid-breakpoints-md) {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
         }
         &-header {
             position: relative;

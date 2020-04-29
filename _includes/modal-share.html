@@ -3,7 +3,7 @@
   <div class="modal-dialog  modal-dialog-centered" role="document">
       <div class="modal-content p-2 p-md-4">
         <div class="modal-header">
-                <h3>Condividi il tuo aiuto!</h3>
+                <h3 class="mr-2">Condividi il tuo aiuto!</h3>
                 <button class="close p-0 m-0" type="button" data-dismiss="modal" aria-label="Close" >
                   <svg class="icon icon-xl">
                      <use xlink:href="/assets/svg/sprite.svg#it-close"></use>
@@ -12,7 +12,7 @@
         </div>
         <div class="modal-body pt-0">
             <p class="pr-0 pr-md-3">I tuoi amici possono fare la differenza: condividi con loro la campagna e chiedi anchè il loro aiuto!</p>
-            <div class="my-4 px-3">
+            <div class="my-4 px-md-3">
             <div class="row align-items-center">
               <div class="col text-center">
                 <a href="https://www.facebook.com/dialog/share?app_id={{site.facebook_appid}}&display=popup&href={{site.url | append: page.url | url_encode}}"
@@ -49,8 +49,8 @@
                   <div class="input-group-prepend">
                     <div class="input-group-text"><svg class="icon icon-sm icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-link"></use></svg></div>
                   </div>
-                  <label for="input-group-3">Copia il link della pagina</label>
-                  <input type="text" class="form-control" id="seletext" name="seletext" value="{{site.url}}{{page.url}}">
+                  <label for="input-group-3" class="pb-2 pb-md-0">Copia il link della pagina</label>
+                  <input type="text" class="form-control mt-2" id="seletext" name="seletext" value="{{site.url}}{{page.url}}">
                   <div class="input-group-append">
                     <button onclick="copyInClipboard('seletext', 'seletextMessage')" class="btn btn-primary" type="button" id="seletextCopyBtn">Copia</button>
                   </div>
