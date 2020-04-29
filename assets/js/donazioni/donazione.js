@@ -138,7 +138,14 @@ $(function () {
         let invoiceType = $invoiceType.val() ? $invoiceType.val() : document.title;
         let unitaBeneficiaria = $unitaBeneficiaria.val();
         let tributo = $tributo.val();
-        let clientType = $nonmostrare.is(":checked") ? 'A' : 'F';
+        let nonmostrare = $nonmostrare.is(":checked") ? true : false;
+        let clientType;
+
+        if (nonmostrare==true) {
+            let clientType = impresa==true ? 'B' : 'A';
+        } else {
+            let clientType = impresa==true ? 'G' : 'F';
+        }
 
         let data = {
             "callbackURL": callbackURL,
@@ -166,6 +173,7 @@ $(function () {
             crossDomain: true,
             contentType: 'application/json; charset=utf-8',
             data: JSON.stringify(data),
+            timeout: 15000,
             beforeSend: function (xhr) {
                 xhr.setRequestHeader("Authorization", "Basic " + authCode );
             },
@@ -275,7 +283,12 @@ $(function () {
             errors = true;
         }
 
-        if (validateCF(cf)==false) {
+
+        if (impresa==false && validateCF(cf)==false) {
+            $cf.addClass('inputerror');
+            $(".error[for='" + $cf.attr('id') +"']").show();
+            errors = true;
+        } else if (impresa==true && cf.length<11) {
             $cf.addClass('inputerror');
             $(".error[for='" + $cf.attr('id') +"']").show();
             errors = true;
