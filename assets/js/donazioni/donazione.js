@@ -221,8 +221,8 @@ $(function () {
         $choice.focus();
     });
 
-    $('[data-toggle]').click(function(e){
-        let toToggle = $(this).data('toggle');
+    $('[data-togglefield]').click(function(e){
+        let toToggle = $(this).data('togglefield');
         $('.'+toToggle).toggleClass('d-none');
     });
 
