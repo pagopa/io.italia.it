@@ -1,7 +1,7 @@
 ---
 layout: naked
-title: La Newsletter di IO
-description: Le novità, gli aggiornamenti e le informazioni sulle nuove funzionalità dell'app dei servizi pubblici
+title: La Newsletter
+description: Le novità, gli aggiornamenti e le informazioni sull’app dei servizi pubblici
 lang: it
 image: /assets/img/social-card-newsletter.jpg
 permalink: /newsletter/
