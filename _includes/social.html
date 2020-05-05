@@ -9,6 +9,7 @@
 <meta name="twitter:image" content="{{ site.url | append: imageurl }}">
 
 <!-- Facebook -->
+<meta property="fb:app_id" content="{{ site.facebook_appid }}">
 <meta property="og:url" content="{{ site.url | append: page.url }}">
 <meta property="og:title" content="{{ page.title_social | default: page.title | default: site.title[current_lang] | append: ' - ' |  append: site.title[current_lang] | smartify }}">
 <meta property="og:description" content="{{ page.description_social | default: page.description | default: site.description[current_lang] | smartify }}">
