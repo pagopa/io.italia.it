@@ -12,7 +12,7 @@ redirect_from:
 
 intro_image: "/assets/img/intro-giornalisti.svg"
 intro_primary_text: "Leggi il nostro blog"
-intro_primary_link: "https://medium.com/team-per-la-trasformazione-digitale/progetto-io-app-servizi-pubblici/home"
+intro_primary_link: "https://medium.com/io-lapp-dei-servizi-pubblici"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Leggi blog', 1)"
 intro_secondary_text: "Richiedi informazioni"
 intro_secondary_link: "mailto:media@io.italia.it"
