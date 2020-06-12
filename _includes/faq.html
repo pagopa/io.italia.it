@@ -20,11 +20,11 @@
           {% capture findex %}{% increment findex %}{% endcapture %}
           <a name="n{{findex}}"></a>
           <div class="collapse-header" id="heading{{findex}}">
-            <button data-toggle="collapse" data-nfaq="n{{findex}}" data-target="#accordion{{findex}}" aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{findex}}">
+            <button data-toggle="collapse" data-nfaq="n{{findex}}" data-target="#accordion{{findex}}" aria-expanded="false" aria-controls="accordion{{findex}}">
               {{f.title}}
             </button>
           </div>
-          <div id="accordion{{findex}}" class="collapse {% if forloop.first %}show{% endif %}" role="tabpanel" aria-labelledby="heading{{findex}}" data-parent="#accordionDivFAQ{{gindex}}">
+          <div id="accordion{{findex}}" class="collapse " role="tabpanel" aria-labelledby="heading{{findex}}" data-parent="#accordionDivFAQ{{gindex}}">
             <div class="collapse-body">
               {{f.body | markdownify }}
             </div>
