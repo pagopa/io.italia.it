@@ -179,16 +179,30 @@ $(function () {
     $('.js-nl-groups .js-nl-group-option')
         .on('change', onFieldsChange);
 
-    // HOMEPLAYER
-    $("#playvideo").click( function(e) {
+    
+    $(".playvideo").click( function(e) {
         e.preventDefault();
         var src = $(this).attr("data-url");
-        $(".overlay-video").show();
-        $("#player").attr("src", src);
-        setTimeout(function() {
-            $(".overlay-video").addClass("o1");
-            
-        }, 100);
+        var replace = $(this).attr("data-replace");
+        var $elVideoWrapper = $(this).siblings(".videoWrapper");
+        var $button = $(this);
+        
+        if (replace) {
+            var elToReplace = $(replace);
+            $elVideoWrapper.children("iframe").attr("src",src);
+            elToReplace.fadeOut( 1000, function() {
+                $button.hide();
+                $elVideoWrapper.removeClass('d-none');
+                
+              });
+        } else {
+            $(".overlay-video").show();
+            $("#player").attr("src", src);
+            setTimeout(function() {
+                $(".overlay-video").addClass("o1");
+                
+            }, 100);
+        }
     });
     
     $(".overlay-video").click(function(event) {

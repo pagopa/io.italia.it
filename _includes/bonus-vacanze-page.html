@@ -27,9 +27,12 @@
           <p class="small pr-0 pr-md-3">*per ora solo su Android: il login con CIE per dispositivi iOS sarà disponibile entro il 1° Luglio</p>
           <div class="my-3 my-md-5">
             
-            <a class="btn btn-sm btn-outline-primary text-uppercase play-button bg-white" href="#">
+            <a class="btn btn-sm btn-outline-primary text-uppercase play-button bg-white playvideo" 
+               target="_blank" data-url="https://www.youtube.com/embed/70nZa1SlFPw?autoplay=1&rel=0" href="#">
             Accedi con SPID
             </a>
+
+            {% include videoplayer.html %}
           </div>
           <div class="">
             <span class="text-primary text-uppercase font-weight-bold">Non hai SPID?</span>
@@ -125,7 +128,12 @@
                     <p class="text-white text-center mx-2 mx-md-5 px-2 px-md-5">Guarda il video realizzato dal Ministero per i Beni e le Attività Culturali e per il Turismo</p>
                 </div>
                 <div class="col-12 text-center ">
-                <img class="img-fluid my-3 my-md-5"  src="/assets/img/bonus-vacanze/splash.jpg" alt="Scopri di più sul Bonus Vacanze">
+                <a href="#" target="_blank" class="playvideo" data-url="https://www.youtube.com/embed/FdPXYBUXqXA?autoplay=1&rel=0" data-replace="#bonusvideo">
+                <img class="img-fluid my-3 my-md-5" id="bonusvideo"  src="/assets/img/bonus-vacanze/splash.jpg" alt="Scopri di più sul Bonus Vacanze">
+                </a>
+                <div class="videoWrapper d-none">
+                <iframe  width="656" height="369" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
                 </div>
             </div><!--/row-->
         </div>
