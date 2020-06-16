@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+{% assign t = site.data.t[current_lang] %}
+{%- include navigation-slim.html -%}
+{%- include navigation.html -%}
+
+<div class="internal-page w-slides">
+  <div class="page-wrapper">
+  {% if page.bannersup %}
+    <div class="bannersup p-3">
+        <div class="container container--mid">
+        {{page.bannersup.label}}
+        </div>
+    </div>
+  {% endif %}
+  {% if page.introduction_slides %}
+    {% assign slides = page.introduction_slides %}
+    <div class="intro-slider-wrapper">
+    <div id="intro-slider" class="carousel slide carousel-fade " data-ride="carousel">
+    <ul class="carousel-indicators">
+        {% for slide in slides %}
+        <li data-target="#intro-slider" data-slide-to="{{forloop.index0}}" class="{% if forloop.first %}active{%endif%}"></li>
+        {% endfor %}
+    </ul>
+    <div class="carousel-inner">
+        {% for slide in slides %}
+        <div class="carousel-item {% if forloop.first %}active{%endif%} text-center">
+        <img src="{{slide}}" alt="">
+        </div>
+        {% endfor %}
+    </div>
+    </div>
+    </div><!--intro-slider-wrapper-->
+    {% endif %}
+  <article class="{{ page.layout }}">
+    {% include sections/introduction.html %} {% if page.narrow %}
+    <div class="container mw-60">
+      {% endif %}
+      <div class="internal-page__content mb-5">
+        {{content}}
+      </div>
+      {% if page.narrow %}
+    </div>
+    {% endif %}
+  </article>
+  </div>
+</div>
+
+{%- include footer.html -%} {%- include cookiebar.html -%}

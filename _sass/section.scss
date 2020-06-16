@@ -126,6 +126,20 @@
   }
 }
 
+.section__bonus {
+  background-color: #2D489D;
+  z-index: 10;
+  img {
+    width: 150px;
+  }
+  .lead {
+    font-size: 1rem;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      font-size: 1.2rem;
+    }
+  }
+}
+
 .section__7 {
   background-color: #F2F7FC;
   
@@ -706,6 +720,40 @@ body.is-scrolled .section__2 .section-wrapper {
       position: relative;
       top: 2px;
       left: -4px;
+      }
+    }
+  }
+  &--w-icon {
+    display: inline-flex;
+    align-items: center;
+    &.ios {
+      &:before {
+      content: url('/assets/img/icon-appstore--blu.svg');
+      position: relative;
+      top: 2px;
+      left: -4px;
+      fill: red;
+      }
+    }
+    &.android {
+      &:before {
+      content: url('/assets/img/icon-playstore--blu.svg');
+      position: relative;
+      top: 2px;
+      left: -4px;
+      fill: red;
+      }
+    }
+    &:hover {
+      &.ios {
+        &:before {
+        content: url('/assets/img/icon-appstore.svg');
+        }
+      }
+      &.android {
+        &:before {
+        content: url('/assets/img/icon-playstore.svg');
+        }
       }
     }
   }
