@@ -1,49 +1,94 @@
 it:
-  - title: Quando potrò installare la app?
-    body: "IO è già disponibile negli app store [Android](https://play.google.com/store/apps/details?id=it.pagopa.io.app) e [iOS](https://apps.apple.com/it/app/io/id1501681835), con una prima versione beta pubblica (_open beta_). Questo da inizio al percorso che, progressivamente, porterà tutti i cittadini italiani ad avere dei nuovi servizi pubblici digitali moderni e centrati sulle loro esigenze."
-  - title: Cosa significa che l'app uscirà negli store in versione open beta? 
-    body: "Dal marzo 2019 circa duemila cittadini in diversi territori hanno sperimentato l’app in versione _closed-beta_ (beta “chiusa”): abbiamo dato la possibilità a un numero limitato di persone, invitate dagli Enti che per primi hanno aderito al progetto (ACI, Comuni di Milano, Torino, Palermo, Ripalta Cremasca e Valsamoggia), di installare e testare IO sul proprio smartphone con un primo set di funzionalità e servizi reali. Con l’arrivo di IO negli store, renderemo disponibile la versione beta “aperta” dell'app (_open beta_) a tutti i cittadini. \
-    Significa che **chiunque lo desideri potrà scaricare e installare IO sul proprio smartphone, partecipando alla sperimentazione di un prodotto che non è ancora** al pieno delle sue potenzialità, ma che evolverà e migliorerà continuamente anche grazie all’esperienza diretta e ai feedback delle persone a cui è destinato. "
+  - title: Come posso installare l'app?
+    body: "IO è disponibile negli app store [Android](https://play.google.com/store/apps/details?id=it.pagopa.io.app) e [iOS](https://apps.apple.com/it/app/io/id1501681835), con una prima versione beta pubblica (open beta).\ 
+    La pubblicazione dell’app IO lo scorso aprile  ha dato inizio al percorso che, progressivamente,\ 
+    porterà tutti i cittadini italiani ad avere dei nuovi servizi pubblici digitali moderni e centrati sulle loro esigenze."
+    cat: "1|Generali"
+  - title: Cosa significa che l'app è disponibile negli store in versione open beta? 
+    body: "Dal marzo 2019 circa duemila cittadini in diversi territori hanno sperimentato l’app in versione _closed-beta_ (beta “chiusa”): abbiamo dato la possibilità a un numero limitato di persone,\
+     invitate dagli Enti che per primi hanno aderito al progetto (ACI, Comuni di Milano, Torino, Palermo, Ripalta Cremasca e Valsamoggia),\ 
+     di installare e testare IO sul proprio smartphone con un primo set di funzionalità e servizi reali.\ 
+     Con l’arrivo di IO negli store nella primavera 2020, abbiamo reso disponibile la versione beta “aperta” dell'app (_open beta_) a tutti i cittadini.\ 
+     Significa che **chiunque lo desideri può scaricare e installare IO sul proprio smartphone, partecipando alla sperimentazione di un prodotto che non è ancora** al pieno delle sue potenzialità,\ 
+     ma che evolverà e migliorerà continuamente anche grazie all’esperienza diretta e ai feedback delle persone a cui è destinato."
+    cat: "1|Generali"
   - title: Perché, dopo un anno di test, l’app è ancora in beta?
-    body: "L'uscita di IO sugli store nella primavera 2020 è un passo importante per i servizi pubblici digitali in Italia e un’ulteriore tappa di questo progetto così ambizioso. Rendendo disponibile l’app in versione beta a tutti i cittadini, infatti, diamo inizio alla **seconda fase della sperimentazione, fondamentale per favorire l’adozione di IO a livello nazionale.** \
-    La prima fase di test dell’app in closed-beta è servita a individuare e risolvere malfunzionamenti (_bug_) e a ottimizzare l’esperienza utente, grazie ai feedback dei primi cittadini coinvolti. Con l’arrivo dell’app in _open beta_ sugli store, **l’obiettivo sarà tarare e ottimizzare l’infrastruttura e i processi su vasta scala**, mentre sempre più Enti porteranno i propri servizi su IO."
-  - title: I cittadini potranno contribuire allo sviluppo dell’app anche dopo l’arrivo di IO negli store online?
-    body: "Sì. IO è un progetto collettivo, un “bene comune”, e così sarà sempre. Fin da subito, abbiamo progettato l’app insieme ai cittadini partendo dall’analisi delle loro esigenze, e continueremo a farla crescere grazie al contributo costante degli utenti. \
-    Come già fatto nelle prime fasi di sviluppo dell’app, continueremo ad invitare gruppi ristretti di persone a testare le nuove funzionalità e i nuovi servizi prima che siano effettivamente disponibili a tutti i cittadini. Inoltre, tutti gli utenti potranno inviare segnalazioni o messaggi al team di sviluppo di IO, utilizzando gli appositi strumenti direttamente dall’app."
-  - title: Quali servizi saranno disponibili sull’app all’arrivo di IO negli store?
-    body: "Questo dipende da dove risiedi. Inizialmente, sull’app troverai alcuni servizi nazionali e molti se ne aggiungeranno in futuro. La maggior parte dei servizi disponibili su IO all’arrivo negli store saranno, invece, erogati dagli enti locali, come Comuni e Regioni; \
-    dopo aver eseguito l’accesso all’app, sarà IO a mostrarti la lista completa dei servizi già attivi nell’area geografica di tuo interesse."
+    body: "L'uscita di IO sugli store è un passo importante per i servizi pubblici digitali in Italia e un’ulteriore tappa di questo progetto così ambizioso.\ 
+    Rendendo disponibile l’app in versione beta a tutti i cittadini, infatti, abbiamo dato inizio alla **seconda fase della sperimentazione, fondamentale per favorire l’adozione di IO a livello nazionale.**\  
+    La prima fase di test dell’app in closed-beta è servita a individuare e risolvere malfunzionamenti (_bug_) e a ottimizzare l’esperienza utente, grazie ai feedback dei primi cittadini coinvolti.\ 
+    Ora, con l’app disponibile in _open beta_ sugli store, **l’obiettivo è tarare e ottimizzare l’infrastruttura e i processi su vasta scala**, mentre sempre più Enti procedono all’integrazione dei propri servizi su IO."
+    cat: "1|Generali"
+  - title: I cittadini possono contribuire allo sviluppo dell’app anche ora che IO è negli store online?
+    body: "Sì. IO è un progetto collettivo, un “bene comune”, e così sarà sempre. Fin da subito, abbiamo progettato l’app insieme ai cittadini partendo dall’analisi delle loro esigenze,\ 
+    e continueremo a farla crescere grazie al contributo costante degli utenti.\ 
+    Come già fatto nelle prime fasi di sviluppo dell’app, continueremo ad invitare gruppi ristretti di persone a testare le nuove funzionalità e i nuovi servizi prima che siano effettivamente\ 
+    disponibili a tutti i cittadini. Inoltre, tutti gli utenti potranno inviare segnalazioni o messaggi al team di sviluppo di IO, utilizzando gli appositi strumenti direttamente dall’app."
+    cat: "1|Generali"
+  - title: Quali servizi sono già disponibili sull’app?
+    body: "Questo dipende da dove risiedi. Inizialmente, sull’app troverai alcuni servizi nazionali e molti se ne aggiungeranno in futuro. La maggior parte dei servizi disponibili su IO saranno,\ 
+    invece, erogati dagli enti locali, come Comuni e Regioni; dopo aver eseguito l’accesso all’app, sarà IO a mostrarti la lista completa dei servizi già attivi nell’area geografica di tuo interesse."
+    cat: "2|Servizi Disponibili"
   - title: Quanto tempo servirà per avere un numero significativo di servizi pubblici su IO?
-    body: "L’arrivo della prima versione beta pubblica di IO sugli store nella primavera 2020 dà inizio al percorso che, progressivamente, porterà gli Enti - nazionali e locali - a far convergere su IO un numero sempre maggiore di servizi pubblici. \
-    Ogni ente pubblico può portare in qualsiasi momento i propri servizi su IO, ma stimiamo che il periodo di tempo necessario affinché l’app IO veicoli la maggioranza dei servizi essenziali sia di circa due anni."
+    body: "L’arrivo della prima versione beta pubblica di IO sugli store nella primavera 2020 dà inizio al percorso che, progressivamente, porterà gli Enti - nazionali e locali -\ 
+    a far convergere su IO un numero sempre maggiore di servizi pubblici. Ogni ente pubblico può portare in qualsiasi momento i propri servizi su IO, ma stimiamo che il periodo di tempo necessario affinché\ 
+    l’app IO veicoli la maggioranza dei servizi essenziali sia di circa due anni."
+    cat: "2|Servizi Disponibili"
   - title: Come fanno gli Enti pubblici a portare i propri servizi su IO?
-    body: "Tutti gli enti pubblici, nazionali e locali, possono già aggiungere i propri servizi liberamente su IO e potranno continuare a farlo dopo l’arrivo dell’app negli store nella primavera 2020. È facile e veloce: in [questa Guida](https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a) forniamo tutte le informazioni per aiutare le Pubbliche Amministrazioni a cogliere questa opportunità in quattro semplici passaggi. "
+    body: "Tutti gli enti pubblici, nazionali e locali, possono già aggiungere i propri servizi liberamente su IO e potranno continuare a farlo dopo l’arrivo dell’app negli store nella primavera 2020.\ 
+    È facile e veloce: in [questa Guida](https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a) forniamo tutte le informazioni per aiutare le Pubbliche Amministrazioni a cogliere questa opportunità in quattro semplici passaggi."
+    cat: "4|Pubbliche Amministrazioni"
   - title: Perchè devo per forza avere SPID o CIE per usare la app?
-    body: "IO è un canale grazie al quale puoi ricevere da tutti gli Enti pubblici messaggi che includono tue informazioni personali come, ad esempio, quelle legate al tuo lavoro, alla tua salute o ai pagamenti verso lo Stato. Per questo, **è fondamentale essere certi che chi sta usando l’app a tuo nome, sia davvero tu**. E che solo tu possa accedere alle informazioni a te destinate.<br>\
-    Accedere con le tue credenziali [SPID](https://innovazione.gov.it/it/progetti/spid/) ti consente di garantire la tua identità all’app in modo sicuro. **In alternativa, puoi usare la tua Carta d’Identità Elettronica ([CIE 3.0](https://www.cartaidentita.interno.gov.it/identificazione-digitale/entra-con-cie/))**, abbinata al PIN che hai ricevuto al momento del rilascio della nuova carta e che garantisce che tu possa essere l’unico ad utilizzarla (anche in caso di furto del documento). "
+    body: "IO è un canale grazie al quale puoi ricevere da tutti gli Enti pubblici messaggi che includono tue informazioni personali come, ad esempio, quelle legate al tuo lavoro, alla tua salute o ai pagamenti verso lo Stato.\ 
+    Per questo, è fondamentale essere certi che chi sta usando l’app a tuo nome, sia davvero tu. E che solo tu possa accedere alle informazioni a te destinate.\ 
+    Accedere con le tue credenziali [SPID](https://innovazione.gov.it/it/progetti/spid/) ti consente di garantire la tua identità all’app in modo sicuro. **In alternativa, puoi usare la tua Carta d’Identità Elettronica ([CIE 3.0](https://www.cartaidentita.interno.gov.it/identificazione-digitale/entra-con-cie/))***\ 
+    abbinata al PIN che hai ricevuto al momento del rilascio della nuova carta e che garantisce che tu possa essere l’unico ad utilizzarla (anche in caso di furto del documento).
+    <i class='small text-muted d-block'>* Nota: Al momento, la funzionalità “Entra con CIE” è disponibile solo dispositivi Android. Sui dispositivi con sistema operativo iOS, sarà possibile accedere all’app con la CIE 3.0 entro il 1° luglio 2020.</i>
+    "
+    cat: "1|Generali"
   - title: Come fanno le Pubbliche Amministrazioni a sapere chi contattare tramite IO? 
-    body: "Le Pubbliche Amministrazioni possono contattare un cittadino semplicemente conoscendone il codice fiscale, non occorre nient’altro. Ovviamente questo codice fiscale deve essere già presente nei database del singolo ente, e l’ente dovrà utilizzare gli strumenti di IO coerentemente con il proprio mandato istituzionale. Inoltre il cittadino avrà sempre la possibilità di disattivare singolarmente i servizi che usano l’app, inibendo ai relativi enti la possibilità di usare IO per contattarlo."
+    body: "Le Pubbliche Amministrazioni possono contattare un cittadino semplicemente conoscendone il codice fiscale, non occorre nient’altro. Ovviamente questo codice fiscale deve essere già presente nei database del singolo ente,\ 
+    e l’ente dovrà utilizzare gli strumenti di IO coerentemente con il proprio mandato istituzionale. Inoltre il cittadino avrà sempre la possibilità di disattivare singolarmente i servizi che usano l’app,\ 
+    inibendo ai relativi enti la possibilità di usare IO per contattarlo."
+    cat: "4|Pubbliche Amministrazioni"
   - title: "Perché il progetto IO ora fa capo a PagoPa S.p.A.? Vuol dire che gestirà solo i pagamenti dei servizi pubblici?"
-    body: "[PagoPA S.p.A.](https://www.pagopa.gov.it/it/pagopa-spa/) è una società partecipata dallo Stato, creata allo scopo di rendere capillare la diffusione dei pagamenti digitali e dare impulso alla digitalizzazione dei servizi pubblici in Italia, secondo lo stesso cambio di paradigma da cui nasce la visione di IO: mettere il cittadino al centro e proporgli servizi efficienti, semplici e intuitivi, sviluppati in base alle sue esigenze. \
-    Per questo, in un'ottica di sviluppo e industrializzazione di entrambe le piattaforme, oltre a [pagoPA](https://www.pagopa.gov.it/it/pagopa/) la nuova società prende in carico anche la gestione di IO: per offrire ai cittadini, attraverso un’unica app, il punto di accesso a tutti i servizi pubblici digitali. Questo consentirà all’app IO di crescere velocemente e aprirsi a nuove opportunità, secondo le logiche del sistema di mercato privato, proprio come una normale startup."
+    body: "[PagoPA S.p.A.](https://www.pagopa.gov.it/it/pagopa-spa/) è una società partecipata dallo Stato, creata allo scopo di rendere capillare la diffusione dei pagamenti digitali e dare impulso alla digitalizzazione dei servizi pubblici in Italia,\ 
+    secondo lo stesso cambio di paradigma da cui nasce la visione di IO: mettere il cittadino al centro e proporgli servizi efficienti, semplici e intuitivi, sviluppati in base alle sue esigenze.\ 
+    Per questo, in un'ottica di sviluppo e industrializzazione di entrambe le piattaforme, oltre a [pagoPA](https://www.pagopa.gov.it/it/pagopa/) la nuova società prende in carico anche la gestione di IO: per offrire ai cittadini, attraverso un’unica app,\ 
+    il punto di accesso a tutti i servizi pubblici digitali. Questo consentirà all’app IO di crescere velocemente e aprirsi a nuove opportunità, secondo le logiche del sistema di mercato privato, proprio come una normale startup."
+    cat: "1|Generali"
+  - title: "IO è l’app con cui si può richiedere il Bonus Vacanze?"
+    body: Sì, a partire dal 1° luglio e fino al 31 dicembre 2020 il ["Bonus Vacanze"](https://www.agenziaentrate.gov.it/portale/web/guest/bonus-vacanze1) potrà essere richiesto e sarà erogato in forma digitale, esclusivamente attraverso l’app IO. Il provvedimento è stato emanato dal Direttore dell’Agenzia delle Entrate il 17 giugno 2020, in riferimento a quanto previsto dal “Decreto Rilancio” (art. 176 del DL n. 34 del 19 maggio 2020).
+    cat: "3|Bonus e sconti"
+  - title: "Perché non trovo ancora il servizio “Bonus Vacanze” sull’app IO?"
+    body: "Il servizio che ti consentirà di richiedere e ottenere il Bonus **non è ancora disponibile** nell’app. Nelle prossime settimane, lo troverai nella sezione “Pagamenti” di IO e ti spiegheremo nel dettaglio come usarlo.\ 
+    In ogni caso, ricorda che il Bonus sarà **attivo e spendibile solo a partire dal 1° luglio** e per tutto il periodo successivo, fino al 31 dicembre 2020.\ 
+    Inoltre, prima di richiedere il Bonus tramite l’app, dovrai assicurarti di avere un ISEE valido. Nel caso non l’avessi ancora fatto, dovrai presentare una DSU (Dichiarazione Sostitutiva Unica) a INPS, attraverso le modalità messe a disposizione dall’Istituto."
+    cat: "3|Bonus e sconti"
   - title: "Potrò usare tutti i servizi di IO anche da browser web?"
     body: "In una prima fase abbiamo deciso di concentrarci sulle applicazioni mobile e, in particolare, sulle piattaforme Android e IoS, che sono di gran lunga le più diffuse. Alcune funzioni saranno disponibili in futuro anche dal browser: inizieremo dalle funzioni relative alla gestione di privacy e sicurezza."
+    cat: "1|Generali"
   - title: "Come posso essere sicuro che l’app continuerà ad esistere e ad essere aggiornata?"
     body: "Il [CAD, “Codice dell’Amministrazione Digitale”](https://cad.readthedocs.io/), istituisce il “punto di accesso telematico”, tramite cui le pubbliche amministrazioni rendono fruibili ai cittadini  i propri servizi in rete (articoli [7](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo1_sezione2_art7.html) e [64-bis](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo5_sezione3_art64-bis.html)). IO è il punto unico di accesso telematico che permette ai cittadini di comunicare e accedere ai servizi della pubblica amministrazione in forma digitale e in modo integrato, anche attraverso dispositivi mobili. \
     Inoltre il CAD specifica che diventa un _diritto per il cittadino_ utilizzare tale punto di accesso dal momento stesso in cui questo sarà effettivamente disponibile. "
+    cat: "1|Generali"
   - title: L’app resterà gratuita per i cittadini?
     body: "Sì, per sempre."
+    cat: "1|Generali"
   - title: "L’infrastruttura su cui si basa la app è sicura?"
     body: "Lo sviluppo dell’applicazione mobile e di tutte le componenti software a supporto avviene in conformità delle linee guida sulla sicurezza definite nel (Piano Triennale per l’ICT)[http://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html]. \
     Inoltre, tutto il codice software sviluppato è open source, per cui aperto all'analisi di tutti gli sviluppatori che vorranno verificarne la sicurezza per consolidarla o migliorarla."
+    cat: "6|Sicurezza e Privacy"
   - title: Come sarà tutelata la mia privacy?
     body: "IO è stato concepito e sviluppato secondo i principi e le regole imposte dalla normativa sulla protezione dei dati personali, ovvero il nuovo [Regolamento (UE) 2016/679 (cosiddetto “GDPR”)](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN) e il [Codice privacy italiano](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) (d. lgs. 196/2003, come recentemente emendato); esso è quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti. IO però rappresenta solo uno canale che le Pubbliche Amministrazioni utilizzano per interfacciarsi con i cittadini,\ 
     quindi queste ultime restano titolari dei tuoi dati personali necessari per svolgere il loro mandato istituzionale, esattamente come avviene oggi. Il team di sviluppo di IO dialoga costantemente con il [Garante per la protezione dei dati personali](https://www.garanteprivacy.it/) per rendere IO uno strumento che migliori l’esperienza del cittadino anche sotto il profilo di accessibilità e trasparenza delle informazioni relative alla sua privacy."
+    cat: "6|Sicurezza e Privacy"
   - title: Che soluzioni sono state pensate per cittadini con disabilità?
-    body: "Il progetto IO ha lo scopo di rendere disponibile una applicazione al numero maggiore possibile dei cittadini Italiani. Per questo ad esempio, fin dai primi prototipi abbiamo cercato di progettare l’interfaccia della app per rispettare i bisogni specifici dei cittadini ipovedenti. È stata intenzionalmente scelta una tecnologia che consente di utilizzare [le API](https://facebook.github.io/react-native/docs/accessibility) per l’accessibilità messe a disposizione da iOS e Android. \n 
-    Siamo consapevoli che per rendere l'app completamente fruibile da cittadini con disabilità resta parecchio lavoro da fare, e ci stiamo organizzando non solo per rendere pienamente accessibile questa prima versione beta, ma anche per avere dei partner specializzati nell'accessibilità, che ci affianchino e ci supportino in un processo continuo di progettazione e verifica delle nuove funzionalità.
+    body: "Il progetto IO ha lo scopo di rendere disponibile una applicazione al numero maggiore possibile dei cittadini Italiani. Per questo ad esempio, fin dai primi prototipi abbiamo cercato di progettare l’interfaccia della app per rispettare i bisogni specifici dei cittadini ipovedenti.\ 
+    È stata intenzionalmente scelta una tecnologia che consente di utilizzare [le API](https://facebook.github.io/react-native/docs/accessibility) per l’accessibilità messe a disposizione da iOS e Android. \n 
+    Siamo consapevoli che per rendere l'app completamente fruibile da cittadini con disabilità resta parecchio lavoro da fare, e ci stiamo organizzando non solo per rendere pienamente accessibile questa prima versione beta,\ 
+    ma anche per avere dei partner specializzati nell'accessibilità, che ci affianchino e ci supportino in un processo continuo di progettazione e verifica delle nuove funzionalità.
     È e resterà sempre fra gli obiettivi del progetto quello di diventare progressivamente una best-practice anche nei confronti delle disabilità, contando sempre sul contributo degli stessi cittadini per migliorare."
+    cat: "5|Accessibilità"
   - title: "L‘app del progetto IO sarà disponibile solo negli store italiani, o anche in quelli esteri?"
-    body: "Una volta che l’app sarà negli store, il download sarà disponibile a tutti e non avrà blocchi geografici. I cittadini italiani (AIRE e non) che vivono all'estero dotati di SPID o CIE potranno accedere ai servizi. Qui tutte le informazioni su come ottenere SPID dall'estero: [https://www.spid.gov.it/richiedi-spid](https://www.spid.gov.it/richiedi-spid), mentre per la CIE sarà necessario rivolgersi al proprio consolato di riferimento."
-  - title: "IO è l’app usata dal Governo per il tracciamento dei cittadini in relazione all’emergenza Covid-19?"
-    body: "No, l’app scelta dal Governo per il *contact tracing* è un’app distinta e non è connessa in alcun modo a IO. L’app IO nasce con l’obiettivo di rendere i servizi pubblici digitali accessibili ai cittadini direttamente dallo smartphone, non prevede alcuna funzionalità che consente di tracciare la posizione degli utenti."
+    body: "Ora che l’app è negli store, il download è disponibile a tutti e non ha blocchi geografici. I cittadini italiani (AIRE e non) che vivono all'estero dotati di SPID o CIE possono accedere ai servizi. Qui tutte le informazioni su come ottenere SPID dall'estero: [https://www.spid.gov.it/richiedi-spid](https://www.spid.gov.it/richiedi-spid), mentre per la CIE è necessario rivolgersi al proprio consolato di riferimento."
+    cat: "1|Generali"

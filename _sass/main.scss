@@ -34,6 +34,8 @@
 @import "faq";
 // ENTI PARTECIPANTI
 @import "entipartecipanti";
+// BONUS VACANZE
+@import "bonusvacanze";
 
 body {
   background-color: #fff;
@@ -108,6 +110,20 @@ body {
 .internal-page {
   color: #5c6f82;
   margin-top: 6rem;
+
+  &.w-slides {
+    margin-top: 60px;
+  }
+
+  .bannersup {
+    background-color: #00C5CA;
+    font-size: 1rem;
+    color: #fff;
+  }
+
+  .introduzione_wrapper {
+    background-color: $color--italia;
+  }
 
   @media (min-width: 768px) {
     margin-top: 10rem;
@@ -460,6 +476,8 @@ button.baguetteBox-button {
   }
 }
 
+
+
 #introduzione {
   @media screen and (min-width: $grid-breakpoints-md) {
     min-height: 432px;
@@ -467,11 +485,32 @@ button.baguetteBox-button {
   @media screen and (min-width: $grid-breakpoints-lg) {
     min-height: 377px;
   }
+  .internal-w-slides & {
+    position: relative;
+
+    @media screen and (min-width: $grid-breakpoints-md) {
+      min-height: 549px;
+    }
+  }
+
   &.noheight {
     min-height: unset;
   }
   .small {
     font-size: 1rem;
+  }
+  .introduzione-pre-title {
+    background-color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: $color--italia;
+    padding: 2px 8px;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    margin-right: auto;
   }
 }
 
@@ -519,5 +558,90 @@ button.baguetteBox-button {
 a.text-hover-green {
   &:hover {
     color: #21DEDF !important;
+  }
+}
+
+
+// video player overlay
+.wvideo {
+  .playvideo {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    .playvideoicon {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        display: block;
+        z-index: 1;
+        top: calc(50% - 50px);
+        left: calc(50% - 50px);
+    }
+  }
+}
+
+.overlay-video {
+  display: none;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  opacity: 0;
+  -ms-transition: opacity 600ms ease-in;
+  transition: opacity 600ms ease-in;
+  -ms-transition: opacity .6s;
+  transition: opacity .6s;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, .7);
+  z-index: 999999;
+}
+
+.o1 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  opacity: 1;
+  -ms-transition: opacity 600ms ease-out;
+  transition: opacity 600ms ease-out;
+  -ms-transition: opacity .7s;
+  transition: opacity .7s;
+}
+
+.videoWrapperExt {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  max-width: 982px;
+  padding: 0 20px;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.videoWrapper__close {
+  position: absolute;
+  top: -50px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 9999;
+  @media (max-width: 767px) and (orientation: landscape) {
+    display: none;
   }
 }

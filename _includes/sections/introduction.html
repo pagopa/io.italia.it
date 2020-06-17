@@ -1,11 +1,18 @@
 <section
-  class="container container--mid mb-5 d-flex{% if page.narrow %} mw-60{% endif %} {% if page.noheight %}noheight{%endif%}"
+  class="container container--mid {% if page.layout=='internal-w-slides' %}mb-0{%else%}mb-5 {%endif%} d-flex {% if page.narrow %} mw-60{% endif %} {% if page.noheight %}noheight{%endif%}"
   id="introduzione"
 >
   <div class="row px-3 px-md-0 w-100">
-    <div class="{%- if page.intro_image -%}col-lg-7{% else %}col-lg-8{% endif %} text-primary order-2 order-md-1">
+    <div class="{%- if page.intro_image -%}col-lg-7{% else %}col-lg-8{% endif %} {% if page.layout=='internal-w-slides' %}text-white d-flex justify-content-center flex-column {%else%}text-primary{%endif%} order-2 order-md-1">
+      {% if page.pre-title %}
+      <div class="introduzione-pre-title">{{ page.pre-title }}</div>
+      {%endif%}
+
       <h1>{{ page.title }}</h1>
       <p class="my-4">{{ page.description }}</p>
+      {% if page.subdescription %}
+      <div class="mt-3 mb-1 small">{{page.subdescription}}</div>
+      {% endif %}
       <div class="d-flex flex-column mb-3">
         {%- if page.intro_primary_link -%}
         <div class="py-2">
@@ -33,7 +40,7 @@
           {%- endif %}
           <a target="_blank"
             href="{{ page.intro_secondary_link }}"
-            class="small"
+            class="{{page.intro_secondary_customclass | default:'small'}}"
             {%- if page.intro_secondary_onclick -%} onclick="{{page.intro_secondary_onclick}}" {%- endif -%}
           >
             {{ page.intro_secondary_text }}
@@ -45,7 +52,7 @@
       </div>
     </div>
     {%- if page.intro_image -%}
-    <div class="col-lg-5 order-1 order-lg-2 d-flex align-items-center justify-content-center mb-2 mb-md-0">
+    <div class="col-lg-5 order-1 order-lg-2 d-flex align-items-center justify-content-center mb-2 mb-md-0 col-intro-img">
       <img
         class="img-fluid"
         src="{{ page.intro_image | relative_url }}"

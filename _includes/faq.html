@@ -1,5 +1,6 @@
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
 {% assign faq = site.data.faq[current_lang] %}
+{% assign faq_grouped = faq | group_by: 'cat' | sort: 'name' %}
 <div class="page-faq">
 
     <div class="container container--mid ">
@@ -7,23 +8,30 @@
       <div id="faq" class="pb-5">
     <div class="row p-3 justify-content-md-center">
       <div class="col-12">
+        {% for group in faq_grouped %}
+        {% assign gindex =  forloop.index %}
+        {% assign findex =  0 %}
 
-        <div id="accordionDivFAQ" class="collapse-faq collapse-div" role="tablist">
-          {% for f in faq %}
-          <a name="n{{forloop.index}}"></a>
-          <div class="collapse-header" id="heading{{forloop.index}}">
-            <button data-toggle="collapse" data-nfaq="n{{forloop.index}}" data-target="#accordion{{forloop.index}}" aria-expanded="{% if forloop.first %}true{% endif %}{% if forloop.first!=true %}false{% endif %}" aria-controls="accordion{{forloop.index}}">
+        {% if gindex > 1 %}<div class="my-3 py-3"></div>{%endif%}
+
+        <h2 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h2>
+        <div id="accordionDivFAQ{{gindex}}" class="collapse-faq collapse-div" role="tablist">
+          {% for f in group.items %}
+          {% capture findex %}{% increment findex %}{% endcapture %}
+          <a name="n{{findex}}"></a>
+          <div class="collapse-header" id="heading{{findex}}">
+            <button data-toggle="collapse" data-nfaq="n{{findex}}" data-target="#accordion{{findex}}" aria-expanded="false" aria-controls="accordion{{findex}}">
               {{f.title}}
             </button>
           </div>
-          <div id="accordion{{forloop.index}}" class="collapse {% if forloop.first %}show{% endif %}" role="tabpanel" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionDivFAQ">
+          <div id="accordion{{findex}}" class="collapse " role="tabpanel" aria-labelledby="heading{{findex}}" data-parent="#accordionDivFAQ{{gindex}}">
             <div class="collapse-body">
               {{f.body | markdownify }}
             </div>
           </div>
           {% endfor %}
         </div>
-
+        {% endfor %}
       </div>
     </div>
   </div>
