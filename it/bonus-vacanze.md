@@ -1,7 +1,7 @@
 ---
 layout: internal-w-slides
 title: Il tuo Bonus Vacanze con IO
-pre-title: In arrivo
+pre-title: DAL 1° LUGLIO
 description: Richiedi e utilizza il "Bonus Vacanze" attraverso l'app IO in modo semplice e sicuro
 subdescription: "Scarica l’ultima versione dell’app:"
 lang: it
@@ -10,9 +10,9 @@ permalink: /bonus-vacanze/
 bannersup:
     label: "Richiedi e spendi il Bonus Vacanze su IO a partire <strong>dal 1°luglio e fino al 31 dicembre 2020</strong>"
 introduction_slides:
+    - /assets/img/bonus-vacanze/3.jpg
     - /assets/img/bonus-vacanze/1.jpg
     - /assets/img/bonus-vacanze/2.jpg
-    - /assets/img/bonus-vacanze/3.jpg
 
 intro_image: "/assets/img/bonus-vacanze/logo-bonus-vacanze.svg"
 intro_primary_text: "App Store"
