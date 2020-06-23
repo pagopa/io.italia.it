@@ -57,7 +57,7 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/roadmap/filter.js?' | append: buildTime | relative_url }}"></script>
 {% endif %}
 
-{%if page.ref == 'faq' %}
+{%if page.ref contains 'faq' %}
 <script src="{{ '/assets/js/faq/faq.js' }}"></script>
 {% endif %}
 

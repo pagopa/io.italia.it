@@ -1,5 +1,6 @@
-{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
-{% assign faq = site.data.faq[current_lang] %}
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign faq_source = include.source | default: 'faq' %}
+{% assign faq = site.data[faq_source][current_lang] %}
 {% assign faq_grouped = faq | group_by: 'cat' | sort: 'name' %}
 <div class="page-faq">
 
