@@ -34,10 +34,10 @@ it:
   - title: Come fa l’app IO a conoscere la composizione del mio nucleo familiare?
     body: "Quando richiedi il Bonus, l’app IO verifica con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista, basandosi sull’importo calcolato a partire dai dati inseriti nell’ultima Dichiarazione Sostitutiva Unica (DSU) presentata dal tuo nucleo familiare.\ 
     Tra questi dati, vi è anche la composizione del nucleo familiare, che viene comunicata all’app IO e mostrata in automatico nella schermata di riepilogo dei dati relativi al Bonus richiesto, prima di confermare l’attivazione."
-  - title: Ho diritto al Bonus ma non ho uno smartphone su cui installare l’app IO. Come posso fare? Ci sono metodi alternativi per richiederlo?
-    body: "No, ad oggi non ci sono metodi alternativi. Il provvedimento relativo al Bonus Vacanze emanato dal Direttore dell’Agenzia delle Entrate il 17 giugno 2020, stabilisce che il Bonus può essere richiesto ed erogato in modalità esclusivamente digitale.\ 
-    Per ottenerlo è necessario avere un’identità digitale (SPID oppure CIE 3.0 con relativo PIN) e aver installato ed effettuato l’accesso a [IO, l’app dei servizi pubblici](https://io.italia.it/), oggi disponibile solo per smartphone _(dispositivi con sistema operativo Android 4.4 e superiori\ 
-    e dispositivi con sistema operativo iOS 13 e superiori)_. [Clicca qui](https://io.italia.it/bonus-vacanze/) per maggiori dettagli."
+  - title: Ho diritto al Bonus, ma nessuno dei componenti del mio nucleo familiare ha uno smartphone su cui installare l’app IO. Come posso fare? Ci sono metodi alternativi per richiederlo?
+    body: "No, ad oggi non ci sono metodi alternativi. Il [provvedimento del Direttore dell’Agenzia delle Entrate del 17 giugno 2020](https://www.agenziaentrate.gov.it/portale/documents/20143/2522870/RU+237174+del+17-6-2020.pdf/d7001a95-ba1f-0299-c947-0c706adebc3c),\ 
+    stabilisce che il Bonus può essere richiesto ed erogato in modalità esclusivamente digitale. Per ottenerlo è necessario avere un’identità digitale (SPID oppure CIE 3.0 con relativo PIN) e aver installato ed effettuato l’accesso a [IO, l’app dei servizi pubblici](https://io.italia.it/),\ 
+    oggi disponibile solo per smartphone _(dispositivi con sistema operativo Android 4.4 e superiori e dispositivi con sistema operativo iOS 13 e superiori)_. [Clicca qui per maggiori dettagli](https://io.italia.it/bonus-vacanze/)."
   - title: Sull’app IO potrò richiedere anche il Bonus Bici?
     body: "No. Al momento non è previsto che il Bonus Bici sia erogato attraverso l’app IO."
 
