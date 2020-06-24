@@ -1,0 +1,44 @@
+it:
+  - title: Perché non trovo ancora il servizio “Bonus Vacanze” sull’app IO?
+    body: "Oggi il servizio che ti consentirà di richiedere e ottenere il Bonus non è ancora disponibile nell’app. A breve, lo troverai nella sezione “Pagamenti” di IO e ti spiegheremo come usarlo.\ 
+    In ogni caso, ricorda che il Bonus sarà attivo e spendibile solo a partire dal 1° luglio e per tutto il periodo successivo, fino al 31 dicembre 2020.\ 
+    Inoltre, prima di richiedere il Bonus tramite l’app, dovrai avere presentato una [DSU per il calcolo dell’ISEE](https://www.inps.it/NuovoportaleINPS/default.aspx?itemdir=50088&lang=IT)."
+  - title: Devo caricare il mio ISEE in versione PDF sull’app IO? 
+    body: "No. Dopo aver presentato all’INPS la Dichiarazione Sostitutiva Unica (DSU) per il calcolo dell’ISEE, per richiedere il Bonus tramite IO non serve fare altro.\ 
+    Al momento della richiesta, è l’app stessa a verificare direttamente con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista."
+  - title: Nell’app IO trovo l’elenco delle strutture turistiche che accettano il “Bonus Vacanze”? 
+    body: "No. L'adesione delle strutture turistico-ricettive all’iniziativa è libera e non è previsto un meccanismo di “iscrizione” a nessun elenco.\ 
+    Sta alla struttura informare i clienti, attraverso propri canali, del fatto che accetta o meno il Bonus Vacanze.\ 
+    Prima di richiederlo, assicurati che ti sarà possibile utilizzarlo dove hai scelto di soggiornare per le tue prossime vacanze."
+  - title: Quanto tempo passa dal momento della richiesta al momento dell’attivazione del Bonus su IO?
+    body: "Se sei in possesso di tutti i requisiti per avere diritto all’agevolazione, l’attivazione del Bonus è pressoché immediata: in pochi minuti, dal momento della richiesta,\ 
+    l’app completa le verifiche necessarie con i sistemi di INPS e invia i dati di riepilogo all’Agenzia delle Entrate per poi darti conferma che il tuo Bonus è attivo.\ 
+    Nel caso in cui il processo di verifica fosse rallentato per motivi indipendenti dall’app, IO continuerà le verifiche per te e ti invierà un messaggio  per informarti dei tempi entro cui devi completare la richiesta,\ 
+    per evitare di ripetere nuovamente il passaggio iniziale di verifica dell’ISEE."
+  - title: Devo necessariamente aggiungere una carta di credito sull’app IO per richiedere e spendere il bonus?
+    body: "No. Anche se trovi la funzione per richiedere il Bonus Vacanze all’interno della sezione “Pagamenti” dell’app IO, l’utilizzo del Bonus non è associato in alcun modo alla disponibilità di una carta di credito\ 
+    né di altri metodi di pagamento salvati nell’app. Quando utilizzerai il Bonus per ottenere uno sconto presso la struttura turistica dove trascorrerai le vacanze, potrai saldare eventuali importi aggiuntivi relativi al tuo soggiorno\ 
+    con il metodo di pagamento che preferisci, se accettato dalla struttura."
+  - title: Posso prenotare la mia vacanza prima del 1° luglio, anche se non è ancora possibile richiedere il Bonus Vacanze dall’app IO?
+    body: "Sì. Se, dopo aver presentato una DSU (Dichiarazione Sostitutiva Unica) all’INPS ai fini del calcolo ISEE, sei certo di essere in possesso di tutti i requisiti e se hai già verificato che la struttura turistica dove hai scelto di soggiornare accetta il Bonus Vacanze,\ 
+    puoi effettuare la prenotazione anche prima del 1° luglio. Il Bonus, infatti, non serve al momento della prenotazione, ma dovrai mostrarlo all’albergatore al momento di saldare il tuo soggiorno. Una volta attivato, il Bonus può essere speso a partire dal 1° luglio e fino al 31 dicembre 2020."
+  - title: Ho intenzione di richiedere il Bonus Vacanze ma non lo userò personalmente. Posso cederlo a un altro componente del mio nucleo familiare?
+    body: "Sì. Una volta richiesto e attivato il Bonus Vacanze tramite l’app IO a partire dal 1° luglio, puoi scegliere liberamente di usarlo per una vacanza in cui siano presenti tutti gli appartenenti al tuo nucleo familiare oppure solo alcuni; non è necessario che sia tu personalmente a spenderlo, né che tu sia presente.\ 
+    Ti segnaliamo che l’intestatario della fattura (o documento commerciale o scontrino/ricevuta fiscale) emessa dal fornitore dei servizi turistici potrà beneficiare anche della detrazione fiscale prevista dal Bonus Vacanze nella dichiarazione dei redditi dell’anno prossimo."    
+  - title: Come potrò condividere il Bonus con i miei familiari?
+    body: "Se un tuo familiare ha installato l’app sul proprio telefono e ha un account attivo su IO, potrà visualizzarlo in automatico all’interno della propria sezione “Pagamenti”. In alternativa, per chi non avesse un account sull’app IO, tramite la funzione “Condividi”\ 
+    presente nella schermata di riepilogo del Bonus, l’app crea una copia del codice univoco e del relativo QR code, che potrai condividere con gli altri componenti del nucleo familiare, via Whatsapp o altri strumenti disponibili sul tuo smartphone. "
+  - title: Per cedere il Bonus a uno dei componenti del mio nucleo familiare, è necessario che anche loro abbiano l’app IO?
+    body: "No. Se il tuo familiare ha installato l’app sul proprio telefono e ha eseguito l’accesso a IO, potrà visualizzare in automatico il Bonus - non appena attivato - all’interno della propria sezione “Pagamenti”. In caso contrario, tramite la funzione “Condividi”\ 
+    presente nella schermata di riepilogo del Bonus, l’app crea una copia del codice univoco e del relativo QR code, che potrai condividere come una semplice immagine con gli altri componenti del nucleo familiare, via Whatsapp o con altri strumenti disponibili sul tuo smartphone. "
+  - title: Come fa l’app IO a conoscere la composizione del mio nucleo familiare?
+    body: "Quando richiedi il Bonus, l’app IO verifica con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista, basandosi sull’importo calcolato a partire dai dati inseriti nell’ultima Dichiarazione Sostitutiva Unica (DSU) presentata dal tuo nucleo familiare.\ 
+    Tra questi dati, vi è anche la composizione del nucleo familiare, che viene comunicata all’app IO e mostrata in automatico nella schermata di riepilogo dei dati relativi al Bonus richiesto, prima di confermare l’attivazione."
+  - title: Ho diritto al Bonus, ma nessuno dei componenti del mio nucleo familiare ha uno smartphone su cui installare l’app IO. Come posso fare? Ci sono metodi alternativi per richiederlo?
+    body: "No, ad oggi non ci sono metodi alternativi. Il [provvedimento del Direttore dell’Agenzia delle Entrate del 17 giugno 2020](https://www.agenziaentrate.gov.it/portale/documents/20143/2522870/RU+237174+del+17-6-2020.pdf/d7001a95-ba1f-0299-c947-0c706adebc3c),\ 
+    stabilisce che il Bonus può essere richiesto ed erogato in modalità esclusivamente digitale. Per ottenerlo è necessario avere un’identità digitale (SPID oppure CIE 3.0 con relativo PIN) e aver installato ed effettuato l’accesso a [IO, l’app dei servizi pubblici](https://io.italia.it/),\ 
+    oggi disponibile solo per smartphone _(dispositivi con sistema operativo Android 4.4 e superiori e dispositivi con sistema operativo iOS 13 e superiori)_. [Clicca qui per maggiori dettagli](https://io.italia.it/bonus-vacanze/)."
+  - title: Sull’app IO potrò richiedere anche il Bonus Bici?
+    body: "No. Al momento non è previsto che il Bonus Bici sia erogato attraverso l’app IO."
+
+
