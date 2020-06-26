@@ -1,6 +1,6 @@
 it:
   - title: Come posso installare l'app?
-    body: "IO è disponibile negli app store [Android](https://play.google.com/store/apps/details?id=it.pagopa.io.app) (per dispositivi con sistema operativo Android 4.4 e superiori) e [iOS](https://apps.apple.com/it/app/io/id1501681835) (per dispositivi con sistema operativo iOS 13 e superiori), con una prima versione beta pubblica (open beta).\ 
+    body: "IO è disponibile negli app store [Android](https://play.google.com/store/apps/details?id=it.pagopa.io.app) (per dispositivi con sistema operativo Android 4.4 e superiori) e [iOS](https://apps.apple.com/it/app/io/id1501681835) (per dispositivi con sistema operativo iOS 9 e superiori), con una prima versione beta pubblica (open beta).\ 
     La pubblicazione dell’app IO lo scorso aprile  ha dato inizio al percorso che, progressivamente,\ 
     porterà tutti i cittadini italiani ad avere dei nuovi servizi pubblici digitali moderni e centrati sulle loro esigenze."
     cat: "1|Generali"
@@ -42,7 +42,7 @@ it:
     Per questo, è fondamentale essere certi che chi sta usando l’app a tuo nome, sia davvero tu. E che solo tu possa accedere alle informazioni a te destinate.\ 
     Accedere con le tue credenziali [SPID](https://innovazione.gov.it/it/progetti/spid/) ti consente di garantire la tua identità all’app in modo sicuro. **In alternativa, puoi usare la tua Carta d’Identità Elettronica ([CIE 3.0](https://www.cartaidentita.interno.gov.it/identificazione-digitale/entra-con-cie/))***\ 
     abbinata al PIN che hai ricevuto al momento del rilascio della nuova carta e che garantisce che tu possa essere l’unico ad utilizzarla (anche in caso di furto del documento).
-    <i class='small text-muted d-block'>* Nota: Al momento, la funzionalità “Entra con CIE” è disponibile solo su dispositivi Android (versione 6.0 e superiori) e dotati di tecnologia NFC. Sui dispositivi con sistema operativo iOS, sarà possibile accedere all’app con la CIE 3.0 entro il 1° luglio 2020.</i>
+    <i class='small text-muted d-block'>* Nota: Al momento, la funzionalità “Entra con CIE” è disponibile solo su dispositivi Android (versione 6.0 e superiori) e dotati di tecnologia NFC. A breve renderemo disponibile questa funzionalità anche per dispositivi con sistema operativo iOS.</i>
     "
     cat: "1|Generali"
   - title: Come fanno le Pubbliche Amministrazioni a sapere chi contattare tramite IO? 
