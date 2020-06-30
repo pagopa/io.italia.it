@@ -59,7 +59,7 @@ Tutti i dati presenti in questa sezione vengono trattati per farti utilizzare lo
 Tali messaggi vengono anche memorizzati nell'App IO al fine di offrirti uno storico di tutti i messaggi che hai ricevuto.<br>
 Al tuo primo accesso all’App, tutti i Servizi degli Enti Erogatori disponibili saranno attivati di default, unitamente alle notifiche push. Potrai attivare e disattivare le notifiche email in ogni momento nella sezione “Servizi” come illustrato sotto. Questo perché su IO riceverai solo messaggi a te espressamente indirizzati. Potrai comunque gestire le tue preferenze:
 
-{:.d-more-1}
+{:.d-more-1 .list-unstyled}
 - (i) nella Sezione “Servizi” e in particolare:
     - tenendo premuto (_long press_) su un servizio qualunque, ti viene data la possibilità di disattivare tutti i servizi (per poi attivarne singolarmente solo alcuni), disattivare tutti i servizi per un singolo Ente, oppure disattivare singoli servizi;
     - cliccando su ciascun servizio, e entrando nella relativa scheda potrai disattivare o attivare le notifiche via email e/o push; 
@@ -381,15 +381,15 @@ Utilizzando l’App IO e le sue Funzionalità, l’Utente accetta i presenti ToS
 L’Utente si impegna, in particolare, a non utilizzare, direttamente o indirettamente, l’App IO e le sue Funzionalità:
 
 {:.d-more-2}
-- a) in violazione dei diritti della Società o di terzi;
-- b) per finalità o scopi commerciali;
-- c) in modo illecito, diffamatorio, osceno, volgare, intimidatorio, offensivo nei confronti della Società o di terzi;
-- d) sfruttando l’identità di un’altra persona o implicando l’utilizzo non personale delle Funzionalità di IO, salvo quando eventualmente ed espressamente previsto dai presenti ToS o dai Termini Aggiuntivi relativi al Servizio dell’Ente;
-- e) per trasmettere comunicazioni illecite o non autorizzate, quali messaggi massivi, spam o messaggi automatici;
-- f) per comunicare dati o informazioni false, ingannevoli o illecite;
-- g) per trasmettere virus, malware o altri codici dannosi per qualsivoglia dispositivo o sistema;
-- h) per creare account non autorizzati per accedere all’App IO;
-- i) in modo tale da sottoporre l’infrastruttura di IO ad un irragionevole o sproporzionato carico di lavoro (ad esempio, tramite un sovraccarico della rete) o comunque in modo tale da interferire con la funzionalità di dispositivi, dell’App IO o delle sue Funzionalità, della Piattaforma IO o di altri sistemi, anche tramite strumenti automatici (es. bot).
+- (i) in violazione dei diritti della Società o di terzi;
+- (ii) per finalità o scopi commerciali;
+- (iii) in modo illecito, diffamatorio, osceno, volgare, intimidatorio, offensivo nei confronti della Società o di terzi;
+- (iv) sfruttando l’identità di un’altra persona o implicando l’utilizzo non personale delle Funzionalità di IO, salvo quando eventualmente ed espressamente previsto dai presenti ToS o dai Termini Aggiuntivi relativi al Servizio dell’Ente;
+- (v) per trasmettere comunicazioni illecite o non autorizzate, quali messaggi massivi, spam o messaggi automatici;
+- (vi) per comunicare dati o informazioni false, ingannevoli o illecite;
+- (vii) per trasmettere virus, malware o altri codici dannosi per qualsivoglia dispositivo o sistema;
+- (viii) per creare account non autorizzati per accedere all’App IO;
+- (ix) in modo tale da sottoporre l’infrastruttura di IO ad un irragionevole o sproporzionato carico di lavoro (ad esempio, tramite un sovraccarico della rete) o comunque in modo tale da interferire con la funzionalità di dispositivi, dell’App IO o delle sue Funzionalità, della Piattaforma IO o di altri sistemi, anche tramite strumenti automatici (es. bot).
 
 
 {:.d-more-2}
@@ -416,9 +416,9 @@ _d) Responsabilità dell’Utente, indennizzo e manleva_
 L’Utente si obbliga a manlevare e tenere indenne la Società e i suoi dipendenti, dirigenti e amministratori da qualsiasi domanda, reclamo o azione legale da parte di terzi, nonché da qualsiasi danno, perdita o spesa (incluse le ragionevoli spese legali necessarie per resistere le predette azioni) da chiunque subiti, direttamente o indirettamente, in relazione, in conseguenza o in connessione:
 
 {:.d-more-2}
-- a) alle attività e alla condotta dell’Utente nell’utilizzo dell’App IO e delle sue Funzionalità;
-- b) alle dichiarazioni, ai dati e alle informazioni comunque fornite dall’Utente;
-- c) alle violazioni dei ToS o della legge applicabile da parte dell’Utente.
+- (i) alle attività e alla condotta dell’Utente nell’utilizzo dell’App IO e delle sue Funzionalità;
+- (ii) alle dichiarazioni, ai dati e alle informazioni comunque fornite dall’Utente;
+- (iii) alle violazioni dei ToS o della legge applicabile da parte dell’Utente.
 
 {:.d-more-2}
 ### **6.** Esclusioni e limitazione di responsabilità di PagoPA S.p.A.
