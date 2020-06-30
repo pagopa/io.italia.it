@@ -237,11 +237,11 @@ $(window).on("load", function() {
 
     });
 
-    $('#playusevideoplaceholder').on('click',function(e) {
-        $('#playusevideo').trigger('click');
+    $('.playusevideoplaceholder').on('click',function(e) {
+        $(this).siblings('.playusevideo').trigger('click');
     });
 
-    $('#playusevideo').on('click', function(e) {
+    $('.playusevideo').on('click', function(e) {
         var target = $(this).attr('rel');
         var $target = $(target);
         $(this).parent().addClass('d-none');
