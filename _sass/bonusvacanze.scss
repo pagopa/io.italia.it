@@ -156,5 +156,33 @@
         background-color: #2D489D;
         border-bottom: 1px solid rgba(255,255,255,0.6);
     }
+
+
+    .video-uso-wrapper {
+        position: relative;
+        cursor: pointer;
+
+        
+        #playusevideo {
+            position: absolute;
+            z-index: 5;
+            top: 50%;
+            left: calc(50% - 30px);
+            @media screen and (min-width: $grid-breakpoints-md) {
+                left: calc(50% - 10px);
+            }
+
+        }
+
+        @media screen and (min-width: $grid-breakpoints-md) {
+            width: 330px;
+            img.screenshot {
+                margin-top: 24px;
+                margin-left: 40px;
+    
+            }
+        }
+
+    }
     
 }
