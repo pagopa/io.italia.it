@@ -84,9 +84,10 @@ hr {
 }
 
 .d-startup-hide {
+    /* temporaly disabled
     & > *:not(.d-startup) {
         display: none;
-    }
+    }*/
 }
 .read-more {
     font-weight: 700;
