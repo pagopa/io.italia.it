@@ -1137,6 +1137,15 @@ body.pagename--faq { background-color: #F2F7FC; }
 
 .pagename--bonus-vacanze .dubbi-domande { background-color: #2D489D; border-bottom: 1px solid rgba(255, 255, 255, 0.6); }
 
+.pagename--bonus-vacanze .video-uso-wrapper { position: relative; cursor: pointer; }
+
+.pagename--bonus-vacanze .video-uso-wrapper .playusevideo { position: absolute; z-index: 5; top: 50%; left: calc(50% - 30px); }
+
+@media screen and (min-width: 768px) { .pagename--bonus-vacanze .video-uso-wrapper .playusevideo { left: calc(50% - 10px); } }
+
+@media screen and (min-width: 768px) { .pagename--bonus-vacanze .video-uso-wrapper { width: 330px; }
+  .pagename--bonus-vacanze .video-uso-wrapper img.screenshot { margin-top: 24px; margin-left: 40px; } }
+
 body { background-color: #fff; }
 
 body.layout--home { font-size: 14px; background-color: #F2F7FC; }
@@ -1342,5 +1351,7 @@ a.text-hover-green:hover { color: #21DEDF !important; }
 .videoWrapper__close { position: absolute; top: -50px; right: 0px; cursor: pointer; z-index: 9999; }
 
 @media (max-width: 767px) and (orientation: landscape) { .videoWrapper__close { display: none; } }
+
+.badge-servizio { font-size: 0.9rem; letter-spacing: 2px; background-color: #21DEDF; }
 
 /*# sourceMappingURL=main.css.map */
