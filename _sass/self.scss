@@ -84,9 +84,10 @@ hr {
 }
 
 .d-startup-hide {
+    /* temporaly disabled
     & > *:not(.d-startup) {
         display: none;
-    }
+    }*/
 }
 .read-more {
     font-weight: 700;
@@ -101,5 +102,14 @@ hr {
     &.active {
         display: block;
     }
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 0;
+}
+.list-unstyled li {
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
  

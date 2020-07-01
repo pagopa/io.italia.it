@@ -228,6 +228,25 @@ $(function () {
 
 });
 
+$(window).on("load", function() {
+    var $posts = $('.post-load-image');
+    
+    $posts.each(function (el) {
+        var source = $(this).attr('data-src');
+        $(this).attr('src',source);
 
+    });
+
+    $('.playusevideoplaceholder').on('click',function(e) {
+        $(this).siblings('.playusevideo').trigger('click');
+    });
+
+    $('.playusevideo').on('click', function(e) {
+        var target = $(this).attr('rel');
+        var $target = $(target);
+        $(this).parent().addClass('d-none');
+        $target.fadeIn('fast');
+    })
+});
 
 

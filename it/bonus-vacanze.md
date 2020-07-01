@@ -2,7 +2,7 @@
 layout: internal-w-slides
 title: Il tuo Bonus Vacanze con IO
 image: "/assets/img/bonus-vacanze/social-card-bonus.jpg"
-pre-title: DAL 1° LUGLIO
+pre-title: Servizio attivo
 description: Richiedi e utilizza il "Bonus Vacanze" attraverso l'app IO in modo semplice e sicuro
 description_social : Dal 1° luglio richiedi e utilizza il "Bonus Vacanze" attraverso l'app IO in modo semplice e sicuro
 subdescription: "Scarica l’ultima versione dell’app:"
