@@ -1,8 +1,7 @@
 it:
-  - title: Perché non trovo ancora il servizio “Bonus Vacanze” sull’app IO?
-    body: "Oggi il servizio che ti consentirà di richiedere e ottenere il Bonus non è ancora disponibile nell’app. A breve, lo troverai nella sezione “Pagamenti” di IO e ti spiegheremo come usarlo.\ 
-    In ogni caso, ricorda che il Bonus sarà attivo e spendibile solo a partire dal 1° luglio e per tutto il periodo successivo, fino al 31 dicembre 2020.\ 
-    Inoltre, prima di richiedere il Bonus tramite l’app, dovrai avere presentato una [DSU per il calcolo dell’ISEE](https://www.inps.it/NuovoportaleINPS/default.aspx?itemdir=50088&lang=IT)."
+  - title: Dove trovo il servizio per richiedere il Bonus Vacanze su IO?
+    body: "Dopo esserti autenticato con SPID o CIE (versione 3.0), puoi accedere alla funzione per richiedere il Bonus Vacanze entrando nella sezione “Pagamenti” dell’app: tramite il pulsante “Aggiungi”\ 
+    in corrispondenza della voce nuovo Bonus/Sconto, basta scegliere “Bonus Vacanze” dalla lista di quelli disponibili. "
   - title: Devo caricare il mio ISEE in versione PDF sull’app IO? 
     body: "No. Dopo aver presentato all’INPS la Dichiarazione Sostitutiva Unica (DSU) per il calcolo dell’ISEE, per richiedere il Bonus tramite IO non serve fare altro.\ 
     Al momento della richiesta, è l’app stessa a verificare direttamente con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista."
