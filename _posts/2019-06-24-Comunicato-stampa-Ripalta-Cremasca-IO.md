@@ -10,6 +10,7 @@ date: 2019-06-24
 friendlydate: 24 giugno 2019
 narrow: true
 friendlytitle: "Ripalta Cremasca inizia la sperimentazione di IO, l’app dei servizi pubblici"
+archived: true
 ---
 
 ### Ripalta Cremasca inizia la sperimentazione di IO, l’app dei servizi pubblici

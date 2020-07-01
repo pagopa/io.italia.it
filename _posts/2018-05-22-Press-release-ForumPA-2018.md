@@ -8,6 +8,7 @@ date: 2018-05-22
 friendlydate: May,22 2018
 narrow: true
 friendlytitle: "IO, the project to develop the public administration services app."
+archived: true
 ---
 
 ### IO, the project to develop the public administration services app.

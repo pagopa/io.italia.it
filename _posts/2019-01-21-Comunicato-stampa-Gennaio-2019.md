@@ -9,6 +9,7 @@ date: 2019-01-21
 friendlydate: 21 gennaio 2019
 narrow: true
 friendlytitle: "IO, l’app dei servizi pubblici, negli store entro fine anno"
+archived: true
 ---
 
 ### IO, l’app dei servizi pubblici, negli store entro fine anno

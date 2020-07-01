@@ -10,6 +10,7 @@ date: 2019-10-15
 friendlydate: 15 ottobre 2019
 narrow: true
 friendlytitle: "Palermo invita i cittadini a testare IO, l’app dei servizi pubblici"
+archived: true
 ---
 
 ### Palermo invita i cittadini a testare IO, l’app dei servizi pubblici

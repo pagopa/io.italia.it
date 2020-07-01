@@ -11,6 +11,7 @@ date: 2019-12-02
 friendlydate: 2 dicembre 2019
 narrow: true
 friendlytitle: "IO: arriva l’app per i cittadini progettata con i cittadini"
+archived: true
 ---
 
 ### IO: arriva l’app per i cittadini progettata con i cittadini
