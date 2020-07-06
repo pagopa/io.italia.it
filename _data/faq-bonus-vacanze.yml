@@ -5,10 +5,6 @@ it:
   - title: Devo caricare il mio ISEE in versione PDF sull’app IO? 
     body: "No. Dopo aver presentato all’INPS la Dichiarazione Sostitutiva Unica (DSU) per il calcolo dell’ISEE, per richiedere il Bonus tramite IO non serve fare altro.\ 
     Al momento della richiesta, è l’app stessa a verificare direttamente con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista."
-  - title: Nell’app IO trovo l’elenco delle strutture turistiche che accettano il “Bonus Vacanze”? 
-    body: "No. L'adesione delle strutture turistico-ricettive all’iniziativa è libera e non è previsto un meccanismo di “iscrizione” a nessun elenco.\ 
-    Sta alla struttura informare i clienti, attraverso propri canali, del fatto che accetta o meno il Bonus Vacanze.\ 
-    Prima di richiederlo, assicurati che ti sarà possibile utilizzarlo dove hai scelto di soggiornare per le tue prossime vacanze."
   - title: Quanto tempo passa dal momento della richiesta al momento dell’attivazione del Bonus su IO?
     body: "Se sei in possesso di tutti i requisiti per avere diritto all’agevolazione, l’attivazione del Bonus è pressoché immediata: in pochi minuti, dal momento della richiesta,\ 
     l’app completa le verifiche necessarie con i sistemi di INPS e invia i dati di riepilogo all’Agenzia delle Entrate per poi darti conferma che il tuo Bonus è attivo.\ 
@@ -18,18 +14,15 @@ it:
     body: "No. Anche se trovi la funzione per richiedere il Bonus Vacanze all’interno della sezione “Pagamenti” dell’app IO, l’utilizzo del Bonus non è associato in alcun modo alla disponibilità di una carta di credito\ 
     né di altri metodi di pagamento salvati nell’app. Quando utilizzerai il Bonus per ottenere uno sconto presso la struttura turistica dove trascorrerai le vacanze, potrai saldare eventuali importi aggiuntivi relativi al tuo soggiorno\ 
     con il metodo di pagamento che preferisci, se accettato dalla struttura."
-  - title: Posso prenotare la mia vacanza prima del 1° luglio, anche se non è ancora possibile richiedere il Bonus Vacanze dall’app IO?
-    body: "Sì. Se, dopo aver presentato una DSU (Dichiarazione Sostitutiva Unica) all’INPS ai fini del calcolo ISEE, sei certo di essere in possesso di tutti i requisiti e se hai già verificato che la struttura turistica dove hai scelto di soggiornare accetta il Bonus Vacanze,\ 
-    puoi effettuare la prenotazione anche prima del 1° luglio. Il Bonus, infatti, non serve al momento della prenotazione, ma dovrai mostrarlo all’albergatore al momento di saldare il tuo soggiorno. Una volta attivato, il Bonus può essere speso a partire dal 1° luglio e fino al 31 dicembre 2020."
   - title: Ho intenzione di richiedere il Bonus Vacanze ma non lo userò personalmente. Posso cederlo a un altro componente del mio nucleo familiare?
-    body: "Sì. Una volta richiesto e attivato il Bonus Vacanze tramite l’app IO a partire dal 1° luglio, puoi scegliere liberamente di usarlo per una vacanza in cui siano presenti tutti gli appartenenti al tuo nucleo familiare oppure solo alcuni; non è necessario che sia tu personalmente a spenderlo, né che tu sia presente.\ 
+    body: "Sì. Una volta richiesto e attivato il Bonus Vacanze tramite l’app IO, puoi scegliere liberamente di usarlo per una vacanza in cui siano presenti tutti gli appartenenti al tuo nucleo familiare oppure solo alcuni; non è necessario che sia tu personalmente a spenderlo, né che tu sia presente.\ 
     Ti segnaliamo che l’intestatario della fattura (o documento commerciale o scontrino/ricevuta fiscale) emessa dal fornitore dei servizi turistici potrà beneficiare anche della detrazione fiscale prevista dal Bonus Vacanze nella dichiarazione dei redditi dell’anno prossimo."    
-  - title: Come potrò condividere il Bonus con i miei familiari?
-    body: "Se un tuo familiare ha installato l’app sul proprio telefono e ha un account attivo su IO, potrà visualizzarlo in automatico all’interno della propria sezione “Pagamenti”. In alternativa, per chi non avesse un account sull’app IO, tramite la funzione “Condividi”\ 
-    presente nella schermata di riepilogo del Bonus, l’app crea una copia del codice univoco e del relativo QR code, che potrai condividere con gli altri componenti del nucleo familiare, via Whatsapp o altri strumenti disponibili sul tuo smartphone. "
+  - title: Come posso condividere il Bonus con i miei familiari?
+    body: "Se un tuo familiare ha installato l’app sul proprio telefono e ha un account attivo su IO, può visualizzarlo in automatico all’interno della propria sezione “Pagamenti”. In alternativa, per chi non avesse un account sull’app IO, tramite la funzione “Condividi”\ 
+    presente nella schermata di riepilogo del Bonus, l’app crea una copia del codice univoco e del relativo QR code, che puoi condividere con gli altri componenti del nucleo familiare, via Whatsapp o altri strumenti disponibili sul tuo smartphone."
   - title: Per cedere il Bonus a uno dei componenti del mio nucleo familiare, è necessario che anche loro abbiano l’app IO?
-    body: "No. Se il tuo familiare ha installato l’app sul proprio telefono e ha eseguito l’accesso a IO, potrà visualizzare in automatico il Bonus - non appena attivato - all’interno della propria sezione “Pagamenti”. In caso contrario, tramite la funzione “Condividi”\ 
-    presente nella schermata di riepilogo del Bonus, l’app crea una copia del codice univoco e del relativo QR code, che potrai condividere come una semplice immagine con gli altri componenti del nucleo familiare, via Whatsapp o con altri strumenti disponibili sul tuo smartphone. "
+    body: "No. Se il tuo familiare ha installato l’app sul proprio telefono e ha eseguito l’accesso a IO, può visualizzare in automatico il Bonus - non appena attivato - all’interno della propria sezione “Pagamenti”. In caso contrario, tramite la funzione “Condividi”\ 
+    presente nella schermata di riepilogo del Bonus, l’app crea una copia del codice univoco e del relativo QR code, che puoi condividere come una semplice immagine con gli altri componenti del nucleo familiare, via Whatsapp o con altri strumenti disponibili sul tuo smartphone."
   - title: Come fa l’app IO a conoscere la composizione del mio nucleo familiare?
     body: "Quando richiedi il Bonus, l’app IO verifica con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista, basandosi sull’importo calcolato a partire dai dati inseriti nell’ultima Dichiarazione Sostitutiva Unica (DSU) presentata dal tuo nucleo familiare.\ 
     Tra questi dati, vi è anche la composizione del nucleo familiare, che viene comunicata all’app IO e mostrata in automatico nella schermata di riepilogo dei dati relativi al Bonus richiesto, prima di confermare l’attivazione."
@@ -37,23 +30,29 @@ it:
     body: "No, ad oggi non ci sono metodi alternativi. Il [provvedimento del Direttore dell’Agenzia delle Entrate del 17 giugno 2020](https://www.agenziaentrate.gov.it/portale/documents/20143/2522870/RU+237174+del+17-6-2020.pdf/d7001a95-ba1f-0299-c947-0c706adebc3c),\ 
     stabilisce che il Bonus può essere richiesto ed erogato in modalità esclusivamente digitale. Per ottenerlo è necessario avere un’identità digitale (SPID oppure CIE 3.0 con relativo PIN) e aver installato ed effettuato l’accesso a [IO, l’app dei servizi pubblici](https://io.italia.it/),\ 
     oggi disponibile solo per smartphone _(dispositivi con sistema operativo Android 4.4 e superiori e dispositivi con sistema operativo iOS 13 e superiori)_. [Clicca qui per maggiori dettagli](https://io.italia.it/bonus-vacanze/)."
-  - title: Sull’app IO potrò richiedere anche il Bonus Bici?
-    body: "No. Al momento non è previsto che il Bonus Bici sia erogato attraverso l’app IO."
   - title: Dopo aver fatto la richiesta, ho trovato un errore nel riepilogo dei dati relativi al mio nucleo familiare che l’app mi mostra prima di confermare l’attivazione del Bonus. Come risolvo?
     body: "Se qualcosa non ti sembra corretto nei dati di riepilogo del Bonus associato al tuo nucleo familiare, potrebbe essere necessario presentare una nuova DSU al fine di aggiornare l’elenco dei componenti ed il relativo indicatore ISEE.\ 
     In questo caso, ti basterà seguire le indicazioni fornite nell’app e annullare la richiesta. In caso di annullamento, potrai richiedere nuovamente il Bonus in un secondo momento."
   - title: Ho fatto richiesta del Bonus, ma non posso procedere perché l’app IO mi dice che non risulta nessun ISEE associato al mio nucleo famigliare. Cosa devo fare?
     body: "Quando richiedi il Bonus, l’app IO verifica con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista, basandosi sull’importo calcolato a partire dai dati inseriti nell’ultima Dichiarazione Sostitutiva Unica (DSU) presentata per il tuo nucleo familiare.\ 
-    Se a INPS non risulta alcuna DSU in corso di validità per la tua famiglia, IO ti avvisa con un messaggio sull’app e  potrai richiedere nuovamente il Bonus, solo dopo aver presentato una DSU attraverso [i canali messi a disposizione dall’INPS](https://www.inps.it/nuovoportaleinps/default.aspx?itemdir=50088)."
+    Se a INPS non risulta alcuna DSU in corso di validità per la tua famiglia, IO ti avvisa con un messaggio sull’app e  potrai richiedere nuovamente il Bonus, solo dopo aver presentato una DSU attraverso [i canali messi a disposizione dall’INPS](https://www.inps.it/nuovoportaleinps/default.aspx?itemdir=50088).\ 
+    Se, invece, ti risulta di aver già presentato una DSU per il calcolo ISEE, ti invitiamo a **verificare direttamente sul sito di INPS che sia in corso di validità**. In caso positivo, ti invitiamo a fare un nuovo tentativo per richiedere il Bonus sull'app. Se il problema dovesse persistere,\ 
+    puoi inviare una richiesta di assistenza direttamente dall'app tramite la funzione “Segnala un bug” che trovi aprendo l'help dal punto di domanda (?) in alto a destra in tutte le schermate."
   - title: Ho fatto richiesta del Bonus dopo aver presentato la DSU per il calcolo dell’ISEE, ma l’app IO mi segnala che la mia DSU presenta “omissioni o difformità”. Cosa devo fare?
     body: "Se l’app ti avverte che la tua DSU presenta “omissioni o difformità”, puoi: <br>&bull; interrompere la richiesta del Bonus e presentare una nuova DSU per aggiornare il tuo ISEE. In questo caso, potrai richiedere nuovamente il Bonus in un secondo momento;<br>\ 
           &bull; oppure puoi verificare la DSU presentata all’INPS e - se è tutto corretto -  proseguire comunque con la richiesta. Se decidi di proseguire con l’attivazione del Bonus, dopo averlo utilizzato presso la struttura turistica prescelta,\ 
           potresti essere chiamato a fornire la documentazione per provare la completezza e la veridicità dei dati indicati nella DSU."
   - title: L’app mi dice che l’importo massimo del mio Bonus Vacanze è di 500 euro. Cosa succede se il costo del mio soggiorno è inferiore? 
-    body: "I dati presenti nella schermata di riepilogo del tuo Bonus attivo, all’interno della sezione “Pagamenti” dell’app IO, si riferiscono agli importi massimi disponibili: l’importo massimo dello sconto immediato che potrai ottenere dall’albergatore e l’importo massimo del beneficio fiscale di cui potrai\ 
+    body: "I dati presenti nella schermata di riepilogo del tuo Bonus attivo, all’interno della sezione “Pagamenti” dell’app IO, si riferiscono agli importi massimi disponibili: l’importo massimo dello **sconto immediato** che potrai ottenere dall’albergatore e l’importo massimo del **beneficio fiscale** di cui potrai\ 
     beneficiare come detrazione d’imposta nella dichiarazione dei redditi dell’anno prossimo.<br>\
     Se il costo della vacanza è inferiore all’importo massimo del tuo Bonus Vacanze, sia lo sconto sia la detrazione saranno ricalcolati in base al corrispettivo: saranno, cioè, rispettivamente pari all’80% e al 20% del costo del tuo soggiorno. Eventuali somme residue non saranno più spendibili in quanto il bonus deve essere speso in un’unica soluzione.\ 
     Nella [Guida d’Uso sul sito dell’Agenzia delle Entrate ](https://www.agenziaentrate.gov.it/portale/documents/20143/233439/Guida_Bonus_Vacanze_v1.pdf/1bbb218f-b17f-6ccc-4c0c-62af8d7bb205) trovi alcuni esempi utili e maggiori dettagli. "
   - title: L’app IO mi segnala che la mia richiesta di Bonus è valida, ma mi avverte che il Bonus risulta già attivo per il mio nucleo familiare. Cosa devo fare? 
     body: "Se il tuo nucleo familiare ha già un bonus attivo, non sarà possibile procedere con una nuova richiesta. In questo caso, l’app IO ti informerà che - come ogni altro componente del tuo nucleo familiare che abbia un account su IO - potrai visualizzare i dati relativi al Bonus già attivo nella sezione “Pagamenti” dell’app,\ 
     dove rimarrà disponibile fino al suo utilizzo da parte di uno dei componenti del tuo nucleo familiare."
+  - title: Nell’app IO trovo l’elenco delle strutture turistiche che accettano il “Bonus Vacanze”? 
+    body: "No. L'adesione delle strutture turistico-ricettive all’iniziativa è libera e non è previsto un meccanismo di “iscrizione” a nessun elenco.\ 
+    Sta alla struttura informare i clienti, attraverso propri canali, del fatto che accetta o meno il Bonus Vacanze.\ 
+    Prima di richiederlo, assicurati che ti sarà possibile utilizzarlo dove hai scelto di soggiornare per le tue prossime vacanze."
+  - title: Sull’app IO potrò richiedere anche il Bonus Bici?
+    body: "No. Al momento non è previsto che il Bonus Bici sia erogato attraverso l’app IO."
