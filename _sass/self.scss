@@ -83,18 +83,13 @@ hr {
     
 }
 
-.d-startup-hide {
-    /* temporaly disabled
-    & > *:not(.d-startup) {
-        display: none;
-    }*/
-}
+
 .read-more {
     font-weight: 700;
     color: $color--italia;
     padding: 6px 0;
     border-bottom: 1px solid $color--italia;
-    display: inline-block;
+    display: none;
     cursor: pointer;
 }
 .d-more-1, .d-more-2 {
@@ -112,4 +107,16 @@ hr {
     display: list-item;
     text-align: -webkit-match-parent;
 }
- 
+
+body.collapsed {
+
+    .read-more {
+        display: inline-block;
+    }
+    .d-startup-hide {
+    
+        & > *:not(.d-startup) {
+            display: none;
+        }
+    }
+}
