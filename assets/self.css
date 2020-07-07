@@ -110,14 +110,16 @@ ul { padding: 0 8px 0 24px; }
 
 hr { max-width: 50%; border: none; border-top: 1px solid #ddd; height: 1px; margin: 30px auto; line-height: 0; font-size: 0; }
 
-.d-startup-hide { /* temporaly disabled & > *:not(.d-startup) { display: none; }*/ }
-
-.read-more { font-weight: 700; color: #06c; padding: 6px 0; border-bottom: 1px solid #06c; display: inline-block; cursor: pointer; }
+.read-more { font-weight: 700; color: #06c; padding: 6px 0; border-bottom: 1px solid #06c; display: none; cursor: pointer; }
 
 .d-more-1.active, .d-more-2.active { display: block; }
 
 .list-unstyled { padding-left: 0; list-style: none; margin-top: 0; }
 
 .list-unstyled li { display: list-item; text-align: -webkit-match-parent; }
+
+body.collapsed .read-more { display: inline-block; }
+
+body.collapsed .d-startup-hide > *:not(.d-startup) { display: none; }
 
 /*# sourceMappingURL=self.css.map */

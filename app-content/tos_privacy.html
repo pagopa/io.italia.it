@@ -13,7 +13,7 @@
     <title>Informativa privacy e Termini e condizioni d’uso – IO, l’app dei servizi pubblici</title>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/self.css?202007070904">
+    <link rel="stylesheet" href="/assets/self.css?202007071442">
 
     
   </head>
@@ -39,7 +39,7 @@
 <p class="d-startup">Sotto trovi l’informativa completa, anche disponibile in ogni momento nella sezione “Profilo”.<br />
 I tuoi feedback sono importanti per migliorare l’App IO, anche sulle questioni privacy! Se qualcosa che riguarda la tua privacy nell’App IO non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici usando gli appositi strumenti in-app, oppure scrivendo un’email a  dpo@pagopa.it.</p>
 
-<!--<div class="read-more d-startup" data-more="d-more-1">Per saperne di più</div>-->
+<div class="read-more d-startup" data-more="d-more-1">Per saperne di più</div>
 
 <h2 class="d-more-1" id="informativa-privacy-estesa">Informativa privacy estesa</h2>
 
@@ -201,7 +201,7 @@ _Sede operativa: Via Sardegna, 38 - 00187 Roma</em> <br />
   <li>tramite l’App, potrai usufruire dei servizi resi dagli Enti che hanno aderito ad IO o da altre terze parti: a questi servizi si applicano i relativi termini e condizioni aggiuntivi, che ti verranno messi a disposizione per ciascun servizio.</li>
 </ul>
 
-<!--<div class="read-more d-startup" data-more="d-more-2">Per saperne di più</div>-->
+<div class="read-more d-startup" data-more="d-more-2">Per saperne di più</div>
 
 <h3 class="d-more-2" id="1-definizioni-dei-termini-utilizzati"><strong>1.</strong> Definizioni dei termini utilizzati</h3>
 
@@ -383,6 +383,10 @@ Nelle ipotesi in cui l’Utente non sia qualificato quale consumatore ai sensi d
     </div>
 
     <script >
+
+    if (window.location.hash=='#collapsed') {
+      document.body.classList.add("collapsed");
+    }
 
     var readers = document.getElementsByClassName('read-more');
     var showEl = function() {

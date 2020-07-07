@@ -13,7 +13,7 @@
     <title>Informativa sul trattamento dei dati personali – IO, l’app dei servizi pubblici</title>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/self.css?202007070904">
+    <link rel="stylesheet" href="/assets/self.css?202007071442">
 
     
   </head>
@@ -158,6 +158,10 @@ imprese turistico ricettive, dagli agriturismi e dai bed&amp;breakfast.</p>
     </div>
 
     <script >
+
+    if (window.location.hash=='#collapsed') {
+      document.body.classList.add("collapsed");
+    }
 
     var readers = document.getElementsByClassName('read-more');
     var showEl = function() {
