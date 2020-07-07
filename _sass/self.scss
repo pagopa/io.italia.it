@@ -84,10 +84,10 @@ hr {
 }
 
 .d-startup-hide {
-    /* temporaly disabled
+    
     & > *:not(.d-startup) {
         display: none;
-    }*/
+    }
 }
 .read-more {
     font-weight: 700;
@@ -112,4 +112,16 @@ hr {
     display: list-item;
     text-align: -webkit-match-parent;
 }
- 
+
+body.expanded {
+
+    .read-more {
+        display: none;
+    }
+    .d-startup-hide {
+    
+        & > *:not(.d-startup) {
+            display: block;
+        }
+    }
+}

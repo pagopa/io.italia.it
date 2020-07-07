@@ -29,7 +29,7 @@ L’App IO è gestita dalla società PagoPA S.p.A. su incarico della Presidenza 
 Sotto trovi l'informativa completa, anche disponibile in ogni momento nella sezione "Profilo".<br>
 I tuoi feedback sono importanti per migliorare l'App IO, anche sulle questioni privacy! Se qualcosa che riguarda la tua privacy nell'App IO non ti convince, non ti è chiaro o ritieni che dovremmo agire diversamente, scrivici usando gli appositi strumenti in-app, oppure scrivendo un'email a  dpo@pagopa.it.
 
-<!--<div class="read-more d-startup" data-more="d-more-1">Per saperne di più</div>-->
+<div class="read-more d-startup" data-more="d-more-1">Per saperne di più</div>
 
 {:.d-more-1}
 ## Informativa privacy estesa
@@ -235,7 +235,7 @@ In generale, ricorda sempre due aspetti importanti:
 - l’App IO è, attualmente, nella sua prima versione pubblica: non aspettarti un prodotto perfetto; l’App crescerà e migliorerà giorno dopo giorno, anche grazie alle tue segnalazioni e ai tuoi suggerimenti.
 - tramite l’App, potrai usufruire dei servizi resi dagli Enti che hanno aderito ad IO o da altre terze parti: a questi servizi si applicano i relativi termini e condizioni aggiuntivi, che ti verranno messi a disposizione per ciascun servizio.
 
-<!--<div class="read-more d-startup" data-more="d-more-2">Per saperne di più</div>-->
+<div class="read-more d-startup" data-more="d-more-2">Per saperne di più</div>
 
 {:.d-more-2}
 ### **1.** Definizioni dei termini utilizzati 

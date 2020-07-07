@@ -33,6 +33,10 @@
 
     <script >
 
+    if (window.location.hash=='#expanded') {
+      document.body.classList.add("expanded");
+    }
+
     var readers = document.getElementsByClassName('read-more');
     var showEl = function() {
         var morelabel = this.getAttribute("data-more");
