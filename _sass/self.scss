@@ -83,13 +83,19 @@ hr {
     
 }
 
+.d-startup-hide {
+
+    & > *:not(.d-startup) {
+        display: none;
+    }
+}
 
 .read-more {
     font-weight: 700;
     color: $color--italia;
     padding: 6px 0;
     border-bottom: 1px solid $color--italia;
-    display: none;
+    display: inline-block;
     cursor: pointer;
 }
 .d-more-1, .d-more-2 {
@@ -108,15 +114,18 @@ hr {
     text-align: -webkit-match-parent;
 }
 
-body.collapsed {
+
+
+body.expanded {
 
     .read-more {
-        display: inline-block;
+        display: none;
     }
     .d-startup-hide {
-    
+
         & > *:not(.d-startup) {
-            display: none;
+            display: block;
         }
     }
+
 }
