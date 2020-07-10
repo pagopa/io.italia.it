@@ -56,3 +56,6 @@ it:
     Prima di richiederlo, assicurati che ti sarà possibile utilizzarlo dove hai scelto di soggiornare per le tue prossime vacanze."
   - title: Sull’app IO potrò richiedere anche il Bonus Bici?
     body: "No. Al momento non è previsto che il Bonus Bici sia erogato attraverso l’app IO."
+  - title: Il Bonus Vacanze può essere richiesto anche da un componente del nucleo familiare che non abbia compiuto 18 anni?
+    body: "No. Anche se l’App IO è accessibile ai minori di 18 anni in possesso di CIE* (versione 3.0) sotto la supervisione dei genitori o dei tutori legali, il Bonus Vacanze non può essere richiesto da soggetti privi in tutto o in parte di capacità legale di agire ai sensi della normativa vigente.<br>
+    <i class='small text-muted d-block'>* Nota: Al momento, la funzionalità “Entra con CIE” è disponibile solo su dispositivi Android (versione 6.0 e superiori) e dotati di tecnologia NFC.</i>"
