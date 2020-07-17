@@ -1,0 +1,14 @@
+.pagename--dashboard {
+
+    *[data-toggle="tooltip"] {
+        position: absolute;
+    }
+
+    .dashboard-mainwrapper {
+        margin-top: 5rem;
+        @media screen and (min-width: $grid-breakpoints-md) {
+            margin-top: 10rem;
+        }
+    }
+
+}
