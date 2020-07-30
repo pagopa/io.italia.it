@@ -10,6 +10,7 @@ date: 2019-05-28
 friendlydate: 28 maggio 2019
 narrow: true
 friendlytitle: "IO si apre al contributo di Torino"
+archived: true
 ---
 
 ### IO si apre al contributo di Torino
