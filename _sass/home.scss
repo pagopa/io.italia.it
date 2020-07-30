@@ -1,14 +1,16 @@
 
 body.layout--home {
 
-  .tooltip-inner {
-    background-color: #fff  !important;
-    color: $color--italia;
-    font-weight: 600;
-    font-size: 0.8rem;
-  }
-  .tooltip .arrow {
-    display: none;
+  #section_14 {
+    .tooltip-inner {
+      background-color: #fff  !important;
+      color: $color--italia;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+    .tooltip .arrow {
+      display: none;
+    }
   }
 }
 
