@@ -69,13 +69,13 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/pub-amm.js' }}"></script>
 {% endif %}
 
-{% if page.ref == 'dashboard' %}
+{% if page.ref == 'dashboard' or page.ref == 'index' %}
     <script src="{{ site.baseurl }}/assets/js/vendor/Chart.bundle.js"></script>
     <script src="{{ site.baseurl }}/assets/js/vendor/moment.min.js"></script>
-    
     <script src="{{ site.baseurl }}/assets/js/helpers.js"></script>
     <script src="{{ site.baseurl }}/assets/js/dashboard.js"></script>
 {% endif %}
+
 
 <script
   async
