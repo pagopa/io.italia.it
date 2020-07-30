@@ -25,9 +25,9 @@ function loadJSON(callback) {
     var dashboardData = JSON.parse(response);
     console.log(dashboardData);
 
-    var totalPred = document.getElementById("totalPred").getContext("2d");
+    var totalPred = document.getElementById("totalPred") ? document.getElementById("totalPred").getContext("2d") : undefined;
     var downloads = generateDownloads(dashboardData.downloads.slice(65,dashboardData.downloads.length));
-    var predChart = new Chart(totalPred, {
+    var predChart = totalPred ? new Chart(totalPred, {
       type: "line",
       data: downloads,
       options: {
@@ -74,23 +74,21 @@ function loadJSON(callback) {
           ],
         },
       },
-    });
+    }) : undefined;
 
     var dataForEdcPie = generatePieOS(dashboardData.downloadsByOs);
-    var top10PEdcPieElem = document
-      .getElementById("top10EdcPie")
-      .getContext("2d");
-    var top10PEdcPie = new Chart(top10PEdcPieElem, {
+    var top10PEdcPieElem = document.getElementById("top10EdcPie") ? document.getElementById("top10EdcPie").getContext("2d") : undefined;
+    var top10PEdcPie = top10PEdcPieElem ? new Chart(top10PEdcPieElem, {
       type: "pie",
       data: dataForEdcPie,
       options: {
         responsive: true,
       },
-    });
+    }) : undefined;
 
-    var idps = document.getElementById("idps").getContext("2d");
+    var idps = document.getElementById("idps") ? document.getElementById("idps").getContext("2d") : undefined;
     var idpsData = generateIdps(dashboardData.idps.slice(65,dashboardData.idps.length ));
-    var idpsChart = new Chart(idps, {
+    var idpsChart = idps ? new Chart(idps, {
       type: "bar",
       data: idpsData,
       options: {
@@ -139,11 +137,11 @@ function loadJSON(callback) {
           ],
         },
       },
-    });
+    }) : undefined;
 
-    var bonusLine = document.getElementById("bonusLine").getContext("2d");
+    var bonusLine = document.getElementById("bonusLine") ? document.getElementById("bonusLine").getContext("2d") : undefined;
     var bonus = generateBonus(dashboardData.bonusActivation);
-    var predChart = new Chart(bonusLine, {
+    var predChart = bonusLine ? new Chart(bonusLine, {
       type: "line",
       data: bonus,
       options: {
@@ -190,7 +188,7 @@ function loadJSON(callback) {
           ],
         },
       },
-    });
+    }) : undefined;
 
     $("#downloads").text( TOTAL.toLocaleString("it"));
     $("#bonusTotal").text( TOTALBONUS.toLocaleString("it"));
