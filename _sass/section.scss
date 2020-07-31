@@ -162,10 +162,15 @@
     .arrow {
       display: block;
     }
-    .arrow::before,
-    .bs-tooltip-right .arrow::before {
-      border-right-color: #17324D;
-    }
+  }
+  .bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    border-right-color: #17324D;
+  }
+  .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    border-left-color: #17324D;
+  }
+  .bs-tooltip-auto[x-placement^=left] .arrow, .bs-tooltip-left .arrow {
+    right: 2px;
   }
 }
 
