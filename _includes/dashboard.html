@@ -1,61 +1,95 @@
+<div class="bg-primary pt-5">
+    <div class="py-5 container container--mid">
+        <div id="aggiornamento" class="text-right small text-white d-none d-md-block">
+        Ultimo aggiornamento: 21/07/2020 alle ore 9.30
+        </div>
+    </div>
+    <section class="container container--mid mb-5 mt-0 mt-md-3 d-flex " id="introduzione">
+        <div class="row px-3 px-md-0 w-100">
+            <div class="col-lg-7 text-primary order-2 order-md-1">
+                <h1 class="text-white">{{page.title}}</h1>
+                <p class="my-4 text-white" >{{page.description}}</p>
+                <div class="d-flex flex-column mb-3">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
 <div class="dashboard-mainwrapper">
-        <div class="container pt-5 pt-md-0 pb-5 pb-md-0">
-          <div class="row">
-    <div class="container-fluid">
-        <div class="row px-4"><h2 >Dashboard dati app IO</h2></div>
+    <div class="container container--mid pt-5 pt-md-0 pb-5 pb-md-0">
+        <div class="row">
         <div class="row my-2">
-            <div class="col-md-4 py-1">
-                <div class="card" id="card-no-border">
-                    <div class="card-body text-center">
-                        <h4 > Downloads IO
+            <div class="col-md-6 py-1">
+                <div class="dashboardcard shadow d-flex flex-column justify-content-center" >
+                        <img src="/assets/img/icon-dashboard-downloads.svg" width="55" alt="Downloads"> 
+                        <h5 id="downloads" class="dashboardcard__number my-2" ></h5>
+                        <div class="dashboardcard__desc" >Download
                             <span tabindex="0" data-toggle="tooltip" title="Numero totale di transazioni gestite dal nodo pagoPa da quando è stato attivato nel 2016"
                              class="">
-                                <svg class="icon icon-sm icon-primary align-top">
+                                <svg class="icon align-center ml-2">
                                   <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
                                   </use>
                                 </svg>
                              </span>
-                        </h4>
-                        <h5 id="downloads"></h5>
-                    </div>
+                        </div>
                 </div>
-                <div class="card ">
-                    <div class="card-body">
-                        <canvas class=" " id="top10EdcPie"></canvas>
-                    </div>
-                </div>
+                
             </div>
-            <div class="col-md-8 py-1">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <canvas class="shadow rounded p-3 " id="totalPred"></canvas>
+            <div class="col-md-6 py-1">
+                <div class="dashboardcard shadow d-flex flex-column justify-content-center">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>Download</h4>
+                            <p>Proporzione dispositivi Android/iOS</p>
+                        </div>
+                        <div class="col-6">
+                        <canvas class=" " id="top10EdcPie"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row my-1">
-            <div class="col-md-12 py-1">
-                <div class="card border-0">
-                    <div class="card-body">
-                        <canvas class="shadow rounded p-3 " id="idps"></canvas>
+            <div class="col-12 my-3">
+                <div class="dashboardcard shadow ">
+                    <h4>Download</h4>
+                    <p>Andamento dei download negli ultimi mesi</p>
+                    <div class="">
+                        <canvas class=" " id="totalPred"></canvas>
                     </div>
-                </div>
-            </div>
+                </div><!--/dashboardcard-->
+            </div><!--/col-12-->
+            <div class="col-12 my-3">
+                <div class="dashboardcard shadow ">
+                    <h4>Login</h4>
+                    <p>Utenti autenticati tramite SPID o CIE e Identity Provider utilizzati</p>
+                    <div class="">
+                        <canvas  id="idps"></canvas>
+                    </div>
+                </div><!--/dashboardcard-->
+            </div><!--/col-12-->
         </div>
-        <hr class="my-2 mt-md-3 mb-md-5">
-        <div class="row px-4"><h2 >Dashboard dati "Bonus Vacanze"</h2></div>
+        </div><!--/row-->
+    </div><!--/container-->
+
+    <div class="dashboard__bonus mt-2 mt-md-5 pt-2 pt-md-5">
+    <div class="container container--mid">
+        <div class="row mb-2 mb-md-4">
+            <h2 class="text-primary ">I numeri del Bonus Vacanze</h2>
+        </div>
         <div class="row my-2">
             <div class="col-md-4 py-1">
                 <div class="card" id="card-no-border">
                     <div class="card-body text-center">
                         <h4 > Bonus Vacanze attivati
                             <span tabindex="0" data-toggle="tooltip" title="Bonus Vacanze attivati a partire dal primo luglio"
-                             class="">
+                                class="">
                                 <svg class="icon icon-sm icon-primary align-top">
-                                  <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                  </use>
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                    </use>
                                 </svg>
-                             </span>
+                                </span>
                         </h4>
                         <h5 id="bonusTotal"></h5>
                     </div>
@@ -69,8 +103,6 @@
                 </div>
             </div>
         </div>
-
-</div><!--/row-->
-</div><!--/container-->
-
-</div>
+    </div><!--/container-->
+    </div><!--dashboard__bonus-->
+</div><!--/dashboard-mainwrapper"-->
