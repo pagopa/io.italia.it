@@ -39,6 +39,9 @@ function loadJSON(callback) {
           },
         },
         responsive: true,
+        legend: {
+          display: false,
+        },
         title: {
           display: false,
           text: "Numero donwloads ",
@@ -47,7 +50,7 @@ function loadJSON(callback) {
           xAxes: [
             {
               gridLines: {
-                display: true,
+                display: false,
               },
               ticks: {
                 fontSize: 15,
@@ -64,7 +67,7 @@ function loadJSON(callback) {
                 display: true,
               },
               ticks: {
-                display: false,
+                display: true,
                 fontSize: 15,
                 fontColor: "#19191a",
                 fontFamily: "'Titillium Web', Arial",
@@ -83,6 +86,13 @@ function loadJSON(callback) {
       data: dataForEdcPie,
       options: {
         responsive: true,
+        legend: {
+          position: 'bottom',
+          labels : {
+            boxWidth: 12,
+            usePointStyle: true 
+          }
+        }
       },
     }) : undefined;
 
@@ -91,12 +101,13 @@ function loadJSON(callback) {
     var idpsChart = idps ? new Chart(idps, {
       type: "bar",
       data: idpsData,
+      borderWidth: 0,
       options: {
         // Elements options apply to all of the options unless overridden in a dataset
         // In this case, we are setting the border of each horizontal bar to be 2px wide
         elements: {
           rectangle: {
-            borderWidth: 2,
+            borderWidth: 0,
           },
         },
         responsive: true,
@@ -104,12 +115,19 @@ function loadJSON(callback) {
           display: true,
           text: "Login ",
         },
+        legend: {
+          position: 'bottom',
+          labels : {
+            boxWidth: 12,
+            usePointStyle: true 
+          }
+        },
         scales: {
           xAxes: [
             {
               stacked: true,
               gridLines: {
-                display: true,
+                display: false,
               },
               ticks: {
                 fontSize: 15,
@@ -127,8 +145,8 @@ function loadJSON(callback) {
                 display: true,
               },
               ticks: {
-                display: false,
-                fontSize: 15,
+                display: true,
+                fontSize: 12,
                 fontColor: "#19191a",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,

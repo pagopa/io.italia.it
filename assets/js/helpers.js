@@ -19,9 +19,10 @@ function generateDownloads(downloads) {
         {
           label: "# Downloads IO",
           data: nDownloads,
-          borderWidth: 1,
+          borderWidth: 2,
           backgroundColor: "rgb(0, 115, 230, 0.2)",
           borderColor: "rgb(0, 115, 230)",
+          pointRadius: 0,
         },
       ],
     };
@@ -61,65 +62,55 @@ function generateDownloads(downloads) {
         {
           label: "Poste",
           data: poste,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#f8d515",
-          borderColor: "rgb(0, 115, 230)",
         },{
           label: "Cie",
           data: cie,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#15c5f8",
-          borderColor: "rgb(0, 115, 230)",
         },{
           label: "Aruba",
           data: aruba,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "green",
-          borderColor: "rgb(0, 115, 230)",
         },{
           label: "Namiral",
           data: namiral,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#e9ab74",
-          borderColor: "rgb(0, 115, 230)",
         },{
           label: "Infocert",
           data: infocert,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#3374a1",
-          borderColor: "rgb(0, 115, 230)",
         },{
           label: "Intesa",
           data: intesa,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#afd724",
-          borderColor: "rgb(0, 115, 230)",
         },
         {
           label: "Lepida",
           data: lepida,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#e4771f",
-          borderColor: "rgb(0, 115, 230)",
         },
         {
           label: "Register",
           data: register,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#f6ede6",
-          borderColor: "rgb(0, 115, 230)",
         },{
           label: "Sielte",
           data: sielte,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#287c4a",
-          borderColor: "rgb(0, 115, 230)",
         },{
           label: "Telecom",
           data: telecom,
-          borderWidth: 1,
+          borderWidth: 0,
           backgroundColor: "#d90d2e",
-          borderColor: "rgb(0, 115, 230)",
         },
       ],
     };
@@ -160,15 +151,15 @@ function generateDownloads(downloads) {
     }
 
     return {
-      labels: ['android', 'ios'],
+      labels: ['Android', 'iOS'],
       datasets: [
         {
           data: data,
-          backgroundColor: ["rgb(77, 210, 255)","rgb(179, 179, 230)"],
+          backgroundColor: ["rgb(0, 115, 230)","rgb(38, 200, 247)"],
           hoverBackgroundColor: [
-            "#FF5A5E",
-            "#5AD3D1",
+            "rgb(0, 90, 200)","rgb(10, 160, 220)"
           ],
+          hoverBorderColor: '#fff',
         },
       ],
     };
