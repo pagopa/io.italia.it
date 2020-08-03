@@ -23,6 +23,9 @@ function generateDownloads(downloads) {
           backgroundColor: "rgb(0, 115, 230, 0.2)",
           borderColor: "rgb(0, 115, 230)",
           pointRadius: 0,
+          pointBorderColor: "rgb(0, 115, 230)",
+          pointBackgroundColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
         },
       ],
     };
