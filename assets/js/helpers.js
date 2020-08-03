@@ -19,9 +19,10 @@ function generateDownloads(downloads) {
         {
           label: "# Downloads IO",
           data: nDownloads,
-          borderWidth: 1,
+          borderWidth: 2,
           backgroundColor: "rgb(0, 115, 230, 0.2)",
           borderColor: "rgb(0, 115, 230)",
+          pointRadius: 0,
         },
       ],
     };
@@ -160,15 +161,15 @@ function generateDownloads(downloads) {
     }
 
     return {
-      labels: ['android', 'ios'],
+      labels: ['Android', 'iOS'],
       datasets: [
         {
           data: data,
-          backgroundColor: ["rgb(77, 210, 255)","rgb(179, 179, 230)"],
+          backgroundColor: ["rgb(0, 115, 230)","rgb(38, 200, 247)"],
           hoverBackgroundColor: [
-            "#FF5A5E",
-            "#5AD3D1",
+            "rgb(0, 90, 200)","rgb(10, 160, 220)"
           ],
+          hoverBorderColor: '#fff',
         },
       ],
     };

@@ -39,6 +39,9 @@ function loadJSON(callback) {
           },
         },
         responsive: true,
+        legend: {
+          display: false,
+        },
         title: {
           display: false,
           text: "Numero donwloads ",
@@ -47,7 +50,7 @@ function loadJSON(callback) {
           xAxes: [
             {
               gridLines: {
-                display: true,
+                display: false,
               },
               ticks: {
                 fontSize: 15,
@@ -64,7 +67,7 @@ function loadJSON(callback) {
                 display: true,
               },
               ticks: {
-                display: false,
+                display: true,
                 fontSize: 15,
                 fontColor: "#19191a",
                 fontFamily: "'Titillium Web', Arial",
@@ -83,6 +86,13 @@ function loadJSON(callback) {
       data: dataForEdcPie,
       options: {
         responsive: true,
+        legend: {
+          position: 'bottom',
+          labels : {
+            boxWidth: 12,
+            usePointStyle: true 
+          }
+        }
       },
     }) : undefined;
 
