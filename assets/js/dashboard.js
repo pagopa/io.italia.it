@@ -97,10 +97,71 @@ function loadJSON(callback) {
     }) : undefined;
 
     var idps = document.getElementById("idps") ? document.getElementById("idps").getContext("2d") : undefined;
-    var idpsData = generateIdps(dashboardData.idps.slice(65,dashboardData.idps.length ));
+    var idpsData = generateIdps(dashboardData.idps.slice(65,dashboardData.idps.length));
     var idpsChart = idps ? new Chart(idps, {
       type: "bar",
       data: idpsData,
+      borderWidth: 0,
+      options: {
+        // Elements options apply to all of the options unless overridden in a dataset
+        // In this case, we are setting the border of each horizontal bar to be 2px wide
+        elements: {
+          rectangle: {
+            borderWidth: 0,
+          },
+        },
+        responsive: true,
+        title: {
+          display: true,
+          text: "Login ",
+        },
+        legend: {
+          position: 'bottom',
+          labels : {
+            boxWidth: 12,
+            usePointStyle: true 
+          }
+        },
+        scales: {
+          xAxes: [
+            {
+              stacked: true,
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#19191a",
+                fontFamily: "'Titillium Web', Arial",
+              },
+              type: 'time',
+              unitStepSize: 5,
+            },      
+          ],
+          yAxes: [		
+            {
+              stacked: true,
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#19191a",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+              },
+            },
+          ],
+        },
+      },
+    }) : undefined;
+
+    var cieVsIdps = document.getElementById("cieidps") ? document.getElementById("cieidps").getContext("2d") : undefined;
+    var cieIdpsData = generateCieIdps(dashboardData.idps.slice(65,dashboardData.idps.length ));
+    var cieIdpsChart = cieVsIdps ? new Chart(cieVsIdps, {
+      type: "bar",
+      data: cieIdpsData,
       borderWidth: 0,
       options: {
         // Elements options apply to all of the options unless overridden in a dataset
@@ -209,7 +270,8 @@ function loadJSON(callback) {
     }) : undefined;
 
     $("#downloads").text( TOTAL.toLocaleString("it"));
-    $("#bonusTotal").text( TOTALBONUS.toLocaleString("it"));
-
+    $("#bonusTotal").text( dashboardData.generatedBonusCount.toLocaleString("it"));
+    $("#bonusAmount").text( dashboardData.generatedBonusAmount.toLocaleString("it") + " €");
+    $("#numbonusredeem").text( dashboardData.redeemedBonusCount.toLocaleString("it"));
   });
   

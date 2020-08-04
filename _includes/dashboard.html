@@ -63,12 +63,22 @@
             <div class="col-12 my-3">
                 <div class="dashboardcard shadow ">
                     <h4>Login</h4>
+                    <p>Utenti autenticati tramite SPID o CIE</p>
+                    <div class="">
+                        <canvas  id="cieidps"></canvas>
+                    </div>
+                </div><!--/dashboardcard-->
+            </div><!--/col-12-->
+            <div class="col-12 my-3">
+                <div class="dashboardcard shadow ">
+                    <h4>Login</h4>
                     <p>Utenti autenticati tramite SPID o CIE e Identity Provider utilizzati</p>
                     <div class="">
                         <canvas  id="idps"></canvas>
                     </div>
                 </div><!--/dashboardcard-->
             </div><!--/col-12-->
+
         </div>
         </div><!--/row-->
     </div><!--/container-->
@@ -95,13 +105,49 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-8 py-1">
+            <div class="col-md-4 py-1">
+                <div class="card" id="card-no-border">
+                    <div class="card-body text-center">
+                        <h4 > Controvalore economico
+                            <span tabindex="0" data-toggle="tooltip" title="Importo massimo bonus vacanze spendibili"
+                                class="">
+                                <svg class="icon icon-sm icon-primary align-top">
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                    </use>
+                                </svg>
+                                </span>
+                        </h4>
+                        <h5 id="bonusAmount"></h5>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="row my-1">
+            <div class="col-md-12 py-1">
                 <div class="card border-0">
                     <div class="card-body">
                         <canvas class="shadow rounded p-3 " id="bonusLine"></canvas>
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="row my-1">
+            <div class="col-md-12 py-1">
+                <div class="card" id="card-no-border">
+                    <div class="card-body text-center">
+                        <h4 > Bonus Vacanze utilizzati
+                            <span tabindex="0" data-toggle="tooltip" title="Totale bonus vacanze spesi ad oggi"
+                                class="">
+                                <svg class="icon icon-sm icon-primary align-top">
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                    </use>
+                                </svg>
+                                </span>
+                        </h4>
+                        <h5 id="numbonusredeem"></h5>
+                    </div>
+                </div>
+            </div>  
         </div>
     </div><!--/container-->
     </div><!--dashboard__bonus-->

@@ -118,6 +118,37 @@ function generateDownloads(downloads) {
       ],
     };
   }
+  function generateCieIdps(idps) {
+    var labels = [];
+    var all = [];
+    var cie = [];
+    var total = 0;
+    for (let i = 0; i < idps.length; i++) {
+      var obj = idps[i]
+      var monthDate = moment(obj['date']);
+      const date = monthDate.format("YYYY-MM-DD");
+      labels.push(date.toString());
+      all.push(obj['Poste ID'] + obj['Aruba ID'] + obj['Aruba ID'] + obj['Namirial ID'] + obj['Infocert ID']
+         + obj['Intesa ID'] + obj['Lepida ID'] + obj['SPIDItalia Register.it'] + obj['Sielte ID'] + obj['Telecom Italia']);
+      cie.push(obj['CIE']);
+    }
+    return {
+      labels,
+      datasets: [
+        {
+          label: "ALL",
+          data: all,
+          borderWidth: 0,
+          backgroundColor: "#3374a1",
+        },{
+          label: "Cie",
+          data: cie,
+          borderWidth: 0,
+          backgroundColor: "#15c5f8",
+        },
+      ],
+    };
+  }
 
   function generateBonus(bonusActivation) {
     var labels = [];
@@ -125,7 +156,7 @@ function generateDownloads(downloads) {
     for (let i = 0; i < bonusActivation.length; i++) {
       var obj = bonusActivation[i]
       var monthDate = moment(obj['date']);
-      TOTALBONUS = TOTALBONUS + obj['total'];
+      // TOTALBONUS = TOTALBONUS + obj['total'];
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
       bonus.push(obj['total']);
