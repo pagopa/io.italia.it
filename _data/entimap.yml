@@ -3,10 +3,10 @@ dots:
     status: active
     category: nazionale
     subitems: Bollo Auto, Certificati di proprietà
-  - title: "Ministero dell'Università e della Ricerca (MIUR)"
-    status: pending
+  - title: "Agenzia delle Entrate"
+    status: active
     category: nazionale
-    subitems: Pago in Rete
+    subitems: Bonus Vacanze
   - title: "Regione Veneto"
     status: active
     type: medium
@@ -50,7 +50,7 @@ dots:
     type: small
     category: locale
     coord: [11,18]
-    subitems: Avvisi per servizi scolastici, Pagamenti per servizi scolastici, Sanzioni al codice della strada, Servizio tributi
+    subitems: Avvisi per servizi scolastici, Canoni di affitto e locazione, Luce votiva, Pagamenti per servizi scolastici, Sanzioni al codice della strada, Servizio tributi
   - title: "Comune di Palermo"
     status: active
     type: small
@@ -62,6 +62,7 @@ dots:
     type: small
     category: locale
     coord: [8,16]
+    subitems: Servizi demografici, SUAP - sviluppo, impresa e commercio
   - title: "Comune di Collecchio"
     status: active
     type: small
@@ -91,35 +92,79 @@ dots:
     type: small
     category: locale
     coord: [12,21]
-  - title: "Comune di Trento"
+    subitems: Anagrafe
+  - title: "Comune di Campello sul Clitunno"
     status: active
     type: small
     category: locale
-    coord: [4,18] 
-  - title: "Comune di Santa Maria la Carità"
+    coord: [13,18]
+    subitems: Servizio refezione scolastica, Servizio tributi
+  - title: "Comune di Campi Bisenzio"
     status: active
     type: small
     category: locale
-    coord: [24,25]
-  - title: "Roma Capitale"
+    coord: [16,16]
+    subitems: F.I.D.O. Domande, F.I.D.O. Pagamenti 
+  - title: "Comune di Carinaro"
     status: active
     type: small
     category: locale
-    subitems: Sportello Unico per le Attività Produttive (SUAP), Sportello Unico per l'Edilizia Telematico (SUET)
-    coord: [22,20]
+    coord: [25,25]
+    subitems: Avviso scadenza TARI 
+  - title: "Comune di Cremona"
+    status: active
+    type: small
+    category: locale
+    coord: [7.5,12.4]
+    subitems: TARI
   - title: "Comune di Garbagnate Milanese"
     status: active
     type: small
     category: locale
     coord: [7,8.2]
     subitems: Iscrizione pre e post scuola, Iscrizione al trasporto scolastico
-  - title: "Comune di Merano"
+  - title: "Comune di Novellara"
     status: active
+    type: small
+    category: locale
+    coord: [10.5,17]
+    subitems: Servizi demografici
+  - title: "Comune di Santa Maria la Carità"
+    status: active
+    type: small
+    category: locale
+    coord: [24,25]
+    subitems: Carta d'identità
+  - title: "Comune di Sommacampagna"
+    status: active
+    type: small
+    category: locale
+    coord: [7,18]
+    subitems: Pagamenti servizi demografici, Pagamenti servizi scolastici, Pagamenti servizi tributi
+  - title: "Comune di Villaricca"
+    status: active
+    type: small
+    category: locale
+    coord: [25.5,25.5]
+    subitems: Avviso scadenza TARI, Avviso scadenza Tosap
+  - title: "Roma Capitale"
+    status: active
+    type: small
+    category: locale
+    subitems: Sportello Unico per le Attività Produttive (SUAP), Sportello Unico per l'Edilizia Telematico (SUET)
+    coord: [22,20]
+  - title: "Comune di Trento"
+    status: pending
+    type: small
+    category: locale
+    coord: [4,18] 
+  - title: "Comune di Merano"
+    status: pending
     type: small
     category: locale
     coord: [3,18] 
   - title: "Comune di Modena"
-    status: active
+    status: pending
     type: small
     category: locale
     coord: [10,18]
@@ -138,11 +183,6 @@ dots:
     type: small
     category: locale
     coord: [7.5,21]
-  - title: "Comune di Campi Bisenzio"
-    status: pending
-    type: small
-    category: locale
-    coord: [16,16]
   - title: "Comune di Alghero"
     status: pending
     type: small
@@ -193,6 +233,16 @@ dots:
     type: small
     category: locale
     coord: [14,23]
+  - title: "Comune di Firenze"
+    status: pending
+    type: small
+    category: locale
+    coord: [16.5,16.5]
+  - title: "Comune di Pescara"
+    status: pending
+    type: small
+    category: locale
+    coord: [21,24]
   - title: "Comune di Segrate"
     status: pending
     type: small
