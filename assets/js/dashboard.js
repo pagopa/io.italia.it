@@ -231,6 +231,9 @@ function loadJSON(callback) {
             borderWidth: 2,
           },
         },
+        legend: {
+          display: false,
+        },
         responsive: true,
         title: {
           display: false,
@@ -240,7 +243,7 @@ function loadJSON(callback) {
           xAxes: [
             {
               gridLines: {
-                display: true,
+                display: false,
               },
               ticks: {
                 fontSize: 15,
@@ -257,7 +260,7 @@ function loadJSON(callback) {
                 display: true,
               },
               ticks: {
-                display: false,
+                display: true,
                 fontSize: 15,
                 fontColor: "#19191a",
                 fontFamily: "'Titillium Web', Arial",

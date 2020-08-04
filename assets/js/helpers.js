@@ -167,9 +167,11 @@ function generateDownloads(downloads) {
         {
           label: "Bonus Vacanze",
           data: bonus,
-          borderWidth: 1,
+          borderWidth: 2,
           backgroundColor: "rgb(0, 115, 230, 0.2)",
           borderColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
         },
       ],
     };
