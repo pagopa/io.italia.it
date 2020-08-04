@@ -130,13 +130,47 @@
   background-color: #2D489D;
   z-index: 10;
   img {
-    width: 150px;
+    width: 55px;
   }
   .lead {
     font-size: 1rem;
     @media screen and (min-width: $grid-breakpoints-md) {
       font-size: 1.2rem;
     }
+  }
+  .counter {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .counterdesc {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+
+  .tooltip-inner {
+    font-size: 0.7rem;
+    background-color: #17324D;
+    margin-left: -2px;
+    line-height: 1.7;
+    padding: 10px;
+    max-width: 150px;
+    text-align: left;
+  }
+  .tooltip {
+    left: 10px !important;    
+    .arrow {
+      display: block;
+    }
+  }
+  .bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+    border-right-color: #17324D;
+  }
+  .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+    border-left-color: #17324D;
+  }
+  .bs-tooltip-auto[x-placement^=left] .arrow, .bs-tooltip-left .arrow {
+    right: 2px;
   }
 }
 

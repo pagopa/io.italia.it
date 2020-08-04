@@ -1,7 +1,7 @@
 ---
 layout: naked
-title: Dashboard
-description: Le novità, gli aggiornamenti e le informazioni sull’app dei servizi pubblici
+title: I numeri dell'app IO
+description: In questa pagina trovi le statistiche relative all'utilizzo dell'app IO, aggiornate giornalmente.
 lang: it
 permalink: /dashboard/
 ref: dashboard

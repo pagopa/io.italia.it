@@ -1,14 +1,16 @@
 
 body.layout--home {
 
-  .tooltip-inner {
-    background-color: #fff  !important;
-    color: $color--italia;
-    font-weight: 600;
-    font-size: 0.8rem;
-  }
-  .tooltip .arrow {
-    display: none;
+  #section_14 {
+    .tooltip-inner {
+      background-color: #fff  !important;
+      color: $color--italia;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+    .tooltip .arrow {
+      display: none;
+    }
   }
 }
 
@@ -193,5 +195,14 @@ body.layout--home {
             transform: scale(1);
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
+  }
+}
+
+.home-data {
+  font-size: 1rem;
+
+  #downloads {
+    font-size: 2rem;
+    font-weight: 600;
   }
 }

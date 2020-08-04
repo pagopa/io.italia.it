@@ -34,7 +34,7 @@
                     {% for item in locali %}
                         {% if item.status == "active" %}
                         <div class="italy-dotted-item" style="top:{{item.coord[0]}}em;left:{{item.coord[1]}}em"
-                            data-toggle="tooltip" title="{{item.title}}">
+                            data-toggle="tooltip" data-container="#section_14" title="{{item.title}}">
                             <div class="italy-dotted-dot {{item.type}} delay-{{countDelay}}">
                             <img src="/assets/img/dot.svg" title="">
                             </div>

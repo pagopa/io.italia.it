@@ -25,9 +25,9 @@ function loadJSON(callback) {
     var dashboardData = JSON.parse(response);
     console.log(dashboardData);
 
-    var totalPred = document.getElementById("totalPred").getContext("2d");
+    var totalPred = document.getElementById("totalPred") ? document.getElementById("totalPred").getContext("2d") : undefined;
     var downloads = generateDownloads(dashboardData.downloads.slice(65,dashboardData.downloads.length));
-    var predChart = new Chart(totalPred, {
+    var predChart = totalPred ? new Chart(totalPred, {
       type: "line",
       data: downloads,
       options: {
@@ -39,6 +39,9 @@ function loadJSON(callback) {
           },
         },
         responsive: true,
+        legend: {
+          display: false,
+        },
         title: {
           display: false,
           text: "Numero donwloads ",
@@ -47,7 +50,7 @@ function loadJSON(callback) {
           xAxes: [
             {
               gridLines: {
-                display: true,
+                display: false,
               },
               ticks: {
                 fontSize: 15,
@@ -64,7 +67,7 @@ function loadJSON(callback) {
                 display: true,
               },
               ticks: {
-                display: false,
+                display: true,
                 fontSize: 15,
                 fontColor: "#19191a",
                 fontFamily: "'Titillium Web', Arial",
@@ -74,31 +77,37 @@ function loadJSON(callback) {
           ],
         },
       },
-    });
+    }) : undefined;
 
     var dataForEdcPie = generatePieOS(dashboardData.downloadsByOs);
-    var top10PEdcPieElem = document
-      .getElementById("top10EdcPie")
-      .getContext("2d");
-    var top10PEdcPie = new Chart(top10PEdcPieElem, {
+    var top10PEdcPieElem = document.getElementById("top10EdcPie") ? document.getElementById("top10EdcPie").getContext("2d") : undefined;
+    var top10PEdcPie = top10PEdcPieElem ? new Chart(top10PEdcPieElem, {
       type: "pie",
       data: dataForEdcPie,
       options: {
         responsive: true,
+        legend: {
+          position: 'bottom',
+          labels : {
+            boxWidth: 12,
+            usePointStyle: true 
+          }
+        }
       },
-    });
+    }) : undefined;
 
-    var idps = document.getElementById("idps").getContext("2d");
+    var idps = document.getElementById("idps") ? document.getElementById("idps").getContext("2d") : undefined;
     var idpsData = generateIdps(dashboardData.idps.slice(65,dashboardData.idps.length ));
-    var idpsChart = new Chart(idps, {
+    var idpsChart = idps ? new Chart(idps, {
       type: "bar",
       data: idpsData,
+      borderWidth: 0,
       options: {
         // Elements options apply to all of the options unless overridden in a dataset
         // In this case, we are setting the border of each horizontal bar to be 2px wide
         elements: {
           rectangle: {
-            borderWidth: 2,
+            borderWidth: 0,
           },
         },
         responsive: true,
@@ -106,12 +115,19 @@ function loadJSON(callback) {
           display: true,
           text: "Login ",
         },
+        legend: {
+          position: 'bottom',
+          labels : {
+            boxWidth: 12,
+            usePointStyle: true 
+          }
+        },
         scales: {
           xAxes: [
             {
               stacked: true,
               gridLines: {
-                display: true,
+                display: false,
               },
               ticks: {
                 fontSize: 15,
@@ -129,8 +145,8 @@ function loadJSON(callback) {
                 display: true,
               },
               ticks: {
-                display: false,
-                fontSize: 15,
+                display: true,
+                fontSize: 12,
                 fontColor: "#19191a",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
@@ -139,11 +155,11 @@ function loadJSON(callback) {
           ],
         },
       },
-    });
+    }) : undefined;
 
-    var bonusLine = document.getElementById("bonusLine").getContext("2d");
+    var bonusLine = document.getElementById("bonusLine") ? document.getElementById("bonusLine").getContext("2d") : undefined;
     var bonus = generateBonus(dashboardData.bonusActivation);
-    var predChart = new Chart(bonusLine, {
+    var predChart = bonusLine ? new Chart(bonusLine, {
       type: "line",
       data: bonus,
       options: {
@@ -190,7 +206,7 @@ function loadJSON(callback) {
           ],
         },
       },
-    });
+    }) : undefined;
 
     $("#downloads").text( TOTAL.toLocaleString("it"));
     $("#bonusTotal").text( TOTALBONUS.toLocaleString("it"));
