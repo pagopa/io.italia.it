@@ -3,7 +3,6 @@ layout: naked
 title: Dashboard
 description: Le novità, gli aggiornamenti e le informazioni sull’app dei servizi pubblici
 lang: it
-image: /assets/img/social-card-newsletter.jpg
 permalink: /dashboard/
 ref: dashboard
 ---
