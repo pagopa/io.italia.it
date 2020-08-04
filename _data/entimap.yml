@@ -237,12 +237,12 @@ dots:
     status: pending
     type: small
     category: locale
-    coord: [16.5,16.5]
+    coord: [15.5,16.5]
   - title: "Comune di Pescara"
     status: pending
     type: small
     category: locale
-    coord: [21,24]
+    coord: [21,30]
   - title: "Comune di Segrate"
     status: pending
     type: small
