@@ -257,11 +257,27 @@ textarea { resize: vertical; }
 
 .section__bonus { background-color: #2D489D; z-index: 10; }
 
-.section__bonus img { width: 150px; }
+.section__bonus img { width: 55px; }
 
 .section__bonus .lead { font-size: 1rem; }
 
 @media screen and (min-width: 768px) { .section__bonus .lead { font-size: 1.2rem; } }
+
+.section__bonus .counter { color: #fff; font-size: 2rem; font-weight: 600; }
+
+.section__bonus .counterdesc { font-size: 1.1rem; color: #fff; }
+
+.section__bonus .tooltip-inner { font-size: 0.7rem; background-color: #17324D; margin-left: -2px; line-height: 1.7; padding: 10px; max-width: 150px; text-align: left; }
+
+.section__bonus .tooltip { left: 10px !important; }
+
+.section__bonus .tooltip .arrow { display: block; }
+
+.section__bonus .bs-tooltip-auto[x-placement^=right] .arrow::before, .section__bonus .bs-tooltip-right .arrow::before { border-right-color: #17324D; }
+
+.section__bonus .bs-tooltip-auto[x-placement^=left] .arrow::before, .section__bonus .bs-tooltip-left .arrow::before { border-left-color: #17324D; }
+
+.section__bonus .bs-tooltip-auto[x-placement^=left] .arrow, .section__bonus .bs-tooltip-left .arrow { right: 2px; }
 
 .section__7 { background-color: #F2F7FC; }
 
@@ -707,9 +723,9 @@ body.is-scrolled .device { z-index: -2; }
   .vademecum .navbar.it-navscroll-wrapper .menu-wrapper { background-color: transparent !important; }
   .vademecum .navbar.it-navscroll-wrapper .navbar-collapsable { border-left: 1px solid #d9dadb; margin-top: 96px; } }
 
-body.layout--home .tooltip-inner { background-color: #fff  !important; color: #06c; font-weight: 600; font-size: 0.8rem; }
+body.layout--home #section_14 .tooltip-inner { background-color: #fff  !important; color: #06c; font-weight: 600; font-size: 0.8rem; }
 
-body.layout--home .tooltip .arrow { display: none; }
+body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 .italy-dotted-wrapper { overflow-x: scroll; }
 
@@ -804,6 +820,40 @@ body.layout--home .tooltip .arrow { display: none; }
     transform: scale(1);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out; } }
+
+.home-data { font-size: 1rem; }
+
+.home-data #downloads { font-size: 2rem; font-weight: 600; }
+
+.pagename--dashboard *[data-toggle="tooltip"] { position: absolute; }
+
+.pagename--dashboard .dashboard-mainwrapper { margin-top: -8rem; }
+
+@media screen and (min-width: 768px) { .pagename--dashboard .dashboard-mainwrapper { margin-top: -10rem; } }
+
+.pagename--dashboard .dashboardcard { background-color: #fff; height: 100%; padding: 2rem; border-radius: 0.5rem; color: #5C6F82; }
+
+.pagename--dashboard .dashboardcard__number { font-size: 2.5rem; font-weight: 600; }
+
+.pagename--dashboard .dashboardcard__desc { font-size: 1.2rem; font-weight: 500; }
+
+.pagename--dashboard .dashboardcard__desc .icon { width: 1rem; height: 1rem; fill: #5C6F82; }
+
+.pagename--dashboard .dashboardcard--dark { background-color: #2D489D; color: #fff; }
+
+.pagename--dashboard .dashboard__bonus { background-color: #F2F7FC; }
+
+.pagename--dashboard .tooltip-inner { font-size: 0.7rem; background-color: #17324D; margin-left: -2px; line-height: 1.7; padding: 10px; max-width: 150px; text-align: left; }
+
+.pagename--dashboard .tooltip { left: 10px !important; }
+
+.pagename--dashboard .tooltip .arrow { display: block; }
+
+.pagename--dashboard .bs-tooltip-auto[x-placement^=right] .arrow::before, .pagename--dashboard .bs-tooltip-right .arrow::before { border-right-color: #17324D; }
+
+.pagename--dashboard .bs-tooltip-auto[x-placement^=left] .arrow::before, .pagename--dashboard .bs-tooltip-left .arrow::before { border-left-color: #17324D; }
+
+.pagename--dashboard .bs-tooltip-auto[x-placement^=left] .arrow, .pagename--dashboard .bs-tooltip-left .arrow { right: 2px; }
 
 .roadmap-timeline .btn-next-steps { background-color: #00266B; color: #fff; text-transform: uppercase; -webkit-box-shadow: inset 0 0 0 1px #00266B; box-shadow: inset 0 0 0 1px #00266B; }
 
@@ -1145,6 +1195,26 @@ body.pagename--faq { background-color: #F2F7FC; }
 
 @media screen and (min-width: 768px) { .pagename--bonus-vacanze .video-uso-wrapper { width: 330px; }
   .pagename--bonus-vacanze .video-uso-wrapper img.screenshot { margin-top: 24px; margin-left: 40px; } }
+
+.pagename--bonus-vacanze .section--dashboard { background-color: #2D489D; }
+
+.pagename--bonus-vacanze .section--dashboard .counter { font-size: 2.5rem; font-weight: 600; color: #fff; }
+
+.pagename--bonus-vacanze .section--dashboard .counterdesc { color: #fff; }
+
+@media screen and (min-width: 992px) { .pagename--bonus-vacanze .section--dashboard__wrapper { height: 100%; } }
+
+.pagename--bonus-vacanze .tooltip-inner { font-size: 0.7rem; background-color: #17324D; margin-left: -2px; line-height: 1.7; padding: 10px; max-width: 150px; text-align: left; }
+
+.pagename--bonus-vacanze .tooltip { left: 10px !important; }
+
+.pagename--bonus-vacanze .tooltip .arrow { display: block; }
+
+.pagename--bonus-vacanze .bs-tooltip-auto[x-placement^=right] .arrow::before, .pagename--bonus-vacanze .bs-tooltip-right .arrow::before { border-right-color: #17324D; }
+
+.pagename--bonus-vacanze .bs-tooltip-auto[x-placement^=left] .arrow::before, .pagename--bonus-vacanze .bs-tooltip-left .arrow::before { border-left-color: #17324D; }
+
+.pagename--bonus-vacanze .bs-tooltip-auto[x-placement^=left] .arrow, .pagename--bonus-vacanze .bs-tooltip-left .arrow { right: 2px; }
 
 body { background-color: #fff; }
 
