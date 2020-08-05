@@ -4,11 +4,14 @@ var TOTALBONUS = 0
 function generateDownloads(downloads) {
     var labels = [];
     var nDownloads = [];
-    var total = 0;
+    downloadsFromJune = downloads.slice(65,downloads.length)
     for (let i = 0; i < downloads.length; i++) {
       var obj = downloads[i]
-      var monthDate = moment(obj['date']);
       TOTAL = TOTAL + obj['$ae_first_open'];
+    }
+    for (let i = 0; i < downloadsFromJune.length; i++) {
+      var obj = downloadsFromJune[i]
+      var monthDate = moment(obj['date']);
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
       nDownloads.push(obj['$ae_first_open']);
@@ -136,12 +139,12 @@ function generateDownloads(downloads) {
       labels,
       datasets: [
         {
-          label: "ALL",
+          label: "SPID",
           data: all,
           borderWidth: 0,
           backgroundColor: "#3374a1",
         },{
-          label: "Cie",
+          label: "CIE",
           data: cie,
           borderWidth: 0,
           backgroundColor: "#15c5f8",
@@ -167,9 +170,11 @@ function generateDownloads(downloads) {
         {
           label: "Bonus Vacanze",
           data: bonus,
-          borderWidth: 1,
+          borderWidth: 2,
           backgroundColor: "rgb(0, 115, 230, 0.2)",
           borderColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
         },
       ],
     };
