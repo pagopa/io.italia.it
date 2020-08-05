@@ -5,6 +5,7 @@ description: In questa pagina trovi le statistiche relative all'utilizzo dell'ap
 lang: it
 permalink: /dashboard/
 ref: dashboard
+image: /assets/img/social-card-stats.jpg
 ---
 
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %}

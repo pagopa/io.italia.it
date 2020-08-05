@@ -136,12 +136,12 @@ function generateDownloads(downloads) {
       labels,
       datasets: [
         {
-          label: "ALL",
+          label: "SPID",
           data: all,
           borderWidth: 0,
           backgroundColor: "#3374a1",
         },{
-          label: "Cie",
+          label: "CIE",
           data: cie,
           borderWidth: 0,
           backgroundColor: "#15c5f8",

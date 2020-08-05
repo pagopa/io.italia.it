@@ -23,7 +23,6 @@ function loadJSON(callback) {
   loadJSON(function (response) {
     // Parse JSON string into object
     var dashboardData = JSON.parse(response);
-    console.log(dashboardData);
 
     var totalPred = document.getElementById("totalPred") ? document.getElementById("totalPred").getContext("2d") : undefined;
     var downloads = generateDownloads(dashboardData.downloads.slice(65,dashboardData.downloads.length));
@@ -54,11 +53,13 @@ function loadJSON(callback) {
               },
               ticks: {
                 fontSize: 15,
-                fontColor: "#19191a",
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
               },
               type: 'time',
-              unitStepSize: 5,
+              time: {
+                stepSize: 7,
+              }
             },      
           ],
           yAxes: [
@@ -68,10 +69,25 @@ function loadJSON(callback) {
               },
               ticks: {
                 display: true,
-                fontSize: 15,
-                fontColor: "#19191a",
+                fontSize: 12,
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
+                callback: function(value) {
+                  var ranges = [
+                     { divider: 1e6, suffix: 'M' },
+                     { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                     for (var i = 0; i < ranges.length; i++) {
+                        if (n >= ranges[i].divider) {
+                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                        }
+                     }
+                     return n;
+                  }
+                  return formatNumber(value);
+               }
               },
             },
           ],
@@ -89,8 +105,10 @@ function loadJSON(callback) {
         legend: {
           position: 'bottom',
           labels : {
-            boxWidth: 12,
-            usePointStyle: true 
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+
           }
         }
       },
@@ -112,14 +130,16 @@ function loadJSON(callback) {
         },
         responsive: true,
         title: {
-          display: true,
+          display: false,
           text: "Login ",
         },
         legend: {
           position: 'bottom',
           labels : {
-            boxWidth: 12,
-            usePointStyle: true 
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+
           }
         },
         scales: {
@@ -131,11 +151,13 @@ function loadJSON(callback) {
               },
               ticks: {
                 fontSize: 15,
-                fontColor: "#19191a",
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
               },
               type: 'time',
-              unitStepSize: 5,
+              time: {
+                stepSize: 7,
+              }
             },      
           ],
           yAxes: [		
@@ -147,9 +169,24 @@ function loadJSON(callback) {
               ticks: {
                 display: true,
                 fontSize: 12,
-                fontColor: "#19191a",
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
+                callback: function(value) {
+                  var ranges = [
+                     { divider: 1e6, suffix: 'M' },
+                     { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                     for (var i = 0; i < ranges.length; i++) {
+                        if (n >= ranges[i].divider) {
+                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                        }
+                     }
+                     return n;
+                  }
+                  return formatNumber(value);
+               }
               },
             },
           ],
@@ -173,14 +210,16 @@ function loadJSON(callback) {
         },
         responsive: true,
         title: {
-          display: true,
+          display: false,
           text: "Login ",
         },
         legend: {
           position: 'bottom',
           labels : {
-            boxWidth: 12,
-            usePointStyle: true 
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+
           }
         },
         scales: {
@@ -192,11 +231,13 @@ function loadJSON(callback) {
               },
               ticks: {
                 fontSize: 15,
-                fontColor: "#19191a",
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
               },
               type: 'time',
-              unitStepSize: 5,
+              time: {
+                stepSize: 7,
+              }
             },      
           ],
           yAxes: [		
@@ -208,9 +249,24 @@ function loadJSON(callback) {
               ticks: {
                 display: true,
                 fontSize: 12,
-                fontColor: "#19191a",
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
+                callback: function(value) {
+                  var ranges = [
+                     { divider: 1e6, suffix: 'M' },
+                     { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                     for (var i = 0; i < ranges.length; i++) {
+                        if (n >= ranges[i].divider) {
+                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                        }
+                     }
+                     return n;
+                  }
+                  return formatNumber(value);
+               }
               },
             },
           ],
@@ -247,11 +303,13 @@ function loadJSON(callback) {
               },
               ticks: {
                 fontSize: 15,
-                fontColor: "#19191a",
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
               },
               type: 'time',
-              unitStepSize: 5,
+              time: {
+                stepSize: 7,
+              }
             },      
           ],
           yAxes: [
@@ -261,10 +319,25 @@ function loadJSON(callback) {
               },
               ticks: {
                 display: true,
-                fontSize: 15,
-                fontColor: "#19191a",
+                fontSize: 12,
+                fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
+                callback: function(value) {
+                  var ranges = [
+                     { divider: 1e6, suffix: 'M' },
+                     { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                     for (var i = 0; i < ranges.length; i++) {
+                        if (n >= ranges[i].divider) {
+                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                        }
+                     }
+                     return n;
+                  }
+                  return formatNumber(value);
+               }
               },
             },
           ],
@@ -276,5 +349,6 @@ function loadJSON(callback) {
     $("#bonusTotal").text( dashboardData.generatedBonusCount.toLocaleString("it"));
     $("#bonusAmount").text( dashboardData.generatedBonusAmount.toLocaleString("it") + " €");
     $("#numbonusredeem").text( dashboardData.redeemedBonusCount.toLocaleString("it"));
+    $("#today").text( moment().format("DD/MM/YYYY") );
   });
   
