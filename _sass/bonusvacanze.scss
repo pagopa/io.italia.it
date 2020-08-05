@@ -184,5 +184,47 @@
         }
 
     }
+    .section--dashboard {
+        background-color: #2D489D;
+
+        .counter {
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: #fff;
+        }
+        .counterdesc {
+            color: #fff;
+        }
+        &__wrapper {
+            @media screen and (min-width: $grid-breakpoints-lg) {
+                height: 100%;
+            }
+        }
+    }
+
+    .tooltip-inner {
+        font-size: 0.7rem;
+        background-color: #17324D;
+        margin-left: -2px;
+        line-height: 1.7;
+        padding: 10px;
+        max-width: 150px;
+        text-align: left;
+      }
+      .tooltip {
+        left: 10px !important;    
+        .arrow {
+          display: block;
+        }
+      }
+      .bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
+        border-right-color: #17324D;
+      }
+      .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
+        border-left-color: #17324D;
+      }
+      .bs-tooltip-auto[x-placement^=left] .arrow, .bs-tooltip-left .arrow {
+        right: 2px;
+      }
     
 }
