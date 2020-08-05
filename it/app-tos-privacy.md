@@ -4,14 +4,18 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
+vers: 2
+updated: 30 giugno 2020
 ---
 
 {:.d-startup .mb-1}
-# Informativa privacy 
+# Informativa privacy
+
 {:.d-startup}
-##### Data ultimo aggiornamento: 30 giugno 2020 (v. 2)
+##### Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})<br>[Archivio versioni precedenti](/app-content/index-tos.html)
+
 {:.d-startup}
-L’App IO è gestita dalla società PagoPA S.p.A. su incarico della Presidenza del Consiglio dei Ministri. IO ti permette di usufruire, in un’unica app, di tutti i servizi erogati dagli Enti che aderiscono al progetto.
+L’App IO è gestita dalla società PagoPA S.p.A. su incarico della Presidenza del Consiglio dei Ministri.<br>IO ti permette di usufruire, in un’unica app, di tutti i servizi erogati dagli Enti che aderiscono al progetto.
 
 {:.d-startup}
 ## Informazioni chiave
@@ -223,7 +227,7 @@ La presente informativa può essere modificata unilateralmente da PagoPa S.p.A.,
 # Termini e condizioni d’uso
 
 {:.d-startup}
-##### Data ultimo aggiornamento: 30 giugno 2020 (v. 2)
+##### Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})<br>[Archivio versioni precedenti](/app-content/index-tos.html)
 
 {:.d-startup}
 I presenti termini regolano il rapporto tra gli utenti dell’App IO e PagoPA S.p.A.: stabiliscono i tuoi diritti e obblighi nell’utilizzo dell’App e dei suoi servizi. **Leggili attentamente: scaricando ed utilizzando l’App, li accetti integralmente e ti impegni a rispettarli!**
@@ -244,10 +248,10 @@ In generale, ricorda sempre due aspetti importanti:
 **_Account_**: l’insieme dei dati identificativi dell’Utente, che gli consentono l'accesso all’App IO.<br>
 **_App IO_** o **_App_**:  l’applicazione per dispositivi mobili scaricabile da un cittadino (una persona fisica) per l’accesso ai servizi della pubblica amministrazione tramite la Piattaforma IO.<br>
 **_CAD_**: decreto legislativo 7 marzo 2005, n. 82 recante Codice dell’Amministrazione Digitale.<br>
-**_Ente_**: l le pubbliche amministrazioni, le società a controllo pubblico e i gestori di pubblici servizi che hanno aderito alla Piattaforma IO per la fornitura dei loro Servizi al Cittadino.<br>
+**_Ente_**: le pubbliche amministrazioni, le società a controllo pubblico e i gestori di pubblici servizi che hanno aderito alla Piattaforma IO per la fornitura dei loro Servizi al Cittadino.<br>
 **_Identità Digitale_**: ha il significato di cui all’art. 1, lett. u-quater) CAD: sono gli strumenti che ti permettono di autenticarti in modo forte per accedere a un servizio digitale.<br> 
-**_Messaggi_**:le comunicazioni che l’Ente può inviare agli Utenti con riferimento ai suoi Servizi al Cittadino, ivi inclusi eventuali avvisi di pagamento.<br>
-**_Noi_** o **_Società_**: a società PagoPA S.p.A., società per azioni con socio unico, con capitale sociale di euro 1,000,000 interamente versato, e sede legale in Roma, Piazza Colonna 370, CAP 00187, con n. di iscrizione a Registro Imprese di Roma, CF e P.IVA 15376371009.<br>
+**_Messaggi_**: le comunicazioni che l’Ente può inviare agli Utenti con riferimento ai suoi Servizi al Cittadino, ivi inclusi eventuali avvisi di pagamento.<br>
+**_Noi_** o **_Società_**: la società PagoPA S.p.A., società per azioni con socio unico, con capitale sociale di euro 1,000,000 interamente versato, e sede legale in Roma, Piazza Colonna 370, CAP 00187, con n. di iscrizione a Registro Imprese di Roma, CF e P.IVA 15376371009.<br>
 **_Piattaforma IO_** o **_IO_**: l’insieme dei sistemi e componenti tecnologiche messe a disposizione dalla Società per l’accesso telematico ai servizi della pubblica amministrazione ai sensi dell’art. 64-bis del CAD.<br>
 **_Piattaforma pagoPA_** o **_Servizio pagoPA_**: la piattaforma messa a disposizione dalla Società e prevista dall’art. 5, comma 2, del CAD.<br>
 **_Funzionalità di IO_**: i servizi resi dalla Società all’Utente ai sensi dei presenti ToS.<br>
