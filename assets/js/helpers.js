@@ -4,11 +4,14 @@ var TOTALBONUS = 0
 function generateDownloads(downloads) {
     var labels = [];
     var nDownloads = [];
-    var total = 0;
+    downloadsFromJune = downloads.slice(65,downloads.length)
     for (let i = 0; i < downloads.length; i++) {
       var obj = downloads[i]
-      var monthDate = moment(obj['date']);
       TOTAL = TOTAL + obj['$ae_first_open'];
+    }
+    for (let i = 0; i < downloadsFromJune.length; i++) {
+      var obj = downloadsFromJune[i]
+      var monthDate = moment(obj['date']);
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
       nDownloads.push(obj['$ae_first_open']);
