@@ -314,6 +314,9 @@ function loadJSON(callback) {
               },
               type: 'time',
               unitStepSize: 5,
+              time: {
+                stepSize: 7,
+              }
             },      
           ],
           yAxes: [		
