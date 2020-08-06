@@ -13,7 +13,7 @@ index: no-index
 
 {:.d-startup}
 <ul>
-{% for pag in pages%}
+{% for pag in pages offset: 1 %}
     <li><a href="{{pag.url}}">versione n.{{pag.vers}} ({{pag.updated}})</a></li>
 {% endfor %}
 </ul>
