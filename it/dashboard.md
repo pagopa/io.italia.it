@@ -1,7 +1,7 @@
 ---
 layout: naked
 title: I numeri dell'app IO
-description: In questa pagina trovi le statistiche relative all'utilizzo dell'app IO, aggiornate giornalmente.
+description: In questa pagina trovi le statistiche relative all'utilizzo dell'app IO, aggiornate quotidianamente.
 lang: it
 permalink: /dashboard/
 ref: dashboard
