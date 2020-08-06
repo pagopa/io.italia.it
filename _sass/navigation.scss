@@ -138,9 +138,12 @@
   }
 }
 .io__icon {
-  width: 50px;
+  width: 42px;
   padding: 0 4px;
   vertical-align: baseline;
+  @media screen and (min-width: $grid-breakpoints-sm) {
+    width: 50px;
+  }
 }
 
 .lang_switch {

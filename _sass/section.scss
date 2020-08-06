@@ -531,6 +531,13 @@ body.is-scrolled .section__2 .section-wrapper {
       border-color: #034c98;
     }
   }
+  &__logo {
+    h2 {
+      font-size: 1.75rem !important;
+      margin-left: 0.5rem;
+      margin-bottom: 0;
+    }
+  }
   
 
   &_img {
@@ -601,7 +608,10 @@ body.is-scrolled .section__2 .section-wrapper {
       }
       p {
         color: #fff;
-        font-size: 1.25rem;
+        font-size: 1.1rem;
+        @media screen and (min-width: $grid-breakpoints-sm) {
+          font-size: 1.25rem;
+        }
       }
     }
   }
