@@ -36,7 +36,7 @@ function generateDownloads(downloads) {
  function generateIdps(idps) {
     var labels = [];
     var poste = [];
-    var cie = [];
+    // var cie = [];
     var aruba = [];
     var namiral = [];
     var infocert = [];
@@ -52,7 +52,7 @@ function generateDownloads(downloads) {
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
       poste.push(obj['Poste ID']);
-      cie.push(obj['CIE']);
+      // cie.push(obj['CIE']);
       aruba.push(obj['Aruba ID']);
       namiral.push(obj['Namirial ID'])
       infocert.push(obj['Infocert ID'])
@@ -66,16 +66,18 @@ function generateDownloads(downloads) {
       labels,
       datasets: [
         {
-          label: "Poste",
+          label: "Poste Italiane",
           data: poste,
           borderWidth: 0,
           backgroundColor: "#f8d515",
-        },{
+        },
+       /* {
           label: "Cie",
           data: cie,
           borderWidth: 0,
           backgroundColor: "#15c5f8",
-        },{
+        },*/
+        {
           label: "Aruba",
           data: aruba,
           borderWidth: 0,
@@ -103,7 +105,7 @@ function generateDownloads(downloads) {
           backgroundColor: "#e4771f",
         },
         {
-          label: "Register",
+          label: "Register.it",
           data: register,
           borderWidth: 0,
           backgroundColor: "#f6ede6",
@@ -113,7 +115,7 @@ function generateDownloads(downloads) {
           borderWidth: 0,
           backgroundColor: "#287c4a",
         },{
-          label: "Telecom",
+          label: "TIM",
           data: telecom,
           borderWidth: 0,
           backgroundColor: "#d90d2e",
