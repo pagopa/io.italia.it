@@ -52,7 +52,6 @@ function generateDownloads(downloads) {
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
       poste.push(obj['Poste ID']);
-      // cie.push(obj['CIE']);
       aruba.push(obj['Aruba ID']);
       namiral.push(obj['Namirial ID'])
       infocert.push(obj['Infocert ID'])
@@ -71,12 +70,6 @@ function generateDownloads(downloads) {
           borderWidth: 0,
           backgroundColor: "#f8d515",
         },
-       /* {
-          label: "Cie",
-          data: cie,
-          borderWidth: 0,
-          backgroundColor: "#15c5f8",
-        },*/
         {
           label: "Aruba",
           data: aruba,
