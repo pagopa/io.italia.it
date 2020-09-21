@@ -11,7 +11,7 @@ As **[PagoPA S.p.A.](https://www.pagopa.gov.it/)**, we consider the security of 
 
 This policy describes how to send us vulnerability reports and how we ask security researchers to behave when disclosing vulnerabilities. Your personal data will be processed based on your consent and in accordance with our [privacy policy](https://www.pagopa.gov.it/it/privacy-policy/).
 
-If you are the first to report a verifiable security issue, we'll thank you with a place in our _hall of fame page_!
+If you are the first to report a verifiable major security issue, we'll thank you with a place in our _hall of fame page_!
 
 ## Report a vulnerability
 E-mail your findings to [security@pagopa.it](mailto:security@pagopa.it). Encrypt your findings using our [PGP key](https://www.pagopa.gov.it/publickey.txt) to prevent this critical information from falling into the wrong hands.
