@@ -49,19 +49,7 @@ textarea { resize: vertical; }
 @media print, (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 1.25dppx), (min-resolution: 120dpi) { /* Style adjustments for high resolution devices */ }
 
 /* ========================================================================== Print styles. Inlined to avoid the additional HTTP request: http://www.phpied.com/delay-loading-your-print-css/ ========================================================================== */
-@media print { *, *:before, *:after { background: transparent !important; color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */ box-shadow: none !important; text-shadow: none !important; }
-  a, a:visited { text-decoration: underline; }
-  a[href]:after { content: " (" attr(href) ")"; }
-  abbr[title]:after { content: " (" attr(title) ")"; }
-  /* Don't show links that are fragment identifiers, or use the `javascript:` pseudo protocol */
-  a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; }
-  pre { white-space: pre-wrap !important; }
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  /* Printing Tables: http://css-discuss.incutio.com/wiki/Printing_Tables */
-  thead { display: table-header-group; }
-  tr, img { page-break-inside: avoid; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3 { page-break-after: avoid; } }
+@media print { *, *:before, *:after { background: transparent !important; color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */ box-shadow: none !important; text-shadow: none !important; } a, a:visited { text-decoration: underline; } a[href]:after { content: " (" attr(href) ")"; } abbr[title]:after { content: " (" attr(title) ")"; } /* Don't show links that are fragment identifiers, or use the `javascript:` pseudo protocol */ a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #999; page-break-inside: avoid; } /* Printing Tables: http://css-discuss.incutio.com/wiki/Printing_Tables */ thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } }
 
 @keyframes fadeInFromNone { 0% { display: none;
     opacity: 0; }
@@ -226,10 +214,7 @@ textarea { resize: vertical; }
 
 .section-text p:nth-child(5) { transition-delay: 1s; }
 
-@media screen and (min-width: 992px) { .section-text { opacity: 0; pointer-events: none; }
-  .section-text p { opacity: 0; pointer-events: none; }
-  .active .section-text { transform: translate(0, 0); opacity: 1; pointer-events: auto; }
-  .active .section-text p { opacity: 1; pointer-events: auto; } }
+@media screen and (min-width: 992px) { .section-text { opacity: 0; pointer-events: none; } .section-text p { opacity: 0; pointer-events: none; } .active .section-text { transform: translate(0, 0); opacity: 1; pointer-events: auto; } .active .section-text p { opacity: 1; pointer-events: auto; } }
 
 .section-text--left { color: #06c; font-size: 16px; line-height: 24px; }
 
@@ -297,8 +282,7 @@ textarea { resize: vertical; }
 
 @media (min-width: 768px) { .section__7 .advantage-cards .item { width: 45%; } }
 
-@media (min-width: 992px) { .section__7 .advantage-cards .item { width: 23%; }
-  .section__7 .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
+@media (min-width: 992px) { .section__7 .advantage-cards .item { width: 23%; } .section__7 .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
 
 .section__7 .advantage-cards a { text-decoration: none; }
 
@@ -484,9 +468,9 @@ textarea { resize: vertical; }
 
 .btn-download--w-icon.android:before { content: url("/assets/img/icon-playstore--blu.svg"); position: relative; top: 2px; left: -4px; fill: red; }
 
-.btn-download--w-icon:hover.ios:before { content: url("/assets/img/icon-appstore.svg"); }
+.btn-download--w-icon.ios:hover:before { content: url("/assets/img/icon-appstore.svg"); }
 
-.btn-download--w-icon:hover.android:before { content: url("/assets/img/icon-playstore.svg"); }
+.btn-download--w-icon.android:hover:before { content: url("/assets/img/icon-playstore.svg"); }
 
 .universe { margin-top: 50px; min-height: calc(100vh - 50px); padding-top: 0; padding-bottom: 0; }
 
@@ -696,8 +680,7 @@ body.is-scrolled .device { z-index: -2; }
 
 @-webkit-keyframes ellipsis { to { width: 1em; } }
 
-@media (max-width: 767.98px) { .offcanvas-collapse { background-color: #FFF; top: 50px; position: fixed; bottom: 0; left: 1em; width: 100%; overflow-y: auto; transition: transform .3s ease-in-out; transform: translateX(100%); }
-  .offcanvas-collapse.open { left: auto; transform: translateX(-1rem); } }
+@media (max-width: 767.98px) { .offcanvas-collapse { background-color: #FFF; top: 50px; position: fixed; bottom: 0; left: 1em; width: 100%; overflow-y: auto; transition: transform .3s ease-in-out; transform: translateX(100%); } .offcanvas-collapse.open { left: auto; transform: translateX(-1rem); } }
 
 .card { border-right: 0 !important; }
 
@@ -713,9 +696,7 @@ body.is-scrolled .device { z-index: -2; }
 
 @media (max-width: 992px) { .vademecum .navbar.it-navscroll-wrapper .custom-navbar-toggler { display: inline; } }
 
-@media (min-width: 992px) { .vademecum .navbar.it-navscroll-wrapper { background-color: transparent !important; }
-  .vademecum .navbar.it-navscroll-wrapper .menu-wrapper { background-color: transparent !important; }
-  .vademecum .navbar.it-navscroll-wrapper .navbar-collapsable { border-left: 1px solid #d9dadb; margin-top: 96px; } }
+@media (min-width: 992px) { .vademecum .navbar.it-navscroll-wrapper { background-color: transparent !important; } .vademecum .navbar.it-navscroll-wrapper .menu-wrapper { background-color: transparent !important; } .vademecum .navbar.it-navscroll-wrapper .navbar-collapsable { border-left: 1px solid #d9dadb; margin-top: 96px; } }
 
 .vademecum .navbar.it-navscroll-wrapper.it-top-navscroll { top: 50px; }
 
@@ -725,9 +706,7 @@ body.is-scrolled .device { z-index: -2; }
 
 @media (max-width: 992px) { .vademecum .navbar.it-navscroll-wrapper .custom-navbar-toggler { display: inline; } }
 
-@media (min-width: 992px) { .vademecum .navbar.it-navscroll-wrapper { background-color: transparent !important; }
-  .vademecum .navbar.it-navscroll-wrapper .menu-wrapper { background-color: transparent !important; }
-  .vademecum .navbar.it-navscroll-wrapper .navbar-collapsable { border-left: 1px solid #d9dadb; margin-top: 96px; } }
+@media (min-width: 992px) { .vademecum .navbar.it-navscroll-wrapper { background-color: transparent !important; } .vademecum .navbar.it-navscroll-wrapper .menu-wrapper { background-color: transparent !important; } .vademecum .navbar.it-navscroll-wrapper .navbar-collapsable { border-left: 1px solid #d9dadb; margin-top: 96px; } }
 
 body.layout--home #section_14 .tooltip-inner { background-color: #fff  !important; color: #06c; font-weight: 600; font-size: 0.8rem; }
 
@@ -865,12 +844,9 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 .roadmap-timeline .filter-tool { display: flex; flex-direction: row; justify-content: flex-start; align-items: center; }
 
-@media (max-width: 767px) { .roadmap-timeline .filter-tool { flex-direction: column; align-items: flex-start; }
-  .roadmap-timeline .filter-tool .filter-buttons { width: 100%; display: flex; flex-direction: column; }
-  .roadmap-timeline .filter-tool .filter-buttons .btn { margin-top: 0.5rem; }
-  .roadmap-timeline .filter-tool .filter-buttons .btn.btn-icon { justify-content: center; } }
+@media (max-width: 767px) { .roadmap-timeline .filter-tool { flex-direction: column; align-items: flex-start; } .roadmap-timeline .filter-tool .filter-buttons { width: 100%; display: flex; flex-direction: column; } .roadmap-timeline .filter-tool .filter-buttons .btn { margin-top: 0.5rem; } .roadmap-timeline .filter-tool .filter-buttons .btn.btn-icon { justify-content: center; } }
 
-.roadmap-timeline .point-list-wrapper .point-list .point-list-aside:not(.with-line).point-list-primary::before { content: ""; position: absolute; width: 30px; height: 30px; top: 50%; right: -15px; transform: translateY(-15px); background-color: #f2f7fc; z-index: 0; }
+.roadmap-timeline .point-list-wrapper .point-list .point-list-aside.point-list-primary:not(.with-line)::before { content: ""; position: absolute; width: 30px; height: 30px; top: 50%; right: -15px; transform: translateY(-15px); background-color: #f2f7fc; z-index: 0; }
 
 .roadmap-timeline .point-list { width: 100%; }
 
@@ -900,10 +876,7 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 .roadmap-timeline .point-list .roadicon .icon { width: 2.5em; height: 2.5em; margin: 0.75em; }
 
-@media (max-width: 767px) { .roadmap-timeline .point-list .point-list-aside { width: auto; padding-left: 0 !important; padding-right: 0 !important; }
-  .roadmap-timeline .point-list .point-list-content { width: 100%; }
-  .roadmap-timeline .point-list.point-list-sx .point-list-aside > * { display: none; }
-  .roadmap-timeline .point-list.point-list-sx .with-line::after { right: -15px !important; } }
+@media (max-width: 767px) { .roadmap-timeline .point-list .point-list-aside { width: auto; padding-left: 0 !important; padding-right: 0 !important; } .roadmap-timeline .point-list .point-list-content { width: 100%; } .roadmap-timeline .point-list.point-list-sx .point-list-aside > * { display: none; } .roadmap-timeline .point-list.point-list-sx .with-line::after { right: -15px !important; } }
 
 .roadmap-timeline .point-list.point-next { opacity: 0.7; }
 
@@ -947,8 +920,7 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 .giornalisti .grid-gallery .image-item-text { font-size: 1rem; line-height: 1.5; margin-top: 1rem; }
 
-@media (min-width: 768px) { .giornalisti .grid-gallery { display: flex; flex-wrap: wrap; flex-direction: row; margin-right: -3rem; }
-  .giornalisti .grid-gallery .image-item { margin: 3rem; margin-top: 0; margin-left: 0; width: calc(50% - 3rem); } }
+@media (min-width: 768px) { .giornalisti .grid-gallery { display: flex; flex-wrap: wrap; flex-direction: row; margin-right: -3rem; } .giornalisti .grid-gallery .image-item { margin: 3rem; margin-top: 0; margin-left: 0; width: calc(50% - 3rem); } }
 
 @media (min-width: 992px) { .giornalisti .grid-gallery .image-item { width: calc(33.3333% - 3rem); } }
 
@@ -970,8 +942,7 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 @media (min-width: 768px) { .pub-amm .advantage-cards .item { width: 45%; } }
 
-@media (min-width: 992px) { .pub-amm .advantage-cards .item { width: 23%; }
-  .pub-amm .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
+@media (min-width: 992px) { .pub-amm .advantage-cards .item { width: 23%; } .pub-amm .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
 
 .pub-amm .advantage-cards a { text-decoration: none; }
 
@@ -1041,8 +1012,7 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 @media (min-width: 768px) { .page-sviluppatori .section-reference .advantage-cards .item { width: 45%; } }
 
-@media (min-width: 992px) { .page-sviluppatori .section-reference .advantage-cards .item { width: 23%; }
-  .page-sviluppatori .section-reference .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
+@media (min-width: 992px) { .page-sviluppatori .section-reference .advantage-cards .item { width: 23%; } .page-sviluppatori .section-reference .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
 
 .page-sviluppatori .section-reference .advantage-cards a { text-decoration: none; }
 
@@ -1078,8 +1048,7 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 @media (min-width: 768px) { .page-cittadini .advantage-cards .item { width: 45%; } }
 
-@media (min-width: 992px) { .page-cittadini .advantage-cards .item { width: 23%; }
-  .page-cittadini .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
+@media (min-width: 992px) { .page-cittadini .advantage-cards .item { width: 23%; } .page-cittadini .advantage-cards .card .card-body h5.card-title { font-size: 1.2rem; line-height: 1.5rem; font-weight: 600; } }
 
 .page-cittadini .advantage-cards a { text-decoration: none; }
 
@@ -1199,8 +1168,7 @@ body.pagename--faq { background-color: #F2F7FC; }
 
 @media screen and (min-width: 768px) { .pagename--bonus-vacanze .video-uso-wrapper .playusevideo { left: calc(50% - 10px); } }
 
-@media screen and (min-width: 768px) { .pagename--bonus-vacanze .video-uso-wrapper { width: 330px; }
-  .pagename--bonus-vacanze .video-uso-wrapper img.screenshot { margin-top: 24px; margin-left: 40px; } }
+@media screen and (min-width: 768px) { .pagename--bonus-vacanze .video-uso-wrapper { width: 330px; } .pagename--bonus-vacanze .video-uso-wrapper img.screenshot { margin-top: 24px; margin-left: 40px; } }
 
 .pagename--bonus-vacanze .section--dashboard { background-color: #2D489D; }
 
