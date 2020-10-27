@@ -45,7 +45,7 @@ it:
     In seguito alla prima registrazione, potrai accedere più facilmente digitando il codice di sblocco di 6 cifre scelto da te o tramite riconoscimento biometrico (impronta digitale o riconoscimento del volto).\ <br>
     <b>Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere periodicamente l’autenticazione con SPID o CIE</b>. Ogni sessione attiva su IO, infatti, ha una durata di trenta giorni; trascorso questo periodo, dovrai accedere nuovamente con le tue credenziali SPID o CIE\ 
     per continuare a usare l’app (e tornare poi a sbloccarla con il codice a 6 cifre  o il riconoscimento biometrico prescelto).  
-    <i class='small text-muted d-block'>* Nota: Al momento, la funzionalità “Entra con CIE” è disponibile solo su dispositivi Android (versione 6.0 e superiori) e dotati di tecnologia NFC. A breve renderemo disponibile questa funzionalità anche per dispositivi con sistema operativo iOS.</i>
+    <i class='small text-muted d-block'>* Nota: La funzionalità “Entra con CIE” è disponibile su dispositivi Android (versione 6.0 e superiori) dotati di tecnologia NFC. Sono inoltre supportati gli iPhone (dal modello 7 in su) con sistema operativo iOS 13 (o superiore).</i>
     "
     cat: "1|Generali"
   - title: Come fanno le Pubbliche Amministrazioni a sapere chi contattare tramite IO? 
