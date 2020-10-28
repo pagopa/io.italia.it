@@ -1,7 +1,23 @@
-.pagename--bonus-vacanze {
+.pagename--bonus-vacanze, .pagename--cashback {
     // hack
     .page-wrapper {
         margin-bottom: -48px;
+    }
+
+    .read-more {
+        text-transform: initial;
+        font-size: 1rem;
+        &-collapse {
+            display: none;
+        }
+        &.exp {
+            .read-more-collapse {
+                display: block;
+            }
+            .read-more-expand {
+                display: none;
+            }
+        }
     }
 
     .internal-page__content {

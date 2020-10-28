@@ -226,6 +226,12 @@ $(function () {
     
     });
 
+    $(".read-more").click( function(event) {
+        event.preventDefault();
+        $(this).toggleClass("exp");
+        $(this).prev().toggle("slow");
+    });
+
 });
 
 $(window).on("load", function() {
