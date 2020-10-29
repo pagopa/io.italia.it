@@ -228,8 +228,11 @@ $(function () {
 
     $(".read-more").click( function(event) {
         event.preventDefault();
-        $(this).toggleClass("exp");
-        $(this).prev().toggle("slow","swing");
+        var $target = $(this).siblings('.read-more-target');
+        var $altButton = $(this).siblings('.read-more');
+        $(this).hide();
+        $target.toggle("slow");
+        $altButton.show();
     });
 
 });
