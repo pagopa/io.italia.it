@@ -11,7 +11,7 @@ lang: it
 ref: cashback
 permalink: /cashback/
 introduction_slides:
-    - /assets/img/bonus-vacanze/3.jpg
+    - /assets/img/cashback/empty.png
 intro_image: "/assets/img/cashback/logo-cashback.svg"
 intro_primary_text: "App Store"
 intro_primary_link: "https://apps.apple.com/it/app/io/id1501681835"

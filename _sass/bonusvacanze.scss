@@ -244,3 +244,22 @@
       }
     
 }
+
+.pagename--cashback {     
+    #intro-slider {
+        &:after {
+        content: ' ';
+        background: linear-gradient(0deg, #2D489D 10%, rgba(0,102,204,0.4) 50%);
+        @media screen and (min-width: $grid-breakpoints-md) {
+            background: linear-gradient(90deg, #2D489D 20%, rgba(0,102,204,0.2) 50%);
+        }
+        }
+        background-color: #2D489D;
+        background: url('/assets/img/cashback/pattern.png'), radial-gradient(circle, #2D489D 0%, rgba(45,72,157,0.5));
+    }
+    #introduzione {
+        &:before {
+            background-color: #2D489D;
+        }
+    }
+}
