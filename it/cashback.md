@@ -1,11 +1,11 @@
 ---
 layout: internal-w-slides
-title: Partecipa al Cashback con IO
+title: Partecipa al Cashback di Stato con l'app IO
 image: "/assets/img/cashback/social-card-cashback.jpg"
 pre-title: Dal 1° Dicembre
-description: "Dal prossimo 1° dicembre 2020 sarà attivo sull’app IO il nuovo servizio per aderire al “Bonus Cashback”: una delle iniziative del Piano Italia Cashless promosso dalla Presidenza del Consiglio dei Ministri e dal Ministero dell’Economia e delle Finanze allo scopo di incentivare un maggiore utilizzo di moneta elettronica nel Paese.
-<a href=\"#\" class=\"d-block mt-2 small text-white\" >Consulta la Guida completa sul sito istituzionale del Programma</a>"
-description_social : Dal 1° luglio richiedi e utilizza il "Bonus Vacanze" attraverso l'app IO in modo semplice e sicuro
+description: "Aderisci al “Cashback” tramite l’app IO: dal 1° dicembre 2020, sarà attivo il nuovo servizio per registrarti al programma. Il “Cashback” fa parte delle iniziative del <i>Piano Italia Cashless</i> promosso dalla Presidenza del Consiglio dei Ministri e dal Ministero dell’Economia e delle Finanze, allo scopo di incentivare un maggiore utilizzo di moneta elettronica nel Paese offrendo un rimborso sugli acquisti effettuati con carte, bancomat e app di pagamento.
+<a href=\"#\" class=\"d-block mt-2 small text-white\" >Guidal al Cashback</a>"
+description_social : "A partire dal 1° dicembre 2020 potrai ottenere un rimborso sugli acquisti effettuati con strumenti di pagamento elettronico"
 subdescription: "Scarica l’ultima versione dell’app:"
 lang: it
 ref: cashback
