@@ -1,8 +1,18 @@
 it:
   - title: Come posso installare l'app?
-    body: "IO è disponibile negli app store [Android](https://play.google.com/store/apps/details?id=it.pagopa.io.app) (per dispositivi con sistema operativo Android 4.4 e superiori) e [iOS](https://apps.apple.com/it/app/io/id1501681835) (per dispositivi con sistema operativo iOS 10 e superiori), con una prima versione beta pubblica (open beta).\ 
-    La pubblicazione dell’app IO lo scorso aprile  ha dato inizio al percorso che, progressivamente,\ 
-    porterà tutti i cittadini italiani ad avere dei nuovi servizi pubblici digitali moderni e centrati sulle loro esigenze."
+    body: "IO è disponibile sull’[App Store di Apple](https://apps.apple.com/it/app/io/id1501681835) per dispositivi con sistema operativo iOS 10 e superiori e su [Google Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app) per i dispositivi con sistema operativo Android 4.4 e superiori. 
+    Tieni comunque presente che, sebbene la disponibilità dell’app IO negli store garantisca una ampia copertura delle versioni di Android e iOS, dalle più obsolete all’ultima disponibile, 
+    il nostro team di assistenza può fornirti supporto solo sui modelli di smartphone più recenti, con i seguenti requisiti minimi relativi al sistema operativo:\
+    
+    - **Android 6 e versioni successive**
+    
+    - **iOS 11 o superiore**\
+    
+
+    I dispositivi aggiornati a queste versioni di sistema operativo, includono gli aggiornamenti di sicurezza più recenti che sono un prerequisito per poter registrare e utilizzare alcuni metodi di pagamento 
+    sulle app del proprio smartphone, tra cui la stessa app IO.<br>
+    Più in generale, queste versioni di sistema operativo garantiscono prestazioni superiori e supportano tecnologie più evolute, consentendo 
+    anche al nostro team di sviluppo di introdurre nuove funzionalità e servizi sull'app IO per un'esperienza utente sempre più ottimale."
     cat: "1|Generali"
   - title: Cosa significa che l'app è disponibile negli store in versione open beta? 
     body: "Dal marzo 2019 circa duemila cittadini in diversi territori hanno sperimentato l’app in versione _closed-beta_ (beta “chiusa”): abbiamo dato la possibilità a un numero limitato di persone,\
