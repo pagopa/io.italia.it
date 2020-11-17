@@ -5,7 +5,7 @@ layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
 vers: 2.2
-updated: 16 novembre 2020
+updated: 17 novembre 2020
 ---
 
 {:.d-startup .mb-1}
