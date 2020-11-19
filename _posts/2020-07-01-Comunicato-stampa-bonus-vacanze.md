@@ -40,13 +40,13 @@ Per iniziare a utilizzare l’app IO, l’utente deve accedere con la propria id
 
 
 
-#### 2. Vai nella sezione “Pagamenti” alla voce “Bonus e Sconti” 
+#### 2. Vai nella sezione “Portafoglio” alla voce “Bonus e Sconti” 
 
-Entrando nella sezione “Pagamenti” dell’app e cliccando su **“Aggiungi”** in corrispondenza della funzionalità “Bonus e Sconti”, l’utente maggiorenne può selezionare **“Bonus Vacanze”** dalla lista di quelli disponibili. Prima di cliccare su **“Richiedi il Tuo Bonus”**, l’app IO ricorda all’utente come funziona e a chi spetta l’agevolazione. 
+Entrando nella sezione “Portafoglio” dell’app e cliccando su **“Aggiungi”** in corrispondenza della funzionalità “Bonus e Sconti”, l’utente maggiorenne può selezionare **“Bonus Vacanze”** dalla lista di quelli disponibili. Prima di cliccare su **“Richiedi il Tuo Bonus”**, l’app IO ricorda all’utente come funziona e a chi spetta l’agevolazione. 
 
 #### 3. Verifica il tuo ISEE e ottieni il Bonus
 
-Dopo aver richiesto il Bonus l’app verifica con i sistemi di INPS che l’ISEE* del nucleo familiare del richiedente sia in corso di validità e rientri nella soglia prevista. Il processo di verifica è pressoché immediato. In caso di esito positivo, l’app IO conferma al cittadino che la sua richiesta è valida e mostra in anteprima **l’importo massimo** dell’agevolazione che spetta al suo nucleo familiare, oltre all’**elenco degli altri componenti** che potranno spendere il Bonus. Se i dati sono corretti, è sufficiente cliccare su **“Attiva il Bonus”**: dopo qualche secondo, il cittadino potrà visualizzare il proprio Bonus Vacanze nella sezione “Pagamenti” dell’app.
+Dopo aver richiesto il Bonus l’app verifica con i sistemi di INPS che l’ISEE* del nucleo familiare del richiedente sia in corso di validità e rientri nella soglia prevista. Il processo di verifica è pressoché immediato. In caso di esito positivo, l’app IO conferma al cittadino che la sua richiesta è valida e mostra in anteprima **l’importo massimo** dell’agevolazione che spetta al suo nucleo familiare, oltre all’**elenco degli altri componenti** che potranno spendere il Bonus. Se i dati sono corretti, è sufficiente cliccare su **“Attiva il Bonus”**: dopo qualche secondo, il cittadino potrà visualizzare il proprio Bonus Vacanze nella sezione “Portafoglio” dell’app.
 
 {:.small}
 <i>*Per il calcolo dell’indicatore ISEE del proprio nucleo familiare, occorre presentare all'INPS la Dichiarazione Sostitutiva Unica (DSU) [tramite i canali messi a disposizione dall’Istituto](https://www.inps.it/nuovoportaleinps/default.aspx?itemdir=49961)</i>
@@ -58,7 +58,7 @@ Il Bonus attribuito al proprio nucleo familiare è identificato da **un codice u
 
 Se il cittadino che ne ha fatto richiesta sull’app IO non utilizzerà personalmente il Bonus, attraverso la funzione **“Condividi”** potrà inoltrarne facilmente una copia agli altri componenti del proprio nucleo familiare che non hanno accesso all’app.
 
-Il Bonus Vacanze rimarrà sempre disponibile nella sezione “Pagamenti” dell’app IO. **Dopo l’avvenuto** utilizzo presso la struttura turistica prescelta, da “attivo” il Bonus **risulterà “speso” e non potrà più essere utilizzato** da nessuno dei componenti del nucleo familiare a cui è stato attribuito.
+Il Bonus Vacanze rimarrà sempre disponibile nella sezione “Portafoglio” dell’app IO. **Dopo l’avvenuto** utilizzo presso la struttura turistica prescelta, da “attivo” il Bonus **risulterà “speso” e non potrà più essere utilizzato** da nessuno dei componenti del nucleo familiare a cui è stato attribuito.
 
 Per le strutture turistico-ricettive, lo sconto applicato all’ospite in possesso del Bonus Vacanze sarà rimborsato sotto forma di credito d’imposta utilizzabile in compensazione senza limiti di importo, attraverso il modello F24. In alternativa può essere ceduto a terzi, compresi gli istituti di credito e gli intermediari finanziari. Il credito d’imposta non utilizzato dal cessionario, in tutto o in parte, può essere oggetto di ulteriori cessioni. 
 
