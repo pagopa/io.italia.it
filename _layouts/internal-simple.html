@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+{% assign t = site.data.t[current_lang] %}
+{%- include navigation-slim.html -%}
+{%- include navigation.html -%}
+
+<div class="internal-page simple">
+  <div class="page-wrapper">
+  <article class="{{ page.layout }}">
+    
+      <div class="internal-page__content px-2 px-md-0">
+            {{content}}
+      </div>
+     
+  </article>
+  </div><!--/page-wrapper-->
+</div><!--/internal-page-->
+
+{%- include footer.html -%} {%- include cookiebar.html -%}

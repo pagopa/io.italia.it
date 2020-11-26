@@ -1,0 +1,40 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign source = include.source %}
+{% assign items = site.data[source][current_lang]['items'] %}
+{% assign last_update = site.data[source][current_lang]['last_update'] %}
+
+<div class="section section-muted my-3 my-md-5 pt-2 pt-md-3 pb-2 pb-md-5">
+    <div class="container container--mid">
+{% if include.content %}
+{{include.content}}
+{% endif %}
+
+{% if last_update!='' %}
+<div class="font-weight-bold my-2">Ultimo aggiornamento: {{last_update}}</div>
+{%endif%}
+
+    {% if items.size > 0 %}
+    <div class="container-fluid my-3 my-md-5">
+        
+        {% for item in items %}
+        {% assign moduloIndex = forloop.index | modulo: 3%}
+        {% if forloop.first or moduloIndex==1 %}<div class="row">{%endif%}
+        <div class="col-12 col-md-4 align-items-stretch d-flex">
+            <div class="bg-white rounded-l shadow p-3 p-md-4 my-2 mx-2 w-100 d-flex flex-column align-items-center">
+            {% if item.img %}<div><img src="{{item.img}}" alt="Logo {{item.name}}" class="img-fluid mb-3"></div>{%endif%}
+            <h5 class="font-weight-bold text-primary mb-3 text-center {{include.nameClassStyle}}">{{item.name}}</h5>
+            {% if item.url %}
+                <a href="{{item.url}}" title="Scopri di più su {{item.name}}" target="_blank" class="small text-decoration-none d-flex align-items-center justify-content-center mt-auto">
+                <svg class="icon icon-primary icon-sm mr-1"><use xlink:href="/assets/svg/sprite.svg#it-external-link"></use></svg>
+                Scopri di più</a>
+            {%endif%}
+            </div>
+        </div>
+        {% if forloop.last or moduloIndex==0 %}</div><!--/row-->{%endif%}
+        {% endfor %}
+        
+    </div><!--container-fluid-->
+    {% endif %}
+
+</div><!--/section-->
+</div><!--container-->

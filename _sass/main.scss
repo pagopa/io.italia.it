@@ -43,7 +43,7 @@ body {
 
   &.layout--home {
     font-size: 14px;
-    background-color: #F2F7FC;
+    background-color: #f2f7fc;
   }
 }
 .text-inherit {
@@ -59,7 +59,6 @@ body {
     color: #5c6f82;
   }
 }
-
 
 .text-primary {
   color: $color--italia !important;
@@ -117,7 +116,7 @@ body {
   }
 
   .bannersup {
-    background-color: #00C5CA;
+    background-color: #00c5ca;
     font-size: 1rem;
     color: #fff;
   }
@@ -477,8 +476,6 @@ button.baguetteBox-button {
   }
 }
 
-
-
 #introduzione {
   @media screen and (min-width: $grid-breakpoints-md) {
     min-height: 432px;
@@ -531,7 +528,8 @@ button.baguetteBox-button {
 .btn {
   letter-spacing: 1px;
 }
-.btn.bg-white, .btn.btn-white {
+.btn.bg-white,
+.btn.btn-white {
   &:hover:not(:disabled) {
     background-color: #034c98 !important;
     color: #fff !important;
@@ -558,10 +556,9 @@ button.baguetteBox-button {
 
 a.text-hover-green {
   &:hover {
-    color: #21DEDF !important;
+    color: #21dedf !important;
   }
 }
-
 
 // video player overlay
 .wvideo {
@@ -572,15 +569,15 @@ a.text-hover-green {
     left: 0;
     right: 0;
     bottom: 0;
-    
+
     .playvideoicon {
-        width: 100px;
-        height: 100px;
-        position: absolute;
-        display: block;
-        z-index: 1;
-        top: calc(50% - 50px);
-        left: calc(50% - 50px);
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      display: block;
+      z-index: 1;
+      top: calc(50% - 50px);
+      left: calc(50% - 50px);
     }
   }
 }
@@ -591,14 +588,14 @@ a.text-hover-green {
   opacity: 0;
   -ms-transition: opacity 600ms ease-in;
   transition: opacity 600ms ease-in;
-  -ms-transition: opacity .6s;
-  transition: opacity .6s;
+  -ms-transition: opacity 0.6s;
+  transition: opacity 0.6s;
   position: fixed;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, .7);
+  background: rgba(0, 0, 0, 0.7);
   z-index: 999999;
 }
 
@@ -607,8 +604,8 @@ a.text-hover-green {
   opacity: 1;
   -ms-transition: opacity 600ms ease-out;
   transition: opacity 600ms ease-out;
-  -ms-transition: opacity .7s;
-  transition: opacity .7s;
+  -ms-transition: opacity 0.7s;
+  transition: opacity 0.7s;
 }
 
 .videoWrapperExt {
@@ -650,6 +647,14 @@ a.text-hover-green {
 .badge-servizio {
   font-size: 0.9rem;
   letter-spacing: 2px;
-  background-color: #21DEDF;
-  
+  background-color: #21dedf;
+}
+
+.rounded {
+  &-l {
+    border-radius: 0.5rem;
+  }
+  &-xl {
+    border-radius: 0.75rem;
+  }
 }

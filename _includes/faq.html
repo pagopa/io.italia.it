@@ -2,10 +2,12 @@
 {% assign faq_source = include.source | default: 'faq' %}
 {% assign faq = site.data[faq_source][current_lang] %}
 {% assign faq_grouped = faq | group_by: 'cat' | sort: 'name' %}
+{% if include.filteredby %}
+  {% assign faq_grouped = faq_grouped | where: "name", include.filteredby %}
+{%endif%}
 <div class="page-faq">
 
     <div class="container container--mid ">
-
       <div id="faq" class="pb-5">
     <div class="row p-3 justify-content-md-center">
       <div class="col-12">
@@ -14,7 +16,7 @@
           {% assign gindex =  forloop.index %}
           {% if gindex > 1 %}<div class="my-3 py-3"></div>{%endif%}
 
-        <h2 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h2>
+        {% if include.filteredby=='' %}<h2 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h2>{%endif%}
         <div id="accordionDivFAQ{{gindex}}" class="collapse-faq collapse-div" role="tablist">
           {% for f in group.items %}
           {% capture findex %}{{ findex | plus: 1 }}{% endcapture %}
