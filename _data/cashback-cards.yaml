@@ -1,0 +1,40 @@
+it:
+  cards:
+    - name: American Express
+      img: amex.svg
+      id: amex
+    - name: MasterCard
+      img: master.svg
+      id: mastercard
+    - name: Maestro
+      img: maestro.svg
+      id: maestro
+    - name: Postamat
+      img: postamat.svg
+      id: postamat
+    - name: Visa
+      img: visa.svg
+      id: visa
+  combo:
+    - cards:
+        - amex
+      cvv: 4
+      numbers: 15
+      io: true
+      cashback: true
+    - cards:
+        - postamat
+        - maestro
+      cvv:
+      numbers: 8
+      note: BancoPosta
+      io: false
+      cashback: false
+    - cards:
+        - postamat
+        - mastercard
+      cvv: 3
+      numbers: 16
+      note: BancoPosta, Postepay
+      io: true
+      cashback: true

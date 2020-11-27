@@ -102,3 +102,9 @@ it:
   - title: "L‘app del progetto IO sarà disponibile solo negli store italiani, o anche in quelli esteri?"
     body: "Ora che l’app è negli store, il download è disponibile a tutti e non ha blocchi geografici. I cittadini italiani (AIRE e non) che vivono all'estero dotati di SPID o CIE possono accedere ai servizi. Qui tutte le informazioni su come ottenere SPID dall'estero: [https://www.spid.gov.it/richiedi-spid](https://www.spid.gov.it/richiedi-spid), mentre per la CIE è necessario rivolgersi al proprio consolato di riferimento."
     cat: "1|Generali"
+  - title: "IO è l’app con cui si può partecipare al Cashback di Stato?"
+    body: Sì, a partire dall’1° 8 dicembre 2020 potrai aderire al programma “Cashback” tramite l’app IO. Il Cashback è una delle iniziative del Piano Italia Cashless previste dalla Legge di Bilancio 2020 (art. 1, commi da 288 a 290, legge del 27 dicembre 2019, n. 160, come successivamente modificata e integrata) e dal Decreto XXX emesso il XXX [data] dal Ministro dell’Economia e delle Finanze (MEF). Per saperne di più, [clicca qui](/cashback/).
+    cat: "3|Bonus e sconti"
+  - title: "Dove trovo il servizio per attivare il Cashback sull’app IO?"
+    body: A partire dall’8 dicembre 2020, quando il servizio sarà attivo, per iscriverti all’iniziativa entra nella sezione **“Portafoglio”** dell’app, clicca sul pulsante in evidenza “Cashback” e segui le istruzioni. In alternativa, puoi cliccare su “Aggiungi” in corrispondenza della voce “Bonus e Sconti” e selezionare “Cashback” dalla lista di quelli disponibili; l’app IO ti guiderà nei passaggi successivi. Per saperne di più, [clicca qui](/cashback/).
+    cat: "3|Bonus e sconti"

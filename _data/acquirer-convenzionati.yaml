@@ -1,19 +1,15 @@
 it:
   last_update: 1/12/2020
   items:
-    - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-    - name: Satispay
-      img: https://via.placeholder.com/145x30&text=logo
-    - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-    - name: Banca di credito
-      img: https://via.placeholder.com/145x30&text=logo
-    - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-    - name: Satispay
-      img: https://via.placeholder.com/145x30&text=logo
-    - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-    - name: Satispay
-      img: https://via.placeholder.com/145x30&text=logo
+    - name: Banca Sella
+      img: /assets/img/cashback/acquirer/sella.png
+    - name: Nexi
+      img: /assets/img/cashback/acquirer/nexi.png
+    - name: Poste Italiane
+      img: /assets/img/cashback/acquirer/poste.png
+    - name: Unicredit
+      img: /assets/img/cashback/acquirer/unicredit.png
+    - name: American Express
+      img: /assets/img/cashback/acquirer/amex.png
+    - name: ICRREA
+      img: /assets/img/cashback/acquirer/iccrea.png

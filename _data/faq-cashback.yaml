@@ -1,8 +1,44 @@
 it:
-  - title: Come posso installare l'app?
-    body: "IO è disponibile negli app store [Android](https://play.google.com/store/apps/details?id=it.pagopa.io.app) (per dispositivi con sistema operativo Android 4.4 e superiori) e [iOS](https://apps.apple.com/it/app/io/id1501681835) (per dispositivi con sistema operativo iOS 10 e superiori), con una prima versione beta pubblica (open beta).\ 
-    La pubblicazione dell’app IO lo scorso aprile  ha dato inizio al percorso che, progressivamente,\ 
-    porterà tutti i cittadini italiani ad avere dei nuovi servizi pubblici digitali moderni e centrati sulle loro esigenze."
+  - title: Chi può aderire?
+    body: "Se hai compiuto 18 anni e risiedi in Italia puoi aderire al programma Cashback."
+    cat: "1|I requisiti per partecipare"
+  - title: Per aderire devo avere la cittadinanza italiana?
+    body: "No, è sufficiente che tu abbia la residenza in Italia."
+    cat: "1|I requisiti per partecipare"
+  - title: Quali dati devo comunicare per partecipare al Cashback? 
+    body: "Se scegli di aderire al Cashback con l’app IO: \
+
+    - l’accesso effettuato con SPID o CIE consente di ricavare in automatico il tuo Codice Fiscale. 
+
+    - per iniziare ad effettuare acquisti che siano validi ai fini del programma devi fornire gli estremi identificativi di **uno o più metodi di pagamento elettronici** a te intestati su cui decidi di attivare il Cashback. 
+    
+    - per l’erogazione degli eventuali rimborsi tramite bonifico devi indicare il codice IBAN a te intestato. Non è necessario che tu inserisca il **codice IBAN** al momento dell’adesione al programma: puoi procedere anche successivamente, ma comunque entro il termine di ciascuno dei periodi in cui si articola il Cashback.
+
+
+Se, in alternativa, scegli di aderire tramite uno dei **sistemi messi a disposizione dai cosiddetti [Issuer Convenzionati](/cashback/issuer-convenzionati/)** - cioè i soggetti che emettono i metodi di pagamento elettronici (carte o app) attivabili ai fini del Cashback - potresti dover indicare anche il tuo **Codice Fiscale**. 
+"
+    cat: "1|I requisiti per partecipare"
+  - title: Ci sono limiti di reddito? Serve presentare una DSU per il calcolo dell’ISEE per accedere al Cashback?
+    body: "No, l’erogazione dei rimborsi previsti dal programma non è legata in alcun modo al reddito né alla situazione patrimoniale dei partecipanti."
+    cat: "1|I requisiti per partecipare"
+  - title: Tutti i componenti maggiorenni dello stesso nucleo familiare possono partecipare? O può solo una persona per famiglia?
+    body: "Per aderire al Cashback non c’è un limite al numero di partecipanti per nucleo familiare. Ogni componente maggiorenne e residente in Italia può iscriversi individualmente al programma e ricevere il proprio rimborso. Ai fini del Cashback non contano, quindi, né l’appartenenza a un nucleo familiare nè la sua numerosità."
+    cat: "1|I requisiti per partecipare"
+  - title: Voglio partecipare al Cashback, ma non ho uno smartphone né un tablet compatibile con l’app IO. Come posso fare? Ci sono metodi alternativi per richiederlo?
+    body: "Oltre ad aderire al programma tramite l’app IO, puoi iscriverti sugli altri sistemi messi a disposizione dai cosiddetti Issuer Convenzionati - cioè i soggetti che emettono i metodi di pagamento elettronici (carte o app) attivabili ai fini del Cashback. [Vedi qui l’elenco degli Issuer Convenzionati](/cashback/issuer-convenzionati/)"
+    cat: "1|I requisiti per partecipare"
+  - title: Posso partecipare al Cashback anche se non ho una mia carta, ma usando quella di un familiare?
+    body: "No, devi essere tu il titolare del metodo di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia intestato a più persone, solo uno dei titolari può concorrere al programma con quella carta. "
+    cat: "1|I requisiti per partecipare"
+  - title: Mi serve avere SPID o CIE anche se non mi iscrivo dall’app IO?
+    body: "Non necessariamente, questo dipenderà dalle modalità di autenticazione previste dagli “Issuer Convenzionati” per accedere ai sistemi alternativi di iscrizione al Cashback che metteranno a disposizione dei loro clienti e per la registrazione dei soli metodi di pagamento elettronici da loro emessi. [Vedi qui l’elenco degli Issuer Convenzionati](/cashback/issuer-convenzionati/)"
+    cat: "1|I requisiti per partecipare"
+  - title: Posso partecipare anche se non ho un conto corrente?
+    body: "Sì, ma non è necessario avere un conto corrente, potendo un IBAN essere anche associato ad una carta,  anche se prepagata. Indicare un codice IBAN di un conto o di una carta è fondamentale per ricevere il bonifico per l’accredito degli eventuali rimborsi che avrai maturato al termine di ciascun periodo dell’iniziativa.\ 
+    Per maggiori dettagli sull'IBAN leggi le relative _FAQ nella sezione Rimborsi_."
+    cat: "1|I requisiti per partecipare"
+  - title: Mio/a figlio/a è minorenne, ma ha una carta collegata al mio conto corrente; può partecipare con quella carta all’iniziativa?
+    body: "No, un minorenne non può partecipare al Cashback. Se la carta di tuo/a figlio/a è a lui/lei intestata, non puoi registrarla tra i metodi di pagamento elettronici attivati sul tuo profilo ai fini del Cashback; il fatto che tale carta di tuo/tua figlio/a sia associata al tuo conto corrente non  ha alcuna rilevanza per la partecipazione al Cashback."
     cat: "1|I requisiti per partecipare"
   - title: Come posso installare l'app?
     body: "IO è disponibile negli app store [Android](https://play.google.com/store/apps/details?id=it.pagopa.io.app) (per dispositivi con sistema operativo Android 4.4 e superiori) e [iOS](https://apps.apple.com/it/app/io/id1501681835) (per dispositivi con sistema operativo iOS 10 e superiori), con una prima versione beta pubblica (open beta).\ 

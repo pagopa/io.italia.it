@@ -28,7 +28,7 @@ Per questo, prima di eseguire un pagamento presso un punto vendita, <b>verifica 
 La lista degli Acquirer Convenzionati è in divenire e in costante aggiornamento, con l’obiettivo di darti la possibilità di partecipare al Cashback presso la quasi totalità dei punti vendita sul territorio italiano. </p>
 
 {% endcapture %}
-{% include grid-card.html source='acquirer-convenzionati' nameClassStyle='my-3' content=content_include %}
+{% include grid-card.html source='acquirer-convenzionati' nameClassStyle='m-0' itemClassStyle='' content=content_include %}
 
 {% include faq.html source='faq-cashback' filteredby='4|Gli acquisti' %}
 

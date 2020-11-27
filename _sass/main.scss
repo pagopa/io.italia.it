@@ -658,3 +658,19 @@ a.text-hover-green {
     border-radius: 0.75rem;
   }
 }
+
+.grid-card {
+  &__item {
+    width: 100%;
+    background-color: #fff;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      min-height: 180px;
+    }
+
+    img {
+      height: 18px;
+      max-width: 100%;
+      max-height: auto;
+    }
+  }
+}
