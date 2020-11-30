@@ -5,6 +5,7 @@ subtitle:
 description:
 lang: it
 ref: faq-cashback
+image: "/assets/img/cashback/social-card-cashback.jpg"
 permalink: /cashback/faq/
 intro_image:
 intro_primary_text:

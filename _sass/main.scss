@@ -670,7 +670,11 @@ a.text-hover-green {
     img {
       height: 18px;
       max-width: 100%;
-      max-height: auto;
+    }
+  }
+  &.issuer-convenzionati &__item {
+    img {
+      height: 32px;
     }
   }
 }

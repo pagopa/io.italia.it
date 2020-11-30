@@ -5,7 +5,7 @@ image: "/assets/img/cashback/social-card-cashback.jpg"
 pre-title: Dall'8 Dicembre
 description: Lista degli issuer convenzionati al Cashback di Stato
 subdescription:
-permalink: /cashback/issuer-convenzionati/
+permalink: /cashback/issuer/
 lang: it
 ref: cashback-issuer
 introduction_slides:

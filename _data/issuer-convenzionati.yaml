@@ -1,27 +1,17 @@
 it:
   last_update: 1/12/2020
   items:
+    - name: BancomatPAY
+      img: /assets/img/cashback/issuer/bancomat-pay.png
+      url:
+    - name: App BancoPosta
+      img: /assets/img/cashback/issuer/app-bancoposta.png
     - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://poste.it
+      img: /assets/img/cashback/issuer/app-postepay.png
+      url:
     - name: Satispay
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://satispay.com
-    - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://poste.it
-    - name: Banca di credito cooperativo di Puglia e Basilicata
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://satispay.com
-    - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://poste.it
-    - name: Satispay
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://satispay.com
-    - name: Postepay
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://poste.it
-    - name: Satispay
-      img: https://via.placeholder.com/145x30&text=logo
-      url: https://satispay.com
+      img: /assets/img/cashback/issuer/satispay.png
+      url:
+    - name: Sella
+      img: /assets/img/cashback/issuer/sella.png
+      url:
