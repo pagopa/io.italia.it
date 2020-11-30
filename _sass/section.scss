@@ -178,14 +178,8 @@
 }
 
 .section__cashback {
-  background: linear-gradient(
-    90deg,
-    rgba(45, 72, 157, 1) 15%,
-    rgba(0, 166, 206, 1) 100%
-  );
-  background-repeat: no-repeat;
+  background-color: #fff;
   position: relative;
-  background-color: #2d489d;
 
   z-index: 9;
   .lead {
@@ -193,13 +187,6 @@
     @media screen and (min-width: $grid-breakpoints-md) {
       font-size: 1.2rem;
     }
-  }
-
-  &_bg {
-    background-image: url("/assets/img/cashback/pattern.png");
-    position: relative;
-    z-index: 10;
-    top: 0;
   }
 
   .badge {
