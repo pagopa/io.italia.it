@@ -666,15 +666,22 @@ a.text-hover-green {
     @media screen and (min-width: $grid-breakpoints-md) {
       min-height: 180px;
     }
+  }
+  &__img {
+    height: 32px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-bottom: 0.75rem;
+  }
+  &.acquirer-convenzionati {
+    .badge {
+      display: none;
+    }
+  }
+}
 
-    img {
-      height: 18px;
-      max-width: 100%;
-    }
-  }
-  &.issuer-convenzionati &__item {
-    img {
-      height: 32px;
-    }
-  }
+.font-size-reset {
+  font-size: 1rem;
 }

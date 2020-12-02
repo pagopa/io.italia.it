@@ -1,6 +1,6 @@
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %}
 {% assign faq_source = include.source | default: 'faq' %}
-{% assign faq = site.data[faq_source][current_lang] %}
+{% assign faq = include.pagesource | default: site.data[faq_source][current_lang] %}
 {% assign faq_grouped = faq | group_by: 'cat' | sort: 'name' %}
 {% if include.filteredby %}
   {% assign faq_grouped = faq_grouped | where: "name", include.filteredby %}

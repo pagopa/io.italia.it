@@ -9,6 +9,10 @@ permalink: /cashback/acquirer/
 lang: it
 ref: cashback-issuer
 introduction_slides:
+faq:
+  - title: "Cosa s’intende per Acquirer Convenzionato?"
+    body: "L’Acquirer Convenzionato è il soggetto che ha concluso un accordo con l’Esercente per l’utilizzo di strumenti di pagamento elettronici attraverso dispositivi di accettazioni fisici e che ha sottoscritto una convenzione con la società PagoPA S.p.A. - la società incaricata dal Ministero dell’Economia e delle Finanze per lo sviluppo e la gestione della piattaforma tecnologica alla base del programma - per partecipare al Cashback."
+    cat:
 ---
 
 <div class="container container--mid text-primary my-5 my-md-0">
@@ -30,6 +34,6 @@ La lista degli Acquirer Convenzionati è in divenire e in costante aggiornamento
 {% endcapture %}
 {% include grid-card.html source='acquirer-convenzionati' nameClassStyle='m-0' itemClassStyle='' content=content_include %}
 
-{% include faq.html source='faq-cashback' filteredby='4|Gli acquisti' %}
+{% include faq.html pagesource=page.faq %}
 
 {% include_relative include-footer.html %}

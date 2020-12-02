@@ -1,267 +1,287 @@
-.pagename--bonus-vacanze, .pagename--cashback {
-    // hack
-    .page-wrapper {
-        margin-bottom: -48px;
+.pagename--bonus-vacanze,
+.pagename--cashback {
+  // hack
+  .page-wrapper {
+    margin-bottom: -48px;
+  }
+
+  .read-more {
+    text-transform: initial;
+    font-size: 1rem;
+    &-collapse {
+      display: none;
+    }
+    &.exp {
+      .read-more-collapse {
+        display: block;
+      }
+      .read-more-expand {
+        display: none;
+      }
+    }
+  }
+
+  .internal-page__content {
+    margin-top: 0;
+  }
+  .font-size-normal {
+    font-size: 1rem;
+  }
+  .btn-download {
+    min-width: 45%;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      min-width: auto;
+    }
+  }
+
+  .screenshot {
+    border-radius: 20px !important;
+  }
+
+  .play-button {
+    &:before {
+      content: url("/assets/img/icon-playvideo.svg");
+      margin-right: 4px;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    &:hover {
+      &:before {
+        content: url("/assets/img/icon-playvideo--white.svg");
+      }
+    }
+  }
+
+  #introduzione {
+    min-height: 80vh;
+    position: relative;
+    z-index: 8;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      min-height: unset;
     }
 
-    .read-more {
-        text-transform: initial;
-        font-size: 1rem;
-        &-collapse {
-            display: none;
-        }
-        &.exp {
-            .read-more-collapse {
-                display: block;
-            }
-            .read-more-expand {
-                display: none;
-            }
-        }
+    .col-intro-img {
+      @media screen and (min-width: $grid-breakpoints-md) and (max-width: $grid-breakpoints-lg) {
+        display: none !important;
+      }
     }
 
-    .internal-page__content {
-        margin-top: 0;
-    }
-    .font-size-normal {
-        font-size: 1rem;
-    }
-    .btn-download {
-        min-width: 45%;
-        @media screen and (min-width: $grid-breakpoints-md) {
-            min-width: auto;
-        }
+    img {
+      width: 150px;
+      margin: 1.5rem 0;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        width: auto;
+        margin: 0;
+      }
     }
 
-    .screenshot {
-        border-radius: 20px !important;
+    h1 + * {
+      margin-top: 0.5rem !important;
+      margin-bottom: 0.5rem !important;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        margin-top: 1.5rem !important;
+        margin-bottom: 1.5rem !important;
+      }
     }
 
-    .play-button {
-        
-        &:before {
-            content: url('/assets/img/icon-playvideo.svg');
-            margin-right: 4px;
-            vertical-align: middle;
-            line-height: 1;
-        }
-        &:hover {
-            &:before {
-                content: url('/assets/img/icon-playvideo--white.svg');
-            }
-        }
+    &:before {
+      position: absolute;
+      content: " ";
+      z-index: -1;
+      background-color: $color--italia;
+      top: 75vh;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        display: none;
+      }
+    }
+  }
+
+  #intro-slider {
+    &:after {
+      content: " ";
+      width: 100%;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 7;
+      position: absolute;
+      background: linear-gradient(
+        0deg,
+        rgba(0, 102, 204, 1) 10%,
+        rgba(0, 102, 204, 0.4) 75%
+      );
+      @media screen and (min-width: $grid-breakpoints-md) {
+        background: linear-gradient(
+          90deg,
+          rgba(0, 102, 204, 1) 25%,
+          rgba(0, 102, 204, 0.2) 75%
+        );
+      }
+    }
+    background-color: $color--italia;
+    position: absolute;
+    min-height: 80vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+    @media screen and (min-width: $grid-breakpoints-md) {
+      min-height: unset;
+      left: unset;
+      width: 100%;
+      overflow-x: unset;
     }
 
-    #introduzione {
-        min-height: 80vh;
+    .carousel-indicators {
+      display: none;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+      }
+
+      li {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        margin: 0 10px;
+      }
+    }
+    .carousel-item {
+      height: 80vh;
+      overflow-x: hidden;
+      img {
+        height: 90vh;
+        width: auto;
         position: relative;
-        z-index: 8;
+        right: 1500px;
         @media screen and (min-width: $grid-breakpoints-md) {
-            min-height: unset;
-        }
-
-        .col-intro-img {
-            @media screen and (min-width: $grid-breakpoints-md) and (max-width: $grid-breakpoints-lg) {
-                display: none !important;
-            }
-        }
-
-        img {
-            width: 150px;
-            margin: 1.5rem 0;
-            @media screen and (min-width: $grid-breakpoints-md) {
-                width: auto;
-                margin: 0;
-            }
-        }
-
-        h1 + * {
-            margin-top: 0.5rem !important;
-            margin-bottom: 0.5rem !important;
-            @media screen and (min-width: $grid-breakpoints-md) {
-                margin-top: 1.5rem !important;
-                margin-bottom: 1.5rem !important;
-            }
-        }
-
-        &:before {
-            position: absolute;
-            content: ' ';
-            z-index: -1;
-            background-color: $color--italia;
-            top: 75vh;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            @media screen and (min-width: $grid-breakpoints-md) {
-                display: none;
-            }
-        }
-    }
-
-
-    #intro-slider {      
-        &:after {
-          content: ' ';
-          width: 100%;
-          top: 0;
-          bottom: 0;
-          right: 0;
-          left: 0;
-          z-index: 7;
-          position: absolute;
-          background: linear-gradient(0deg, rgba(0,102,204,1) 10%, rgba(0,102,204,0.4) 75%);
-          @media screen and (min-width: $grid-breakpoints-md) {
-            background: linear-gradient(90deg, rgba(0,102,204,1) 25%, rgba(0,102,204,0.2) 75%);
-          }
-        }
-        background-color: $color--italia;
-        position: absolute;
-        min-height: 80vh;
-        width: 100vw;
-        overflow-x: hidden;
-
-        @media screen and (min-width: $grid-breakpoints-md) {
-            min-height: unset;
-            left: unset;
-            width: 100%;
-            overflow-x: unset;
-
-        }
-        
-        .carousel-indicators {
-            display: none;
-            @media screen and (min-width: $grid-breakpoints-md) {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;
-            }
-        
-            li {
-            width: 10px;
-            height: 10px;
-            border-radius: 100%;
-            margin: 0 10px;
-          }
-        }
-        .carousel-item {
-            height: 80vh;
-            overflow-x: hidden;
-            img {
-                height: 90vh;
-                width: auto;
-                position: relative;
-                right: 1500px;
-                @media screen and (min-width: $grid-breakpoints-md) {
-                    height: auto;
-                    right: auto;
-                }
-            }
-            @media screen and (min-width: $grid-breakpoints-md) {
-                height: unset;
-                
-            }
-        }
-    }
-
-    .scopri-bonus {
-        background-color: #17324D;
-    }
-
-    .dubbi-domande {
-        background-color: #2D489D;
-        border-bottom: 1px solid rgba(255,255,255,0.6);
-    }
-
-
-    .video-uso-wrapper {
-        position: relative;
-        cursor: pointer;
-
-        
-        .playusevideo {
-            position: absolute;
-            z-index: 5;
-            top: 50%;
-            left: calc(50% - 30px);
-            @media screen and (min-width: $grid-breakpoints-md) {
-                left: calc(50% - 10px);
-            }
-
-        }
-
-        @media screen and (min-width: $grid-breakpoints-md) {
-            width: 330px;
-            img.screenshot {
-                margin-top: 24px;
-                margin-left: 40px;
-    
-            }
-        }
-
-    }
-    .section--dashboard {
-        background-color: #2D489D;
-
-        .counter {
-            font-size: 2.5rem;
-            font-weight: 600;
-            color: #fff;
-        }
-        .counterdesc {
-            color: #fff;
-        }
-        &__wrapper {
-            @media screen and (min-width: $grid-breakpoints-lg) {
-                height: 100%;
-            }
-        }
-    }
-
-    .tooltip-inner {
-        font-size: 0.7rem;
-        background-color: #17324D;
-        margin-left: -2px;
-        line-height: 1.7;
-        padding: 10px;
-        max-width: 150px;
-        text-align: left;
-      }
-      .tooltip {
-        left: 10px !important;    
-        .arrow {
-          display: block;
+          height: auto;
+          right: auto;
         }
       }
-      .bs-tooltip-auto[x-placement^=right] .arrow::before, .bs-tooltip-right .arrow::before {
-        border-right-color: #17324D;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        height: unset;
       }
-      .bs-tooltip-auto[x-placement^=left] .arrow::before, .bs-tooltip-left .arrow::before {
-        border-left-color: #17324D;
+    }
+  }
+
+  .scopri-bonus {
+    background-color: #17324d;
+  }
+
+  .video-uso-wrapper {
+    position: relative;
+    cursor: pointer;
+
+    .playusevideo {
+      position: absolute;
+      z-index: 5;
+      top: 50%;
+      left: calc(50% - 30px);
+      @media screen and (min-width: $grid-breakpoints-md) {
+        left: calc(50% - 10px);
       }
-      .bs-tooltip-auto[x-placement^=left] .arrow, .bs-tooltip-left .arrow {
-        right: 2px;
+    }
+
+    @media screen and (min-width: $grid-breakpoints-md) {
+      width: 330px;
+      img.screenshot {
+        margin-top: 24px;
+        margin-left: 40px;
       }
-    
+    }
+  }
+  .section--dashboard {
+    background-color: #2d489d;
+
+    .counter {
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: #fff;
+    }
+    .counterdesc {
+      color: #fff;
+    }
+    &__wrapper {
+      @media screen and (min-width: $grid-breakpoints-lg) {
+        height: 100%;
+      }
+    }
+  }
+
+  .tooltip-inner {
+    font-size: 0.7rem;
+    background-color: #17324d;
+    margin-left: -2px;
+    line-height: 1.7;
+    padding: 10px;
+    max-width: 150px;
+    text-align: left;
+  }
+  .tooltip {
+    left: 10px !important;
+    .arrow {
+      display: block;
+    }
+  }
+  .bs-tooltip-auto[x-placement^="right"] .arrow::before,
+  .bs-tooltip-right .arrow::before {
+    border-right-color: #17324d;
+  }
+  .bs-tooltip-auto[x-placement^="left"] .arrow::before,
+  .bs-tooltip-left .arrow::before {
+    border-left-color: #17324d;
+  }
+  .bs-tooltip-auto[x-placement^="left"] .arrow,
+  .bs-tooltip-left .arrow {
+    right: 2px;
+  }
 }
 
-.pagename--cashback {     
-    #intro-slider {
-        &:after {
-        content: ' ';
-        background: linear-gradient(0deg, #2D489D 10%, rgba(0,102,204,0.4) 50%);
-        @media screen and (min-width: $grid-breakpoints-md) {
-            background: linear-gradient(90deg, #2D489D 20%, rgba(0,102,204,0.2) 50%);
-        }
-        }
-        background-color: #2D489D;
-        background: url('/assets/img/cashback/pattern.png'), radial-gradient(circle, #2D489D 0%, rgba(45,72,157,0.5));
+.pagename--cashback {
+  #intro-slider {
+    &:after {
+      content: " ";
+      background: linear-gradient(
+        0deg,
+        #2d489d 10%,
+        rgba(0, 102, 204, 0.4) 50%
+      );
+      @media screen and (min-width: $grid-breakpoints-md) {
+        background: linear-gradient(
+          90deg,
+          #2d489d 20%,
+          rgba(0, 102, 204, 0.2) 50%
+        );
+      }
     }
-    #introduzione {
-        &:before {
-            background-color: #2D489D;
-        }
+    background-color: #2d489d;
+    background: url("/assets/img/cashback/pattern.png"),
+      radial-gradient(circle, #2d489d 0%, rgba(45, 72, 157, 0.5));
+  }
+  #introduzione {
+    &:before {
+      background-color: #2d489d;
     }
+  }
 }
 
-  
+body[class*="pagename--cashback"] {
+  .dubbi-domande {
+    background-color: #2d489d;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+  }
+  .card-selector-response {
+    &__item,
+    &__app {
+      border-bottom: 2px solid #e6e9f2;
+    }
+  }
+  .widget-metodi-supportati.cards {
+    background-color: #f2f7fc;
+  }
+}

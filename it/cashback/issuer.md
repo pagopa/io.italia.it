@@ -9,6 +9,22 @@ permalink: /cashback/issuer/
 lang: it
 ref: cashback-issuer
 introduction_slides:
+faq:
+  - title: "Cosa s’intende per Issuer Convenzionato?"
+    body: "L’Issuer Convenzionato è il soggetto che ha emesso lo strumento di pagamento elettronico scelto da un cittadino per partecipare al Cashback e che ha sottoscritto una convenzione con PagoPA S.p.A. – la società incaricata dal Ministero dell’Economia e delle Finanze per lo sviluppo e la gestione della piattaforma tecnologica alla base del programma – per mettere a disposizione dei propri utenti un sistema di adesione al Cashback alternativo all’app IO."
+    cat:
+  - title: "Che differenza c’è tra IO e i sistemi messi a disposizione dagli Issuer Convenzionati?"
+    body: "La registrazione al Cashback dal sistema di un Issuer Convenzionato ti consente di gestire la tua partecipazione al programma relativamente alle sole transazioni effettuate con lo strumento di pagamento elettronico emesso da quello stesso Issuer e attivato ai fini del Cashback.
+    
+    
+    Se, invece, vuoi partecipare al Cashback con diverse carte di credito, debito o strumenti di pagamento emessi da più soggetti, solo registrandoti tramite l’app IO potrai:
+    
+    * aggiungere, abilitare e gestire tutti i tuoi metodi di pagamento relativamente al programma;
+    
+    * visualizzare in ogni momento il numero di tutte le transazioni accumulate per il cashback e il dettaglio di ciascuna transazione
+    
+    * visualizzare la tua posizione in classifica per ottenere il Super Cashback di 1500€"
+    cat:
 ---
 
 <div class="container container--mid text-primary my-4 my-md-0">
@@ -26,6 +42,6 @@ I seguenti soggetti forniscono un sistema per aderire all’iniziativa anche tra
 {% endcapture %}
 {% include grid-card.html source='issuer-convenzionati' content=content_include %}
 
-{% include faq.html source='faq-cashback' filteredby='4|Gli acquisti' %}
+{% include faq.html pagesource=page.faq %}
 
 {% include_relative include-footer.html %}
