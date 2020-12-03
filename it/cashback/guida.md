@@ -125,7 +125,7 @@ Per partecipare:
 
 Al momento dell'adesione:
 
-- **confermi** di avere letto l'[informativa privacy](http://io.italia.it/cashback/privacy-policy), questa Guida e di avere compreso e accettato tutti i Termini e le Condizioni per partecipare all'iniziativa;
+- **confermi** di avere letto l'[informativa privacy](http://io.italia.it/cashback/privacy-policy/), questa Guida e di avere compreso e accettato tutti i Termini e le Condizioni per partecipare all'iniziativa;
 - **dichiari,** ai sensi e per gli effetti degli artt. 46 e 47 del DPR 445/2000 e consapevole delle sanzioni penali e della decadenza dai benefici eventualmente conseguiti in caso di dichiarazioni mendaci (artt. 75 e 76 dello stesso DPR 445/2000);
   - a) di essere **maggiorenne**;
   - b) di essere **residente in Italia**;
