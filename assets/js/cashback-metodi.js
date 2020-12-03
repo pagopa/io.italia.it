@@ -9,11 +9,13 @@ $(document).ready(function() {
         $cardsSelected.each(function(index,el){
             selecting += '.'+el.getAttribute('data-card');
         });
+
         selecting!="" && $(itemselclass + selecting).fadeIn();
 
-        if ($cardsSelected.length > 0 && $(itemselclass + selecting).length==0) {
+        if (selecting=="" || $(itemselclass + selecting).length == 0 ) {
             $(itemselclass+'.empty').fadeIn();
         }
+
     }
 
     $cardselectors.on('click', function (e) {

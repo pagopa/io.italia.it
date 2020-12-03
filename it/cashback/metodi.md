@@ -5,7 +5,7 @@ image: "/assets/img/cashback/social-card-cashback.jpg"
 pre-title: D
 description: Lista dei metodi di pagamento attualmente attivi su IO
 subdescription:
-permalink: /cashback/metodi-pagamento/
+permalink: /metodi-pagamento/
 lang: it
 ref: cashback-metodi
 introduction_slides:
