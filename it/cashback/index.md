@@ -2,10 +2,10 @@
 layout: internal-w-slides
 title: Partecipa al Cashback di Stato con l'app IO
 image: "/assets/img/cashback/social-card-cashback.jpg"
-pre-title: Dall'8 Dicembre
-description: "Aderisci al “Cashback” tramite l’app IO: dall'8 dicembre 2020, sarà attivo il servizio per registrarti al programma e ottenere un rimborso sugli acquisti effettuati con carte, bancomat e app di pagamento.
-<span class=\"small d-block mt-2\">Il “Cashback” è una delle iniziative del <a href=\"http://www.cashlessitalia.it\" class=\"font-weight-bold text-white\">Piano Italia Cashless</a> promosso dal Governo allo scopo di incentivare un maggiore utilizzo di moneta elettronica nel Paese.</span>
-<a href=\"./guida\" class=\"d-block mt-2 small text-white\" >Leggi la Guida al Cashback completa</a>"
+pre-title: In arrivo
+description: "Aderisci al “Cashback” tramite l’app IO: dall'8 dicembre 2020, con l’avvio dell’Extra Cashback di Natale, parte il programma che ti consentirà di ottenere un rimborso sugli acquisti effettuati con carte e app di pagamento.
+<span class=\"small d-block mt-2\">Il “Cashback” è una delle iniziative del <a href=\"http://www.cashlessitalia.it\" class=\"font-weight-bold text-white\">Piano Italia Cashless</a> promosso dal Governo.</span>
+<a href=\"./guida/\" class=\"d-block mt-2 small text-white\" >Leggi la Guida al Cashback completa</a>"
 description_social : "A partire dal 1° dicembre 2020 potrai ottenere un rimborso sugli acquisti effettuati con strumenti di pagamento elettronico"
 subdescription: "Scarica l’ultima versione dell’app:"
 lang: it
