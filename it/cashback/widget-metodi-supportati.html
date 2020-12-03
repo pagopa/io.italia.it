@@ -65,12 +65,19 @@
 
                 </div><!---/card-selector-response__item-->
             {%endfor%}
-            <div class="card-selector-response__item my-5 empty border-0 text-center" >
+            <div class="card-selector-response__item my-5 noresults border-0 text-center" style="display: none;" >
                 <img src="/assets/img/cashback/metodi/question.svg" alt="Richiedi assistenza">
                 <div class="my-2 px-5">
                     Non abbiamo trovato nessun metodo con i filtri selezionati.<br>
                     <a href="#" title="Ti serve aiuto?" class="playvideo" data-url="https://www.youtube.com/embed/6M4i6a97auY?rel=0">Ti serve aiuto?</a>
                     {% include videoplayer.html %}
+                </div>
+            </div><!--card-selector-response__item empty-->
+            <div class="card-selector-response__item my-5 empty border-0 text-center" >
+                <img src="/assets/img/cashback/metodi/ic-filters.svg" alt="Seleziona loghi">
+                <div class="my-2 px-5">
+                    Seleziona tutti i loghi circuito presenti sulla tua carta per vedere i risultati.<br>
+                    
                 </div>
             </div><!--card-selector-response__item empty-->
 

@@ -10,9 +10,13 @@ $(document).ready(function() {
             selecting += '.'+el.getAttribute('data-card');
         });
 
-        selecting!="" && $(itemselclass + selecting).fadeIn();
-
-        if (selecting=="" || $(itemselclass + selecting).length == 0 ) {
+        if (selecting!="" && $(itemselclass + selecting).length > 0) {
+            $(itemselclass + selecting).fadeIn();
+        }
+        else if (selecting!="" && $(itemselclass + selecting).length == 0) {
+            $(itemselclass+'.noresults').fadeIn();
+        }
+        else  {
             $(itemselclass+'.empty').fadeIn();
         }
 
