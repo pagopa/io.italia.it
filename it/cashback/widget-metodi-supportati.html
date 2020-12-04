@@ -11,7 +11,7 @@
         </div>
         <div class="row" id="card-selector">
             {% for card in data.cards %}
-            <div class="form-check col-6 col-md-4">
+            <div class="form-check col-sm-12 col-md-4">
                 <input id="card_{{forloop.index}}" class="card-selector__item" type="checkbox"
                        data-card="{{card.id}}">
                 <label for="card_{{forloop.index}}" class="m-0">
@@ -41,23 +41,23 @@
                         {{combotitle}}
                         {% if item.note %}({{item.note}}){%endif%}
                     </div>
-                    <div class="">Numero carta: {{item.numbers}} cifre {% if item.cvv %}&middot; Codice di sicurezza: {{item.cvv}} cifre{%endif%}</div>
+                    <div class="h6">Numero carta: {{item.numbers}} cifre {% if item.cvv %}&middot; Codice di sicurezza: {{item.cvv}} cifre{%endif%}</div>
                     <div class="row my-5">
-                        <div class="col col-sm-6">
+                        <div class="col-sm-12 col-md-6">
                             <div class="d-flex">
                                 <img src="{{data.iostatus[item.io].icon}}">
                                 <b class="text-primary ml-2">{{data.iostatus[item.io].title}}</b>
                             </div>
-                            <div class="font-size-reset mt-2 pr-5">
+                            <div class="font-size-reset mt-2 pr-4">
                                 {{item.iotext | markdownify}}
                             </div>
                         </div>
-                        <div class="col col-sm-6">
+                        <div class="col-sm-12 col-md-6">
                             <div class="d-flex">
                                 <img src="{{data.cashbackstatus[item.cashback].icon}}">
                                 <b class="text-primary ml-2">{{data.cashbackstatus[item.cashback].title}}</b>
                             </div>
-                            <div class="font-size-reset mt-2 pr-5">
+                            <div class="font-size-reset mt-2 pr-4">
                                 {{item.cashbacktext | markdownify}}
                             </div>
                         </div>
@@ -108,21 +108,21 @@
                         {% if item.note %}({{item.note}}){%endif%}
                     </div>
                     <div class="row my-5">
-                        <div class="col col-sm-6">
+                        <div class="col-sm-12 col-md-6">
                             <div class="d-flex">
                                 <img src="{{data.iostatus[item.io].icon}}">
                                 <b class="text-primary ml-2">{{data.iostatus[item.io].title}}</b>
                             </div>
-                            <div class="font-size-reset mt-2 pr-5">
+                            <div class="font-size-reset mt-2 pr-4">
                                 {{item.iotext | markdownify}}
                             </div>
                         </div>
-                        <div class="col col-sm-6">
+                        <div class="col-sm-12 col-md-6">
                             <div class="d-flex">
                                 <img src="{{data.cashbackstatus[item.cashback].icon}}">
                                 <b class="text-primary ml-2">{{data.cashbackstatus[item.cashback].title}}</b>
                             </div>
-                            <div class="font-size-reset mt-2 pr-5">
+                            <div class="font-size-reset mt-2 pr-4">
                                 {{item.cashbacktext | markdownify}}
                             </div>
                         </div>
