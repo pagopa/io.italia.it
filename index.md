@@ -13,4 +13,5 @@ redirect_from:
   - /en/press/
   - /en/privacy-policy/
   - /en/public-administrations/
+  - /cashback/
 ---

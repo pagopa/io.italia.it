@@ -177,23 +177,6 @@
   }
 }
 
-.section__cashback {
-  background-color: #fff;
-  position: relative;
-
-  z-index: 9;
-  .lead {
-    font-size: 1rem;
-    @media screen and (min-width: $grid-breakpoints-md) {
-      font-size: 1.2rem;
-    }
-  }
-
-  .badge {
-    color: #000000 !important;
-  }
-}
-
 .section__7 {
   background-color: #f2f7fc;
 
@@ -751,5 +734,35 @@ body.is-scrolled .section__2 .section-wrapper {
         }
       }
     }
+  }
+}
+
+.section__cashback {
+  background-color: #fff;
+  position: relative;
+
+  z-index: 9;
+  .lead {
+    font-size: 1rem;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      font-size: 1.2rem;
+    }
+  }
+
+  .badge {
+    color: #000000 !important;
+  }
+
+  &__top {
+    height: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(221, 221, 221, 1) 100%
+    );
   }
 }
