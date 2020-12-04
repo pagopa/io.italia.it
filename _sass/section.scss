@@ -422,7 +422,7 @@
 }
 
 .section__12 {
-  background-image: url("/assets/img/home-usertest.jpg");
+  background-image: url($imagesurl"/assets/img/home-usertest.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -475,7 +475,7 @@
 }
 .section__15 {
   background-color: $color--italia;
-  background-image: url("/assets/img/home-sezione-download.jpg");
+  background-image: url($imagesurl"/assets/img/home-sezione-download.jpg");
   background-repeat: no-repeat;
   background-position-x: center;
   background-size: cover;
@@ -544,7 +544,7 @@ body.is-scrolled .section__2 .section-wrapper {
     position: relative;
     max-width: 100%;
     height: 741px;
-    background-image: url("/assets/img/home-ambientato.jpg");
+    background-image: url($imagesurl + "/assets/img/home-ambientato.jpg");
     background-repeat: no-repeat;
     background-position-x: 70%;
     background-position-y: 200px;
@@ -686,7 +686,7 @@ body.is-scrolled .section__2 .section-wrapper {
     align-items: center;
     &.ios {
       &:before {
-        content: url("/assets/img/icon-appstore.svg");
+        content: url($imagesurl"/assets/img/icon-appstore.svg");
         position: relative;
         top: 2px;
         left: -4px;
@@ -694,7 +694,7 @@ body.is-scrolled .section__2 .section-wrapper {
     }
     &.android {
       &:before {
-        content: url("/assets/img/icon-playstore.svg");
+        content: url($imagesurl"/assets/img/icon-playstore.svg");
         position: relative;
         top: 2px;
         left: -4px;
@@ -706,7 +706,7 @@ body.is-scrolled .section__2 .section-wrapper {
     align-items: center;
     &.ios {
       &:before {
-        content: url("/assets/img/icon-appstore--blu.svg");
+        content: url($imagesurl"/assets/img/icon-appstore--blu.svg");
         position: relative;
         top: 2px;
         left: -4px;
@@ -715,7 +715,7 @@ body.is-scrolled .section__2 .section-wrapper {
     }
     &.android {
       &:before {
-        content: url("/assets/img/icon-playstore--blu.svg");
+        content: url($imagesurl"/assets/img/icon-playstore--blu.svg");
         position: relative;
         top: 2px;
         left: -4px;
@@ -725,12 +725,12 @@ body.is-scrolled .section__2 .section-wrapper {
     &:hover {
       &.ios {
         &:before {
-          content: url("/assets/img/icon-appstore.svg");
+          content: url($imagesurl"/assets/img/icon-appstore.svg");
         }
       }
       &.android {
         &:before {
-          content: url("/assets/img/icon-playstore.svg");
+          content: url($imagesurl"/assets/img/icon-playstore.svg");
         }
       }
     }

@@ -10,11 +10,11 @@
             <p class="text-desc text-center text-md-left">La mappa mostra gli enti locali e nazionali che già offrono i propri servizi tramite IO, o presto in arrivo.</p>
             <div class="d-none d-md-block">
             <div class="row my-5">
-                <div class="col-2 mb-4  text-center "><img src="/assets/img/legenda-ente-nazionale.png" title="Enti nazionali"></div>
+                <div class="col-2 mb-4  text-center "><img src="{{site.imagesurl}}/assets/img/legenda-ente-nazionale.png" title="Enti nazionali"></div>
                 <div class="col-10 mb-4  d-flex align-self-center text-primary font-weight-bold text-uppercase">Enti nazionali</div>
-                <div class="col-2 text-center mb-4 "><img src="/assets/img/dot.svg" title="Regioni" style="width:55px"></div>
+                <div class="col-2 text-center mb-4 "><img src="{{site.imagesurl}}/assets/img/dot.svg" title="Regioni" style="width:55px"></div>
                 <div class="col-10 mb-4  d-flex align-self-center text-primary font-weight-bold text-uppercase">Regioni</div>
-                <div class="col-2 mb-4 text-center "><img src="/assets/img/dot.svg" title="Comuni" style="width:20px"></div>
+                <div class="col-2 mb-4 text-center "><img src="{{site.imagesurl}}/assets/img/dot.svg" title="Comuni" style="width:20px"></div>
                 <div class="col-10 mb-4 d-flex align-self-center text-primary font-weight-bold text-uppercase">Comuni</div>
                 <div class="col-2 text-center "><div class="d-inline-block italy-dotted-pending small"></div></div>
                 <div class="col-10 d-flex align-self-center text-primary font-weight-bold text-uppercase">Enti presto attivi</div>
@@ -28,7 +28,7 @@
         <div class="col-12 col-lg-8 no-gutters position-relative italy-dotted-wrapper">
             <div id="italy-dotted-map">
 
-                <img src="/assets/img/italia-dotted.svg" class="italy-dotted-dottedmap">
+                <img src="{{site.imagesurl}}/assets/img/italia-dotted.svg" class="italy-dotted-dottedmap">
                 <div class="italy-dotted-list" >
                     {% assign countDelay = 0 %}
                     {% for item in locali %}
@@ -36,7 +36,7 @@
                         <div class="italy-dotted-item" style="top:{{item.coord[0]}}em;left:{{item.coord[1]}}em"
                             data-toggle="tooltip" data-container="#section_14" title="{{item.title}}">
                             <div class="italy-dotted-dot {{item.type}} delay-{{countDelay}}">
-                            <img src="/assets/img/dot.svg" title="">
+                            <img src="{{site.imagesurl}}/assets/img/dot.svg" title="">
                             </div>
                         </div>
                         {% else %}
