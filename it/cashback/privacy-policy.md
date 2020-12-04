@@ -7,13 +7,10 @@ permalink: /cashback/privacy-policy/
 narrow: true
 ---
 
-## Ministero dell'Economia e delle Finanze
-
-## Programma _Cashback_
-
-## Informativa sul trattamento dei dati personali
-
-#### (art. 13 e 14 del Regolamento UE 679/2016)
+<h3>Ministero dell'Economia e delle Finanze<br>
+Programma <i>Cashback</i><br>
+Informativa sul trattamento dei dati personali</h3>
+<h5>(art. 13 e 14 del Regolamento UE 679/2016)</h5>
 
 La presente informativa descrive le modalità del trattamento dei dati
 personali di coloro che partecipano al Programma Cashback (Aderenti), ed

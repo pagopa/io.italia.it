@@ -26,8 +26,8 @@ grid-items:
 <p class="mb-2 mr-0 mr-md-5 text-primary">
 In questa pagina, trovi il riepilogo dei metodi di pagamento che puoi salvare sull’app IO, all’interno della sezione <b>Portafoglio</b>. Per ciascuna tipologia di carta o altro metodo di pagamento, puoi verificare come è possibile utilizzarli direttamente dall’app IO e a quali servizi è possibile associarli.
 </p>
-<div class="my-2 my-md-4">
-<a class="btn btn-primary text-uppercase px-3 px-md-5 mr-2" href="#cards" title="Carte supportate">Carte supportate</a>
+<div class="my-3 my-md-4">
+<a class="btn btn-primary text-uppercase px-3 px-md-5 mr-2 mb-2 mb-md-0" href="#cards" title="Carte supportate">Carte supportate</a>
 <a class="btn btn-outline-primary text-uppercase px-3 px-md-5" href="#apps" title="App e altri metodi">App e altri metodi</a>
 </div>
 <p class="font-size-reset">

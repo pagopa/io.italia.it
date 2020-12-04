@@ -7,7 +7,7 @@ layout: default
 {%- include navigation-slim.html -%}
 {%- include navigation.html -%}
 
-<div class="internal-page">
+<div class="internal-page {% if page.narrow %}narrow{%endif%}">
 
   <article class="{{ page.layout }}">
     {% include sections/introduction.html %} {% if page.narrow %}

@@ -111,6 +111,11 @@ body {
   color: #5c6f82;
   margin-top: 6rem;
 
+  &.narrow {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
   &.w-slides {
     margin-top: 60px;
   }
