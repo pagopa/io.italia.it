@@ -3,7 +3,7 @@
 {% assign items = site.data[source][current_lang]['items'] %}
 {% assign last_update = site.data[source][current_lang]['last_update'] %}
 
-<div class="section section-muted my-3 my-md-5 pt-2 pt-md-3 pb-2 pb-md-5 grid-card {{source}}">
+<div class="section my-3 my-md-5 pt-2 pt-md-3 pb-2 pb-md-5 grid-card {{source}}">
     <div class="container container--mid">
 {% if include.content %}
 {{include.content}}

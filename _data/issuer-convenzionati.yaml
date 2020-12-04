@@ -2,21 +2,33 @@ it:
   last_update: 4/12/2020
   items:
     # use alphabetical order
+    - name: American Express
+      img: /assets/img/cashback/issuer/amex.png
+      #url:
     - name: BancomatPAY
       img: /assets/img/cashback/issuer/bancomat-pay.png
-      url: https://bancomat.it/it/bancomat/bancomat-pay
+      #url: https://bancomat.it/it/bancomat/bancomat-pay
     - name: App BancoPosta
       img: /assets/img/cashback/issuer/app-bancoposta.png
-      url: https://www.poste.it/applicazione-bancoposta.html
+      #url: https://www.poste.it/applicazione-bancoposta.html
     - name: App Postepay
       img: /assets/img/cashback/issuer/app-postepay.png
-      url: https://www.poste.it/applicazione-postepay.html
+      #url: https://www.poste.it/applicazione-postepay.html
+    - name: CREDEM
+      img: /assets/img/cashback/issuer/credem.png
+      #url:
+    - name: Flowe
+      img: /assets/img/cashback/issuer/flowe.png
+      #url:
     - name: Nexi Pay
       img: /assets/img/cashback/issuer/nexi-pay.png
-      url: https://www.nexi.it/privati/servizi/cashback.html
+      #url: https://www.nexi.it/privati/servizi/cashback.html
     - name: Satispay
       img: /assets/img/cashback/issuer/satispay.png
-      url: https://satispay.com/
+      #url: https://satispay.com
+    - name: Sella
+      img: /assets/img/cashback/issuer/sella.png
+      #url:
     - name: YAP
       img: /assets/img/cashback/issuer/yap.png
-      url: https://www.yap-app.it
+      #url: https://www.yap-app.it
