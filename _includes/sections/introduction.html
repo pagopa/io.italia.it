@@ -17,14 +17,14 @@
         {%- if page.intro_primary_link -%}
         <div class="py-2">
           <a target="_blank"
-            href="{{ page.intro_primary_link }}"
+            href="{{ page.intro_primary_link }}" title="{{page.intro_primary_text}}"
             class="{{page.intro_primary_customclass | default: 'btn btn-primary btn-sm text-uppercase'}}"
             {%- if page.intro_primary_onclick -%} onclick="{{page.intro_primary_onclick}}" {%- endif -%}
             >{{ page.intro_primary_text }} </a>
           {%- if page.intro_ter_link -%}
            {% if page.disable_br %} {%else%}<br class="d-block d-lg-none">{%endif%}
            <a target="_blank"
-            href="{{ page.intro_ter_link }}"
+            href="{{ page.intro_ter_link }}" title="{{page.intro_ter_text}}"
             class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}" 
             {% if page.intro_ter_onclick %}onclick="{{page.intro_ter_onclick}}"{% endif %}
             >{{ page.intro_ter_text }}</a>
@@ -39,7 +39,7 @@
           </svg>
           {%- endif %}
           <a target="_blank"
-            href="{{ page.intro_secondary_link }}"
+            href="{{ page.intro_secondary_link }}" title="{{page.intro_secondary_text}}"
             class="{{page.intro_secondary_customclass | default:'small'}}"
             {%- if page.intro_secondary_onclick -%} onclick="{{page.intro_secondary_onclick}}" {%- endif -%}
           >
@@ -56,7 +56,7 @@
       <img
         class="img-fluid"
         src="{{ page.intro_image | relative_url }}"
-        alt="Messaggi"
+        alt="{{ page.title }}"
       />
     </div>
     {%- endif -%}

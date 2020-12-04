@@ -1,0 +1,255 @@
+it:
+  - title: Chi può aderire?
+    body: "Se hai compiuto 18 anni e risiedi in Italia puoi aderire al programma Cashback."
+    cat: "1|I requisiti per partecipare"
+  - title: Per aderire devo avere la cittadinanza italiana?
+    body: "No, è sufficiente che tu abbia la residenza in Italia."
+    cat: "1|I requisiti per partecipare"
+  - title: Ci sono limiti di reddito? Serve presentare una DSU per il calcolo dell’ISEE per accedere al Cashback?
+    body: "No, l’erogazione dei rimborsi previsti dal programma non è legata in alcun modo al reddito né alla situazione patrimoniale dei partecipanti."
+    cat: "1|I requisiti per partecipare"
+  - title: Voglio partecipare al Cashback, ma non ho uno smartphone né un tablet compatibile con l’app IO. Come posso fare? Ci sono metodi alternativi per richiederlo?
+    body: "Oltre ad aderire al programma tramite l’app IO, puoi iscriverti sugli altri sistemi messi a disposizione dai cosiddetti Issuer Convenzionati - cioè i soggetti che emettono i metodi di pagamento elettronici (carte o app) attivabili ai fini del Cashback. [Vedi qui l’elenco degli Issuer Convenzionati](/cashback/issuer/)"
+    cat: "1|I requisiti per partecipare"
+  - title: Quali dati devo comunicare per partecipare al Cashback? 
+    body: "I dati necessari all’iscrizione sono:
+
+- il tuo Codice Fiscale, che IO legge automaticamente dall’account SPID o CIE con cui effettui l’accesso all’app;
+
+- gli estremi identificativi dei tuoi **metodi di pagamento elettronici** per iniziare ad effettuare acquisti che siano validi ai fini del programma; 
+
+- un **codice IBAN**, per l’erogazione degli eventuali rimborsi.
+"
+    cat: "1|I requisiti per partecipare"
+  - title: Mi serve avere SPID o CIE anche se non mi iscrivo dall’app IO?
+    body: "Dipende dalle modalità di autenticazione richiesta dai sistemi di iscrizione al Cashback alternativi a IO (home banking, app, etc). Questi sistemi sono messi a disposizione dagli Issuer Convenzionati, per la registrazione e il monitoraggio dei soli metodi di pagamento elettronici, carte o app, da loro emessi. [Vedi qui l’elenco degli Issuer Convenzionati](/cashback/issuer/)"
+    cat: "1|I requisiti per partecipare"
+  - title: Tutti i componenti maggiorenni dello stesso nucleo familiare possono partecipare? O può solo una persona per famiglia?
+    body: "Per aderire al Cashback non c’è un limite al numero di partecipanti per nucleo familiare. Ogni componente maggiorenne e residente in Italia può iscriversi individualmente al programma e ricevere il proprio rimborso."
+    cat: "1|I requisiti per partecipare"
+  - title: Mio/a figlio/a è minorenne, ma ha una carta; può partecipare all’iniziativa?
+    body: "No, un minorenne non può partecipare al Cashback. Solo se sei il o la titolare della carta di tuo/a figlio/a, puoi registrarla tra i metodi di pagamento elettronici e attivarla sul tuo profilo ai fini del Cashback."
+    cat: "1|I requisiti per partecipare"
+  - title: Posso partecipare al Cashback anche con una carta che non è mia? 
+    body: "Devi essere tu il titolare dei metodi di pagamento elettronico su cui attivi il Cashback. Inoltre, anche nel caso in cui lo stesso metodo di pagamento sia cointestato, solo uno dei titolari può concorrere al programma con quello strumento. "
+    cat: "1|I requisiti per partecipare"
+  - title: Posso partecipare anche se non ho un conto corrente?
+    body: "E’ necessario indicare un codice IBAN per ricevere il bonifico degli eventuali rimborsi maturati al termine di ciascun periodo dell’iniziativa. Ti ricordiamo che l’IBAN può essere associato a un conto corrente, ma anche a una specifica tipologia di carte. _Per maggiori dettagli sull'IBAN leggi le relative FAQ nella sezione \"Rimborsi\"_."
+    cat: "1|I requisiti per partecipare"
+  - title: Dove trovo il servizio per attivare il Cashback sull’app IO?
+    body: "Dopo aver effettuato l’accesso all’app, per iscriverti al programma entra nella sezione “Portafoglio”, clicca sul pulsante in evidenza “Cashback” e segui le istruzioni. In alternativa, puoi cliccare su “Aggiungi” in corrispondenza della voce “Bonus e Sconti” e selezionare “Cashback” dalla lista di quelli disponibili; l’app IO ti guiderà nei passaggi successivi. "
+    cat: "2|L'iscrizione al Cashback"
+  - title: L’app IO è l’unico canale attraverso cui è possibile iscriversi al Cashback?
+    body: "Oltre ad aderire tramite l’app IO, puoi iscriverti al programma anche attraverso i sistemi (home banking, app etc.) messi a disposizione dai cosiddetti Issuer Convenzionati, cioè i soggetti che emettono i metodi di pagamento elettronici (carte o app) attivabili ai fini del Cashback. [Vedi qui l’elenco degli Issuer Convenzionati](/cashback/issuer/)"
+    cat: "2|L'iscrizione al Cashback"
+  - title: Cosa cambia se mi iscrivo al Cashback da uno dei canali alternativi rispetto all’app IO? 
+    body: "La registrazione al Cashback da un sistema alternativo a IO, messo a disposizione da un [Issuer Convenzionato](/cashback/issuer/), ti consente di iscriverti al programma con i soli metodi di pagamento gestiti da quello stesso issuer e di monitorare le sole transazioni effettuate con quel/i metodo/i di pagamento.
+Se, invece, vuoi partecipare al Cashback con diverse carte di credito, debito o strumenti di pagamento emessi da più soggetti, solo tramite l’app IO potrai:
+aggiungere, abilitare e gestire tutti i tuoi metodi di pagamento attivabili in un unico posto;
+visualizzare in ogni momento il dettaglio delle transazioni accumulate con tutti i metodi attivi per il Cashback."
+    cat: "2|L'iscrizione al Cashback"
+  - title: C’è una data specifica entro cui aderire?
+    body: "No, non si tratta di un “click day”: puoi scegliere di partecipare in qualsiasi momento, per tutta la durata del programma. Considera che il Cashback si articola in quattro periodi, ciascuno indipendente dagli altri: prima ti iscrivi, prima inizi ad accumulare transazioni valide e la possibilità di ottenere i relativi rimborsi. [Clicca qui per maggiori dettagli](/cashback/)."
+    cat: "2|L'iscrizione al Cashback"
+  - title: Se sono iscritto al Cashback in un certo periodo, resterò iscritto anche per il periodo successivo?
+    body: "Sì, considera, però, che al termine di ciascun periodo si conclude il calcolo delle transazioni che ti consentono di ottenere i relativi rimborsi e si riparte da zero all’avvio del periodo successivo. In ogni momento hai la possibilità di attivare o disattivare i tuoi metodi di pagamento o di cancellarti dal programma."
+    cat: "2|L'iscrizione al Cashback"
+  - title: Ho un metodo di pagamento elettronico che non è ancora attivabile per il Cashback su IO. Cosa posso fare? 
+    body: "Stiamo lavorando per poter attivare su IO quanti più metodi di pagamento elettronico. Nel frattempo, puoi verificare se chi ha emesso o gestisce il tuo metodo di pagamento (issuer) ha messo a disposizione un [sistema alternativo a IO](/cashback/issuer/) per iscriversi e attivare i propri metodi al Cashback. Anche le transazioni effettuate con i metodi registrati sui sistemi alternativi a IO, saranno visibili dentro IO nella sezione Portafoglio, nell’area relativa al Cashback"
+    cat: "2|L'iscrizione al Cashback"
+  - title: Se mi iscrivo al Cashback, partecipo automaticamente anche alla “Lotteria degli scontrini”? 
+    body: "No. Il Cashback e la “Lotteria degli Scontrini” sono due programmi con modalità e condizioni di partecipazione distinte, sebbene promosse nell’ambito dello stesso [Piano Italia Cashless](http://www.cashlessitalia.it)."
+    cat: "2|L'iscrizione al Cashback"
+  - title: Quali metodi di pagamento posso usare per partecipare al Cashback?
+    body: "Puoi partecipare al Cashback con:
+
+- carte di credito;
+
+- carte di debito su circuiti internazionali e su circuito PagoBancomat;
+
+- carte prepagate; 
+
+- le cosiddette carte fedeltà, ovvero carte e app di pagamento connesse a circuiti privativi e/o a spendibilità limitata (_esclusi, quindi, quelli solo per accumulo punti_);
+
+- app di pagamento, come ad esempio Satispay o BANCOMAT Pay;
+
+- altri sistemi di pagamento, come ad esempio Google Pay e Apple Pay (a partire dal 2021).
+
+
+**Nota bene**: All’avvio del Programma, alcune carte o app di pagamento che utilizzi potrebbero NON essere registrabili da subito, seppur inclusi nelle categorie di cui sopra, o potrebbero essere registrabili solo da un [canale alternativo a IO](/cashback/issuer/). Questo potrebbe dipendere dai tempi tecnici necessari per rendere operativi i metodi di pagamento elettronici nell’ambito del Cashback. [Verifica quali metodi di pagamento puoi già attivare per il Cashback](/metodi-pagamento/)."
+    cat: "3|I metodi di pagamento"
+  - title: Posso partecipare anche con il “Bancomat”?
+    body: "Sì, il programma è aperto a tutte le carte del circuito PagoBANCOMAT. L’app IO consente, se vuoi, di avviare una ricerca automatica delle carte PagoBANCOMAT a te associate in base al tuo Codice Fiscale; segui le indicazioni per usare questa funzionalità all’interno del servizio Cashback sull’app IO. "
+    cat: "3|I metodi di pagamento"
+  - title: Quanti metodi di pagamento elettronico posso attivare per il Cashback?
+    body: "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](/metodi-pagaemnto/)."
+    cat: "3|I metodi di pagamento"
+  - title: Perché Il logo che mi viene mostrato nell’app IO sulla rappresentazione della mia carta PagoBANCOMAT è diverso da quello presente sulla carta fisica?
+    body: " Il logo che viene visualizzato sull’app IO è il logo attuale del soggetto che in questo momento gestisce il tuo metodo di pagamento. In alcuni casi, soprattutto con carte emesse da più tempo, il logo potrebbe essere cambiato (ad esempio per fusioni tra banche, aggiornamenti dell’identità grafica dell’issuer, ecc.)."
+    cat: "3|I metodi di pagamento"
+  - title: Dopo aver aderito al Cashback, posso aggiungere nuovi metodi di pagamento (o eliminarne alcuni) in qualsiasi momento?
+    body: "Sì, per tutta la durata del programma, è sempre possibile attivare metodi di pagamento aggiuntivi (o disattivare quelli utilizzati fino a un determinato periodo) per il Cashback. [Verifica quali metodi di pagamento puoi già attivare](/metodi-pagamento/).
+    
+    
+    _Ricorda_: quando registri un metodo di pagamento, saranno conteggiati come validi per il Cashback gli acquisti effettuati con quel metodo solo a partire dalle ore 00:01 del giorno successivo."
+    cat: "3|I metodi di pagamento"
+  - title: Posso salvare tra i metodi di pagamento per il Cashback una carta già registrata ai fini del programma da un altro partecipante?
+    body: "No, lo stesso metodo di pagamento non può essere attivato contemporaneamente da due o più partecipanti al programma."
+    cat: "3|I metodi di pagamento"
+  - title: Cosa succede se disattivo o elimino dall’app IO un metodo di pagamento su cui è attivo il Cashback?
+    body: "Continuerai a vedere le transazioni valide effettuate con quel metodo fino a quel giorno, ma non potrai accumularne di nuove dopo la mezzanotte del giorno in cui l’hai cancellato. "
+    cat: "3|I metodi di pagamento"
+  - title: Ho già salvato sull’app IO alcuni metodi di pagamento prima dell’avvio del Cashback e vorrei utilizzarli per partecipare. Devo registrarli nuovamente?
+    body: "No, non è necessario registrarli di nuovo. Nella schermata di dettaglio del Cashback potrai visualizzare la lista di tutti i metodi di pagamento già presenti nel tuo “Portafoglio” e, se compatibili con il cashback, potrai attivarli, disattivarli o aggiungerne di nuovi. [Verifica quali metodi di pagamento puoi già attivare](/metodi-pagaemnto/)."
+    cat: "3|I metodi di pagamento"
+  - title: Se partecipo al programma con due o più carte, significa che posso ottenere due o più Cashback?
+    body: "No, è il singolo cittadino che partecipa al Cashback a prescindere dalla quantità dei suoi metodi di pagamento. Le transazioni effettuate tramite i metodi di pagamento attivati dal cittadino saranno conteggiate cumulativamente ai fini del programma. Gli eventuali rimborsi vengono riconosciuti all’individuo, identificato tramite il suo codice fiscale. "
+    cat: "3|I metodi di pagamento"
+  - title: Posso usare l’app IO per pagare nei negozi? 
+    body: "No, l’app IO non è uno strumento di pagamento, ma integra pagoPA per gestire i pagamenti di servizi e tributi da e verso la Pubblica Amministrazione. "
+    cat: "3|I metodi di pagamento"
+  - title: Quali acquisti sono validi ai fini del Cashback?
+    body: "In generale, sono validi gli acquisti effettuati sul territorio nazionale, con i metodi di pagamento elettronico attivati al Cashback, tramite dispositivi fisici di accettazione, come i POS, forniti da [Acquirer Convenzionati che ti permettano di partecipare all’iniziativa](/cashback/acquirer/). Per questo, prima di eseguire un pagamento verifica sempre con l'esercente se il suo sistema di incasso consente la partecipazione al Cashback. Gli acquisti effettuati con una carta PagoBANCOMAT risulteranno sempre validi a prescindere dal dispositivo di accettazione."
+    cat: "4|Gli acquisti"
+  - title: Rientrano nel Cashback anche i pagamenti per i servizi resi da artigiani (idraulici, elettricisti) o professionisti (medici, avvocati)?
+    body: "Sì, sono validi ai fini del Cashback anche i pagamenti relativi a servizi,  purché le transazioni siano effettuate con i metodi di pagamento elettronico attivati al Cashback, tramite dispositivi fisici di accettazione, come i POS, forniti da Acquirer Convenzionati che ti permettano di partecipare all’iniziativa. Per questo, prima di eseguire un pagamento verso artigiani e i professionisti, verifica con loro se i sistemi di incasso utilizzati consentano la partecipazione al Cashback."
+    cat: "4|Gli acquisti"
+  - title: C’è un importo minimo sugli acquisti per far sì che le transazioni vengano conteggiate?
+    body: "No, per le transazioni **non è previsto un importo minimo**. Ma, nel caso del rimborso percentuale (Cashback 10%), l’importo massimo ottenibile per singola transazione è 15 euro, anche se la transazione supera i 150 euro."
+    cat: "4|Gli acquisti"
+  - title: Gli acquisti tramite bonifico sono validi ai fini del Cashback?
+    body: "No, gli addebiti diretti su conto corrente, come appunto i bonifici, sono esclusi dal programma, così come le operazioni relative a pagamenti ricorrenti, con addebito su carta o su conto corrente."
+    cat: "4|Gli acquisti"
+  - title: Gli acquisti che faccio attraverso una piattaforma di e-commerce sono validi ai fini del Cashback?
+    body: "No, tutti i pagamenti effettuati online sono esclusi dal programma."
+    cat: "4|Gli acquisti"
+  - title: Ho effettuato un acquisto online ma dal sito web di un negozio che ha un punto vendita fisico. La transazione è valida ai fini del Cashback?
+    body: "No, i pagamenti online in ogni caso non rientrano nel programma."
+    cat: "4|Gli acquisti"
+  - title: La ricarica del telefono cellulare che faccio presso uno sportello ATM rientra nei pagamenti validi per il Cashback?
+    body: "No, tutte le operazioni effettuate presso uno sportello ATM sono escluse dal programma."
+    cat: "4|Gli acquisti"
+  - title: Sono validi anche gli acquisti effettuati con una carta aziendale?
+    body: "No, solo quelli a carattere privato. Le spese che rispondono a esigenze lavorative, professionali o aziendali non sono valide ai fini del Cashback."
+    cat: "4|Gli acquisti"
+  - title: Gli abbonamenti per l’acquisto di servizi con un addebito in conto periodico (ad esempio, per la connessione internet o la pay tv) sono validi per il Cashback?
+    body: "No, sono escluse dal programma tutte le operazioni relative a pagamenti ricorrenti, con addebito diretto su carta o su conto corrente."
+    cat: "4|Gli acquisti"
+  - title: C’è un numero massimo di acquisti (nell’arco di una giornata o per la durata di un periodo del programma), oltre il quale le transazioni non sono più conteggiate per il Cashback?
+    body: "No, non c’è un numero massimo di acquisti. Esiste però un importo massimo dei rimborsi che puoi ottenere, ovvero 150 euro per ciascun periodo. Una volta raggiunto l’importo massimo, le nuove transazioni concorreranno alla tua posizione nella classifica del Super Cashback (da gennaio 2021). [Consulta la Guida per saperne di più](/cashback/guida/)."
+    cat: "4|Gli acquisti"
+  - title: Ho appena registrato un metodo di pagamento al Cashback sull’app IO, posso fare da subito acquisti validi ai fini del programma?
+    body: "No, saranno conteggiati come validi per il Cashback gli acquisti effettuati con il metodo di pagamento che hai attivato, a partire dalle ore 00:01 del giorno seguente all’attivazione."
+    cat: "4|Gli acquisti"
+  - title: Ho disattivato il Cashback su una mia carta ma vedo che, con quella carta, continuo ancora a collezionare acquisti validi ai fini del programma, come mai? 
+    body: "Se scegli di cancellare o sospendere temporaneamente un metodo di pagamento precedentemente registrato, la disattivazione o la sospensione della raccolta delle transazioni su quello strumento è effettiva a partire dalla mezzanotte del giorno successivo."
+    cat: "4|Gli acquisti"
+  - title: Quando faccio un acquisto, quella transazione è subito visibile tra le mie transazioni valide per il Cashback?
+    body: "No, la visualizzazione non è immediata: le tue transazioni sono acquisite dal programma dopo essere state contabilizzate dagli operatori di pagamento. Per questo motivo, potrebbero essere necessari fino a 3 giorni lavorativi successivi al pagamento prima di poter visualizzare una transazione eseguita con il metodo di pagamento che hai registrato ai fini del Cashback; in alcune situazioni particolari, ad esempio se la transazione è avvenuta a ridosso del weekend, potrebbe essere necessario anche un tempo superiore. "
+    cat: "4|Gli acquisti"
+  - title: Devo dimostrare all'esercente la mia adesione al Cashback quando effettuo un acquisto che voglio sia valido?
+    body: "No, la partecipazione al Cashback non cambia la tua esperienza di acquisto. Per essere sicuro che quel pagamento sia conteggiato ai fini del programma verifica se l’esercente a cui ti rivolgi abbia un dispositivo per l’utilizzo dei metodi di pagamento elettronici, come i POS,  forniti da Acquirer Convenzionati che ti permettano di partecipare all’iniziativa.  Gli acquisti effettuati con una carta PagoBANCOMAT risulteranno sempre validi a prescindere dal dispositivo di accettazione."
+    cat: "4|Gli acquisti"
+  - title: Posso utilizzare i metodi di pagamento elettronico attivati al Cashback anche per pagare servizi o tributi della Pubblica Amministrazione dall’app IO?
+    body: "Al momento non tutti i metodi di pagamento che possono essere registrati sull’app IO ai fini del Cashback sono anche utilizzabili per le transazioni. [Vedi con quali metodi di pagamento puoi pagare su IO](/metodi-pagamento/)"
+    cat: "4|Gli acquisti"
+  - title: Concorrono al Cashback anche gli acquisti effettuati a domicilio che pago alla consegna tramite un dispositivo come Mobile POS?
+    body: "Sì, a patto che per la transazione sia utilizzato un dispositivo fornito da [Acquirer Convenzionati](/cashback/acquirer/) che ti permettano di partecipare all’iniziativa"
+    cat: "4|Gli acquisti"
+  - title: Qual è l’importo massimo del Cashback che posso ottenere?
+    body: "Il rimborso massimo che puoi ottenere in ciascun periodo è pari a 150 euro. L’ammontare del Cashback sarà dato dalla somma dei rimborsi sulle singole transazioni valide ai fini del programma, che sono pari al 10% dell’importo per transazioni fino ai 150 euro, o pari a 15 euro per transazioni pari o superiori a 150 euro.
+Ad esempio, se hai effettuato:
+
+- una spesa di 20 euro, l’importo ottenuto per il Cashback sarà di 2 euro;
+
+- una spesa di 150 euro, l’importo accumulato sarà di 15 euro;
+
+- una spesa superiore a 150 euro, ad esempio di 700 euro, accumulerai comunque 15 euro di Cashback. 
+
+
+Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumulato fino a quel momento e il dettaglio delle singole transazioni che lo hanno generato. Come già scritto, l’importo massimo che puoi ottenere per singolo periodo è di 150 euro. Una volta raggiunto questo limite, eventuali nuove transazioni non genereranno ulteriori rimborsi, ma a partire dal 1° gennaio 2021 concorreranno a definire la tua posizione nella classifica del Super Cashback."
+    cat: "5|I rimborsi"
+  - title: C’è un rimborso massimo che posso ottenere su ogni singola transazione?
+    body: "Sì, il rimborso massimo per ogni acquisto è di 15 euro. Il rimborso è infatti pari al 10% dell’importo di ogni transazione valida ai fini del programma, per transazioni fino a 150 euro. Ogni transazione superiore superiore a quella cifra, darà comunque un rimborso pari a 15 euro."
+    cat: "5|I rimborsi"
+  - title: Se il mio acquisto supera i 150 euro cosa succede?
+    body: "L’importo che concorre ai fini del calcolo del rimborso si ferma comunque ai 150 euro. Le transazioni superiori a questa cifra, daranno comunque un rimborso di 15 euro."
+    cat: "5|I rimborsi"
+  - title: Ho fatto un acquisto con la carta che ho attivato per il Cashback, ma ancora non vedo la transazione nella lista di quelle conteggiate sull’app IO?
+    body: "Per essere registrate dal programma le tue transazioni devono prima essere state contabilizzate dagli operatori di pagamento. Per questa ragione potrebbero essere necessari fino a tre giorni lavorativi da quando è stato effettuato il pagamento, prima di poter avere visibilità di un’operazione eseguita con uno dei metodi di pagamento che hai attivato ai fini del Cashback. "
+    cat: "5|I rimborsi"
+  - title: Due partecipanti al Cashback possono indicare per i rimborsi lo stesso codice IBAN, se sono co-intestatari?
+    body: "Sì, dal momento che quel codice IBAN risulta associato ai Codici Fiscali di entrambi partecipanti, iscritti individualmente al programma."
+    cat: "5|I rimborsi"
+  - title: Posso cambiare l’IBAN con cui ho aderito al Cashback? 
+    body: "Sì, puoi modificare l’IBAN in ogni momento fino alla scadenza di ciascun periodo."
+    cat: "5|I rimborsi"
+  - title: C’è una scadenza temporale entro cui devo comunicare l’IBAN per poter ricevere il rimborso?
+    body: "Sì, per consentire l’accredito degli eventuali rimborsi a cui potrai avere diritto, devi indicare il codice IBAN entro la fine del periodo di riferimento. "
+    cat: "5|I rimborsi"
+  - title: Posso partecipare al Cashback indicando l’IBAN associato a una carta prepagata ricaricabile?
+    body: "Sì. Ti consigliamo di tenere conto di possibili “plafond”: alcune carte prepagate ricaricabili hanno dei limiti di ricarica e di saldo, per cui non si possono sorpassare determinati massimi riferiti al giorno, al mese o all’anno."
+    cat: "5|I rimborsi"
+  - title: Il Cashback si somma ad altre tipologie di rimborsi “cashback” offerti da soggetti privati? 
+    body: "Sì, si tratta di iniziative distinte e, pertanto, i rimborsi sono cumulabili. "
+    cat: "5|I rimborsi"
+  - title: I rimborsi legati al Cashback sono tassati?
+    body: "No, stando al disegno della legge di Bilancio 2021, tutti i rimborsi ottenuti con il Cashback non concorrono a formare il reddito del beneficiario e non sono soggetti a tassazione."
+    cat: "5|I rimborsi"
+  - title: Posso spendere come voglio i rimborsi una volta accreditati sul mio conto? Oppure il loro utilizzo è limitato a specifiche tipologie di spesa?
+    body: "Puoi spendere gli importi che ti saranno rimborsati nel modo che preferisci, non c’è nessun condizionamento rispetto al tipo di acquisto. "
+    cat: "5|I rimborsi"
+  - title: C’è un tetto massimo di rimborso cumulabile all’interno dello stesso nucleo familiare?
+    body: "No, il rimborso è indipendente dalla numero di componenti del nucleo familiare e dal numero di membri che aderiscono all'iniziativa."
+    cat: "5|I rimborsi"
+  - title: Quando riceverò il rimborso ottenuto sul mio conto corrente?
+    body: "I rimborsi sono erogati entro 60 giorni dal termine di ciascun periodo, con un bonifico sull’IBAN che hai comunicato. "
+    cat: "5|I rimborsi"
+  - title: Per poter ottenere l’eventuale rimborso, devo totalizzare un numero minimo di acquisti validi ai fini del Cashback?
+    body: "Sì, per ciascun periodo in cui è articolato il programma c’è un numero minimo di transazioni da effettuare con i metodi di pagamento elettronici attivati al Cashback: 
+
+- nell’Extra Cashback di Natale, il numero minimo è di 10 transazioni.
+
+- nei successivi tre semestri il numero minimo è di 50 transazioni."
+    cat: "5|I rimborsi"
+  - title: Fino a ieri ero in classifica per ottenere il Super Cashback e adesso non lo sono più, come mai?
+    body: "La tua posizione in graduatoria varia a seconda del numero delle transazioni valide effettuate da te e dagli altri partecipanti al programma. Il numero delle transazioni si aggiorna fino al termine di ciascuno dei periodi previsti, di conseguenza cambia anche la tua posizione. Solo alla conclusione del periodo di riferimento potrai sapere se sei rientrato o meno tra coloro che hanno diritto a ricevere il Super Cashback. "
+    cat: "6|Il Super Cashback"
+  - title: Il Super Cashback si somma al Cashback? Posso ottenre nel semestre sia il rimborso di 1.500 euro che quello di 150 euro?
+    body: "Sì, le due tipologie di rimborso si sommano, arrivando a 1.650 euro, nel caso in cui tu abbia effettuato almeno 50 transazioni valide ed essendo tra i primi 100mila cittadini che hanno totalizzato più transazioni nello stesso periodo."
+    cat: "6|Il Super Cashback"
+  - title: Cosa succede se mi ritrovo in classifica a pari merito con un altro partecipante per il Super Cashback?
+    body: "A parità di numero di transazioni valide al termine di ciascun periodo, avrà la priorità chi ha effettuato l’ultima transazione valida prima degli altri partecipanti."
+    cat: "6|Il Super Cashback"
+  - title: Come faccio a sapere se ho raggiunto il numero minimo di transazioni per ottenere il Cashback e l’importo dell’eventuale rimborso?
+    body: "In ogni momento del programma, nella sezione Portafoglio dell’app IO, nella schermata di dettaglio del Cashback, sarà visibile il numero di transazioni valide effettuate e l’importo del Cashback accumulato."
+    cat: "7|Il monitoraggio sulla partecipazione"
+  - title: Dove posso verificare sull’app IO la mia posizione in classifica per l’ottenimento del Super Cashback?
+    body: "Nella schermata di dettaglio del Cashback, disponibile nella sezione “Portafoglio” dell’app IO. Inizierai a visualizzare la tua posizione in graduatoria solo dopo aver superato la soglia minima delle 50 transazioni. La classifica, che si basa sul numero complessivo di transazioni valide, può cambiare fino al termine di ciascun semestre. L’app IO ti mostrerà quante transazioni hanno effettuato il 1° e il 100millesimo partecipante in classifica, così da permetterti di visualizzare il numero di transazioni richieste in quel momento per entrare nella graduatoria e quanto ti manca per riuscire a scalarla. "
+    cat: "7|Il monitoraggio sulla partecipazione"
+  - title: Mi sono appena iscritto/a al Cashback, perché non riesco a visualizzare sull’app IO la mia posizione nella graduatoria per il Super Cashback?
+    body: " La tua posizione nella classifica del Super Cashback (attivo dal 1° gennaio 2020) sarà visibile dopo che avrai raggiunto la soglia minima di transazioni: pari a 50 in ciascun semestre."
+    cat: "7|Il monitoraggio sulla partecipazione"
+  - title: Qual è la differenza tra l’Extra Cashback di Natale e gli altri periodi del Cashback?
+    body: "Le condizioni e le modalità di partecipazione restano le stesse che valgono anche per gli altri periodi, tranne che per: 
+
+- il numero minimo di transazioni da effettuare nel periodo per ottenere il rimborso che saranno 10 invece che 50; 
+
+- l'assenza del Super Cashback: non è previsto il rimborso speciale di 1500€ per i primi 100mila cittadini che effettuano più transazioni nel periodo. 
+"
+    cat: "8|Il periodo sperimentale"
+  - title: Il rimborso massimo che posso ottenere per l’Extra Cashback di Natale è sempre di 150 euro?
+    body: "Sì, il rimborso massimo in tutti i periodi è pari a 150 euro. L’ammontare del Cashback sarà dato dalla somma dei rimborsi sulle singole transazioni valide ai fini del programma, che sono pari al 10% dell’importo per transazioni fino ai 150 euro, o pari a 15 euro per transazioni pari o superiori a 150 euro."
+    cat: "8|Il periodo sperimentale"
+  - title: Cosa succede se mi cancello dal programma?
+    body: "La cancellazione dal programma comporta la perdita del diritto ai rimborsi per il periodo in corso. Se non vuoi perdere i rimborsi accumulati, devi aspettare che ti vengano accreditati sull’IBAN che hai comunicato (entro 60 giorni successivi alla fine di ciascun periodo). "
+    cat: "9|La cancellazione"
+  - title: Posso cancellarmi dal Cashback in qualsiasi momento?
+    body: "Sì. Se ti sei iscritto al programma tramite app IO, puoi sempre recedere cliccando su “Cancella la tua iscrizione al Cashback” dalla schermata di dettaglio Cashback nella sezione “Portafoglio”. Se invece per iscriverti hai usato uno di uno degli [Issuer Convenzionati](/cashback/issuer/), puoi cancellarti  solo se non hai attivi altri metodi di pagamento su altri canali. "
+    cat: "9|La cancellazione"
+  - title: Se disattivo l’unico metodo di pagamento che ho registrato per il Cashback recedo in automatico?
+    body: "No, la disattivazione o cancellazione di uno o più metodi di pagamento non comporta di per sé il recesso dal programma; ma risulterà sospeso il conteggio delle transazioni effettuate con quel metodo di pagamento elettronico a partire dalle ore 00:01 del giorno successivo alla disattivazione. "
+    cat: "9|La cancellazione"
+  - title: Se mi disiscrivo dal Cashback posso poi aderire di nuovo? 
+    body: "Sì, il recesso non impedisce di iscriverti di nuovo nel corso del programma, ma il calcolo delle transazioni ai fini del Cashback ripartirà da zero."
+    cat: "9|La cancellazione"

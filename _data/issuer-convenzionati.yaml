@@ -1,0 +1,22 @@
+it:
+  last_update: 4/12/2020
+  items:
+    # use alphabetical order
+    - name: BancomatPAY
+      img: /assets/img/cashback/issuer/bancomat-pay.png
+      url: https://bancomat.it/it/bancomat/bancomat-pay
+    - name: App BancoPosta
+      img: /assets/img/cashback/issuer/app-bancoposta.png
+      url: https://www.poste.it/applicazione-bancoposta.html
+    - name: App Postepay
+      img: /assets/img/cashback/issuer/app-postepay.png
+      url: https://www.poste.it/applicazione-postepay.html
+    - name: Nexi Pay
+      img: /assets/img/cashback/issuer/nexi-pay.png
+      url: https://www.nexi.it/privati/servizi/cashback.html
+    - name: Satispay
+      img: /assets/img/cashback/issuer/satispay.png
+      url: https://satispay.com/
+    - name: YAP
+      img: /assets/img/cashback/issuer/yap.png
+      url: https://www.yap-app.it

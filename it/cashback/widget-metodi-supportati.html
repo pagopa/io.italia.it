@@ -1,0 +1,134 @@
+
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign data = site.data.metodi-pagamento-cashback[current_lang] %}
+<a name="cards"></a>
+<div class="py-3 py-md-5 mt-3 mt-md-5 widget-metodi-supportati cards">
+    <div class="container container--mid ">
+        <h3 class="text-primary">Carte supportate</h3>
+        <div class="font-weight-bold">Ultimo aggiornamento: {{data.last_update}} </div>
+        <div class="my-2 my-md-4">
+            <div class="h5 text-primary">Seleziona tutti i loghi circuito presenti sulla tua carta:</div>
+        </div>
+        <div class="row" id="card-selector">
+            {% for card in data.cards %}
+            <div class="form-check col-6 col-md-4">
+                <input id="card_{{forloop.index}}" class="card-selector__item" type="checkbox"
+                       data-card="{{card.id}}">
+                <label for="card_{{forloop.index}}" class="m-0">
+                    {%if card.img-small %}
+                    <img src="{{card.img-small}}" class="mr-1" alt="Logo {{card.name}}">
+                    {%endif%}
+                    {{card.name}}
+                </label>
+              </div>
+              {% endfor %}
+        </div><!--/card-selector-->
+        {% assign cardscombo = data.combo | where_exp: "item","item.cards != null"%}
+        <div class="" id="card-selector-response">
+            {% for item in cardscombo %}
+                <div class="card-selector-response__item my-5 {{item.cards | join:' '}}" style="display: none;">
+                {% assign cardsdetails = data.cards | where_exp: "card", "item.cards contains card.id" %}
+                {% assign combotitle = "Carta " %}
+                    <div class="card-selector-response__images mt-1 mb-2">
+                    {% for c in cardsdetails %}
+                        {% if c.img-large %}
+                            <img src="{{c.img-large}}" alt="{{c.name}}" class=" mr-1">
+                        {%endif%}
+                        {% assign combotitle = combotitle | append: c.name | append: " "%}
+                    {%endfor%}
+                    </div><!--card-selector-response__images-->
+                    <div class="text-primary h4 my-1">
+                        {{combotitle}}
+                        {% if item.note %}({{item.note}}){%endif%}
+                    </div>
+                    <div class="">Numero carta: {{item.numbers}} cifre {% if item.cvv %}&middot; Codice di sicurezza: {{item.cvv}} cifre{%endif%}</div>
+                    <div class="row my-5">
+                        <div class="col col-sm-6">
+                            <div class="d-flex">
+                                <img src="{{data.iostatus[item.io].icon}}">
+                                <b class="text-primary ml-2">{{data.iostatus[item.io].title}}</b>
+                            </div>
+                            <div class="font-size-reset mt-2 pr-5">
+                                {{item.iotext | markdownify}}
+                            </div>
+                        </div>
+                        <div class="col col-sm-6">
+                            <div class="d-flex">
+                                <img src="{{data.cashbackstatus[item.cashback].icon}}">
+                                <b class="text-primary ml-2">{{data.cashbackstatus[item.cashback].title}}</b>
+                            </div>
+                            <div class="font-size-reset mt-2 pr-5">
+                                {{item.cashbacktext | markdownify}}
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!---/card-selector-response__item-->
+            {%endfor%}
+            <div class="card-selector-response__item my-5 noresults border-0 text-center" style="display: none;" >
+                <img src="/assets/img/cashback/metodi/question.svg" alt="Richiedi assistenza">
+                <div class="my-2 px-5">
+                    Non abbiamo trovato nessun metodo con i filtri selezionati.<br>
+                    <a href="#" title="Ti serve aiuto?" class="playvideo" data-url="https://www.youtube.com/embed/6M4i6a97auY?rel=0">Ti serve aiuto?</a>
+                    {% include videoplayer.html %}
+                </div>
+            </div><!--card-selector-response__item empty-->
+            <div class="card-selector-response__item my-5 empty border-0 text-center" >
+                <img src="/assets/img/cashback/metodi/ic-filters.svg" alt="Seleziona loghi">
+                <div class="my-2 px-5">
+                    Seleziona tutti i loghi circuito presenti sulla tua carta per vedere i risultati.<br>
+                    
+                </div>
+            </div><!--card-selector-response__item empty-->
+
+        </div>
+    </div><!--/container-->
+
+</div>
+<a name="apps"></a>
+<div class="py-3 py-md-5 mt-3 widget-metodi-supportati">
+    {% assign appscombo = data.combo | where_exp: "item","item.apps != null"%}
+    <div class="container container--mid ">
+        <h3 class="text-primary">App e altri metodi supportati</h3>
+        <div class="font-weight-bold">Ultimo aggiornamento: {{data.last_update}} </div>
+        {% for item in appscombo %}
+                <div class="card-selector-response__app my-5 ">
+                {% assign appsdetails = data.apps | where_exp: "app", "item.apps contains app.id" %}
+                {% assign combotitle = "" %}
+                    <div class="card-selector-response__images mt-1 mb-2">
+                    {% for c in appsdetails %}
+                        {% if c.img-large %}
+                            <img src="{{c.img-large}}" alt="{{c.name}}" class=" mr-1">
+                        {%endif%}
+                        {% assign combotitle = combotitle | append: c.name | append: " "%}
+                    {%endfor%}
+                    </div><!--card-selector-response__images-->
+                    <div class="text-primary h4 my-1">
+                        {{combotitle}}
+                        {% if item.note %}({{item.note}}){%endif%}
+                    </div>
+                    <div class="row my-5">
+                        <div class="col col-sm-6">
+                            <div class="d-flex">
+                                <img src="{{data.iostatus[item.io].icon}}">
+                                <b class="text-primary ml-2">{{data.iostatus[item.io].title}}</b>
+                            </div>
+                            <div class="font-size-reset mt-2 pr-5">
+                                {{item.iotext | markdownify}}
+                            </div>
+                        </div>
+                        <div class="col col-sm-6">
+                            <div class="d-flex">
+                                <img src="{{data.cashbackstatus[item.cashback].icon}}">
+                                <b class="text-primary ml-2">{{data.cashbackstatus[item.cashback].title}}</b>
+                            </div>
+                            <div class="font-size-reset mt-2 pr-5">
+                                {{item.cashbacktext | markdownify}}
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!---/card-selector-response__item-->
+            {%endfor%}
+    </div><!--/container-->
+</div>

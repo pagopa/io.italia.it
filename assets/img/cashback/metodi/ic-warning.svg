@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>2E896555-F15B-4ACC-B81F-47EA65D1ED53</title>
+    <defs>
+        <path d="M12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 Z M12,2 C6.4771525,2 2,6.4771525 2,12 C2,17.5228475 6.4771525,22 12,22 C17.5228475,22 22,17.5228475 22,12 C22,6.4771525 17.5228475,2 12,2 Z M12,15 C12.82875,15 13.5,15.67125 13.5,16.5 C13.5,17.32875 12.82875,18 12,18 C11.17125,18 10.5,17.32875 10.5,16.5 C10.5,15.67125 11.17125,15 12,15 Z M12,6 C12.82875,6 13.5,6.716 13.5,7.6 C13.5,7.74 13.4775,7.8736 13.446,8.0032 L13.446,8.0032 L12.75,13.2 C12.75,13.6416 12.414,14 12,14 C11.586,14 11.25,13.6416 11.25,13.2 L11.25,13.2 L10.554,8.0032 C10.5225,7.8736 10.5,7.74 10.5,7.6 C10.5,6.716 11.17125,6 12,6 Z" id="path-1"></path>
+    </defs>
+    <g id="Pagine-Foglia" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pagina-Metodi-di-pagamento-MVP" transform="translate(-653.000000, -4154.000000)">
+            <g id="Group-10" transform="translate(0.000000, 927.000000)">
+                <g id="warning" transform="translate(653.256944, 3227.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask" fill-rule="nonzero"></g>
+                    <g id="color" mask="url(#mask-2)" fill="#FEC709">
+                        <g transform="translate(-8.000000, -9.000000)" id="Rectangle-Copy-8">
+                            <rect x="0" y="0" width="40" height="40"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
