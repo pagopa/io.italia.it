@@ -21,9 +21,7 @@ faq:
     
     * aggiungere, abilitare e gestire tutti i tuoi metodi di pagamento relativamente al programma;
     
-    * visualizzare in ogni momento il numero di tutte le transazioni accumulate per il cashback e il dettaglio di ciascuna transazione
-    
-    * visualizzare la tua posizione in classifica per ottenere il Super Cashback di 1500€"
+    * visualizzare in ogni momento il numero di tutte le transazioni accumulate per il cashback e il dettaglio di ciascuna transazione"
     cat:
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: internal-w-slides
-title: Partecipa al Cashback di Stato con l'app IO
+title: Partecipa al Cashback con l'app IO
 image: "/assets/img/cashback/social-card-cashback.jpg"
 pre-title: In arrivo
 description: "Aderisci al “Cashback” tramite l’app IO: dall'8 dicembre 2020, con l’avvio dell’Extra Cashback di Natale, parte il programma che ti consentirà di ottenere un rimborso sugli acquisti effettuati con carte e app di pagamento.

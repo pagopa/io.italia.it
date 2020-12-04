@@ -271,6 +271,11 @@
 }
 
 body[class*="pagename--cashback"] {
+  #introduzione h1 {
+    @media screen and (min-width: $grid-breakpoints-md) {
+      max-width: 80%;
+    }
+  }
   .dubbi-domande {
     background-color: #2d489d;
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
