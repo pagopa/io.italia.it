@@ -10,14 +10,14 @@ lang: it
 ref: cashback-metodi
 introduction_slides:
 grid-items:
-  - title: Abilita la tua carta ai pagamenti online
-    body: Se non riesci a salvare la tua carta, verifica con la tua banca se è abilitata ai pagamenti online.
+  - title: Abilita la tua carta agli acquisti online
+    body: Se non riesci a salvare la tua carta, verifica con la tua banca se è abilitata agli acquisti online.
     img: /assets/img/cashback/metodi/ic-toggle.svg
   - title: Aggiungi tutti i circuiti riportati sulla carta
-    body: Se la tua carta ha più circuiti, aggiungili tutti per pagare su IO e ricevere transazioni valide per il Cashback.
+    body: Se la tua carta PagoBANCOMAT ha il logo di altri circuiti, aggiungila anche come carta di debito/credito.
     img: /assets/img/cashback/metodi/ic-card.svg
   - title: Apple Pay e Google Pay sono in arrivo
-    body: Nel frattempo, aggiungi la tua carta fisica per pagare su IO e ricevere transazioni valide per il Cashback.
+    body: Nel frattempo, aggiungi e attiva su IO la tua carta fisica se vuoi che gli acquisti siano validi per partecipare al Cashback.
     img: /assets/img/cashback/metodi/ic-device.svg
 ---
 
