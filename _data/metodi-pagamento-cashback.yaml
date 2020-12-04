@@ -1,5 +1,5 @@
 it:
-  last_update: 12/12/2020
+  last_update: 4/12/2020
   iostatus:
     0:
       status: yes
@@ -12,11 +12,11 @@ it:
   cashbackstatus:
     0:
       status: yes
-      title: Puoi abilitare il Cashback
+      title: Puoi abilitare il Cashback su IO
       icon: /assets/img/cashback/metodi/ic-ok.svg
     1:
       status: no
-      title: Non puoi abilitare il Cashback
+      title: Non puoi abilitare il Cashback su IO
       icon: /assets/img/cashback/metodi/ic-ko.svg
     2:
       status: maybeyes
@@ -40,6 +40,10 @@ it:
       img-small: /assets/img/cashback/metodi/ic-diners-small.svg
       img-large: /assets/img/cashback/metodi/ic-diners-large.svg
       id: diners
+    - name: JCB
+      img-small: /assets/img/cashback/metodi/ic-jcb-small.svg
+      img-large: /assets/img/cashback/metodi/ic-jcb-large.svg
+      id: jcb
     - name: Maestro
       img-small: /assets/img/cashback/metodi/ic-maestro-small.svg
       img-large: /assets/img/cashback/metodi/ic-maestro-large.svg
@@ -87,12 +91,13 @@ it:
       img-large: /assets/img/cashback/metodi/ic-satispay-large.svg
       id: satispay
   combo:
+  # show firsts single circuit, then multi-circuit
     - cards:
         - amex
       cvv: 4
       numbers: 15
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **“Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -100,65 +105,31 @@ it:
       cvv: 3
       numbers: 14
       io: 1
+      iotext: Stiamo lavorando per supportare i pagamenti con la tua carta **Diners** su app IO.
+      cashback: 1
+      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer).
+    - cards:
+        - jcb
+      cvv: 3
+      numbers: 15
+      io: 1
       iotext: Siamo spiacenti, al momento sono supportate le carte abilitate ai pagamenti online dei circuiti **American Express, Mastercard e Visa**.
       cashback: 1
       cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer).
     - cards:
-        - postamat
-        - maestro
-      cvv:
-      numbers: 8
-      note: BancoPosta
+        - jcb
+      cvv: 3
+      numbers: 16
       io: 1
       iotext: Siamo spiacenti, al momento sono supportate le carte abilitate ai pagamenti online dei circuiti **American Express, Mastercard e Visa**.
-      cashback: 4
-      cashbacktext: Scarica l'[App BancoPosta](https://www.poste.it/applicazione-bancoposta.html) per abilitare il Cashback su questa carta. Su IO potrai vedere il dettaglio transazioni e la classifica Super Cashback.
-    - cards:
-        - postamat
-        - mastercard
-      cvv: 3
-      numbers: 16
-      note: BancoPosta, Postepay
-      io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **“Carta BancoPosta o Postepay”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
-      cashback: 0
-      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
-    - cards:
-        - postamat
-        - visaelectron
-      cvv: 3
-      numbers: 16
-      note: Postepay
-      io: 0
-      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando “Carta BancoPosta o Postepay”. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
-      cashback: 0
-      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
-    - cards:
-        - postamat
-        - visa
-      cvv: 3
-      numbers: 16
-      note: Postepay
-      io: 0
-      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando “Carta BancoPosta o Postepay”. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
-      cashback: 0
-      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
-    - cards:
-        - postamat
-        - mastercard
-      cvv: 3
-      numbers: 16
-      note: Carta Reddito di cittadinanza
-      io: 1
-      iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane.
-      cashback: 4
-      cashbacktext: Scarica l'[App Postepay](https://www.poste.it/applicazione-postepay.html) per abilitare il Cashback su questa carta. Su IO potrai vedere il dettaglio transazioni e la classifica Super Cashback.
+      cashback: 1
+      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer).
     - cards:
         - mastercard
       cvv: 3
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **“Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -166,7 +137,7 @@ it:
       cvv: 3
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **“Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -179,6 +150,22 @@ it:
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
+        - visaelectron
+      cvv: 3
+      numbers: 16
+      io: 0
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      cashback: 0
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+    - cards:
+        - pagobancomat
+      cvv:
+      numbers: 16
+      io: 1
+      iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
+      cashback: 0
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback."
+    - cards:
         - pagobancomat
         - maestro
       cvv: 3
@@ -186,18 +173,18 @@ it:
       io: 1 # maestro soon live
       iotext: Stiamo lavorando per supportare i pagamenti con circuito **Maestro** su app IO.
       cashback: 0 # aggiungila anche come debit
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando “Carta PagoBANCOMAT”**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide su circuito **Maestro**, aggiungi la carta anche come **“Carta di credito, debito o prepagata”**."
+      Per ricevere tutte le transazioni valide su circuito **Maestro**, aggiungi la carta anche come **'Carta di credito, debito o prepagata”**."
     - cards:
         - pagobancomat
         - maestro
       cvv:
       numbers: 8
       io: 1 # non è abilitata ai pagamenti online
-      iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane.
+      iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando “Carta PagoBANCOMAT”**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
       Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
     - cards:
@@ -208,9 +195,20 @@ it:
       io: 1 # non è abilitata ai pagamenti online
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando “Carta PagoBANCOMAT”**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
       Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
+    - cards:
+        - pagobancomat
+        - mastercard
+      cvv:
+      numbers: 16
+      io: 0
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      cashback: 0 # aggiungila anche come debit
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+
+      Per ricevere tutte le transazioni valide su circuito **Mastercard**, aggiungi la carta anche come **'Carta di credito, debito o prepagata'**."
     - cards:
         - pagobancomat
         - vpay
@@ -219,7 +217,7 @@ it:
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando “Carta PagoBANCOMAT”**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
       Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
     - cards:
@@ -230,7 +228,7 @@ it:
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando “Carta PagoBANCOMAT”**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
       Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
     - cards:
@@ -239,22 +237,64 @@ it:
       cvv:
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **“Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0 # aggiungila anche come debit
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando “Carta PagoBANCOMAT”**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide su circuito **Visa**, aggiungi la carta anche come **“Carta di credito, debito o prepagata”**."
+      Per ricevere tutte le transazioni valide su circuito **Visa**, aggiungi la carta anche come **'Carta di credito, debito o prepagata'**."
     - cards:
-        - pagobancomat
-        - mastercard
+        - postamat
+        - maestro
       cvv:
+      numbers: 8
+      note: BancoPosta
+      io: 1
+      iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane.
+      cashback: 4
+      cashbacktext: Scarica l'[App BancoPosta](https://www.poste.it/applicazione-bancoposta.html) per abilitare il Cashback su questa carta. Su IO potrai vedere il dettaglio transazioni e la classifica Super Cashback.
+    - cards:
+        - postamat
+        - mastercard
+      cvv: 3
       numbers: 16
+      note: BancoPosta, Postepay
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **“Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
-      cashback: 0 # aggiungila anche come debit
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando “Carta PagoBANCOMAT”**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
-
-      Per ricevere tutte le transazioni valide su circuito **Mastercard**, aggiungi la carta anche come **“Carta di credito, debito o prepagata”**."
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta BancoPosta o Postepay”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      cashback: 0
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+    - cards:
+        - postamat
+        - visaelectron
+      cvv: 3
+      numbers: 16
+      note: Postepay
+      io: 0
+      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay”. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      cashback: 0
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+    - cards:
+        - postamat
+        - visa
+      cvv: 3
+      numbers: 16
+      note: Postepay
+      io: 0
+      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay”. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      cashback: 0
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+    - cards:
+        - postamat
+        - mastercard
+      cvv: 3
+      numbers: 16
+      note: Carta Reddito di cittadinanza
+      io: 1
+      iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane."
+      cashback: 4
+      cashbacktext: "Scarica l'[App Postepay](https://www.poste.it/applicazione-postepay.html) per abilitare il Cashback su questa carta. Su IO potrai vedere il dettaglio transazioni e la classifica Super Cashback."
+      #######################
+      #######################
+      #######################
     - apps:
         - applepay
       io: 1
