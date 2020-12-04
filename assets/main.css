@@ -1436,6 +1436,8 @@ a.text-hover-green:hover { color: #21dedf !important; }
 
 .rounded-xl { border-radius: 0.75rem; }
 
+.grid-card { background-color: #f2f7fc; }
+
 .grid-card__item { width: 100%; background-color: #fff; }
 
 @media screen and (min-width: 768px) { .grid-card__item { min-height: 180px; } }
