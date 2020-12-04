@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "self";
+
+.icon {
+  width: 48px;
+  height: 24px;
+  margin-right: 0.5rem;
+  display: none;
+  &.ok {
+    fill: #00c5ca;
+  }
+  &.ko {
+    fill: #c02927;
+  }
+  &.trouble {
+    fill: #ff9a00;
+  }
+}
+
+.statuslist {
+  &__item {
+    padding: 1.25rem 0;
+    border-bottom: 2px solid #e6e9f2;
+    &.status-ok {
+      .icon.ok {
+        display: block;
+      }
+    }
+    &.status-ko {
+      .icon.ko {
+        display: block;
+      }
+    }
+    &.status-trouble {
+      .icon.trouble {
+        display: block;
+      }
+    }
+  }
+  &__titlewrap {
+    display: flex;
+    align-items: center;
+  }
+  &__title {
+    font-weight: 600;
+    margin: 0.5rem 0;
+  }
+}
