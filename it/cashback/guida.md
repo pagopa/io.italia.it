@@ -245,7 +245,7 @@ successivi del Programma.
 <tr>
 <td><b>2° Semestre</b> (1° luglio 2021 – 31 dicembre 2021)</td>
 <td rowspan="2">
-<u>Percentuale</u>: <b>Cashback</b> del <b>10%</b> per un **minimo di 50 transazioni** a periodo
+<u>Percentuale</u>: <b>Cashback</b> del <b>10%</b> per un <b>minimo di 50 transazioni</b> a periodo
 <p></p>
 <u>Speciale</u>: <b>Super Cashback</b> di <b>€ 1500</b>, se tra i primi 100.000 Aderenti con il maggior numero di transazioni nel periodo.
 </td>
@@ -315,8 +315,7 @@ fare fronte a eventuali contestazioni o contenziosi. Restano salvi i
 rimborsi già corrisposti. Potrai riattivare il servizio e partecipare di
 nuovo al Programma in qualsiasi momento.
 
-In qualsiasi momento, inoltre, puoi **sospendere** **la raccolta dei
-dati relativi alle operazioni di pagamento** riferita a tutti o solo ad
+In qualsiasi momento, inoltre, puoi **sospendere la raccolta dei dati relativi alle operazioni di pagamento** riferita a tutti o solo ad
 alcuni degli Strumenti di Pagamento elettronici precedentemente
 registrati per partecipare al Programma **e/o cancellare** uno o più
 Strumenti di Pagamento elettronici tra quelli registrati, **mantenendo
