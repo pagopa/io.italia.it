@@ -107,7 +107,7 @@ it:
       io: 1
       iotext: Stiamo lavorando per supportare i pagamenti con la tua carta **Diners** su app IO.
       cashback: 1
-      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer).
+      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer).
     - cards:
         - jcb
       cvv: 3
@@ -115,7 +115,7 @@ it:
       io: 1
       iotext: Siamo spiacenti, al momento sono supportate le carte abilitate ai pagamenti online dei circuiti **American Express, Mastercard e Visa**.
       cashback: 1
-      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer).
+      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer).
     - cards:
         - jcb
       cvv: 3
@@ -123,7 +123,7 @@ it:
       io: 1
       iotext: Siamo spiacenti, al momento sono supportate le carte abilitate ai pagamenti online dei circuiti **American Express, Mastercard e Visa**.
       cashback: 1
-      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer).
+      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer).
     - cards:
         - mastercard
       cvv: 3
@@ -186,7 +186,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
+      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
     - cards:
         - pagobancomat
         - maestro
@@ -197,7 +197,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
+      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
     - cards:
         - pagobancomat
         - mastercard
@@ -219,7 +219,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
+      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
     - cards:
         - pagobancomat
         - vpay
@@ -230,7 +230,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/issuer)."
+      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
     - cards:
         - pagobancomat
         - visa
