@@ -1,5 +1,5 @@
 it:
-  last_update: 4/12/2020
+  last_update: 5/12/2020
   items:
     - name: American Express
       img: /assets/img/cashback/issuer/amex.png
@@ -17,5 +17,7 @@ it:
       img: /assets/img/cashback/issuer/pagobancomat.png
     - name: Poste Italiane
       img: /assets/img/cashback/issuer/poste.png
+    - name: Satispay
+      img: /assets/img/cashback/issuer/satispay.png
     - name: Unicredit
       img: /assets/img/cashback/issuer/unicredit.png
