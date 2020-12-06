@@ -28,7 +28,7 @@ b) di essere **residente in Italia**;
 
 c) di registrare e utilizzare per il Programma **tuoi** strumenti di pagamento elettronici **esclusivamente per acquisti effettuati a titolo privato** (cioè fuori dall'ambito di qualsiasi attività d'impresa, arte o professione);
 
-d) di essere consapevole di dover possedere tutti i requisiti autodichiarati **sino al momento della maturazione del diritto al rimborso**, pena la decadenza dal diritto allo stesso e con l'**obbligo di procedere alla cancellazione** dal Programma se oerdi uno dei requisiti autodichiarati.
+d) di essere consapevole di dover possedere tutti i requisiti autodichiarati **sino al momento della maturazione del diritto al rimborso**, pena la decadenza dal diritto allo stesso e con l'**obbligo di procedere alla cancellazione** dal Programma se perdi uno dei requisiti autodichiarati.
 
 ### Indice
 
