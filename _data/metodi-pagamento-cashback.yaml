@@ -97,7 +97,7 @@ it:
       cvv: 4
       numbers: 15
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -129,7 +129,7 @@ it:
       cvv: 3
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -137,7 +137,7 @@ it:
       cvv: 3
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -154,7 +154,7 @@ it:
       cvv: 3
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -175,7 +175,7 @@ it:
       cashback: 0 # aggiungila anche come debit
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide su circuito **Maestro**, aggiungi la carta anche come **'Carta di credito, debito o prepagata”**."
+      Per ricevere tutte le transazioni valide su circuito **Maestro**, aggiungi la carta anche come **'Carta di credito, debito o prepagata'**."
     - cards:
         - pagobancomat
         - maestro
@@ -204,7 +204,7 @@ it:
       cvv:
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0 # aggiungila anche come debit
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
@@ -237,7 +237,7 @@ it:
       cvv:
       numbers: 16
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0 # aggiungila anche come debit
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
@@ -259,7 +259,7 @@ it:
       numbers: 16
       note: BancoPosta, Postepay
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta BancoPosta o Postepay”**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta BancoPosta o Postepay'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -269,7 +269,7 @@ it:
       numbers: 16
       note: Postepay
       io: 0
-      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay”. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay'. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -279,7 +279,7 @@ it:
       numbers: 16
       note: Postepay
       io: 0
-      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay”. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay'. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
