@@ -1,5 +1,5 @@
 it:
-  last_update: 4/12/2020
+  last_update: 6/12/2020
   items:
     # use alphabetical order
     - name: American Express
@@ -20,6 +20,9 @@ it:
     - name: Flowe
       img: /assets/img/cashback/issuer/flowe.png
       #url:
+    - name: Hype
+      img: /assets/img/cashback/issuer/hype.png
+      #url: https://www.hype.it
     - name: Nexi Pay
       img: /assets/img/cashback/issuer/nexi-pay.png
       #url: https://www.nexi.it/privati/servizi/cashback.html
