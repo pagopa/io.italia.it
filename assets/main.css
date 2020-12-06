@@ -1114,6 +1114,8 @@ body.pagename--faq { background-color: #F2F7FC; }
 
 .pagename--bonus-vacanze .page-wrapper, .pagename--cashback .page-wrapper { margin-bottom: -48px; }
 
+.pagename--bonus-vacanze .dubbi-domande, .pagename--cashback .dubbi-domande { background-color: #2d489d; border-bottom: 1px solid rgba(255, 255, 255, 0.6); }
+
 .pagename--bonus-vacanze .read-more, .pagename--cashback .read-more { text-transform: initial; font-size: 1rem; }
 
 .pagename--bonus-vacanze .read-more-collapse, .pagename--cashback .read-more-collapse { display: none; }
