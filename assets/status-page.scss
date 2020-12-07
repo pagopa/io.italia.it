@@ -9,13 +9,13 @@
   height: 24px;
   margin-right: 0.5rem;
   display: none;
-  &.ok {
+  &.normal {
     fill: #00c5ca;
   }
-  &.ko {
+  &.critical {
     fill: #c02927;
   }
-  &.trouble {
+  &.warning {
     fill: #ff9a00;
   }
 }
@@ -24,18 +24,18 @@
   &__item {
     padding: 1.25rem 0;
     border-bottom: 2px solid #e6e9f2;
-    &.status-ok {
-      .icon.ok {
+    &.status-normal {
+      .icon.normal {
         display: block;
       }
     }
-    &.status-ko {
-      .icon.ko {
+    &.status-critical {
+      .icon.critical {
         display: block;
       }
     }
-    &.status-trouble {
-      .icon.trouble {
+    &.status-warning {
+      .icon.warning {
         display: block;
       }
     }
