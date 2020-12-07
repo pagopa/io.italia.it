@@ -50,9 +50,9 @@ textarea { resize: vertical; }
 /* ========================================================================== Print styles. Inlined to avoid the additional HTTP request: http://www.phpied.com/delay-loading-your-print-css/ ========================================================================== */
 @media print { *, *:before, *:after { background: transparent !important; color: #000 !important; /* Black prints faster: http://www.sanbeiji.com/archives/953 */ box-shadow: none !important; text-shadow: none !important; } a, a:visited { text-decoration: underline; } a[href]:after { content: " (" attr(href) ")"; } abbr[title]:after { content: " (" attr(title) ")"; } /* Don't show links that are fragment identifiers, or use the `javascript:` pseudo protocol */ a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; } pre { white-space: pre-wrap !important; } pre, blockquote { border: 1px solid #999; page-break-inside: avoid; } /* Printing Tables: http://css-discuss.incutio.com/wiki/Printing_Tables */ thead { display: table-header-group; } tr, img { page-break-inside: avoid; } p, h2, h3 { orphans: 3; widows: 3; } h2, h3 { page-break-after: avoid; } }
 
-.copy { position: fixed; width: 100vw; height: calc(100vh - 150px); z-index: -4; top: 100px; left: 50%; margin-left: -50vw; background-size: cover; overflow: hidden; transition: all .5s ease-out; }
+.copy { position: fixed; width: 100vw; height: calc(100vh - 150px); z-index: -4; top: 100px; left: 50%; margin-left: -50vw; background-size: cover; overflow: hidden; transition: all 0.5s ease-out; }
 
-.copy__content { transition: all .5s ease-out; position: absolute; width: 303px; opacity: 0; }
+.copy__content { transition: all 0.5s ease-out; position: absolute; width: 303px; opacity: 0; }
 
 .copy__content.copy__content--in { opacity: 1; }
 
@@ -60,7 +60,7 @@ textarea { resize: vertical; }
 
 .copy__list { list-style-type: none; padding: 0 72px; text-align: left; }
 
-.copy__list li { color: #06C; font-weight: 600; line-height: 24px; padding: 4px 0; }
+.copy__list li { color: #06c; font-weight: 600; line-height: 24px; padding: 4px 0; }
 
 .copy__icon { width: 24px; padding-right: 8px; }
 
