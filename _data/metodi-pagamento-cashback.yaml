@@ -1,5 +1,5 @@
 it:
-  last_update: 4/12/2020
+  last_update: 7/12/2020
   iostatus:
     0:
       status: yes
@@ -69,7 +69,7 @@ it:
       id: visaelectron
     - name: V-Pay
       img-small: /assets/img/cashback/metodi/ic-visa-small.svg
-      img-large: /assets/img/cashback/metodi/ic-visa-large.svg
+      img-large: /assets/img/cashback/metodi/ic-vpay-large.svg
       id: vpay
   apps:
     - name: Apple Pay
@@ -151,6 +151,14 @@ it:
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
         - visaelectron
+      cvv: 3
+      numbers: 16
+      io: 0
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      cashback: 0
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+    - cards:
+        - vpay
       cvv: 3
       numbers: 16
       io: 0
