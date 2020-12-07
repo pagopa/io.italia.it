@@ -1,6 +1,6 @@
 ---
 title: Informazioni sul Trattamento dei dati personali
-subtitle: Programma di Cashback di Stato ai sensi e per gli effetti degli artt. 13 e 14 del regolamento 2016/679 UE “Regolamento Generale sulla Protezione dei Dati” (“Informazioni Privacy”)
+description: Programma di Cashback di Stato ai sensi e per gli effetti degli artt. 13 e 14 del regolamento 2016/679 UE “Regolamento Generale sulla Protezione dei Dati” (“Informazioni Privacy”)
 layout: internal
 ref: app-bancomat-privacy
 permalink: /app-content/privacy_bancomat.html
