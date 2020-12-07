@@ -1,25 +1,9 @@
-messages:
-  - level: normal
-    date: 2020-12-07 08:00:00
+messages: # array di oggetti
+  - level: normal # valore previsto: normal, critical, warning
+    date: 2020-12-07 08:00 # formato es: YYYY-mm-dd HH:MM
     title:
       it: "Titolo"
       en: "Title"
     message:
       it: "testo in italiano"
-      en: "testo in inglese"
-  - level: warning
-    date: 2020-12-06 08:20:00
-    title:
-      it: "Titolo"
-      en: "Title"
-    message:
-      it: "testo in italiano"
-      en: "testo in inglese"
-  - level: critical
-    date: 2020-12-07 08:00:00
-    title:
-      it: "Titolo"
-      en: "Title"
-    message:
-      it: "testo in italiano"
-      en: "testo in inglese"
+      en: "English text"
