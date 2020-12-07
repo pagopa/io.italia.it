@@ -41,7 +41,7 @@
                         {{combotitle}}
                         {% if item.note %}({{item.note}}){%endif%}
                     </div>
-                    <div class="h6">Numero carta: {{item.numbers}} cifre {% if item.cvv %}&middot; Codice di sicurezza: {{item.cvv}} cifre{%endif%}</div>
+                    <div class="h6">Numero carta: {{item.numbers}} cifre &middot; Codice di sicurezza: {% if item.cvv %}{{item.cvv}} cifre{%else%}non presente{%endif%}</div>
                     <div class="row my-5">
                         <div class="col-sm-12 col-md-6">
                             <div class="d-flex">
