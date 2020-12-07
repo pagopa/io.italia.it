@@ -7,7 +7,7 @@ $header--height: 50px;
     position: fixed;
     width: 60vw;
     height: calc(100vh - #{$header--height});
-    background-color: #F2F7FC;
+    background-color: #f2f7fc;
     left: 0;
     margin: 0 auto;
     z-index: -5;
@@ -20,6 +20,7 @@ $header--height: 50px;
   position: absolute;
   width: 100%;
   height: calc(100vh - #{$header--height});
-  background: url(img/italy-dotted.jpg) center center no-repeat;
+  background: url($imagesurl + "/assets/img/italy-dotted.jpg") center center
+    no-repeat;
   background-size: cover;
 }

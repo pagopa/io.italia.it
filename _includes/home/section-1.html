@@ -5,7 +5,7 @@
     <div class="section__1_inner container d-flex align-items-center">
         <div class="section__1_main px-4 ">
         <div class="d-flex align-items-center mb-3 section__1__logo">
-        <img src="{{ '/assets/img/io-it-logo-white.svg' | relative_url }}" alt="io" class="io__icon"/>
+        <img src="{{ '/assets/img/io-it-logo-white.svg' | prepend: site.imagesurl }}" alt="io" class="io__icon"/>
         <span class="d-none d-sm-inline badge-beta mx-1">BETA</span>
         <h2 class="d-sm-none ">l'app dei servizi pubblici</h2>
         </div>
@@ -15,7 +15,7 @@
         <div class="mt-3 mt-md-5">
         {% comment %}<a id="playvideo" href="#" class="btn btn-sm bg-white text-uppercase btn-video mr-3 mt-2 mt-sm-0"" target="_blank"
            data-url="https://www.youtube.com/embed/zrKOS2LiWTU?rel=0&amp;showinfo=0&amp;autoplay=1">
-        <img src="/assets/img/icon-playvideo.svg" class="mr-1" id="home-playvideo">
+        <img src="{{site.imagesurl}}/assets/img/icon-playvideo.svg" class="mr-1" id="home-playvideo">
         Guarda il video</a>
         <a href="#newsletter" class="btn btn-sm text-uppercase btn-newsletter mt-2 mt-sm-0" >Resta aggiornato</a>
         {% endcomment %}

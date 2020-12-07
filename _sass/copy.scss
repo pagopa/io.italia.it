@@ -1,4 +1,4 @@
-$copy-width : 303px;
+$copy-width: 303px;
 $copy-height: 200px;
 .copy {
   position: fixed;
@@ -10,16 +10,16 @@ $copy-height: 200px;
   margin-left: -50vw;
   background-size: cover;
   overflow: hidden;
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .copy__content {
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
   position: absolute;
   width: $copy-width;
   opacity: 0;
   &.copy__content--in {
-    opacity: 1
+    opacity: 1;
   }
 }
 
@@ -36,7 +36,7 @@ $copy-height: 200px;
   padding: 0 72px;
   text-align: left;
   li {
-    color: #06C;
+    color: #06c;
     font-weight: 600;
     line-height: 24px;
     padding: 4px 0;

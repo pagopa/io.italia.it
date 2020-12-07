@@ -70,8 +70,8 @@
     <div class="{{colSecondClass}} order-1 order-lg-2 d-flex align-items-center justify-content-center mb-2 mb-md-0 col-intro-img">
       <img
         class="img-fluid"
-        src="{{ page.intro_image | relative_url }}"
-        alt="{{ page.title }}"
+        src="{{ page.intro_image | prepend: site.imagesurl }}"
+        alt="Messaggi"
       />
     </div>
     {%- endif -%}

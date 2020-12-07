@@ -43,14 +43,14 @@
 
   .play-button {
     &:before {
-      content: url("/assets/img/icon-playvideo.svg");
+      content: url($imagesurl + "/assets/img/icon-playvideo.svg");
       margin-right: 4px;
       vertical-align: middle;
       line-height: 1;
     }
     &:hover {
       &:before {
-        content: url("/assets/img/icon-playvideo--white.svg");
+        content: url($imagesurl + "/assets/img/icon-playvideo--white.svg");
       }
     }
   }
@@ -263,7 +263,7 @@
       }
     }
     background-color: #2d489d;
-    background: url("/assets/img/cashback/pattern.png"),
+    background: url($imagesurl + "/assets/img/cashback/pattern.png"),
       radial-gradient(circle, #2d489d 0%, rgba(45, 72, 157, 0.5));
   }
   #introduzione {
