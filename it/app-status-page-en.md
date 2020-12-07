@@ -13,6 +13,10 @@ assets:
 {% assign statusapp = site.data.statusapp %}
 {% assign messages = statusapp.messages | sort: "date" | reverse %}
 
+<div class="logo">
+  <img src="{{site.imagesurl}}/assets/img/io-it-logo-blue.svg" alt="Logo IO app" class="io__icon">
+</div>
+
 <div class="statuslist">
   {% for status in messages %}
   <a name="{{status.date | date: '%y%m%d%H%M' }}"></a>
