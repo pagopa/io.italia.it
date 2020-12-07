@@ -30,7 +30,7 @@ layout: default
     <div class="carousel-inner">
         {% for slide in slides %}
         <div class="carousel-item {% if forloop.first %}active{%endif%} text-center">
-        <img src="{{slide}}" alt="">
+        <img src="{{slide | prepend: site.imagesurl}}" alt="">
         </div>
         {% endfor %}
     </div>
