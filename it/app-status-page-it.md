@@ -3,7 +3,7 @@ title: IO Status
 subtitle:
 layout: self
 ref: app-status
-permalink: /app-content/status/it.html
+permalink: /status/
 index: no-index
 assets:
   js: ""
