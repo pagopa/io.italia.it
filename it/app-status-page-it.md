@@ -14,7 +14,9 @@ assets:
 {% assign messages = statusapp.messages | sort: "date" | reverse %}
 
 <div class="logo">
+  <a href="/" title="Home">
   <img src="{{site.imagesurl}}/assets/img/io-it-logo-blue.svg" alt="Logo IO app" class="io__icon">
+  </a>
 </div>
 
 <div class="statuslist">
