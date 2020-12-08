@@ -30,7 +30,7 @@ assets:
       <svg class="icon normal"><use xlink:href="/assets/svg/sprite.svg#it-check-circle"></use></svg>
       <div class="statuslist__title">{{status.title.it}}</div>
     </div>
-    <div class="statuslist__text">{{status.message.it}}</div>
+    <div class="statuslist__text">{{status.message.it | markdownify}}</div>
   </div>
   {%endfor%}
 </div>
