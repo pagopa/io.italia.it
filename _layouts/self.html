@@ -19,7 +19,9 @@
     </title>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ '/assets/self.css?' | append: buildTime | relative_url }}">
+      {% if page.assets.css %}
+    <link rel="stylesheet" href="{{ page.assets.css | append: '?' | append: buildTime | relative_url }}">
+      {%endif%}
 
     
   </head>
@@ -31,29 +33,9 @@
 
     </div>
 
-    <script >
-
-    if (window.location.hash=='#expanded') {
-      document.body.classList.add("expanded");
-    }
-
-    var readers = document.getElementsByClassName('read-more');
-    var showEl = function() {
-        var morelabel = this.getAttribute("data-more");
-        var eles = document.getElementsByClassName(morelabel);
-        
-        for (var i=0; i<eles.length; i++) {
-            eles[i].style.display='block';
-        }
-        this.style.display='none';
-    };
-    
-    for (var i = 0; i < readers.length; i++) {
-        readers[i].addEventListener('click', showEl, false);
-        
-    }   
-
-    </script>
+    {% if page.assets.js %}
+    <script src="{{ page.assets.js | append: '?' | append: buildTime | relative_url }}"></script>
+    {%endif%}
 
   </body>
 

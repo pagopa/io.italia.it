@@ -1,0 +1,46 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "self";
+
+.d-startup-hide {
+  & > *:not(.d-startup) {
+    display: none;
+  }
+}
+
+.read-more {
+  font-weight: 700;
+  color: $color--italia;
+  padding: 6px 0;
+  border-bottom: 1px solid $color--italia;
+  display: inline-block;
+  cursor: pointer;
+}
+.d-more-1,
+.d-more-2 {
+  &.active {
+    display: block;
+  }
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+  margin-top: 0;
+}
+.list-unstyled li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+body.expanded {
+  .read-more {
+    display: none;
+  }
+  .d-startup-hide {
+    & > *:not(.d-startup) {
+      display: block;
+    }
+  }
+}

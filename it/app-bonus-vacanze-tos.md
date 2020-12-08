@@ -1,14 +1,20 @@
 ---
 title: Informativa sul trattamento dei dati personali
-subtitle: 
+subtitle:
 layout: self
 ref: app-bonus-vacanze-tos-privacy
 permalink: /app-content/bonus_vacanze_tos.html
+assets:
+  js: "/assets/js/tos.js"
+  css: "/assets/tos.css"
 ---
 
 {:.d-startup .mb-1}
+
 # Tax Credit Vacanze
+
 {:.d-startup}
+
 ##### (Art. 176 del decreto-legge 19 maggio 2020, n. 34)
 
 {:.d-startup}
@@ -16,15 +22,18 @@ Informativa sul trattamento dei dati personali ai sensi degli artt. 13 e 14 del 
 Con questa informativa l’Agenzia delle Entrate spiega come tratta i dati raccolti e quali sono i diritti riconosciuti all’interessato ai sensi del Regolamento, relativo alla protezione delle persone fisiche con riguardo al trattamento dei dati personali e del D.Lgs. 196/2003, in materia di protezione dei dati personali, così come modificato dal D.Lgs. 101/2018.
 
 {:.d-startup}
+
 ## Informazioni chiave
 
 {:.d-startup}
+
 - Il titolare del Trattamento è Agenzia delle Entrate che ha nominato come responsabili del trattamento PagoPA S.p.A., per le attività di trattamento svolte attraverso la App IO e per la verifica, per conto dell’Agenzia delle Entrate, dei requisiti ISEE con l’Istituto Nazionale della Previdenza Sociale, e SOGEI S.p.A. alla quale è affidata la gestione del sistema informativo dell’Anagrafe tributaria;
 - La finalità del trattamento è il riconoscimento del tax credit vacanze, ai sensi dell’art. 176 del decreto-legge 19 maggio 2020, n. 34, che ha previsto un’agevolazione a favore dei nuclei familiari con un reddito ISEE non superiore a 40.000 euro;
 - PagoPA S.p.A. come responsabile del trattamento utilizza fornitori che sono situati al di fuori dell’UE, negli USA, nel rispetto delle misure di garanzia previste dal Regolamento;
 - Potrebbe essere previsto l’invio di notifiche push tramite App IO, queste ultime possono essere disabilitate, in alcuni casi, al momento dell’installazione dell’App IO. In ogni caso le notifiche push possono essere disattivate nella Sezione Servizi dell’App IO o tramite le impostazioni del dispositivo mobile.
 
 {:.d-startup}
+
 ### Finalità del trattamento
 
 {:.d-startup}
@@ -36,9 +45,10 @@ un’agevolazione a favore dei nuclei familiari con un reddito ISEE non superior
 L’agevolazione è utilizzabile, dal 1° luglio al 31 dicembre 2020, per il pagamento dei servizi offerti in
 ambito nazionale da imprese turistico ricettive, agriturismi e bed&breakfast in possesso dei titoli previsti
 dalla normativa nazionale e regionale per l’esercizio dell’attività turistico ricettiva (di seguito “fornitori”),
-alle condizioni previste dall’articolo 176, comma 3, del decreto legge n. 34 del 2020. 
+alle condizioni previste dall’articolo 176, comma 3, del decreto legge n. 34 del 2020.
 
 {:.d-startup}
+
 ### Conferimento dei dati
 
 {:.d-startup}
@@ -50,6 +60,7 @@ L’omissione e/o l’indicazione non veritiera di dati può far incorrere in sa
 casi, penali.
 
 {:.d-startup}
+
 ### Base giuridica
 
 {:.d-startup}
@@ -58,7 +69,7 @@ dell’Agenzia delle entrate la definizione delle modalità attuative della disp
 ha disciplinato le modalità di effettuazione delle richieste da parte dei cittadini, di fruizione del bonus e di
 recupero, da parte del fornitore, dello sconto effettuato prevedendo anche verifiche, da parte dell’Agenzia
 delle entrate, sulla validità del bonus e sulla spettanza del credito d’imposta e della detrazione fiscale. I
-dati personali sono dunque trattati dall’Agenzia delle Entrate nell'esecuzione dei propri compiti di 
+dati personali sono dunque trattati dall’Agenzia delle Entrate nell'esecuzione dei propri compiti di
 interesse pubblico o comunque connessi all'esercizio dei propri pubblici poteri di cui è investito il Titolare
 del trattamento. Il comma 6 del citato articolo 176 affida all’Agenzia delle entrate il compito di definire,
 con provvedimento del Direttore dell’Agenzia, sentito l’Istituto Nazionale della Previdenza Sociale,
@@ -66,8 +77,8 @@ acquisito il parere dell’Autorità garante per la protezione dei dati personal
 bonus, anche avvalendosi di PagoPA S.p.A. per la realizzazione di quanto necessario all’attuazione della
 misura agevolativa.
 
-
 {:.d-startup}
+
 ### Periodo di conservazione dei dati
 
 {:.d-startup}
@@ -76,12 +87,14 @@ la definizione di eventuali procedimenti giurisdizionali o per rispondere a rich
 giudiziaria.
 
 {:.d-startup}
+
 ### Categorie di destinatari dei dati personali
 
 {:.d-startup}
 Agenzia delle entrate, per il tramite di PagoPA S.p.A., comunica i dati personali all’INPS per la verifica dei requisiti ISEE <br>I dati personali non saranno oggetto di diffusione, tuttavia, se necessario potranno essere comunicati:<br>- ai soggetti cui la comunicazione dei dati debba essere effettuata in adempimento di un obbligo previstodalla legge, da un regolamento o dalla normativa comunitaria, ovvero per adempiere ad un ordinedell’Autorità Giudiziaria;<br>- ai soggetti designati dal Titolare, in qualità di Responsabili, ovvero alle persone autorizzate altrattamento dei dati personali che operano sotto l’autorità diretta del titolare o del responsabile;<br>- ad altri eventuali soggetti terzi, nei casi espressamente previsti dalla legge, ovvero ancora se lacomunicazione si renderà necessaria per la tutela dell’Agenzia in sede giudiziaria, nel rispetto delle vigenti disposizioni in materia di protezione dei dati personali.
 
 {:.d-startup}
+
 ### Modalità del trattamento
 
 {:.d-startup}
@@ -104,6 +117,7 @@ IO, cliccando sul Servizio Bonus Vacanze, e entrando nella relativa scheda. Inol
 possono essere disattivate tramite le impostazioni del dispositivo
 
 {:.d-startup}
+
 ### Titolare del trattamento
 
 {:.d-startup}
@@ -111,6 +125,7 @@ Titolare del trattamento dei dati personali è Agenzia delle Entrate, con sede i
 106 – 00147.
 
 {:.d-startup}
+
 ### Responsabile del trattamento
 
 {:.d-startup}
@@ -126,7 +141,8 @@ Agenzia delle Entrate si avvale inoltre del partner tecnologico Sogei Spa, al qu
 gestione del sistema informativo dell’Anagrafe tributaria, designato per questo Responsabile del
 trattamento dei dati ai sensi dell’art. 28 del Regolamento UE 679/16.
 
-{:.d-startup} 
+{:.d-startup}
+
 ### Trasferimenti dei dati extra UE
 
 {:.d-startup}
@@ -137,6 +153,7 @@ loro delle Clausole Contrattuali della Commissione Europea per garantire adeguat
 possibile richiedere copia delle misure adottate, contattando PagoPA S.p.A. all’indirizzo [dpo@pagopa.it](mailto:dpo@pagopa.it).
 
 {:.d-startup}
+
 ### Responsabile della Protezione dei Dati
 
 {:.d-startup}
@@ -144,6 +161,7 @@ Il dato di contatto del Responsabile della Protezione dei Dati dell’Agenzia de
 [entrate.dpo@agenziaentrate.it](mailto:entrate.dpo@agenziaentrate.it)
 
 {:.d-startup}
+
 ### Diritti dell’interessato
 
 {:.d-startup}
@@ -163,4 +181,4 @@ Il richiedente si impegna a fornire la presente informativa anche ai soggetti te
 familiare) i cui dati saranno oggetto di trattamento nell’ambito della verifica della presenza dei
 presupposti relativi al reddito ISEE, della determinazione dell’importo massimo dell’agevolazione
 spettante e della fruizione della stessa per il pagamento dei servizi offerti, in ambito nazionale, dalle
-imprese turistico ricettive, dagli agriturismi e dai bed&breakfast. 
+imprese turistico ricettive, dagli agriturismi e dai bed&breakfast.
