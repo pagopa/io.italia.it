@@ -1438,7 +1438,7 @@ a.text-hover-green:hover { color: #21dedf !important; }
 
 .rounded-xl { border-radius: 0.75rem; }
 
-.grid-card { background-color: #f2f7fc; }
+.grid-card { background-color: #f2f7fc; pointer-events: auto !important; }
 
 .grid-card__item { width: 100%; background-color: #fff; }
 
