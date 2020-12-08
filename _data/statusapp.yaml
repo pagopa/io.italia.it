@@ -1,5 +1,5 @@
 messages: # array di oggetti
-  - level: warning # valore previsto: normal, critical, warning
+  - level: critical # valore previsto: normal, warning, critical
     date: 2020-12-08 16:31 # formato es: YYYY-mm-dd HH:MM
     title:
       it: "Problemi nell’aggiunta di carte di credito/debito"
@@ -7,7 +7,7 @@ messages: # array di oggetti
     message:
       it: "Per un problema temporaneo, potresti non essere in grado di aggiungere al Portafoglio le tue carte di credito/debito. I nostri tecnici sono già al lavoro per risolvere il problema. Nel frattempo, verifica se puoi attivare il Cashback usando l’app della tua banca. Consulta la [lista aggiornata dei sistemi di iscrizione al Cashback](https://io.italia.it/cashback/issuer)"
       en: "Due to a temporary issue, you may not be able to add your credit or debit cards to your Wallet. Our developers are already working on solving the problem. In the meantime, check if you can subscribe to Cashback using an alternative system. You can see the updated [list of all Cashback subscription systems](https://io.italia.it/cashback/issuer)"
-  - level: warning # valore previsto: normal, critical, warning
+  - level: critical # valore previsto: normal, warning, critical
     date: 2020-12-08 16:30 # formato es: YYYY-mm-dd HH:MM
     title:
       it: "Problemi nell’aggiunta di carte PagoBANCOMAT"
@@ -15,7 +15,7 @@ messages: # array di oggetti
     message:
       it: "Per un problema temporaneo, potresti non essere in grado di aggiungere al Portafoglio le tue carte PagoBANCOMAT. I nostri tecnici sono già al lavoro per risolvere il problema."
       en: "Due to a temporary problem, you may not be able to add a PagoBANCOMAT card to your Wallet. Our developers are already working on solving the problem."
-  - level: warning # valore previsto: normal, critical, warning
+  - level: critical # valore previsto: normal, warning, critical
     date: 2020-12-08 16:29 # formato es: YYYY-mm-dd HH:MM
     title:
       it: "Metodi di pagamento non visualizzabili"
