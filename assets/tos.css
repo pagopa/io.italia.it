@@ -76,7 +76,7 @@ a { color: #06c; }
 
 .mb-1 { margin-bottom: 7px !important; }
 
-body { font-family: 'Titillium Web', sans-serif; font-weight: 400; font-size: 16px; color: #5c6f82; }
+body { font-family: "Titillium Web", sans-serif; font-weight: 400; font-size: 16px; color: #5c6f82; }
 
 .container { width: 100%; padding: 15px; }
 
@@ -112,4 +112,4 @@ body.expanded .read-more { display: none; }
 
 body.expanded .d-startup-hide > *:not(.d-startup) { display: block; }
 
-/*# sourceMappingURL=self.css.map */
+/*# sourceMappingURL=tos.css.map */

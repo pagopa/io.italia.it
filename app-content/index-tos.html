@@ -13,7 +13,9 @@
     <title>Archivio versioni – IO, l’app dei servizi pubblici</title>
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/assets/self.css?202012080800">
+      
+    <link rel="stylesheet" href="/assets/tos.css?202012081559">
+      
 
     
   </head>
@@ -37,29 +39,9 @@
 
     </div>
 
-    <script >
-
-    if (window.location.hash=='#expanded') {
-      document.body.classList.add("expanded");
-    }
-
-    var readers = document.getElementsByClassName('read-more');
-    var showEl = function() {
-        var morelabel = this.getAttribute("data-more");
-        var eles = document.getElementsByClassName(morelabel);
-        
-        for (var i=0; i<eles.length; i++) {
-            eles[i].style.display='block';
-        }
-        this.style.display='none';
-    };
     
-    for (var i = 0; i < readers.length; i++) {
-        readers[i].addEventListener('click', showEl, false);
-        
-    }   
-
-    </script>
+    <script src="/assets/js/tos.js?202012081559"></script>
+    
 
   </body>
 
