@@ -1,4 +1,20 @@
 messages: # array di oggetti
+  - level: normal # valore previsto: normal, warning, critical
+    date: 2020-12-09 17:31 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Risolto problema aggiunta carte PagoBANCOMAT"
+      en: "PagoBANCOMAT cards can be added regularly"
+    message:
+      it: "È possibile aggiungere le proprie carte PagoBANCOMAT, tramite ricerca generale o per specifica banca."
+      en: "You can now add your own PagoBANCOMAT cards, by using general search or querying a specific bank."
+  - level: normal # valore previsto: normal, warning, critical
+    date: 2020-12-09 17:30 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Risolto problema delle email di validazione"
+      en: "Validation email issues have been fixed"
+    message:
+      it: "Il sistema di validazione dell'indirizzo email è tornato ad essere pienamente funzionante."
+      en: "The email address validation system is fully functional again."
   - level: critical # valore previsto: normal, warning, critical
     date: 2020-12-08 16:31 # formato es: YYYY-mm-dd HH:MM
     title:
@@ -29,5 +45,5 @@ messages: # array di oggetti
       it: "Rallentamenti nella ricezione delle email di validazione"
       en: "Issues with validation email"
     message:
-      it: "A causa dell'elevato numero di accessi, **il messaggio di validazione indirizzo email potrebbe arrivare dopo diverse ore**. Ti invitiamo a **non premere il pulsante ‘Invia una nuova mail di validazione’** né a modificare l’indirizzo inserito, per non sovraccaricare ulteriormente i sistemi. I nostri tecnici sono già al lavoro per risolvere il problema."
+      it: "A causa dell'elevato numero di accessi, **il messaggio di validazione dell'indirizzo email potrebbe arrivare dopo diverse ore**. Ti invitiamo a **non premere il pulsante ‘Invia una nuova mail di validazione’** né a modificare l’indirizzo inserito, per non sovraccaricare ulteriormente i sistemi. I nostri tecnici sono già al lavoro per risolvere il problema."
       en: "Due to the huge amount of requests, **the email to validate your address might be sent after several hours**. Please **do not press ‘Send a new validation email’ again** nor change your address, to not overload our systems. Our developers are already investigating the issue."
