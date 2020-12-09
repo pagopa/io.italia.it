@@ -6,7 +6,6 @@ ref: app-status
 permalink: /status/en/
 index: no-index
 assets:
-  js: ""
   css: "/assets/status-page.css"
 ---
 
