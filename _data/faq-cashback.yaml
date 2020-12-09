@@ -262,3 +262,13 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
   - title: Se mi disiscrivo dal Cashback posso poi aderire di nuovo? 
     body: "Sì, il recesso non impedisce di iscriverti di nuovo nel corso del programma, ma il calcolo delle transazioni ai fini del Cashback ripartirà da zero."
     cat: "9|La cancellazione"
+  - title: Perché vedo carte che non riconosco nella sezione “Attivati su altri canali”?
+    body: "In questa sezione trovi tutti i metodi di pagamento elettronici attivati tramite i canali messi a disposizione dei cosiddetti [Issuer Convenzionati](/cashback/issuer/).
+
+
+Alcuni operatori consentono anche l’aggiunta delle rispettive carte abilitate attraverso i cosiddetti “wallet” come Apple Pay, Google Pay o Samsung Pay. **In questo periodo sperimentale**, detto “Extra Cashback di Natale”, potresti vedere perciò dei numeri di carta differenti rispetto a quello che vedi sulla carta fisica. Ti assicuriamo che non c’è nessun errore o problema di privacy:\ 
+si tratta delle versioni virtuali associate alla tua carta, composte da codici casuali (detti in gergo tecnico “token”), utilizzati per mettere in sicurezza i pagamenti che effettui tramite smartphone. Per questo motivo, ad ogni transazione effettuata con il tuo smartphone, non viene mostrato all’esercente il numero della carta fisica, ma si ricorre a questo tipo di versione “cifrata” (detta anche “tokenizzata”).\
+
+
+Stiamo lavorando con i soggetti del settore dei pagamenti coinvolti nell’iniziativa per migliorare la visualizzazione sull’app IO di questo tipo di carte. Per maggiori informazioni puoi rivolgerti all’[Issuer Convenzionato](/cashback/issuer/) con cui hai attivato la tua carta per il Cashback. "
+    cat: "3|I metodi di pagamento"

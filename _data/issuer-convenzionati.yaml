@@ -17,9 +17,6 @@ it:
     - name: App Sella
       img: /assets/img/cashback/issuer/sella.png
       url: https://www.sella.it/banca-online/landing/personalbanking/helpcenter/categories/carte/cashback.jsp
-    - name: CREDEM
-      img: /assets/img/cashback/issuer/credem.png
-      #url:
     - name: Enel X Pay
       img: /assets/img/cashback/issuer/enelxpay.png
       url: https://pay.enelx.com
