@@ -1,0 +1,120 @@
+# Azure DevOps pipeline to copy assets/img to a blob storage
+
+# Triggers when pushing on master
+trigger:
+  - master
+
+
+stage: CopyImgs
+
+  pool:
+    vmImage: 'windows-2019'
+  
+  - job: Checkout
+    steps:
+      - checkout: self
+        displayName: 'Checkout'
+
+
+# JUST FOR REFERENCE
+
+#   # Create a relase
+#   # Activated when ONE OF these are met:
+#   # - is on branch master
+#   # - is a tag in the form v{version}-RELEASE
+#   - stage: Release
+#     # condition:
+#     #   and(
+#     #     succeeded(),
+#     #     or(
+#     #       eq(variables['Build.SourceBranch'], 'refs/heads/master'),
+#     #       and(
+#     #         startsWith(variables['Build.SourceBranch'], 'refs/tags'),
+#     #         endsWith(variables['Build.SourceBranch'], '-RELEASE')
+#     #       )
+#     #     )
+#     #   )
+#     pool:
+#       vmImage: 'ubuntu-latest'
+#     jobs:
+#       - job: make_release
+#         steps:
+#           - ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/master') }}:
+#               - template: templates/node-github-release/template.yaml@pagopaCommons
+#                 parameters:
+#                   semver: '${{ parameters.RELEASE_SEMVER }}'
+#                   gitEmail: $(GIT_EMAIL)
+#                   gitUsername: $(GIT_USERNAME)
+#                   gitHubConnection: $(GITHUB_CONNECTION)
+#                   nodeVersion: $(NODE_VERSION)
+#                   pkg_cache_version_id: $(CACHE_VERSION_ID)
+#                   pkg_cache_folder: $(YARN_CACHE_FOLDER)
+
+#           - ${{ if ne(variables['Build.SourceBranch'], 'refs/heads/master') }}:
+#               - script: |
+#                   echo "We assume this reference to be a valid release: $(Build.SourceBranch). Therefore, there is no need to bundle a new release."
+#                 displayName: 'Skip release bundle'
+
+#   # Prepare Artifact with application bundle
+#   - stage: Prepare_artifact
+#     dependsOn:
+#       - Release
+#     jobs:
+#       - job: 'make_build'
+#         steps:
+#           # Build application
+#           - template: azure-templates/setup-project.yml
+#             parameters:
+#               # On the assumption that this stage is executed only when Relase stage is,
+#               #  with this parameter we set the reference the deploy script must pull changes from.
+#               # The branch/tag name is calculated from the source branch
+#               #  ex: Build.SourceBranch=refs/heads/master --> master
+#               #  ex: Build.SourceBranch=refs/tags/v1.2.3-RELEASE --> v1.2.3-RELEASE
+#               gitReference: ${{ replace(replace(variables['Build.SourceBranch'], 'refs/tags/', ''), 'refs/heads/', '') }}
+
+#           - template: azure-templates/make-build.yml
+
+#           - publish: $(System.DefaultWorkingDirectory)/dist
+#             artifact: Bundle
+
+#   # Deploy bundle to the staging container
+#   - stage: Deploy_staging
+#     dependsOn:
+#       - Prepare_artifact
+#     jobs:
+#       - job: 'deploy_to_container'
+#         steps:
+#           - checkout: none
+
+#           - download: current
+#             artifact: Bundle
+
+#           - task: AzureFileCopy@4
+#             inputs:
+#               sourcePath: '$(Pipeline.Workspace)/Bundle/*'
+#               azureSubscription: '$(STAGING_AZURE_SUBSCRIPTION)'
+#               destination: 'AzureBlob'
+#               storage: '$(STAGING_STORAGE_ACCOUNT_NAME)'
+#               containerName: '$(BLOB_CONTAINER_NAME)'
+#             displayName: Deploy to container blob
+
+#   # Deploy bundle to the production container
+#   - stage: Deploy_production
+#     dependsOn:
+#       - Prepare_artifact
+#     jobs:
+#       - job: 'deploy_to_container'
+#         steps:
+#           - checkout: none
+
+#           - download: current
+#             artifact: Bundle
+
+#           - task: AzureFileCopy@4
+#             inputs:
+#               sourcePath: '$(Pipeline.Workspace)/Bundle/*'
+#               azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+#               destination: 'AzureBlob'
+#               storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+#               containerName: '$(BLOB_CONTAINER_NAME)'
+#             displayName: Deploy to container blob
