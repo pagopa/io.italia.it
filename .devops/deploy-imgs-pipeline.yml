@@ -17,7 +17,7 @@ stages:
         displayName: 'Checkout'
       
       - script: | 
-        ls -alh
+          ls -alh
 
       # - task: AzureFileCopy@4
       #   inputs:
