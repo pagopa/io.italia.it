@@ -18,7 +18,7 @@ stages:
 
       - task: AzureFileCopy@4
         inputs:
-          sourcePath: '$(Pipeline.Workspace)/io.italia.it/img'
+          sourcePath: '$(Pipeline.Workspace)/img'
           azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
           destination: 'AzureBlob'
           storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
