@@ -4,7 +4,6 @@
 trigger:
   - master
 
-
 stages: 
 - stage: CopyImgs
 
@@ -16,6 +15,30 @@ stages:
     steps:
       - checkout: self
         displayName: 'Checkout'
+
+      - task: AzureFileCopy@4
+          inputs:
+          sourcePath: '$(Pipeline.Workspace)/io.italia.it/img'
+          azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+          destination: 'AzureBlob'
+          storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+          containerName: '$(BLOB_CONTAINER_NAME)'
+          additionalArgumentsForBlobCopy: sync --Delete-Destination=true # Optional
+          displayName: Deploy to container blob
+    #containerName: # Required when destination == AzureBlob
+    #blobPrefix: # Optional
+    #resourceGroup: # Required when destination == AzureVMs
+    #resourceFilteringMethod: 'machineNames' # Optional. Options: machineNames, tags
+    #machineNames: # Optional
+    #vmsAdminUserName: # Required when destination == AzureVMs
+    #vmsAdminPassword: # Required when destination == AzureVMs
+    #targetPath: # Required when destination == AzureVMs
+    #additionalArgumentsForVMCopy: # Optional
+    #enableCopyPrerequisites: false # Optional
+    #copyFilesInParallel: true # Optional
+    #cleanTargetBeforeCopy: false # Optional
+    #skipCACheck: true # Optional
+    #sasTokenTimeOutInMinutes: # Optional
 
 
 # JUST FOR REFERENCE
