@@ -1,4 +1,12 @@
 messages: # array di oggetti
+  - level: warning # valore previsto: normal, warning, critical
+    date: 2020-12-10 15:00 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Difficoltà di caricamento nel portafoglio di carte di circuito internazionale"
+      en: "Issues while adding international circuit cards in wallet"
+    message:
+      it: "I sistemi che gestiscono le transazioni sono in sovraccarico per il grosso numero di richieste. Stiamo lavorando con il nostro fornitore [SIA S.p.A.](https://www.sia.eu/it) per trovare una soluzione definitiva."
+      en: "Systems handling transactions are overloaded due to a large number of requests. We are working with our vendor [SIA S.p.A.](https://www.sia.eu) to find a permanent solution."
   - level: normal # valore previsto: normal, warning, critical
     date: 2020-12-09 17:31 # formato es: YYYY-mm-dd HH:MM
     title:
