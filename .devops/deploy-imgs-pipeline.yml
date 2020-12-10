@@ -23,8 +23,9 @@ stages:
           destination: 'AzureBlob'
           storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
           containerName: '$(BLOB_CONTAINER_NAME)'
-          additionalArgumentsForBlobCopy: sync --Delete-Destination=true # Optional
+          additionalArgumentsForBlobCopy: 'sync --Delete-Destination=true' # Optional
         displayName: Deploy images to container blob
+        
     #containerName: # Required when destination == AzureBlob
     #blobPrefix: # Optional
     #resourceGroup: # Required when destination == AzureVMs
