@@ -1,0 +1,88 @@
+labels:
+  fornitore: Fornitore
+  attivita: Attività svolta
+  dati: Dati trattati
+  luogo: Luogo del trattamento dei dati
+  garanzie: Garanzie adottate in tema di trasferimento dati all’estero
+items:
+  - 
+    fornitore: "Sia S.P.A."
+    attivita: "Componenti applicative piattaforma pagoPA e relativa assistenza clienti"
+    dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza "
+    luogo: Italia
+    garanzie: "N/A"
+    note: ""
+  - 
+    fornitore: "Minded Security S.r.l."
+    attivita: "Penetration Test (per assessment vulnerabilità)"
+    dati: "Dati cui il fornitore potrebbe eventualmente avere accesso in caso di identificata vulnerabilità dei sistemi"
+    luogo: Italia
+    garanzie: "N/A"
+    note: ""
+  - 
+    fornitore: "RTI Leonardo S.p.A."
+    attivita: "Servizi SOC (Security Operation Center)"
+    dati: "Dati a cui il fornitore potrebbe eventualmente avere accesso nel corso dello svolgimento dei servizi di sicurezza (es. nel caso in cui un evento generato da un utente causa un alert di sicurezza)"
+    luogo: Italia
+    garanzie: "N/A"
+    note: ""
+  - 
+    fornitore: "Acapo Cooperativa Sociale"
+    attivita: "Servizio assistenza clienti"
+    dati: "Dati necessari per trattare richieste di assistenza degli utenti"
+    luogo: Italia
+    garanzie: "N/A"
+    note: ""
+  - 
+    fornitore: "MailUP S.p.A."
+    attivita: "Invio di email (inoltro messaggi ricevuti in-app)"
+    dati: "Indirizzo email degli utenti e dati inclusi nei messaggi inoltrati dall’app"
+    luogo: Italia
+    garanzie: "N/A"
+    note: ""
+  - 
+    fornitore: "Microsoft Ireland Operations Limited"
+    attivita: "Servizi di backup e cloud computing"
+    dati: "Tutti i dati degli utenti inclusi nel database dell’App IO"
+    luogo: Paesi Bassi, con back up in Irlanda
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+    - clausole contrattuali standard della Commissione Europea"
+    note: ""
+  - 
+    fornitore: "Mixpanel, Inc."
+    attivita: "Raccolta dati di utilizzo dell’App IO  tramite i dispositivi per scopi di debug, incident response, assistenza tecnica e miglioramento dell’App"
+    dati: "Dati di navigazione e utilizzo dell’app da parte dell’utente"
+    luogo: "- Paesi Bassi\n\n 
+    - USA (per eventuali sub responsabili)\n\n
+    (in corso di valutazione la sostituzione del fornitore)"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+  - clausole contrattuali standard  della Commissione Europea\n\n
+  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE"
+    note: ""
+  - 
+    fornitore: "Instabug, Inc."
+    attivita: "Soluzione tecnica per l’invio di segnalazioni e la gestione dell’assistenza clienti"
+    dati: "(i) Dati forniti dall’utente nella segnalazione (NB: disincentiviamo l’utente a fornire dati “critici” o “sensibili” nelle segnalazioni)\n\n
+(ii) Dati di navigazione per migliorare l’assistenza"
+    luogo: "USA\n\n
+(in corso negoziazioni su opzioni di residenza dei dati in UE e valutazione sulla sostituzione del fornitore)"
+    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
+  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE"
+    note: ""
+  - 
+    fornitore: "Slack Technologies Limited"
+    attivita: "Piattaforma di messaggistica per comunicazione interna alla PagoPA S.p.A."
+    dati: "Dati eventualmente inclusi in messaggi scambiati internamente tramite lo strumento di messaggistica interna per risoluzione di problematiche urgenti"
+    luogo: "USA\n\n
+    (trattamento di dati personali degli utenti eventuale e comunque marginale, solo in caso di necessità e urgenza)"
+    garanzie: "- clausole contrattuali standard  della Commissione Europea"
+    note: ""
+  - 
+    fornitore: "Google LLC"
+    attivita: "Invio di notifiche Push"
+    dati: "Eventuali dati inclusi nella notifica push (se presenti) e solo per utenti Android"
+    luogo: "USA\n\n
+(sostituzione di USA con Belgio e Paesi Bassi in caso di conferma da parte del fornitore rispetto alla richiesta di residenza dei dati in UE)"
+    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
+    - richiesta opzione di residenza dei dati  in UE (in attesa di riscontro da parte del fornitore)"
+    note: ""
