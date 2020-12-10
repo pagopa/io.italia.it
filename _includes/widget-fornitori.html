@@ -1,0 +1,29 @@
+{% assign fornitori = site.data.fornitori.items %}
+{% assign labels = site.data.fornitori.labels %}
+
+<div class="container-fluid ">
+    <div class="d-none d-md-flex row bg-dark text-white mb-2 ">
+        {% for l in labels %}
+            {% assign cssLabel = "col-md-2 py-3" %}
+            {% if forloop.last %}
+                {% assign cssLabel = "col-md-3 py-3" %}
+            {%endif %}
+            <div class="{{cssLabel}}">{{l | last}}</div>
+        {% endfor %}
+    </div>
+    {% for f in fornitori %}
+    <div class="row border-bottom py-3">
+        {% for l in labels %}
+            {% assign cssLabel = "col-12 col-md-2 small" %}
+            {% assign labelid = l | first %}
+            {% if forloop.last %}
+                {% assign cssLabel = "col-12 col-md-3 small" %}
+            {%endif %}
+            <div class="{{cssLabel}}">
+                <span class="text-primary text-uppercase d-md-none mr-1">{{l | last}}</span>
+                {{f[labelid] | markdownify}}
+            </div>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
