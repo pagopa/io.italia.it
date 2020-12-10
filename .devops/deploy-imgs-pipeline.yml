@@ -10,7 +10,8 @@ stages:
 
   pool:
     vmImage: 'windows-2019'
-  
+
+  jobs: 
   - job: Checkout
     steps:
       - checkout: self
