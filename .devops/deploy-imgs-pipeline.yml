@@ -5,7 +5,8 @@ trigger:
   - master
 
 
-stage: CopyImgs
+stages: 
+- stage: CopyImgs
 
   pool:
     vmImage: 'windows-2019'
