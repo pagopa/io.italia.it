@@ -15,19 +15,16 @@ stages:
     steps:
       - checkout: self
         displayName: 'Checkout'
-      
-      - script: | 
-          ls -alh
 
-      # - task: AzureFileCopy@4
-      #   inputs:
-      #     sourcePath: '$(Pipeline.Workspace)/img'
-      #     azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
-      #     destination: 'AzureBlob'
-      #     storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
-      #     containerName: '$(BLOB_CONTAINER_NAME)'
-      #     # additionalArgumentsForBlobCopy: 'sync --Delete-Destination=true' # Optional
-      #   displayName: Deploy images to Blob Storage
+      - task: AzureFileCopy@4
+        inputs:
+          sourcePath: '$(Pipeline.Workspace)/io.italia.it/assets/img'
+          azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+          destination: 'AzureBlob'
+          storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+          containerName: '$(BLOB_CONTAINER_NAME)'
+          # additionalArgumentsForBlobCopy: 'sync --Delete-Destination=true' # Optional
+        displayName: Deploy images to Blob Storage
         
     #containerName: # Required when destination == AzureBlob
     #blobPrefix: # Optional
