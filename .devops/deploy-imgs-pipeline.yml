@@ -17,14 +17,14 @@ stages:
         displayName: 'Checkout'
 
       - task: AzureFileCopy@4
-          inputs:
-            sourcePath: '$(Pipeline.Workspace)/io.italia.it/img'
-            azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
-            destination: 'AzureBlob'
-            storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
-            containerName: '$(BLOB_CONTAINER_NAME)'
-            additionalArgumentsForBlobCopy: sync --Delete-Destination=true # Optional
-          displayName: Deploy images to container blob
+        inputs:
+          sourcePath: '$(Pipeline.Workspace)/io.italia.it/img'
+          azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+          destination: 'AzureBlob'
+          storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+          containerName: '$(BLOB_CONTAINER_NAME)'
+          additionalArgumentsForBlobCopy: sync --Delete-Destination=true # Optional
+        displayName: Deploy images to container blob
     #containerName: # Required when destination == AzureBlob
     #blobPrefix: # Optional
     #resourceGroup: # Required when destination == AzureVMs
