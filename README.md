@@ -1,6 +1,6 @@
 # io.italia.it
 
-[![CircleCI](https://circleci.com/gh/teamdigitale/io.italia.it.svg?style=svg)](https://circleci.com/gh/teamdigitale/io.italia.it)
+[![CircleCI](https://circleci.com/gh/pagopa/io.italia.it.svg?style=svg)](https://circleci.com/gh/pagopa/io.italia.it)
 
 A website for the IO project.
 
@@ -15,7 +15,7 @@ You can build the site and make it available on a local server with:
 
 `bundle exec jekyll serve --config _config.yml,_config_dev.yml`
 
- You can refer to the [official Jekyll docs](https://jekyllrb.com/docs/) for further details on how to install it locally.
+You can refer to the [official Jekyll docs](https://jekyllrb.com/docs/) for further details on how to install it locally.
 
 ### Notes
 
