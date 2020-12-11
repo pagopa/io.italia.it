@@ -45,8 +45,7 @@ items:
     attivita: "Servizi di backup e cloud computing"
     dati: "Tutti i dati degli utenti inclusi nel database dell’App IO"
     luogo: Paesi Bassi, con back up in Irlanda
-    garanzie: "- opzione di residenza dei dati in UE\n\n
-    - clausole contrattuali standard della Commissione Europea"
+    garanzie: "- opzione di residenza dei dati in UE"
     note: ""
   - 
     fornitore: "Mixpanel, Inc."
