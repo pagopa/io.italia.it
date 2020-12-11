@@ -1,0 +1,37 @@
+# Azure DevOps pipeline to copy assets/img to a blob storage
+
+# Triggers when pushing on master
+trigger:
+  branches:
+    include:
+    - master
+  paths:
+    include:
+    - assets
+
+stages: 
+- stage: CopyImgs
+
+  pool:
+    vmImage: 'windows-2019'
+
+  jobs: 
+  - job: Checkout
+    steps:
+      - checkout: self # better to define a custom git command
+        displayName: 'Checkout'
+      
+      - script: |
+          git fetch && git checkout master
+        displayName: 'Checkout master'
+
+      # This task doesn't support syncing. Deleted files from the source
+      # will nevere be deleted from the storage
+      - task: AzureFileCopy@4
+        inputs:
+          sourcePath: './assets'
+          azureSubscription: '$(PRODUCTION_AZURE_SUBSCRIPTION)'
+          destination: 'AzureBlob'
+          storage: '$(PRODUCTION_STORAGE_ACCOUNT_NAME)'
+          containerName: '$(BLOB_CONTAINER_NAME)'
+        displayName: Deploy images to Blob Storage
