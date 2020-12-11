@@ -1,23 +1,35 @@
 it:
-  last_update: 5/12/2020
+  last_update: 11/12/2020
   items:
     - name: American Express
       img: /assets/img/cashback/issuer/amex.png
+      startdate: 8/12/2020
     - name: Axepta - BNL
       img: /assets/img/cashback/issuer/axepta.png
+      startdate: 8/12/2020
     - name: Banca Sella
       img: /assets/img/cashback/issuer/sella.png
+      startdate: 8/12/2020
     - name: Bancomat PAY
       img: /assets/img/cashback/issuer/bancomatpay.png
+      startdate: 8/12/2020
     - name: ICRREA
       img: /assets/img/cashback/issuer/iccrea.png
+      startdate: 8/12/2020
     - name: Nexi
       img: /assets/img/cashback/issuer/nexi.png
+      startdate: 8/12/2020
     - name: PagoBANCOMAT
       img: /assets/img/cashback/issuer/pagobancomat.png
+      startdate: 8/12/2020
     - name: Poste Italiane
       img: /assets/img/cashback/issuer/poste.png
+      startdate: 8/12/2020
     - name: Satispay
       img: /assets/img/cashback/issuer/satispay.png
+    #- name: SumUp
+    #  img: /assets/img/cashback/issuer/supmup.png
+    #  startdate: 14/12/2020
     - name: Unicredit
       img: /assets/img/cashback/issuer/unicredit.png
+      startdate: 8/12/2020
