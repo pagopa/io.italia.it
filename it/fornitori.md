@@ -1,6 +1,6 @@
 ---
 layout: internal
-title: Fornitori
+title: Fornitori coinvolti nel progetto IO
 lang: it
 ref: "fornitori"
 permalink: /app-content/fornitori/
