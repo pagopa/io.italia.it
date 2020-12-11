@@ -26,6 +26,7 @@
             </div>
             {%endif%}
             <h5 class="font-weight-bold text-primary text-center {{include.nameClassStyle}}">{{item.name}}</h5>
+            {% if item.startdate %}<p class="small center pt-2">Data di avvio: {{item.startdate}}</p>{%endif%}
             {% if item.url %}
                 <a href="{{item.url}}" title="Scopri di più su {{item.name}}" target="_blank" class="small text-decoration-none d-flex align-items-center justify-content-center mt-auto">
                 <svg class="icon icon-primary icon-sm mr-1"><use xlink:href="/assets/svg/sprite.svg#it-external-link"></use></svg>

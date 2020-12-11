@@ -27,6 +27,7 @@ it:
       startdate: 8/12/2020
     - name: Satispay
       img: /assets/img/cashback/issuer/satispay.png
+      startdate: 8/12/2020
     #- name: SumUp
     #  img: /assets/img/cashback/issuer/supmup.png
     #  startdate: 14/12/2020
