@@ -380,7 +380,7 @@ elettronici registrati ai fini del Programma - dovrai comunque contattare l'**Is
 In caso di **mancato o inesatto accredito** dei rimborsi previsti dal Programma, potrai presentare **reclamo a Consap S.p.A.** <u>entro 120
 giorni successivi all'ultimo giorno del mese nel quale è previsto il pagamento</u>, mediante invio dell'apposito modulo debitamente
 compilato e sottoscritto, unitamente agli allegati richiesti, che sarà disponibile online sul sito
-[www.consap.it](http://www.consap.it).
+[www.consap.it/servizi-economia/cashback/](https://www.consap.it/servizi-economia/cashback/).
 
 Consap S.p.A. ti fornirà un riscontro motivato entro 30 giorni dalla
 data di ricezione del reclamo, e in caso di accoglimento, disporrà il
