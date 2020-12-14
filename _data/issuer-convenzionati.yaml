@@ -1,5 +1,5 @@
 it:
-  last_update: 8/12/2020
+  last_update: 14/12/2020
   items:
     # use alphabetical order
     - name: American Express
@@ -16,7 +16,7 @@ it:
       url: https://www.poste.it/applicazione-postepay.html
     - name: App Sella
       img: /assets/img/cashback/issuer/sella.png
-      url: https://www.sella.it/banca-online/landing/personalbanking/helpcenter/categories/carte/cashback.jsp
+      url: https://www.sella.it/banca-online/landing/cashback/index.jsp?utm_source=CampagnaMail&utm_medium=email&utm_campaign=cashback-lancio#
     - name: Enel X Pay
       img: /assets/img/cashback/issuer/enelxpay.png
       url: https://pay.enelx.com
