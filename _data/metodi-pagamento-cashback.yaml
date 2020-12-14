@@ -1,5 +1,5 @@
 it:
-  last_update: 7/12/2020
+  last_update: 15/12/2020
   iostatus:
     0:
       status: yes
@@ -299,7 +299,7 @@ it:
       io: 1
       iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane."
       cashback: 4
-      cashbacktext: "Scarica l'[App Postepay](https://www.poste.it/applicazione-postepay.html) per abilitare il Cashback su questa carta. Su IO potrai vedere il dettaglio transazioni e la classifica Super Cashback."
+      cashbacktext: "Questo tipo di carta non è al momento attivabile per il Cashback."
       #######################
       #######################
       #######################
