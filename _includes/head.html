@@ -32,12 +32,14 @@
   {% include favicons.html %}
   {% include social.html %}
 
+  {% if site.google_verify %}
+  <meta name="google-site-verification" content="{{ site.google_verify }}">
+  {% endif %}
+  
   {%- if jekyll.environment == 'production' -%}
     {%- include analytics/google-analytics.html -%}
   {%- endif -%}
 
-  {% if site.google_verify %}
-  <meta name="google-site-verification" content="{{ site.google_verify }}">
-  {% endif %}
+
 
 </head>
