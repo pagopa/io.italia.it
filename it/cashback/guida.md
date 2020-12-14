@@ -47,7 +47,7 @@ d) di essere consapevole di dover possedere tutti i requisiti autodichiarati **s
 
 ### Cos'è il Cashback?
 
-Il **Cashback** è una delle iniziative del [Piano Italia Cashless](http://www.cashlessitalia.it) previste dalla Legge di
+Il **Cashback** è una delle iniziative del [Piano Italia Cashless](https://www.cashlessitalia.it) previste dalla Legge di
 Bilancio 2020 (art. 1, commi da 288 a 290, legge del 27 dicembre 2019,
 n. 160, come successivamente modificata e integrata) e dal [Decreto 24 novembre 2020, n. 156 emesso dal Ministro dell'Economia e delle
 Finanze](https://www.gazzettaufficiale.it/eli/id/2020/11/28/20G00181/sg)

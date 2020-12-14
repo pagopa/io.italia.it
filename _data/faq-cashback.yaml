@@ -58,7 +58,7 @@ visualizzare in ogni momento il dettaglio delle transazioni accumulate con tutti
     body: "Stiamo lavorando per poter attivare su IO quanti più metodi di pagamento elettronico. Nel frattempo, puoi verificare se chi ha emesso o gestisce il tuo metodo di pagamento (issuer) ha messo a disposizione un [sistema alternativo a IO](/cashback/issuer/) per iscriversi e attivare i propri metodi al Cashback. Anche le transazioni effettuate con i metodi registrati sui sistemi alternativi a IO, saranno visibili dentro IO nella sezione Portafoglio, nell’area relativa al Cashback"
     cat: "2|L'iscrizione al Cashback"
   - title: Se mi iscrivo al Cashback, partecipo automaticamente anche alla “Lotteria degli scontrini”? 
-    body: "No. Il Cashback e la “Lotteria degli Scontrini” sono due programmi con modalità e condizioni di partecipazione distinte, sebbene promosse nell’ambito dello stesso [Piano Italia Cashless](http://www.cashlessitalia.it)."
+    body: "No. Il Cashback e la “Lotteria degli Scontrini” sono due programmi con modalità e condizioni di partecipazione distinte, sebbene promosse nell’ambito dello stesso [Piano Italia Cashless](https://www.cashlessitalia.it)."
     cat: "2|L'iscrizione al Cashback"
   - title: Perché per aderire al Cashback, che esclude i pagamenti per beni e servizi acquistati via e-commerce, devo abilitare la mia carta di credito/debito agli acquisti online?
     body: "È necessario perché permette di verificare se i dati della carta inseriti sono corretti: la verifica avviene tramite una transazione di qualche centesimo di Euro che verrà successivamente stornata."
@@ -91,7 +91,7 @@ visualizzare in ogni momento il dettaglio delle transazioni accumulate con tutti
     body: "Sì, il programma è aperto a tutte le carte del circuito PagoBANCOMAT. L’app IO consente, se vuoi, di avviare una ricerca automatica delle carte PagoBANCOMAT a te associate in base al tuo Codice Fiscale; segui le indicazioni per usare questa funzionalità all’interno del servizio Cashback sull’app IO. "
     cat: "3|I metodi di pagamento"
   - title: Quanti metodi di pagamento elettronico posso attivare per il Cashback?
-    body: "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](/metodi-pagaemnto/)."
+    body: "Non c’è un limite: puoi attivare tutti i tuoi metodi di pagamento elettronici, che siano registrabili per partecipare al programma, e utilizzarli per acquisti personali, fuori dall’attività professionale. [Verifica quali metodi di pagamento puoi già attivare](/metodi-pagamento/)."
     cat: "3|I metodi di pagamento"
   - title: Perché Il logo che mi viene mostrato nell’app IO sulla rappresentazione della mia carta PagoBANCOMAT è diverso da quello presente sulla carta fisica?
     body: " Il logo che viene visualizzato sull’app IO è il logo attuale del soggetto che in questo momento gestisce il tuo metodo di pagamento. In alcuni casi, soprattutto con carte emesse da più tempo, il logo potrebbe essere cambiato (ad esempio per fusioni tra banche, aggiornamenti dell’identità grafica dell’issuer, ecc.)."
@@ -109,7 +109,7 @@ visualizzare in ogni momento il dettaglio delle transazioni accumulate con tutti
     body: "Continuerai a vedere le transazioni valide effettuate con quel metodo fino a quel giorno, ma non potrai accumularne di nuove dopo la mezzanotte del giorno in cui l’hai cancellato. "
     cat: "3|I metodi di pagamento"
   - title: Ho già salvato sull’app IO alcuni metodi di pagamento prima dell’avvio del Cashback e vorrei utilizzarli per partecipare. Devo registrarli nuovamente?
-    body: "No, non è necessario registrarli di nuovo. Nella schermata di dettaglio del Cashback potrai visualizzare la lista di tutti i metodi di pagamento già presenti nel tuo “Portafoglio” e, se compatibili con il cashback, potrai attivarli, disattivarli o aggiungerne di nuovi. [Verifica quali metodi di pagamento puoi già attivare](/metodi-pagaemnto/)."
+    body: "No, non è necessario registrarli di nuovo. Nella schermata di dettaglio del Cashback potrai visualizzare la lista di tutti i metodi di pagamento già presenti nel tuo “Portafoglio” e, se compatibili con il cashback, potrai attivarli, disattivarli o aggiungerne di nuovi. [Verifica quali metodi di pagamento puoi già attivare](/metodi-pagamento/)."
     cat: "3|I metodi di pagamento"
   - title: Se partecipo al programma con due o più carte, significa che posso ottenere due o più Cashback?
     body: "No, è il singolo cittadino che partecipa al Cashback a prescindere dalla quantità dei suoi metodi di pagamento. Le transazioni effettuate tramite i metodi di pagamento attivati dal cittadino saranno conteggiate cumulativamente ai fini del programma. Gli eventuali rimborsi vengono riconosciuti all’individuo, identificato tramite il suo codice fiscale. "
