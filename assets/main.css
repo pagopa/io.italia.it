@@ -358,7 +358,7 @@ textarea { resize: vertical; }
 
 .section__11_ptext { font-size: 1rem; color: #fff; }
 
-.section__12 { background-image: url("/assets/img/home-usertest.jpg"); background-repeat: no-repeat; background-position-x: center; background-size: cover; background-position-y: -25vw; position: relative; }
+.section__12 { background-image: url("https://static-web.io.italia.it/assets/img/home-usertest.jpg"); background-repeat: no-repeat; background-position-x: center; background-size: cover; background-position-y: -25vw; position: relative; }
 
 @media screen and (min-width: 768px) { .section__12 { background-position-x: 50vw; background-position-y: center; background-size: auto 100%; } }
 
@@ -376,7 +376,7 @@ textarea { resize: vertical; }
 
 .section__14 .text-desc { font-size: 1.1rem; color: #5c6f82; }
 
-.section__15 { background-color: #06c; background-image: url("" "/assets/img/home-sezione-download.jpg"); background-repeat: no-repeat; background-position-x: center; background-size: cover; background-position-y: center; position: relative; max-height: 400px; }
+.section__15 { background-color: #06c; background-image: url("https://static-web.io.italia.it" "/assets/img/home-sezione-download.jpg"); background-repeat: no-repeat; background-position-x: center; background-size: cover; background-position-y: center; position: relative; max-height: 400px; }
 
 @media screen and (min-width: 992px) { body.is-scrolled .section__2 .section-wrapper { margin-top: 39px; } }
 
@@ -400,7 +400,7 @@ textarea { resize: vertical; }
 
 .section__1__logo h2 { font-size: 1.75rem !important; margin-left: 0.5rem; margin-bottom: 0; }
 
-.section__1_img { position: relative; max-width: 100%; height: 741px; background-image: url("/assets/img/home-ambientato.jpg"); background-repeat: no-repeat; background-position-x: 70%; background-position-y: 200px; background-size: 1800px 620px; }
+.section__1_img { position: relative; max-width: 100%; height: 741px; background-image: url("https://static-web.io.italia.it/assets/img/home-ambientato.jpg"); background-repeat: no-repeat; background-position-x: 70%; background-position-y: 200px; background-size: 1800px 620px; }
 
 @media screen and (min-width: 768px) { .section__1_img { background-position-x: center; background-position-y: center; background-size: unset; } }
 
@@ -458,19 +458,19 @@ textarea { resize: vertical; }
 
 .btn-download--bg { display: inline-flex; align-items: center; }
 
-.btn-download--bg.ios:before { content: url("/assets/img/icon-appstore.svg"); position: relative; top: 2px; left: -4px; }
+.btn-download--bg.ios:before { content: url("https://static-web.io.italia.it/assets/img/icon-appstore.svg"); position: relative; top: 2px; left: -4px; }
 
-.btn-download--bg.android:before { content: url("/assets/img/icon-playstore.svg"); position: relative; top: 2px; left: -4px; }
+.btn-download--bg.android:before { content: url("https://static-web.io.italia.it/assets/img/icon-playstore.svg"); position: relative; top: 2px; left: -4px; }
 
 .btn-download--w-icon { display: inline-flex; align-items: center; }
 
-.btn-download--w-icon.ios:before { content: url("/assets/img/icon-appstore--blu.svg"); position: relative; top: 2px; left: -4px; fill: red; }
+.btn-download--w-icon.ios:before { content: url("https://static-web.io.italia.it/assets/img/icon-appstore--blu.svg"); position: relative; top: 2px; left: -4px; fill: red; }
 
-.btn-download--w-icon.android:before { content: url("/assets/img/icon-playstore--blu.svg"); position: relative; top: 2px; left: -4px; fill: red; }
+.btn-download--w-icon.android:before { content: url("https://static-web.io.italia.it/assets/img/icon-playstore--blu.svg"); position: relative; top: 2px; left: -4px; fill: red; }
 
-.btn-download--w-icon.ios:hover:before { content: url("/assets/img/icon-appstore.svg"); }
+.btn-download--w-icon.ios:hover:before { content: url("https://static-web.io.italia.it/assets/img/icon-appstore.svg"); }
 
-.btn-download--w-icon.android:hover:before { content: url("/assets/img/icon-playstore.svg"); }
+.btn-download--w-icon.android:hover:before { content: url("https://static-web.io.italia.it/assets/img/icon-playstore.svg"); }
 
 .section__cashback { background-color: #fff; position: relative; z-index: 9; }
 
@@ -512,7 +512,7 @@ textarea { resize: vertical; }
 
 @media screen and (min-width: 992px) { .italia { display: block; position: fixed; width: 60vw; height: calc(100vh - 50px); background-color: #f2f7fc; left: 0; margin: 0 auto; z-index: -5; top: 50px; right: 0; } }
 
-.italia__shape { position: absolute; width: 100%; height: calc(100vh - 50px); background: url("/assets/img/italy-dotted.jpg") center center no-repeat; background-size: cover; }
+.italia__shape { position: absolute; width: 100%; height: calc(100vh - 50px); background: url("https://static-web.io.italia.it/assets/img/italy-dotted.jpg") center center no-repeat; background-size: cover; }
 
 .device { visibility: hidden; position: absolute; z-index: 5; width: 227px; height: 491px; top: 160px; left: 50%; margin-left: -113.5px; background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxpdmVsbG9fMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDczMiAxNTg1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA3MzIgMTU4NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8ZyBpZD0iX3gyRF93aXAiPgoJPGcgaWQ9ImlvLml0YWxpYS5pdC0tLWhvbWUiPgoJCTxnIGlkPSJtb2NrdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAzMzkuMDAwMDAwKSI+CgkJCTxwYXRoIGlkPSJDb21iaW5lZC1TaGFwZSIgY2xhc3M9InN0MCIgZD0iTTE4OS0zMzkuNHYyMWMwLDE0LjksMTIuMSwyNywyNywyN2gzMDNjMTQuOSwwLDI3LTEyLjEsMjctMjd2LTIxaDEyNgoJCQkJYzMzLjEsMCw2MCwyNi45LDYwLDYwdjE0NjQuOWMwLDMzLjItMjYuOSw2MC02MCw2MEg2MGMtMzMuMSwwLTYwLTI2LjktNjAtNjBWLTI3OS4zYzAtMzMuMiwyNi45LTYwLDYwLTYwSDE4OXoiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==); background-size: cover; text-align: center; overflow: hidden; border-radius: 22px; box-shadow: 0px 24px 48px rgba(0, 0, 0, 0.25); transition: opacity .5s ease-out, margin-top .5s ease-in-out, opacity .5s linear, visibility .1s linear; }
 
@@ -988,15 +988,15 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 .pub-amm .section-carousel { position: relative; background: rgba(0, 102, 204, 0.8); }
 
-.pub-amm .section-carousel::before { content: ""; background: url("/assets/img/lista_enti_bg.jpg") center bottom no-repeat; background-size: cover; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; -webkit-transition: background-image 0.2s linear; transition: background-image 0.2s linear; }
+.pub-amm .section-carousel::before { content: ""; background: url("https://static-web.io.italia.it/assets/img/lista_enti_bg.jpg") center bottom no-repeat; background-size: cover; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; -webkit-transition: background-image 0.2s linear; transition: background-image 0.2s linear; }
 
-.pub-amm .section-carousel[data-slideid="1"]::before { background-image: url("/assets/img/pub-amm-1.JPG"); }
+.pub-amm .section-carousel[data-slideid="1"]::before { background-image: url("https://static-web.io.italia.it/assets/img/pub-amm-1.JPG"); }
 
-.pub-amm .section-carousel[data-slideid="2"]::before { background-image: url("/assets/img/pub-amm-2.JPG"); }
+.pub-amm .section-carousel[data-slideid="2"]::before { background-image: url("https://static-web.io.italia.it/assets/img/pub-amm-2.JPG"); }
 
-.pub-amm .section-carousel[data-slideid="3"]::before { background-image: url("/assets/img/pub-amm-3.JPG"); }
+.pub-amm .section-carousel[data-slideid="3"]::before { background-image: url("https://static-web.io.italia.it/assets/img/pub-amm-3.JPG"); }
 
-.pub-amm .section-carousel[data-slideid="4"]::before { background-image: url("/assets/img/pub-amm-4.JPG"); }
+.pub-amm .section-carousel[data-slideid="4"]::before { background-image: url("https://static-web.io.italia.it/assets/img/pub-amm-4.JPG"); }
 
 .pub-amm .section-carousel .card-slider { min-height: 405px; position: relative; }
 
@@ -1048,7 +1048,7 @@ body.layout--home #section_14 .tooltip .arrow { display: none; }
 
 .page-cittadini .section-qr { position: relative; background: rgba(0, 102, 204, 0.8); }
 
-.page-cittadini .section-qr::before { content: ""; background: url("/assets/img/cittadini/screenshot-qr.jpg") center bottom no-repeat; background-size: cover; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; }
+.page-cittadini .section-qr::before { content: ""; background: url("https://static-web.io.italia.it/assets/img/cittadini/screenshot-qr.jpg") center bottom no-repeat; background-size: cover; position: absolute; top: 0; right: 0; bottom: 0; left: 0; z-index: -1; }
 
 .page-cittadini .advantage-cards .icon { height: 50px; width: 50px; }
 
@@ -1134,9 +1134,9 @@ body.pagename--faq { background-color: #F2F7FC; }
 
 .pagename--bonus-vacanze .screenshot, .pagename--cashback .screenshot { border-radius: 20px !important; }
 
-.pagename--bonus-vacanze .play-button:before, .pagename--cashback .play-button:before { content: url("/assets/img/icon-playvideo.svg"); margin-right: 4px; vertical-align: middle; line-height: 1; }
+.pagename--bonus-vacanze .play-button:before, .pagename--cashback .play-button:before { content: url("https://static-web.io.italia.it/assets/img/icon-playvideo.svg"); margin-right: 4px; vertical-align: middle; line-height: 1; }
 
-.pagename--bonus-vacanze .play-button:hover:before, .pagename--cashback .play-button:hover:before { content: url("/assets/img/icon-playvideo--white.svg"); }
+.pagename--bonus-vacanze .play-button:hover:before, .pagename--cashback .play-button:hover:before { content: url("https://static-web.io.italia.it/assets/img/icon-playvideo--white.svg"); }
 
 .pagename--bonus-vacanze #introduzione, .pagename--cashback #introduzione { min-height: 80vh; position: relative; z-index: 8; }
 
@@ -1208,7 +1208,7 @@ body.pagename--faq { background-color: #F2F7FC; }
 
 .pagename--bonus-vacanze .bs-tooltip-auto[x-placement^="left"] .arrow, .pagename--bonus-vacanze .bs-tooltip-left .arrow, .pagename--cashback .bs-tooltip-auto[x-placement^="left"] .arrow, .pagename--cashback .bs-tooltip-left .arrow { right: 2px; }
 
-.pagename--cashback #intro-slider { background-color: #2d489d; background: url("/assets/img/cashback/pattern.png"), radial-gradient(circle, #2d489d 0%, rgba(45, 72, 157, 0.5)); }
+.pagename--cashback #intro-slider { background-color: #2d489d; background: url("https://static-web.io.italia.it/assets/img/cashback/pattern.png"), radial-gradient(circle, #2d489d 0%, rgba(45, 72, 157, 0.5)); }
 
 .pagename--cashback #intro-slider:after { content: " "; background: linear-gradient(0deg, #2d489d 10%, rgba(0, 102, 204, 0.4) 50%); }
 
