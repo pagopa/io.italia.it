@@ -362,10 +362,9 @@ visualizzare lo storico delle transazioni effettuate e dei relativi
 rimborsi maturati, oltre alla tua posizione in graduatoria per ottenere
 il rimborso speciale ("Super Cashback").
 
-Puoi rivolgerti a **PagoPA S.p.A**. - utilizzando l'apposita funzione di
-assistenza disponibile direttamente nell'app IO - per ricevere:
+Puoi rivolgerti a **PagoPA S.p.A**. - utilizzando l’apposita funzione di assistenza disponibile direttamente nell’app IO - per ricevere:
 
-- assistenza tecnica per l'adesione al Programma tramite l'**app IO**;
+- assistenza tecnica per l'adesione al Programma **[tramite l'app IO](/cashback/)**;
 - assistenza in caso di mancata visualizzazione sull'**app IO** delle transazioni effettuate nell'ambito del Programma con gli Strumenti di Pagamento elettronici registrati ai fini del Cashback.
 
 Rivolgiti al tuo **Issuer Convenzionato** (cioè il soggetto che ha emesso lo Strumento di Pagamento elettronico tramite cui hai aderito al
@@ -377,10 +376,8 @@ Cashback), utilizzando i canali di assistenza da lui indicati per ricevere:
 **Per ogni altra esigenza di assistenza relativa alle singole operazioni di pagamento** - anche se effettuate tramite gli Strumenti di Pagamento
 elettronici registrati ai fini del Programma - dovrai comunque contattare l'**Issuer Convenzionato** e/o il circuito della carta e/o il titolare del servizio di pagamento\*\* che ti ha fornito lo Strumento di Pagamento elettronico utilizzato per quella transazione.
 
-In caso di **mancato o inesatto accredito** dei rimborsi previsti dal Programma, potrai presentare **reclamo a Consap S.p.A.** <u>entro 120
-giorni successivi all'ultimo giorno del mese nel quale è previsto il pagamento</u>, mediante invio dell'apposito modulo debitamente
-compilato e sottoscritto, unitamente agli allegati richiesti, che sarà disponibile online sul sito
-[www.consap.it/servizi-economia/cashback/](https://www.consap.it/servizi-economia/cashback/).
+**Esclusivamente in caso di mancato o inesatto accredito dei rimborsi** previsti dal Programma, potrai presentare reclamo a Consap S.p.A. entro 120 giorni successivi all'ultimo giorno del mese nel quale è previsto il pagamento, mediante invio dell’apposito modulo debitamente compilato e sottoscritto, unitamente agli allegati richiesti, che sarà disponibile online sul sito
+[www.consap.it](https://www.consap.it/servizi-economia/cashback/).
 
 Consap S.p.A. ti fornirà un riscontro motivato entro 30 giorni dalla
 data di ricezione del reclamo, e in caso di accoglimento, disporrà il
