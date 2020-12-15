@@ -298,7 +298,7 @@ it:
       note: Carta Reddito di cittadinanza
       io: 1
       iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane."
-      cashback: 4
+      cashback: 1
       cashbacktext: "Questo tipo di carta non è al momento attivabile per il Cashback."
       #######################
       #######################
