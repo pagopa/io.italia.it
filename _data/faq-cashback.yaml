@@ -185,7 +185,7 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
     body: "L’importo che concorre ai fini del calcolo del rimborso si ferma comunque ai 150 euro. Le transazioni superiori a questa cifra, daranno comunque un rimborso di 15 euro."
     cat: "5|I rimborsi"
   - title: Ho fatto un acquisto con la carta che ho attivato per il Cashback, ma ancora non vedo la transazione nella lista di quelle conteggiate sull’app IO?
-    body: "Per essere registrate dal programma le tue transazioni devono prima essere state contabilizzate dagli operatori di pagamento. Per questa ragione potrebbero essere necessari fino a tre giorni lavorativi da quando è stato effettuato il pagamento, prima di poter avere visibilità di un’operazione eseguita con uno dei metodi di pagamento che hai attivato ai fini del Cashback. "
+    body: "Per essere registrate dal programma le tue transazioni devono prima essere state contabilizzate dagli operatori di pagamento. Per questa ragione, prima di poter avere visibilità di un’operazione ai fini del Cashback,  potrebbero essere necessari fino a tre giorni lavorativi dopo la contabilizzazione da parte della tua banca."
     cat: "5|I rimborsi"
   - title: Due partecipanti al Cashback possono indicare per i rimborsi lo stesso codice IBAN, se sono co-intestatari?
     body: "Sì, dal momento che quel codice IBAN risulta associato ai Codici Fiscali di entrambi partecipanti, iscritti individualmente al programma."
