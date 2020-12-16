@@ -32,12 +32,17 @@
   {% include favicons.html %}
   {% include social.html %}
 
+  {% if site.google_verify %}
+  <meta name="google-site-verification" content="{{ site.google_verify }}">
+  {% endif %}
+  
   {%- if jekyll.environment == 'production' -%}
     {%- include analytics/google-analytics.html -%}
   {%- endif -%}
 
-  {% if site.google_verify %}
-  <meta name="google-site-verification" content="{{ site.google_verify }}">
-  {% endif %}
+  {% comment %}
+  Content Security Policy
+  {% endcomment %}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; connect-src 'self' https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com; font-src 'self'; img-src 'self' data: https://static-web.io.italia.it; frame-src https://www.youtube.com; script-src 'self' https://www.google-analytics.com/; style-src 'self' 'unsafe-inline';">
 
 </head>
