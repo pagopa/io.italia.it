@@ -1,5 +1,5 @@
 it:
-  last_update: 11/12/2020
+  last_update: 17/12/2020
   items:
     - name: American Express
       img: /assets/img/cashback/issuer/amex.png
@@ -28,9 +28,12 @@ it:
     - name: Satispay
       img: /assets/img/cashback/issuer/satispay.png
       startdate: 8/12/2020
-    #- name: SumUp
-    #  img: /assets/img/cashback/issuer/supmup.png
-    #  startdate: 14/12/2020
+    - name: SIApay
+      img: /assets/img/cashback/issuer/siapay.png
+      startdate: 8/12/2020
+    - name: SumUp
+      img: /assets/img/cashback/issuer/sumup.png
+      startdate: 9/12/2020
     - name: Unicredit
       img: /assets/img/cashback/issuer/unicredit.png
       startdate: 8/12/2020
