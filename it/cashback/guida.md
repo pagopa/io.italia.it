@@ -239,16 +239,22 @@ successivi del Programma.
 <th>Tipologia di rimborso</th>
 </tr>
 <tr>
-<td><b>1° Semestre</b> (1° gennaio 2021 – 30 giugno 2021)</td>
-<td><u>Percentuale</u>: <b>Extra Cashback</b> di Natale del <b>10%</b> per un <b>minimo di 10 transazioni</b></td>
+<td><b>Periodo sperimentale</b> (08-31 dicembre 2020)
+</td>
+<td><u>Percentuale</u>: <b>Extra Cashback di Natale</b> del <b>10%</b> per un <b>minimo di 10 transazioni</b>
+</td>
 </tr>
 <tr>
-<td><b>2° Semestre</b> (1° luglio 2021 – 31 dicembre 2021)</td>
-<td rowspan="2">
+<td><b>1° Semestre</b> (1° gennaio 2021 – 30 giugno 2021)</td>
+<td rowspan="3">
 <u>Percentuale</u>: <b>Cashback</b> del <b>10%</b> per un <b>minimo di 50 transazioni</b> a periodo
 <p></p>
 <u>Speciale</u>: <b>Super Cashback</b> di <b>€ 1500</b>, se tra i primi 100.000 Aderenti con il maggior numero di transazioni nel periodo.
 </td>
+</tr>
+<tr>
+<td><b>2° Semestre</b> (1° luglio 2021 – 31 dicembre 2021)</td>
+
 </tr>
 <tr>
 <td><b>3° Semestre</b> (1° gennaio 2022 – 30 giugno 2022)</td>
