@@ -36,6 +36,9 @@ it:
   - title: Posso partecipare anche se non ho un conto corrente?
     body: "E’ necessario indicare un codice IBAN per ricevere il bonifico degli eventuali rimborsi maturati al termine di ciascun periodo dell’iniziativa. Ti ricordiamo che l’IBAN può essere associato a un conto corrente, ma anche a una specifica tipologia di carte. _Per maggiori dettagli sull'IBAN leggi le relative FAQ nella sezione \"Rimborsi\"_."
     cat: "1|I requisiti per partecipare"
+  - title: Ho un carta PagoBANCOMAT che riporta anche un secondo logo, come posso registrarla sull’app IO e attivarla al Cashback?
+    body: "Se la tua carta PagoBANCOMAT mostra altri circuiti internazionali (Mastercard, Maestro, Visa, Visa Electron o V-Pay), puoi aggiungerla sia come normale PagoBANCOMAT che come carta di debito o di credito, inserendo nell’apposito form, il numero riportato sul fronte della carta. Attivando anche quel metodo al Cashback, potrai accumulare le transazioni effettuate su questi circuiti."
+    cat: "1|I requisiti per partecipare"
   - title: Dove trovo il servizio per attivare il Cashback sull’app IO?
     body: "Dopo aver effettuato l’accesso all’app, per iscriverti al programma entra nella sezione “Portafoglio”, clicca sul pulsante in evidenza “Cashback” e segui le istruzioni. In alternativa, puoi cliccare su “Aggiungi” in corrispondenza della voce “Bonus e Sconti” e selezionare “Cashback” dalla lista di quelli disponibili; l’app IO ti guiderà nei passaggi successivi. "
     cat: "2|L'iscrizione al Cashback"
@@ -165,6 +168,9 @@ visualizzare in ogni momento il dettaglio delle transazioni accumulate con tutti
   - title: Concorrono al Cashback anche gli acquisti effettuati a domicilio che pago alla consegna tramite un dispositivo come Mobile POS?
     body: "Sì, a patto che per la transazione sia utilizzato un dispositivo fornito da [Acquirer Convenzionati](/cashback/acquirer/) che ti permettano di partecipare all’iniziativa"
     cat: "4|Gli acquisti"
+  - title: Perché non vedo sull’app IO tra le transazioni valide per il Cashback l’acquisto che ho effettuato in modalità contactless con una carta PagoBANCOMAT?
+    body: "L'acquisto potrebbe essere stato escluso dal Cashback perché transitato su un circuito per il quale la tua carta non era stata attivata: se la tua carta PagoBANCOMAT mostra altri circuiti internazionali (Mastercard, Maestro, Visa, Visa Electron o V-Pay), puoi aggiungerla sia come normale PagoBANCOMAT che come carta di debito o di credito, inserendo nell’apposito form, il numero riportato sul fronte della carta. Attivando anche quel metodo al Cashback, potrai accumulare le transazioni effettuate su questi circuiti."
+    cat: "4|Gli acquisti"
   - title: Qual è l’importo massimo del Cashback che posso ottenere?
     body: "Il rimborso massimo che puoi ottenere in ciascun periodo è pari a 150 euro. L’ammontare del Cashback sarà dato dalla somma dei rimborsi sulle singole transazioni valide ai fini del programma, che sono pari al 10% dell’importo per transazioni fino ai 150 euro, o pari a 15 euro per transazioni pari o superiori a 150 euro.
 Ad esempio, se hai effettuato:
@@ -237,7 +243,10 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
     body: "Nella schermata di dettaglio del Cashback, disponibile nella sezione “Portafoglio” dell’app IO. Inizierai a visualizzare la tua posizione in graduatoria solo dopo aver superato la soglia minima delle 50 transazioni. La classifica, che si basa sul numero complessivo di transazioni valide, può cambiare fino al termine di ciascun semestre. L’app IO ti mostrerà quante transazioni hanno effettuato il 1° e il 100millesimo partecipante in classifica, così da permetterti di visualizzare il numero di transazioni richieste in quel momento per entrare nella graduatoria e quanto ti manca per riuscire a scalarla. "
     cat: "7|Il monitoraggio sulla partecipazione"
   - title: Mi sono appena iscritto/a al Cashback, perché non riesco a visualizzare sull’app IO la mia posizione nella graduatoria per il Super Cashback?
-    body: " La tua posizione nella classifica del Super Cashback (attivo dal 1° gennaio 2021) sarà visibile dopo che avrai raggiunto la soglia minima di transazioni: pari a 50 in ciascun semestre."
+    body: "La tua posizione nella classifica del Super Cashback (attivo dal 1° gennaio 2021) sarà visibile dopo che avrai raggiunto la soglia minima di transazioni: pari a 50 in ciascun semestre."
+    cat: "7|Il monitoraggio sulla partecipazione"
+  - title: Non mi è stato riconosciuto ai fini del Cashback un acquisto effettuato con la stessa carta per cui sull’app IO risultano valide tutte le altre transazioni, come mai?
+    body: "L’acquisto per cui non visualizzi la transazione potrebbe corrispondere a un pagamento eseguito con il POS fornito all’esercente da un soggetto (Acquirer) non ancora convenzionato. Ti ricordiamo comunque che le transazioni richiedono in media 3 giorni lavorativi dopo la contabilizzazione da parte della tua banca per essere visualizzate sull’app IO."
     cat: "7|Il monitoraggio sulla partecipazione"
   - title: Qual è la differenza tra l’Extra Cashback di Natale e gli altri periodi del Cashback?
     body: "Le condizioni e le modalità di partecipazione restano le stesse che valgono anche per gli altri periodi, tranne che per: 
