@@ -39,7 +39,7 @@ it:
     body: "Quando richiedi il Bonus, l’app IO verifica con i sistemi di INPS che il tuo ISEE sia sotto la soglia prevista, basandosi sull’importo calcolato a partire dai dati inseriti nell’ultima Dichiarazione Sostitutiva Unica (DSU) presentata per il tuo nucleo familiare.\ 
     Se a INPS non risulta alcuna DSU in corso di validità per la tua famiglia, IO ti avvisa con un messaggio sull’app e  potrai richiedere nuovamente il Bonus, solo dopo aver presentato una DSU attraverso [i canali messi a disposizione dall’INPS](https://www.inps.it/nuovoportaleinps/default.aspx?itemdir=50088).\ 
     Se, invece, ti risulta di aver già presentato una DSU per il calcolo ISEE, ti invitiamo a **verificare direttamente sul sito di INPS che sia in corso di validità**. In caso positivo, ti invitiamo a fare un nuovo tentativo per richiedere il Bonus sull'app. Se il problema dovesse persistere,\ 
-    puoi inviare una richiesta di assistenza direttamente dall'app tramite la funzione “Segnala un bug” che trovi aprendo l'help dal punto di domanda (?) in alto a destra in tutte le schermate."
+    puoi inviare una richiesta di assistenza direttamente dall'app tramite la funzione “Scrivi al team di IO” che trovi aprendo l'help dal punto di domanda (?) in alto a destra in tutte le schermate."
   - title: Ho fatto richiesta del Bonus dopo aver presentato la DSU per il calcolo dell’ISEE, ma l’app IO mi segnala che la mia DSU presenta “omissioni o difformità”. Cosa devo fare?
     body: "Se l’app ti avverte che la tua DSU presenta “omissioni o difformità”, puoi: <br>&bull; interrompere la richiesta del Bonus e presentare una nuova DSU per aggiornare il tuo ISEE. In questo caso, potrai richiedere nuovamente il Bonus in un secondo momento;<br>\ 
           &bull; oppure puoi verificare la DSU presentata all’INPS e - se è tutto corretto -  proseguire comunque con la richiesta. Se decidi di proseguire con l’attivazione del Bonus, dopo averlo utilizzato presso la struttura turistica prescelta,\ 
@@ -59,11 +59,12 @@ it:
     body: "Se il tuo nucleo familiare ha già un bonus attivo, non sarà possibile procedere con una nuova richiesta. In questo caso, l’app IO ti informerà che - come ogni altro componente del tuo nucleo familiare che abbia un account su IO - potrai visualizzare i dati relativi al Bonus già attivo nella sezione “Portafoglio” dell’app,\ 
     dove rimarrà disponibile fino al suo utilizzo da parte di uno dei componenti del tuo nucleo familiare."
   - title: Nell’app IO trovo l’elenco delle strutture turistiche che accettano il “Bonus Vacanze”? 
-    body: "No. L'adesione delle strutture turistico-ricettive all’iniziativa è libera e non è previsto un meccanismo di “iscrizione” a nessun elenco.\ 
+    body: "L'adesione delle strutture turistico-ricettive all’iniziativa è libera e non è previsto un meccanismo di “iscrizione” a nessun elenco.\ 
     Sta alla struttura informare i clienti, attraverso propri canali, del fatto che accetta o meno il Bonus Vacanze.\ 
-    Prima di richiederlo, assicurati che ti sarà possibile utilizzarlo dove hai scelto di soggiornare per le tue prossime vacanze."
+    Prima di richiederlo, assicurati che ti sarà possibile utilizzarlo dove hai scelto di soggiornare per le tue prossime vacanze.\
+    Alcune strutture ricettive hanno segnalato la loro adesione al Bonus Vacanze in [https://www.bonus-vacanze.org/ricerca-strutture](questa pagina)."
   - title: Sull’app IO posso richiedere anche il Bonus Bici?
     body: "No. Non è previsto che il Bonus Bici sia erogato attraverso l’app IO."
   - title: Il Bonus Vacanze può essere richiesto anche da un componente del nucleo familiare che non abbia compiuto 18 anni?
-    body: "No. Anche se l’App IO è accessibile ai minori di 18 anni in possesso di CIE* (versione 3.0) sotto la supervisione dei genitori o dei tutori legali, il Bonus Vacanze non può essere richiesto da soggetti privi in tutto o in parte di capacità legale di agire ai sensi della normativa vigente.<br>
-    <i class='small text-muted d-block'>* Nota: Al momento, la funzionalità “Entra con CIE” è disponibile solo su dispositivi Android (versione 6.0 e superiori) e dotati di tecnologia NFC.</i>"
+    body: "No. Anche se l’App IO è accessibile ai minori di 18 anni in possesso di CIE (versione 3.0) sotto la supervisione dei genitori o dei tutori legali, il Bonus Vacanze non può essere richiesto da soggetti privi in tutto o in parte di capacità legale di agire ai sensi della normativa vigente.<br>
+    <i class='small text-muted d-block'>* Nota: La funzionalità 'Entra con CIE' è disponibile su dispositivi Android (versione 6.0 e superiori) dotati di tecnologia NFC. Sono inoltre supportati gli iPhone (dal modello 7 in su) con sistema operativo iOS 13 (o superiore).</i>"
