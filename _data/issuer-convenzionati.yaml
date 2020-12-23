@@ -1,0 +1,37 @@
+it:
+  last_update: 17/12/2020
+  items:
+    # use alphabetical order
+    #- name: American Express
+    #  img: /assets/img/cashback/issuer/amex.png
+      #url:
+    - name: BancomatPAY
+      img: /assets/img/cashback/issuer/bancomat-pay.png
+      #url: https://bancomat.it/it/bancomat/bancomat-pay
+    - name: App BancoPosta
+      img: /assets/img/cashback/issuer/app-bancoposta.png
+      url: https://www.poste.it/piano-italia-cashless.html
+    - name: App Postepay
+      img: /assets/img/cashback/issuer/app-postepay.png
+      url: https://www.poste.it/piano-italia-cashless.html
+    - name: App Sella
+      img: /assets/img/cashback/issuer/sella.png
+      url: https://www.sella.it/banca-online/landing/cashback/index.jsp?utm_source=CampagnaMail&utm_medium=email&utm_campaign=cashback-lancio#
+    - name: Enel X Pay
+      img: /assets/img/cashback/issuer/enelxpay.png
+      url: https://pay.enelx.com/cashback
+    - name: Flowe
+      img: /assets/img/cashback/issuer/flowe.png
+      #url:
+    - name: Hype
+      img: /assets/img/cashback/issuer/hype.png
+      url: https://www.hype.it/cashback-di-stato
+    - name: Nexi Pay
+      img: /assets/img/cashback/issuer/nexi-pay.png
+      url: https://www.nexi.it/privati/servizi/cashback.html
+    - name: Satispay
+      img: /assets/img/cashback/issuer/satispay.png
+      url: https://satispay.com
+    - name: YAP
+      img: /assets/img/cashback/issuer/yap.png
+      url: https://www.yap-app.it

@@ -19,19 +19,22 @@ layout: default
   {% if page.introduction_slides %}
     {% assign slides = page.introduction_slides %}
     <div class="intro-slider-wrapper">
-    <div id="intro-slider" class="carousel slide carousel-fade " data-ride="carousel">
+    <div id="intro-slider" {% if slides.size > 1 %}class="carousel slide carousel-fade " data-ride="carousel"{%endif%}>
+    {% if slides.size > 1 %}
     <ul class="carousel-indicators">
         {% for slide in slides %}
         <li data-target="#intro-slider" data-slide-to="{{forloop.index0}}" class="{% if forloop.first %}active{%endif%}"></li>
         {% endfor %}
     </ul>
+    {%endif%}
     <div class="carousel-inner">
         {% for slide in slides %}
         <div class="carousel-item {% if forloop.first %}active{%endif%} text-center">
-        <img src="{{slide}}" alt="">
+        <img src="{{slide | prepend: site.imagesurl}}" alt="">
         </div>
         {% endfor %}
     </div>
+    
     </div>
     </div><!--intro-slider-wrapper-->
     {% endif %}

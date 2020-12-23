@@ -226,6 +226,15 @@ $(function () {
     
     });
 
+    $(".read-more").click( function(event) {
+        event.preventDefault();
+        var $target = $(this).siblings('.read-more-target');
+        var $altButton = $(this).siblings('.read-more');
+        $(this).hide();
+        $target.toggle("slow");
+        $altButton.show();
+    });
+
 });
 
 $(window).on("load", function() {

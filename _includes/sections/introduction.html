@@ -1,61 +1,76 @@
+{% assign colFirstClass = "col-lg-7" %}
+{% assign colSecondClass = "col-lg-5" %}
+{% if page.intro_wide %}
+  {% assign colFirstClass = "col-lg-9" %}
+  {% assign colSecondClass = "col-lg-3" %}
+{% elsif page.intro_image==false %}
+  {% assign colFirstClass = "col-lg-8" %}
+  {% assign colSecondClass = "col-lg-4" %}
+{%endif%}
 <section
   class="container container--mid {% if page.layout=='internal-w-slides' %}mb-0{%else%}mb-5 {%endif%} d-flex {% if page.narrow %} mw-60{% endif %} {% if page.noheight %}noheight{%endif%}"
   id="introduzione"
 >
   <div class="row px-3 px-md-0 w-100">
-    <div class="{%- if page.intro_image -%}col-lg-7{% else %}col-lg-8{% endif %} {% if page.layout=='internal-w-slides' %}text-white d-flex justify-content-center flex-column {%else%}text-primary{%endif%} order-2 order-md-1">
+    <div class="{{colFirstClass}} {% if page.layout=='internal-w-slides' %}text-white d-flex justify-content-center flex-column {%else%}text-primary{%endif%} order-2 order-md-1">
       {% if page.pre-title %}
       <div class="introduzione-pre-title">{{ page.pre-title }}</div>
       {%endif%}
 
       <h1>{{ page.title }}</h1>
       <p class="my-4">{{ page.description }}</p>
-      {% if page.subdescription %}
-      <div class="mt-3 mb-1 small">{{page.subdescription}}</div>
-      {% endif %}
-      <div class="d-flex flex-column mb-3">
-        {%- if page.intro_primary_link -%}
-        <div class="py-2">
-          <a target="_blank"
-            href="{{ page.intro_primary_link }}"
-            class="{{page.intro_primary_customclass | default: 'btn btn-primary btn-sm text-uppercase'}}"
-            {%- if page.intro_primary_onclick -%} onclick="{{page.intro_primary_onclick}}" {%- endif -%}
-            >{{ page.intro_primary_text }} </a>
-          {%- if page.intro_ter_link -%}
-           {% if page.disable_br %} {%else%}<br class="d-block d-lg-none">{%endif%}
-           <a target="_blank"
-            href="{{ page.intro_ter_link }}"
-            class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}" 
-            {% if page.intro_ter_onclick %}onclick="{{page.intro_ter_onclick}}"{% endif %}
-            >{{ page.intro_ter_text }}</a>
-          {%- endif %}
-        </div>
-        {%- endif %}
-        {%- if page.intro_secondary_link -%}
-        <div class="py-2">
-          {%- if page.intro_secondary_disable_icon != true %}
-          <svg class="icon icon-sm icon-primary align-bottom">
-            <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
-          </svg>
-          {%- endif %}
-          <a target="_blank"
-            href="{{ page.intro_secondary_link }}"
-            class="{{page.intro_secondary_customclass | default:'small'}}"
-            {%- if page.intro_secondary_onclick -%} onclick="{{page.intro_secondary_onclick}}" {%- endif -%}
-          >
-            {{ page.intro_secondary_text }}
-          </a>
-          
-        </div>
-        {%- endif %}
-        
-      </div>
+      {% if page.intro_parametric_include %}
+          {%comment%}----- WITH PARAMETRIC INCLUDE ------{%endcomment%}
+          {%include {{page.intro_parametric_include }} %}
+      {%else%}
+          {%comment%}----- WITHOUT PARAMETRIC INCLUDE ------{%endcomment%}
+          {% if page.subdescription %}
+          <div class="mt-3 mb-1 small">{{page.subdescription}}</div>
+          {% endif %}
+          <div class="d-flex flex-column mb-3">
+            {%- if page.intro_primary_link -%}
+            <div class="py-2">
+              <a target="_blank"
+                href="{{ page.intro_primary_link }}" title="{{page.intro_primary_text}}"
+                class="{{page.intro_primary_customclass | default: 'btn btn-primary btn-sm text-uppercase'}}"
+                {%- if page.intro_primary_onclick -%} onclick="{{page.intro_primary_onclick}}" {%- endif -%}
+                >{{ page.intro_primary_text }} </a>
+              {%- if page.intro_ter_link -%}
+              {% if page.disable_br %} {%else%}<br class="d-block d-lg-none">{%endif%}
+              <a target="_blank"
+                href="{{ page.intro_ter_link }}" title="{{page.intro_ter_text}}"
+                class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}" 
+                {% if page.intro_ter_onclick %}onclick="{{page.intro_ter_onclick}}"{% endif %}
+                >{{ page.intro_ter_text }}</a>
+              {%- endif %}
+            </div>
+            {%- endif %}
+            {%- if page.intro_secondary_link -%}
+            <div class="py-2">
+              {%- if page.intro_secondary_disable_icon != true %}
+              <svg class="icon icon-sm icon-primary align-bottom">
+                <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
+              </svg>
+              {%- endif %}
+              <a target="_blank"
+                href="{{ page.intro_secondary_link }}" title="{{page.intro_secondary_text}}"
+                class="{{page.intro_secondary_customclass | default:'small'}}"
+                {%- if page.intro_secondary_onclick -%} onclick="{{page.intro_secondary_onclick}}" {%- endif -%}
+              >
+                {{ page.intro_secondary_text }}
+              </a>
+              
+            </div>
+            {%- endif %}
+            
+          </div><!--/dflex-->
+      {%endif %}
     </div>
     {%- if page.intro_image -%}
-    <div class="col-lg-5 order-1 order-lg-2 d-flex align-items-center justify-content-center mb-2 mb-md-0 col-intro-img">
+    <div class="{{colSecondClass}} order-1 order-lg-2 d-flex align-items-center justify-content-center mb-2 mb-md-0 col-intro-img">
       <img
         class="img-fluid"
-        src="{{ page.intro_image | relative_url }}"
+        src="{{ page.intro_image | prepend: site.imagesurl }}"
         alt="Messaggi"
       />
     </div>

@@ -19,8 +19,9 @@ authors:
   it: PagoPa S.p.A.
 description:
   it: Ricevi messaggi, avvisi, comunicazioni dalla Pubblica Amministrazione. Resta aggiornato sulle scadenze e paga tributi e servizi in un’unica app.
-baseurl: "" # used by local & testing environment 
+baseurl: "" # used by local & testing environment
 url: "https://io.italia.it" # the base hostname & protocol for your site, e.g. http://example.com
+imagesurl: "https://static-web.io.italia.it" # host assets
 twitter_username:
 github_username:
 google_verify: BNVPPeU89nJ0EEzVBq2xufxMJsV06vVPXjsEtbqEsrE
@@ -36,7 +37,6 @@ plugins:
   - jekyll-redirect-from
 
 include: [".well-known"]
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

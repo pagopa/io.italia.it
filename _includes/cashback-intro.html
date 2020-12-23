@@ -1,0 +1,55 @@
+<div class="d-block d-md-flex">
+    <div class="mr-3">
+        <img src="{{site.imagesurl}}/assets/img/icon-playvideo--white.svg" class="d-none">
+        <div class="mt-3 mb-1 small">Guarda il video:</div>
+        <div class="py-2">
+            <a target="_blank" data-url="https://www.youtube.com/embed/ptw81HntNBc?rel=0" 
+            href="#" title="Video: Come si attiva il Cashback?"
+            class="btn btn-sm btn-download btn-download--w-icon text-uppercase px-3 play-button playvideo" >
+            Come si attiva il Cashback?</a>
+        </div>
+    </div><!--/col-->
+    <div>
+        {% if page.subdescription %}
+          <div class="mt-3 mb-1 small">{{page.subdescription}}</div>
+          {% endif %}
+          <div class="d-flex flex-column mb-3">
+            {%- if page.intro_primary_link -%}
+            <div class="py-2">
+              <a target="_blank"
+                href="{{ page.intro_primary_link }}" title="{{page.intro_primary_text}}"
+                class="{{page.intro_primary_customclass | default: 'btn btn-primary btn-sm text-uppercase'}}"
+                {%- if page.intro_primary_onclick -%} onclick="{{page.intro_primary_onclick}}" {%- endif -%}
+                >{{ page.intro_primary_text }} </a>
+              {%- if page.intro_ter_link -%}
+              {% if page.disable_br %} {%else%}<br class="d-block d-lg-none">{%endif%}
+              <a target="_blank"
+                href="{{ page.intro_ter_link }}" title="{{page.intro_ter_text}}"
+                class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}" 
+                {% if page.intro_ter_onclick %}onclick="{{page.intro_ter_onclick}}"{% endif %}
+                >{{ page.intro_ter_text }}</a>
+              {%- endif %}
+            </div>
+            {%- endif %}
+            {%- if page.intro_secondary_link -%}
+            <div class="py-2">
+              {%- if page.intro_secondary_disable_icon != true %}
+              <svg class="icon icon-sm icon-primary align-bottom">
+                <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
+              </svg>
+              {%- endif %}
+              <a target="_blank"
+                href="{{ page.intro_secondary_link }}" title="{{page.intro_secondary_text}}"
+                class="{{page.intro_secondary_customclass | default:'small'}}"
+                {%- if page.intro_secondary_onclick -%} onclick="{{page.intro_secondary_onclick}}" {%- endif -%}
+              >
+                {{ page.intro_secondary_text }}
+              </a>
+              
+            </div>
+            {%- endif %}
+            
+          </div><!--/dflex-->
+    </div><!--/col-->
+
+</div><!--/d-block-->

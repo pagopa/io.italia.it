@@ -1,8 +1,6 @@
 {% assign buildTime = site.time | date: '%Y%m%d%H%M' %}
 
-<script>
-  window.__PUBLIC_PATH__ = "{{ '/assets/font' }}";
-</script>
+<script src="{{ '/assets/js/fonts.js' }}"></script>
 
 {% comment %} jQuery 3.3.1 - Copyright © JS Foundation and other contributors,
 https://js.foundation/ - MIT license @link https://github.com/jquery/jquery/ 
@@ -69,11 +67,19 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/pub-amm.js' }}"></script>
 {% endif %}
 
+{% if page.ref == 'dashboard' %}
+<script src="{{ site.baseurl }}/assets/js/vendor/Chart.bundle.js"></script>
+
+{% endif %}
+
 {% if page.ref == 'dashboard' or page.ref == 'index' or page.ref=='bonus-vacanze' %}
-    <script src="{{ site.baseurl }}/assets/js/vendor/Chart.bundle.js"></script>
     <script src="{{ site.baseurl }}/assets/js/vendor/moment.min.js"></script>
     <script src="{{ '/assets/js/helpers.js?' | append: buildTime | relative_url }}"></script>
     <script src="{{ '/assets/js/dashboard.js?' | append: buildTime | relative_url }}"></script>
+{% endif %}
+
+{% if page.ref == 'cashback-metodi' %}
+<script src="{{ '/assets/js/cashback-metodi.js?' | append: buildTime | relative_url }}"></script>
 {% endif %}
 
 

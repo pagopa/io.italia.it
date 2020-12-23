@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="25px" viewBox="0 0 25 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic-warning</title>
+    <defs>
+        <path d="M12.5,0 C19.4035594,0 25,5.59644063 25,12.5 C25,19.4035594 19.4035594,25 12.5,25 C5.59644063,25 0,19.4035594 0,12.5 C0,5.59644063 5.59644063,0 12.5,0 Z M12.5,2 C6.70101013,2 2,6.70101013 2,12.5 C2,18.2989899 6.70101013,23 12.5,23 C18.2989899,23 23,18.2989899 23,12.5 C23,6.70101013 18.2989899,2 12.5,2 Z M12.5,16 C13.32875,16 14,16.67125 14,17.5 C14,18.32875 13.32875,19 12.5,19 C11.67125,19 11,18.32875 11,17.5 C11,16.67125 11.67125,16 12.5,16 Z M12.5,6 C13.32875,6 14,6.8055 14,7.8 C14,7.9575 13.9775,8.1078 13.946,8.2536 L13.946,8.2536 L13.25,14.1 C13.25,14.5968 12.914,15 12.5,15 C12.086,15 11.75,14.5968 11.75,14.1 L11.75,14.1 L11.054,8.2536 C11.0225,8.1078 11,7.9575 11,7.8 C11,6.8055 11.67125,6 12.5,6 Z" id="path-1"></path>
+    </defs>
+    <g id="ic-warning" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="warning">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask" fill-rule="nonzero"></g>
+            <g id="Group" mask="url(#mask-2)">
+                <g transform="translate(-8.333333, -9.375000)" id="color">
+                    <rect id="Rectangle-Copy-8" fill="#FEC709" x="0" y="0" width="100" height="100"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

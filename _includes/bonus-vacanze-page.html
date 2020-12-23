@@ -5,7 +5,7 @@
             <div class="row">
               <div class="col-12 col-md-6">
               <div class="d-flex justify-content-between flex-column section--dashboard__wrapper">
-                <img src="/assets/img/bonus-vacanze/logo-bonus-vacanze.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
+                <img src="{{site.imagesurl}}/assets/img/bonus-vacanze/logo-bonus-vacanze.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
                 <a id="bonusTotal" class="counter d-block text-decoration-none" href="/dashboard/#bonusvacanze" title="Vai alla dashboard"></a>
                 <div class="counterdesc">Bonus Vacanze generati
                   <span tabindex="0" data-toggle="tooltip" data-container="#section-dashboard" data-placement="right" 
@@ -20,7 +20,7 @@
               </div>
               <div class="col-12 col-md-6">
                 <div class="d-flex justify-content-between flex-column section--dashboard__wrapper">
-                  <img src="/assets/img/icon-money.svg" class="img-fluid my-3 my-md-0 " width="55" alt="Controvalore economico">
+                  <img src="{{site.imagesurl}}/assets/img/icon-money.svg" class="img-fluid my-3 my-md-0 " width="55" alt="Controvalore economico">
                   <a id="bonusAmount" class="counter d-block text-decoration-none" href="/dashboard/#bonusvacanze" title="Vai alla dashboard"></a>
                   <div class="counterdesc ">Controvalore economico
                   <span tabindex="0" data-toggle="tooltip" data-container="#section-dashboard" data-placement="right" 
@@ -52,7 +52,7 @@
             Come richiedere e utilizzare il Bonus
             </h2>
                 <p class="text-primary text-center">
-                <strong>Dal 1°luglio e fino al 31 dicembre 2020</strong> con l’app IO puoi richiedere e spendere il Bonus Vacanze, previsto dal Decreto Rilancio come misura di sostegno al turismo interno dopo l'emergenza Covid-19. In questa pagina, trovi tutte le informazioni per attivare su IO il tuo Bonus Vacanze.</p>
+                <strong>Dal 1°luglio e fino al 31 dicembre 2020</strong> con l’app IO puoi richiedere il Bonus Vacanze, previsto dal Decreto Rilancio come misura di sostegno al turismo interno dopo l'emergenza Covid-19, <strong>e spenderlo entro il 30 giugno 2021</strong>. In questa pagina, trovi tutte le informazioni per attivare su IO il tuo Bonus Vacanze.</p>
                 <div class="text-center">
                 <a href="./faq/" class="btn btn-sm btn-primary">Se hai dubbi consulta le FAQ</a>
                 </div>
@@ -65,14 +65,14 @@
     <div class="container pt-5 pt-md-0 pb-5 pb-md-0">
       <div class="row">
         <div class="col-md-4 order-2 pl-3 pt-3 py-md-5 px-md-5 text-center align-items-center d-md-flex">
-        <img class="img-fluid rounded shadow screenshot"  src="/assets/img/bonus-vacanze/screenshot-01.png" alt="Screenshot Login">
+        <img class="img-fluid rounded shadow screenshot"  src="{{site.imagesurl}}/assets/img/bonus-vacanze/screenshot-01.png" alt="Screenshot Login">
         </div>
         <div class="col-md-6 offset-md-1 order-1 pl-3 pt-3 py-md-5 px-md-5 ">
             <h3 class="h2 text-primary pb-4 pt-lg-4">
             <span class="d-block font-weight-normal">01</span>Accedi con SPID o CIE
             </h3>
           <p>Se non hai ancora installato l'app IO, puoi scaricarla dagli store e accedere con la tua identità digitale <a href="https://innovazione.gov.it/it/progetti/spid/" target="_blank" title="SPID">SPID</a> o, in alternativa, con la tua <a href="https://www.cartaidentita.interno.gov.it/identificazione-digitale/entra-con-cie/" target="_blank" title="SPID">Carta d’Identità Elettronica</a> (CIE 3.0*). In seguito alla prima registrazione, potrai accedere più facilmente digitando il PIN scelto da te o tramite riconoscimento biometrico (impronta digitale o riconoscimento del volto). </p>
-          <p class="small pr-0 pr-md-3">*per ora solo su Android (versione 6.0 e superiori)</p>
+          <p class="small pr-0 pr-md-3">*su dispositivi Android (versione 6.0 e superiori) dotati di tecnologia NFC e iPhone (dal modello 7 in su) con sistema operativo iOS 13 (o superiore)</p>
           <div class="my-3 my-md-5">
             
             <a class="btn btn-sm btn-outline-primary text-uppercase play-button bg-white playvideo" 
@@ -96,17 +96,17 @@
       <div class="row">
         <div class="offset-md-1 col-md-4 order-2 order-md-1 pl-3 pt-3 py-md-5 px-md-5 text-center align-items-center d-md-flex">
         <div class="video-uso-wrapper" >
-          <img  class="img-fluid rounded shadow screenshot playusevideoplaceholder"  src="/assets/img/bonus-vacanze/screenshot-02.png" alt="Screenshot Richiedi">
-          <img  class="playusevideo" src="/assets/img/icon-playusevideo.png" alt="Guarda la demo" rel="#video-uso-2">
+          <img  class="img-fluid rounded shadow screenshot playusevideoplaceholder"  src="{{site.imagesurl}}/assets/img/bonus-vacanze/screenshot-02.png" alt="Screenshot Richiedi">
+          <img  class="playusevideo" src="{{site.imagesurl}}/assets/img/icon-playusevideo.png" alt="Guarda la demo" rel="#video-uso-2">
         </div>
-        <img width="330" class="post-load-image" style="display:none" id="video-uso-2" data-src="/assets/img/bonus-vacanze/video-uso-bonus-vacanze-2.gif">
+        <img width="330" class="post-load-image" style="display:none" id="video-uso-2" data-src="{{site.imagesurl}}/assets/img/bonus-vacanze/video-uso-bonus-vacanze-2.gif">
         
         </div>
         <div class="col-md-6 order-1 order-md-2 pl-3 pt-3 py-md-5 px-md-5 ">
             <h3 class="h2 text-primary pb-4 pt-lg-4">
             <span class="d-block font-weight-normal">02</span>Verifica l'ISEE e richiedi il Bonus
             </h3>
-          <p>Per procedere alla richiesta del Bonus Vacanze è necessario avere un ISEE valido. Entrando nell’app IO, nella sezione Pagamenti, puoi aggiungere un nuovo Bonus/Sconto. Scegli “Bonus Vacanze” dalla lista di quelli disponibili; basterà seguire i passaggi per completare la richiesta e attivare il Bonus.</p>
+          <p>Per procedere alla richiesta del Bonus Vacanze è necessario avere un ISEE valido. Entrando nell’app IO, nel Portafoglio, puoi aggiungere un nuovo Bonus/Sconto. Scegli “Bonus Vacanze” dalla lista di quelli disponibili; basterà seguire i passaggi per completare la richiesta e attivare il Bonus.</p>
           <div class="my-3 my-md-5">
             <span class="text-primary text-uppercase font-weight-bold">Non hai un ISEE valido?</span>
             <p class="font-size-normal text-primary">
@@ -123,10 +123,10 @@
       <div class="row">
         <div class="col-md-4 order-2 pl-3 pt-3 py-md-5 px-md-5 text-center align-items-center d-md-flex">
         <div class="video-uso-wrapper" >
-          <img  class="img-fluid rounded shadow screenshot playusevideoplaceholder"  src="/assets/img/bonus-vacanze/screenshot-03.png" alt="Screenshot Utilizza">
-          <img  class="playusevideo" src="/assets/img/icon-playusevideo.png" alt="Guarda la demo" rel="#video-uso-3">
+          <img  class="img-fluid rounded shadow screenshot playusevideoplaceholder"  src="{{site.imagesurl}}/assets/img/bonus-vacanze/screenshot-03.png" alt="Screenshot Utilizza">
+          <img  class="playusevideo" src="{{site.imagesurl}}/assets/img/icon-playusevideo.png" alt="Guarda la demo" rel="#video-uso-3">
         </div>
-        <img width="330" class="post-load-image" style="display:none" id="video-uso-3" data-src="/assets/img/bonus-vacanze/video-uso-bonus-vacanze-3.gif">
+        <img width="330" class="post-load-image" style="display:none" id="video-uso-3" data-src="{{site.imagesurl}}/assets/img/bonus-vacanze/video-uso-bonus-vacanze-3.gif">
         </div>
         <div class="col-md-6 offset-md-1 order-1 pl-3 pt-3 py-md-5 px-md-5 ">
             <h3 class="h2 text-primary pb-4 pt-lg-4">
@@ -146,7 +146,7 @@
     <div class="container pt-5 pt-md-0 pb-5 pb-md-0">
       <div class="row">
         <div class="offset-md-1 col-md-4 order-2 order-md-1 pl-3 pt-3 py-md-5 px-md-5 text-center align-items-center d-md-flex">
-        <img class="img-fluid rounded shadow screenshot"  src="/assets/img/bonus-vacanze/screenshot-04.png" alt="Screenshot Condividi bonus">
+        <img class="img-fluid rounded shadow screenshot"  src="{{site.imagesurl}}/assets/img/bonus-vacanze/screenshot-04.png" alt="Screenshot Condividi bonus">
         </div>
         <div class="col-md-6 order-1 order-md-2 pl-3 pt-3 py-md-5 px-md-5 ">
             <h3 class="h2 text-primary pb-4 pt-lg-4">
@@ -162,7 +162,7 @@
     <div class="container pt-5 pt-md-0 pb-5 pb-md-0">
       <div class="row">
         <div class="col-md-4 order-2 pl-3 pt-3 py-md-5 px-md-5 text-center align-items-center d-md-flex">
-        <img class="img-fluid rounded shadow screenshot"  src="/assets/img/bonus-vacanze/screenshot-05.png" alt="Screenshot Help">
+        <img class="img-fluid rounded screenshot"  src="{{site.imagesurl}}/assets/img/bonus-vacanze/screenshot-05.png" alt="Screenshot Help">
         </div>
         <div class="col-md-6 offset-md-1 order-1 pl-3 pt-3 py-md-5 px-md-5 ">
             <h3 class="h2 text-primary pb-4 pt-lg-4">
@@ -171,7 +171,7 @@
           <p>Se hai domande relative all'utilizzo dell'app IO:
           <ul>
             <li>mentre usi IO, puoi consultare <b>maggiori informazioni</b> cliccando sull'<b>help</b>: il punto di domanda (?) che trovi in alto a destra in ogni schermata dell'app</li>
-            <li>se riscontri un <b>problema tecnico</b>, puoi segnalarlo direttamente nell'app tramite la funzione <b>"Segnala un bug"</b>. <i>In generale, sarà data precedenza alle richieste di assistenza ricevute direttamente dall'app</i>.</li>
+            <li>se riscontri un <b>problema tecnico</b>, puoi segnalarlo direttamente nell'app tramite la funzione <b>"Scrivi al team di IO"</b>. <i>In generale, sarà data precedenza alle richieste di assistenza ricevute direttamente dall'app</i>.</li>
             <li>se hai <b>problemi in fase di installazione</b> dell'app o <b>relativi all'accessibilità</b>, puoi scrivere una email a: <a href="mailto:assistenza@io.italia.it">assistenza@io.italia.it</a></li>
           </ul>
           

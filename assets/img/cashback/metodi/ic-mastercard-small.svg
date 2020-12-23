@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="16px" viewBox="0 0 24 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic-mastercard-small</title>
+    <g id="Pagine-Foglia" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Pagina-Metodi-di-pagamento-MVP" transform="translate(-550.000000, -1122.000000)" fill-rule="nonzero">
+            <g id="Group-10" transform="translate(0.000000, 927.000000)">
+                <g id="mastercard" transform="translate(550.000000, 195.000000)">
+                    <rect id="Rectangle" fill="#252525" x="0" y="0" width="24" height="16" rx="2"></rect>
+                    <circle id="Oval" fill="#EB001B" cx="9" cy="8" r="5"></circle>
+                    <circle id="Oval" fill="#F79E1B" cx="15" cy="8" r="5"></circle>
+                    <path d="M12,3.99963381 C13.2144467,4.91184014 14,6.36418217 14,8 C14,9.63581783 13.2144467,11.0881599 12,12.0003662 C10.7855533,11.0881599 10,9.63581783 10,8 C10,6.36418217 10.7855533,4.91184014 12,3.99963381 Z" id="Path" fill="#FF5F00"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

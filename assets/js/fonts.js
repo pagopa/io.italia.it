@@ -1,0 +1,1 @@
+window.__PUBLIC_PATH__ = "/assets/font";

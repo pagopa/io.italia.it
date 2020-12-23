@@ -23,14 +23,12 @@
     a {
       text-decoration: none;
     }
-
   }
   .services-text .btn {
     &:hover {
       background-color: #0053a6;
     }
   }
-  
 
   .section-services {
     background: radial-gradient(100% 100% at 50% 0%, #00266b 0%, #0073d1 100%);
@@ -70,7 +68,6 @@
         height: 70px;
         max-width: 32px;
       }
-      
 
       .row-buttons {
         @media (min-width: 768px) {
@@ -108,7 +105,8 @@
 
     &::before {
       content: "";
-      background: url(img/lista_enti_bg.jpg) center bottom no-repeat;
+      background: url($imagesurl + "/assets/img/lista_enti_bg.jpg") center
+        bottom no-repeat;
       background-size: cover;
       position: absolute;
       top: 0;
@@ -119,17 +117,17 @@
       -webkit-transition: background-image 0.2s linear;
       transition: background-image 0.2s linear;
     }
-    &[data-slideid="1"]::before{
-      background-image: url(img/pub-amm-1.JPG);
+    &[data-slideid="1"]::before {
+      background-image: url($imagesurl + "/assets/img/pub-amm-1.JPG");
     }
-    &[data-slideid="2"]::before{
-      background-image: url(img/pub-amm-2.JPG);
+    &[data-slideid="2"]::before {
+      background-image: url($imagesurl + "/assets/img/pub-amm-2.JPG");
     }
-    &[data-slideid="3"]::before{
-      background-image: url(img/pub-amm-3.JPG);
+    &[data-slideid="3"]::before {
+      background-image: url($imagesurl + "/assets/img/pub-amm-3.JPG");
     }
-    &[data-slideid="4"]::before{
-      background-image: url(img/pub-amm-4.JPG);
+    &[data-slideid="4"]::before {
+      background-image: url($imagesurl + "/assets/img/pub-amm-4.JPG");
     }
 
     .card-slider {

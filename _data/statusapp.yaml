@@ -1,0 +1,57 @@
+messages: # array di oggetti
+  - level: warning # valore previsto: normal, warning, critical
+    date: 2020-12-10 15:00 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Difficoltà di caricamento nel portafoglio di carte di circuito internazionale"
+      en: "Issues while adding international circuit cards in wallet"
+    message:
+      it: "I sistemi che gestiscono le transazioni sono in sovraccarico per il grosso numero di richieste. Stiamo lavorando con il nostro fornitore [SIA S.p.A.](https://www.sia.eu/it) per trovare una soluzione definitiva."
+      en: "Systems handling transactions are overloaded due to a large number of requests. We are working with our vendor [SIA S.p.A.](https://www.sia.eu) to find a permanent solution."
+  - level: normal # valore previsto: normal, warning, critical
+    date: 2020-12-09 17:31 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Risolto problema aggiunta carte PagoBANCOMAT"
+      en: "PagoBANCOMAT cards can be added regularly"
+    message:
+      it: "È possibile aggiungere le proprie carte PagoBANCOMAT, tramite ricerca generale o per specifica banca."
+      en: "You can now add your own PagoBANCOMAT cards, by using general search or querying a specific bank."
+  - level: normal # valore previsto: normal, warning, critical
+    date: 2020-12-09 17:30 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Risolto problema delle email di validazione"
+      en: "Validation email issues have been fixed"
+    message:
+      it: "Il sistema di validazione dell'indirizzo email è tornato ad essere pienamente funzionante."
+      en: "The email address validation system is fully functional again."
+  - level: critical # valore previsto: normal, warning, critical
+    date: 2020-12-08 16:31 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Problemi nell’aggiunta di carte di credito/debito"
+      en: "Issues while adding debit/credit cards"
+    message:
+      it: "Per un problema temporaneo, potresti non essere in grado di aggiungere al Portafoglio le tue carte di credito/debito. I nostri tecnici sono già al lavoro per risolvere il problema. Nel frattempo, verifica se puoi attivare il Cashback usando l’app della tua banca. Consulta la [lista aggiornata dei sistemi di iscrizione al Cashback](https://io.italia.it/cashback/issuer)"
+      en: "Due to a temporary issue, you may not be able to add your credit or debit cards to your Wallet. Our developers are already working on solving the problem. In the meantime, check if you can subscribe to Cashback using an alternative system. You can see the updated [list of all Cashback subscription systems](https://io.italia.it/cashback/issuer)"
+  - level: critical # valore previsto: normal, warning, critical
+    date: 2020-12-08 16:30 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Problemi nell’aggiunta di carte PagoBANCOMAT"
+      en: "Issues while adding PagoBANCOMAT cards"
+    message:
+      it: "Per un problema temporaneo, potresti non essere in grado di aggiungere al Portafoglio le tue carte PagoBANCOMAT. I nostri tecnici sono già al lavoro per risolvere il problema."
+      en: "Due to a temporary problem, you may not be able to add a PagoBANCOMAT card to your Wallet. Our developers are already working on solving the problem."
+  - level: critical # valore previsto: normal, warning, critical
+    date: 2020-12-08 16:29 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Metodi di pagamento non visualizzabili"
+      en: "Payment methods are not loaded"
+    message:
+      it: "A causa di un problema sui nostri sistemi, potremmo non essere sempre in grado di mostrarti i metodi salvati nel tuo Portafoglio. Se hai attivato dei metodi per il Cashback, saranno comunque registrate le relative transazioni valide ai fini del programma."
+      en: "Due to a temporary problem on our systems, we may not be able to display the payment methods you saved in your Wallet. If you have activated any methods for Cashback, the transactions done with those methods will still be recorded and considered for the reimbursement."
+  - level: warning # valore previsto: normal, critical, warning
+    date: 2020-12-08 16:28 # formato es: YYYY-mm-dd HH:MM
+    title:
+      it: "Rallentamenti nella ricezione delle email di validazione"
+      en: "Issues with validation email"
+    message:
+      it: "A causa dell'elevato numero di accessi, **il messaggio di validazione dell'indirizzo email potrebbe arrivare dopo diverse ore**. Ti invitiamo a **non premere il pulsante ‘Invia una nuova mail di validazione’** né a modificare l’indirizzo inserito, per non sovraccaricare ulteriormente i sistemi. I nostri tecnici sono già al lavoro per risolvere il problema."
+      en: "Due to the huge amount of requests, **the email to validate your address might be sent after several hours**. Please **do not press ‘Send a new validation email’ again** nor change your address, to not overload our systems. Our developers are already investigating the issue."

@@ -12,7 +12,7 @@
             {% assign disclaimer = l[1].disclaimer %}
             <a class="dropdown-item small text-uppercase lang-{{l[1].code}} {% if target_page.lang==current_lang%}active{%endif%}" href="{{target_page.url}}">
                 {% if disclaimer %}
-                <img src="/assets/img/droid.svg" class="droid" alt="AI translation">
+                <img src="{{site.imagesurl}}/assets/img/droid.svg" class="droid" alt="AI translation">
                 {% endif %}
                 {{l[1].full}}
             </a>

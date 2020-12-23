@@ -5,7 +5,7 @@
 <meta name="twitter:site" content="@pagopa">
 <meta name="twitter:creator" content="{{ site.authors[current_lang] }}">
 <meta name="twitter:title" content="{{ page.title_social | default: page.title | default: site.title[current_lang] | append: ' - ' | append: site.title[current_lang] | smartify }}">
-<meta name="twitter:description" content="{{ page.description | default: site.description[current_lang] | smartify }}">
+<meta name="twitter:description" content="{{ page.description_social | default: page.description | default: site.description[current_lang] | smartify }}">
 <meta name="twitter:image" content="{{ site.url | append: imageurl }}">
 
 <!-- Facebook -->
@@ -14,8 +14,8 @@
 <meta property="og:title" content="{{ page.title_social | default: page.title | default: site.title[current_lang] | append: ' - ' |  append: site.title[current_lang] | smartify }}">
 <meta property="og:description" content="{{ page.description_social | default: page.description | default: site.description[current_lang] | smartify }}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="{{ site.url | replace: 'https://', 'http://' | append: imageurl }}">
-<meta property="og:image:secure_url" content="{{ site.url | append: imageurl }}">
+<meta property="og:image" content="{{ site.imagesurl | replace: 'https://', 'http://' | append: imageurl }}">
+<meta property="og:image:secure_url" content="{{ site.imagesurl | append: imageurl }}">
 <meta property="og:image:type" content="image/jpg">
 {% if page.image == none %}
 <meta property="og:image:width" content="1200">
