@@ -198,3 +198,108 @@ function generateDownloads(downloads) {
       ],
     };
   }
+
+  function generatePieCashback(cashback) {
+    
+    var data = [0,0]
+    for (var i = 0; i < cashback.length; i++) {
+      var obj = cashback[i]
+      data[0] = data[0] + obj['io']
+      data[1] = data[1] + obj['others']
+    }
+
+    return {
+      labels: ['IO', 'Altri'],
+      datasets: [
+        {
+          data: data,
+          backgroundColor: ["rgb(0, 115, 230)","rgb(38, 200, 247)"],
+          hoverBackgroundColor: [
+            "rgb(0, 90, 200)","rgb(10, 160, 220)"
+          ],
+          hoverBorderColor: '#fff',
+        },
+      ],
+    };
+  }
+
+  function generateAderenti(aderenti) {
+    var labels = [];
+    var users = [];
+    for (let i = 0; i < aderenti.length; i++) {
+      var obj = aderenti[i]
+      var monthDate = moment(obj['day']);
+      // TOTALBONUS = TOTALBONUS + obj['total'];
+      const date = monthDate.format("YYYY-MM-DD");
+      labels.push(date.toString());
+      users.push(obj['total']);
+    }
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Utenti aderenti",
+          data: users,
+          borderWidth: 2,
+          backgroundColor: "rgb(0, 115, 230, 0.2)",
+          borderColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+      ],
+    };
+  }
+
+  function generateTrxDay(trx) {
+    var labels = [];
+    var transactions = [];
+    for (let i = 0; i < trx.length; i++) {
+      var obj = trx[i]
+      var monthDate = moment(obj['day']);
+      // TOTALBONUS = TOTALBONUS + obj['total'];
+      const date = monthDate.format("YYYY-MM-DD");
+      labels.push(date.toString());
+      transactions.push(obj['count']);
+    }
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Numero transazioni",
+          data: transactions,
+          borderWidth: 2,
+          backgroundColor: "rgb(0, 115, 230, 0.2)",
+          borderColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+      ],
+    };
+  }
+
+  function generateCarteOnboard(carteOnboard) {
+    var labels = [];
+    var cards = [];
+    for (let i = 0; i < carteOnboard.length; i++) {
+      var obj = carteOnboard[i]
+      var monthDate = moment(obj['day']);
+      // TOTALBONUS = TOTALBONUS + obj['total'];
+      const date = monthDate.format("YYYY-MM-DD");
+      labels.push(date.toString());
+      cards.push(obj['tot']);
+    }
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Numero carte",
+          data: cards,
+          borderWidth: 2,
+          backgroundColor: "rgb(0, 115, 230, 0.2)",
+          borderColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+      ],
+    };
+  }

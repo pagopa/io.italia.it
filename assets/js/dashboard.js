@@ -350,5 +350,251 @@ function loadJSON(callback) {
     $("#bonusAmount").text( dashboardData.generatedBonusAmount.toLocaleString("it") + " €");
     $("#numbonusredeem").text( dashboardData.redeemedBonusCount.toLocaleString("it"));
     $("#today").text( moment().format("DD/MM/YYYY") );
+    
+    // Bonus cashback 
+
+    $("#cashbackActive").text( dashboardData.tot_aderenti.toLocaleString("it"));
+    $("#totale_carte").text( dashboardData.totale_carte.toLocaleString("it"));
+    $("#tot_carteOnboard").text( dashboardData.tot_carteOnboard.toLocaleString("it"));
+    $("#tot_trx_per_day").text( dashboardData.tot_trx_per_day.toLocaleString("it"));
+    $("#trx_1").text( dashboardData.trx_1.toLocaleString("it"));
+    $("#trx_10").text( dashboardData.trx_10.toLocaleString("it"));
+    $("#trx_10_euro").text( dashboardData.trx_10_euro.toLocaleString("it"));
+    
+    var aderentiLine = document.getElementById("aderentiLine") ? document.getElementById("aderentiLine").getContext("2d") : undefined;
+    var aderenti = generateAderenti(dashboardData.aderenti);
+    var aderentiChart = aderentiLine ? new Chart(aderentiLine, {
+      type: "bar",
+      data: aderenti,
+      options: {
+        // Elements options apply to all of the options unless overridden in a dataset
+        // In this case, we are setting the border of each horizontal bar to be 2px wide
+        elements: {
+          rectangle: {
+            borderWidth: 2,
+          },
+        },
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Utenti cashback ",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+              type: 'time',
+              time: {
+                stepSize: 7,
+              }
+            },      
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: function(value) {
+                  var ranges = [
+                     { divider: 1e6, suffix: 'M' },
+                     { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                     for (var i = 0; i < ranges.length; i++) {
+                        if (n >= ranges[i].divider) {
+                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                        }
+                     }
+                     return n;
+                  }
+                  return formatNumber(value);
+               }
+              },
+            },
+          ],
+        },
+      },
+    }) : undefined;
+
+    var cardsElem = document.getElementById("carteOnboard") ? document.getElementById("carteOnboard").getContext("2d") : undefined;
+    var cards = generateCarteOnboard(dashboardData.carteOnboard);
+    var cardsChart = cardsElem ? new Chart(cardsElem, {
+      type: "bar",
+      data: cards,
+      options: {
+        // Elements options apply to all of the options unless overridden in a dataset
+        // In this case, we are setting the border of each horizontal bar to be 2px wide
+        elements: {
+          rectangle: {
+            borderWidth: 2,
+          },
+        },
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Carte registrate ",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+              type: 'time',
+              time: {
+                stepSize: 7,
+              }
+            },      
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: function(value) {
+                  var ranges = [
+                     { divider: 1e6, suffix: 'M' },
+                     { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                     for (var i = 0; i < ranges.length; i++) {
+                        if (n >= ranges[i].divider) {
+                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                        }
+                     }
+                     return n;
+                  }
+                  return formatNumber(value);
+               }
+              },
+            },
+          ],
+        },
+      },
+    }) : undefined;
+
+    var trxLine = document.getElementById("trxLine") ? document.getElementById("trxLine").getContext("2d") : undefined;
+    var transactions = generateTrxDay(dashboardData.trx_per_day);
+    var trxChart = trxLine ? new Chart(trxLine, {
+      type: "bar",
+      data: transactions,
+      options: {
+        // Elements options apply to all of the options unless overridden in a dataset
+        // In this case, we are setting the border of each horizontal bar to be 2px wide
+        elements: {
+          rectangle: {
+            borderWidth: 2,
+          },
+        },
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Transazioni ",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+              type: 'time',
+              time: {
+                stepSize: 7,
+              }
+            },      
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: function(value) {
+                  var ranges = [
+                     { divider: 1e6, suffix: 'M' },
+                     { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                     for (var i = 0; i < ranges.length; i++) {
+                        if (n >= ranges[i].divider) {
+                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                        }
+                     }
+                     return n;
+                  }
+                  return formatNumber(value);
+               }
+              },
+            },
+          ],
+        },
+      },
+    }) : undefined;
+
+
+    
+    var dataiovs = generatePieCashback(dashboardData.carteIoVsOthers);
+    var IoVsOthers = document.getElementById("iovsotherspie") ? document.getElementById("iovsotherspie").getContext("2d") : undefined;
+    var iovsotherPie = IoVsOthers ? new Chart(IoVsOthers, {
+      type: "pie",
+      data: dataiovs,
+      options: {
+        responsive: true,
+        legend: {
+          position: 'bottom',
+          labels : {
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+
+          }
+        }
+      },
+    }) : undefined; 
+    
+    
   });
   

@@ -83,7 +83,7 @@
         </div><!--/row-->
         <a name="bonusvacanze"/>
     </div><!--/container-->
-    
+
     <div class="dashboard__bonus mt-2 mt-md-5 pt-2 pt-md-5">
     <div class="container container--mid">
         <div class="row mb-2 mb-md-4">
@@ -154,4 +154,163 @@
         <div class="py-4"></div>
     </div><!--/container-->
     </div><!--dashboard__bonus-->
+
+    <div class="dashboard__bonus mt-2 mt-md-5 pt-2 pt-md-5">
+        <div class="container container--mid">
+            <div class="row mb-2 mb-md-4">
+                <h2 class="text-primary ">I numeri del Bonus Cashback</h2>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-6 py-1">
+                    <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center" >
+                            <img src="{{site.imagesurl}}/assets/img/bonus-vacanze/logo-bonus-vacanze.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Cashback attivati">
+                            <h5 id="cashbackActive" class="dashboardcard__number my-2" ></h5>
+                            <div class="dashboardcard__desc" >Bonus cashback attivati
+                                <span tabindex="0" data-toggle="tooltip" title="Numero di utenti che hanno attivato il Bonus Cashback"
+                                 class=""  data-placement="right">
+                                    <svg class="icon icon-white align-center ml-2">
+                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                      </use>
+                                    </svg>
+                                 </span>
+                            </div>
+                    </div><!--/dashboardcard-->
+                </div>
+                <div class="col-md-6 py-1">
+                    <div class="dashboardcard shadow d-flex flex-column justify-content-center" >
+                            <img src="{{site.imagesurl}}/assets/img/icon-money--gray.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
+                            <h5 id="trx_10_euro" class="dashboardcard__number my-2" ></h5>
+                            <div class="dashboardcard__desc" >Totale euro bonus cashback 
+                                <span tabindex="0" data-toggle="tooltip" title="Totale euro cashback raggiunto da utenti con almeno 10 transazioni. Si riferisce al 10% di cashback in euro"
+                                 class=""  data-placement="right">
+                                    <svg class="icon align-center ml-2">
+                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                      </use>
+                                    </svg>
+                                 </span>
+                            </div>
+                    </div><!--/dashboardcard-->
+                </div>
+            </div>
+            <div class="row my-2">
+                <div class="col-md-6 py-1">
+                    <div class="dashboardcard shadow d-flex flex-column justify-content-center" >
+                            <img src="{{site.imagesurl}}/assets/img/icon-money--gray.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
+                            <h5 id="totale_carte" class="dashboardcard__number my-2" ></h5>
+                            <div class="dashboardcard__desc" >Totale carte registrate su IO
+                                <span tabindex="0" data-toggle="tooltip" title="Totale carte registrate su IO "
+                                 class=""  data-placement="right">
+                                    <svg class="icon align-center ml-2">
+                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                      </use>
+                                    </svg>
+                                 </span>
+                            </div>
+                    </div><!--/dashboardcard-->
+                </div>
+
+             <div class="col-md-6 py-1">
+                <div class="dashboardcard shadow d-flex flex-column justify-content-center">
+                    <div class="row">
+                        <div class="col-6">
+                            <h4>Carte IO e altri</h4>
+                            <p>Carte registrate su IO e su altri serzivi</p>
+                        </div>
+                        <div class="col-6">
+                        <canvas class=" " id="iovsotherspie" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div>
+            <div class="row my-1">
+                <div class="col-12 my-3">
+                    <div class="dashboardcard shadow ">
+                        <h4>Utenti aderenti al cashback</h4>
+                        <p>Andamento degli utenti che hanno aderito al cashback</p>
+                        <div class="">
+                            <canvas class=" " id="aderentiLine"></canvas>
+                        </div>
+                    </div><!--/dashboardcard-->
+                </div><!--/col-12-->
+            </div>
+            <div class="row my-1">
+                <div class="col-12 my-3">
+                    <div class="dashboardcard shadow ">
+                        <h4>Carte registrate </h4>
+                        <p>Numero carte registrate giornalmente</p>
+                        <div class="">
+                            <canvas class=" " id="carteOnboard"></canvas>
+                        </div>
+                    </div><!--/dashboardcard-->
+                </div><!--/col-12-->
+            </div>
+
+            <div class="row my-1">
+                <div class="col-md-12 py-1">
+                    <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center" >
+                            <img src="{{site.imagesurl}}/assets/img/bonus-vacanze/logo-bonus-vacanze.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
+                            <h5 id="tot_trx_per_day" class="dashboardcard__number my-2" ></h5>
+                            <div class="dashboardcard__desc" > Totale transazioni gestite
+                                <span tabindex="0" data-toggle="tooltip" title="Numero di transazioni registrate per il cashback"
+                                 class=""  data-placement="right">
+                                    <svg class="icon icon-white align-center ml-2">
+                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                      </use>
+                                    </svg>
+                                 </span>
+                            </div>
+                    </div><!--/dashboardcard-->
+                </div>
+            </div>
+
+            <div class="row my-1">
+                <div class="col-12 my-3">
+                    <div class="dashboardcard shadow ">
+                        <h4>Transazioni al giorno</h4>
+                        <p>Andamento delle transazioni gestite per il cashback</p>
+                        <div class="">
+                            <canvas class=" " id="trxLine"></canvas>
+                        </div>
+                    </div><!--/dashboardcard-->
+                </div><!--/col-12-->
+            </div>
+
+            <div class="row my-2">
+                <div class="col-md-6 py-1">
+                    <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center" >
+                            <img src="{{site.imagesurl}}/assets/img/bonus-vacanze/logo-bonus-vacanze.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
+                            <h5 id="trx_1" class="dashboardcard__number my-2" ></h5>
+                            <div class="dashboardcard__desc" > Utenti con almeno una transazione
+                                <span tabindex="0" data-toggle="tooltip" title="Numero di Utenti con almeno una transazione"
+                                 class=""  data-placement="right">
+                                    <svg class="icon icon-white align-center ml-2">
+                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                      </use>
+                                    </svg>
+                                 </span>
+                            </div>
+                    </div><!--/dashboardcard-->
+                </div>
+                <div class="col-md-6 py-1">
+                    <div class="dashboardcard shadow d-flex flex-column justify-content-center" >
+                            <img src="{{site.imagesurl}}/assets/img/icon-money--gray.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
+                            <h5 id="trx_10" class="dashboardcard__number my-2" ></h5>
+                            <div class="dashboardcard__desc" >Utenti con almeno 10 transazioni
+                                <span tabindex="0" data-toggle="tooltip" title="Numero utenti con almeno 10 transazioni"
+                                 class=""  data-placement="right">
+                                    <svg class="icon align-center ml-2">
+                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                      </use>
+                                    </svg>
+                                 </span>
+                            </div>
+                    </div><!--/dashboardcard-->
+                </div>
+            </div>
+    
+            <div class="py-4"></div>
+        </div><!--/container-->
+    </div><!--dashboard__cashback-->
+
 </div><!--/dashboard-mainwrapper"-->
