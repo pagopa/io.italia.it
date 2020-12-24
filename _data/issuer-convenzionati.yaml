@@ -1,11 +1,11 @@
 it:
-  last_update: 17/12/2020
+  last_update: 24/12/2020
   items:
     # use alphabetical order
     #- name: American Express
     #  img: /assets/img/cashback/issuer/amex.png
       #url:
-    - name: BancomatPAY
+    - name: BANCOMAT Pay
       img: /assets/img/cashback/issuer/bancomat-pay.png
       #url: https://bancomat.it/it/bancomat/bancomat-pay
     - name: App BancoPosta
