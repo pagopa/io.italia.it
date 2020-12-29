@@ -359,7 +359,6 @@ function loadJSON(callback) {
     $("#tot_trx_per_day").text( dashboardData.tot_trx_per_day.toLocaleString("it"));
     $("#trx_1").text( dashboardData.trx_1.toLocaleString("it"));
     $("#trx_10").text( dashboardData.trx_10.toLocaleString("it"));
-    $("#trx_10_euro").text( dashboardData.trx_10_euro.toLocaleString("it"));
     
     var aderentiLine = document.getElementById("aderentiLine") ? document.getElementById("aderentiLine").getContext("2d") : undefined;
     var aderenti = generateAderenti(dashboardData.aderenti);
