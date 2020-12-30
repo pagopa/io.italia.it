@@ -255,10 +255,10 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
 
 - l'assenza del Super Cashback: non è previsto il rimborso speciale di 1500€ per i primi 100mila cittadini che effettuano più transazioni nel periodo. 
 "
-    cat: "8|L' extra Cashback di Natale"
+    cat: "8|L'Extra Cashback di Natale"
   - title: Il rimborso massimo che posso ottenere per l’Extra Cashback di Natale è sempre di 150 euro?
     body: "Sì, il rimborso massimo in tutti i periodi è pari a 150 euro. L’ammontare del Cashback sarà dato dalla somma dei rimborsi sulle singole transazioni valide ai fini del programma, che sono pari al 10% dell’importo per transazioni fino ai 150 euro, o pari a 15 euro per transazioni pari o superiori a 150 euro."
-    cat: "8|L' extra Cashback di Natale"
+    cat: "8|L'Extra Cashback di Natale"
   - title: Cosa succede se mi cancello dal programma?
     body: "La cancellazione dal programma comporta la perdita del diritto ai rimborsi per il periodo in corso. Se non vuoi perdere i rimborsi accumulati, devi aspettare che ti vengano accreditati sull’IBAN che hai comunicato (entro 60 giorni successivi alla fine di ciascun periodo). "
     cat: "9|La cancellazione"
@@ -281,3 +281,6 @@ si tratta delle versioni virtuali associate alla tua carta, composte da codici c
 
 Stiamo lavorando con i soggetti del settore dei pagamenti coinvolti nell’iniziativa per migliorare la visualizzazione sull’app IO di questo tipo di carte. Per maggiori informazioni puoi rivolgerti all’[Issuer Convenzionato](/cashback/issuer/) con cui hai attivato la tua carta per il Cashback. "
     cat: "3|I metodi di pagamento"
+  - title: Perché ancora non vedo come acquisto un pagamento effettuato tramite SumUp, che risale ai primi dieci giorni dell’Extra Cashback di Natale?
+    body: "Per i giorni compresi tra l’8 e il 18 dicembre 2020 [SumUp](https://sumup.it/) ha fatto sapere, con una precisazione sul [proprio sito](https://sumup.it/cashback-pos/#2hdA5CbT3fW7l9oMxOuaxo), che non può garantire che tutte le transazioni avvenute in questo periodo vengano acquisite per il conteggio del rimborso. SumUp ha, infatti, dichiarato di aver concluso in data 19 dicembre 2020 l’adeguamento tecnologico sulla totalità dei propri lettori di carte, per raggiungere la piena operatività tecnica nel primo periodo sperimentale del programma, detto Extra Cashback di Natale. Prima del 19 dicembre 2020 potrebbero essersi verificati disservizi ed anomalie rispetto ad alcune transazioni."
+    cat: "8|L'Extra Cashback di Natale"
