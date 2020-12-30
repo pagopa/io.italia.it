@@ -19,15 +19,16 @@
         {% unless include.filteredby %}<h2 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h2>{%endunless%}
         <div id="accordionDivFAQ{{gindex}}" class="collapse-faq collapse-div" role="tablist">
           {% for f in group.items %}
+          {% assign anchorname = "n" | append: gindex | append: "_" | append: forloop.index %}
           {% capture findex %}{{ findex | plus: 1 }}{% endcapture %}
           
-          <a name="n{{findex }}"></a>
+          <a name="{{anchorname}}"></a>
           <div class="collapse-header" id="heading{{findex}}">
-            <button data-toggle="collapse" data-nfaq="n{{findex}}" data-target="#accordion{{findex}}" aria-expanded="false" aria-controls="accordion{{findex}}">
+            <button data-toggle="collapse" data-nfaq="{{anchorname}}" data-target="#accordio{{anchorname}}" aria-expanded="false" aria-controls="accordio{{anchorname}}">
               {{f.title}}
             </button>
           </div>
-          <div id="accordion{{findex}}" class="collapse " role="tabpanel" aria-labelledby="heading{{findex}}" data-parent="#accordionDivFAQ{{gindex}}">
+          <div id="accordio{{anchorname}}" class="collapse " role="tabpanel" aria-labelledby="heading{{findex}}" data-parent="#accordionDivFAQ{{gindex}}">
             <div class="collapse-body">
               {{f.body | markdownify }}
             </div>
