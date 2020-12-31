@@ -200,7 +200,7 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
     body: "Sì, puoi modificare l’IBAN in ogni momento fino alla scadenza di ciascun periodo."
     cat: "5|I rimborsi"
   - title: C’è una scadenza temporale entro cui devo comunicare l’IBAN per poter ricevere il rimborso?
-    body: "Sì, per consentire l’accredito degli eventuali rimborsi a cui potrai avere diritto, devi indicare il codice IBAN entro la fine del periodo di riferimento. "
+    body: "Sì, di norma, per consentire l’accredito degli eventuali rimborsi a cui potrai avere diritto, devi indicare il codice IBAN entro la fine del periodo di riferimento. Per il primo periodo sperimentale detto “Extra Cashback di Natale”, hai tempo per inserire il tuo IBAN fino al 9 gennaio 2021."
     cat: "5|I rimborsi"
   - title: Posso partecipare al Cashback indicando l’IBAN associato a una carta prepagata ricaricabile?
     body: "Sì. Ti consigliamo di tenere conto di possibili “plafond”: alcune carte prepagate ricaricabili hanno dei limiti di ricarica e di saldo, per cui non si possono sorpassare determinati massimi riferiti al giorno, al mese o all’anno."
