@@ -5,7 +5,7 @@ subtitle:
 description: Ecco l’elenco completo degli enti che rendono i propri servizi disponibili nella fase di open beta
 lang: it
 ref: entipartecipanti
-permalink: /enti-partecipanti-beta/
+permalink: /enti/
 
 intro_image:
 intro_primary_text:
@@ -14,7 +14,7 @@ noheight: true
 redirect_from:
   - /ente/
   - /it/enti/
-  - /enti/
+  - /enti-partecipanti-beta/
   - /ente/aci.html
   - /ente/comune-di-milano.html
   - /ente/comune-di-palermo.html
