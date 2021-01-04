@@ -1,8 +1,8 @@
 ---
 layout: internal
-title: Enti e servizi disponibili nell’app IO
+title: Enti pubblici presenti su IO
 subtitle:
-description: Ecco l’elenco completo degli enti che rendono i propri servizi disponibili nella fase di open beta
+description: In questa pagina puoi consultare la lista delle amministrazioni locali o centrali che hanno integrato i primi servizi nell'app
 lang: it
 ref: entipartecipanti
 permalink: /enti/
