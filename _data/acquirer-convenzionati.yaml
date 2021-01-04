@@ -1,5 +1,5 @@
 it:
-  last_update: 17/12/2020
+  last_update: 24/12/2020
   items:
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
@@ -10,10 +10,7 @@ it:
     - name: Banca Sella
       img: /assets/img/cashback/acquirer/sella.png
       startdate: 8/12/2020
-    - name: Bancomat PAY
-      img: /assets/img/cashback/acquirer/bancomatpay.png
-      startdate: 8/12/2020
-    - name: ICRREA
+    - name: ICCREA
       img: /assets/img/cashback/acquirer/iccrea.png
       startdate: 8/12/2020
     - name: Nexi
