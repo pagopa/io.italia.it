@@ -8,7 +8,7 @@ $(function () {
     if (accordionNumber!='' && $accordionBtn) {
       $accordionBtn.collapse('show');
     }
-    $("*[data-parent='#accordionDivFAQ']").on('show.bs.collapse', function () {
+    $("*[data-parent^='#accordionDivFAQ']").on('show.bs.collapse', function () {
       let idToHash = $(this).attr('id');
       idToHash = idToHash.replace('accordion','n');
       window.history.replaceState(null,null,'#'+idToHash);
