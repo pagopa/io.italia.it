@@ -153,7 +153,7 @@ function generateDownloads(downloads) {
       var monthDate = moment(obj['date']);
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
-      all.push(obj['Poste ID'] + obj['Aruba ID'] + obj['Aruba ID'] + obj['Namirial ID'] + obj['Infocert ID']
+      all.push(obj['Poste ID'] + obj['Aruba ID'] + obj['Namirial ID'] + obj['Infocert ID']
          + obj['Intesa ID'] + obj['Lepida ID'] + obj['SPIDItalia Register.it'] + obj['Sielte ID'] + obj['Telecom Italia']);
       cie.push(obj['CIE']);
     }
