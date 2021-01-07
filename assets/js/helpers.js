@@ -23,6 +23,11 @@ function tooltipLabelCallbackYNumber(tooltipItem) {
   return formatNumberIntl(tooltipItem.yLabel);
 }
 
+function tooltipLabelCallbackArcNumber(tooltipItem, data) {
+  var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
+  return formatNumberIntl(value);
+}
+
 function generateDownloads(downloads) {
     var labels = [];
     var nDownloads = [];

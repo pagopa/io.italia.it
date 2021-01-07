@@ -101,6 +101,11 @@ function loadJSON(callback) {
             fontFamily: "'Titillium Web', Arial",
 
           }
+        },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackArcNumber
+          }
         }
       },
     }) : undefined;
@@ -526,6 +531,11 @@ function loadJSON(callback) {
             usePointStyle: true,
             fontFamily: "'Titillium Web', Arial",
 
+          }
+        },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackArcNumber
           }
         }
       },
