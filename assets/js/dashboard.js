@@ -78,6 +78,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -163,6 +168,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -229,6 +239,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -286,6 +301,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -358,6 +378,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -415,6 +440,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -472,6 +502,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -547,6 +582,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -600,6 +640,11 @@ function loadJSON(callback) {
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 

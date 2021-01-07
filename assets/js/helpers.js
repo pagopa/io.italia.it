@@ -19,6 +19,10 @@ function formatNumberSuffix(n) {
   return n;
 }
 
+function tooltipLabelCallbackYNumber(tooltipItem) {
+  return formatNumberIntl(tooltipItem.yLabel);
+}
+
 function generateDownloads(downloads) {
     var labels = [];
     var nDownloads = [];
