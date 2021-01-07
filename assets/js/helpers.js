@@ -1,6 +1,9 @@
 var TOTAL = 0
 var TOTALBONUS = 0
 
+function formatNumberIntl(n) {
+  return new Intl.NumberFormat().format(n);
+}
 function formatNumberSuffix(n) {
   var ranges = [
     { divider: 1e6, suffix: 'M' },
@@ -9,7 +12,8 @@ function formatNumberSuffix(n) {
 
   for (var i = 0; i < ranges.length; i++) {
     if (n >= ranges[i].divider) {
-      return (n / ranges[i].divider).toString() + ranges[i].suffix;
+      var formattedDivider = formatNumberIntl(n / ranges[i].divider);
+      return formattedDivider + ranges[i].suffix;
     }
   }
   return n;
