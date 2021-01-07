@@ -1,15 +1,9 @@
-<div class="cookiebar px-4 py-2 hide align-items-center" aria-hidden="true">
-  <p class="text-white mb-2 mb-md-0">{{t.cookies_disclaimer}}
+<div class="cookiebar p-4 hide align-items-center" aria-hidden="true">
+  <p class="text-white mb-3 mb-md-0">{{t.cookies_disclaimer}}&nbsp;
+    {% include internal-link.html target='privacy-policy' class='font-weight-bold text-white' string='Privacy Policy' %}
   </p>
   <p class="d-flex m-0 align-items-center justify-content-start justify-content-md-end">
-    <button data-accept="cookiebar" class="btn btn-primary mr-2">{{t.cookies_disclaimer_accept}}</button>
-    {% include internal-link.html target='privacy-policy' class='btn btn-outline-secondary' string='Privacy Policy' %}
-    <button class="btn ml-auto ml-md-2 p-0 cookiebar__close ">
-    <svg class="icon icon-white ">
-      <title>Non ora</title>
-      <use xlink:href="/assets/svg/sprite.svg#it-close">
-      </use>
-    </svg>
-  </button>
+    <button class="btn btn-outline-white mr-1 cookiebar__close">{{t.cookies_disclaimer_close}}</button>
+    <button data-accept="cookiebar" class="btn btn-white text-primary ml-1">{{t.cookies_disclaimer_accept}}</button>
   </p>
 </div>

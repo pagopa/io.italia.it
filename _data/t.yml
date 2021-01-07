@@ -8,8 +8,9 @@ it:
   social_card_path: "/assets/img/social-card.jpg"
   slim_owner: "PagoPA S.p.A."
   slim_owner_url: https://www.pagopa.gov.it/it/pagopa-spa/
-  cookies_disclaimer: "Questo sito utilizza cookie tecnici, nonchè cookie analitici di terze parti. Cliccando su “Accetta” accetti l’utilizzo dei cookie analitici, mentre chiudendo questo banner o proseguendo la navigazione rifiuti l’utilizzo di tali cookie."
-  cookies_disclaimer_accept: Accetto
+  cookies_disclaimer: "Questo sito utilizza cookie tecnici, nonchè cookie analitici di terze parti: puoi accettare l'utilizzo di questi cookie, o rifiutarlo chiudendo questo banner e proseguendo la navigazione."
+  cookies_disclaimer_accept: Accetta e continua
+  cookies_disclaimer_close: Chiudi
   home-section-1:
     h1: il progetto per sviluppare l'app dei servizi pubblici
     tieniti-aggiornato:
