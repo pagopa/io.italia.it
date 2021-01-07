@@ -73,21 +73,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -172,21 +158,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -252,21 +224,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -323,21 +281,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -409,21 +353,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -480,21 +410,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -551,21 +467,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -640,21 +542,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function (value) {
-                  var ranges = [
-                    { divider: 1e6, suffix: 'M' },
-                    { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                    for (var i = 0; i < ranges.length; i++) {
-                      if (n >= ranges[i].divider) {
-                        return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                      }
-                    }
-                    return n;
-                  }
-                  return formatNumber(value);
-                }
+                callback: formatNumberSuffix
               },
             },
           ],
@@ -707,21 +595,7 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function (value) {
-                  var ranges = [
-                    { divider: 1e6, suffix: 'M' },
-                    { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                    for (var i = 0; i < ranges.length; i++) {
-                      if (n >= ranges[i].divider) {
-                        return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                      }
-                    }
-                    return n;
-                  }
-                  return formatNumber(value);
-                }
+                callback: formatNumberSuffix
               },
             },
           ],

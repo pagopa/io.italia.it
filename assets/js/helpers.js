@@ -1,6 +1,20 @@
 var TOTAL = 0
 var TOTALBONUS = 0
 
+function formatNumberSuffix(n) {
+  var ranges = [
+    { divider: 1e6, suffix: 'M' },
+    { divider: 1e3, suffix: 'k' }
+  ];
+
+  for (var i = 0; i < ranges.length; i++) {
+    if (n >= ranges[i].divider) {
+      return (n / ranges[i].divider).toString() + ranges[i].suffix;
+    }
+  }
+  return n;
+}
+
 function generateDownloads(downloads) {
     var labels = [];
     var nDownloads = [];
