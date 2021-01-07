@@ -304,6 +304,26 @@ function generateDownloads(downloads) {
     };
   }
 
+  function generateUserTrx(raw) {
+    var clean = raw.filter(function(d) { return d.bin <= 150 })
+    var labels = clean.map(function (d, i) { return clean[i + 1] ? [d.bin, clean[i + 1].bin].join('-') : '+' + d.bin });
+    var data = clean.map(function (d) { return d.count });
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Numero utenti",
+          data: data,
+          borderWidth: 2,
+          backgroundColor: "rgb(0, 115, 230)",
+          borderColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+      ],
+    };
+  }
+
   function generateUserCashback(raw) {
     var labels = raw.map(function (d, i) { return [raw[i - 1] ? raw[i - 1].bin : 0, d.bin].join('-') + '€' });
     var data = raw.map(function(d) { return d.count });
