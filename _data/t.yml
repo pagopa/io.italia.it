@@ -1,15 +1,16 @@
 it:
   team: Team per la Trasformazione Digitale
   collaborazione: In collaborazione con
-  seguici: 'Seguici su:'
-  footer_disclaimer: 'PagoPA S.p.A., Piazza Colonna, 370, Roma, 00187 IT'
+  seguici: "Seguici su:"
+  footer_disclaimer: "PagoPA S.p.A., Piazza Colonna, 370, Roma, 00187 IT"
   note_legali: Note Legali
   informativa_newsletter: Informativa newsletter
   social_card_path: "/assets/img/social-card.jpg"
-  slim_owner: 'PagoPA S.p.A.'
+  slim_owner: "PagoPA S.p.A."
   slim_owner_url: https://www.pagopa.gov.it/it/pagopa-spa/
-  cookies_disclaimer: Questo sito utilizza cookie tecnici, analytics e di terze parti. Proseguendo nella navigazione accetti l’utilizzo dei cookie.
-  cookies_disclaimer_accept: Accetto
+  cookies_disclaimer: "Questo sito utilizza cookie tecnici, nonchè cookie analitici di terze parti: puoi accettare l'utilizzo di questi cookie, o rifiutarlo chiudendo questo banner e proseguendo la navigazione."
+  cookies_disclaimer_accept: Accetta e continua
+  cookies_disclaimer_close: Chiudi
   home-section-1:
     h1: il progetto per sviluppare l'app dei servizi pubblici
     tieniti-aggiornato:
@@ -45,42 +46,37 @@ it:
     schermata: Schermata
   home-section-2:
     title: <h2>I <b>messaggi</b> dalla Pubblica Amministrazione, in un'unica app</h2>
-    desc:
-      <p>Ricevi avvisi e comunicazioni da qualunque Ente pubblico, tutti in un unico punto, sul tuo telefono.</p><p>Resta sempre aggiornato sulle scadenze.</p><p>Completa il pagamento di servizi e tributi, direttamente dall’app.</p>
-    mockup: '/assets/img/mockups/it/mockup-02-messaggi.png'
+    desc: <p>Ricevi avvisi e comunicazioni da qualunque Ente pubblico, tutti in un unico punto, sul tuo telefono.</p><p>Resta sempre aggiornato sulle scadenze.</p><p>Completa il pagamento di servizi e tributi, direttamente dall’app.</p>
+    mockup: "/assets/img/mockups/it/mockup-02-messaggi.png"
   home-section-3:
     title: <h2>I <b>pagamenti</b> dei servizi pubblici, in pochi secondi</h2>
-    desc:
-      <p>Con <a href="https://innovazione.gov.it/it/progetti/pagopa/" target="_blank">pagoPA</a> integrata nell’app, paghi in modo rapido e sicuro i servizi di tutti gli Enti della Pubblica Amministrazione.</p><p>Usa i tuoi metodi di pagamento preferiti e tieni sempre a portata di mano lo storico di tutte le operazioni. </p>
-    mockup: '/assets/img/mockups/it/mockup-03-portafoglio.png'
+    desc: <p>Con <a href="https://innovazione.gov.it/it/progetti/pagopa/" target="_blank">pagoPA</a> integrata nell’app, paghi in modo rapido e sicuro i servizi di tutti gli Enti della Pubblica Amministrazione.</p><p>Usa i tuoi metodi di pagamento preferiti e tieni sempre a portata di mano lo storico di tutte le operazioni. </p>
+    mockup: "/assets/img/mockups/it/mockup-03-portafoglio.png"
   home-section-4:
     title: <h2>I <b>servizi</b> che ti interessano, a portata di mano</h2>
-    desc:
-      <p>Scegli di avere a disposizione sull’app <strong>diverse tipologie</strong> di servizi pubblici, erogati dagli Enti locali e nazionali.</p><p>Imposta le tue preferenze, per essere avvisato in prossimità di una scadenza (es. dai <strong>servizi anagrafici</strong>, per il rinnovo della Carta d’Identità), per sapere quando serve effettuare un pagamento (es. dai <strong>servizi scolastici</strong> per la mensa o dall’<strong>ufficio tributi</strong> per la TARI) o per ricevere notifiche in casi particolari (es. allerte della <strong>Protezione Civile</strong>).</p>
-    mockup: '/assets/img/mockups/it/mockup-05-preferenze.png'
+    desc: <p>Scegli di avere a disposizione sull’app <strong>diverse tipologie</strong> di servizi pubblici, erogati dagli Enti locali e nazionali.</p><p>Imposta le tue preferenze, per essere avvisato in prossimità di una scadenza (es. dai <strong>servizi anagrafici</strong>, per il rinnovo della Carta d’Identità), per sapere quando serve effettuare un pagamento (es. dai <strong>servizi scolastici</strong> per la mensa o dall’<strong>ufficio tributi</strong> per la TARI) o per ricevere notifiche in casi particolari (es. allerte della <strong>Protezione Civile</strong>).</p>
+    mockup: "/assets/img/mockups/it/mockup-05-preferenze.png"
   home-section-5:
     title: <h2>Tutte le tue <b>preferenze</b>, impostate un'unica volta.</h2>
     desc:
       <p>Inserisci una sola volta la tua lingua e la tua email. <b>Non dovrai più impostarla</b> in ogni singolo sito della Pubblica Amministrazione</p>
       <p>Sceglierai <b>quali messaggi</b> ricevere, e <b>come</b> riceverli.</p>
       <p>Potrai eleggere direttamente dall’app il tuo <b>domicilio digitale</b>, per ricevere le raccomandate a valore legale presso un <b>indirizzo pec</b>.</p>
-    mockup: '/assets/img/mockups/it/mockup-05-preferenze.png'
+    mockup: "/assets/img/mockups/it/mockup-05-preferenze.png"
   home-section-6:
     title: <h2><b>Identità</b> digitale e <b>privacy</b> sempre sotto il tuo controllo.</h2>
-    desc:
-      <p><b>Entra con SPID</b> per la massima sicurezza.</p>
+    desc: <p><b>Entra con SPID</b> per la massima sicurezza.</p>
       <p>Imposta un <b>PIN</b> o usa la tua <b>impronta digitale</b> per sbloccare l’app dopo il primo accesso.</p>
       <p>Mantieni il <b>controllo dei tuoi dati personali</b> nel pieno rispetto della <b>normativa GDPR</b>.</p>
       <p>Puoi <b>cancellare il tuo account</b> ed i tuoi dati in ogni momento.</p>
       <p><b>Revoca</b> da remoto i permessi di accesso nel caso il <b>telefono</b> venga <sb>rubato o smarrito</sb>.</p>
-    mockup: '/assets/img/mockups/it/mockup-06-profilo.png'
+    mockup: "/assets/img/mockups/it/mockup-06-profilo.png"
   home-section-7:
     title: I servizi che potrai usare tramite IO
     par1:
-      'IO parte dai bisogni dei cittadini: lavoreremo con gli enti titolari di ciascun servizio per integrarlo nell’app.
-      <br/>Per stabilire le priorità abbiamo organizzato i servizi in base a quante persone effettivamente li potrebbero usare a quanto spesso entrano nella vita quotidiana di ciascuno di noi. I servizi che vedi su questo sito sono solo dei possibili esempi.'
-    par2:
-      'Per alcuni di essi abbiamo attivato una sperimentazione a livello locale o nazionale. Per quelli più complessi dovremo aspettare mesi o anni. Sicuramente altri li abbiamo dimenticati: se ti viene in mente un altro servizio che ti sembra interessante proponilo nell’<a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">apposita sezione del forum</a>.'
+      "IO parte dai bisogni dei cittadini: lavoreremo con gli enti titolari di ciascun servizio per integrarlo nell’app.
+      <br/>Per stabilire le priorità abbiamo organizzato i servizi in base a quante persone effettivamente li potrebbero usare a quanto spesso entrano nella vita quotidiana di ciascuno di noi. I servizi che vedi su questo sito sono solo dei possibili esempi."
+    par2: 'Per alcuni di essi abbiamo attivato una sperimentazione a livello locale o nazionale. Per quelli più complessi dovremo aspettare mesi o anni. Sicuramente altri li abbiamo dimenticati: se ti viene in mente un altro servizio che ti sembra interessante proponilo nell’<a href="https://forum.italia.it/t/che-cose-io-la-app-del-cittadino/2901" target="_blank" rel="noopener">apposita sezione del forum</a>.'
     map_title: Mappa di utilizzo dei servizi pubblici
     map_desc: Nelle colonne puoi vedere la <b>percentuale di popolazione coinvolta</b>, nelle righe la diversa <b>frequenza d'uso</b>.
     map_th:
@@ -89,74 +85,58 @@ it:
       - Più del 60%
       - Più del 90%
     map_tr:
-      -
-        - Più volte al mese
-        - ''
-        - ''
-        -
-          - Cambiamenti di viabilità
+      - - Più volte al mese
+        - ""
+        - ""
+        - - Cambiamenti di viabilità
           - Allerte meteo
-        - ''
-      -
-        - Molte volte in un anno
-        - ''
-        -
-          - Tasse scolastiche
+        - ""
+      - - Molte volte in un anno
+        - ""
+        - - Tasse scolastiche
           - Multe
           - Colloqui e pagelle
           - Bandi e gare
-        -
-          - Posizione contributiva
+        - - Posizione contributiva
           - Certificati malattia
           - Pagamenti collaboratori domestici
-        -
-          - Ricette mediche
+        - - Ricette mediche
           - Rimborsi acquisti medicinali
-      -
-        - Qualche volta in un anno
-        -
-          - Contributi previdenziali
+      - - Qualche volta in un anno
+        - - Contributi previdenziali
           - Stato bonus
-        -
-          - Tributi
+        - - Tributi
           - Iscrizioni a scuola
           - Assenze scolastiche
           - Permesso parcheggio
           - Graduatoria asilo
           - Attività imprese
           - Storico pagamenti PA
-        -
-          - Scadenza bollo
+        - - Scadenza bollo
           - Punti patente
           - Scadenza assicurazione
           - Referti esami medici
-        -
-          - Spese mediche
-      -
-        - Qualche volta nella vita
-        -
-          - Cartelle esattoriali
+        - - Spese mediche
+      - - Qualche volta nella vita
+        - - Cartelle esattoriali
           - Atti giudiziari
-        -
-          - Cambio residenza
+        - - Cambio residenza
           - Congedo parentale
           - Scadenza passaporto
           - Rimozione auto
-        -
-          - Preferenze pagamento
+        - - Preferenze pagamento
           - Richiamo vaccini
           - Stato proprietà immobiliari
           - Scadenza patente
-        -
-          - Scadenza carta di identità
+        - - Scadenza carta di identità
           - Scadenza tessera elettorale
           - Certificato di nascita
           - Stato di famiglia
           - Scelta medico di base
           - Scadenza revisione auto
   home-section-8:
-    title: Resta aggiornato, iscriviti alla newsletter!  
-    desc: 'IO è un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo enti e servizi diversi. Iscriviti alla newsletter per restare aggiornato.' 
+    title: Resta aggiornato, iscriviti alla newsletter!
+    desc: "IO è un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo enti e servizi diversi. Iscriviti alla newsletter per restare aggiornato."
     placeholder: Indirizzo e-mail
     button: Iscriviti
     privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white text-hover-green" href="/informativa-newsletter/"><u>informativa sul trattamento dei dati personali per la newsletter</u></a>.
