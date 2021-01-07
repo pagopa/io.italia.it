@@ -1,5 +1,5 @@
 it:
-  last_update: 07/01/2021
+  last_update: 01/02/2021
   items:
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
@@ -10,6 +10,12 @@ it:
     - name: Banca Sella
       img: /assets/img/cashback/acquirer/sella.png
       startdate: 8/12/2020
+    - name: Diners Club
+      img: /assets/img/cashback/acquirer/diners.png
+      startdate: 14/12/2020
+    - name: Equens Worldline - Six Payments
+      img: /assets/img/cashback/acquirer/six.png
+      startdate: 01/02/2021
     - name: ICCREA
       img: /assets/img/cashback/acquirer/iccrea.png
       startdate: 8/12/2020
