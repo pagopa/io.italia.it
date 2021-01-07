@@ -592,8 +592,73 @@ function loadJSON(callback) {
           }
         }
       },
-    }) : undefined; 
-    
-    
+    }) : undefined;
+
+    var userCashbackChart = document.getElementById("userCashbackChart") ? document.getElementById("userCashbackChart").getContext("2d") : undefined;
+    var userCashback = generateUserCashback(dashboardData.cashback_by_user_bin);
+    var userCashbackChart = userCashbackChart ? new Chart(userCashbackChart, {
+      type: "bar",
+      data: userCashback,
+      options: {
+        // Elements options apply to all of the options unless overridden in a dataset
+        // In this case, we are setting the border of each horizontal bar to be 2px wide
+        elements: {
+          rectangle: {
+            borderWidth: 2,
+          },
+        },
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Utenti cashback ",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+            },
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: function (value) {
+                  var ranges = [
+                    { divider: 1e6, suffix: 'M' },
+                    { divider: 1e3, suffix: 'k' }
+                  ];
+                  function formatNumber(n) {
+                    for (var i = 0; i < ranges.length; i++) {
+                      if (n >= ranges[i].divider) {
+                        return (n / ranges[i].divider).toString() + ranges[i].suffix;
+                      }
+                    }
+                    return n;
+                  }
+                  return formatNumber(value);
+                }
+              },
+            },
+          ],
+        },
+      },
+    }) : undefined;
+
   });
-  
