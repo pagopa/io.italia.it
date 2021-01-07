@@ -1,5 +1,5 @@
 it:
-  last_update: 24/12/2020
+  last_update: 07/01/2021
   items:
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
@@ -12,6 +12,9 @@ it:
       startdate: 8/12/2020
     - name: ICCREA
       img: /assets/img/cashback/acquirer/iccrea.png
+      startdate: 8/12/2020
+    - name: Mercury Payment Services
+      img: /assets/img/cashback/acquirer/mercury.png
       startdate: 8/12/2020
     - name: Nexi
       img: /assets/img/cashback/acquirer/nexi.png
@@ -31,6 +34,9 @@ it:
     - name: SumUp
       img: /assets/img/cashback/acquirer/sumup.png
       startdate: 9/12/2020
+    - name: UBI
+      img: /assets/img/cashback/acquirer/ubi.png
+      startdate: 8/12/2020
     - name: Unicredit
       img: /assets/img/cashback/acquirer/unicredit.png
       startdate: 8/12/2020
