@@ -704,10 +704,11 @@ function loadJSON(callback) {
 
           // Update chart datasets (replace whole data to "restart" chart)
           // REF: https://www.chartjs.org/docs/latest/developers/updates.html
-          chart.data.labels = newData.labels;
-          chart.data.datasets.forEach((dataset, i) => {
-            dataset.data = newData.datasets[i].data
-          });
+          // chart.data.labels = newData.labels;
+          // chart.data.datasets.forEach((dataset, i) => {
+          //   dataset.data = newData.datasets[i].data
+          // });
+          chart.data = newData; // TODO: remove restart and fix bar overlap on transaction
           chart.update();
         }
       })
