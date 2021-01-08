@@ -694,9 +694,9 @@ function loadJSON(callback) {
 
           // Update chart datasets (replace whole data to "restart" chart)
           // REF: https://www.chartjs.org/docs/latest/developers/updates.html
-          var newDatasets = newData.datasets;
+          chart.data.labels = newData.labels;
           chart.data.datasets.forEach((dataset, i) => {
-            dataset.data = newDatasets[i].data
+            dataset.data = newData.datasets[i].data
           });
           chart.update();
         }
