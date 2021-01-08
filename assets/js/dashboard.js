@@ -660,20 +660,20 @@ function loadJSON(callback) {
 
     // Cashback periods
     var cardsDataMap = { // map element ids to dashboard data keys
-      "#cashbackActive": ["tot_aderenti"],
-      "#totale_carte": ["totale_carte"],
-      "#tot_carteOnboard": ["tot_carteOnboard"],
-      "#tot_trx_per_day": ["tot_trx_per_day"],
-      "#trx_1": ["trx_1"],
-      "#trx_10": ["trx_10"]
+      "#cashbackActive": ["tot_aderenti", "tot_aderenti_june"],
+      "#totale_carte": ["totale_carte", "totale_carte_june"],
+      "#tot_carteOnboard": ["tot_carteOnboard", "tot_carteOnboard_june"],
+      "#tot_trx_per_day": ["tot_trx_per_day", "tot_trx_per_day_june"],
+      "#trx_1": ["trx_1", "trx_1_june"],
+      "#trx_10": ["trx_10", "trx_10_june"]
     };
     var chartDataMap = [ // map chart and generator to dashboard data keys
-      [iovsotherPie, generatePieCashback, ["carteIoVsOthers"]],
-      [aderentiChart, generateAderenti, ["aderenti"]],
-      [cardsChart, generateCarteOnboard, ["carteOnboard"]],
-      [trxChart, generateTrxDay, ["trx_per_day"]],
-      [userTrxChart, generateUserTrx, ["user_by_trx_bin"]],
-      [userCashbackChart, generateUserCashback, ["cashback_by_user_bin"]]
+      [iovsotherPie, generatePieCashback, ["carteIoVsOthers", "carteIoVsOthers_june"]],
+      [aderentiChart, generateAderenti, ["aderenti", "aderenti_june"]],
+      [cardsChart, generateCarteOnboard, ["carteOnboard", "carteOnboard_june"]],
+      [trxChart, generateTrxDay, ["trx_per_day", "trx_per_day_june"]],
+      [userTrxChart, generateUserTrx, ["user_by_trx_bin", "user_by_trx_bin_june"]],
+      [userCashbackChart, generateUserCashback, ["cashback_by_user_bin", "cashback_by_user_bin_june"]]
     ];
 
     function changeCashbackPeriod(period) {
@@ -702,4 +702,7 @@ function loadJSON(callback) {
         }
       })
     }
+
+    $('#cashbackPeriod1').click(function () { changeCashbackPeriod(1) });
+    $('#cashbackPeriod2').click(function () { changeCashbackPeriod(2) });
   });
