@@ -80,6 +80,7 @@ function loadJSON(callback) {
         },
         tooltips: {
           callbacks: {
+            title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
           }
         }
@@ -175,6 +176,7 @@ function loadJSON(callback) {
         },
         tooltips: {
           callbacks: {
+            title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
           }
         }
@@ -246,6 +248,7 @@ function loadJSON(callback) {
         },
         tooltips: {
           callbacks: {
+            title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
           }
         }
@@ -308,6 +311,7 @@ function loadJSON(callback) {
         },
         tooltips: {
           callbacks: {
+            title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
           }
         }
@@ -386,6 +390,7 @@ function loadJSON(callback) {
         },
         tooltips: {
           callbacks: {
+            title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
           }
         }
@@ -449,6 +454,7 @@ function loadJSON(callback) {
         },
         tooltips: {
           callbacks: {
+            title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
           }
         }
@@ -512,6 +518,7 @@ function loadJSON(callback) {
         },
         tooltips: {
           callbacks: {
+            title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
           }
         }

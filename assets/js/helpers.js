@@ -19,6 +19,10 @@ function formatNumberSuffix(n) {
   return n;
 }
 
+function tooltipTitleCallbackXDate(tooltipItem) {
+  return new Date(tooltipItem[0].xLabel).toLocaleDateString();
+}
+
 function tooltipLabelCallbackYNumber(tooltipItem) {
   return formatNumberIntl(tooltipItem.yLabel);
 }
