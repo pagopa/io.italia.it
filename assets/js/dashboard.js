@@ -364,8 +364,9 @@ function loadJSON(callback) {
               type: 'time',
               time: {
                 stepSize: 7,
+                unit: 'day'
               }
-            },      
+            },
           ],
           yAxes: [
             {
@@ -426,8 +427,9 @@ function loadJSON(callback) {
               type: 'time',
               time: {
                 stepSize: 7,
+                unit: 'day'
               }
-            },      
+            },
           ],
           yAxes: [
             {
@@ -488,8 +490,9 @@ function loadJSON(callback) {
               type: 'time',
               time: {
                 stepSize: 7,
+                unit: 'day'
               }
-            },      
+            },
           ],
           yAxes: [
             {
