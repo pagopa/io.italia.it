@@ -68,4 +68,11 @@
   .bs-tooltip-left .arrow {
     right: 2px;
   }
+
+  .dashboard__title {
+    &.affix-top {
+      top: 1rem;
+      z-index: 1;
+    }
+  }
 }
