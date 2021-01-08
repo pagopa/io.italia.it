@@ -541,9 +541,9 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
-    var userTrxChart = document.getElementById("userTrxChart") ? document.getElementById("userTrxChart").getContext("2d") : undefined;
+    var userTrxCtx = document.getElementById("userTrxChart") ? document.getElementById("userTrxChart").getContext("2d") : undefined;
     var userTrx = generateUserTrx(dashboardData.user_by_trx_bin);
-    var userTrxChart = userTrxChart ? new Chart(userTrxChart, {
+    var userTrxChart = userTrxCtx ? new Chart(userTrxCtx, {
       type: "bar",
       data: userTrx,
       options: {
@@ -600,9 +600,9 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
-    var userCashbackChart = document.getElementById("userCashbackChart") ? document.getElementById("userCashbackChart").getContext("2d") : undefined;
+    var userCashbackCtx = document.getElementById("userCashbackChart") ? document.getElementById("userCashbackChart").getContext("2d") : undefined;
     var userCashback = generateUserCashback(dashboardData.cashback_by_user_bin);
-    var userCashbackChart = userCashbackChart ? new Chart(userCashbackChart, {
+    var userCashbackChart = userCashbackCtx ? new Chart(userCashbackCtx, {
       type: "bar",
       data: userCashback,
       options: {
