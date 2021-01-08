@@ -658,4 +658,48 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
+    // Cashback periods
+    var cardsDataMap = { // map element ids to dashboard data keys
+      "#cashbackActive": ["tot_aderenti"],
+      "#totale_carte": ["totale_carte"],
+      "#tot_carteOnboard": ["tot_carteOnboard"],
+      "#tot_trx_per_day": ["tot_trx_per_day"],
+      "#trx_1": ["trx_1"],
+      "#trx_10": ["trx_10"]
+    };
+    var chartDataMap = [ // map chart and generator to dashboard data keys
+      [iovsotherPie, generatePieCashback, ["carteIoVsOthers"]],
+      [aderentiChart, generateAderenti, ["aderenti"]],
+      [cardsChart, generateCarteOnboard, ["carteOnboard"]],
+      [trxChart, generateTrxDay, ["trx_per_day"]],
+      [userTrxChart, generateUserTrx, ["user_by_trx_bin"]],
+      [userCashbackChart, generateUserCashback, ["cashback_by_user_bin"]]
+    ];
+
+    function changeCashbackPeriod(period) {
+      var periodIndex = period - 1;
+
+      Object.keys(cardsDataMap).forEach(function(id) {
+        var periods = cardsDataMap[id];
+        var data = dashboardData[periods[periodIndex]];
+        if (data != null) $(id).text(data.toLocaleString("it"));
+      });
+      chartDataMap.forEach(function(item) {
+        var chart = item[0];
+        var generator = item[1];
+        var periods = item[2];
+        var data = dashboardData[periods[periodIndex]];
+        if (data != null) {
+          var newData = generator(data);
+
+          // Update chart datasets (replace whole data to "restart" chart)
+          // REF: https://www.chartjs.org/docs/latest/developers/updates.html
+          var newDatasets = newData.datasets;
+          chart.data.datasets.forEach((dataset, i) => {
+            dataset.data = newDatasets[i].data
+          });
+          chart.update();
+        }
+      })
+    }
   });
