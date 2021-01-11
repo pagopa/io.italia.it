@@ -555,6 +555,64 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
+    var trxAmountCtx = document.getElementById("trxAmountChart") ? document.getElementById("trxAmountChart").getContext("2d") : undefined;
+    var trxAmount = generateTrxAmount(dashboardData.all_range);
+    var trxAmountChart = trxAmountCtx ? new Chart(trxAmountCtx, {
+      type: "bar",
+      data: trxAmount,
+      options: {
+        // Elements options apply to all of the options unless overridden in a dataset
+        // In this case, we are setting the border of each horizontal bar to be 2px wide
+        elements: {
+          rectangle: {
+            borderWidth: 2,
+          },
+        },
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Utenti per importo transazione",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+            },
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: formatNumberSuffix
+              },
+            },
+          ],
+        },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
+      },
+    }) : undefined;
+
     var userTrxCtx = document.getElementById("userTrxChart") ? document.getElementById("userTrxChart").getContext("2d") : undefined;
     var userTrx = generateUserTrx(dashboardData.user_by_trx_bin);
     var userTrxChart = userTrxCtx ? new Chart(userTrxCtx, {
@@ -686,6 +744,7 @@ function loadJSON(callback) {
       [aderentiChart, generateAderenti, ["aderenti", "aderenti_june"]],
       [cardsChart, generateCarteOnboard, ["carteOnboard", "carteOnboard_june"]],
       [trxChart, generateTrxDay, ["trx_per_day", "trx_per_day_june"]],
+      [trxAmountChart, generateTrxAmount, ["all_range", "all_range_june"]],
       [userTrxChart, generateUserTrx, ["user_by_trx_bin", "user_by_trx_bin_june"]],
       [userCashbackChart, generateUserCashback, ["cashback_by_user_bin", "cashback_by_user_bin_june"]]
     ];
