@@ -326,6 +326,10 @@ function loadJSON(callback) {
     
     // Bonus cashback 
 
+    $("#cashbackActiveTotal").text((dashboardData.tot_aderenti + dashboardData.tot_aderenti_june).toLocaleString("it"));
+    $("#carteOnboardTotal").text((dashboardData.tot_carteOnboard + dashboardData.tot_carteOnboard_june).toLocaleString("it"));
+    $("#trxTotal").text((dashboardData.tot_trx_per_day + dashboardData.tot_trx_per_day_june).toLocaleString("it"));
+
     $("#cashbackActive").text( dashboardData.tot_aderenti.toLocaleString("it"));
     $("#totale_carte").text( dashboardData.totale_carte.toLocaleString("it"));
     $("#tot_carteOnboard").text( dashboardData.tot_carteOnboard.toLocaleString("it"));
