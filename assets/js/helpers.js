@@ -358,7 +358,10 @@ function generateDownloads(downloads) {
 
   function generateUserTrx(raw) {
     var clean = raw.filter(function(d) { return d.bin <= 150 })
-    var labels = clean.map(function (d, i) { return clean[i + 1] ? [d.bin, clean[i + 1].bin].join('-') : '+' + d.bin });
+    var labels = clean.map(function (d, i) {
+      var next = clean[i + 1];
+      return next ? [d.bin || 1, next.bin - 1].join('-') : '+' + d.bin;
+    });
     var data = clean.map(function (d) { return d.count });
     return {
       labels,
