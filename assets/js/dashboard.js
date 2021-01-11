@@ -587,7 +587,7 @@ function loadJSON(callback) {
           ],
           yAxes: [
             {
-              type: 'logarithmic',
+              // type: 'logarithmic',
               gridLines: {
                 display: true,
               },
