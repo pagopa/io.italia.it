@@ -23,13 +23,15 @@ function tooltipTitleCallbackXDate(tooltipItem) {
   return new Date(tooltipItem[0].xLabel).toLocaleDateString();
 }
 
-function tooltipLabelCallbackYNumber(tooltipItem) {
-  return formatNumberIntl(tooltipItem.yLabel);
+function tooltipLabelCallbackYNumber(tooltipItem, data) {
+  var dataLabel = data.datasets[tooltipItem.datasetIndex].label;
+  return dataLabel + ": " + formatNumberIntl(tooltipItem.yLabel);
 }
 
 function tooltipLabelCallbackArcNumber(tooltipItem, data) {
+  var dataLabel = data.labels[tooltipItem.index];
   var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
-  return formatNumberIntl(value);
+  return dataLabel + ": " + formatNumberIntl(value);
 }
 
 function generateDownloads(downloads) {
