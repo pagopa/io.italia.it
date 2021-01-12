@@ -237,34 +237,48 @@
             </div>
             <div class="row my-2">
                 <div class="col-md-6 py-1">
-                    <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-center" >
-                            <img src="{{site.imagesurl}}/assets/img/icon-wallet.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
-                            <h5 id="totale_carte" class="dashboardcard__number my-2" ></h5>
-                            <div class="dashboardcard__desc" >Totale strumenti registrati su IO
-                                <span tabindex="0" data-toggle="tooltip" title="Totale strumenti di pagamento registrati su IO"
-                                 class=""  data-placement="right">
-                                    <svg class="icon align-center ml-2">
-                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                      </use>
-                                    </svg>
-                                 </span>
+                    <div class="dashboardcard dashboardcard shadow">
+                        <div class="row">
+                            <div class="col-7">
+                                <img src="{{site.imagesurl}}/assets/img/icon-wallet.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
+                                <h5 id="totale_carte" class="dashboardcard__number my-2"></h5>
+                                <div class="dashboardcard__desc">
+                                    Totale strumenti registrati su IO
+                                    <span tabindex="0" data-toggle="tooltip" title="Totale strumenti di pagamento registrati su IO e su altri servizi" data-placement="right">
+                                        <svg class="icon align-center ml-2">
+                                            <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
+                                        </svg>
+                                    </span>
+                                </div>
                             </div>
-                    </div><!--/dashboardcard-->
-                </div>
-
-             <div class="col-md-6 py-1">
-                <div class="dashboardcard shadow d-flex flex-column justify-content-center">
-                    <div class="row">
-                        <div class="col-6">
-                            <h4>Strumenti IO e altri</h4>
-                            <p>Strumenti registrati su IO e su altri servizi</p>
-                        </div>
-                        <div class="col-6">
-                        <canvas class=" " id="iovsotherspie" height="200"></canvas>
+                            <div class="col-5">
+                                <canvas class="w-100" id="iovsotherspie" height="150"></canvas>
+                            </div>
                         </div>
                     </div>
                 </div>
-             </div>
+
+                <div class="col-md-6 py-1">
+                    <div class="dashboardcard dashboardcard--dark shadow">
+                        <div class="row">
+                            <div class="col-7">
+                                <img src="{{site.imagesurl}}/assets/img/icon-bonusutilizzati.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
+                                <h5 id="trx_1" class="dashboardcard__number my-2"></h5>
+                                <div class="dashboardcard__desc"> Utenti con transazioni
+                                    <span tabindex="0" data-toggle="tooltip" title="Numero di Utenti con almeno una transazione" class="" data-placement="right">
+                                        <svg class="icon icon-white align-center ml-2">
+                                            <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
+                                            </use>
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="col-5">
+                                <canvas class="w-100" id="userTrxThreshold" height="150"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="row my-1">
                 <div class="col-12 my-3">
@@ -319,39 +333,6 @@
                 <canvas id="userCashbackChart"></canvas>
             </div>
 
-            <div class="row my-2">
-                <div class="col-md-6 py-1">
-                    <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center" >
-                            <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
-                            <h5 id="trx_1" class="dashboardcard__number my-2" ></h5>
-                            <div class="dashboardcard__desc" > Utenti con almeno una transazione
-                                <span tabindex="0" data-toggle="tooltip" title="Numero di Utenti con almeno una transazione"
-                                 class=""  data-placement="right">
-                                    <svg class="icon icon-white align-center ml-2">
-                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                      </use>
-                                    </svg>
-                                 </span>
-                            </div>
-                    </div><!--/dashboardcard-->
-                </div>
-                <div class="col-md-6 py-1">
-                    <div class="dashboardcard shadow d-flex flex-column justify-content-center" >
-                            <img src="{{site.imagesurl}}/assets/img/icon-money--gray.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
-                            <h5 id="trx_10" class="dashboardcard__number my-2" ></h5>
-                            <div class="dashboardcard__desc" >Utenti con almeno 10 transazioni
-                                <span tabindex="0" data-toggle="tooltip" title="Numero utenti con almeno 10 transazioni"
-                                 class=""  data-placement="right">
-                                    <svg class="icon align-center ml-2">
-                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                      </use>
-                                    </svg>
-                                 </span>
-                            </div>
-                    </div><!--/dashboardcard-->
-                </div>
-            </div>
-    
             <div class="py-4"></div>
         </div><!--/container-->
     </div><!--dashboard__cashback-->

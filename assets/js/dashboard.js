@@ -334,8 +334,7 @@ function loadJSON(callback) {
     $("#totale_carte").text( dashboardData.totale_carte.toLocaleString("it"));
     $("#tot_carteOnboard").text( dashboardData.tot_carteOnboard.toLocaleString("it"));
     $("#tot_trx_per_day").text( dashboardData.tot_trx_per_day.toLocaleString("it"));
-    $("#trx_1").text( dashboardData.trx_1.toLocaleString("it"));
-    $("#trx_10").text( dashboardData.trx_10.toLocaleString("it"));
+    $("#trx_1").text((dashboardData.trx_1 + dashboardData.trx_10).toLocaleString("it"));
     
     var aderentiLine = document.getElementById("aderentiLine") ? document.getElementById("aderentiLine").getContext("2d") : undefined;
     var aderenti = generateAderenti(dashboardData.aderenti);
@@ -555,6 +554,30 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
+    var userTrxThreshold = generateUserTrxThreshold(dashboardData.trx_1, dashboardData.trx_10, 10);
+    var userTrxThresholdCtx = document.getElementById("userTrxThreshold") ? document.getElementById("userTrxThreshold").getContext("2d") : undefined;
+    var userTrxThresholdChart = userTrxThresholdCtx ? new Chart(userTrxThresholdCtx, {
+      type: "pie",
+      data: userTrxThreshold,
+      options: {
+        responsive: true,
+        legend: {
+          position: 'bottom',
+          labels: {
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+            fontColor: "#fff",
+          }
+        },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackArcNumber
+          }
+        }
+      },
+    }) : undefined;
+
     var trxAmountCtx = document.getElementById("trxAmountChart") ? document.getElementById("trxAmountChart").getContext("2d") : undefined;
     var trxAmount = generateTrxAmount(dashboardData.all_range);
     var trxAmountChart = trxAmountCtx ? new Chart(trxAmountCtx, {
@@ -736,12 +759,14 @@ function loadJSON(callback) {
       "#totale_carte": [dashboardData.totale_carte, dashboardData.totale_carte_june],
       "#tot_carteOnboard": [dashboardData.tot_carteOnboard, dashboardData.tot_carteOnboard_june],
       "#tot_trx_per_day": [dashboardData.tot_trx_per_day, dashboardData.tot_trx_per_day_june],
-      "#trx_1": [dashboardData.trx_1, dashboardData.trx_1_june],
-      "#trx_10": [dashboardData.trx_10, dashboardData.trx_10_june]
+      "#trx_1": [dashboardData.trx_1 + dashboardData.trx_10, dashboardData.trx_1_june + dashboardData.trx_10_june],
     };
     var chartDataMap = [ // map chart and generator to dashboard data
       [iovsotherPie, generatePieCashback, [[dashboardData.carteIoVsOthers], [dashboardData.carteIoVsOthers_june]]],
-      [aderentiChart, generateAderenti, [[dashboardData.aderenti], [dashboardData.aderenti_june]]],
+      [userTrxThresholdChart, generateUserTrxThreshold, [
+        [dashboardData.trx_1, dashboardData.trx_10, 10], 
+        [dashboardData.trx_1_june, dashboardData.trx_10_june, 50]
+      ]],
       [cardsChart, generateCarteOnboard, [[dashboardData.carteOnboard], [dashboardData.carteOnboard_june]]],
       [trxChart, generateTrxDay, [[dashboardData.trx_per_day], [dashboardData.trx_per_day_june]]],
       [trxAmountChart, generateTrxAmount, [[dashboardData.all_range], [dashboardData.all_range_june]]],
