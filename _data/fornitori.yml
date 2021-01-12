@@ -4,6 +4,7 @@ labels:
   dati: Dati trattati
   luogo: Luogo del trattamento dei dati
   garanzie: Garanzie adottate in tema di trasferimento dati all’estero
+  doc: Documentazione contrattuale
 items:
   - 
     fornitore: "Sia S.P.A."
@@ -12,6 +13,7 @@ items:
     luogo: Italia
     garanzie: "N/A"
     note: ""
+    doc: [link 1](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#13) [link 2](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#14)
   - 
     fornitore: "Minded Security S.r.l."
     attivita: "Penetration Test (per assessment vulnerabilità)"
@@ -19,6 +21,7 @@ items:
     luogo: Italia
     garanzie: "N/A"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#7)
   - 
     fornitore: "RTI Leonardo S.p.A."
     attivita: "Servizi SOC (Security Operation Center)"
@@ -26,6 +29,7 @@ items:
     luogo: Italia
     garanzie: "N/A"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#15)
   - 
     fornitore: "Acapo Cooperativa Sociale"
     attivita: "Servizio assistenza clienti"
@@ -33,6 +37,7 @@ items:
     luogo: Italia
     garanzie: "N/A"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#16)
   - 
     fornitore: "MailUP S.p.A."
     attivita: "Invio di email (inoltro messaggi ricevuti in-app)"
@@ -40,13 +45,17 @@ items:
     luogo: Italia
     garanzie: "N/A"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#3)
   - 
     fornitore: "Microsoft Ireland Operations Limited"
     attivita: "Servizi di backup e cloud computing"
     dati: "Tutti i dati degli utenti inclusi nel database dell’App IO"
     luogo: Paesi Bassi, con back up in Irlanda
-    garanzie: "- opzione di residenza dei dati in UE"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+  - clausole contrattuali standard  della Commissione Europea\n\n
+  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#2)
   - 
     fornitore: "Mixpanel, Inc."
     attivita: "Raccolta dati di utilizzo dell’App IO  tramite i dispositivi per scopi di debug, incident response, assistenza tecnica e miglioramento dell’App"
@@ -58,6 +67,7 @@ items:
   - clausole contrattuali standard  della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#22)
   - 
     fornitore: "Instabug, Inc."
     attivita: "Soluzione tecnica per l’invio di segnalazioni e la gestione dell’assistenza clienti"
@@ -68,6 +78,7 @@ items:
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#21)
   - 
     fornitore: "Slack Technologies Limited"
     attivita: "Piattaforma di messaggistica per comunicazione interna alla PagoPA S.p.A."
@@ -76,6 +87,7 @@ items:
     (trattamento di dati personali degli utenti eventuale e comunque marginale, solo in caso di necessità e urgenza)"
     garanzie: "- clausole contrattuali standard  della Commissione Europea"
     note: ""
+    doc: [link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#14)
   - 
     fornitore: "Google LLC"
     attivita: "Invio di notifiche Push"
@@ -85,3 +97,4 @@ items:
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
     - richiesta opzione di residenza dei dati  in UE (in attesa di riscontro da parte del fornitore)"
     note: ""
+    doc: [link](https://firebase.google.com/terms/data-processing-terms)
