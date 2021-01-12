@@ -402,14 +402,12 @@ function loadJSON(callback) {
     var trxLine = document.getElementById("trxLine") ? document.getElementById("trxLine").getContext("2d") : undefined;
     var transactions = generateTrxDay(dashboardData.trx_per_day);
     var trxChart = trxLine ? new Chart(trxLine, {
-      type: "bar",
+      type: "line",
       data: transactions,
       options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
         elements: {
-          rectangle: {
-            borderWidth: 2,
+          line: {
+            tension: 0
           },
         },
         responsive: true,
