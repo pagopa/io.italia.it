@@ -502,12 +502,19 @@ function loadJSON(callback) {
             usePointStyle: true,
             fontFamily: "'Titillium Web', Arial",
             fontColor: "#fff",
-          }
+          },
         },
         tooltips: {
+          mode: 'nearest',
+          intersect: false,
+
           callbacks: {
             label: tooltipLabelCallbackArcNumber
           }
+        },
+        hover: {
+          mode: 'nearest',
+          intersect: false
         }
       },
     }) : undefined;
