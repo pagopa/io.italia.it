@@ -392,6 +392,8 @@ function loadJSON(callback) {
           }
         },
         tooltips: {
+          mode: 'index',
+          intersect: false,
           callbacks: {
             title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
@@ -454,6 +456,8 @@ function loadJSON(callback) {
           ],
         },
         tooltips: {
+          mode: 'index',
+          intersect: false,
           callbacks: {
             title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
@@ -570,6 +574,8 @@ function loadJSON(callback) {
           ],
         },
         tooltips: {
+          mode: 'index',
+          intersect: false,
           callbacks: {
             label: tooltipLabelCallbackYNumber
           }
@@ -629,6 +635,8 @@ function loadJSON(callback) {
           ],
         },
         tooltips: {
+          mode: 'index',
+          intersect: false,
           callbacks: {
             label: tooltipLabelCallbackYNumber
           }
@@ -687,6 +695,8 @@ function loadJSON(callback) {
           ],
         },
         tooltips: {
+          mode: 'index',
+          intersect: false,
           callbacks: {
             label: tooltipLabelCallbackYNumber
           }
