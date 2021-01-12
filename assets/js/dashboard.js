@@ -731,13 +731,13 @@ function loadJSON(callback) {
     }) : undefined;
 
     // Cashback periods
-    var cardsDataMap = { // map element ids to dashboard data keys
-      "#cashbackActive": ["tot_aderenti", "tot_aderenti_june"],
-      "#totale_carte": ["totale_carte", "totale_carte_june"],
-      "#tot_carteOnboard": ["tot_carteOnboard", "tot_carteOnboard_june"],
-      "#tot_trx_per_day": ["tot_trx_per_day", "tot_trx_per_day_june"],
-      "#trx_1": ["trx_1", "trx_1_june"],
-      "#trx_10": ["trx_10", "trx_10_june"]
+    var cardsDataMap = { // map element ids to dashboard data
+      "#cashbackActive": [dashboardData.tot_aderenti, dashboardData.tot_aderenti_june],
+      "#totale_carte": [dashboardData.totale_carte, dashboardData.totale_carte_june],
+      "#tot_carteOnboard": [dashboardData.tot_carteOnboard, dashboardData.tot_carteOnboard_june],
+      "#tot_trx_per_day": [dashboardData.tot_trx_per_day, dashboardData.tot_trx_per_day_june],
+      "#trx_1": [dashboardData.trx_1, dashboardData.trx_1_june],
+      "#trx_10": [dashboardData.trx_10, dashboardData.trx_10_june]
     };
     var chartDataMap = [ // map chart and generator to dashboard data keys
       [iovsotherPie, generatePieCashback, ["carteIoVsOthers", "carteIoVsOthers_june"]],
@@ -754,7 +754,7 @@ function loadJSON(callback) {
 
       Object.keys(cardsDataMap).forEach(function(id) {
         var periods = cardsDataMap[id];
-        var data = dashboardData[periods[periodIndex]];
+        var data = periods[periodIndex];
         if (data != null) $(id).text(data.toLocaleString("it"));
       });
       chartDataMap.forEach(function(item) {
