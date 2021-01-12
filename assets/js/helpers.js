@@ -297,7 +297,7 @@ function generateDownloads(downloads) {
           pointRadius: 0
         },
         {
-          label: "Numero carte",
+          label: "Strumenti di pagamento",
           data: cards,
           backgroundColor: "#15c5f8",
           pointHitRadius: 5,
