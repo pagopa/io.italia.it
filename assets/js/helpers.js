@@ -270,9 +270,10 @@ function generateDownloads(downloads) {
     };
   }
 
-  function generateAderenti(aderenti) {
+  function generateAderenti(aderenti, carte) {
     var labels = [];
     var users = [];
+    var cards = [];
     for (let i = 0; i < aderenti.length; i++) {
       var obj = aderenti[i]
       var monthDate = moment(obj['day']);
@@ -280,6 +281,8 @@ function generateDownloads(downloads) {
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
       users.push(obj['total']);
+      const cardsFound = carte.find(function (d) { return d.day === obj.day });
+      cards.push(cardsFound && cardsFound.tot);
     }
     return {
       labels,
@@ -287,9 +290,14 @@ function generateDownloads(downloads) {
         {
           label: "Utenti aderenti",
           data: users,
-          borderWidth: 2,
-          backgroundColor: "rgb(0, 115, 230, 0.2)",
-          borderColor: "rgb(0, 115, 230)",
+          backgroundColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+        {
+          label: "Numero carte",
+          data: cards,
+          backgroundColor: "#15c5f8",
           pointHitRadius: 5,
           pointRadius: 0
         },
@@ -314,33 +322,6 @@ function generateDownloads(downloads) {
         {
           label: "Numero transazioni",
           data: transactions,
-          borderWidth: 2,
-          backgroundColor: "rgb(0, 115, 230, 0.2)",
-          borderColor: "rgb(0, 115, 230)",
-          pointHitRadius: 5,
-          pointRadius: 0
-        },
-      ],
-    };
-  }
-
-  function generateCarteOnboard(carteOnboard) {
-    var labels = [];
-    var cards = [];
-    for (let i = 0; i < carteOnboard.length; i++) {
-      var obj = carteOnboard[i]
-      var monthDate = moment(obj['day']);
-      // TOTALBONUS = TOTALBONUS + obj['total'];
-      const date = monthDate.format("YYYY-MM-DD");
-      labels.push(date.toString());
-      cards.push(obj['tot']);
-    }
-    return {
-      labels,
-      datasets: [
-        {
-          label: "Numero carte",
-          data: cards,
           borderWidth: 2,
           backgroundColor: "rgb(0, 115, 230, 0.2)",
           borderColor: "rgb(0, 115, 230)",

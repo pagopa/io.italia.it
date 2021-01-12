@@ -335,24 +335,14 @@ function loadJSON(callback) {
     $("#tot_carteOnboard").text( dashboardData.tot_carteOnboard.toLocaleString("it"));
     $("#tot_trx_per_day").text( dashboardData.tot_trx_per_day.toLocaleString("it"));
     $("#trx_1").text((dashboardData.trx_1 + dashboardData.trx_10).toLocaleString("it"));
-    
+
     var aderentiLine = document.getElementById("aderentiLine") ? document.getElementById("aderentiLine").getContext("2d") : undefined;
-    var aderenti = generateAderenti(dashboardData.aderenti);
+    var aderenti = generateAderenti(dashboardData.aderenti, dashboardData.carteOnboard);
     var aderentiChart = aderentiLine ? new Chart(aderentiLine, {
       type: "bar",
       data: aderenti,
       options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
-        elements: {
-          rectangle: {
-            borderWidth: 2,
-          },
-        },
         responsive: true,
-        legend: {
-          display: false,
-        },
         title: {
           display: false,
           text: "Utenti cashback ",
@@ -391,69 +381,14 @@ function loadJSON(callback) {
             },
           ],
         },
-        tooltips: {
-          callbacks: {
-            title: tooltipTitleCallbackXDate,
-            label: tooltipLabelCallbackYNumber
-          }
-        }
-      },
-    }) : undefined;
-
-    var cardsElem = document.getElementById("carteOnboard") ? document.getElementById("carteOnboard").getContext("2d") : undefined;
-    var cards = generateCarteOnboard(dashboardData.carteOnboard);
-    var cardsChart = cardsElem ? new Chart(cardsElem, {
-      type: "bar",
-      data: cards,
-      options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
-        elements: {
-          rectangle: {
-            borderWidth: 2,
-          },
-        },
-        responsive: true,
         legend: {
-          display: false,
-        },
-        title: {
-          display: false,
-          text: "Carte registrate ",
-        },
-        scales: {
-          xAxes: [
-            {
-              gridLines: {
-                display: false,
-              },
-              ticks: {
-                fontSize: 15,
-                fontColor: "#5C6F82",
-                fontFamily: "'Titillium Web', Arial",
-              },
-              type: 'time',
-              time: {
-                stepSize: 7,
-                unit: 'day'
-              }
-            },
-          ],
-          yAxes: [
-            {
-              gridLines: {
-                display: true,
-              },
-              ticks: {
-                display: true,
-                fontSize: 12,
-                fontColor: "#5C6F82",
-                fontFamily: "'Titillium Web', Arial",
-                maxTicksLimit: 5,
-                callback: formatNumberSuffix
-              },
-            },
-          ],
+          position: 'bottom',
+          labels: {
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+
+          }
         },
         tooltips: {
           callbacks: {
@@ -767,7 +702,10 @@ function loadJSON(callback) {
         [dashboardData.trx_1, dashboardData.trx_10, 10], 
         [dashboardData.trx_1_june, dashboardData.trx_10_june, 50]
       ]],
-      [cardsChart, generateCarteOnboard, [[dashboardData.carteOnboard], [dashboardData.carteOnboard_june]]],
+      [aderentiChart, generateAderenti, [
+        [dashboardData.aderenti, dashboardData.carteOnboard],
+        [dashboardData.aderenti_june, dashboardData.carteOnboard_june]]
+      ],
       [trxChart, generateTrxDay, [[dashboardData.trx_per_day], [dashboardData.trx_per_day_june]]],
       [trxAmountChart, generateTrxAmount, [[dashboardData.all_range], [dashboardData.all_range_june]]],
       [userTrxChart, generateUserTrx, [[dashboardData.user_by_trx_bin], [dashboardData.user_by_trx_bin_june]]],
