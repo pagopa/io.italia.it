@@ -149,14 +149,13 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center">
-                        <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Cashback attivati">
+                        <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback.svg" class="img-fluid my-3 my-md-0" width="55" alt="Nuovi Bonus Cashback attivati">
                         <h5 class="dashboardcard__number my-2" id="cashbackActiveTotal"></h5>
                         <div class="dashboardcard__desc">
-                            Bonus cashback attivati
-                            <span tabindex="0" data-toggle="tooltip" title="Numero di utenti che hanno attivato il Bonus Cashback" class="" data-placement="right">
+                            Bonus cashback attivi
+                            <span tabindex="0" data-toggle="tooltip" title="Numero di utenti che hanno attivato il Bonus Cashback" data-placement="right">
                                 <svg class="icon icon-white align-center ml-2">
-                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                    </use>
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
                                 </svg>
                             </span>
                         </div>
@@ -168,10 +167,9 @@
                         <h5 class="dashboardcard__number my-2" id="trxTotal"></h5>
                         <div class="dashboardcard__desc">
                             Totale transazioni gestite
-                            <span tabindex="0" data-toggle="tooltip" title="Numero di transazioni registrate per il cashback" class="" data-placement="right">
-                                <svg class="icon icon-white align-center ml-2">
-                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                    </use>
+                            <span tabindex="0" data-toggle="tooltip" title="Numero di transazioni registrate per il cashback" data-placement="right">
+                                <svg class="icon align-center ml-2">
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
                                 </svg>
                             </span>
                         </div>
@@ -185,15 +183,14 @@
                             Totale strumenti registrati
                             <span tabindex="0" data-toggle="tooltip" title="Totale strumenti di pagamento registrati su IO" data-placement="right">
                                 <svg class="icon align-center ml-2">
-                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                    </use>
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
                                 </svg>
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
-                </div>
+        </div>
         <div class="dashboard__title affix-top bg-white">
             <div class="container container--mid mt-4 pt-4">
                 <ul class="nav nav-tabs auto">
@@ -205,34 +202,33 @@
         <div class="container container--mid">
             <div class="row my-2">
                 <div class="col-md-6 py-1">
-                    <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center" >
-                            <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Cashback attivati">
-                            <h5 id="cashbackActive" class="dashboardcard__number my-2" ></h5>
-                            <div class="dashboardcard__desc" >Bonus cashback attivati
-                                <span tabindex="0" data-toggle="tooltip" title="Numero di utenti che hanno attivato il Bonus Cashback"
-                                 class=""  data-placement="right">
-                                    <svg class="icon icon-white align-center ml-2">
-                                      <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                      </use>
-                                    </svg>
-                                 </span>
-                            </div>
+                    <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center">
+                        <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Cashback attivati">
+                        <h5 id="cashbackActive" class="dashboardcard__number my-2"></h5>
+                        <div class="dashboardcard__desc">
+                            Nuovi bonus cashback attivati
+                            <span tabindex="0" data-toggle="tooltip" title="Numero di utenti che hanno attivato il Bonus Cashback durante il periodo" data-placement="right">
+                                <svg class="icon icon-white align-center ml-2">
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
+                                </svg>
+                            </span>
+                        </div>
                     </div><!--/dashboardcard-->
                 </div>
+
                 <div class="col-md-6 py-1">
-                    <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-center" >
+                    <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-center">
                         <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback-hp.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
-                        <h5 id="tot_trx_per_day" class="dashboardcard__number my-2" ></h5>
-                        <div class="dashboardcard__desc" > Totale transazioni gestite
-                            <span tabindex="0" data-toggle="tooltip" title="Numero di transazioni registrate per il cashback"
-                             class=""  data-placement="right">
-                                <svg class="icon icon-white align-center ml-2">
-                                  <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                  </use>
+                        <h5 id="tot_trx_per_day" class="dashboardcard__number my-2"></h5>
+                        <div class="dashboardcard__desc">
+                            Numero di transazioni gestite
+                            <span tabindex="0" data-toggle="tooltip" title="Numero di transazioni registrate per il cashback durante il periodo" data-placement="right">
+                                <svg class="icon align-center ml-2">
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
                                 </svg>
-                             </span>
+                            </span>
                         </div>
-                </div><!--/dashboardcard-->
+                    </div><!--/dashboardcard-->
                 </div>
             </div>
             <div class="row my-2">
@@ -243,8 +239,8 @@
                                 <img src="{{site.imagesurl}}/assets/img/icon-wallet.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
                                 <h5 id="totale_carte" class="dashboardcard__number my-2"></h5>
                                 <div class="dashboardcard__desc">
-                                    Totale strumenti registrati su IO
-                                    <span tabindex="0" data-toggle="tooltip" title="Totale strumenti di pagamento registrati su IO e su altri servizi" data-placement="right">
+                                    Nuovi strumenti registrati
+                                    <span tabindex="0" data-toggle="tooltip" title="Numero di strumenti di pagamento registrati su IO e su altri servizi durante il periodo" data-placement="right">
                                         <svg class="icon align-center ml-2">
                                             <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
                                         </svg>
@@ -264,11 +260,11 @@
                             <div class="col-7">
                                 <img src="{{site.imagesurl}}/assets/img/icon-bonusutilizzati.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
                                 <h5 id="trx_1" class="dashboardcard__number my-2"></h5>
-                                <div class="dashboardcard__desc"> Utenti con transazioni
-                                    <span tabindex="0" data-toggle="tooltip" title="Numero di Utenti con almeno una transazione" class="" data-placement="right">
+                                <div class="dashboardcard__desc">
+                                    Utenti con transazioni
+                                    <span tabindex="0" data-toggle="tooltip" title="Numero di Utenti con almeno una transazione durante il periodo" data-placement="right">
                                         <svg class="icon icon-white align-center ml-2">
-                                            <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                            </use>
+                                            <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
                                         </svg>
                                     </span>
                                 </div>
