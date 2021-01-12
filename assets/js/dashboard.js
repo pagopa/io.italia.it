@@ -739,14 +739,14 @@ function loadJSON(callback) {
       "#trx_1": [dashboardData.trx_1, dashboardData.trx_1_june],
       "#trx_10": [dashboardData.trx_10, dashboardData.trx_10_june]
     };
-    var chartDataMap = [ // map chart and generator to dashboard data keys
-      [iovsotherPie, generatePieCashback, ["carteIoVsOthers", "carteIoVsOthers_june"]],
-      [aderentiChart, generateAderenti, ["aderenti", "aderenti_june"]],
-      [cardsChart, generateCarteOnboard, ["carteOnboard", "carteOnboard_june"]],
-      [trxChart, generateTrxDay, ["trx_per_day", "trx_per_day_june"]],
-      [trxAmountChart, generateTrxAmount, ["all_range", "all_range_june"]],
-      [userTrxChart, generateUserTrx, ["user_by_trx_bin", "user_by_trx_bin_june"]],
-      [userCashbackChart, generateUserCashback, ["cashback_by_user_bin", "cashback_by_user_bin_june"]]
+    var chartDataMap = [ // map chart and generator to dashboard data
+      [iovsotherPie, generatePieCashback, [[dashboardData.carteIoVsOthers], [dashboardData.carteIoVsOthers_june]]],
+      [aderentiChart, generateAderenti, [[dashboardData.aderenti], [dashboardData.aderenti_june]]],
+      [cardsChart, generateCarteOnboard, [[dashboardData.carteOnboard], [dashboardData.carteOnboard_june]]],
+      [trxChart, generateTrxDay, [[dashboardData.trx_per_day], [dashboardData.trx_per_day_june]]],
+      [trxAmountChart, generateTrxAmount, [[dashboardData.all_range], [dashboardData.all_range_june]]],
+      [userTrxChart, generateUserTrx, [[dashboardData.user_by_trx_bin], [dashboardData.user_by_trx_bin_june]]],
+      [userCashbackChart, generateUserCashback, [[dashboardData.cashback_by_user_bin], [dashboardData.cashback_by_user_bin_june]]]
     ];
 
     function changeCashbackPeriod(period) {
@@ -761,9 +761,9 @@ function loadJSON(callback) {
         var chart = item[0];
         var generator = item[1];
         var periods = item[2];
-        var data = dashboardData[periods[periodIndex]];
-        if (data != null) {
-          var newData = generator(data);
+        var dataArgs = periods[periodIndex];
+        if (dataArgs != null) {
+          var newData = generator.apply(null, dataArgs);
 
           // Update chart datasets (replace whole data to "restart" chart)
           // REF: https://www.chartjs.org/docs/latest/developers/updates.html
