@@ -331,7 +331,6 @@ function loadJSON(callback) {
     $("#carteOnboardTotal").text((dashboardData.tot_carteOnboard + dashboardData.tot_carteOnboard_june).toLocaleString("it"));
     $("#trxTotal").text((dashboardData.tot_trx_per_day + dashboardData.tot_trx_per_day_june).toLocaleString("it"));
 
-    $("#cashbackActive").text( dashboardData.tot_aderenti.toLocaleString("it"));
     $("#totale_carte").text( dashboardData.totale_carte.toLocaleString("it"));
     $("#tot_carteOnboard").text( dashboardData.tot_carteOnboard.toLocaleString("it"));
     $("#tot_trx_per_day").text( dashboardData.tot_trx_per_day.toLocaleString("it"));
@@ -646,7 +645,6 @@ function loadJSON(callback) {
 
     // Cashback periods
     var cardsDataMap = { // map element ids to dashboard data
-      "#cashbackActive": [dashboardData.tot_aderenti, dashboardData.tot_aderenti_june],
       "#totale_carte": [dashboardData.totale_carte, dashboardData.totale_carte_june],
       "#tot_carteOnboard": [dashboardData.tot_carteOnboard, dashboardData.tot_carteOnboard_june],
       "#tot_trx_per_day": [dashboardData.tot_trx_per_day, dashboardData.tot_trx_per_day_june],
