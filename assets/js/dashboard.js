@@ -331,7 +331,6 @@ function loadJSON(callback) {
     $("#carteOnboardTotal").text((dashboardData.tot_carteOnboard + dashboardData.tot_carteOnboard_june).toLocaleString("it"));
     $("#trxTotal").text((dashboardData.tot_trx_per_day + dashboardData.tot_trx_per_day_june).toLocaleString("it"));
 
-    $("#totale_carte").text( dashboardData.totale_carte.toLocaleString("it"));
     $("#tot_carteOnboard").text( dashboardData.tot_carteOnboard.toLocaleString("it"));
     $("#tot_trx_per_day").text( dashboardData.tot_trx_per_day.toLocaleString("it"));
     $("#trx_1").text((dashboardData.trx_1 + dashboardData.trx_10).toLocaleString("it"));
@@ -460,32 +459,6 @@ function loadJSON(callback) {
           callbacks: {
             title: tooltipTitleCallbackXDate,
             label: tooltipLabelCallbackYNumber
-          }
-        }
-      },
-    }) : undefined;
-
-
-    
-    var dataiovs = generatePieCashback(dashboardData.carteIoVsOthers);
-    var IoVsOthers = document.getElementById("iovsotherspie") ? document.getElementById("iovsotherspie").getContext("2d") : undefined;
-    var iovsotherPie = IoVsOthers ? new Chart(IoVsOthers, {
-      type: "pie",
-      data: dataiovs,
-      options: {
-        responsive: true,
-        legend: {
-          position: 'bottom',
-          labels : {
-            boxWidth: 8,
-            usePointStyle: true,
-            fontFamily: "'Titillium Web', Arial",
-
-          }
-        },
-        tooltips: {
-          callbacks: {
-            label: tooltipLabelCallbackArcNumber
           }
         }
       },
@@ -645,13 +618,11 @@ function loadJSON(callback) {
 
     // Cashback periods
     var cardsDataMap = { // map element ids to dashboard data
-      "#totale_carte": [dashboardData.totale_carte, dashboardData.totale_carte_june],
       "#tot_carteOnboard": [dashboardData.tot_carteOnboard, dashboardData.tot_carteOnboard_june],
       "#tot_trx_per_day": [dashboardData.tot_trx_per_day, dashboardData.tot_trx_per_day_june],
       "#trx_1": [dashboardData.trx_1 + dashboardData.trx_10, dashboardData.trx_1_june + dashboardData.trx_10_june],
     };
     var chartDataMap = [ // map chart and generator to dashboard data
-      [iovsotherPie, generatePieCashback, [[dashboardData.carteIoVsOthers], [dashboardData.carteIoVsOthers_june]]],
       [userTrxThresholdChart, generateUserTrxThreshold, [
         [dashboardData.trx_1, dashboardData.trx_10, 10],
         [dashboardData.trx_1_june, dashboardData.trx_10_june, 50]

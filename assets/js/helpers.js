@@ -232,30 +232,6 @@ function generateDownloads(downloads) {
     };
   }
 
-  function generatePieCashback(cashback) {
-    
-    var data = [0,0]
-    for (var i = 0; i < cashback.length; i++) {
-      var obj = cashback[i]
-      data[0] = data[0] + obj['io']
-      data[1] = data[1] + obj['others']
-    }
-
-    return {
-      labels: ['IO', 'Altri'],
-      datasets: [
-        {
-          data: data,
-          backgroundColor: ["rgb(0, 115, 230)","rgb(38, 200, 247)"],
-          hoverBackgroundColor: [
-            "rgb(0, 90, 200)","rgb(10, 160, 220)"
-          ],
-          hoverBorderColor: '#fff',
-        },
-      ],
-    };
-  }
-
   function generateUserTrxThreshold(below, above, threshold) {
     var data = [below, above]
     return {
