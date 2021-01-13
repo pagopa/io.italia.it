@@ -644,66 +644,6 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
-    var userCashbackCtx = document.getElementById("userCashbackChart") ? document.getElementById("userCashbackChart").getContext("2d") : undefined;
-    var userCashback = generateUserCashback(dashboardData.cashback_by_user_bin);
-    var userCashbackChart = userCashbackCtx ? new Chart(userCashbackCtx, {
-      type: "bar",
-      data: userCashback,
-      options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
-        elements: {
-          rectangle: {
-            borderWidth: 2,
-          },
-        },
-        responsive: true,
-        legend: {
-          display: false,
-        },
-        title: {
-          display: false,
-          text: "Utenti cashback ",
-        },
-        scales: {
-          xAxes: [
-            {
-              gridLines: {
-                display: false,
-              },
-              ticks: {
-                fontSize: 15,
-                fontColor: "#5C6F82",
-                fontFamily: "'Titillium Web', Arial",
-              },
-            },
-          ],
-          yAxes: [
-            {
-              gridLines: {
-                display: true,
-              },
-              ticks: {
-                display: true,
-                fontSize: 12,
-                fontColor: "#5C6F82",
-                fontFamily: "'Titillium Web', Arial",
-                maxTicksLimit: 5,
-                callback: formatNumberSuffix
-              },
-            },
-          ],
-        },
-        tooltips: {
-          mode: 'index',
-          intersect: false,
-          callbacks: {
-            label: tooltipLabelCallbackYNumber
-          }
-        }
-      },
-    }) : undefined;
-
     // Cashback periods
     var cardsDataMap = { // map element ids to dashboard data
       "#cashbackActive": [dashboardData.tot_aderenti, dashboardData.tot_aderenti_june],
@@ -715,7 +655,7 @@ function loadJSON(callback) {
     var chartDataMap = [ // map chart and generator to dashboard data
       [iovsotherPie, generatePieCashback, [[dashboardData.carteIoVsOthers], [dashboardData.carteIoVsOthers_june]]],
       [userTrxThresholdChart, generateUserTrxThreshold, [
-        [dashboardData.trx_1, dashboardData.trx_10, 10], 
+        [dashboardData.trx_1, dashboardData.trx_10, 10],
         [dashboardData.trx_1_june, dashboardData.trx_10_june, 50]
       ]],
       [aderentiChart, generateAderenti, [
@@ -725,7 +665,6 @@ function loadJSON(callback) {
       [trxChart, generateTrxDay, [[dashboardData.trx_per_day], [dashboardData.trx_per_day_june]]],
       [trxAmountChart, generateTrxAmount, [[dashboardData.all_range], [dashboardData.all_range_june]]],
       [userTrxChart, generateUserTrx, [[dashboardData.user_by_trx_bin], [dashboardData.user_by_trx_bin_june]]],
-      [userCashbackChart, generateUserCashback, [[dashboardData.cashback_by_user_bin], [dashboardData.cashback_by_user_bin_june]]]
     ];
 
     function changeCashbackPeriod(period) {

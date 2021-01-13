@@ -377,25 +377,3 @@ function generateDownloads(downloads) {
       ],
     };
   }
-
-  function generateUserCashback(raw) {
-    var labels = raw.map(function (d, i) {
-      var next = raw[i + 1];
-      return (next ? [d.bin, next.bin - 1].join('-') : d.bin) + '€';
-    });
-    var data = raw.map(function(d) { return d.count });
-    return {
-      labels,
-      datasets: [
-        {
-          label: "Numero utenti",
-          data: data,
-          borderWidth: 2,
-          backgroundColor: "rgb(0, 115, 230, 0.2)",
-          borderColor: "rgb(0, 115, 230)",
-          pointHitRadius: 5,
-          pointRadius: 0
-        },
-      ],
-    };
-  }
