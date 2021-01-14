@@ -3,6 +3,10 @@
     position: absolute;
   }
 
+  .heading-logo {
+    max-width: 7rem;
+  }
+
   .dashboard-mainwrapper {
     margin-top: -8rem;
     @media screen and (min-width: $grid-breakpoints-md) {
