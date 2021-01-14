@@ -323,9 +323,8 @@ function loadJSON(callback) {
     $("#bonusAmount").text( dashboardData.generatedBonusAmount.toLocaleString("it") + " €");
     $("#numbonusredeem").text( dashboardData.redeemedBonusCount.toLocaleString("it"));
     $("#today").text( moment().format("DD/MM/YYYY") );
-
-    // Bonus cashback
-    $("#cashbackPeriodTotal").text(new Date("2020-12-08").toLocaleDateString() + " - " + new Date().toLocaleDateString());
+    
+    // Bonus cashback 
 
     $("#cashbackActiveTotal").text((dashboardData.tot_aderenti + dashboardData.tot_aderenti_june).toLocaleString("it"));
     $("#carteOnboardTotal").text((dashboardData.tot_carteOnboard + dashboardData.tot_carteOnboard_june).toLocaleString("it"));
