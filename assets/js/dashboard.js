@@ -502,13 +502,6 @@ function loadJSON(callback) {
       type: "bar",
       data: trxAmount,
       options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
-        elements: {
-          rectangle: {
-            borderWidth: 2,
-          },
-        },
         responsive: true,
         legend: {
           display: false,

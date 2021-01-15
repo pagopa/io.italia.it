@@ -311,19 +311,19 @@ function generateDownloads(downloads) {
   }
 
   function generateTrxAmount(raw) {
+    var colorRange = ['rgb(0, 115, 230)', '#2d489d', '#00264D'];
     var labelsSorted = ["< 5", "5-10", "10-25", "25-50", "50-150", "150-300", "> 300"];
     var clean = raw.sort(function (a, b) { return labelsSorted.indexOf(a.ran) - labelsSorted.indexOf(b.ran) });
     var labels = clean.map(function (d) { return d.ran + '€' });
     var data = clean.map(function (d) { return d["count(*)"] });
+    var backgroundColors = [0, 0, 0, 1, 1, 2, 2].map(function(i) { return colorRange[i] });
     return {
       labels,
       datasets: [
         {
           label: "Numero transazioni",
           data: data,
-          borderWidth: 2,
-          backgroundColor: "rgb(0, 115, 230)",
-          borderColor: "rgb(0, 115, 230)",
+          backgroundColor: backgroundColors,
           pointHitRadius: 5,
           pointRadius: 0
         },
