@@ -1,5 +1,5 @@
 it:
-  last_update: 15/12/2020
+  last_update: 15/01/2021
   iostatus:
     0:
       status: yes
@@ -200,6 +200,17 @@ it:
         - maestro
       cvv:
       numbers: 16
+      io: 1 # non è abilitata ai pagamenti online
+      iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
+      cashback: 3
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+
+      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
+    - cards:
+        - pagobancomat
+        - maestro
+      cvv:
+      numbers: 19
       io: 1 # non è abilitata ai pagamenti online
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
