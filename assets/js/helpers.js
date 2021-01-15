@@ -335,7 +335,7 @@ function generateDownloads(downloads) {
     var clean = raw.filter(function(d) { return d.bin <= 150 })
     var labels = clean.map(function (d, i) {
       var next = clean[i + 1];
-      return next ? [d.bin || 1, next.bin - 1].join('-') : '+' + d.bin;
+      return next ? [d.bin || 1, next.bin - 1].join('-') : d.bin + '+';
     });
     var backgroundColors = raw.map(function(d) { return d.bin >= threshold ? 'rgb(0, 115, 230)' : '#15c5f8' })
     var data = clean.map(function (d) { return d.count });
