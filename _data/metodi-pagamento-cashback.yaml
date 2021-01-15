@@ -141,6 +141,15 @@ it:
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
+        - visa
+      cvv: 3
+      numbers: 16
+      note: Revolut
+      io: 1
+      iotext: Stiamo lavorando per supportare i pagamenti con la tua carta **Revolut** su app IO.
+      cashback: 0
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+    - cards:
         - visaelectron
       cvv: 3
       numbers: 16
