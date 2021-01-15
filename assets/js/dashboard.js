@@ -1,3 +1,5 @@
+var TRX_THRESHOLDS = [10, 50]; // map one for each period
+
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -463,7 +465,7 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
-    var userTrxThreshold = generateUserTrxThreshold(dashboardData.trx_1, dashboardData.trx_10, 10);
+    var userTrxThreshold = generateUserTrxThreshold(dashboardData.trx_1, dashboardData.trx_10, TRX_THRESHOLDS[0]);
     var userTrxThresholdCtx = document.getElementById("userTrxThreshold") ? document.getElementById("userTrxThreshold").getContext("2d") : undefined;
     var userTrxThresholdChart = userTrxThresholdCtx ? new Chart(userTrxThresholdCtx, {
       type: "pie",
@@ -623,8 +625,8 @@ function loadJSON(callback) {
     };
     var chartDataMap = [ // map chart and generator to dashboard data
       [userTrxThresholdChart, generateUserTrxThreshold, [
-        [dashboardData.trx_1, dashboardData.trx_10, 10],
-        [dashboardData.trx_1_june, dashboardData.trx_10_june, 50]
+        [dashboardData.trx_1, dashboardData.trx_10, TRX_THRESHOLDS[0]],
+        [dashboardData.trx_1_june, dashboardData.trx_10_june, TRX_THRESHOLDS[1]]
       ]],
       [aderentiChart, generateAderenti, [
         [dashboardData.aderenti, dashboardData.carteOnboard],
