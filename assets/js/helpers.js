@@ -241,8 +241,8 @@ function generateDownloads(downloads) {
           data: data,
           backgroundColor: ["rgb(38, 200, 247)", "#fff"],
           hoverBackgroundColor: ["rgb(10, 160, 220)"],
-          borderColor: "#2d489d",
-          hoverBorderColor: "#2d489d",
+          borderColor: "#06c",
+          hoverBorderColor: "#06c",
         },
       ],
     };
