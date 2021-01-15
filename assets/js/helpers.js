@@ -331,12 +331,13 @@ function generateDownloads(downloads) {
     };
   }
 
-  function generateUserTrx(raw) {
+  function generateUserTrx(raw, threshold) {
     var clean = raw.filter(function(d) { return d.bin <= 150 })
     var labels = clean.map(function (d, i) {
       var next = clean[i + 1];
       return next ? [d.bin || 1, next.bin - 1].join('-') : '+' + d.bin;
     });
+    var backgroundColors = raw.map(function(d) { return d.bin >= threshold ? 'rgb(0, 115, 230)' : '#15c5f8' })
     var data = clean.map(function (d) { return d.count });
     return {
       labels,
@@ -344,9 +345,7 @@ function generateDownloads(downloads) {
         {
           label: "Numero utenti",
           data: data,
-          borderWidth: 2,
-          backgroundColor: "rgb(0, 115, 230)",
-          borderColor: "rgb(0, 115, 230)",
+          backgroundColor: backgroundColors,
           pointHitRadius: 5,
           pointRadius: 0
         },

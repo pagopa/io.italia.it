@@ -557,18 +557,11 @@ function loadJSON(callback) {
     }) : undefined;
 
     var userTrxCtx = document.getElementById("userTrxChart") ? document.getElementById("userTrxChart").getContext("2d") : undefined;
-    var userTrx = generateUserTrx(dashboardData.user_by_trx_bin);
+    var userTrx = generateUserTrx(dashboardData.user_by_trx_bin, TRX_THRESHOLDS[0]);
     var userTrxChart = userTrxCtx ? new Chart(userTrxCtx, {
       type: "bar",
       data: userTrx,
       options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
-        elements: {
-          rectangle: {
-            borderWidth: 2,
-          },
-        },
         responsive: true,
         legend: {
           display: false,
@@ -634,7 +627,10 @@ function loadJSON(callback) {
       ],
       [trxChart, generateTrxDay, [[dashboardData.trx_per_day], [dashboardData.trx_per_day_june]]],
       [trxAmountChart, generateTrxAmount, [[dashboardData.all_range], [dashboardData.all_range_june]]],
-      [userTrxChart, generateUserTrx, [[dashboardData.user_by_trx_bin], [dashboardData.user_by_trx_bin_june]]],
+      [userTrxChart, generateUserTrx, [
+        [dashboardData.user_by_trx_bin, TRX_THRESHOLDS[0]],
+        [dashboardData.user_by_trx_bin_june, TRX_THRESHOLDS[1]]]
+      ],
     ];
 
     function changeCashbackPeriod(period) {
