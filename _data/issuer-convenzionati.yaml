@@ -1,5 +1,5 @@
 it:
-  last_update: 24/12/2020
+  last_update: 15/01/2021
   items:
     # use alphabetical order
     #- name: American Express
@@ -22,7 +22,7 @@ it:
       url: https://pay.enelx.com/cashback
     - name: Flowe
       img: /assets/img/cashback/issuer/flowe.png
-      #url:
+      url: https://www.flowe.com
     - name: Hype
       img: /assets/img/cashback/issuer/hype.png
       url: https://www.hype.it/cashback-di-stato
