@@ -75,7 +75,7 @@ it:
     - name: Apple Pay
       img-large: /assets/img/cashback/metodi/ic-applepay-large.svg
       id: applepay
-    - name: Bancomat PAY
+    - name: BANCOMAT Pay
       img-large: /assets/img/cashback/metodi/ic-bancomatpay-large.svg
       id: bancomatpay
     - name: Google Pay
