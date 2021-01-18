@@ -234,7 +234,14 @@
             <div class="row my-1">
                 <div class="col-12 my-3">
                     <div class="dashboardcard shadow ">
-                        <h4>Transazioni al giorno</h4>
+                        <h4>
+                            Transazioni al giorno
+                            <span tabindex="0" data-toggle="tooltip" title="La rendicontazione dei flussi può richiedere alcuni giorni lavorativiπ" data-placement="right">
+                                <svg class="icon align-center ml-2" fill="#5c6f82">
+                                    <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
+                                </svg>
+                            </span>
+                        </h4>
                         <p>Andamento delle transazioni gestite per il cashback</p>
                         <div class="">
                             <canvas class=" " id="trxLine"></canvas>
