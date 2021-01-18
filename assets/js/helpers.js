@@ -31,7 +31,12 @@ function tooltipLabelCallbackYNumber(tooltipItem, data) {
 function tooltipLabelCallbackArcNumber(tooltipItem, data) {
   var dataLabel = data.labels[tooltipItem.index];
   var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
-  return dataLabel + ": " + formatNumberIntl(value);
+  var sum = data.datasets[0].data.reduce((a, b) => a + b, 0) || 1;
+  var percentage = new Intl.NumberFormat({ style: "percent", maximumFractionDigits: 0 }).format(value * 100 / sum) + "%";
+  return [
+    dataLabel + ": " + formatNumberIntl(value),
+    percentage
+  ];
 }
 
 function generateDownloads(downloads) {
