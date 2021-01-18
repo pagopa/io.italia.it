@@ -1,5 +1,5 @@
 it:
-  last_update: 15/01/2021
+  last_update: 18/01/2021
   iostatus:
     0:
       status: yes
@@ -324,8 +324,8 @@ it:
         - bancomatpay
       io: 1
       iotext: Stiamo lavorando per supportare i pagamenti su IO con questo metodo.
-      cashback: 4
-      cashbacktext: Scarica l'[App Bancomat PAY](https://bancomat.it/it/bancomat/bancomat-pay) per abilitare il Cashback. Su IO potrai vedere il dettaglio transazioni e la classifica Super Cashback.
+      cashback: 0
+      cashbacktext: Aggiungi BANCOMAT Pay nella sezione **Portafoglio** e segui le istruzioni. Se BANCOMAT Pay è già presente nel Portafoglio, selezionalo per verificare lo stato del Cashback.
     - apps:
         - googlepay
       io: 1
