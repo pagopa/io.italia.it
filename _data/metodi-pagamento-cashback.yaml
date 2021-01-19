@@ -1,5 +1,5 @@
 it:
-  last_update: 18/01/2021
+  last_update: 19/01/2021
   iostatus:
     0:
       status: yes
@@ -194,7 +194,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
+      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **Maestro**."
     - cards:
         - pagobancomat
         - maestro
@@ -205,7 +205,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
+      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **Maestro**."
     - cards:
         - pagobancomat
         - maestro
@@ -216,7 +216,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **Maestro** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
+      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **Maestro**."
     - cards:
         - pagobancomat
         - mastercard
@@ -238,7 +238,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
+      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **V-Pay**."
     - cards:
         - pagobancomat
         - vpay
@@ -249,7 +249,7 @@ it:
       cashback: 3
       cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
 
-      Per ricevere tutte le transazioni valide, verifica se è possibile abilitare il circuito **V-Pay** tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer)."
+      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **V-Pay**."
     - cards:
         - pagobancomat
         - visa
@@ -269,8 +269,8 @@ it:
       note: BancoPosta
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane.
-      cashback: 4
-      cashbacktext: Scarica l'[App BancoPosta](https://www.poste.it/applicazione-bancoposta.html) per abilitare il Cashback su questa carta. Su IO potrai vedere il dettaglio transazioni e la classifica Super Cashback.
+      cashback: 1
+      cashbacktext: Siamo al lavoro con Poste Italiane per permetterti di aggiungere presto anche il circuito internazionale **Maestro**.
     - cards:
         - postamat
         - mastercard
