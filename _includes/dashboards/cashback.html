@@ -1,0 +1,122 @@
+<div class="dashboard__cashback affix-parent">
+    <div class="container container--mid mt-2 mt-md-5 pt-2 pt-md-5">
+        <div class="row no-gutters">
+            <div class="col">
+                <h2 class="text-primary mb-2 mb-md-4">I numeri del Cashback</h2>
+                <div class="mb-3 text-muted">Dall'inizio del programma ad oggi</div>
+            </div>
+            <div>
+                <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback-hp.svg" class="heading-logo img-fluid" alt="Logo Cashback">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="dashboardcard bg-primary text-white shadow d-flex flex-column justify-content-end align-items-start">
+                    <img src="{{site.imagesurl}}/assets/img/icon-people.svg" class="mt-3 mt-md-0" alt="Nuovi Bonus Cashback attivati">
+                    <h5 class="dashboardcard__number my-2" id="cashbackActiveTotal"></h5>
+                    <div class="dashboardcard__desc">Cittadini aderenti al cashback</div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-end align-items-start">
+                    <img src="{{site.imagesurl}}/assets/img/icon-transaction.svg" class="mt-3 mt-md-0" alt="Bonus cashback attivati">
+                    <h5 class="dashboardcard__number my-2" id="trxTotal"></h5>
+                    <div class="dashboardcard__desc">Totale transazioni elaborate</div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-end align-items-start">
+                    <img src="{{site.imagesurl}}/assets/img/icon-cards.svg" class="mt-3 mt-md-0" alt="Bonus Vacanze generati">
+                    <h5 class="dashboardcard__number my-2" id="carteOnboardTotal"></h5>
+                    <div class="dashboardcard__desc">Strumenti di pagamento attivati</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container--mid mt-5 pt-4">
+        <h3 class="text-primary mb-0">I dati dei diversi periodi</h3>
+    </div>
+    <div class="dashboard__title affix-top bg-white pt-3">
+        <div class="container container--mid">
+            <ul class="nav nav-tabs">
+                <li class="nav-item"><a class="nav-link active" id="cashbackPeriod1" data-toggle="tab" role="tab" aria-controls="tab1" aria-selected="true" href="javascript:void(0)">Extra Cashback di Natale</a></li>
+                <li class="nav-item"><a class="nav-link" id="cashbackPeriod2" data-toggle="tab" role="tab" aria-controls="tab2" aria-selected="false" href="javascript:void(0)">1° Semestre 2021</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="container container--mid">
+        <div class="row my-2">
+            <div class="col-md-6 py-1">
+                <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-end align-items-start">
+                    <img src="{{site.imagesurl}}/assets/img/icon-transaction.svg" class="mt-3 mt-md-0" alt="Bonus cashback attivati">
+                    <h5 id="tot_trx_per_day" class="dashboardcard__number my-2"></h5>
+                    <div class="dashboardcard__desc">
+                        Numero di transazioni elaborate
+                    </div>
+                </div><!--/dashboardcard-->
+            </div>
+
+            <div class="col-md-6 py-1">
+                <div class="dashboardcard bg-primary text-white shadow">
+                    <div class="row align-items-end">
+                        <div class="col-7">
+                            <img src="{{site.imagesurl}}/assets/img/icon-bonusutilizzati.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
+                            <h5 id="trx_1" class="dashboardcard__number my-2"></h5>
+                            <div class="dashboardcard__desc">
+                                Utenti con transazioni valide
+                                <span tabindex="0" data-toggle="tooltip" title="Totale dei partecipanti che ha effettuato almeno una transazione durante il periodo" data-placement="right">
+                                    <svg class="icon icon-white align-center ml-2">
+                                        <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-5">
+                            <canvas class="w-100" id="userTrxThreshold" height="150"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboardcard shadow my-4">
+            <h4>Utenti aderenti e strumenti registrati</h4>
+            <p>Andamento giornaliero degli utenti che hanno aderito al cashback e degli strumenti registrati</p>
+            <canvas id="aderentiLine"></canvas>
+        </div>
+
+        <div class="row my-1">
+            <div class="col-12 my-3">
+                <div class="dashboardcard shadow ">
+                    <h4>
+                        Transazioni al giorno
+                        <span tabindex="0" data-toggle="tooltip" title="La rendicontazione dei flussi può richiedere alcuni giorni lavorativi" data-placement="right">
+                            <svg class="icon align-center ml-2" fill="#5c6f82">
+                                <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
+                            </svg>
+                        </span>
+                    </h4>
+                    <p>Andamento delle transazioni gestite per il cashback</p>
+                    <div class="">
+                        <canvas class=" " id="trxLine"></canvas>
+                    </div>
+                </div><!--/dashboardcard-->
+            </div><!--/col-12-->
+        </div>
+
+        <div class="dashboardcard shadow my-4">
+            <h4>Transazioni per importo</h4>
+            <p>Distribuzione delle transazioni per importo delle stesse</p>
+            <canvas id="trxAmountChart"></canvas>
+        </div>
+
+        <div class="dashboardcard shadow my-4">
+            <h4>Utenti per numero di transazioni</h4>
+            <p>Distribuzione degli utenti per numero di transazioni</p>
+            <canvas id="userTrxChart"></canvas>
+        </div>
+
+        <div class="py-4"></div>
+    </div><!--/container-->
+</div><!--dashboard__cashback-->

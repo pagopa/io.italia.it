@@ -67,12 +67,12 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/pub-amm.js' }}"></script>
 {% endif %}
 
-{% if page.ref == 'dashboard' %}
+{% if page.ref contains 'dashboard' %}
 <script src="{{ site.baseurl }}/assets/js/vendor/Chart.bundle.js"></script>
 
 {% endif %}
 
-{% if page.ref == 'dashboard' or page.ref == 'index' or page.ref=='bonus-vacanze' %}
+{% if page.ref contains 'dashboard' or page.ref == 'index' or page.ref=='bonus-vacanze' %}
     <script src="{{ site.baseurl }}/assets/js/vendor/moment.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/vendor/moment-locale-it.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/vendor/chartjs-adapter-moment.min.js"></script>
