@@ -283,7 +283,7 @@
       </div>
       
         <div class="media-press">
-          {%- assign comunicati = site.posts | where_exp: "item", "item.lang == 'it' and item.archived != true" -%}
+          {% assign comunicati = site.posts | where_exp: "item", "tem.archived != true" %}
           {% for post in comunicati | sort:'date' %}
             {% if forloop.index == 1 %}
             <div class="row mb-3 mb-md-5">
