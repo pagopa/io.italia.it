@@ -1,5 +1,5 @@
 var TRX_THRESHOLDS = [10, 50]; // map one for each period
-var CASHBACK_PERIOD_CUR = 1;
+var CASHBACK_PERIOD_CUR = 2;
 
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
