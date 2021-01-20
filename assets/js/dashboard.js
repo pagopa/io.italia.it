@@ -629,11 +629,19 @@ function loadJSON(callback) {
     function changeCashbackPeriod(period) {
       var periodIndex = period - 1;
 
+      // Update tabs
+      $('#cashbackPeriodTabs').find('.nav-link').each(function(i, el) {
+        $(el).toggleClass('active', i === periodIndex);
+      });
+
+      // Update cards
       Object.keys(cardsDataMap).forEach(function(id) {
         var periods = cardsDataMap[id];
         var data = periods[periodIndex];
         if (data != null) $(id).text(data.toLocaleString("it"));
       });
+
+      // Update charts
       chartDataMap.forEach(function(item) {
         var chart = item[0];
         var generator = item[1];
