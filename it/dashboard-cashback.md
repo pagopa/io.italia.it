@@ -13,6 +13,6 @@ image: /assets/img/cashback/social-card-cashback-dashboard.jpg
 
 <div class="py-4"></div>
 <div class="container container--mid pb-3">
-<a href="/dashboard/" title="Tutti i dati dell'App IO" class="text-decoration-none">&larr; Tutti i dati dell'App IO</a>
+<a href="/dashboard/" title="Tutti i dati dell'App IO" class="btn btn-primary">&larr; Tutti i dati dell'App IO</a>
 </div>
 {% include dashboards/cashback.html %}
