@@ -12,7 +12,7 @@ image: /assets/img/cashback/social-card-cashback-dashboard.jpg
 {% assign t = site.data.t[current_lang] %}
 
 <div class="py-4"></div>
-{% include dashboards/cashback.html %}
-<div class="container container--mid pb-4">
+<div class="container container--mid pb-3">
 <a href="/dashboard/" title="Tutti i dati dell'App IO" class="text-decoration-none">&larr; Tutti i dati dell'App IO</a>
 </div>
+{% include dashboards/cashback.html %}
