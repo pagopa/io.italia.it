@@ -1,4 +1,5 @@
 var TRX_THRESHOLDS = [10, 50]; // map one for each period
+var CASHBACK_PERIOD_CUR = 1;
 
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
@@ -332,15 +333,9 @@ function loadJSON(callback) {
     $("#carteOnboardTotal").text((dashboardData.tot_carteOnboard + dashboardData.tot_carteOnboard_june).toLocaleString("it"));
     $("#trxTotal").text((dashboardData.tot_trx_per_day + dashboardData.tot_trx_per_day_june).toLocaleString("it"));
 
-    $("#tot_carteOnboard").text( dashboardData.tot_carteOnboard.toLocaleString("it"));
-    $("#tot_trx_per_day").text( dashboardData.tot_trx_per_day.toLocaleString("it"));
-    $("#trx_1").text((dashboardData.trx_1 + dashboardData.trx_10).toLocaleString("it"));
-
     var aderentiLine = document.getElementById("aderentiLine") ? document.getElementById("aderentiLine").getContext("2d") : undefined;
-    var aderenti = generateAderenti(dashboardData.aderenti, dashboardData.carteOnboard);
     var aderentiChart = aderentiLine ? new Chart(aderentiLine, {
       type: "bar",
-      data: aderenti,
       options: {
         responsive: true,
         title: {
@@ -402,10 +397,8 @@ function loadJSON(callback) {
     }) : undefined;
 
     var trxLine = document.getElementById("trxLine") ? document.getElementById("trxLine").getContext("2d") : undefined;
-    var transactions = generateTrxDay(dashboardData.trx_per_day);
     var trxChart = trxLine ? new Chart(trxLine, {
       type: "line",
-      data: transactions,
       options: {
         elements: {
           line: {
@@ -465,11 +458,9 @@ function loadJSON(callback) {
       },
     }) : undefined;
 
-    var userTrxThreshold = generateUserTrxThreshold(dashboardData.trx_1, dashboardData.trx_10, TRX_THRESHOLDS[0]);
     var userTrxThresholdCtx = document.getElementById("userTrxThreshold") ? document.getElementById("userTrxThreshold").getContext("2d") : undefined;
     var userTrxThresholdChart = userTrxThresholdCtx ? new Chart(userTrxThresholdCtx, {
       type: "pie",
-      data: userTrxThreshold,
       options: {
         responsive: true,
         legend: {
@@ -497,10 +488,8 @@ function loadJSON(callback) {
     }) : undefined;
 
     var trxAmountCtx = document.getElementById("trxAmountChart") ? document.getElementById("trxAmountChart").getContext("2d") : undefined;
-    var trxAmount = generateTrxAmount(dashboardData.all_range);
     var trxAmountChart = trxAmountCtx ? new Chart(trxAmountCtx, {
       type: "bar",
-      data: trxAmount,
       options: {
         responsive: true,
         legend: {
@@ -550,10 +539,8 @@ function loadJSON(callback) {
     }) : undefined;
 
     var userTrxCtx = document.getElementById("userTrxChart") ? document.getElementById("userTrxChart").getContext("2d") : undefined;
-    var userTrx = generateUserTrx(dashboardData.user_by_trx_bin, TRX_THRESHOLDS[0]);
     var userTrxChart = userTrxCtx ? new Chart(userTrxCtx, {
       type: "bar",
-      data: userTrx,
       options: {
         responsive: true,
         legend: {
@@ -661,6 +648,9 @@ function loadJSON(callback) {
         }
       })
     }
+
+    // Set initial period
+    changeCashbackPeriod(CASHBACK_PERIOD_CUR);
 
     $('#cashbackPeriod1').click(function () { changeCashbackPeriod(1) });
     $('#cashbackPeriod2').click(function () { changeCashbackPeriod(2) });
