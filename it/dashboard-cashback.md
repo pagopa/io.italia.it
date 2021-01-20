@@ -1,11 +1,11 @@
 ---
 layout: naked
-title: I numeri dell'app IO
-description: In questa pagina trovi le statistiche relative all'utilizzo dell'app IO, aggiornate quotidianamente.
+title: I numeri del Cashback
+description: In questa pagina trovi le statistiche relative alla partecipazione al programma Cashback, aggiornate quotidianamente
 lang: it
-permalink: /dashboard/cashback/
+permalink: /cashback/dashboard/
 ref: dashboard-cashback
-image: /assets/img/social-card-stats.jpg
+image: /assets/img/cashback/social-card-cashback-dashboard.jpg
 ---
 
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %}
@@ -13,3 +13,6 @@ image: /assets/img/social-card-stats.jpg
 
 <div class="py-4"></div>
 {% include dashboards/cashback.html %}
+<div class="container container--mid pb-4">
+<a href="/dashboard/" title="Tutti i dati dell'App IO" class="text-decoration-none">&larr; Tutti i dati dell'App IO</a>
+</div>
