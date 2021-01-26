@@ -1,3 +1,6 @@
+var TRX_THRESHOLDS = [10, 50]; // map one for each period
+var CASHBACK_PERIOD_CUR = 2;
+
 function loadJSON(callback) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
@@ -73,25 +76,17 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            title: tooltipTitleCallbackXDate,
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -109,6 +104,11 @@ function loadJSON(callback) {
             usePointStyle: true,
             fontFamily: "'Titillium Web', Arial",
 
+          }
+        },
+        tooltips: {
+          callbacks: {
+            label: tooltipLabelCallbackArcNumber
           }
         }
       },
@@ -172,25 +172,17 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            title: tooltipTitleCallbackXDate,
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -252,25 +244,17 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            title: tooltipTitleCallbackXDate,
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -323,25 +307,17 @@ function loadJSON(callback) {
                 fontColor: "#5C6F82",
                 fontFamily: "'Titillium Web', Arial",
                 maxTicksLimit: 5,
-                callback: function(value) {
-                  var ranges = [
-                     { divider: 1e6, suffix: 'M' },
-                     { divider: 1e3, suffix: 'k' }
-                  ];
-                  function formatNumber(n) {
-                     for (var i = 0; i < ranges.length; i++) {
-                        if (n >= ranges[i].divider) {
-                           return (n / ranges[i].divider).toString() + ranges[i].suffix;
-                        }
-                     }
-                     return n;
-                  }
-                  return formatNumber(value);
-               }
+                callback: formatNumberSuffix
               },
             },
           ],
         },
+        tooltips: {
+          callbacks: {
+            title: tooltipTitleCallbackXDate,
+            label: tooltipLabelCallbackYNumber
+          }
+        }
       },
     }) : undefined;
 
@@ -350,5 +326,332 @@ function loadJSON(callback) {
     $("#bonusAmount").text( dashboardData.generatedBonusAmount.toLocaleString("it") + " €");
     $("#numbonusredeem").text( dashboardData.redeemedBonusCount.toLocaleString("it"));
     $("#today").text( moment().format("DD/MM/YYYY") );
+    
+    // Bonus cashback 
+
+    $("#cashbackActiveTotal").text((dashboardData.tot_aderenti + dashboardData.tot_aderenti_june).toLocaleString("it"));
+    $("#carteOnboardTotal").text((dashboardData.tot_carteOnboard + dashboardData.tot_carteOnboard_june).toLocaleString("it"));
+    $("#trxTotal").text((dashboardData.tot_trx_per_day + dashboardData.tot_trx_per_day_june).toLocaleString("it"));
+
+    var aderentiLine = document.getElementById("aderentiLine") ? document.getElementById("aderentiLine").getContext("2d") : undefined;
+    var aderentiChart = aderentiLine ? new Chart(aderentiLine, {
+      type: "bar",
+      options: {
+        responsive: true,
+        title: {
+          display: false,
+          text: "Utenti cashback ",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+              type: 'time',
+              time: {
+                stepSize: 7,
+                unit: 'day'
+              }
+            },
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: formatNumberSuffix
+              },
+            },
+          ],
+        },
+        legend: {
+          position: 'bottom',
+          labels: {
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+
+          }
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+          callbacks: {
+            title: tooltipTitleCallbackXDate,
+            label: tooltipLabelCallbackYNumber
+          }
+        }
+      },
+    }) : undefined;
+
+    var trxLine = document.getElementById("trxLine") ? document.getElementById("trxLine").getContext("2d") : undefined;
+    var trxChart = trxLine ? new Chart(trxLine, {
+      type: "line",
+      options: {
+        elements: {
+          line: {
+            tension: 0
+          },
+        },
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Transazioni ",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+              type: 'time',
+              time: {
+                stepSize: 7,
+                unit: 'day'
+              }
+            },
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: formatNumberSuffix
+              },
+            },
+          ],
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+          callbacks: {
+            title: tooltipTitleCallbackXDate,
+            label: tooltipLabelCallbackYNumber
+          }
+        }
+      },
+    }) : undefined;
+
+    var userTrxThresholdCtx = document.getElementById("userTrxThreshold") ? document.getElementById("userTrxThreshold").getContext("2d") : undefined;
+    var userTrxThresholdChart = userTrxThresholdCtx ? new Chart(userTrxThresholdCtx, {
+      type: "pie",
+      options: {
+        responsive: true,
+        legend: {
+          position: 'bottom',
+          labels: {
+            boxWidth: 8,
+            usePointStyle: true,
+            fontFamily: "'Titillium Web', Arial",
+            fontColor: "#fff",
+          },
+        },
+        tooltips: {
+          mode: 'nearest',
+          intersect: false,
+
+          callbacks: {
+            label: tooltipLabelCallbackArcNumber
+          }
+        },
+        hover: {
+          mode: 'nearest',
+          intersect: false
+        }
+      },
+    }) : undefined;
+
+    var trxAmountCtx = document.getElementById("trxAmountChart") ? document.getElementById("trxAmountChart").getContext("2d") : undefined;
+    var trxAmountChart = trxAmountCtx ? new Chart(trxAmountCtx, {
+      type: "bar",
+      options: {
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Utenti per importo transazione",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+            },
+          ],
+          yAxes: [
+            {
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: formatNumberSuffix
+              },
+            },
+          ],
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
+      },
+    }) : undefined;
+
+    var userTrxCtx = document.getElementById("userTrxChart") ? document.getElementById("userTrxChart").getContext("2d") : undefined;
+    var userTrxChart = userTrxCtx ? new Chart(userTrxCtx, {
+      type: "bar",
+      options: {
+        responsive: true,
+        legend: {
+          display: false,
+        },
+        title: {
+          display: false,
+          text: "Utenti cashback ",
+        },
+        scales: {
+          xAxes: [
+            {
+              gridLines: {
+                display: false,
+              },
+              ticks: {
+                fontSize: 15,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+              },
+            },
+          ],
+          yAxes: [
+            {
+              // type: 'logarithmic',
+              gridLines: {
+                display: true,
+              },
+              ticks: {
+                display: true,
+                fontSize: 12,
+                fontColor: "#5C6F82",
+                fontFamily: "'Titillium Web', Arial",
+                maxTicksLimit: 5,
+                callback: formatNumberSuffix
+              },
+            },
+          ],
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false,
+          callbacks: {
+            label: tooltipLabelCallbackYNumber
+          }
+        }
+      },
+    }) : undefined;
+
+    // Cashback periods
+    var cardsDataMap = { // map element ids to dashboard data
+      "#tot_carteOnboard": [dashboardData.tot_carteOnboard, dashboardData.tot_carteOnboard_june],
+      "#tot_trx_per_day": [dashboardData.tot_trx_per_day, dashboardData.tot_trx_per_day_june],
+      "#trx_1": [dashboardData.trx_1 + dashboardData.trx_10, dashboardData.trx_1_june + dashboardData.trx_10_june],
+    };
+    var chartDataMap = [ // map chart and generator to dashboard data
+      [userTrxThresholdChart, generateUserTrxThreshold, [
+        [dashboardData.trx_1, dashboardData.trx_10, TRX_THRESHOLDS[0]],
+        [dashboardData.trx_1_june, dashboardData.trx_10_june, TRX_THRESHOLDS[1]]
+      ]],
+      [aderentiChart, generateAderenti, [
+        [dashboardData.aderenti, dashboardData.carteOnboard],
+        [dashboardData.aderenti_june, dashboardData.carteOnboard_june]]
+      ],
+      [trxChart, generateTrxDay, [[dashboardData.trx_per_day], [dashboardData.trx_per_day_june]]],
+      [trxAmountChart, generateTrxAmount, [[dashboardData.all_range], [dashboardData.all_range_june]]],
+      [userTrxChart, generateUserTrx, [
+        [dashboardData.user_by_trx_bin, TRX_THRESHOLDS[0]],
+        [dashboardData.user_by_trx_bin_june, TRX_THRESHOLDS[1]]]
+      ],
+    ];
+
+    function changeCashbackPeriod(period) {
+      var periodIndex = period - 1;
+
+      // Update tabs
+      $('#cashbackPeriodTabs').find('.nav-link').each(function(i, el) {
+        $(el).toggleClass('active', i === periodIndex);
+      });
+
+      // Update cards
+      Object.keys(cardsDataMap).forEach(function(id) {
+        var periods = cardsDataMap[id];
+        var data = periods[periodIndex];
+        if (data != null) $(id).text(data.toLocaleString("it"));
+      });
+
+      // Update charts
+      chartDataMap.forEach(function(item) {
+        var chart = item[0];
+        var generator = item[1];
+        var periods = item[2];
+        var dataArgs = periods[periodIndex];
+        if (dataArgs != null) {
+          var newData = generator.apply(null, dataArgs);
+
+          // Update chart datasets (replace whole data to "restart" chart)
+          // REF: https://www.chartjs.org/docs/latest/developers/updates.html
+          // chart.data.labels = newData.labels;
+          // chart.data.datasets.forEach((dataset, i) => {
+          //   dataset.data = newData.datasets[i].data
+          // });
+          chart.data = newData; // TODO: remove restart and fix bar overlap on transaction
+          chart.update();
+        }
+      })
+    }
+
+    // Set initial period
+    changeCashbackPeriod(CASHBACK_PERIOD_CUR);
+
+    $('#cashbackPeriod1').click(function () { changeCashbackPeriod(1) });
+    $('#cashbackPeriod2').click(function () { changeCashbackPeriod(2) });
   });
-  
