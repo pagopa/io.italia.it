@@ -1,10 +1,7 @@
-source "https://rubygems.org"
-
-gem "jekyll", "~> 4.0.0"
-
-gem "html-proofer", "~> 3.14.1"
-
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.13.0"
-  gem "jekyll-redirect-from", "~> 0.15.0"
-end
+source 'https://rubygems.org'
+gem 'jekyll', '~> 3.9.0'
+gem 'jekyll-sitemap', '~> 1.4.0'
+gem 'jekyll-feed', '~> 0.15.1'
+gem 'jekyll-redirect-from', '~> 0.16.0'
+gem 'kramdown-parser-gfm', '~> 1.1.0'
+gem "webrick", "~> 1.7"

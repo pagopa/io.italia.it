@@ -1,21 +1,3 @@
-<div class="bg-primary pt-5">
-    <div class="py-5 container container--mid">
-        <div id="aggiornamento" class="text-right small text-white d-none d-md-block">
-        Ultimo aggiornamento: <span id="today">21/07/2020</span>
-        </div>
-    </div>
-    <section class="container container--mid mb-5 mt-0 mt-md-3 d-flex " id="introduzione">
-        <div class="row px-3 px-md-0 w-100">
-            <div class="col-lg-7 text-primary order-2 order-md-1">
-                <h1 class="text-white">{{page.title}}</h1>
-                <p class="my-4 text-white" >{{page.description}}</p>
-                <div class="d-flex flex-column mb-3">
-                    
-                </div>
-            </div>
-        </div>
-    </section>
-</div>
 <div class="dashboard-mainwrapper">
     <div class="container container--mid pt-5 pt-md-0 pb-5 pb-md-0">
         <div class="">
@@ -83,7 +65,7 @@
         </div><!--/row-->
         <a name="bonusvacanze"/>
     </div><!--/container-->
-    
+
     <div class="dashboard__bonus mt-2 mt-md-5 pt-2 pt-md-5">
     <div class="container container--mid">
         <div class="row mb-2 mb-md-4">
@@ -140,5 +122,9 @@
 
         <div class="py-4"></div>
     </div><!--/container-->
+    <a name="cashback"/>
     </div><!--dashboard__bonus-->
+
+    {% include dashboards/cashback.html %}
+
 </div><!--/dashboard-mainwrapper"-->

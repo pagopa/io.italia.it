@@ -11,4 +11,5 @@ image: /assets/img/social-card-stats.jpg
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %}
 {% assign t = site.data.t[current_lang] %}
 
+{% include dashboards/intro.html %}
 {% include dashboard.html %}

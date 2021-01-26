@@ -1,6 +1,44 @@
 var TOTAL = 0
 var TOTALBONUS = 0
 
+function formatNumberIntl(n) {
+  return new Intl.NumberFormat().format(n);
+}
+function formatNumberSuffix(n) {
+  var ranges = [
+    { divider: 1e6, suffix: 'M' },
+    { divider: 1e3, suffix: 'k' }
+  ];
+
+  for (var i = 0; i < ranges.length; i++) {
+    if (n >= ranges[i].divider) {
+      var formattedDivider = formatNumberIntl(n / ranges[i].divider);
+      return formattedDivider + ranges[i].suffix;
+    }
+  }
+  return n;
+}
+
+function tooltipTitleCallbackXDate(tooltipItem) {
+  return new Date(tooltipItem[0].xLabel).toLocaleDateString();
+}
+
+function tooltipLabelCallbackYNumber(tooltipItem, data) {
+  var dataLabel = data.datasets[tooltipItem.datasetIndex].label;
+  return dataLabel + ": " + formatNumberIntl(tooltipItem.yLabel);
+}
+
+function tooltipLabelCallbackArcNumber(tooltipItem, data) {
+  var dataLabel = data.labels[tooltipItem.index];
+  var value = data.datasets[tooltipItem.datasetIndex].data[tooltipItem.index];
+  var sum = data.datasets[0].data.reduce((a, b) => a + b, 0) || 1;
+  var percentage = new Intl.NumberFormat({ style: "percent", maximumFractionDigits: 0 }).format(value * 100 / sum) + "%";
+  return [
+    dataLabel + ": " + formatNumberIntl(value),
+    percentage
+  ];
+}
+
 function generateDownloads(downloads) {
     var labels = [];
     var nDownloads = [];
@@ -126,7 +164,7 @@ function generateDownloads(downloads) {
       var monthDate = moment(obj['date']);
       const date = monthDate.format("YYYY-MM-DD");
       labels.push(date.toString());
-      all.push(obj['Poste ID'] + obj['Aruba ID'] + obj['Aruba ID'] + obj['Namirial ID'] + obj['Infocert ID']
+      all.push(obj['Poste ID'] + obj['Aruba ID'] + obj['Namirial ID'] + obj['Infocert ID']
          + obj['Intesa ID'] + obj['Lepida ID'] + obj['SPIDItalia Register.it'] + obj['Sielte ID'] + obj['Telecom Italia']);
       cie.push(obj['CIE']);
     }
@@ -194,6 +232,130 @@ function generateDownloads(downloads) {
             "rgb(0, 90, 200)","rgb(10, 160, 220)"
           ],
           hoverBorderColor: '#fff',
+        },
+      ],
+    };
+  }
+
+  function generateUserTrxThreshold(below, above, threshold) {
+    var data = [below, above]
+    return {
+      labels: ["tra 1 e " + (threshold - 1), threshold + " e più"],
+      datasets: [
+        {
+          data: data,
+          backgroundColor: ["rgb(38, 200, 247)", "#fff"],
+          hoverBackgroundColor: ["rgb(10, 160, 220)"],
+          borderColor: "#06c",
+          hoverBorderColor: "#06c",
+        },
+      ],
+    };
+  }
+
+  function generateAderenti(aderenti, carte) {
+    var labels = [];
+    var users = [];
+    var cards = [];
+    for (let i = 0; i < aderenti.length; i++) {
+      var obj = aderenti[i]
+      var monthDate = moment(obj['day']);
+      // TOTALBONUS = TOTALBONUS + obj['total'];
+      const date = monthDate.format("YYYY-MM-DD");
+      labels.push(date.toString());
+      users.push(obj['total']);
+      const cardsFound = carte.find(function (d) { return d.day === obj.day });
+      cards.push(cardsFound && cardsFound.tot);
+    }
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Utenti aderenti",
+          data: users,
+          backgroundColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+        {
+          label: "Strumenti di pagamento",
+          data: cards,
+          backgroundColor: "#15c5f8",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+      ],
+    };
+  }
+
+  function generateTrxDay(trx) {
+    var labels = [];
+    var transactions = [];
+    for (let i = 0; i < trx.length; i++) {
+      var obj = trx[i]
+      var monthDate = moment(obj['day']);
+      // TOTALBONUS = TOTALBONUS + obj['total'];
+      const date = monthDate.format("YYYY-MM-DD");
+      labels.push(date.toString());
+      transactions.push(obj['count']);
+    }
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Numero transazioni",
+          data: transactions,
+          borderWidth: 2,
+          backgroundColor: "rgb(0, 115, 230, 0.2)",
+          borderColor: "rgb(0, 115, 230)",
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+      ],
+    };
+  }
+
+  function generateTrxAmount(raw) {
+    var colorRange = ['rgb(0, 115, 230)', '#2d489d', '#00264D'];
+    var clean = raw.slice();
+    var labels = clean.map(function (d) { return d.ran + '€' });
+    var data = clean.map(function (d) { return d.count });
+    var backgroundColors = raw.map(function(d) {
+      var binWidth = d.bin_width || Infinity;
+      var colorIndex = binWidth <= 5 ? 0 : binWidth <= 25 ? 1 : 2;
+      return colorRange[colorIndex];
+    })
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Numero transazioni",
+          data: data,
+          backgroundColor: backgroundColors,
+          pointHitRadius: 5,
+          pointRadius: 0
+        },
+      ],
+    };
+  }
+
+  function generateUserTrx(raw, threshold) {
+    var clean = raw.filter(function(d) { return d.bin <= 150 })
+    var labels = clean.map(function (d, i) {
+      var next = clean[i + 1];
+      return next ? [d.bin || 1, next.bin - 1].join('-') : d.bin + '+';
+    });
+    var backgroundColors = raw.map(function(d) { return d.bin >= threshold ? 'rgb(0, 115, 230)' : '#15c5f8' })
+    var data = clean.map(function (d) { return d.count });
+    return {
+      labels,
+      datasets: [
+        {
+          label: "Numero utenti",
+          data: data,
+          backgroundColor: backgroundColors,
+          pointHitRadius: 5,
+          pointRadius: 0
         },
       ],
     };

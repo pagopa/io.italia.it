@@ -1,6 +1,11 @@
-.pagename--dashboard {
+.pagename--dashboard,
+.pagename--dashboard-cashback {
   *[data-toggle="tooltip"] {
     position: absolute;
+  }
+
+  .heading-logo {
+    max-width: 7rem;
   }
 
   .dashboard-mainwrapper {
@@ -22,14 +27,13 @@
       font-weight: 600;
     }
     &__desc {
-      font-size: 1.2rem;
       font-weight: 500;
+    }
 
-      .icon {
-        width: 1rem;
-        height: 1rem;
-        fill: #5c6f82;
-      }
+    .icon {
+      width: 1rem;
+      height: 1rem;
+      fill: #5c6f82;
     }
 
     &--dark {
@@ -67,5 +71,12 @@
   .bs-tooltip-auto[x-placement^="left"] .arrow,
   .bs-tooltip-left .arrow {
     right: 2px;
+  }
+
+  .dashboard__title {
+    &.affix-top {
+      top: 3.5rem;
+      z-index: 1;
+    }
   }
 }
