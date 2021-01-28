@@ -6,4 +6,4 @@ gem 'jekyll-redirect-from', '~> 0.16.0'
 gem 'kramdown-parser-gfm', '~> 1.1.0'
 gem "webrick", "~> 1.7"
 gem 'down', '~> 5.2'
-gem 'fileutils', '~> 1.5'
+gem 'fileutils', '~> 1.4.1'
