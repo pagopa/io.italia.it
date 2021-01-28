@@ -3,7 +3,7 @@
 THIS SCRIPT IS USEFUL TO DOWNLOAD DATA USEFUL TO LIST "COBADGES" CARDS & INFO
 =end
 require 'down'
-require 'FileUtils'
+require 'fileutils'
 
 Jekyll::Hooks.register :site, :after_init do |doc, payload|
 
