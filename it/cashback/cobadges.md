@@ -7,7 +7,9 @@ permalink: /cashback/carta-non-abilitata-pagamenti-online/
 lang: it
 ref: cobadges
 introduction_slides:
-extra_scripts: /assets/js/lazyload-bg-images.js
+extra_scripts:
+  - /assets/js/lazyload-bg-images.js
+  - /assets/js/cobadges-search.js
 ---
 
 <div class="container container--mid text-primary my-4 my-md-0">
@@ -19,10 +21,4 @@ In questa pagina trovi la lista delle banche che ti permettono di aggiungere sul
 <p class="font-size-reset text-muted">L’elenco è in continuo aggiornamento: siamo al lavoro con i vari soggetti coinvolti per ampliare ulteriormente la copertura del servizio. Rivolgiti alla tua banca per maggiori informazioni o per chiedere soluzioni alternative.</p>
 </div>
 
-{% capture content_include %}
-
-<h2 class="text-primary">Banche supportate</h2>
-
-{% endcapture %}
-
-{% include list-cobadges.html content=content_include %}
+{% include list-cobadges.html %}

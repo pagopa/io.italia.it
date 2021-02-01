@@ -11,22 +11,27 @@
 
 <div class="section mt-3 mt-md-5 pt-2 pt-md-3 pb-2 pb-md-5 list-cobadges ">
     <div class="container container--mid">
-{% if include.content %}
-{{include.content}}
-{% endif %}
-
-
-
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="text-primary">Banche supportate</h2>
+            </div>
+            <div class="col-12 col-md-6 d-md-flex align-items-md-end list-cobadges__search">
+                <div class="form-group w-100 mt-4 mt-md-0 mb-2">
+                <input type="text" class="form-control" id="banksearch" placeholder="Almeno tre caratteri">
+                <label for="inputBanksearch" class="py-2 px-0">Cerca il tuo istituto bancario</label>
+                </div>
+            </div>
+        </div>
     {% if items.size > 0 %}
     <div class="container-fluid my-3 my-md-5">
         {% for item in items  %}
-            {% assign bankdata = abi | where: "abi","08881" | first %}
+            {% assign bankdata = abi | where: "abi", item.abi | first %}
             {% assign bkgimage = imageurl | append: item.abi | append: '.png' %}
-            <div class="border-top row p-4">
+            <div class="border-top row p-4 list-cobadges__item {{item.abi}}"  >
                 <div class="col-md-2 list-cobadges__logo lazy" data-bkgimage="url({{bkgimage}})">
                 </div>
                 <div class="col-md-10  d-flex align-items-md-center">
-                    <div class="mt-2 mt-md-0 ml-md-3">{{item.name}}</div>
+                    <div class="mt-2 mt-md-0 ml-md-3 list-cobadges__itemname" data-abi="{{item.abi}}">{{item.name}}</div>
                 </div>
             </div>
         {% endfor %}

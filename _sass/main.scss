@@ -707,3 +707,24 @@ a.text-hover-green {
     }
   }
 }
+
+.loaded {
+  -webkit-animation: loaded-anim 1s linear 2 alternate both;
+  animation: loaded-anim 1s linear 2 alternate both;
+}
+@-webkit-keyframes loaded-anim {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #fff;
+  }
+}
+@keyframes loaded-anim {
+  0% {
+    background: transparent;
+  }
+  100% {
+    background: #fff;
+  }
+}
