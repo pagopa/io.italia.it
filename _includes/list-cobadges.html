@@ -24,6 +24,9 @@
         </div>
     {% if items.size > 0 %}
     <div class="container-fluid my-3 my-md-5">
+        <div class="list-cobadges__empty my-4 d-none">
+            <h4 class="text-center">Nessun istituto bancario corrispondete alla tua ricerca</h4>
+        </div>
         {% for item in items  %}
             {% assign bankdata = abi | where: "abi", item.abi | first %}
             {% assign bkgimage = imageurl | append: item.abi | append: '.png' %}

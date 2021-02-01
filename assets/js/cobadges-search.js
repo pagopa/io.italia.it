@@ -13,7 +13,9 @@ $( document ).ready(function() {
     $("#banksearch").keyup(function(){
         var searchField = $(this).val();
         var regex = new RegExp(searchField, "i");
+        var $empty = $('.list-cobadges__empty');
         bankdata.removeClass("d-none").removeClass('loaded');
+        $empty.addClass("d-none");
         if (searchField.length < 4) {
             return;
         }
@@ -23,6 +25,10 @@ $( document ).ready(function() {
           });
 
         if (result.length > 0) {
+            bankdata.addClass("d-none");
+            $empty.addClass("d-none");
+        } else {
+            $empty.removeClass("d-none");
             bankdata.addClass("d-none");
         };
 
