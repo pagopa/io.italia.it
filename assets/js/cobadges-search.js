@@ -13,7 +13,7 @@ $( document ).ready(function() {
     $("#banksearch").keyup(function(){
         var searchField = $(this).val();
         var regex = new RegExp(searchField, "i");
-        bankdata.removeClass("d-none");
+        bankdata.removeClass("d-none").removeClass('loaded');
         if (searchField.length < 4) {
             return;
         }
