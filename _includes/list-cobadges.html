@@ -17,15 +17,15 @@
             </div>
             <div class="col-12 col-md-6 d-md-flex align-items-md-end list-cobadges__search">
                 <div class="form-group w-100 mt-4 mt-md-0 mb-2">
-                <input type="text" class="form-control" id="banksearch" placeholder="Almeno tre caratteri">
-                <label for="inputBanksearch" class="py-2 px-0">Cerca il tuo istituto bancario</label>
+                <input type="text" class="form-control" id="banksearch" placeholder="Cerca la tua banca">
                 </div>
             </div>
         </div>
     {% if items.size > 0 %}
     <div class="container-fluid my-3 my-md-5">
-        <div class="list-cobadges__empty my-4 d-none">
-            <h4 class="text-center">Nessun istituto bancario corrispondete alla tua ricerca</h4>
+        <div class="list-cobadges__empty my-4 d-none text-center">
+            <img src="{{site.imagesurl}}/assets/img/cashback/metodi/question.svg" alt="Nessun risultato">
+            <div class="my-2 px-5">Nessun risultato corrispondente alla tua ricerca</div>
         </div>
         {% for item in items  %}
             {% assign bankdata = abi | where: "abi", item.abi | first %}
