@@ -204,7 +204,7 @@ it:
       numbers: 16
       io: 1 # non è abilitata ai pagamenti online
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
-      cashback: 3
+      cashback: 0
       cashbacktext: "Aggiungi la carta al Portafoglio, selezionando **'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il circuito **Maestro** quando ti verrà richiesto.\n
 
       **La tua carta è già nel Portafoglio?** \n Selezionala per verificare lo stato del Cashback e abilitare il circuito Maestro: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere il secondo circuito **anche se la carta non ha il codice di sicurezza (CVV)**."
@@ -215,7 +215,7 @@ it:
       numbers: 19
       io: 1 # non è abilitata ai pagamenti online
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
-      cashback: 3
+      cashback: 0
       cashbacktext: "Aggiungi la carta al Portafoglio, selezionando **'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il circuito **Maestro** quando ti verrà richiesto.\n
 
       **La tua carta è già nel Portafoglio?** \n Selezionala per verificare lo stato del Cashback e abilitare il circuito Maestro: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere il secondo circuito **anche se la carta non ha il codice di sicurezza (CVV)**."
@@ -237,7 +237,7 @@ it:
       numbers: 8
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
-      cashback: 3
+      cashback: 0
       cashbacktext: "Aggiungi la carta al Portafoglio, selezionando **'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il circuito **V-Pay** quando ti verrà richiesto.\n
 
       **La tua carta è già nel Portafoglio?** \n Selezionala per verificare lo stato del Cashback e abilitare il circuito V-Pay: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere il secondo circuito **anche se la carta non ha il codice di sicurezza (CVV)**."
@@ -248,7 +248,7 @@ it:
       numbers: 16
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
-      cashback: 3
+      cashback: 0
       cashbacktext: "Aggiungi la carta al Portafoglio, selezionando **'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il circuito **V-Pay** quando ti verrà richiesto.\n
 
       **La tua carta è già nel Portafoglio?** \n Selezionala per verificare lo stato del Cashback e abilitare il circuito V-Pay: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere il secondo circuito **anche se la carta non ha il codice di sicurezza (CVV)**."
