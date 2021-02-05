@@ -71,6 +71,8 @@ it:
       img-small: /assets/img/cashback/metodi/ic-visa-small.svg
       img-large: /assets/img/cashback/metodi/ic-vpay-large.svg
       id: vpay
+    - name: Supermercati
+      id: gdo
   apps:
     - name: Apple Pay
       img-large: /assets/img/cashback/metodi/ic-applepay-large.svg
@@ -311,6 +313,24 @@ it:
       iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane."
       cashback: 1
       cashbacktext: "Questo tipo di carta non è al momento attivabile per il Cashback."
+    - cards:
+        - gdo
+      cvv:
+      numbers: 8
+      note: Carta Insieme Più Conad Card
+      io: 1
+      iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online."
+      cashback: 1
+      cashbacktext: "Siamo al lavoro per permetterti presto di aggiungere questa carta al tuo Portafoglio."
+    - cards:
+        - gdo
+      cvv:
+      numbers: 16
+      note: Fìdaty Oro
+      io: 1
+      iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online."
+      cashback: 1
+      cashbacktext: "Siamo al lavoro per permetterti presto di aggiungere questa carta al tuo Portafoglio."
       #######################
       #######################
       #######################
