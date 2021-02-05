@@ -1,5 +1,5 @@
 it:
-  last_update: 19/01/2021
+  last_update: 10/02/2021
   iostatus:
     0:
       status: yes
@@ -181,9 +181,9 @@ it:
       io: 1 # maestro soon live
       iotext: Stiamo lavorando per supportare i pagamenti con circuito **Maestro** su app IO.
       cashback: 0 # aggiungila anche come debit
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **Maestro** quando ti verrà richiesto.
 
-      Per ricevere tutte le transazioni valide su circuito **Maestro**, aggiungi la carta anche come **'Carta di credito, debito o prepagata'**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito Maestro: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non è abilitata ai pagamenti online**."
     - cards:
         - pagobancomat
         - maestro
@@ -191,10 +191,10 @@ it:
       numbers: 8
       io: 1 # non è abilitata ai pagamenti online
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
-      cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashback: 0
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **Maestro** quando ti verrà richiesto.
 
-      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **Maestro**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito Maestro: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non hai il codice di sicurezza (CVV)**."
     - cards:
         - pagobancomat
         - maestro
@@ -203,9 +203,9 @@ it:
       io: 1 # non è abilitata ai pagamenti online
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **Maestro** quando ti verrà richiesto.
 
-      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **Maestro**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito Maestro: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non hai il codice di sicurezza (CVV)**."
     - cards:
         - pagobancomat
         - maestro
@@ -214,20 +214,20 @@ it:
       io: 1 # non è abilitata ai pagamenti online
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **Maestro** quando ti verrà richiesto.
 
-      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **Maestro**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito Maestro: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non hai il codice di sicurezza (CVV)**."
     - cards:
         - pagobancomat
         - mastercard
-      cvv:
+      cvv: 3
       numbers: 16
       io: 0
       iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0 # aggiungila anche come debit
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **Mastercard** quando ti verrà richiesto.
 
-      Per ricevere tutte le transazioni valide su circuito **Mastercard**, aggiungi la carta anche come **'Carta di credito, debito o prepagata'**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito Mastercard: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non è abilitata ai pagamenti online**."
     - cards:
         - pagobancomat
         - vpay
@@ -236,9 +236,9 @@ it:
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **V-Pay** quando ti verrà richiesto.
 
-      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **V-Pay**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito V-Pay: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non hai il codice di sicurezza (CVV)**."
     - cards:
         - pagobancomat
         - vpay
@@ -247,20 +247,20 @@ it:
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Rivolgiti alla tua banca per maggiori informazioni.
       cashback: 3
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **V-Pay** quando ti verrà richiesto.
 
-      Siamo al lavoro con la tua banca per permetterti di aggiungere presto anche il circuito internazionale **V-Pay**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito V-Pay: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non hai il codice di sicurezza (CVV)**."
     - cards:
         - pagobancomat
         - visa
-      cvv:
+      cvv: 3
       numbers: 16
       io: 0
       iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0 # aggiungila anche come debit
-      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio, selezionando 'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il secondo circuito **Visa** quando ti verrà richiesto.
 
-      Per ricevere tutte le transazioni valide su circuito **Visa**, aggiungi la carta anche come **'Carta di credito, debito o prepagata'**."
+      Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback e abilitare il circuito Visa: [se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), potrai aggiungere la carta **anche se non è abilitata ai pagamenti online**."
     - cards:
         - postamat
         - maestro
