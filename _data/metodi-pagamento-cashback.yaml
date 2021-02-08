@@ -331,6 +331,15 @@ it:
       iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online."
       cashback: 1
       cashbacktext: "Siamo al lavoro per permetterti presto di aggiungere questa carta al tuo Portafoglio."
+    - cards:
+        - gdo
+      cvv:
+      numbers: 16
+      note: Unicoop Firenze - Spesa IN
+      io: 1
+      iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online."
+      cashback: 1
+      cashbacktext: "Siamo al lavoro per permetterti presto di aggiungere questa carta al tuo Portafoglio."
       #######################
       #######################
       #######################
