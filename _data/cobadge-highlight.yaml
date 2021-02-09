@@ -1,0 +1,31 @@
+it:
+  last_update: 09/02/2021
+  items:
+    # use alphabetical order
+    - name: UniCredit
+      img: /assets/img/cashback/issuer/unicredit.png
+      url: https://www.unicredit.it
+    - name: Banco BPM
+      img: /assets/img/cashback/issuer/bancobpm.png
+      url: https://www.bancobpm.it
+    - name: UBI Banca
+      img: /assets/img/cashback/issuer/ubi.png
+      url: https://www.ubibanca.com
+    - name: Gruppo BPER Banca
+      img: /assets/img/cashback/issuer/bper.png
+      url: https://www.bper.it
+    - name: Crédit Agricole
+      img: /assets/img/cashback/issuer/creditagricole.png
+      url: https://www.credit-agricole.it
+    - name: Banca Sella
+      img: /assets/img/cashback/issuer/sella.png
+      url: https://www.sella.it
+    - name: Gruppo ICRREA
+      img: /assets/img/cashback/issuer/gbci.png
+      #url: in arrivo
+    - name: Intesa Sanpaolo
+      img: /assets/img/cashback/issuer/intesa.png
+      #url: in arrivo
+    - name: Poste Italiane
+      img: /assets/img/cashback/issuer/poste.png
+      #url: in arrivo
