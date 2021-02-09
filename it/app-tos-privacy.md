@@ -9,6 +9,8 @@ updated: 10 dicembre 2020
 assets:
   js: "/assets/js/tos.js"
   css: "/assets/tos.css"
+redirect_from:
+  - /app-content/privacy_circuiti_internazionali.html
 ---
 
 {:.d-startup .mb-1}
