@@ -4,16 +4,22 @@ it:
     # use alphabetical order
     - name: UniCredit
       img: /assets/img/cashback/issuer/unicredit.png
+      onlylogo: true
     - name: Banco BPM
       img: /assets/img/cashback/issuer/bancobpm.png
+      onlylogo: true
     - name: UBI Banca
       img: /assets/img/cashback/issuer/ubi.png
+      onlylogo: true
     - name: Gruppo BPER Banca
       img: /assets/img/cashback/issuer/bper.png
+      onlylogo: true
     - name: Crédit Agricole
       img: /assets/img/cashback/issuer/creditagricole.png
+      onlylogo: true
     - name: Banca Sella
       img: /assets/img/cashback/issuer/sella.png
+      onlylogo: true
     - name: Gruppo ICRREA
       img: /assets/img/cashback/issuer/gbci.png
       # va mostrato 'in arrivo'

@@ -3,7 +3,7 @@
 {% assign items = site.data[source][current_lang]['items'] %}
 {% assign last_update = site.data[source][current_lang]['last_update'] %}
 
-<div class="section my-3 my-md-5 pt-2 pt-md-3 pb-2 pb-md-5 grid-card {{source}}">
+<div class="section my-3 my-md-5 pt-2 pt-md-3 pb-2 pb-md-5 grid-card {{include.css}} {{source}}">
     <div class="container container--mid">
 {% if include.content %}
 {{include.content}}
@@ -31,6 +31,8 @@
                 <a href="{{item.url}}" title="Scopri di più su {{item.name}}" target="_blank" class="small text-decoration-none d-flex align-items-center justify-content-center mt-auto">
                 <svg class="icon icon-primary icon-sm mr-1"><use xlink:href="/assets/svg/sprite.svg#it-external-link"></use></svg>
                 Scopri di più</a>
+            {% elsif item.onlylogo %}
+            {%comment%}nothing to print{%endcomment%}
             {%else%}
             <span class="badge badge-primary font-weight-light mt-2 small">in arrivo</span>
             {%endif%}
