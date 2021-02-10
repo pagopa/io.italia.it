@@ -1,7 +1,7 @@
 {% assign imageurl = "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/logos/abi/" %}
 {% assign abi = site.data.abi.data  %}
 {% assign source = site.data.cobadgeServices  %}
-{% assign groupeditems = source | where_exp: "item", "item.status != 'unavailable'" %}
+{% assign groupeditems = source | where_exp: "item", "item.status == 'enabled'" %}
 {% assign dataitems = "." | split: "." %}
 {% for g in groupeditems %}
    {% assign dataitems = dataitems | concat: g.issuers %}
