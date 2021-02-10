@@ -1,7 +1,7 @@
 it:
   last_update: 10/02/2021
   items:
-    - name: Allitude - Smart mPOS
+    - name: Allitude
       img: /assets/img/cashback/acquirer/allitude.png
       startdate: 09/02/2021
     - name: American Express
