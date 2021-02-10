@@ -20,4 +20,6 @@ Con IO puoi aggiungere la tua carta di debito (o credito) su circuito internazio
 <p class="font-size-reset text-muted">La lista delle banche per cui è disponibile il servizio è in continuo aggiornamento: siamo al lavoro con i vari soggetti coinvolti per ampliare ulteriormente la copertura. Rivolgiti alla tua banca per maggiori informazioni o per chiedere soluzioni alternative.</p>
 </div>
 
+{% include grid-card.html source='cobadge-highlight' %}
+
 {% include list-cobadges.html %}
