@@ -1,6 +1,6 @@
 ---
 layout: internal-simple
-title: Quali banche sono coperte dal servizio di aggiunta carta non abilitata ai pagamenti online
+title: Banche incluse nel servizio di aggiunta carta non abilitata ai pagamenti online
 description: Carte co-badges
 subdescription:
 permalink: /cashback/carta-non-abilitata-pagamenti-online/
