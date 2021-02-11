@@ -4,10 +4,9 @@ THIS SCRIPT IS USEFUL TO DOWNLOAD DATA USEFUL TO LIST "COBADGES" CARDS & INFO
 =end
 require 'down'
 
-SERVICESHOST = "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/status/"
-ABIHOST = "https://raw.githubusercontent.com/pagopa/io-services-metadata/master/status/"
+HOST = "https://assets.cdn.io.italia.it/status/"
 
 Jekyll::Hooks.register :site, :after_init do |doc, payload|
-    Down.download(SERVICESHOST + "cobadgeServices.json", destination: "./_data/cobadgeServices.json")
-    Down.download(ABIHOST + "abi.json", destination: "./_data/abi.json")
+    Down.download(HOST + "cobadgeServices.json", destination: "./_data/cobadgeServices.json")
+    Down.download(HOST + "abi.json", destination: "./_data/abi.json")
 end
