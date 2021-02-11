@@ -16,7 +16,7 @@ $( document ).ready(function() {
         var $empty = $('.list-cobadges__empty');
         bankdata.removeClass("d-none").removeClass('loaded');
         $empty.addClass("d-none");
-        if (searchField.length < 4) {
+        if (searchField.length < 3) {
             return;
         }
         
