@@ -29,12 +29,12 @@ it:
     - name: Nexi Pay
       img: /assets/img/cashback/issuer/nexi-pay.png
       url: https://www.nexi.it/privati/servizi/cashback.html
-    - name: UniCredit
-      img: /assets/img/cashback/issuer/unicredit.png
-      url: https://www.unicredit.it
     - name: Satispay
       img: /assets/img/cashback/issuer/satispay.png
       url: https://satispay.com
+    - name: UniCredit
+      img: /assets/img/cashback/issuer/unicredit.png
+      url: https://www.unicredit.it
     - name: YAP
       img: /assets/img/cashback/issuer/yap.png
       url: https://www.yap-app.it
