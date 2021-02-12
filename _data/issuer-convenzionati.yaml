@@ -1,5 +1,5 @@
 it:
-  last_update: 15/01/2021
+  last_update: 12/02/2021
   items:
     # use alphabetical order
     #- name: American Express
@@ -29,6 +29,9 @@ it:
     - name: Nexi Pay
       img: /assets/img/cashback/issuer/nexi-pay.png
       url: https://www.nexi.it/privati/servizi/cashback.html
+    - name: UniCredit
+      img: /assets/img/cashback/issuer/unicredit.png
+      url: https://www.unicredit.it
     - name: Satispay
       img: /assets/img/cashback/issuer/satispay.png
       url: https://satispay.com
