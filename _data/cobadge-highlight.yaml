@@ -20,7 +20,7 @@ it:
     - name: Banca Sella
       img: /assets/img/cashback/issuer/sella.png
       onlylogo: true
-    - name: Gruppo ICRREA
+    - name: Gruppo ICCREA
       img: /assets/img/cashback/issuer/gbci.png
       # va mostrato 'in arrivo'
     - name: Intesa Sanpaolo
