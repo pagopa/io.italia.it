@@ -1,0 +1,45 @@
+{% assign imageurl = "https://assets.cdn.io.italia.it/logos/abi/" %}
+{% assign abi = site.data.abi.data  %}
+{% assign source = site.data.cobadgeServices  %}
+{% assign groupeditems = source | where_exp: "item", "item.status == 'enabled'" %}
+{% assign dataitems = "." | split: "." %}
+{% for g in groupeditems %}
+   {% assign dataitems = dataitems | concat: g.issuers %}
+{%endfor %}
+{% assign items = dataitems |  sort: 'name' %}
+
+
+<div class="section mt-3 mt-md-5 pt-2 pt-md-3 pb-2 pb-md-5 list-cobadges ">
+    <div class="container container--mid">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <h2 class="text-primary">Elenco completo</h2>
+            </div>
+            <div class="col-12 col-md-6 d-md-flex align-items-md-end list-cobadges__search">
+                <div class="form-group w-100 mt-4 mt-md-0 mb-2">
+                <input type="text" class="form-control" id="banksearch" placeholder="Cerca la tua banca">
+                </div>
+            </div>
+        </div>
+    {% if items.size > 0 %}
+    <div class="container-fluid my-3 my-md-5">
+        <div class="list-cobadges__empty my-4 d-none text-center">
+            <img src="{{site.imagesurl}}/assets/img/cashback/metodi/question.svg" alt="Nessun risultato">
+            <div class="my-2 px-5">Nessun risultato corrispondente alla tua ricerca</div>
+        </div>
+        {% for item in items  %}
+            {% assign bankdata = abi | where: "abi", item.abi | first %}
+            {% assign bkgimage = imageurl | append: item.abi | append: '.png' %}
+            <div class="border-top row p-4 list-cobadges__item {{item.abi}}"  >
+                <div class="col-md-2 list-cobadges__logo lazy" data-bkgimage="url({{bkgimage}})">
+                </div>
+                <div class="col-md-10  d-flex align-items-md-center">
+                    <div class="mt-2 mt-md-0 ml-md-3 list-cobadges__itemname" data-abi="{{item.abi}}">{{item.name}}</div>
+                </div>
+            </div>
+        {% endfor %}
+    </div><!--container-fluid-->
+    {% endif %}
+
+</div><!--/section-->
+</div><!--container-->
