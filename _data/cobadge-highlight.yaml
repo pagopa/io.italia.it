@@ -1,10 +1,10 @@
 it:
-  last_update: 10/02/2021
+  last_update: 16/02/2021
   items:
     # use alphabetical order
     - name: UniCredit
       img: /assets/img/cashback/issuer/unicredit.png
-      onlylogo: true
+      # in arrivo
     - name: Banco BPM
       img: /assets/img/cashback/issuer/bancobpm.png
       onlylogo: true
@@ -20,7 +20,7 @@ it:
     - name: Banca Sella
       img: /assets/img/cashback/issuer/sella.png
       onlylogo: true
-    - name: Gruppo ICRREA
+    - name: Gruppo ICCREA
       img: /assets/img/cashback/issuer/gbci.png
       # va mostrato 'in arrivo'
     - name: Intesa Sanpaolo
