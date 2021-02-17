@@ -1,5 +1,5 @@
 it:
-  last_update: 10/02/2021
+  last_update: 18/02/2021
   iostatus:
     0:
       status: yes
@@ -140,15 +140,6 @@ it:
       numbers: 16
       io: 0
       iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
-      cashback: 0
-      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
-    - cards:
-        - visa
-      cvv: 3
-      numbers: 16
-      note: Revolut
-      io: 1
-      iotext: Stiamo lavorando per supportare i pagamenti con la tua carta **Revolut** su app IO.
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
