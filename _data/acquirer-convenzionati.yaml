@@ -1,9 +1,6 @@
 it:
-  last_update: 10/02/2021
+  last_update: 16/02/2021
   items:
-    - name: Allitude
-      img: /assets/img/cashback/acquirer/allitude.png
-      startdate: 09/02/2021
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
       startdate: 08/12/2020
@@ -19,6 +16,9 @@ it:
     - name: Equens Worldline - Six Payments
       img: /assets/img/cashback/acquirer/six.png
       startdate: 01/01/2021
+    - name: Gruppo Cassa Centrale
+      img: /assets/img/cashback/acquirer/cassa-centrale.png
+      startdate: 09/02/2021
     - name: ICCREA
       img: /assets/img/cashback/acquirer/iccrea.png
       startdate: 08/12/2020
