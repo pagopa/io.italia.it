@@ -23,7 +23,7 @@ Il Titolare del trattamento dei dati personali è il Ministero
 dell'Economia e delle Finanze (MEF), che si avvale di PagoPA S.p.A. e
 Consap S.p.A., società partecipate dallo Stato, in qualità di
 Responsabili del trattamento dei dati personali ai sensi dell'art. 28
-del RGPD) per lo svolgimento delle attività necessarie a garantire la
+del RGPD, per lo svolgimento delle attività necessarie a garantire la
 partecipazione degli Aderenti al Programma e la puntuale erogazione dei
 rimborsi in loro favore, nonché a consentire la gestione di eventuali
 reclami e/o del contenzioso derivante dalla partecipazione al Programma.
@@ -36,7 +36,7 @@ sui canali alternativi messi a disposizione dai fornitori di strumenti
 di pagamento elettronici (c.d. _Issuer_ Convenzionati), quali istituti
 bancari, postali e altri soggetti che emettono tali strumenti, come
 definiti dall'art. 1, comma 1, lett. g) del Decreto del Ministero
-dell'Economia e delle Finanze, 24 novembre 2020, n. 156 del (GU n.296
+dell'Economia e delle Finanze, 24 novembre 2020, n. 156 del (GU n. 296
 del 28-11-2020).
 
 L'adesione al Programma è volontaria e il rifiuto dell'Aderente di
@@ -91,7 +91,7 @@ I dati di contatto del Titolare sono:
 I dati di contatto del Responsabile della Protezione Dati del Ministero
 dell'Economia e delle Finanze sono:
 
-- E-mail:[responsabileprotezionedati@mef.gov.it](mailto:responsabileprotezionedati@mef.gov.it)
+- E-mail: [responsabileprotezionedati@mef.gov.it](mailto:responsabileprotezionedati@mef.gov.it)
 
 #### Finalità del trattamento
 
@@ -113,9 +113,9 @@ essere oggetto di controlli anche a campione ai sensi di legge.
 
 Con l'inserimento dell'IBAN, l'Aderente autorizza l'istituto ove è
 radicato il proprio conto a comunicare a PagoPa S.p.A., per conto del
-Ministero, i dati necessari a verificare se il codice fiscale fornito
-corrisponda all'intestatario del codice IBAN indicato (o ad almeno uno
-dei cointestatari) o a un conto di sistema.
+Ministero dell'Economia e delle Finanze, i dati necessari a verificare 
+se il codice fiscale fornito corrisponda all'intestatario del codice 
+IBAN indicato (o ad almeno uno dei cointestatari) o a un conto di sistema.
 
 La veridicità dei dati e delle informazioni fornite dall'aderente può
 essere oggetto di controlli anche a campione ai sensi della normativa
@@ -147,15 +147,15 @@ di partecipazione al Programma da parte degli Aderenti e di attribuzione
 del rimborso.
 
 I dati personali sono, dunque, trattati dal Ministero dell'Economia e
-delle Finanze nell\'esecuzione dei propri compiti di interesse pubblico
-o comunque connessi all\'esercizio dei pubblici poteri di cui è
+delle Finanze nell'esecuzione dei propri compiti di interesse pubblico
+o comunque connessi all'esercizio dei pubblici poteri di cui è
 investito, ivi inclusa la verifica della sussistenza dei requisiti di
 legge previsti ai fini della partecipazione al Programma.
 
 #### Modalità di trattamento
 
 I dati personali sono trattati e conservati nel rispetto dei principi
-previsti dall\'articolo 5 del Regolamento (UE) n. 2016/679 (di seguito
+previsti dall'articolo 5 del Regolamento (UE) n. 2016/679 (di seguito
 "RGPD") e, in particolare, alla luce dei principi di liceità,
 correttezza, trasparenza, minimizzazione, esattezza, integrità e
 riservatezza.
@@ -185,13 +185,31 @@ riferiscono.
 
 #### Responsabili del trattamento
 
-Il Titolare ha nominato quali Responsabili del trattamento, ai sensi dell'art. 28 del RGPD, Pago P.A. S.p.A. e Consap S.p.A., società partecipate dallo Stato, di cui il Ministero dell'Economia e delle Finanze si avvale per la gestione del Programma, ognuna per i profili di propria competenza. Le predette nomine sono regolate da specifici accordi che impongono alle stesse -- e agli eventuali sub-responsabili da queste nominati - l'adozione di misure di protezione dei dati adeguate a tutela dei diritti, delle libertà e dei legittimi interessi degli Aderenti.
+Il Titolare ha nominato quali Responsabili del trattamento, ai sensi 
+dell'art. 28 del RGPD, Pago P.A. S.p.A. e Consap S.p.A., società partecipate 
+dallo Stato, di cui il Ministero dell'Economia e delle Finanze si avvale per 
+la gestione del Programma, ognuna per i profili di propria competenza. Le predette 
+nomine sono regolate da specifici accordi che impongono alle stesse -- e agli 
+eventuali sub-responsabili da queste nominati - l'adozione di misure di 
+protezione dei dati adeguate a tutela dei diritti, delle libertà e dei legittimi 
+interessi degli Aderenti.
 
 I Responsabili del trattamento, che trattano i dati per lo svolgimento
 delle attività ad essi affidate dal Ministero, hanno cura di nominare e
 istruire debitamente i soggetti da loro incaricati, i fornitori di
 servizi e in generale i sub-responsabili di cui, a loro volta, si
 avvalgono.
+
+L’elenco dei fornitori di servizi di cui PagoPA S.p.A. si avvale per 
+la gestione dell’App IO, utilizzata per il Programma Cashback è disponibile 
+al seguente link: <https://io.italia.it/app-content/fornitori>.
+
+L’elenco dei fornitori di servizi di cui Consap S.p.A. si avvale per
+la gestione del Portale dedicato alla gestione dei reclami è disponibile
+al seguente link: <https://www.consap.it/servizi-economia/cashback/fornitori-e-sub-fornitori-coinvolti-nella-gestione-del-portale-reclami>.
+
+I dati di contatto dei responsabili della protezione dei dati 
+delle società sopra citate sono: per PagoPA S.p.A. [dpo@pagopa.it](mailto:dpo@pagopa.it), per Consap S.p.A. [rpd@consap.it](mailto:rpd@consap.it).
 
 #### Categorie di destinatari dei dati
 
@@ -218,19 +236,19 @@ essere comunicati a:
 Per la gestione dell'App IO, utilizzata per il servizio Cashback e
 gestita da PagoPA S.p.A., la predetta Società si avvale, limitatamente
 allo svolgimento di alcune attività, di fornitori terzi che risiedono in
-paesi extra-UE (USA). Per lo svolgimento di alcune attività connesse
-alla gestione dei reclami attraverso il Portale dedicato, Consap S.p.A.
-si avvale di fornitori terzi che hanno la propria sede in Paesi extra-UE
-(USA).
+paesi extra-UE (USA).
 
 In ogni caso, i Responsabili del trattamento si avvalgono esclusivamente
 di fornitori che adottano idonee garanzie, anche in forza di accordi
 contenenti clausole contrattuali standard o norme vincolanti di impresa,
 nel rispetto dei principi previsti dal RGPD.
 
-È possibile richiedere copia delle misure adottate, o comunque
-informazioni al riguardo, contattando, rispettivamente, PagoPA S.p.A.,
-all'indirizzo [dpo@pagopa.it](mailto:dpo@pagopa.it) Consap S.p.A. all'indirizzo
+L’elenco dei fornitori delle società responsabili del trattamento è 
+consultabile ai link contenuti nel paragrafo _“Responsabili del trattamento”_. 
+
+È possibile ricevere copia delle misure adottate, o comunque
+informazioni al riguardo, collegandosi all'indirizzo <https://io.italia.it/app-content/fornitori>
+con riferimento ai fornitori di PagoPA S.p.A., e contattando Consap S.p.A. all'indirizzo
 [rpd@consap.it](mailto:rpd@consap.it).
 
 #### Tempi di conservazione dei dati
