@@ -1,48 +1,54 @@
 it:
-  last_update: 26/01/2021
+  last_update: 19/02/2021
   items:
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: Axepta - BNL
       img: /assets/img/cashback/acquirer/axepta.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: Banca Sella
       img: /assets/img/cashback/acquirer/sella.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     #- name: Diners Club
     #  img: /assets/img/cashback/acquirer/diners.png
     #  startdate: 14/12/2020
+    - name: BANCOMAT Pay
+      img: /assets/img/cashback/acquirer/bancomatpay.png
+      startdate: 11/01/2021
     - name: Equens Worldline - Six Payments
       img: /assets/img/cashback/acquirer/six.png
       startdate: 01/01/2021
+    - name: Gruppo Cassa Centrale
+      img: /assets/img/cashback/acquirer/cassa-centrale.png
+      startdate: 09/02/2021
     - name: ICCREA
       img: /assets/img/cashback/acquirer/iccrea.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: Mercury Payment Services (ex Setefi)
       img: /assets/img/cashback/acquirer/mercury.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: Nexi
       img: /assets/img/cashback/acquirer/nexi.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: PagoBANCOMAT
       img: /assets/img/cashback/acquirer/pagobancomat.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: Poste Italiane
       img: /assets/img/cashback/acquirer/poste.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: Satispay
       img: /assets/img/cashback/acquirer/satispay.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: SIApay
       img: /assets/img/cashback/acquirer/siapay.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: SumUp
       img: /assets/img/cashback/acquirer/sumup.png
-      startdate: 9/12/2020
+      startdate: 09/12/2020
     - name: UBI
       img: /assets/img/cashback/acquirer/ubi.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020
     - name: Unicredit
       img: /assets/img/cashback/acquirer/unicredit.png
-      startdate: 8/12/2020
+      startdate: 08/12/2020

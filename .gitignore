@@ -3,3 +3,5 @@ _site
 .jekyll-metadata
 .jekyll-cache
 .DS_Store
+_data/abi.json
+_data/cobadgeServices.json

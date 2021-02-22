@@ -89,3 +89,9 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
   async
   src="{{ '/assets/js/main.js?' | append: buildTime | relative_url }}"
 ></script>
+
+{% if page.extra_scripts != nil %}
+  {% for s in page.extra_scripts %}
+    <script src="{{ s | append: '?' | append: buildTime | relative_url }}"></script>
+  {% endfor %}
+{% endif %}
