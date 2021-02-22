@@ -16,7 +16,7 @@ it:
     - name: BANCOMAT Pay
       img: /assets/img/cashback/acquirer/bancomatpay.png
       startdate: 11/01/2021
-    - name: Equens Worldline - Six Payments
+    - name: equens/Worldline + SIX Payment Services
       img: /assets/img/cashback/acquirer/six.png
       startdate: 01/01/2021
     - name: Gruppo Cassa Centrale
