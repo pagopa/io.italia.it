@@ -1,5 +1,5 @@
 it:
-  last_update: 12/02/2021
+  last_update: 24/02/2021
   items:
     # use alphabetical order
     #- name: American Express
@@ -7,7 +7,7 @@ it:
       #url:
     - name: BANCOMAT Pay
       img: /assets/img/cashback/issuer/bancomat-pay.png
-      #url: https://bancomat.it/it/bancomat/bancomat-pay
+      url: https://bancomat.it/it/bancomat/bancomat-pay
     - name: App BancoPosta
       img: /assets/img/cashback/issuer/app-bancoposta.png
       url: https://www.poste.it/piano-italia-cashless.html
