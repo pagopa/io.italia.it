@@ -5,5 +5,5 @@ messages: # array di oggetti
       it: "Servizi di pagamento in app e aggiunta metodi temporaneamente non disponibili"
       en: "In-app payments and adding new methods are down for maintenance"
     message:
-      it: "Stiamo aggiornando il sistema pagoPA per implementare i nuovi requisiti previsti dalla Direttiva sui Servizi di Pagamento (conosciuta come PSD2), una normativa dell’Unione Europea per rendere ancora più sicuri i pagamenti online. **Dalle 22 a mezzanotte** non sarà possibile (né su IO né sugli altri canali pagoPA) effettuare pagamenti in app o aggiungere nuovi metodi."
+      it: "Stiamo aggiornando il sistema pagoPA per implementare i nuovi requisiti previsti dalla Direttiva sui Servizi di Pagamento (conosciuta come PSD2), una normativa dell’Unione Europea per rendere ancora più sicuri i pagamenti online. **Dalle 22 a mezzanotte** non sarà possibile effettuare pagamenti (né su IO né sugli altri canali pagoPA) o aggiungere nuovi metodi di pagamento in app."
       en: "We're updating the pagoPA infrastructure to deploy the new requirements of the Payment Services Directive (known as PSD2), a EU regulation to make online payments even more secure. **From 10:30 p.m. to midnight**, it will not be possible (either on IO or other pagoPA channels) to make in-app payments or add new methods."
