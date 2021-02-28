@@ -1,5 +1,5 @@
 it:
-  last_update: 18/02/2021
+  last_update: 01/03/2021
   iostatus:
     0:
       status: yes
@@ -171,8 +171,8 @@ it:
         - maestro
       cvv: 3
       numbers: 19
-      io: 1 # maestro soon live
-      iotext: Stiamo lavorando per supportare i pagamenti con circuito **Maestro** su app IO.
+      io: 0
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0 # aggiungila anche come debit
       cashbacktext: "Aggiungi la carta al Portafoglio, selezionando **'Carta PagoBANCOMAT'**. Segui le istruzioni in app e aggiungi il circuito **Maestro** quando ti verrà richiesto.\n
 
