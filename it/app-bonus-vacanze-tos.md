@@ -5,7 +5,8 @@ layout: self
 ref: app-bonus-vacanze-tos-privacy
 permalink: /app-content/bonus_vacanze_tos.html
 assets:
-  js: "/assets/js/tos.js"
+  js:
+    - "/assets/js/tos.js"
   css: "/assets/tos.css"
 ---
 

@@ -7,7 +7,8 @@ permalink: /app-content/tos_privacy.html
 vers: 2.3
 updated: 10 dicembre 2020
 assets:
-  js: "/assets/js/tos.js"
+  js:
+    - "/assets/js/tos.js"
   css: "/assets/tos.css"
 redirect_from:
   - /app-content/privacy_circuiti_internazionali.html
