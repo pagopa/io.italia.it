@@ -26,7 +26,7 @@
     
   </head>
 
-  <body class="layout--{{page.layout}} pagename--{{page.ref}}">
+  <body class="layout--{{page.layout}} pagename--{{page.ref}} {{page.body_class}}">
     <div class="container d-startup-hide">
 
     {{ content }}
@@ -34,7 +34,9 @@
     </div>
 
     {% if page.assets.js %}
-    <script src="{{ page.assets.js | append: '?' | append: buildTime | relative_url }}"></script>
+      {% for script in page.assets.js %}
+        <script src="{{ script | append: '?' | append: buildTime | relative_url }}"></script>
+      {%endfor%}
     {%endif%}
 
   </body>
