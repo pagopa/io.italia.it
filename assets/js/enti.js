@@ -1,4 +1,3 @@
-var SERVICE_DETAIL_URL = "/entiservizi/";
 
 function lazyload() {
         var lazyloadDivs;
@@ -49,38 +48,20 @@ function lazyload() {
 }
 
 function loadService(el) {
-    var expandend = el.classList.toggle("expanded");
     var serviceId = el.getAttribute("data-load-service");
-    if (el.hasAttribute("data-loaded")) {
-        return false;
-    }
-    el.setAttribute("data-loaded", "true");
-    var url = SERVICE_DETAIL_URL + serviceId + ".html";
-    var request = new XMLHttpRequest();
-    request.open("GET", url, true);
-
-    request.onload = function() {
-        if (this.status >= 200 && this.status < 400) {
-            var result = this.response;
-            var elToAppend = document.createElement("div");
-            elToAppend.classList.add("entiservizi__content");
-            elToAppend.innerHTML = result;
-            el.insertAdjacentElement("afterend", elToAppend);
-        } else {
-            console.log("Problemi di connessione");
-        }
-    };
-
-    request.onerror = function() {
-    // error
-    };
-
-    request.send();
+    alert('TO-DO APERTURA IN APP PER '+serviceId);
 }
 
 document.addEventListener("DOMContentLoaded", function() {
     var searchstringEl = document.getElementById("entiservizi__searchstring");
     var searchform = document.getElementById("entiservizi__search");
+    var searchedstringEl = document.getElementById("entiservizi__searched");
+    var searchedstringDoneEl = document.querySelector(".entiservizi__search__done");
+    var searchResetEl = document.getElementById("entiservizi__searchreset");
+    var searchformTip = document.querySelector(".entiservizi__search__tip");
+    var searchformSearchingMessage = document.querySelector(".entiservizi__searching");
+    var searchformNoResults = document.querySelector(".entiservizi__noresults");
+    var itemList = document.querySelector(".entiservizi__list");
     var resultdata = [];
     var resultdata_searchable = [];
 
@@ -95,21 +76,46 @@ document.addEventListener("DOMContentLoaded", function() {
         resultdata_searchable.push( index.toString() + "|" + orgName + "|" + servicesNormalized.join() );
     }
 
+    searchstringEl.addEventListener("focus", function(e) {
+        searchform.classList.add("onfocus");
+    });
+    searchstringEl.addEventListener("focusout", function(e) {
+        searchform.classList.remove("onfocus");
+    });
+
+    searchResetEl.addEventListener("click", function(e) {
+        e.preventDefault();
+        var items = document.querySelectorAll(".entiservizi__item.d-none");
+
+        searchedstringDoneEl.classList.remove("active");
+        window.scrollTo(0, 0);
+        searchstringEl.value = "";
+        Array.prototype.forEach.call(items, function(item, i){
+            item.classList.remove("d-none");
+        });
+        searchformNoResults.classList.remove("active");
+    });
+
     searchform.addEventListener("submit", function(e) {
         e.preventDefault();
+        searchformNoResults.classList.remove("active");
         var searchstring = searchstringEl.value;
         var results;
         if (searchstring.length < 2) {
             return false;
         }
-        searchstring = searchstring.toUpperCase();
+        searchformSearchingMessage.classList.add("active");
+        itemList.classList.add("d-none");
         results = resultdata_searchable.filter(function(entry) {
-            if ( entry.indexOf(searchstring) !== -1) {
+            if ( entry.indexOf(searchstring.toUpperCase()) !== -1) {
                 return true;
             } else {
                 return false;
             }
         });
+        searchedstringEl.innerText = searchstring;
+        searchedstringDoneEl.classList.add("active");
+        window.scrollTo(0, 0);
         if (results.length > 0) {
             var items = document.getElementsByClassName("entiservizi__item");
             var results_ids = results.map(function(item) {
@@ -122,12 +128,16 @@ document.addEventListener("DOMContentLoaded", function() {
                     item.classList.add("d-none");
                 }
             });
+            itemList.classList.remove("d-none");
+        } else {
+            searchformNoResults.classList.add("active");
         }
-
+        
+        searchformSearchingMessage.classList.remove("active");
+        
     });
 
     function createList(data) {
-        var itemList = document.querySelector(".entiservizi__list");
         var source = document.getElementById("entiservizi-template").innerHTML;
         var template = Handlebars.compile(source);
         data.forEach(function(service, index) {

@@ -5,7 +5,7 @@
 @import "self";
 
 body {
-  margin-top: 3.5rem;
+  padding-top: 6rem;
 }
 .d-none {
   display: none;
@@ -37,7 +37,7 @@ a {
 
 #entiservizi__search {
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 1rem 0.5rem 1rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -72,14 +72,56 @@ a {
   overflow: visible;
   background: transparent;
 }
-.entiservizi__search__inner {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid #c1c9d2;
-  padding: 0.2rem 0;
+.entiservizi__search {
+  &__done {
+    color: #5c6f82;
+    font-size: 0.85rem;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+    &.active {
+      visibility: visible;
+    }
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c1c9d2;
+    padding: 0.2rem 0;
+  }
+  &__tip {
+    color: #5c6f82;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+    visibility: hidden;
+    .onfocus & {
+      visibility: visible;
+    }
+  }
 }
-
 .entiservizi {
+  &__searching,
+  &__noresults {
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    display: none;
+    div {
+      text-align: center;
+      width: 100%;
+    }
+    &.active {
+      display: flex;
+    }
+  }
+  &__logo {
+    width: 32px;
+    height: 32px;
+    background-color: #ddd;
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
   &__icon {
     margin-right: 6px;
     margin-left: 6px;
@@ -94,6 +136,8 @@ a {
     color: #17324d;
     font-size: 1.15rem;
     margin: 0.75rem 0;
+    display: flex;
+    align-items: center;
   }
   &__desc {
     p {

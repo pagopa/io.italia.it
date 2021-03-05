@@ -6,9 +6,10 @@ require 'json'
 
 file = File.read('./_data/visible-services.json')
 data_hash = JSON.parse(file)
+data_hash_filtered = data_hash.select {|_,v| v['serviceMetadata']['scope']=="LOCAL" }
 entisearchable = {}
 Jekyll::Hooks.register :site, :after_init do |doc, payload|
-    data_hash.each do |key, value|
+    data_hash_filtered.each do |key, value|
         service = {value['serviceId'] => value['serviceName'] }
         if entisearchable.key?(value['organizationName'])
             entisearchable[value['organizationName']][:s].push(service)
