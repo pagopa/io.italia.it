@@ -75,36 +75,10 @@ document.addEventListener("DOMContentLoaded", function() {
         searchformSearchingMessage.classList.remove("active");
     }
 
-    searchstringEl.addEventListener("focus", function(e) {
-        searchform.classList.add("onfocus");
-    });
-    searchstringEl.addEventListener("focusout", function(e) {
-        searchform.classList.remove("onfocus");
-    });
-
-    searchResetEl.addEventListener("click", function(e) {
-        e.preventDefault();
-        var items = document.querySelectorAll(".entiservizi__item.d-none");
-
-        searchedstringDoneEl.classList.remove("active");
-        window.scrollTo(0, 0);
-        searchstringEl.value = "";
-        Array.prototype.forEach.call(items, function(item, i){
-            item.classList.remove("d-none");
-        });
-        searchformNoResults.classList.remove("active");
-    });
-
-    searchform.addEventListener("submit", function(e) {
-        e.preventDefault();
+    function search() {
         searchformNoResults.classList.remove("active");
         var searchstring = searchstringEl.value;
         var results;
-        if (searchstring.length < 2) {
-            return false;
-        }
-        searchformSearchingMessage.classList.add("active");
-        itemList.classList.add("d-none");
 
         results = resultdata_searchable.filter(function(entry) {
             if ( entry.indexOf(searchstring.toUpperCase()) !== -1) {
@@ -116,7 +90,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         searchedstringEl.innerText = searchstring;
         searchedstringDoneEl.classList.add("active");
-        setTimeout(loadSearch,2500);
         window.scrollTo(0, 0);
         if (results.length > 0) {
             var items = document.getElementsByClassName("entiservizi__item");
@@ -135,9 +108,37 @@ document.addEventListener("DOMContentLoaded", function() {
             searchformNoResults.classList.add("active");
             itemList.classList.add("d-none");
         }
-        
-        
-        
+        searchformSearchingMessage.classList.remove("active");
+    }
+
+
+    searchstringEl.addEventListener("focus", function(e) {
+        searchform.classList.add("onfocus");
+    });
+    searchstringEl.addEventListener("focusout", function(e) {
+        searchform.classList.remove("onfocus");
+    });
+
+    searchResetEl.addEventListener("click", function(e) {
+        e.preventDefault();
+        var items = document.querySelectorAll(".entiservizi__item.d-none");
+
+        searchedstringDoneEl.classList.remove("active");
+        window.scrollTo(0, 0);
+        searchstringEl.value = "";
+        Array.prototype.forEach.call(items, function(item, i){
+            item.classList.remove("d-none");
+        });
+        itemList.classList.remove("d-none");
+        searchformNoResults.classList.remove("active");
+    });
+
+    searchform.addEventListener("submit", function(e) {
+        itemList.classList.add("d-none");
+        searchformSearchingMessage.classList.add("active");
+        searchedstringDoneEl.classList.remove("active");
+        e.preventDefault();
+        setTimeout(search, 2000);
     });
 
     function createList(data) {

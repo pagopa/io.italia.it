@@ -10,7 +10,9 @@ body {
 .d-none {
   display: none;
 }
-
+.container {
+  padding: 0;
+}
 #loading {
   display: none;
   position: fixed;
@@ -52,7 +54,7 @@ a {
 
 #entiservizi__search {
   margin: 0;
-  padding: 1rem 1rem 0.5rem 1rem;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -141,7 +143,7 @@ a {
     height: 32px;
     background-color: #ddd;
     display: inline-block;
-    margin-right: 0.5rem;
+    margin-left: 0.5rem;
   }
   &__icon {
     margin-right: 6px;
