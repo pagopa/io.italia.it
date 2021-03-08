@@ -15,7 +15,7 @@ assets:
 
 <form id="entiservizi__search">
   <div class="entiservizi__search__inner">
-    <input pattern="^([a-zA-ZÀ-ú]+\s)*[a-zA-ZÀ-ú]+$" type="text" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3">
+    <input pattern="^([a-zA-ZÀ-ú]+\s)*[a-zA-ZÀ-ú]{3,30}+$" type="text" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3">
     <button type="submit" id="entiservizi__submit"><img  src="/assets/img/icon-search.svg" alt="Cerca" ></button>
   </div>
   <div class="entiservizi__search__tip">inserisci almeno 3 caratteri e avvia la ricerca</div>
