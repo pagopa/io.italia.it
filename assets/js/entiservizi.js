@@ -47,11 +47,6 @@ function lazyload() {
         }
 }
 
-function loadService(el) {
-    var serviceId = el.getAttribute("data-load-service");
-    alert('TO-DO APERTURA IN APP PER '+serviceId);
-}
-
 document.addEventListener("DOMContentLoaded", function() {
     var searchstringEl = document.getElementById("entiservizi__searchstring");
     var searchform = document.getElementById("entiservizi__search");

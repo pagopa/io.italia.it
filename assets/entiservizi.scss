@@ -183,6 +183,7 @@ a {
     color: #17324d;
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
     &.expanded {
       .entiservizi__icon {
         transform: rotate(90deg);
