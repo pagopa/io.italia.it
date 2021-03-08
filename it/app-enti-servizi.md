@@ -10,7 +10,7 @@ assets:
   css: "/assets/entiservizi.css"
   js:
     - "/assets/js/vendor/handlebars.min.js"
-    - "/assets/js/enti.js"
+    - "/assets/js/entiservizi.js"
 ---
 
 <form id="entiservizi__search">
@@ -22,11 +22,13 @@ assets:
   <div class="entiservizi__search__done"><div>Risultati della ricerca per "<span id="entiservizi__searched"></span>"</div><a href="#" title="Annulla" id="entiservizi__searchreset">annulla</a></div>
 </form>
 <div id="loading">
-<span>Caricamento in corso...</span>
+<div class="progress-spinner progress-spinner-active"></div>
+<span>sto caricando enti e servizi locali:
+  <br>attendi qualche secondo</span>
 </div>
 
 <script id="entiservizi-template" type="text/x-handlebars-template">
-    <h2 class="entiservizi__title"><div class="entiservizi__logo"></div>{% raw %}{{o}}{% endraw %}</h2>
+    <h2 class="entiservizi__title">{% raw %}{{o}}{% endraw %}<div class="entiservizi__logo"></div></h2>
     <div class="entiservizi__services">
       <ul class="entiservizi__serv__list">
         {% raw %}
@@ -44,12 +46,15 @@ assets:
     </div>
 </script>
 <div class="entiservizi__searching">
-  <div>sto cercando fra gli enti e servizi:
+  <div class="progress-spinner progress-spinner-active"></div>
+  <div>sto cercando fra gli enti e servizi locali:
   <br>attendi qualche secondo
   </div>
 </div>
 <div class="entiservizi__noresults">
-  <div>Non &egrave; stato possibile trovare nessun ente o servizio con la stringa ricercata
+  <div>
+  <img class="entiservizi__icon--noresults" src="/assets/img/icon-no-results.svg" alt="Nessun risultato" >
+  <p>non ho trovato servizi<br>corrispondenti a questa ricerca</p>
   </div>
 </div>
 <div class="entiservizi__list">

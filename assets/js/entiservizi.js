@@ -76,6 +76,10 @@ document.addEventListener("DOMContentLoaded", function() {
         resultdata_searchable.push( index.toString() + "|" + orgName + "|" + servicesNormalized.join() );
     }
 
+    function loadSearch() {
+        searchformSearchingMessage.classList.remove("active");
+    }
+
     searchstringEl.addEventListener("focus", function(e) {
         searchform.classList.add("onfocus");
     });
@@ -106,6 +110,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         searchformSearchingMessage.classList.add("active");
         itemList.classList.add("d-none");
+
         results = resultdata_searchable.filter(function(entry) {
             if ( entry.indexOf(searchstring.toUpperCase()) !== -1) {
                 return true;
@@ -113,8 +118,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 return false;
             }
         });
+
         searchedstringEl.innerText = searchstring;
         searchedstringDoneEl.classList.add("active");
+        setTimeout(loadSearch,2500);
         window.scrollTo(0, 0);
         if (results.length > 0) {
             var items = document.getElementsByClassName("entiservizi__item");
@@ -131,9 +138,10 @@ document.addEventListener("DOMContentLoaded", function() {
             itemList.classList.remove("d-none");
         } else {
             searchformNoResults.classList.add("active");
+            itemList.classList.add("d-none");
         }
         
-        searchformSearchingMessage.classList.remove("active");
+        
         
     });
 
