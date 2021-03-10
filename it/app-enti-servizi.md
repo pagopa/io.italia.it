@@ -13,7 +13,7 @@ assets:
     - "/assets/js/entiservizi.js"
 ---
 
-<form id="entiservizi__search">
+<form id="entiservizi__search" action="#">
   <div class="entiservizi__search__inner">
     <input pattern="^([a-zA-ZÀ-ú]+\s)*[a-zA-ZÀ-ú]{3,30}+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3">
     <button type="submit" id="entiservizi__submit"><img  src="/assets/img/icon-search.svg" alt="Cerca" ></button>
