@@ -1,31 +1,37 @@
-
+var IMGREPO = "https://assets.cdn.io.italia.it/logos/organizations/";
 function lazyload() {
-        var lazyloadDivs;
+        var lazyloadElements;
         if ("IntersectionObserver" in window) {
-          lazyloadDivs = document.querySelectorAll(".lazy");
-          var divObserver = new IntersectionObserver(function(entries, observer) {
+          lazyloadElements = document.querySelectorAll(".lazy");
+          var elObserver = new IntersectionObserver(function(entries, observer) {
             entries.forEach(function(entry) {
               if (entry.isIntersecting) {
-                var lazydiv = entry.target;
-                lazydiv.classList.remove("lazy");
-                divObserver.unobserve(lazydiv);
+                var lazyel = entry.target;
+                var img = lazyel.querySelector("img");
+                console.log(img)
+                var imgname = img.getAttribute("data-src");
+                imgname = imgname.replace(/^0+/, "");
+                img.setAttribute("src", IMGREPO + imgname);
+                lazyel.classList.remove("lazy");
+                elObserver.unobserve(lazyel);
+                img.classList.add("show");
               }
             });
           });
 
-          lazyloadDivs.forEach(function(lazydiv) {
-            divObserver.observe(lazydiv);
+          lazyloadElements.forEach(function(lazyel) {
+            elObserver.observe(lazyel);
           });
         } else {
           var lazyloadThrottleTimeout;
-          lazyloadDivs = document.querySelectorAll(".lazy");
+          lazyloadElements = document.querySelectorAll(".lazy");
           function lazyload () {
             if (lazyloadThrottleTimeout) {
               clearTimeout(lazyloadThrottleTimeout);
             }
             lazyloadThrottleTimeout = setTimeout(function() {
               var scrollTop = window.pageYOffset;
-              lazyloadDivs.forEach(function(img) {
+              lazyloadElements.forEach(function(img) {
                   if(img.offsetTop < (window.innerHeight + scrollTop)) {
                     img.src = img.dataset.src;
                     if (img.hasAttribute("data-bkgimage")) {
@@ -34,7 +40,7 @@ function lazyload() {
                     }
                   }
               });
-              if(lazyloadDivs.length == 0) {
+              if(lazyloadElements.length == 0) {
                 document.removeEventListener("scroll", lazyload());
                 window.removeEventListener("resize", lazyload());
                 window.removeEventListener("orientationChange", lazyload());
@@ -157,14 +163,12 @@ document.addEventListener("DOMContentLoaded", function() {
             var el = document.createElement("div");
             el.classList.add("entiservizi__item");
             el.setAttribute("data-index", index);
-            if (index > 20) {
-                el.classList.add("lazy");
-            }
+            el.classList.add("lazy");
             var html = template(service);
             el.innerHTML = html;
             itemList.appendChild(el);
         });
-        // TEMP REM lazyload();
+        lazyload();
     }
 
     var request = new XMLHttpRequest();

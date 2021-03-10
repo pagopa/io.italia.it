@@ -15,7 +15,7 @@ assets:
 
 <form id="entiservizi__search" action="#">
   <div class="entiservizi__search__inner">
-    <input pattern="^([a-zA-ZÀ-ú]+\s)*[a-zA-ZÀ-ú]{3,30}+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3">
+    <input pattern="^([a-zA-ZÀ-ú]+\s)*[a-zA-ZÀ-ú]+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3">
     <button type="submit" id="entiservizi__submit"><img  src="/assets/img/icon-search.svg" alt="Cerca" ></button>
   </div>
   <div class="entiservizi__search__tip">inserisci almeno 3 caratteri e avvia la ricerca</div>
@@ -28,14 +28,19 @@ assets:
 </div>
 
 <script id="entiservizi-template" type="text/x-handlebars-template">
-    <h2 class="entiservizi__title">{% raw %}{{o}}{% endraw %}<div class="entiservizi__logo"></div></h2>
+    <h2 class="entiservizi__title">{% raw %}{{o}}{% endraw %}<div class="entiservizi__logo">
+      {% raw %}<img class="" src="/assets/img/blank-32.png" data-src="{{fc}}.png"
+                onerror="this.style.display='none'"
+                alt="{{o}}">{% endraw %}
+      </div>
+    </h2>
     <div class="entiservizi__services">
       <ul class="entiservizi__serv__list">
         {% raw %}
         {{#each s}}
           {{#each this}}
-          <li>
-            <div class="entiservizi__serv__title" data-load-service="{{@key}}" onClick="sendMessagesToRN('{{@key}}')">{{this}}
+          <li >
+            <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{@key}}')">{{this}}
             <img class="entiservizi__icon" src="/assets/img/icon-right.svg" alt="Espandi" >
             </div>
           </li>

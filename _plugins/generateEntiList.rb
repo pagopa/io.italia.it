@@ -14,7 +14,7 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
         if entisearchable.key?(value['organizationName'])
             entisearchable[value['organizationName']][:s].push(service)
         else
-            entisearchable[value['organizationName']] = {:o => value['organizationName'], :s => [service]}
+            entisearchable[value['organizationName']] = {:o => value['organizationName'], :fc => value['organizationFiscalCode'], :s => [service]}
         end
     end
     entisearchable_sorted = entisearchable.sort.to_h
