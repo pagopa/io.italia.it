@@ -47,10 +47,17 @@ function lazyload() {
         }
 }
 
+function sendMessagesToRN(serviceId) {
+    if (window.ReactNativeWebView) {
+      window.ReactNativeWebView.postMessage(serviceId);
+    }
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     var searchstringEl = document.getElementById("entiservizi__searchstring");
     var searchform = document.getElementById("entiservizi__search");
     var searchedstringEl = document.getElementById("entiservizi__searched");
+    var searchSubmitButton = document.getElementById("entiservizi__submit");
     var searchedstringDoneEl = document.querySelector(".entiservizi__search__done");
     var searchResetEl = document.getElementById("entiservizi__searchreset");
     var searchformTip = document.querySelector(".entiservizi__search__tip");
@@ -138,6 +145,7 @@ document.addEventListener("DOMContentLoaded", function() {
         searchformSearchingMessage.classList.add("active");
         searchedstringDoneEl.classList.remove("active");
         e.preventDefault();
+        searchSubmitButton.focus();
         setTimeout(search, 2000);
     });
 

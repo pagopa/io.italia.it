@@ -6,6 +6,10 @@
 
 body {
   padding-top: 6rem;
+  user-select: none;
+}
+svg {
+  shape-rendering: auto;
 }
 .d-none {
   display: none;
@@ -179,7 +183,7 @@ a {
   &__serv__title {
     user-select: none;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     cursor: pointer;
     padding: 1rem 0;
     display: block;

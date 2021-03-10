@@ -35,9 +35,9 @@ assets:
         {{#each s}}
           {{#each this}}
           <li>
-            <a class="entiservizi__serv__title" data-load-service="{{@key}}" href="/service/load?idService={{@key}}">{{this}}
+            <div class="entiservizi__serv__title" data-load-service="{{@key}}" onCìclick="sendMessagesToRN({{@key}})">{{this}}
             <img class="entiservizi__icon" src="/assets/img/icon-right.svg" alt="Espandi" >
-            </a>
+            </div>
           </li>
           {{/each}}
         {{/each}}
