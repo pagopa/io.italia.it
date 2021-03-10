@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function search() {
         searchformNoResults.classList.remove("active");
-        var searchstring = searchstringEl.value;
+        var searchstring = searchstringEl.value.trim();
         var results;
 
         results = resultdata_searchable.filter(function(entry) {

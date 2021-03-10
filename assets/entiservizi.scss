@@ -11,7 +11,7 @@ body {
   display: none;
 }
 .container {
-  padding: 0;
+  padding: 1rem;
 }
 #loading {
   display: none;
@@ -54,7 +54,7 @@ a {
 
 #entiservizi__search {
   margin: 0;
-  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  padding: 1rem;
   position: fixed;
   top: 0;
   left: 0;
@@ -100,9 +100,9 @@ a {
     margin-top: 0.1rem;
     display: flex;
     justify-content: space-between;
-    visibility: hidden;
+    display: none;
     &.active {
-      visibility: visible;
+      display: flex;
     }
   }
   &__inner {
@@ -115,9 +115,9 @@ a {
     color: #5c6f82;
     font-size: 0.85rem;
     margin-top: 0.2rem;
-    visibility: hidden;
+    display: none;
     .onfocus & {
-      visibility: visible;
+      display: block;
     }
   }
 }
@@ -177,10 +177,11 @@ a {
     }
   }
   &__serv__title {
+    user-select: none;
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
-    padding: 0.5rem 0;
+    padding: 1rem 0;
     display: block;
     color: #17324d;
     display: flex;
