@@ -164,7 +164,7 @@ document.addEventListener("DOMContentLoaded", function() {
             el.innerHTML = html;
             itemList.appendChild(el);
         });
-        lazyload();
+        // TEMP REM lazyload();
     }
 
     var request = new XMLHttpRequest();
