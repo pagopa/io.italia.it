@@ -7,7 +7,8 @@
       <use xlink:href="#right-a"/>
     </mask>
     <g mask="url(#right-b)">
-      <rect width="111.111" height="100" fill="#0073E6" transform="translate(-53.333 -49)"/>
+      <rect width="111.111" height="100" fill="#0073E6" transform="translate(-53.333 -49)
+                                                                   scale(1)" shape-rendering="geometricPrecision" />
     </g>
   </g>
 </svg>
