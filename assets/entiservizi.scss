@@ -136,9 +136,8 @@ a {
     height: 80vh;
     width: 100%;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     display: none;
-    padding-top: 25vh;
     div {
       text-align: center;
       width: 100%;
@@ -164,7 +163,7 @@ a {
   }
   &__icon {
     margin-right: 6px;
-    margin-left: 6px;
+    margin-left: 10px;
   }
   &__content {
     display: none;
@@ -202,6 +201,7 @@ a {
     display: block;
     color: #17324d;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     text-decoration: none;
     &.expanded {
