@@ -16,6 +16,10 @@ body {
 svg {
   shape-rendering: auto;
 }
+.centerbymargin {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .d-none {
   display: none;
 }

@@ -57,9 +57,11 @@ assets:
     </div>
 </script>
 <div class="entiservizi__searching">
-  <div class="progress-spinner progress-spinner-active"></div>
-  <div>sto cercando fra gli enti e servizi locali:
-  <br>attendi qualche secondo
+  <div>
+    <div class="progress-spinner progress-spinner-active centerbymargin"></div>
+    <div>sto cercando fra gli enti e servizi locali:
+    <br>attendi qualche secondo
+    </div>
   </div>
 </div>
 <div class="entiservizi__noresults">
@@ -71,7 +73,7 @@ assets:
                 "
                 src="{{site.imagesurl}}/assets/img/question.png"
                 >
-  <p>non ho trovato servizi<br>corrispondenti a questa ricerca</p>
+  <p>Nessun risultato trovato</p>
   </div>
 </div>
 <div class="entiservizi__list">
