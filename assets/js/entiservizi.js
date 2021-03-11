@@ -8,7 +8,6 @@ function lazyload() {
               if (entry.isIntersecting) {
                 var lazyel = entry.target;
                 var img = lazyel.querySelector("img");
-                console.log(img)
                 var imgname = img.getAttribute("data-src");
                 imgname = imgname.replace(/^0+/, "");
                 img.setAttribute("src", IMGREPO + imgname);

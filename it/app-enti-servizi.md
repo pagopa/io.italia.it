@@ -15,7 +15,7 @@ assets:
 
 <form id="entiservizi__search" action="#">
   <div class="entiservizi__search__inner">
-    <input pattern="^[A-Za-zÀ-ú\s]+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3">
+    <input pattern="^[A-Za-zÀ-ú\s]+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3" required>
     <button type="submit" id="entiservizi__submit"><img  src="/assets/img/icon-search.svg" alt="Cerca" ></button>
   </div>
   <div class="entiservizi__search__tip">inserisci almeno 3 caratteri e avvia la ricerca</div>
@@ -41,7 +41,13 @@ assets:
           {{#each this}}
           <li >
             <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{@key}}')">{{this}}
-            <img class="entiservizi__icon" src="/assets/img/icon-right.svg" alt="Espandi" >
+            <img alt="Espandi" class="entiservizi__icon" width="11" height="16"
+                srcset="
+                {{site.imagesurl}}/assets/img/icon-right-2x.png 2x,
+                {{site.imagesurl}}/assets/img/icon-right.png 1x
+                "
+                src="{{site.imagesurl}}/assets/img/icon-right.png"
+                >
             </div>
           </li>
           {{/each}}
@@ -58,7 +64,13 @@ assets:
 </div>
 <div class="entiservizi__noresults">
   <div>
-  <img class="entiservizi__icon--noresults" src="/assets/img/icon-no-results.svg" alt="Nessun risultato" >
+  <img alt="Nessun risultato" class=""
+                srcset="
+                {{site.imagesurl}}/assets/img/question-2x.png 2x,
+                {{site.imagesurl}}/assets/img/question.png 1x
+                "
+                src="{{site.imagesurl}}/assets/img/question.png"
+                >
   <p>non ho trovato servizi<br>corrispondenti a questa ricerca</p>
   </div>
 </div>
