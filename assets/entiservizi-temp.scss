@@ -1,0 +1,52 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "self";
+
+body {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+svg {
+  shape-rendering: auto;
+}
+.centerbymargin {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.d-none {
+  display: none;
+}
+.container {
+  padding: 1rem;
+}
+
+a {
+  color: #0073e6;
+}
+
+#tempbanner {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  background-color: #eb7714;
+  padding: 0.75rem 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  svg {
+    width: 50px;
+    height: 50px;
+    margin-right: 1rem;
+    fill: #fff;
+  }
+  p {
+    margin: 0;
+  }
+}
