@@ -29,9 +29,19 @@ assets:
 
 <script id="entiservizi-template" type="text/x-handlebars-template">
     <h2 class="entiservizi__title">{% raw %}{{o}}{% endraw %}<div class="entiservizi__logo">
-      {% raw %}<img class="" src="/assets/img/blank-32.png" data-src="{{fc}}.png"
-                onerror="this.style.display='none'"
-                alt="{{o}}">{% endraw %}
+      {% raw %}
+      <img class=""
+           {{#if nolazy}}
+           style="display: inline;"
+           src="{{setImgSrc fc}}"
+           {{/if}}
+           {{#unless nolazy}}
+           src="/assets/img/blank-32.png"
+           data-src="{{fc}}.png"
+           {{/unless}}
+           onerror="this.style.display='none'"
+           alt="{{o}}">
+      {% endraw %}
       </div>
     </h2>
     <div class="entiservizi__services">
