@@ -1,1 +1,1 @@
-window.__PUBLIC_PATH__ = "/assets/font";
+window.__PUBLIC_PATH__="/assets/font";
