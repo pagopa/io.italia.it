@@ -1,0 +1,8 @@
+page_gen-dirs: false
+page_gen:
+  - data: "visible-services"
+    template: servizio
+    dir: "entiservizi"
+    index_files: false
+    name: "serviceId"
+    title: "serviceName"

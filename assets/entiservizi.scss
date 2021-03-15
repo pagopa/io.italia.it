@@ -1,0 +1,268 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "self";
+
+body {
+  padding-top: 6rem;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+svg {
+  shape-rendering: auto;
+}
+.centerbymargin {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.d-none {
+  display: none;
+}
+.container {
+  padding: 1rem;
+}
+#loading {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  body.loading & {
+    display: flex;
+  }
+  span {
+    text-align: center;
+  }
+}
+
+a {
+  color: #0073e6;
+}
+.lazy {
+  visibility: hidden;
+}
+.progress-spinner.progress-spinner-active {
+  -webkit-animation: 1s linear infinite spinnerAnim;
+  animation: 1s linear infinite spinnerAnim;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  border-color: #06c #06c #fff;
+  margin: 1rem 0;
+}
+
+#entiservizi__search {
+  margin: 0;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 99;
+  box-sizing: border-box;
+}
+#entiservizi__searchstring {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  padding: 0.4rem 0.2rem;
+  width: 100%;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+#entiservizi__submit {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  outline: none;
+  &:focus {
+    outline: none;
+  }
+}
+.entiservizi__search {
+  &__done {
+    color: #5c6f82;
+    font-size: 0.85rem;
+    margin-top: 0.1rem;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    &.active {
+      display: flex;
+    }
+  }
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #c1c9d2;
+    padding: 0.2rem 0;
+  }
+  &__tip {
+    color: #5c6f82;
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+    display: none;
+    .onfocus & {
+      display: block;
+    }
+  }
+}
+.entiservizi {
+  &__searching,
+  &__noresults {
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    display: none;
+    div {
+      text-align: center;
+      width: 100%;
+    }
+    &.active {
+      display: flex;
+    }
+  }
+  &__logo {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0;
+    img {
+      height: 32px;
+      width: 32px;
+      display: none;
+      &.show {
+        display: inline-block;
+      }
+    }
+  }
+  &__icon {
+    margin-right: 6px;
+    margin-left: 10px;
+  }
+  &__content {
+    display: none;
+    .expanded + & {
+      display: block;
+    }
+  }
+  &__title {
+    color: #17324d;
+    font-size: 1.15rem;
+    margin: 0.75rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__desc {
+    p {
+      margin: 8px 0;
+    }
+  }
+  &__serv__list {
+    margin: 0;
+    padding: 0;
+    & > li {
+      list-style: none;
+      border-top: 1px solid #e6e9f2;
+    }
+  }
+  &__serv__title {
+    user-select: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 1rem 0;
+    display: block;
+    color: #17324d;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    &.expanded {
+      .entiservizi__icon {
+        transform: rotate(90deg);
+      }
+    }
+  }
+
+  &__list {
+    body.loading & {
+      display: none;
+    }
+  }
+
+  &__terms {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e9f2;
+    a {
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 1rem 0;
+    }
+  }
+
+  &__contacts {
+    padding: 1rem 0;
+
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.3rem 0;
+    }
+    &__label {
+      margin-right: 3rem;
+      font-size: 0.85rem;
+    }
+    &__value {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      a {
+        font-weight: 600;
+        font-size: 0.85rem;
+      }
+    }
+  }
+}
+
+@keyframes spinnerAnim {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}

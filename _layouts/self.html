@@ -7,7 +7,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
     <meta name="description" content="{{ page.description | default: site.description[current_lang] | smartify }}">
     <meta name="robots" content=" noindex, nofollow">
     <title>
@@ -17,7 +17,7 @@
         {{ site.title[current_lang] | smartify }}
         {%- endif -%}
     </title>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
 
       {% if page.assets.css %}
     <link rel="stylesheet" href="{{ page.assets.css | append: '?' | append: buildTime | relative_url }}">
@@ -26,7 +26,7 @@
     
   </head>
 
-  <body class="layout--{{page.layout}} pagename--{{page.ref}}">
+  <body class="layout--{{page.layout}} pagename--{{page.ref}} {{page.body_class}}">
     <div class="container d-startup-hide">
 
     {{ content }}
@@ -34,7 +34,9 @@
     </div>
 
     {% if page.assets.js %}
-    <script src="{{ page.assets.js | append: '?' | append: buildTime | relative_url }}"></script>
+      {% for script in page.assets.js %}
+        <script src="{{ script | append: '?' | append: buildTime | relative_url }}"></script>
+      {%endfor%}
     {%endif%}
 
   </body>

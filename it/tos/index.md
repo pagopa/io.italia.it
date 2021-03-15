@@ -6,7 +6,8 @@ ref: app-tos-privacy-archive
 permalink: /app-content/index-tos.html
 index: no-index
 assets:
-  js: "/assets/js/tos.js"
+  js:
+    - "/assets/js/tos.js"
   css: "/assets/tos.css"
 ---
 
