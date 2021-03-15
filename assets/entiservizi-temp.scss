@@ -4,13 +4,17 @@
 
 @import "self";
 
-body {
+body.pagename--app-enti-servizi {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  margin: 0;
+}
+body.pagename--app-enti-servizi .container {
+  padding: 0;
 }
 svg {
   shape-rendering: auto;
@@ -30,16 +34,27 @@ a {
   color: #0073e6;
 }
 
-#tempbanner {
+.wipenti__img__wrapper {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wipenti {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.wipenti__tempbanner__wrapper {
   display: flex;
   align-items: center;
   color: #fff;
   background-color: #eb7714;
   padding: 0.75rem 1rem;
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
+  margin-top: auto;
   svg {
     width: 50px;
     height: 50px;
