@@ -1,1 +1,120 @@
-function getHash(){return window.location.hash.substring(1)}var date=new Date,year=date.getFullYear(),month=("0"+(date.getMonth()+1)).slice(-2),now=Number(String(year)+String(month));$(document).ready(function(){$(".filter-buttons button").click(function(){var t=$(this),e=t.siblings(),n=t.data("click");t.removeClass("btn-outline-primary").addClass("btn-primary");var a=t.find("use");if(a&&a.length){var i=a.attr("xlink:href");a.attr("xlink:href",i.replace("_b","_w"))}if(e.each(function(){var t=$(this);t.is("button")?t.removeClass("btn-primary").addClass("btn-outline-primary"):t.removeClass("btn-primary");var e=t.find("use");if(e&&e.length){var n=e.attr("xlink:href");n&&e.attr("xlink:href",n.replace("_w","_b"))}}),"done"===n||"next"===n)switch(n){case"done":$(".point-done").show(),$(".point-next").hide();break;case"next":$(".point-next").show(),$(".point-done").hide()}else $(".point-next").show(),$(".point-done").show(),$(".point-list[data-filter]").each(function(){var t=$(this),e=t.data("filter");n&&n!==e?t.hide():t.show()})}),$(".filter-buttons a[href='#nextsteps']").click(function(){$(".filter-buttons .btn-all").trigger("click")});var t=!1;$("[data-time]").each(function(){var e=$(this);if(e.data("time")>now){t||(t=!0,e.attr("id","nextsteps")),e.addClass("point-next");var n=e.find("use");if(n&&n.length){var a=n.attr("xlink:href");n.attr("xlink:href",a.replace("_b","_g"))}}else e.addClass("point-done")});var e=getHash();if(""!=e&&"nextsteps"==e&&n){var n=$("a[href='#nextsteps']"),a=$("#nextsteps").offset();window.scroll({top:a.top-100,left:0,behavior:"smooth"})}else if(""!=e){a=$("a[name="+e+"]").offset();window.scroll({top:a.top-76,left:0,behavior:"smooth"})}});
+var date = new Date();
+var year = date.getFullYear();
+var month = ("0" + (date.getMonth() + 1)).slice(-2); // to avoid months with one digit...
+var now = Number(String(year) + String(month));
+function getHash() {
+  var hash = window.location.hash;
+  return hash.substring(1); 
+}
+
+$(document).ready(function() {
+  
+  $(".filter-buttons button").click(function() {
+    var $btn = $(this);
+    var $siblings = $btn.siblings();
+    var filter = $btn.data("click");
+
+    // switch on clicked button
+    $btn.removeClass("btn-outline-primary").addClass("btn-primary");
+    var $use = $btn.find("use");
+    if ($use && $use.length) {
+      var href = $use.attr("xlink:href");
+      $use.attr("xlink:href", href.replace("_b", "_w"));
+    }
+
+    // switch off sibiling buttons
+    $siblings.each(function() {
+      var $sibling = $(this);
+      if ( $sibling.is( "button" ) ) {
+        $sibling.removeClass("btn-primary").addClass("btn-outline-primary");
+      } else {
+        $sibling.removeClass("btn-primary");
+      }
+
+      var $sibUse = $sibling.find("use");
+      if ($sibUse && $sibUse.length) {
+        var sibHref = $sibUse.attr("xlink:href");
+        if (sibHref) {
+          $sibUse.attr("xlink:href", sibHref.replace("_w", "_b"));
+        }
+      }
+
+    });
+
+    // apply filter for each element
+    if (filter === "done" || filter === "next") {
+      switch (filter) {
+        case "done":
+          $(".point-done").show();
+          $(".point-next").hide();
+          break;
+        case "next":
+          $(".point-next").show();
+          $(".point-done").hide();
+          break;
+      }
+    } else {
+      $(".point-next").show();
+      $(".point-done").show();
+      $(".point-list[data-filter]").each(function() {
+        var $point = $(this);
+        var id = $point.data("filter");
+
+        if (filter && filter !== id) {
+          $point.hide();
+        } else {
+          $point.show();
+        }
+      });
+    }
+  });
+  // in case of nextsteps we reset the filters
+  $(".filter-buttons a[href='#nextsteps']").click(function() {
+    $(".filter-buttons .btn-all").trigger('click');
+  });
+
+  // Apply time class
+  var firstNextStepFound = false;
+  $("[data-time]").each(function() {
+    var $el = $(this);
+    var date = $el.data("time");
+    
+    if (date > now) {
+      if (!firstNextStepFound) {
+        firstNextStepFound = true;
+        $el.attr('id','nextsteps');
+      }
+      $el.addClass("point-next");
+      var $use = $el.find("use");
+      if ($use && $use.length) {
+        var href = $use.attr("xlink:href");
+        $use.attr("xlink:href", href.replace("_b", "_g"));
+      }
+    } else {
+      $el.addClass("point-done");
+    }
+  });
+
+  // go-to next on load
+  var hasHash = getHash();
+  
+  if (hasHash!='' && hasHash=='nextsteps' &&  $nextBtn) {
+      var $nextBtn = $("a[href='#nextsteps']");
+      var $nextDiv = $("#nextsteps");
+      var offset =  $nextDiv.offset();
+      window.scroll({
+          top: offset.top - 100, 
+          left: 0, 
+          behavior: 'smooth'
+        });
+  } else if (hasHash!='') {
+      var $anchor = $("a[name="+hasHash+"]");
+      var offset =  $anchor.offset();
+      window.scroll({
+        top: offset.top - 76, 
+        left: 0, 
+        behavior: 'smooth'
+      });
+
+  }
+});
