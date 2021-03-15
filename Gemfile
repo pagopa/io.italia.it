@@ -7,3 +7,4 @@ gem 'kramdown-parser-gfm', '~> 1.1.0'
 gem "webrick", "~> 1.7"
 gem 'down', '~> 5.2'
 gem 'jekyll-datapage-generator', '~> 1.3.0'
+gem "jekyll-minifier", "~> 0.1.10"
