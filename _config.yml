@@ -50,6 +50,8 @@ include: [".well-known"]
 #   - vendor/gems/
 #   - vendor/ruby/
 
+sass:
+  style: compressed
 
 jekyll-minifier:
   preserve_php: true                # Default: false
@@ -58,7 +60,7 @@ jekyll-minifier:
   remove_comments: true             # Default: true
   remove_intertag_spaces: true      # Default: false
   remove_quotes: false              # Default: false
-  compress_css: true                # Default: true
+  compress_css: false                # Default: true
   compress_javascript: true         # Default: true
   compress_json: true               # Default: true
   simple_doctype: false             # Default: false
