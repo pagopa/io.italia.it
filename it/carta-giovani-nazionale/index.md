@@ -1,7 +1,6 @@
 ---
 layout: internal-w-slides
 title: Carta Giovani Nazionale
-image: "/assets/img/cashback/social-card-cashback.jpg"
 pre-title: In arrivo
 description: "Richiedi e utilizza la Carta Giovani Nazionale attraverso l’app IO in modo semplice e sicuro."
 subdescription: "Scarica l’ultima versione dell’app:"
@@ -10,6 +9,8 @@ ref: cgn
 permalink: /carta-giovani-nazionale/
 introduction_slides:
   - /assets/img/cashback/empty.png
+intro_image: "/assets/img/carta-giovani-nazionale/logo-cgn.png"
+intro_image_2x: "/assets/img/carta-giovani-nazionale/logo-cgn-2x.png"
 intro_primary_text: "App Store"
 intro_primary_link: "https://apps.apple.com/it/app/io/id1501681835"
 intro_primary_customclass: "btn btn-sm btn-download btn-download--w-icon ios text-uppercase px-3 px-md-5 mr-2"
