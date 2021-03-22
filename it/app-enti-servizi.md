@@ -20,6 +20,7 @@ assets:
               src="{{site.imagesurl}}/assets/img/wip.png"
               >
   </div>
+  {% comment %}
   <div class="wipenti__tempbanner__wrapper">
   <svg class="wipenti__tempbanner">
     <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"> 
@@ -27,4 +28,5 @@ assets:
   </svg>
   <p>Stiamo aggiornando i servizi locali. La lista tornerà presto disponibile.</p>
   </div>
+  {% endcomment %}
 </div>
