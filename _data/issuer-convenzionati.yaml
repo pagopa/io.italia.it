@@ -1,13 +1,10 @@
 it:
-  last_update: 24/02/2021
+  last_update: 23/03/2021
   items:
     # use alphabetical order
     #- name: American Express
     #  img: /assets/img/cashback/issuer/amex.png
       #url:
-    - name: BANCOMAT Pay
-      img: /assets/img/cashback/issuer/bancomat-pay.png
-      url: https://bancomat.it/it/bancomat/bancomat-pay
     - name: App BancoPosta
       img: /assets/img/cashback/issuer/app-bancoposta.png
       url: https://www.poste.it/piano-italia-cashless.html
@@ -17,6 +14,12 @@ it:
     - name: App Sella
       img: /assets/img/cashback/issuer/sella.png
       url: https://www.sella.it/banca-online/landing/cashback/index.jsp?utm_source=CampagnaMail&utm_medium=email&utm_campaign=cashback-lancio#
+    - name: BANCOMAT Pay
+      img: /assets/img/cashback/issuer/bancomat-pay.png
+      url: https://bancomat.it/it/bancomat/bancomat-pay
+    - name: buddybank
+      img: /assets/img/cashback/issuer/buddybank.png
+      url: https://www.buddybank.com
     - name: Enel X Pay
       img: /assets/img/cashback/issuer/enelxpay.png
       url: https://pay.enelx.com/cashback
