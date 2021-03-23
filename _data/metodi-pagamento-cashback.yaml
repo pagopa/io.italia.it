@@ -1,5 +1,5 @@
 it:
-  last_update: 01/03/2021
+  last_update: 23/03/2021
   iostatus:
     0:
       status: yes
@@ -308,20 +308,20 @@ it:
         - gdo
       cvv:
       numbers: 8
-      note: Carta Insieme Più Conad Card
+      note: Conad - Carta Insieme Più Conad Card
       io: 1
       iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online."
-      cashback: 1
-      cashbacktext: "Siamo al lavoro per permetterti presto di aggiungere questa carta al tuo Portafoglio."
+      cashback: 0
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback."
     - cards:
         - gdo
       cvv:
       numbers: 16
-      note: Fìdaty Oro
+      note: Esselunga - Fìdaty Oro
       io: 1
       iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online."
-      cashback: 1
-      cashbacktext: "Siamo al lavoro per permetterti presto di aggiungere questa carta al tuo Portafoglio."
+      cashback: 0
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback."
     - cards:
         - gdo
       cvv:
@@ -329,8 +329,8 @@ it:
       note: Unicoop Firenze - Spesa IN
       io: 1
       iotext: "Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online."
-      cashback: 1
-      cashbacktext: "Siamo al lavoro per permetterti presto di aggiungere questa carta al tuo Portafoglio."
+      cashback: 0
+      cashbacktext: "Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback."
       #######################
       #######################
       #######################
