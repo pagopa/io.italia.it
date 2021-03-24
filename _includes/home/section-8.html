@@ -9,13 +9,13 @@
           <div>
             <h2 class="mb-2 mb-md-4 text-center">{{t.home-section-8.title}}</h2>
 
-          	<form method="GET" action="https://a3i3i3.emailsp.com/frontend/subscribe.aspx" class="px-md-5 newsletter-form">
+          	<form id="newsletterform" method="POST" action="#" class="px-md-5 newsletter-form">
               <div class="form-group mt-4 mb-0 bg-white rounded">
                 <div class="input-group">
                   <div class="input-group-prepend">
                     <div class="input-group-text"><svg class="icon icon-sm icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-mail"></use></svg></div>
                   </div>
-                  <input type="email" name="email" class="js-newsletter-email form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
+                  <input id="newsletteremail" type="email" name="email" class="js-newsletter-email form-control bg-white input-email" placeholder="{{t.home-section-8.placeholder}}">
                 </div>
               </div>
               <div class="row js-nl-groups">
@@ -48,7 +48,14 @@
               <input type="hidden" name="list" value="4">
               <input id="group" name="group" type="hidden" value="">
               <div class="text-center my-4">
-                <button type="submit" class="js-newsletter-submit btn btn-sm bg-white text-primary px-5 text-uppercase" disabled
+                <div class="bg-success rounded p-2 small shadow mb-4" style="display:none" role="alert" id="newsletter-ok">
+                  Iscrizione alla newsletter avvenuta con successo!
+                </div>
+                <div class="bg-warning rounded p-2 small shadow mb-4" style="display:none" role="alert" id="newsletter-ko">
+                  Ci sono problemi di comunicazione col sistema, non siamo riusciti a iscriverti alla newsletter. Riprova più tardi
+                </div>
+                <button type="button" class="js-newsletter-submit btn btn-sm bg-white text-primary px-5 text-uppercase g-recaptcha" disabled
+                        data-sitekey="{{site.google_captcha}}" data-callback="submitNewsletter"
                         onclick="ga('send', 'event', 'button', 'click', 'Newsletter', 1)">{{t.home-section-8.button}}</button>
               </div>
             </form>
