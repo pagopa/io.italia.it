@@ -22,33 +22,15 @@ function lazyload() {
             elObserver.observe(lazyel);
           });
         } else {
-          var lazyloadThrottleTimeout;
           lazyloadElements = document.querySelectorAll(".lazy");
-          function lazyload () {
-            if (lazyloadThrottleTimeout) {
-              clearTimeout(lazyloadThrottleTimeout);
-            }
-            lazyloadThrottleTimeout = setTimeout(function() {
-              var scrollTop = window.pageYOffset;
-              lazyloadElements.forEach(function(img) {
-                  if(img.offsetTop < (window.innerHeight + scrollTop)) {
-                    img.src = img.dataset.src;
-                    if (img.hasAttribute("data-bkgimage")) {
-                        img.classList.remove("lazy");
-                        img.style.backgroundImage = img.getAttribute('data-bkgimage');
-                    }
-                  }
-              });
-              if(lazyloadElements.length == 0) {
-                document.removeEventListener("scroll", lazyload());
-                window.removeEventListener("resize", lazyload());
-                window.removeEventListener("orientationChange", lazyload());
-              }
-            }, 20);
-          }
-          document.addEventListener("scroll", lazyload());
-          window.addEventListener("resize", lazyload());
-          window.addEventListener("orientationChange", lazyload());
+          lazyloadElements.forEach(function(entry) {
+              entry.classList.remove("lazy");
+              var img = entry.querySelector("img");
+              var imgname = img.getAttribute("data-src");
+              imgname = imgname.replace(/^0+/, "");
+              img.setAttribute("src", IMGREPO + imgname);
+              img.classList.add("show");
+          });
         }
 }
 
@@ -71,6 +53,11 @@ document.addEventListener("DOMContentLoaded", function() {
     var itemList = document.querySelector(".entiservizi__list");
     var resultdata = [];
     var resultdata_searchable = [];
+
+    Handlebars.registerHelper('setImgSrc', function(value){
+        var imgname = value.replace(/^0+/, "");
+        return IMGREPO + imgname + ".png";
+      });
 
     function constructSearchable(service, index) {
         var orgName = service.o.toUpperCase();
@@ -162,7 +149,11 @@ document.addEventListener("DOMContentLoaded", function() {
             var el = document.createElement("div");
             el.classList.add("entiservizi__item");
             el.setAttribute("data-index", index);
-            el.classList.add("lazy");
+            if (index > 30) {
+                el.classList.add("lazy");
+            } else {
+                service['nolazy'] = true;
+            }
             var html = template(service);
             el.innerHTML = html;
             itemList.appendChild(el);
