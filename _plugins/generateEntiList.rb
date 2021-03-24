@@ -8,6 +8,7 @@ file = File.read('./_data/visible-services.json')
 data_hash = JSON.parse(file)
 data_hash_filtered = data_hash.select {|_,v| v['serviceMetadata']['scope']=="LOCAL" }
 entisearchable = {}
+entilist = {}
 Jekyll::Hooks.register :site, :after_init do |doc, payload|
     data_hash_filtered.each do |key, value|
         service = {value['serviceId'] => value['serviceName'] }
@@ -19,4 +20,11 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
     end
     entisearchable_sorted = entisearchable.sort.to_h
     File.write('./assets/json/servizi-ricercabili.json', JSON.dump(entisearchable_sorted.values))
+
+    data_hash.each do |key, value|
+        entisearchable[value['organizationName']] = {:o => value['organizationName'], :fc => value['organizationFiscalCode']}
+    end
+    entilist_sorted = entisearchable.sort.to_h
+    File.write('./_data/enti.json', JSON.dump(entilist_sorted.values))
+
 end

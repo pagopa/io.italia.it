@@ -1,0 +1,7 @@
+{% assign enti = site.data.enti %}
+
+<div>
+{% for ente in enti %}
+    <div >{{ente.o | friendly_name}}</div>
+{% endfor %}
+</div>

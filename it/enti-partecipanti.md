@@ -1,8 +1,8 @@
 ---
 layout: internal
-title: Enti pubblici presenti su IO
+title: Enti e servizi presenti su IO
 subtitle:
-description: In questa pagina puoi consultare la lista delle amministrazioni locali o centrali che hanno integrato i primi servizi nell'app
+description: In questa pagina puoi consultare la lista in costante aggiornamento di tutti gli Enti nazionali e locali che sono saliti a bordo di IO, con il dettaglio dei rispettivi servizi già a disposizione dei cittadini.
 lang: it
 ref: entipartecipanti
 permalink: /enti/
@@ -23,4 +23,4 @@ redirect_from:
   - /ente/comune-di-valsamoggia.html
 ---
 
-{% include enti-partecipanti.html %}
+{% include enti-list.html %}
