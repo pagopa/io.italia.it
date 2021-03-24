@@ -16,10 +16,10 @@ function submitNewsletter(token) {
     var subscriptionUrl = "https://api.io.italia.it/api/payportal/v1/newsletters/io/lists/4/recipients";
     var email = $("#newsletteremail").val().trim();
     var groups = $("#group").val().split(',');
-    var data = { "recaptchaToken" : token, "email" : email, "groups[]": groups };
+    var data = { "recaptchaToken" : token, "email" : email, "groups": groups };
     $.ajax({url: subscriptionUrl,
             type: "post",
-            data: data,
+            data: JSON.stringify(data),
             success: function(data, textStatus, xhr) {
                 if (xhr.status==200 && xhr.statusText=="OK") {
                     newsletterResponse(true);
