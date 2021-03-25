@@ -707,6 +707,24 @@ a.text-hover-green {
     }
   }
 }
+.opacity {
+  &-0 {
+    opacity: 0;
+  }
+  &-1 {
+    opacity: 0.25;
+  }
+  &-2 {
+    opacity: 0.5;
+  }
+  &-3 {
+    opacity: 0.75;
+  }
+}
+
+.grecaptcha-badge {
+  display: none;
+}
 
 .loaded {
   -webkit-animation: loaded-anim 1s linear 2 alternate both;
