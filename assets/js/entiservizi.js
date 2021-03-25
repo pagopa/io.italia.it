@@ -1,4 +1,5 @@
 var IMGREPO = "https://assets.cdn.io.italia.it/logos/organizations/";
+var ENTISERVIZIJSON = "https://assets.cdn.io.italia.it/services-webview/visible-services-compact.json";
 
 function lazyload() {
         var lazyloadElements;
@@ -52,6 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
     var searchformSearchingMessage = document.querySelector(".entiservizi__searching");
     var searchformNoResults = document.querySelector(".entiservizi__noresults");
     var itemList = document.querySelector(".entiservizi__list");
+    var connectionProblem = document.querySelector(".entiservizi__problem");
     var resultdata = [];
     var resultdata_searchable = [];
 
@@ -163,7 +165,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     var request = new XMLHttpRequest();
-    request.open("GET", "/assets/json/servizi-ricercabili.json", true);
+    request.open("GET", ENTISERVIZIJSON, true);
 
     request.onload = function() {
         if (this.status >= 200 && this.status < 400) {
@@ -171,12 +173,14 @@ document.addEventListener("DOMContentLoaded", function() {
             resultdata = JSON.parse(this.response);
             createList(resultdata);
         } else {
-            console.log("Problemi di connessione");
+            document.body.classList.remove("loading");
+            connectionProblem.classList.add("active");
         }
     };
 
     request.onerror = function() {
-    // error
+        document.body.classList.remove("loading");
+        connectionProblem.classList.add("active");
     };
 
     request.send();

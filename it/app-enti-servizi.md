@@ -88,3 +88,15 @@ assets:
 </div>
 <div class="entiservizi__list">
 </div>
+<div class="entiservizi__problem">
+    <div>
+            <img alt="Nessun risultato" class=""
+                srcset="
+                {{site.imagesurl}}/assets/img/question-2x.png 2x,
+                {{site.imagesurl}}/assets/img/question.png 1x
+                "
+                src="{{site.imagesurl}}/assets/img/question.png"
+                >
+    <p>Ci sono problemi nel download dei dati, riprova tra qualche minuto.</p>
+    </div>
+</div>
