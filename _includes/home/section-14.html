@@ -1,3 +1,6 @@
+{% assign servnum = site.data.enti-servizi.servnum %}
+{% assign entinum = site.data.enti-servizi.entinum %}
+
 
 <section id="section_14" class="position-relative section section__14 section--wpointers py-4 py-md-5 bg-primary">
   <div  class="section__14_inner container my-md-3">
@@ -6,12 +9,12 @@
             <div class="row">
                 <div class="col-6 pl-4">
                     <img src="{{site.imagesurl}}/assets/img/municipality.svg" alt="Enti" class="my-2">
-                    <div class="h2 text-white my-2">2.628</div>
+                    <div class="h2 text-white my-2">{{entinum | friendly_number}}</div>
                     <div class="text-desc font-weight-bold">Enti attivi su IO</div>
                 </div>
                 <div class="col-6 pr-4">
                     <img src="{{site.imagesurl}}/assets/img/services.svg" alt="Servizi" class="my-2">
-                    <div class="h2 text-white my-2">7.878</div>
+                    <div class="h2 text-white my-2">{{servnum | friendly_number}}</div>
                     <div class="text-desc font-weight-bold">Servizi disponibili</div>
                 </div>
             </div>

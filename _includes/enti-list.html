@@ -1,7 +1,33 @@
-{% assign enti = site.data.enti %}
+{% assign enti = site.data.enti-servizi.items | sort: "st" %}
 
-<div>
-{% for ente in enti %}
-    <div >{{ente.o | friendly_name}}</div>
-{% endfor %}
+<div id="entiSearch" class="bg-white">
+    <div class="container container--mid">
+        <div class="form-group px-3 px-md-0">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><svg class="icon icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-search"></use></svg></div>
+              </div>
+              <input type="text" class="form-control" id="entiSearchInput" name="entiSearchInput" >
+              <label for="entiSearchInput">Cerca un Ente nazionale o nazionale</label>
+            </div>
+          </div>
+    </div>
+</div>
+<div id="entiList" class="collapse-div" role="tablist">
+    <div class="container container--mid">
+        <div class="mb-3 mb-md-5">
+        <div class="small text-primary">Filtra per Ente:</div>
+        <ul class="list-inline entiList__filter my-2">
+            <li class="list-inline-item"><a href="#" title="Tutti" class="active">Tutti</a></li>
+            <li class="list-inline-item"><a href="#" title="Nazionali">Nazionali</a></li>
+            <li class="list-inline-item"><a href="#" title="Locali">Locali</a></li>
+        </ul>
+      </div>
+        {% for ente in enti %}
+        {% assign ente_url = ente.o | ente_detail_name %}
+        <a id="{{ente.fc}}" class="entiList__item" href="/{{ ente_url | datapage_url: 'enti' }}" title="Scheda ente {{ente.o | escape}}">
+            {%if ente.prefix %}{{ente.prefix}} {%endif%}<span class="entiList__title">{{ente.fn}}</span>
+        </a>
+      {% endfor %}
+    </div>
 </div>

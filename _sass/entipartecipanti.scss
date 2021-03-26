@@ -1,34 +1,134 @@
-.page-entipartecipanti {
-    .collapse-header {
-        
-        button {
-            font-size: 1.4rem;
-            color: $color--italia !important;
-            border-top: 1px solid rgba($color--italia, 0.4);
-            &:before {
-                margin-top: .5rem;
-                color: $color--italia;
-                content: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHRpdGxlPml0LWNvbGxhcHNlPC90aXRsZT48ZyBpZD0iTGl2ZWxsb18xMyIgZGF0YS1uYW1lPSJMaXZlbGxvIDEzIj48cGF0aCBmaWxsPSIjMDZjIiBkPSJNMTIsMTAuMjUsMTYuNzcsMTVhLjc1Ljc1LDAsMCwwLDEuMDYsMCwuNzQuNzQsMCwwLDAsMC0xLjA2TDEzLjA2LDkuMTlhMS41MSwxLjUxLDAsMCwwLTIuMTIsMEw2LjE3LDE0YS43NC43NCwwLDAsMCwwLDEuMDYuNzUuNzUsMCwwLDAsMS4wNiwwWiIvPjwvZz48L3N2Zz4=);
-            }
-            
-            &[disabled] {
-                cursor: auto;
+#entiSearchInput {
+  border: 1px solid $color--italia;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-left: none;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+}
+#entiList,
+#serviziList {
+  background-color: #f2f7fc;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  position: relative;
+  z-index: 1;
+  &:before {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 10px 12px 0px rgba(2, 47, 92, 0.5);
+    -moz-box-shadow: 0px 10px 12px 0px rgba(2, 47, 92, 0.5);
+    box-shadow: 0px 10px 12px 0px rgba(2, 47, 92, 0.5);
+    z-index: 0;
+    top: 0;
+    content: "";
+  }
+}
 
-                .badge {
-                    position: relative;
-                    bottom: 0.1rem;
-                    background-color: #e9e6f2;
-                    color: $color--gray-text;
-                }
-
-                &:before {
-                    display: none;
-                }
-                &:hover {
-                    text-decoration: none;
-                }
-            }
-        }
+.pagename--entipartecipanti {
+  #entiSearch {
+    .input-group-text {
+      border: 1px solid $color--italia;
+      border-top-left-radius: 0.5rem;
+      border-bottom-left-radius: 0.5rem;
+      border-right: none;
     }
+    .form-group label {
+      top: 4px;
+      left: 2.5rem;
+      color: $color--italia;
+      font-weight: normal;
+      &.active {
+        -webkit-transform: translateY(-90%);
+        transform: translateY(-90%);
+      }
+    }
+  }
 
+  .entiList {
+    &__filter {
+      li a {
+        text-transform: uppercase;
+        border: 1px solid $color--italia;
+        font-weight: 600;
+        padding: 0.3rem 1rem;
+        text-decoration: none;
+        border-radius: 0.35rem;
+        font-size: 0.85rem;
+        letter-spacing: 1px;
+        &.active {
+          background-color: $color--italia;
+          color: #fff;
+        }
+      }
+    }
+    &__item {
+      font-size: 1.35rem;
+      padding: 1rem 0.5rem;
+      border-bottom: 1px solid rgba($color--italia, 0.3);
+      color: $color--italia;
+      text-decoration: none;
+      display: block;
+    }
+    &__title {
+      font-weight: 600;
+    }
+  }
+}
+.layout--entiservizi {
+  &.internal-page {
+    margin-top: 4rem;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      margin-top: 6rem;
+    }
+  }
+  .breadcrumb-container .breadcrumb .breadcrumb-item {
+    font-size: 1rem;
+    color: $color--italia;
+    a {
+      text-decoration: none;
+      color: $color--italia;
+    }
+  }
+  .serviziList {
+    .collapse-header button {
+      padding-left: 0;
+      padding-right: 0;
+      font-size: 1.3rem;
+      color: $color--italia;
+      &:focus {
+        outline: 0;
+      }
+    }
+    .collapse-body {
+      padding: 1rem 0;
+    }
+    .collapse-div .collapse-header [data-toggle="collapse"]:before {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%2306c' d='M12 10.25L16.77 15a.75.75 0 0 0 1.06 0 .74.74 0 0 0 0-1.06l-4.77-4.75a1.51 1.51 0 0 0-2.12 0L6.17 14a.74.74 0 0 0 0 1.06.75.75 0 0 0 1.06 0z'%3E%3C/path%3E%3C/svg%3E");
+      width: 2rem;
+    }
+  }
+  .enteDetail {
+    &__title {
+      text-align: center;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        text-align: left;
+      }
+    }
+    &__logo {
+      height: 150px;
+      width: 150px;
+      display: block;
+      margin: 0 auto;
+      background-position: center center;
+      background-repeat: none;
+      background-size: contain;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        height: 200px;
+        width: 200px;
+      }
+    }
+  }
 }

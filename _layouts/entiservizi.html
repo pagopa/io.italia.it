@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+{% assign current_lang = 'it' %} 
+
+{%- include navigation-slim.html -%}
+{%- include navigation.html -%}
+{% assign logourl = "https://assets.cdn.io.italia.it/logos/organizations/" %}
+{% assign logonameregex = page.fc | cdn_name %}
+
+<div class="layout--entiservizi internal-page">
+
+  <article class="px-4 px-md-0">
+    <div class="container container--mid pb-2 pb-md-5">
+        <div class="mb-2 mb-md-5">
+            <nav class="breadcrumb-container" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="/">Home</a><span class="separator">/</span></li>
+                  <li class="breadcrumb-item"><a href="/enti/">Enti e servizi su IO</a><span class="separator">/</span></li>
+                  <li class="breadcrumb-item active " aria-current="page">{{page.o}}</li>
+                </ol>
+              </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-4 order-md-2">
+                <div class="enteDetail__logo my-3 my-md-1" 
+                     style="background-image: url({{logourl | append: logonameregex | append: '.png'}}" alt="Logo {{page.o | escape }})"></div>
+            </div>
+            <div class="col-md-8 order-md-1">
+                <h1 class="text-primary enteDetail__title">{{page.title}}</h1>
+                <p class="lead text-primary mt-5 mt-md-1">
+                    In questa pagina puoi consultare l’elenco di tutti i servizi che l’Ente ha messo a disposizione dei cittadini sull’app IO.
+                </p>
+                <div class="">
+                    <span class="d-block font-weight-bold text-uppercase small text-primary">Servizi attivi</span>
+                    <span class="small text-primary">{{page.s | size}}</span>
+                </div>
+            </div>
+        </div>
+    </div><!--/container--mid-->
+    <div class="serviziList" id="serviziList">
+        <div class="container container--mid">
+            <div id="collapseServizi" class="collapse-div" role="tablist">
+              {% for serv in page.s %}
+                <div class="collapse-header" id="{{serv.i}}">
+                  <button class="collapsed {%if forloop.first%}border-top-0{%endif%}" data-toggle="collapse" data-target="#collapse{{serv.i}}" aria-expanded="false" aria-controls="collapse{{serv.i}}">
+                    {{serv.n}}
+                  </button>
+                </div>
+                <div id="collapse{{serv.i}}" class="collapse" role="tabpanel" aria-labelledby="{{serv.i}}">
+                  <div class="collapse-body col-md-10">
+                    {{serv.d | markdownify}}
+                  </div>
+                </div>
+                {%endfor%}
+            </div>
+        </div>
+    </div>
+    
+  </article>
+</div>
+
+{%- include footer.html -%} {%- include cookiebar.html -%}

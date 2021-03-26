@@ -52,3 +52,11 @@ include: [".well-known"]
 #   - vendor/gems/
 #   - vendor/ruby/
 
+page_gen-dirs: true
+page_gen:
+  - data: "enti-servizi.items"
+    template: entiservizi
+    dir: "enti"
+    index_files: true
+    name_expr: record["o"].gsub(/[^0-9A-Za-zÀ-ú\s]/, '').gsub('  ',' ')
+    title: "o"
