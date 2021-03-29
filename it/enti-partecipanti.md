@@ -11,16 +11,6 @@ intro_image:
 intro_primary_text:
 intro_primary_link:
 noheight: true
-redirect_from:
-  - /ente/
-  - /it/enti/
-  - /enti-partecipanti-beta/
-  - /ente/aci.html
-  - /ente/comune-di-milano.html
-  - /ente/comune-di-palermo.html
-  - /ente/comune-di-ripalta-cremasca.html
-  - /ente/comune-di-torino.html
-  - /ente/comune-di-valsamoggia.html
 ---
 
 {% include enti-list.html %}

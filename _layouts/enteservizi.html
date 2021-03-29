@@ -3,11 +3,11 @@ layout: default
 ---
 
 {% assign current_lang = 'it' %} 
-
+{% assign t = site.data.t[current_lang] %}
 {%- include navigation-slim.html -%}
 {%- include navigation.html -%}
 {% assign logourl = "https://assets.cdn.io.italia.it/logos/organizations/" %}
-{% assign logonameregex = page.fc | cdn_name %}
+
 
 <div class="layout--entiservizi internal-page">
 
@@ -17,24 +17,26 @@ layout: default
             <nav class="breadcrumb-container" aria-label="breadcrumb">
                 <ol class="breadcrumb">
                   <li class="breadcrumb-item"><a href="/">Home</a><span class="separator">/</span></li>
-                  <li class="breadcrumb-item"><a href="/enti/">Enti e servizi su IO</a><span class="separator">/</span></li>
-                  <li class="breadcrumb-item active " aria-current="page">{{page.o}}</li>
+                  <li class="breadcrumb-item"><a href="/enti/">Enti e servizi su IO</a>
+                  <span class="separator d-none d-md-inline-block">/</span></li>
+                  <li class="breadcrumb-item active d-none d-md-inline-block" aria-current="page">{%raw%}{{o}}{%endraw%}</li>
                 </ol>
               </nav>
         </div>
         <div class="row">
             <div class="col-md-4 order-md-2">
-                <div class="enteDetail__logo my-3 my-md-1" 
-                     style="background-image: url({{logourl | append: logonameregex | append: '.png'}}" alt="Logo {{page.o | escape }})"></div>
+                <div class="enteDetail__logo my-3 my-md-1"
+                     style="background-image: url({{logourl}}{%raw%}{{setImgSrc fc}}{%endraw%});"
+                     ></div>
             </div>
             <div class="col-md-8 order-md-1">
-                <h1 class="text-primary enteDetail__title">{{page.title}}</h1>
+                <h1 class="text-primary enteDetail__title">{%raw%}{{o}}{%endraw%}</h1>
                 <p class="lead text-primary mt-5 mt-md-1">
                     In questa pagina puoi consultare l’elenco di tutti i servizi che l’Ente ha messo a disposizione dei cittadini sull’app IO.
                 </p>
                 <div class="">
                     <span class="d-block font-weight-bold text-uppercase small text-primary">Servizi attivi</span>
-                    <span class="small text-primary">{{page.s | size}}</span>
+                    <span class="small text-primary">{%raw%}{{s.length}}{%endraw%}</span>
                 </div>
             </div>
         </div>
@@ -42,18 +44,20 @@ layout: default
     <div class="serviziList" id="serviziList">
         <div class="container container--mid">
             <div id="collapseServizi" class="collapse-div" role="tablist">
-              {% for serv in page.s %}
-                <div class="collapse-header" id="{{serv.i}}">
-                  <button class="collapsed {%if forloop.first%}border-top-0{%endif%}" data-toggle="collapse" data-target="#collapse{{serv.i}}" aria-expanded="false" aria-controls="collapse{{serv.i}}">
-                    {{serv.n}}
+              {%raw%}
+              {{#each s}}
+                <div class="collapse-header" id="{{i}}">
+                  <button class="collapsed {{#if @first}}border-top-0{{/if}}" data-toggle="collapse" data-target="#collapse{{i}}" aria-expanded="false" aria-controls="collapse{{i}}">
+                    {{n}}
                   </button>
                 </div>
-                <div id="collapse{{serv.i}}" class="collapse" role="tabpanel" aria-labelledby="{{serv.i}}">
+                <div id="collapse{{i}}" class="collapse" role="tabpanel" aria-labelledby="{{i}}">
                   <div class="collapse-body col-md-10">
-                    {{serv.d | markdownify}}
+                    {{{breaklines d}}} 
                   </div>
                 </div>
-                {%endfor%}
+              {{/each}}
+              {%endraw%}
             </div>
         </div>
     </div>
