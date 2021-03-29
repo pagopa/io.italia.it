@@ -11,6 +11,8 @@ intro_image:
 intro_primary_text:
 intro_primary_link:
 noheight: true
+extra_scripts:
+  - "/assets/js/entilist.js"
 ---
 
 {% include enti-list.html %}

@@ -7,7 +7,7 @@ enti_to_list = Jekyll.configuration({})['enti_to_list']
 file = File.read('./_data/visible-services-extended.json')
 data_hash = JSON.parse(file)
 new_content = {}
-new_content["items"] = []
+new_content["items"] = {}
 services_counter = 0
 blacklist = ['Città di ', 'Comune di ', 'comune di ', 'COMUNE DI ', 'Regione ', 'REGIONE ']
 Jekyll::Hooks.register :site, :after_init do |doc, payload|
@@ -32,10 +32,17 @@ Jekyll::Hooks.register :site, :after_init do |doc, payload|
             item_new_values["fn"] = item["o"]
             item_new_values["st"] = item["o"].upcase.strip
         end
-        new_content["items"].push( item.merge(item_new_values) )
+        #new_content["items"].push( item.merge(item_new_values) )
+        complete_hash = item.merge(item_new_values)
+        if new_content["items"].key?(item["o"])
+            new_values = complete_hash["s"] | new_content["items"][item["o"]]["s"]
+            complete_hash["s"] = new_values
+        end
+        new_content["items"][item["o"]] = complete_hash
     end
     new_content["servnum"] = services_counter
-    new_content["entinum"] = data_hash.length()
+    new_content["entinum"] = new_content["items"].length()
+    new_content["items"] = new_content["items"].values
     File.write('./_data/enti-servizi.json', JSON.dump(new_content))
 
 end

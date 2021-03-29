@@ -1,2 +1,3 @@
 baseurl: ""
 imagesurl: "https://static-web.io.italia.it" # host assets
+enti_to_list: 
