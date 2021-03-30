@@ -14,11 +14,6 @@ module Jekyll::CustomFilter
         displayname = input.gsub(/^0+/, '')
         "#{displayname}"
     end
-    # Override key
-    def override_content(inputhash)
-        inputhash["content"] = ""
-        inputhash
-    end
 
 end
 Liquid::Template.register_filter(Jekyll::CustomFilter)

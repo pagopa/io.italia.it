@@ -8,10 +8,7 @@ description: In questa pagina puoi consultare l’elenco di tutti i servizi che 
 
   {%- include head.html -%}
 
-  <body class="overflow-x--hidden layout--{{page.layout}}">
-      <div id="pageData" style="display: none;" >
-        {{page | override_content | jsonify}}
-      </div>
+  <body class="overflow-x--hidden layout--{{page.layout}}" data-ente-fc="{{page.fc}}">
 
   {%- include scripts.html -%}
   <script src="{{ site.baseurl }}/assets/js/vendor/handlebars.min.js"></script>

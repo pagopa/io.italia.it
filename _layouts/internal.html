@@ -13,7 +13,7 @@ layout: default
     {% include sections/introduction.html %} {% if page.narrow %}
     <div class="container mw-60">
       {% endif %}
-      <div class="internal-page__content mb-5">
+      <div class="internal-page__content {% unless page.nomargin %}mb-5{%endunless%}">
         {{content}}
       </div>
       {% if page.narrow %}

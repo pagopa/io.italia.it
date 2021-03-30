@@ -5,3 +5,4 @@ _site
 .DS_Store
 _data/abi.json
 _data/cobadgeServices.json
+assets/entijson

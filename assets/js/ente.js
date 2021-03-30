@@ -1,7 +1,7 @@
 $(function() {
     var entedummyUrl = "/enti/entedummy.html";
-    var pageDataHtml = $("#pageData").text();
-    var pageData = JSON.parse(pageDataHtml);
+    var jsonPath ="/assets/entijson/";
+    var enteFc = $("body").data("enteFc");
     Handlebars.registerHelper('setImgSrc', function(value){
         var imgname = value.replace(/^0+/, "");
         return imgname + ".png";
@@ -11,17 +11,23 @@ $(function() {
         text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
         return new Handlebars.SafeString(text);
     });
+    function pageRender(datasource) {
+        $.ajax({
+            url: entedummyUrl,
+            dataType: 'html',
+            success: function(data,textStatus,xhr) {
+                var appendHtml = data;
+                var template = Handlebars.compile(appendHtml);
+                var html = template(datasource);
+                $("body").append(html);
+            }
+        });
+    }
     $.ajax({
-        url: entedummyUrl,
-        dataType: 'html',
+        url: jsonPath + enteFc + ".json",
+        dataType: 'json',
         success: function(data,textStatus,xhr) {
-            var appendHtml = data;
-            var template = Handlebars.compile(appendHtml);
-            var html = template(pageData);
-            $("body").append(html);
-        },
-        done: function() {
-            $("#pageData").remove();
+            pageRender(data);
         }
     });
 });

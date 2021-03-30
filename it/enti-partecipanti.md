@@ -6,7 +6,7 @@ description: In questa pagina puoi consultare la lista in costante aggiornamento
 lang: it
 ref: entipartecipanti
 permalink: /enti/
-
+nomargin: true
 intro_image:
 intro_primary_text:
 intro_primary_link:
