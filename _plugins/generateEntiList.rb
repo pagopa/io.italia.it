@@ -3,14 +3,15 @@
 THIS SCRIPT IS USEFUL TO GENERATE A NEW JSON WITH ENTI'S DATA 
 =end
 require 'json'
-enti_to_list = Jekyll.configuration({})['enti_to_list']
+
 file = File.read('./_data/visible-services-extended.json')
 data_hash = JSON.parse(file)
 new_content = {}
 new_content["items"] = {}
 services_counter = 0
 blacklist = ['Città di ', 'Comune di ', 'comune di ', 'COMUNE DI ', 'Regione ', 'REGIONE ']
-Jekyll::Hooks.register :site, :after_init do |doc, payload|
+Jekyll::Hooks.register :site, :after_init do |site|
+    enti_to_list = site.config['enti_to_list']
     data_hash.each_with_index do |item, index|
         # tipically in dev mode: don't process all the items
         if enti_to_list and index > enti_to_list
