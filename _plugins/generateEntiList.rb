@@ -12,6 +12,7 @@ services_counter = 0
 blacklist = ['Città di ', 'Comune di ', 'comune di ', 'COMUNE DI ', 'Regione ', 'REGIONE ']
 Jekyll::Hooks.register :site, :after_init do |site|
     enti_to_list = site.config['enti_to_list']
+    converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
     data_hash.each_with_index do |item, index|
         # tipically in dev mode: don't process all the items
         if enti_to_list and index > enti_to_list
@@ -19,8 +20,14 @@ Jekyll::Hooks.register :site, :after_init do |site|
         end
         item_new_values = {}
         services_counter += item["s"].length()
+        # for every service we use the markdownify filter
+        item["s"].each_with_index do | service, index |
+            if service["d"]
+                item["s"][index]["d"] = converter.convert(service["d"])
+            end
+        end
         # if the org name has a "black list word" let's divide the name
-        # ex. Comune di Caltanisetta -> prefix: Comune di , friendlyname: Caltanisetta
+        # ex. Comune di Caltanissetta -> prefix: Comune di , friendlyname: Caltanissetta
         if blacklist.any? { |s| item["o"].include? s }
             orgName = item["o"]
             prefix = ""
