@@ -1,5 +1,5 @@
 it:
-  last_update: 19/02/2021
+  last_update: 01/04/2021
   items:
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
@@ -22,6 +22,9 @@ it:
     - name: Gruppo Cassa Centrale
       img: /assets/img/cashback/acquirer/cassa-centrale.png
       startdate: 09/02/2021
+    #- name: Hobex
+    #  img: /assets/img/cashback/acquirer/hobex.png
+    #  startdate: 01/04/2021
     - name: ICCREA
       img: /assets/img/cashback/acquirer/iccrea.png
       startdate: 08/12/2020
