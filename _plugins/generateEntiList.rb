@@ -3,17 +3,28 @@
 THIS SCRIPT IS USEFUL TO GENERATE A NEW JSON WITH ENTI'S DATA 
 =end
 require 'json'
+require 'down'
 
-file = File.read('./_data/visible-services-extended.json')
-data_hash = JSON.parse(file)
-new_content = {}
-new_content["items"] = {}
-services_counter = 0
-blacklist = ['Città di ', 'Comune di ', 'comune di ', 'COMUNE DI ', 'Regione ', 'REGIONE ']
-Jekyll::Hooks.register :site, :after_init do |site|
+downloadUrl = "https://assets.cdn.io.italia.it/services-webview/visible-services-extended.json"
+begin
+    file =  Down.download(downloadUrl)
+rescue
+    # fallback in case we cannot download the source file
+    puts "File unreachable"
+end
+
+def renderEntiList(file, site)
+    data_hash = JSON.parse(file.read)
+    new_content = {}
+    new_content["items"] = {}
+    # ARRAY to use as json source for search in page
+    enti_searchable = []
+    services_counter = 0
+    blacklist = ['Città di ', 'Comune di ', 'COMUNE DI ', 'Regione ', 'REGIONE ']
     enti_to_list = site.config['enti_to_list']
     converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
     data_hash.each_with_index do |item, index|
+        enti_searchable.push("#{item['o'].upcase}|#{item['fc'].to_s}")
         # tipically in dev mode: don't process all the items
         if enti_to_list and index > enti_to_list
             break
@@ -64,6 +75,15 @@ Jekyll::Hooks.register :site, :after_init do |site|
     new_content["entinum"] = new_content["items"].length()
     # conversion of hash in array
     new_content["items"] = new_content["items"].values
+    File.write('./assets/json/enti-list-searchable.json', JSON.dump(enti_searchable))
     File.write('./_data/enti-servizi.json', JSON.dump(new_content))
+end
+
+Jekyll::Hooks.register :site, :after_init do |site|
+    # if we receive the file via CDN we can build a updated list
+    # otherwise nothing, in this manner we use the data also stored from the last build
+    unless file.nil?
+        renderEntiList(file, site)
+    end
 
 end

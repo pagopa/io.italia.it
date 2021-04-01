@@ -3,19 +3,14 @@ $(function() {
     var $enti = $(enti);
     var $filters = $(".entiList__scopefilter a");
     var $entiSearchInput = $("#entiSearchInput");
-    var jsonEntiUrl = "/assets/json/servizi-ricercabili.json";
+    var jsonEntiUrl = "/assets/json/enti-list-searchable.json";
     var searchableList = [];
 
     $.ajax({
         url: jsonEntiUrl,
         dataType: 'json',
         success: function(data,textStatus,xhr) {
-            data.forEach( function (element, index, array) {
-                var orgName = element["o"].toUpperCase();
-                var fc = element["fc"].toString();
-                var toIndex = orgName + "|" + fc;
-                searchableList.push(toIndex);
-            });
+            searchableList = data;
         }
     });
 
