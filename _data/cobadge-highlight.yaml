@@ -1,5 +1,5 @@
 it:
-  last_update: 08/03/2021
+  last_update: 06/04/2021
   items:
     # use alphabetical order
     - name: Banca Sella
@@ -7,6 +7,9 @@ it:
       onlylogo: true
     - name: Banco BPM
       img: /assets/img/cashback/issuer/bancobpm.png
+      onlylogo: true
+    - name: Cassa Centrale Banca
+      img: /assets/img/cashback/issuer/cassa-centrale.png
       onlylogo: true
     - name: Crédit Agricole
       img: /assets/img/cashback/issuer/creditagricole.png
@@ -23,9 +26,6 @@ it:
     - name: UniCredit
       img: /assets/img/cashback/issuer/unicredit.png
       onlylogo: true
-    - name: Cassa Centrale Banca
-      img: /assets/img/cashback/issuer/cassa-centrale.png
-      # va mostrato 'in arrivo'
     - name: Intesa Sanpaolo
       img: /assets/img/cashback/issuer/intesa.png
       # va mostrato 'in arrivo'
