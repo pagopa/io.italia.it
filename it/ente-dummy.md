@@ -11,6 +11,7 @@ intro_image:
 intro_primary_text:
 intro_primary_link:
 noheight: true
+no-csp: true
 ---
 
 {%comment%}
