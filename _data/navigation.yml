@@ -1,20 +1,49 @@
 it:
   - 
-    label: Cittadini
-    url: '/cittadini/'
+    label: Il Progetto
+    url: '#'
+    id: 'progetto'
+    items:
+      - label: Per i Cittadini
+        url: /cittadini/
+      - label: Per le Pubbliche Amministrazioni
+        url: /pubbliche-amministrazioni/
+      - label: Per gli Sviluppatori
+        url: /sviluppatori/
+      - label: Per i Giornalisti
+        url: /giornalisti/
+      - label: I numeri sull'app IO
+        url: /dashboard/
   - 
-    label: P<span class="d-inline d-md-none d-xl-inline">ubbliche </span>A<span class="d-inline d-md-none d-xl-inline">mministrazioni</span>
-    url: '/pubbliche-amministrazioni/'
-  - 
-    label: Sviluppatori
-    url: '/sviluppatori/'
-  - 
-    label: Giornalisti
-    url: '/giornalisti/'
+    label: Servizi su IO
+    url: '#'
+    id: 'servizi'
+    items_grouped:
+      - label: In evidenza
+        items:
+          - label: Bonus Vacanze
+            url: /bonus-vacanze/
+          - label: Cashback
+            url: /cashback/
+      - label: Tutti i servizi
+        items:
+          - label: Enti Nazionali
+            url: /enti/#nazionali
+          - label: Enti Locali
+            url: /enti/#locali
   - 
     label: Roadmap
     url: '/roadmap/'
+    id: 'roadmap'
   - 
     label: FAQ
-    url: '/faq/'
+    url: '#'
+    id: 'faq'
+    items:
+      - label: Generali
+        url: /faq/
+      - label: Bonus Vacanze
+        url: /bonus-vacanze/faq/
+      - label: Cashback
+        url: /cashback/faq/
   
