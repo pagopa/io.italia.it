@@ -10,7 +10,7 @@ it:
         url: /pubbliche-amministrazioni/
       - label: per gli Sviluppatori
         url: /sviluppatori/
-      - label: Per i Giornalisti
+      - label: per i Giornalisti
         url: /giornalisti/
       - label: I numeri dell'app IO
         url: /dashboard/
