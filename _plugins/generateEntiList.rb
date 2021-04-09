@@ -13,6 +13,16 @@ rescue
     puts "File unreachable"
 end
 
+def sanitizeString(str)
+    prepositions = /Dei |Degli |Di |Della |Delle |Dell'|Del |Allo |Al |A |Sul |Sulla |Per | E |D'|Im |In |Am /
+    # As first step, let's transform all the words of a OrgName in capitalize 
+    capitalizedString = str.gsub(/\S+/, &:capitalize)
+    # Solve problem with composed string ex. D'iseo -> D'Iseo
+    capitalizedString = capitalizedString.gsub(/('[a-z]|-[a-z])/, &:upcase)
+    # Lowercase for prepositions (in italian and german)
+    return capitalizedString.gsub(prepositions, &:downcase)
+end
+
 def renderEntiList(file, site)
     data_hash = JSON.parse(file.read)
     new_content = {}
@@ -20,7 +30,7 @@ def renderEntiList(file, site)
     # ARRAY to use as json source for search in page
     enti_searchable = []
     services_counter = 0
-    blacklist = ['Città di ', 'Comune di ', 'COMUNE DI ', 'Regione ', 'REGIONE ']
+    blacklist = ['Comune di ', 'Città di ', 'Regione ', 'Regione del ', 'Città Metropolitana di ', 'Comune della ', 'Comunità Montana ', 'Federazione dei Comuni del ', 'Istituto Comprensivo Statale di ', 'Consiglio Regionale della ', 'Provincia del ', 'Provincia di ', 'Unione ', 'Unione di Comuni ', 'Unione dei Comuni ', 'Unione dei Comuni del ', 'Unione dei Comuni dell’', 'Unione Montana ', 'Unione Montana dei Comuni e Unione Montana dei Comuni dell’']
     enti_to_list = site.config['enti_to_list']
     converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
     data_hash.each_with_index do |item, index|
@@ -37,6 +47,7 @@ def renderEntiList(file, site)
                 item["s"][index]["d"] = converter.convert(service["d"])
             end
         end
+        item["o"] = sanitizeString(item["o"])
         # if the org name has a "black list word" let's divide the name
         # ex. Comune di Caltanissetta -> prefix: Comune di , friendlyname: Caltanissetta
         if blacklist.any? { |s| item["o"].include? s }
