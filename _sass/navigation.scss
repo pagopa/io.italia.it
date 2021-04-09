@@ -159,6 +159,9 @@
       padding: 0.3rem 0;
       @media screen and (min-width: $grid-breakpoints-md) {
         text-align: left;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
