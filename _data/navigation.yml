@@ -8,7 +8,7 @@ it:
         url: /cittadini/
       - label: Per le Pubbliche Amministrazioni
         url: /pubbliche-amministrazioni/
-      - label: Per gli Sviluppatori
+      - label: per gli Sviluppatori
         url: /sviluppatori/
       - label: Per i Giornalisti
         url: /giornalisti/
