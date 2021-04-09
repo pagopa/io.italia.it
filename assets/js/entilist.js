@@ -5,6 +5,11 @@ $(function() {
     var $entiSearchInput = $("#entiSearchInput");
     var jsonEntiUrl = "/assets/json/enti-list-searchable.json";
     var searchableList = [];
+    var urlHash = window.location.hash;
+    var entiTypeMap = {
+        "#nazionali": "NATIONAL",
+        "#locali": "LOCAL"
+    }
 
     $.ajax({
         url: jsonEntiUrl,
@@ -71,4 +76,9 @@ $(function() {
         }
         search(value);
     },1000));
+
+    if (urlHash!="") {
+        var $filterBtn = $filters.filter('[data-scope-selector="'+ entiTypeMap[urlHash] +'"]');
+        $filterBtn.trigger("click");
+    }
 });
