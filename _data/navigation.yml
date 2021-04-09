@@ -6,7 +6,7 @@ it:
     items:
       - label: per i Cittadini
         url: /cittadini/
-      - label: Per le Pubbliche Amministrazioni
+      - label: per le Pubbliche Amministrazioni
         url: /pubbliche-amministrazioni/
       - label: per gli Sviluppatori
         url: /sviluppatori/
