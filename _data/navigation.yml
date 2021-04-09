@@ -12,7 +12,7 @@ it:
         url: /sviluppatori/
       - label: Per i Giornalisti
         url: /giornalisti/
-      - label: I numeri sull'app IO
+      - label: I numeri dell'app IO
         url: /dashboard/
   - 
     label: Servizi su IO
