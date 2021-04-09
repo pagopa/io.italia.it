@@ -4,7 +4,7 @@ it:
     url: '#'
     id: 'progetto'
     items:
-      - label: Per i Cittadini
+      - label: per i Cittadini
         url: /cittadini/
       - label: Per le Pubbliche Amministrazioni
         url: /pubbliche-amministrazioni/
