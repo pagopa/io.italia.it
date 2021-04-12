@@ -14,13 +14,19 @@ rescue
 end
 
 def sanitizeString(str)
+    # except in case of acronym 
+    if str.upcase==str and str.length<5
+        return str
+    end
     prepositions = /Dei |Degli |Di |Della |Delle |Dell'|Del |Allo |Al |A |Sul |Sulla |Per | E |D'|Im |In |Am /
-    # As first step, let's transform all the words of a OrgName in capitalize 
-    capitalizedString = str.gsub(/\S+/, &:capitalize)
+    # drop special characters
+    cleanString = str.gsub(/[!@%&"]/,'')
+    # Let's transform all the words of a OrgName in capitalize
+    capitalizedString = cleanString.gsub(/\S+/, &:capitalize)
     # Solve problem with composed string ex. D'iseo -> D'Iseo
-    capitalizedString = capitalizedString.gsub(/('[a-z]|-[a-z])/, &:upcase)
+    capitalizedStringComposed = capitalizedString.gsub(/('[a-z]|-[a-z]|’[a-z])/, &:upcase)
     # Lowercase for prepositions (in italian and german)
-    return capitalizedString.gsub(prepositions, &:downcase)
+    return capitalizedStringComposed.gsub(prepositions, &:downcase)
 end
 
 def renderEntiList(file, site)
@@ -30,7 +36,8 @@ def renderEntiList(file, site)
     # ARRAY to use as json source for search in page
     enti_searchable = []
     services_counter = 0
-    blacklist = ['Comune di ', 'Città di ', 'Regione ', 'Regione del ', 'Città Metropolitana di ', 'Comune della ', 'Comunità Montana ', 'Federazione dei Comuni del ', 'Istituto Comprensivo Statale di ', 'Consiglio Regionale della ', 'Provincia del ', 'Provincia di ', 'Unione ', 'Unione di Comuni ', 'Unione dei Comuni ', 'Unione dei Comuni del ', 'Unione dei Comuni dell’', 'Unione Montana ', 'Unione Montana dei Comuni e Unione Montana dei Comuni dell’']
+    prefixNames = /Comune di |Città di |Regione |Regione del |Città Metropolitana di |Comune della |Comunità Montana |Federazione dei Comuni del |Istituto Comprensivo Statale di |Consiglio Regionale della |Provincia del |Provincia di |Unione |Unione di Comuni |Unione dei Comuni |Unione dei Comuni del |Unione dei Comuni dell’|Unione Montana |Unione Montana dei Comuni e Unione Montana dei Comuni dell’/
+    prefixGermanNames = /Gemeinde /
     enti_to_list = site.config['enti_to_list']
     converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
     data_hash.each_with_index do |item, index|
@@ -48,25 +55,18 @@ def renderEntiList(file, site)
             end
         end
         item["o"] = sanitizeString(item["o"])
-        # if the org name has a "black list word" let's divide the name
+        @orgName = sanitizeString(item["o"])
+        # if the org name has a "prefix name" we put it in another field
         # ex. Comune di Caltanissetta -> prefix: Comune di , friendlyname: Caltanissetta
-        if blacklist.any? { |s| item["o"].include? s }
-            orgName = item["o"]
-            prefix = ""
-            blacklist.each { |bw|
-                if orgName.start_with?(bw)
-                    prefix = bw
-                end
-            }
-            item_new_values["prefix"] = prefix
-            item_new_values["fn"] = item["o"].gsub(prefix, "").strip
-            # "st" value is useful to sort the list (sortable title)
-            item_new_values["st"] = item["o"].gsub(prefix, "").upcase.strip
-        else
-            item_new_values["fn"] = item["o"]
-            # "st" value is useful to sort the list (sortable title)
-            item_new_values["st"] = item["o"].upcase.strip
-        end
+        prefix = @orgName[prefixNames]
+        prefixGerman = @orgName[prefixGermanNames]
+        prefixDroppedString = prefixNames.match(@orgName) ? @orgName.gsub!(prefixNames, '') : @orgName
+        prefixDroppedString = prefixGerman ? prefixDroppedString.gsub!(prefixGerman, '') : prefixDroppedString
+        item_new_values["prefix"] = prefixGerman ? prefix + "/ " + prefixGerman : prefix
+        item_new_values["fn"] = prefixDroppedString.strip
+        # "st" value is useful to sort the list (sortable title)
+        item_new_values["st"] = prefixDroppedString.upcase.strip
+
         # let's merge the original values with the "new" ones (as friendly name and sortable title)
         complete_hash = item.merge(item_new_values)
         # Unfortunately there are some Enti that has the same name, but different fiscal code
