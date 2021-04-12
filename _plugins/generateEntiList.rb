@@ -18,7 +18,7 @@ def sanitizeString(str)
     if str.upcase==str and str.length<5
         return str
     end
-    prepositions = /Dei |Degli |Di |Della |Delle |Dell'|Del |Allo |Al |A |Sul |Sulla |Per | E |D'|Im |In |Am /
+    prepositions = /Dei |Degli |Di |Della |Delle |Dell'|Dell’|Del |Allo |Al |A |Sul |Sulla |Per | E |D'|Im |In |Am /
     # drop special characters
     cleanString = str.gsub(/[!@%&"]/,'')
     # Let's transform all the words of a OrgName in capitalize
@@ -36,7 +36,7 @@ def renderEntiList(file, site)
     # ARRAY to use as json source for search in page
     enti_searchable = []
     services_counter = 0
-    prefixNames = /Comune di |Città di |Regione |Regione del |Città Metropolitana di |Comune della |Comunità Montana |Federazione dei Comuni del |Istituto Comprensivo Statale di |Consiglio Regionale della |Provincia del |Provincia di |Unione |Unione di Comuni |Unione dei Comuni |Unione dei Comuni del |Unione dei Comuni dell’|Unione Montana |Unione Montana dei Comuni e Unione Montana dei Comuni dell’/
+    prefixNames = /^(Comune di |Città di |Regione del |Regione |Città Metropolitana di |Comune della |Comunità Montana |Federazione dei Comuni del |Istituto Comprensivo Statale di |Consiglio Regionale della |Provincia del |Provincia di |Unione di Comuni di |Unione di Comuni |Unione dei Comuni del |Unione dei Comuni dell’|Unione dei Comuni dell'|Unione dei Comuni della |Unione dei Comuni Montani |Unione Comuni del |Unione Comuni della |Unione Comuni |Unione dei Comuni |Unione Montana dei Comuni dell’|Unione Montana dei Comuni | Unione Montana |Unione di Comuni Montani |Unione )/
     prefixGermanNames = /Gemeinde /
     enti_to_list = site.config['enti_to_list']
     converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
