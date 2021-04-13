@@ -31,6 +31,7 @@ end
 
 def renderEntiList(file, site)
     data_hash = JSON.parse(file.read)
+    fcBlacklist = ['15376371009']
     new_content = {}
     new_content["items"] = {}
     # ARRAY to use as json source for search in page
@@ -41,6 +42,9 @@ def renderEntiList(file, site)
     enti_to_list = site.config['enti_to_list']
     converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
     data_hash.each_with_index do |item, index|
+        # go to the next if this org is in the blacklist
+        next if fcBlacklist.include? item["fc"]
+
         enti_searchable.push("#{item['o'].upcase}|#{item['fc'].to_s}")
         # tipically in dev mode: don't process all the items
         if enti_to_list and index > enti_to_list
