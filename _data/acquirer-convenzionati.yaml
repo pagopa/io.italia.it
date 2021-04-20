@@ -48,7 +48,7 @@ it:
       startdate: 08/12/2020
     - name: Raiffeisen
       img: /assets/img/cashback/acquirer/raiffeisen.png
-      startdate: 20/04/2020
+      startdate: 20/04/2021
     - name: Satispay
       img: /assets/img/cashback/acquirer/satispay.png
       startdate: 08/12/2020
@@ -66,4 +66,4 @@ it:
       startdate: 08/12/2020
     - name: Viva Wallet
       img: /assets/img/cashback/acquirer/vivawallet.png
-      startdate: 20/04/2020
+      startdate: 20/04/2021
