@@ -1,122 +1,158 @@
-<div class="dashboard__cashback affix-parent">
-    <div class="container container--mid mt-2 mt-md-5 pt-2 pt-md-5">
-        <div class="row no-gutters">
-            <div class="col">
-                <h2 class="text-primary mb-2 mb-md-4">I numeri del Cashback</h2>
-                <div class="mb-3 text-muted">Dall'inizio del programma ad oggi</div>
+<div id="__nuxt">
+  <!---->
+  <div id="__layout">
+    <div class="text-muted">
+      <section class="my-5 pt-5" data-v-06cbaaab>
+        <div class="container" data-v-06cbaaab>
+          <section data-v-87a33ce4 data-v-06cbaaab>
+            <div class="row no-gutters" data-v-87a33ce4>
+              <div class="col" data-v-87a33ce4>
+                <h2 class="primary-color mb-2 mb-md-4" data-v-87a33ce4>I numeri del Cashback</h2>
+                <div class="mb-3" data-v-87a33ce4>Dall'inizio del programma ad oggi</div>
+              </div>
+              <div data-v-87a33ce4><img src="https://static-web.io.italia.it/assets/img/cashback/logo-cashback-hp.svg"
+                  alt="Logo Cashback" class="heading-logo img-fluid" data-v-87a33ce4></div>
             </div>
-            <div>
-                <img src="{{site.imagesurl}}/assets/img/cashback/logo-cashback-hp.svg" class="heading-logo img-fluid" alt="Logo Cashback">
+            <div class="row" data-v-87a33ce4>
+              <div class="col-lg-4" data-v-87a33ce4>
+                <div class="card-wrapper card-space" data-v-87a33ce4>
+                  <div class="card card-bg no-after bg-primary text-white">
+                    <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-people.svg"
+                        alt="Nuovi Bonus Cashback attivati" class="mt-3 mt-md-0" data-v-87a33ce4>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-87a33ce4><span data-v-87a33ce4>#</span></h2>
+                      <div data-v-87a33ce4>Cittadini aderenti al cashback</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" data-v-87a33ce4>
+                <div class="card-wrapper card-space" data-v-87a33ce4>
+                  <div class="card card-bg no-after">
+                    <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-transaction.svg"
+                        alt="Bonus cashback attivati" class="mt-3 mt-md-0" data-v-87a33ce4>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-87a33ce4><span data-v-87a33ce4>#</span></h2>
+                      <div data-v-87a33ce4>Totale transazioni elaborate</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" data-v-87a33ce4>
+                <div class="card-wrapper card-space" data-v-87a33ce4>
+                  <div class="card card-bg no-after">
+                    <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-cards.svg"
+                        alt="Bonus Vacanze generati" class="mt-3 mt-md-0" data-v-87a33ce4>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-87a33ce4><span data-v-87a33ce4>#</span></h2>
+                      <div data-v-87a33ce4>Strumenti di pagamento attivati</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </section>
         </div>
-
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="dashboardcard bg-primary text-white shadow d-flex flex-column justify-content-end align-items-start">
-                    <img src="{{site.imagesurl}}/assets/img/icon-people.svg" class="mt-3 mt-md-0" alt="Nuovi Bonus Cashback attivati">
-                    <h5 class="dashboardcard__number my-2" id="cashbackActiveTotal"></h5>
-                    <div class="dashboardcard__desc">Cittadini aderenti al cashback</div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-end align-items-start">
-                    <img src="{{site.imagesurl}}/assets/img/icon-transaction.svg" class="mt-3 mt-md-0" alt="Bonus cashback attivati">
-                    <h5 class="dashboardcard__number my-2" id="trxTotal"></h5>
-                    <div class="dashboardcard__desc">Totale transazioni elaborate</div>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-end align-items-start">
-                    <img src="{{site.imagesurl}}/assets/img/icon-cards.svg" class="mt-3 mt-md-0" alt="Bonus Vacanze generati">
-                    <h5 class="dashboardcard__number my-2" id="carteOnboardTotal"></h5>
-                    <div class="dashboardcard__desc">Strumenti di pagamento attivati</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container container--mid mt-5 pt-4">
-        <h3 class="text-primary mb-0">I dati dei diversi periodi</h3>
-    </div>
-    <div class="dashboard__title affix-top bg-white pt-3">
-        <div class="container container--mid">
-            <ul class="nav nav-tabs" id="cashbackPeriodTabs">
-                <li class="nav-item"><a class="nav-link" id="cashbackPeriod1" data-toggle="tab" role="tab" aria-controls="tab1" aria-selected="true" href="javascript:void(0)">Extra Cashback di Natale</a></li>
-                <li class="nav-item"><a class="nav-link" id="cashbackPeriod2" data-toggle="tab" role="tab" aria-controls="tab2" aria-selected="false" href="javascript:void(0)">1° Semestre 2021</a></li>
+        <div class="affix-top pt-3 bg-white" data-v-06cbaaab>
+          <nav class="container" data-v-35a3d89f data-v-06cbaaab>
+            <ul class="nav nav-tabs mb-3" data-v-35a3d89f>
+              <li class="nav-item" data-v-35a3d89f><a role="tab" href="javascript:void(0)" class="nav-link"
+                  data-v-35a3d89f>Extra Cashback di Natale</a></li>
+              <li class="nav-item" data-v-35a3d89f><a role="tab" href="javascript:void(0)" class="nav-link active"
+                  data-v-35a3d89f>1° Semestre 2021</a></li>
             </ul>
+          </nav>
         </div>
-    </div>
-    <div class="container container--mid">
-        <div class="row my-2">
-            <div class="col-md-6 py-1">
-                <div class="dashboardcard dashboardcard shadow d-flex flex-column justify-content-end align-items-start">
-                    <img src="{{site.imagesurl}}/assets/img/icon-transaction.svg" class="mt-3 mt-md-0" alt="Bonus cashback attivati">
-                    <h5 id="tot_trx_per_day" class="dashboardcard__number my-2"></h5>
-                    <div class="dashboardcard__desc">
-                        Numero di transazioni elaborate
+        <div class="container" data-v-06cbaaab>
+          <div class="row" data-v-06cbaaab>
+            <div class="col-lg-6" data-v-06cbaaab>
+              <div class="card-wrapper card-space" data-v-06cbaaab>
+                <div class="card card-bg no-after">
+                  <div class="card-body">
+                    <div class="d-flex h-100 flex-column justify-content-end align-items-start" data-v-06cbaaab><img
+                        src="https://static-web.io.italia.it/assets/img/icon-transaction.svg"
+                        alt="Bonus Vacanze generati" class="mt-md-0" data-v-06cbaaab>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-06cbaaab><span data-v-06cbaaab>#</span></h2>
+                      <div data-v-06cbaaab>Numero di transazioni elaborate</div>
                     </div>
-                </div><!--/dashboardcard-->
-            </div>
-
-            <div class="col-md-6 py-1">
-                <div class="dashboardcard bg-primary text-white shadow">
-                    <div class="row align-items-end">
-                        <div class="col-7">
-                            <img src="{{site.imagesurl}}/assets/img/icon-bonusutilizzati.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus cashback attivati">
-                            <h5 id="trx_1" class="dashboardcard__number my-2"></h5>
-                            <div class="dashboardcard__desc">
-                                Utenti con transazioni valide
-                                <span tabindex="0" data-toggle="tooltip" title="Totale dei partecipanti che ha effettuato almeno una transazione durante il periodo" data-placement="right">
-                                    <svg class="icon icon-white align-center ml-2">
-                                        <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
-                                    </svg>
-                                </span>
-                            </div>
-                        </div>
-                        <div class="col-5">
-                            <canvas class="w-100" id="userTrxThreshold" height="150"></canvas>
-                        </div>
-                    </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-
-        <div class="dashboardcard shadow my-4">
-            <h4>Utenti aderenti e strumenti registrati</h4>
-            <p>Andamento giornaliero degli utenti che hanno aderito al cashback e degli strumenti registrati</p>
-            <canvas id="aderentiLine"></canvas>
-        </div>
-
-        <div class="row my-1">
-            <div class="col-12 my-3">
-                <div class="dashboardcard shadow ">
-                    <h4>
-                        Transazioni al giorno
-                        <span tabindex="0" data-toggle="tooltip" title="La rendicontazione dei flussi può richiedere alcuni giorni lavorativi" data-placement="right">
-                            <svg class="icon align-center ml-2" fill="#5c6f82">
-                                <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle"></use>
-                            </svg>
-                        </span>
-                    </h4>
-                    <p>Andamento delle transazioni gestite per il cashback</p>
-                    <div class="">
-                        <canvas class=" " id="trxLine"></canvas>
+            <div class="col-lg-6" data-v-06cbaaab>
+              <div class="card-wrapper card-space" data-v-06cbaaab>
+                <div class="card card-bg no-after bg-primary text-white">
+                  <div class="card-body">
+                    <div class="row h-100 align-items-end" data-v-06cbaaab>
+                      <div class="col-7" data-v-06cbaaab><img
+                          src="https://static-web.io.italia.it/assets/img/icon-bonusutilizzati.svg" width="55"
+                          alt="Bonus cashback attivati" class="img-fluid my-3 my-md-0" data-v-06cbaaab>
+                        <h2 class="mt-2 mb-0 font-weight-semibold" data-v-06cbaaab><span data-v-06cbaaab>#</span></h2>
+                        <div data-v-06cbaaab>
+                          Utenti con transazioni valide
+                          <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                            data-original-title="Totale dei partecipanti che ha effettuato almeno una transazione durante il periodo"
+                            data-v-06cbaaab><svg class="icon icon-xs icon-white" data-v-06cbaaab>
+                              <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle"
+                                data-v-06cbaaab></use>
+                            </svg></span>
+                        </div>
+                      </div>
+                      <div class="col-5 h-100" data-v-06cbaaab>
+                        <div id="user-trx-threshold" class="w-100 h-100" data-v-06cbaaab></div>
+                      </div>
                     </div>
-                </div><!--/dashboardcard-->
-            </div><!--/col-12-->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>Utenti aderenti e strumenti registrati</h4>
+                <p data-v-06cbaaab>
+                  Andamento giornaliero degli utenti che hanno aderito al cashback e
+                  degli strumenti registrati
+                </p>
+                <div id="onboard" class="w-100" data-v-43a3acdc data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>
+                  Transazioni al giorno
+                  <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                    data-original-title="La rendicontazione dei flussi può richiedere alcuni giorni lavorativi"
+                    data-v-06cbaaab><svg class="icon icon-xs icon-muted" data-v-06cbaaab>
+                      <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle" data-v-06cbaaab></use>
+                    </svg></span>
+                </h4>
+                <p data-v-06cbaaab>Andamento delle transazioni gestite per il cashback</p>
+                <div id="trx-series" class="w-100" data-v-6d041b80 data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>Transazioni per importo</h4>
+                <p data-v-06cbaaab>Distribuzione delle transazioni per importo delle stesse</p>
+                <div id="trx-amount" class="w-100" data-v-376f2ac8 data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>Utenti per numero di transazioni</h4>
+                <p data-v-06cbaaab>Distribuzione degli utenti per numero di transazioni</p>
+                <div id="user-trx" class="w-100" data-v-080368a7 data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="dashboardcard shadow my-4">
-            <h4>Transazioni per importo</h4>
-            <p>Distribuzione delle transazioni per importo delle stesse</p>
-            <canvas id="trxAmountChart"></canvas>
-        </div>
-
-        <div class="dashboardcard shadow my-4">
-            <h4>Utenti per numero di transazioni</h4>
-            <p>Distribuzione degli utenti per numero di transazioni</p>
-            <canvas id="userTrxChart"></canvas>
-        </div>
-
-        <div class="py-4"></div>
-    </div><!--/container-->
-</div><!--dashboard__cashback-->
+      </section>
+    </div>
+  </div>
+</div>
+<script defer src="/assets/js/dashboard/app/static/timestamp/cashback/dashboard/state.js"></script>

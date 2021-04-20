@@ -1,130 +1,334 @@
-<div class="dashboard-mainwrapper">
-    <div class="container container--mid pt-5 pt-md-0 pb-5 pb-md-0">
-        <div class="">
-        <div class="row my-2">
-            <div class="col-md-6 py-1">
-                <div class="dashboardcard shadow d-flex flex-column justify-content-center" >
-                        <img src="{{site.imagesurl}}/assets/img/icon-dashboard-downloads.svg" width="55" alt="Downloads"> 
-                        <h5 id="downloads" class="dashboardcard__number my-2" ></h5>
-                        <div class="dashboardcard__desc" >Download
-                            <span tabindex="0" data-toggle="tooltip" title="Quante persone hanno scaricato l'app IO"
-                             class="" data-placement="right" >
-                                <svg class="icon align-center ml-2">
-                                  <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                  </use>
-                                </svg>
-                             </span>
-                        </div>
+<div id="__nuxt">
+  <!---->
+  <div id="__layout">
+    <div class="text-muted">
+      <section class="mb-5" data-v-217f331d>
+        <div class="bg-primary py-5" data-v-217f331d>
+          <div class="container py-5">
+            <div class="d-none d-md-block text-right text-white small">
+              Ultimo aggiornamento: <span>20/04/2021</span></div>
+          </div>
+          <header class="container mb-5 pb-5 mt-0 mt-md-3">
+            <div class="row mb-5 pb-5">
+              <div class="col-lg-7 order-2 order-md-1">
+                <h1 class="mb-4 text-white">I numeri dell'app IO</h1>
+                <p class="mb-0 text-white">
+                  In questa pagina trovi le statistiche relative all'utilizzo dell'app
+                  IO, aggiornate quotidianamente.
+                </p>
+              </div>
+            </div>
+          </header>
+        </div>
+        <div class="container top-overlay" data-v-217f331d>
+          <div class="row" data-v-217f331d>
+            <div class="col-lg-6" data-v-217f331d>
+              <div class="card-wrapper card-space" data-v-217f331d>
+                <div class="card card-bg no-after">
+                  <div class="card-body"><img
+                      src="https://static-web.io.italia.it/assets/img/icon-dashboard-downloads.svg" alt="Downloads"
+                      data-v-217f331d>
+                    <h2 class="mt-2 mb-0 font-weight-semibold" data-v-217f331d><span data-v-217f331d>#</span></h2>
+                    <div data-v-217f331d>
+                      Download
+                      <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                        data-original-title="Quante persone hanno scaricato l'app IO" data-v-217f331d><svg
+                          class="icon icon-xs icon-muted" data-v-217f331d>
+                          <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle" data-v-217f331d>
+                          </use>
+                        </svg></span>
+                    </div>
+                  </div>
                 </div>
-                
+              </div>
             </div>
-            <div class="col-md-6 py-1">
-                <div class="dashboardcard shadow d-flex flex-column justify-content-center">
-                    <div class="row">
-                        <div class="col-6">
-                            <h4>Download</h4>
-                            <p>Proporzione dispositivi Android/iOS</p>
-                        </div>
-                        <div class="col-6">
-                        <canvas class=" " id="top10EdcPie" height="200"></canvas>
-                        </div>
+            <div class="col-lg-6" data-v-217f331d>
+              <div class="card-wrapper card-space" data-v-217f331d>
+                <div class="card card-bg no-after">
+                  <div class="card-body">
+                    <div class="row h-100" data-v-217f331d>
+                      <div class="col-6" data-v-217f331d>
+                        <h4 data-v-217f331d>Download</h4>
+                        <div data-v-217f331d>Proporzione dispositivi Android/iOS</div>
+                      </div>
+                      <div class="col-6" data-v-217f331d>
+                        <div id="download-os" class="w-100 h-100" data-v-217f331d></div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="row my-1">
-            <div class="col-12 my-3">
-                <div class="dashboardcard shadow ">
-                    <h4>Download</h4>
-                    <p>Andamento dei download negli ultimi mesi</p>
-                    <div class="">
-                        <canvas class=" " id="totalPred"></canvas>
-                    </div>
-                </div><!--/dashboardcard-->
-            </div><!--/col-12-->
-            <div class="col-12 my-3">
-                <div class="dashboardcard shadow ">
-                    <h4>Login SPID/CIE</h4>
-                    <p>Utenti autenticati tramite SPID o CIE</p>
-                    <div class="">
-                        <canvas  id="cieidps"></canvas>
-                    </div>
-                </div><!--/dashboardcard-->
-            </div><!--/col-12-->
-            <div class="col-12 my-3">
-                <div class="dashboardcard shadow ">
-                    <h4>Login per Identity Provider</h4>
-                    <p>Utenti autenticati con SPID: dettaglio degli Identity Provider</p>
-                    <div class="">
-                        <canvas  id="idps"></canvas>
-                    </div>
-                </div><!--/dashboardcard-->
-            </div><!--/col-12-->
-
-        </div>
-        </div><!--/row-->
-        <a name="bonusvacanze"/>
-    </div><!--/container-->
-
-    <div class="dashboard__bonus mt-2 mt-md-5 pt-2 pt-md-5">
-    <div class="container container--mid">
-        <div class="row mb-2 mb-md-4">
-            <h2 class="text-primary ">I numeri del Bonus Vacanze</h2>
-        </div>
-        <div class="row my-2">
-            <div class="col-lg-4 py-1">
-                <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center" >
-                        <img src="{{site.imagesurl}}/assets/img/bonus-vacanze/logo-bonus-vacanze.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
-                        <h5 id="bonusTotal" class="dashboardcard__number my-2" ></h5>
-                        <div class="dashboardcard__desc" >Bonus Vacanze generati
-                            <span tabindex="0" data-toggle="tooltip" title="Numero di codici sconto generati attraverso l'app IO"
-                             class=""  data-placement="right">
-                                <svg class="icon icon-white align-center ml-2">
-                                  <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                  </use>
-                                </svg>
-                             </span>
-                        </div>
-                </div><!--/dashboardcard-->
+          </div>
+          <div class="card-wrapper card-space" data-v-217f331d>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-217f331d>Download</h4>
+                <p data-v-217f331d>Andamento dei download negli ultimi mesi</p>
+                <div id="download" class="w-100" data-v-4d782f64 data-v-217f331d></div>
+              </div>
             </div>
-            <div class="col-lg-4 py-1">
-                <div class="dashboardcard shadow d-flex flex-column justify-content-center" >
-                        <img src="{{site.imagesurl}}/assets/img/icon-money--gray.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze generati">
-                        <h5 id="bonusAmount" class="dashboardcard__number my-2" ></h5>
-                        <div class="dashboardcard__desc" >Controvalore economico
-                            <span tabindex="0" data-toggle="tooltip" title="Importo massimo spendibile"
-                             class=""  data-placement="right">
-                                <svg class="icon align-center ml-2">
-                                  <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                  </use>
-                                </svg>
-                             </span>
+          </div>
+          <div class="row" data-v-217f331d>
+            <div class="col-lg-6" data-v-217f331d>
+              <div class="card-wrapper card-space" data-v-217f331d>
+                <div class="card card-bg no-after">
+                  <div class="card-body">
+                    <div class="card-body position-absolute w-100" data-v-217f331d>
+                      <div class="row no-gutters" data-v-217f331d>
+                        <div class="col" data-v-217f331d>
+                          <h4 class="text-truncate" data-v-217f331d>SPID e CIE</h4>
+                          <p class="pr-3 small font-weight-light" data-v-217f331d>
+                            Login all'app IO con i diversi sistemi di autenticazione
+                          </p>
                         </div>
-                </div><!--/dashboardcard-->
+                        <div class="col chart-placeholder" data-v-217f331d></div>
+                      </div>
+                    </div>
+                    <div id="login" class="w-100 text-right" data-v-217f331d></div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="col-lg-4 py-1">
-                <div class="dashboardcard dashboardcard--dark shadow d-flex flex-column justify-content-center" >
-                        <img src="{{site.imagesurl}}/assets/img/icon-bonusutilizzati.svg" class="img-fluid my-3 my-md-0" width="55" alt="Bonus Vacanze utilizzati">
-                        <h5 id="numbonusredeem" class="dashboardcard__number my-2" ></h5>
-                        <div class="dashboardcard__desc" >Bonus Vacanze utilizzati
-                            <span tabindex="0" data-toggle="tooltip" title="Numero di Bonus Vacanze già spesi presso le strutture ricettive"
-                             class=""  data-placement="right">
-                                <svg class="icon icon-white align-center ml-2">
-                                  <use xlink:href="{{ site.baseurl }}/assets/svg/sprite.svg#it-info-circle">
-                                  </use>
-                                </svg>
-                             </span>
+            <div class="col-lg-6" data-v-217f331d>
+              <div class="card-wrapper card-space" data-v-217f331d>
+                <div class="card card-bg no-after">
+                  <div class="card-body">
+                    <div class="card-body position-absolute w-100" data-v-217f331d>
+                      <div class="row no-gutters" data-v-217f331d>
+                        <div class="col" data-v-217f331d>
+                          <h4 class="text-truncate" data-v-217f331d>Identity Provider</h4>
+                          <p class="pr-3 small font-weight-light" data-v-217f331d>
+                            Percentuale di utilizzo dei diversi Identity Provider SPID
+                          </p>
                         </div>
-                </div><!--/dashboardcard-->
-
-            </div>  
+                        <div class="col chart-placeholder" data-v-217f331d></div>
+                      </div>
+                    </div>
+                    <div id="idps" class="w-100 text-right" data-v-217f331d></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="py-4"></div>
-    </div><!--/container-->
-    <a name="cashback"/>
-    </div><!--dashboard__bonus-->
-
-    {% include dashboards/cashback.html %}
-
-</div><!--/dashboard-mainwrapper"-->
+      </section>
+      <section class="lightgrey-bg-a3 py-5" data-v-2552a2bc>
+        <div class="container" data-v-2552a2bc>
+          <h2 class="primary-color mb-2 mb-md-4" data-v-2552a2bc>I numeri del Bonus Vacanze</h2>
+          <div class="row" data-v-2552a2bc>
+            <div class="col-lg-4" data-v-2552a2bc>
+              <div class="card-wrapper card-space" data-v-2552a2bc>
+                <div class="card card-bg no-after bg-primary text-white">
+                  <div class="card-body"><img
+                      src="https://static-web.io.italia.it/assets/img/bonus-vacanze/logo-bonus-vacanze.svg"
+                      alt="Bonus Vacanze generati" class="img-fluid my-3 my-md-0" data-v-2552a2bc>
+                    <h2 class="mt-2 mb-0 font-weight-semibold" data-v-2552a2bc><span data-v-2552a2bc>#</span></h2>
+                    <div data-v-2552a2bc>
+                      Bonus Vacanze generati
+                      <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                        data-original-title="Numero di codici sconto generati attraverso l'app IO" data-v-2552a2bc><svg
+                          class="icon icon-xs icon-white" data-v-2552a2bc>
+                          <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle" data-v-2552a2bc>
+                          </use>
+                        </svg></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-v-2552a2bc>
+              <div class="card-wrapper card-space" data-v-2552a2bc>
+                <div class="card card-bg no-after">
+                  <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-money--gray.svg"
+                      alt="Bonus Vacanze generati" class="img-fluid my-3 my-md-0" data-v-2552a2bc>
+                    <h2 class="mt-2 mb-0 font-weight-semibold" data-v-2552a2bc><span data-v-2552a2bc>#</span></h2>
+                    <div data-v-2552a2bc>
+                      Controvalore economico
+                      <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                        data-original-title="Importo massimo spendibile" data-v-2552a2bc><svg
+                          class="icon icon-xs icon-muted" data-v-2552a2bc>
+                          <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle" data-v-2552a2bc>
+                          </use>
+                        </svg></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4" data-v-2552a2bc>
+              <div class="card-wrapper card-space" data-v-2552a2bc>
+                <div class="card card-bg no-after bg-primary text-white">
+                  <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-bonusutilizzati.svg"
+                      alt="Bonus Vacanze utilizzati" class="img-fluid my-3 my-md-0" data-v-2552a2bc>
+                    <h2 class="mt-2 mb-0 font-weight-semibold" data-v-2552a2bc><span data-v-2552a2bc>#</span></h2>
+                    <div data-v-2552a2bc>
+                      Bonus Vacanze utilizzati
+                      <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                        data-original-title="Numero di Bonus Vacanze già spesi presso le strutture ricettive"
+                        data-v-2552a2bc><svg class="icon icon-xs icon-white" data-v-2552a2bc>
+                          <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle" data-v-2552a2bc>
+                          </use>
+                        </svg></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 pt-5" data-v-06cbaaab>
+        <div class="container" data-v-06cbaaab>
+          <section data-v-87a33ce4 data-v-06cbaaab>
+            <div class="row no-gutters" data-v-87a33ce4>
+              <div class="col" data-v-87a33ce4>
+                <h2 class="primary-color mb-2 mb-md-4" data-v-87a33ce4>I numeri del Cashback</h2>
+                <div class="mb-3" data-v-87a33ce4>Dall'inizio del programma ad oggi</div>
+              </div>
+              <div data-v-87a33ce4><img src="https://static-web.io.italia.it/assets/img/cashback/logo-cashback-hp.svg"
+                  alt="Logo Cashback" class="heading-logo img-fluid" data-v-87a33ce4></div>
+            </div>
+            <div class="row" data-v-87a33ce4>
+              <div class="col-lg-4" data-v-87a33ce4>
+                <div class="card-wrapper card-space" data-v-87a33ce4>
+                  <div class="card card-bg no-after bg-primary text-white">
+                    <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-people.svg"
+                        alt="Nuovi Bonus Cashback attivati" class="mt-3 mt-md-0" data-v-87a33ce4>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-87a33ce4><span data-v-87a33ce4>#</span></h2>
+                      <div data-v-87a33ce4>Cittadini aderenti al cashback</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" data-v-87a33ce4>
+                <div class="card-wrapper card-space" data-v-87a33ce4>
+                  <div class="card card-bg no-after">
+                    <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-transaction.svg"
+                        alt="Bonus cashback attivati" class="mt-3 mt-md-0" data-v-87a33ce4>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-87a33ce4><span data-v-87a33ce4>#</span></h2>
+                      <div data-v-87a33ce4>Totale transazioni elaborate</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" data-v-87a33ce4>
+                <div class="card-wrapper card-space" data-v-87a33ce4>
+                  <div class="card card-bg no-after">
+                    <div class="card-body"><img src="https://static-web.io.italia.it/assets/img/icon-cards.svg"
+                        alt="Bonus Vacanze generati" class="mt-3 mt-md-0" data-v-87a33ce4>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-87a33ce4><span data-v-87a33ce4>#</span></h2>
+                      <div data-v-87a33ce4>Strumenti di pagamento attivati</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="affix-top pt-3 bg-white" data-v-06cbaaab>
+          <nav class="container" data-v-35a3d89f data-v-06cbaaab>
+            <ul class="nav nav-tabs mb-3" data-v-35a3d89f>
+              <li class="nav-item" data-v-35a3d89f><a role="tab" href="javascript:void(0)" class="nav-link"
+                  data-v-35a3d89f>Extra Cashback di Natale</a></li>
+              <li class="nav-item" data-v-35a3d89f><a role="tab" href="javascript:void(0)" class="nav-link active"
+                  data-v-35a3d89f>1° Semestre 2021</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="container" data-v-06cbaaab>
+          <div class="row" data-v-06cbaaab>
+            <div class="col-lg-6" data-v-06cbaaab>
+              <div class="card-wrapper card-space" data-v-06cbaaab>
+                <div class="card card-bg no-after">
+                  <div class="card-body">
+                    <div class="d-flex h-100 flex-column justify-content-end align-items-start" data-v-06cbaaab><img
+                        src="https://static-web.io.italia.it/assets/img/icon-transaction.svg"
+                        alt="Bonus Vacanze generati" class="mt-md-0" data-v-06cbaaab>
+                      <h2 class="mt-2 mb-0 font-weight-semibold" data-v-06cbaaab><span data-v-06cbaaab>#</span></h2>
+                      <div data-v-06cbaaab>Numero di transazioni elaborate</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6" data-v-06cbaaab>
+              <div class="card-wrapper card-space" data-v-06cbaaab>
+                <div class="card card-bg no-after bg-primary text-white">
+                  <div class="card-body">
+                    <div class="row h-100 align-items-end" data-v-06cbaaab>
+                      <div class="col-7" data-v-06cbaaab><img
+                          src="https://static-web.io.italia.it/assets/img/icon-bonusutilizzati.svg" width="55"
+                          alt="Bonus cashback attivati" class="img-fluid my-3 my-md-0" data-v-06cbaaab>
+                        <h2 class="mt-2 mb-0 font-weight-semibold" data-v-06cbaaab><span data-v-06cbaaab>#</span></h2>
+                        <div data-v-06cbaaab>
+                          Utenti con transazioni valide
+                          <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                            data-original-title="Totale dei partecipanti che ha effettuato almeno una transazione durante il periodo"
+                            data-v-06cbaaab><svg class="icon icon-xs icon-white" data-v-06cbaaab>
+                              <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle"
+                                data-v-06cbaaab></use>
+                            </svg></span>
+                        </div>
+                      </div>
+                      <div class="col-5 h-100" data-v-06cbaaab>
+                        <div id="user-trx-threshold" class="w-100 h-100" data-v-06cbaaab></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>Utenti aderenti e strumenti registrati</h4>
+                <p data-v-06cbaaab>
+                  Andamento giornaliero degli utenti che hanno aderito al cashback e
+                  degli strumenti registrati
+                </p>
+                <div id="onboard" class="w-100" data-v-43a3acdc data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>
+                  Transazioni al giorno
+                  <span tabindex="0" data-toggle="tooltip" data-placement="right"
+                    data-original-title="La rendicontazione dei flussi può richiedere alcuni giorni lavorativi"
+                    data-v-06cbaaab><svg class="icon icon-xs icon-muted" data-v-06cbaaab>
+                      <use href="/assets/js/dashboard/app/img/sprite.55c17b0.svg#it-info-circle" data-v-06cbaaab></use>
+                    </svg></span>
+                </h4>
+                <p data-v-06cbaaab>Andamento delle transazioni gestite per il cashback</p>
+                <div id="trx-series" class="w-100" data-v-6d041b80 data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>Transazioni per importo</h4>
+                <p data-v-06cbaaab>Distribuzione delle transazioni per importo delle stesse</p>
+                <div id="trx-amount" class="w-100" data-v-376f2ac8 data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
+          <div class="card-wrapper card-space" data-v-06cbaaab>
+            <div class="card card-bg no-after">
+              <div class="card-body">
+                <h4 data-v-06cbaaab>Utenti per numero di transazioni</h4>
+                <p data-v-06cbaaab>Distribuzione degli utenti per numero di transazioni</p>
+                <div id="user-trx" class="w-100" data-v-080368a7 data-v-06cbaaab></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+<script defer src="/assets/js/dashboard/app/static/timestamp/dashboard/state.js"></script>
