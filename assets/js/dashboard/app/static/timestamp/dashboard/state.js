@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fassets\u002Fjs\u002Fdashboard\u002Fapp\u002Fstatic\u002Ftimestamp",layout:"default",error:a,serverRendered:true,routePath:"\u002Fdashboard",config:{_app:{basePath:"\u002F",assetsPath:"\u002Fassets\u002Fjs\u002Fdashboard\u002Fapp\u002F",cdnURL:a}}}}(null));

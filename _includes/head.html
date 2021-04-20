@@ -35,7 +35,11 @@
   {% if site.google_verify %}
   <meta name="google-site-verification" content="{{ site.google_verify }}">
   {% endif %}
-  
+
+  {% if page.ref contains 'dashboard' or page.ref == 'index' or page.ref=='bonus-vacanze' %}
+    <link rel="stylesheet" href="{{ site.baseUrl }}/assets/js/dashboard/app/app.css">
+  {% endif %}
+
   {%- if jekyll.environment == 'production' -%}
     {%- include analytics/google-analytics.html -%}
   {%- endif -%}
