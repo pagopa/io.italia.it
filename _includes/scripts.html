@@ -67,7 +67,11 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/pub-amm.js' }}"></script>
 {% endif %}
 
-{% if page.ref contains 'dashboard' or page.ref == 'index' or page.ref=='bonus-vacanze' %}
+{% if page.ref == 'index' or page.ref=='bonus-vacanze' %}
+  <script src="{{ site.baseUrl }}/assets/js/dashboard.js"></script>
+{% endif %}
+
+{% if page.ref contains 'dashboard' %}
   <script src="{{ site.baseUrl }}/assets/js/dashboard/app/app.js" defer></script>
   <script src="{{ site.baseUrl }}/assets/js/dashboard/app/vendor.js" defer></script>
 {% endif %}
