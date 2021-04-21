@@ -1,5 +1,5 @@
 it:
-  last_update: 19/04/2021
+  last_update: 20/04/2021
   items:
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
@@ -46,6 +46,9 @@ it:
     - name: Poste Italiane
       img: /assets/img/cashback/acquirer/poste.png
       startdate: 08/12/2020
+    - name: Raiffeisen
+      img: /assets/img/cashback/acquirer/raiffeisen.png
+      startdate: 20/04/2021
     - name: Satispay
       img: /assets/img/cashback/acquirer/satispay.png
       startdate: 08/12/2020
@@ -61,3 +64,6 @@ it:
     - name: Unicredit
       img: /assets/img/cashback/acquirer/unicredit.png
       startdate: 08/12/2020
+    - name: Viva Wallet
+      img: /assets/img/cashback/acquirer/vivawallet.png
+      startdate: 20/04/2021
