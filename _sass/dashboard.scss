@@ -6,9 +6,11 @@
     top: 3.5rem;
     z-index: 1;
   }
-  #__nuxt {
-    .container {
-      max-width: 960px !important;
+  @media (min-width: 992px) {
+    #__nuxt {
+      .container {
+        max-width: 960px !important;
+      }
     }
   }
 }
