@@ -28,6 +28,13 @@ items:
     garanzie: "N/A"
     doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#3)"
   - 
+    fornitore: "LimeSurvey GmbH"
+    attivita: "Servizio per form, moduli e questionari online"
+    dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
+    luogo: "Germania\n\n"
+    garanzie: "N/A"
+    doc: "[link](https://io.italia.it/assets/download/it/LimeSurvey-DPA.pdf)"
+  - 
     fornitore: "Microsoft Ireland Operations Limited"
     attivita: "Servizi di backup e cloud computing"
     dati: "Tutti i dati degli utenti inclusi nel database dell’App IO"
