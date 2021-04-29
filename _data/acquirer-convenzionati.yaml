@@ -3,7 +3,7 @@ it:
   items:
     - name: Adyen
       img: /assets/img/cashback/acquirer/adyen.png
-      startdate: 29/04/2021
+      startdate: 30/04/2021
     - name: American Express
       img: /assets/img/cashback/acquirer/amex.png
       startdate: 08/12/2020
