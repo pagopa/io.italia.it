@@ -34,6 +34,8 @@ def renderEntiList(file, site)
     fcBlacklist = ['15376371009']
     new_content = {}
     new_content["items"] = {}
+    # Creation of an hash only to display in a json for the App Io webview
+    new_content_webview = {}
     # ARRAY to use as json source for search in page
     enti_searchable = []
     services_counter = 0
@@ -50,10 +52,20 @@ def renderEntiList(file, site)
         if enti_to_list and index > enti_to_list
             break
         end
+        # content creation for webview list
+        new_content_webview_item = {}
+        new_content_webview_item["o"] = item["o"]
+        new_content_webview_item["fc"] = item["fc"]
+        new_content_webview_item["s"] = []
+        scope = ""
+        # ---
         item_new_values = {}
         services_counter += item["s"].length()
         # for every service we use the markdownify filter
         item["s"].each_with_index do | service, index |
+            scope = service["sc"]
+            new_service_webview = Hash[service["i"], service["n"]]
+            new_content_webview_item["s"].push(new_service_webview)
             if service["d"]
                 item["s"][index]["d"] = converter.convert(service["d"])
             end
@@ -78,9 +90,19 @@ def renderEntiList(file, site)
         if new_content["items"].key?(item["o"])
             new_values = complete_hash["s"] | new_content["items"][item["o"]]["s"]
             complete_hash["s"] = new_values
+            # same name manage for webview's list
+            if new_content_webview[item["o"]]
+                new_content_webview_item["s"] = new_content_webview_item["s"] + new_content_webview[item["o"]]["s"]
+            end
         end
         # creation of a new item in the new_content hash with the org name as key
         new_content["items"][item["o"]] = complete_hash
+
+        # add the org to the webview's list ONLY IF LOCAL
+        if scope=="LOCAL"
+            new_content_webview[item["o"]] = new_content_webview_item
+        end
+
         # creation of a json for every Ente
         filename = "./assets/entijson/#{item['fc'].to_s}.json"
         File.write(filename, JSON.dump(complete_hash))
@@ -90,6 +112,8 @@ def renderEntiList(file, site)
     new_content["entinum"] = new_content["items"].length()
     # conversion of hash in array
     new_content["items"] = new_content["items"].values
+
+    File.write('./assets/json/enti-list-webview.json', JSON.dump(new_content_webview.values))
     File.write('./assets/json/enti-list-searchable.json', JSON.dump(enti_searchable))
     File.write('./_data/enti-servizi.json', JSON.dump(new_content))
 end

@@ -1,5 +1,5 @@
 var IMGREPO = "https://assets.cdn.io.italia.it/logos/organizations/";
-var ENTISERVIZIJSON = "https://assets.cdn.io.italia.it/services-webview/visible-services-compact.json";
+var ENTISERVIZIJSON = "/assets/json/enti-list-webview.json";
 
 function lazyload() {
         var lazyloadElements;
