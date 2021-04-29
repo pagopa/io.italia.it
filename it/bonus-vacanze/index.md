@@ -10,7 +10,7 @@ lang: it
 ref: bonus-vacanze
 permalink: /bonus-vacanze/
 bannersup:
-  label: "Richiedi il Bonus Vacanze su IO a partire <strong>dal 1°luglio al 31 dicembre 2020</strong>, e spendilo entro il 30 giugno 2021."
+  label: "Richiedi il Bonus Vacanze su IO a partire <strong>dal 1°luglio al 31 dicembre 2020</strong>, e spendilo entro il 31 dicembre 2021."
 introduction_slides:
   - /assets/img/bonus-vacanze/3.jpg
   - /assets/img/bonus-vacanze/1.jpg

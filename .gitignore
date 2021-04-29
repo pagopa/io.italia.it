@@ -5,3 +5,6 @@ _site
 .DS_Store
 _data/abi.json
 _data/cobadgeServices.json
+_data/enti-servizi.json
+assets/entijson/*.json
+assets/json/enti-list-searchable.json
