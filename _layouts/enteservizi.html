@@ -45,6 +45,9 @@
                 <div class="collapse-header" id="{{i}}">
                   <button class="collapsed {{#if @first}}border-top-0{{/if}}" data-toggle="collapse" data-target="#collapse{{i}}" aria-expanded="false" aria-controls="collapse{{i}}">
                     {{n}}
+                    {{#q}}
+                      <span class="badge badge-primary px-3 font-weight-light small ml-2 mt-1">In arrivo</span>
+                    {{/q}}
                   </button>
                 </div>
                 <div id="collapse{{i}}" class="collapse" role="tabpanel" aria-labelledby="{{i}}">

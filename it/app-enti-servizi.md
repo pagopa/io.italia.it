@@ -50,7 +50,10 @@ assets:
         {{#each s}}
           {{#each this}}
           <li >
-            <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{@key}}')">{{this}}
+            <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{@key}}')">{{serviceName this}}
+              {{#serviceQuality this}}
+              <span class="entiservizi__serv__quality">In arrivo</span>
+              {{/serviceQuality}}
             <img alt="Espandi" class="entiservizi__icon" width="11" height="16"
                 srcset="
                 {{site.imagesurl}}/assets/img/icon-right-2x.png 2x,

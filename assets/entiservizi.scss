@@ -169,6 +169,8 @@ a {
   &__icon {
     margin-right: 6px;
     margin-left: 10px;
+    margin-left: auto;
+    padding-left: 0.5rem;
   }
   &__content {
     display: none;
@@ -207,13 +209,21 @@ a {
     color: #17324d;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     text-decoration: none;
     &.expanded {
       .entiservizi__icon {
         transform: rotate(90deg);
       }
     }
+  }
+  &__serv__quality {
+    margin-left: 0.65rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.7rem;
+    background-color: #06c;
+    border-radius: 0.7rem;
+    color: #fff;
+    white-space: pre;
   }
 
   &__list {

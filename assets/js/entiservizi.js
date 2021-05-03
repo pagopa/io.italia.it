@@ -61,6 +61,12 @@ document.addEventListener("DOMContentLoaded", function() {
         var imgname = value.replace(/^0+/, "");
         return IMGREPO + imgname + ".png";
       });
+    Handlebars.registerHelper('serviceName', function(value){
+        return value.slice(0, -1);
+      });
+    Handlebars.registerHelper('serviceQuality', function(value, options){
+        return value.slice(-1)=="0" ? options.fn(this) : options.inverse(this);
+      });
 
     function constructSearchable(service, index) {
         var orgName = service.o.toUpperCase();
