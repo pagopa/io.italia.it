@@ -54,9 +54,7 @@ def renderEntiList(file, site)
         end
         # content creation for webview list
         new_content_webview_item = {}
-        new_content_webview_item["o"] = item["o"]
-        new_content_webview_item["fc"] = item["fc"]
-        new_content_webview_item["s"] = []
+        new_content_webview_item[ item["fc"] ] = item["o"]
         scope = ""
         # ---
         item_new_values = {}
@@ -64,9 +62,6 @@ def renderEntiList(file, site)
         # for every service we use the markdownify filter
         item["s"].each_with_index do | service, index |
             scope = service["sc"]
-            # append "quality value" to the name of service
-            new_service_webview = Hash[service["i"], service["n"] + service["q"].to_s]
-            new_content_webview_item["s"].push(new_service_webview)
             if service["d"]
                 item["s"][index]["d"] = converter.convert(service["d"])
             end

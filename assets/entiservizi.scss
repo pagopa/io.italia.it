@@ -151,6 +151,11 @@ a {
       display: flex;
     }
   }
+  &__item {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #e6e9f2;
+  }
   &__logo {
     width: 32px;
     height: 32px;
@@ -181,10 +186,12 @@ a {
   &__title {
     color: #17324d;
     font-size: 1.15rem;
-    margin: 0.75rem 0;
+    padding: 0.75rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 700;
+    text-decoration: none;
   }
   &__desc {
     p {
@@ -267,6 +274,11 @@ a {
   }
 }
 
+.filled {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 @keyframes spinnerAnim {
   0% {
     -webkit-transform: rotate(0);
@@ -275,5 +287,39 @@ a {
   100% {
     webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

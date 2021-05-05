@@ -15,7 +15,7 @@ assets:
 
 <form id="entiservizi__search" action="#">
   <div class="entiservizi__search__inner">
-    <input pattern="^[A-Za-zÀ-ú\s]+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente o un servizio" maxlength="30" minlength="3" required>
+    <input pattern="^[A-Za-zÀ-ú\s]+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente" maxlength="30" minlength="3" required>
     <button type="submit" id="entiservizi__submit"><img  src="/assets/img/icon-search.svg" alt="Cerca" ></button>
   </div>
   <div class="entiservizi__search__tip">inserisci almeno 3 caratteri e avvia la ricerca</div>
@@ -27,48 +27,6 @@ assets:
   <br>attendi qualche secondo</span>
 </div>
 
-<script id="entiservizi-template" type="text/x-handlebars-template">
-    <h2 class="entiservizi__title">{% raw %}{{o}}{% endraw %}<div class="entiservizi__logo">
-      {% raw %}
-      <img class=""
-           {{#if nolazy}}
-           style="display: inline;"
-           src="{{setImgSrc fc}}"
-           {{/if}}
-           {{#unless nolazy}}
-           src="/assets/img/blank-32.png"
-           data-src="{{fc}}.png"
-           {{/unless}}
-           onerror="this.style.display='none'"
-           alt="{{o}}">
-      {% endraw %}
-      </div>
-    </h2>
-    <div class="entiservizi__services">
-      <ul class="entiservizi__serv__list">
-        {% raw %}
-        {{#each s}}
-          {{#each this}}
-          <li >
-            <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{@key}}')">{{serviceName this}}
-              {{#serviceQuality this}}
-              <span class="entiservizi__serv__quality">In arrivo</span>
-              {{/serviceQuality}}
-            <img alt="Espandi" class="entiservizi__icon" width="11" height="16"
-                srcset="
-                {{site.imagesurl}}/assets/img/icon-right-2x.png 2x,
-                {{site.imagesurl}}/assets/img/icon-right.png 1x
-                "
-                src="{{site.imagesurl}}/assets/img/icon-right.png"
-                >
-            </div>
-          </li>
-          {{/each}}
-        {{/each}}
-        {% endraw %}
-      </ul>
-    </div>
-</script>
 <div class="entiservizi__searching">
   <div>
     <div class="progress-spinner progress-spinner-active centerbymargin"></div>
@@ -89,7 +47,53 @@ assets:
   <p>Nessun risultato trovato</p>
   </div>
 </div>
+<div class="entiservizi__list__search">
+</div>
 <div class="entiservizi__list">
+{% raw %}
+<script id="entiservizi-template" type="text/x-handlebars-template">
+{{#each this}}
+  <div class="entiservizi__item {{#lazy @index}}lazy{{/lazy}} ec{{getFc this}}">
+    <a class="entiservizi__title"  href="#" onClick="getServices('{{getFc this}}');return false;">{{getName this}}<div class="entiservizi__logo">
+      <img class=""
+           {{#lazy @index}}
+            src="/assets/img/blank-32.png"
+            data-src="{{getFc this}}.png"
+           {{/lazy}}
+           {{#nolazy @index}}
+           style="display: inline;"
+           src="{{setImgSrc this}}"
+           {{/nolazy}}
+           onerror="this.style.display='none'"
+           alt="{{getName this}}">
+      </div>
+    </a>
+    <div class="entiservizi__services services{{getFc this}}" >
+    </div>
+  </div>
+{{/each}}
+</script>
+<script id="listservices-template" type="text/x-handlebars-template">
+<ul class="entiservizi__serv__list">
+    {{#each s}}
+      <li >
+        <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{i}}')">{{n}}
+          {{#arriving q}}
+          <span class="entiservizi__serv__quality">In arrivo</span>
+          {{/arriving}}
+        <img alt="Espandi" class="entiservizi__icon" width="11" height="16"
+            srcset="
+            {{site.imagesurl}}/assets/img/icon-right-2x.png 2x,
+            {{site.imagesurl}}/assets/img/icon-right.png 1x
+            "
+            src="{{site.imagesurl}}/assets/img/icon-right.png"
+            >
+        </div>
+      </li>
+    {{/each}}
+</ul>
+</script>
+{% endraw %}
 </div>
 <div class="entiservizi__problem">
     <div>
