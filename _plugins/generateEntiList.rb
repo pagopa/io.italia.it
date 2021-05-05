@@ -86,10 +86,6 @@ def renderEntiList(file, site)
         if new_content["items"].key?(item["o"])
             new_values = complete_hash["s"] | new_content["items"][item["o"]]["s"]
             complete_hash["s"] = new_values
-            # same name manage for webview's list
-            if new_content_webview[item["o"]]
-                new_content_webview_item["s"] = new_content_webview_item["s"] + new_content_webview[item["o"]]["s"]
-            end
         end
         # creation of a new item in the new_content hash with the org name as key
         new_content["items"][item["o"]] = complete_hash
