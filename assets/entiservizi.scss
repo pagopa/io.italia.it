@@ -156,6 +156,18 @@ a {
     text-decoration: none;
     border-bottom: 1px solid #e6e9f2;
   }
+  &__spinner {
+    display: none;
+    .loading + & {
+      display: block;
+    }
+    .progress-spinner {
+      width: 24px !important;
+      height: 24px !important;
+      margin: 0 auto 0.75rem auto !important;
+      border-width: 2px !important;
+    }
+  }
   &__logo {
     width: 32px;
     height: 32px;

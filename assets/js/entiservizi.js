@@ -34,8 +34,7 @@ Handlebars.registerHelper('arriving', function(q, options){
 /* END HANDLEBARS HELPERS ---*/
 
 /* This function render the list of services inside the items'list div */
-function listServices(data, serviceid) {
-    var target = document.querySelector('.services' + serviceid);
+function listServices(data, target, serviceid) {
     if (!target.classList.contains("filled")) {
         var source = document.getElementById("listservices-template").innerHTML;
         var template = Handlebars.compile(source);
@@ -44,6 +43,7 @@ function listServices(data, serviceid) {
         el.innerHTML = html;
         target.classList.add("filled");
         target.appendChild(el);
+        target.classList.remove("loading");
     }
 }
 /* this function show errors when the retrieve of services fails */
@@ -55,19 +55,25 @@ function errorOnGetServices(serviceid) {
 function getServices(serviceid) {
     var request = new XMLHttpRequest();
     var url = SERVIZIPATHJSON + serviceid + ".json";
+    var target = document.querySelector('.services' + serviceid);
+    if (!target.classList.contains("filled")) {
+        target.classList.add("loading");
+    }
     request.open("GET", url, true);
 
     request.onload = function() {
         if (this.status >= 200 && this.status < 400) {
             var data = JSON.parse(this.response);
-            listServices(data, serviceid);
+            listServices(data, target, serviceid);
         } else {
             errorOnGetServices(serviceid);
+            target.classList.remove("loading");
         }
     };
 
     request.onerror = function() {
         errorOnGetServices(serviceid);
+        target.classList.remove("loading");
     };
 
     request.send();

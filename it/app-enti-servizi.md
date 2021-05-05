@@ -54,7 +54,8 @@ assets:
 <script id="entiservizi-template" type="text/x-handlebars-template">
 {{#each this}}
   <div class="entiservizi__item {{#lazy @index}}lazy{{/lazy}} ec{{getFc this}}">
-    <a class="entiservizi__title"  href="#" onClick="getServices('{{getFc this}}');return false;">{{getName this}}<div class="entiservizi__logo">
+    <a class="entiservizi__title"  href="#" onClick="getServices('{{getFc this}}');return false;">{{getName this}}
+      <div class="entiservizi__logo">
       <img class=""
            {{#lazy @index}}
             src="/assets/img/blank-32.png"
@@ -69,6 +70,12 @@ assets:
       </div>
     </a>
     <div class="entiservizi__services services{{getFc this}}" >
+    </div>
+    <div class="entiservizi__spinner">
+    <div class="progress-spinner progress-spinner-double  progress-spinner-active ">
+        <div class="progress-spinner-inner"></div>
+        <div class="progress-spinner-inner"></div>
+    </div>
     </div>
   </div>
 {{/each}}
