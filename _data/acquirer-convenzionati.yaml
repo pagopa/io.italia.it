@@ -1,5 +1,5 @@
 it:
-  last_update: 04/05/2021
+  last_update: 14/05/2021
   items:
     - name: Adyen
       img: /assets/img/cashback/acquirer/adyen.png
@@ -13,9 +13,9 @@ it:
     - name: Banca Sella
       img: /assets/img/cashback/acquirer/sella.png
       startdate: 08/12/2020
-    #- name: Diners Club
-    #  img: /assets/img/cashback/acquirer/diners.png
-    #  startdate: 14/12/2020
+    - name: Diners Club
+      img: /assets/img/cashback/acquirer/diners.png
+      startdate: 14/05/2021
     - name: BANCOMAT Pay
       img: /assets/img/cashback/acquirer/bancomatpay.png
       startdate: 11/01/2021
