@@ -36,7 +36,7 @@ it:
       img-small: /assets/img/cashback/metodi/ic-amex-small.svg
       img-large: /assets/img/cashback/metodi/ic-amex-large.svg
       id: amex
-    - name: Diners
+    - name: Diners Club
       img-small: /assets/img/cashback/metodi/ic-diners-small.svg
       img-large: /assets/img/cashback/metodi/ic-diners-large.svg
       id: diners
