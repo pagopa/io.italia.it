@@ -32,6 +32,10 @@ it:
       name: 'closed-beta-anteprima.mp4'
       description: 'Video preview della closed beta'
       type: 'mpg4 fullHD'
+    - asset: '/assets/download/it/richiesta-convenzione-CGN.zip'
+      name: 'io-slides.zip'
+      description: 'Pacchetto convenzione CGN'
+      type: 'zip con docx'
   press:
     - asset: '/assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf'
       name: 'io-comunicato-stampa-forum-pa-2018.rtf'
@@ -83,6 +87,10 @@ en:
       name: 'closed-beta-anteprima.mp4'
       description: 'Closed beta preview video'
       type: 'Full HD mpg4'
+    - asset: '/assets/download/it/richiesta-convenzione-CGN.zip'
+      name: 'richiesta-convenzione-CGN.zip'
+      description: 'CGN agreement package'
+      type: 'zip docx'
   press:
     - asset: '/assets/download/it/io-comunicato-stampa-forum-pa-2018.rtf'
       name: 'io-comunicato-stampa-forum-pa-2018.rtf'
