@@ -86,8 +86,6 @@ stages:
               azureSubscription: '$(AZURE_SUBSCRIPTION)'
               scriptLocation: inlineScript
               inlineScript: |
-                ls -la $(Pipeline.Workspace)
-                ls -la $(Pipeline.Workspace)\Bundle
                 call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Pipeline.Workspace)\Bundle"
 
           - task: AzureCLI@1
