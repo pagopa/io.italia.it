@@ -63,7 +63,8 @@ steps:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
-      call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Pipeline.Workspace)\Bundle"
+      ls -la $(Build.ArtifactStagingDirectory)
+      call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.ArtifactStagingDirectory)"
 
 - task: AzureCLI@1
   displayName: 'Purge CDN'
