@@ -31,44 +31,69 @@ variables:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- task: UseRubyVersion@0
-  inputs:
-    versionSpec: '>= 2.6.4'
+stages:
 
-- script: |
-    gem install jekyll bundler
-    bundle install --retry=3 --jobs=4
-  displayName: 'bundle install'
+  # Prepare Artifact with application bundle
+  - stage: Build
+    pool:
+      vmImage: 'ubuntu-latest'
+    jobs:
+      - job: 'make_build'
+        steps:
+        
+          - task: UseRubyVersion@0
+            inputs:
+              versionSpec: '>= 2.6.4'
+          
+          - script: |
+              gem install jekyll bundler
+              bundle install --retry=3 --jobs=4
+            displayName: 'bundle install'
 
-- script: |
-    bundle install
-    bundle exec jekyll build --config _config.yml,_config_production.yml
-  displayName: 'jekyll'
+          - script: |
+              bundle install
+              bundle exec jekyll build --config _config.yml,_config_production.yml
+            displayName: 'jekyll'
 
-- task: CopyFiles@2
-  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
-  inputs:
-    SourceFolder: '_site'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
+          - task: CopyFiles@2
+            displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
+            inputs:
+              SourceFolder: '_site'
+              TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: site
+          - task: PublishBuildArtifacts@1
+            inputs:
+              pathtoPublish: '$(Build.ArtifactStagingDirectory)'
+              artifactName: Bundle
 
-- task: AzureCLI@1
-  displayName: 'Sync Storage'
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Pipeline.Workspace)\Bundle"
+  # Deploy 
+  - stage: 'Deploy_to_${{ parameters.environment }}'
+    dependsOn:
+      - Build
+    pool:
+      vmImage: 'windows-2019'
+    jobs:
+      - job: 'deploy_to_container'
+        steps:
+          - checkout: none
 
-- task: AzureCLI@1
-  displayName: 'Purge CDN'
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      call az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
+          - download: current
+            artifact: Bundle
+          
+          - task: AzureCLI@1
+            displayName: 'Sync Storage'
+            inputs:
+              azureSubscription: '$(AZURE_SUBSCRIPTION)'
+              scriptLocation: inlineScript
+              inlineScript: |
+                ls -la $(Pipeline.Workspace)
+                ls -la $(Pipeline.Workspace)\Bundle
+                call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Pipeline.Workspace)\Bundle"
+
+          - task: AzureCLI@1
+            displayName: 'Purge CDN'
+            inputs:
+              azureSubscription: '$(AZURE_SUBSCRIPTION)'
+              scriptLocation: inlineScript
+              inlineScript: |
+                call az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
