@@ -5,7 +5,7 @@ parameters:
   - name: environment
     displayName: Target Environment
     type: string
-    default: dev
+    default: prod
     values:
       - dev
       - prod
