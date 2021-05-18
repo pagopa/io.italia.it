@@ -43,7 +43,7 @@ steps:
 
 - script: |
     bundle install
-    jekyll build --config _config.yml,_config_production.yml
+    bundle exec jekyll build --config _config.yml,_config_production.yml
   displayName: 'jekyll'
 
 - task: CopyFiles@2
