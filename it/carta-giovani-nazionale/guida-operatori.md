@@ -6,6 +6,27 @@ ref: cgn-guida
 permalink: /carta-giovani-nazionale/guida-operatori/
 narrow: true
 ---
+# Indice
+
+<ul>
+    <li><a href='#premessa'>Premessa</a></li>
+    <li><a href='#1-adesione-alliniziativa'>1. Adesione all’iniziativa</a></li>
+    <ul>
+        <li><a href='#11-firma-dellaccordo'>1.1 Firma dell’accordo</a></li>
+    </ul>
+    <li><a href='#2-condizioni-e-requisiti-minimi-richiesti-alloperatore'>2. Condizioni e requisiti minimi richiesti all’Operatore</a></li>
+    <li><a href='#3-descrizione-del-procedimento-tecnico-di-accreditamento-alla-cgn-da-parte-delloperatore-a-seguito-di-convenzionamento'>3. Descrizione del procedimento tecnico di accreditamento alla CGN da parte dell’Operatore a seguito di convenzionamento</a></li>
+    <li><a href='#4-istruzioni-tecniche-relative-alla-fase-di-attuazione-della-convenzione'>4. Istruzioni tecniche relative alla fase di attuazione della convenzione</a></li>
+    <ul>
+        <li><a href='#41-modalità-di-riconoscimento-dello-sconto-nel-caso-di-presenza-fisica-del-beneficiario-della-cgn'>4.1 Modalità di riconoscimento dello sconto nel caso di presenza fisica del beneficiario della CGN</a></li>
+        <li><a href='#42-modalità-di-riconoscimento-del-codice-sconto-generato-dallapp-io-on-line-e-commerce'>4.2 Modalità di riconoscimento del codice sconto generato dall’APP IO on line (e-commerce).</a></li>
+        <li><a href='#43-modalità-di-riconoscimento-del-codice-sconto-statico-on-line-e-commerce'>4.3 Modalità di riconoscimento del codice sconto statico on line (e-commerce)</a></li>
+        <li><a href='#44-modalità-di-riconoscimento-delle-agevolazioni-ai-titolari-della-carta-eyca'>4.4 Modalità di riconoscimento delle agevolazioni ai titolari della carta EYCA.</a></li>
+    </ul>
+    <li><a href='#5-istruzioni-per-la-modifica-della-scheda-operatore-e-delle-agevolazioni'>5. Istruzioni per la modifica della Scheda Operatore e delle Agevolazioni.</a></li>
+    <li><a href='#6-branding'>6. Branding</a></li>
+</ul>
+
 # Premessa
 
 Con decreto del Ministro per le politiche giovanili e lo sport del 27.2.2020 è stata istituita la Carta Giovani Nazionale (CGN) prevista dall’art.1 comma 413 della L. 27 dicembre 2019 n.160, finalizzata a promuovere una migliore qualità della vita delle giovani generazioni, sostenendone il processo di crescita e incentivando le opportunità volte a favorire la crescita e la partecipazione ad attività culturali, sportive e ricreative, anche con finalità formative.
