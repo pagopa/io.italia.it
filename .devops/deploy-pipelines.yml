@@ -29,7 +29,7 @@ variables:
     RESOURCE_GROUP_NAME: $(PROD_RESOURCE_GROUP_NAME)
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'windows-2019'
 
 steps:
 - task: UseRubyVersion@0
@@ -63,7 +63,6 @@ steps:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
-      ls -la $(Build.ArtifactStagingDirectory)
       call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.ArtifactStagingDirectory)"
 
 - task: AzureCLI@1
