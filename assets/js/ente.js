@@ -11,6 +11,9 @@ $(function() {
         text = text.replace(/(\r\n|\n|\r)/gm, '<br>');
         return new Handlebars.SafeString(text);
     });
+    Handlebars.registerHelper('arriving', function(q, options){
+        return q == 0 ? options.fn(this) : options.inverse(this);
+      });
     function pageRender(datasource) {
         $.ajax({
             url: entedummyUrl,
