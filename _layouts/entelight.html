@@ -13,6 +13,10 @@ description: In questa pagina puoi consultare l’elenco di tutti i servizi che 
   {%- include scripts.html -%}
   <script src="{{ site.baseurl }}/assets/js/vendor/handlebars.min.js"></script>
   <script src="{{ site.baseurl }}/assets/js/ente.js"></script>
+  <script
+  async
+  src="{{ '/assets/js/main.js?' | append: buildTime | relative_url }}"
+></script>
    </body>
 
 </html>
