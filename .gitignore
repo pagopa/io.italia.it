@@ -6,5 +6,7 @@ _site
 _data/abi.json
 _data/cobadgeServices.json
 _data/enti-servizi.json
+assets/json/enti-list-searchable.json
+assets/json/enti-list-webview.json
 assets/entijson/*.json
 assets/json/enti-list-searchable.json
