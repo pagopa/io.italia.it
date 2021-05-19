@@ -1,72 +1,36 @@
-{% assign items = site.data.entimap["dots"] %}
-{% assign locali = items | where: "category","locale"  %}
-{% assign nazionali = items | where: "category","nazionale"  %}
-<section id="section_14" class="bg-white position-relative section section__14 section--wpointers py-5">
-  <div  class="section__14_inner container mb-2 mb-md-5">
+{% assign servnum = site.data.enti-servizi.servnum %}
+{% assign entinum = site.data.enti-servizi.entinum %}
+
+
+<section id="section_14" class="position-relative section section__14 section--wpointers py-4 py-md-5 bg-primary">
+  <div  class="section__14_inner container my-md-3">
     <div class="row">
-        <div class="col-12 col-lg-4 no-gutters">
-        <div class="py-md-3 mt-2 mt-md-5">
-            <h2 class="text-primary text-center text-md-left my-3">IO sul territorio</h2>
-            <p class="text-desc text-center text-md-left">La mappa mostra gli enti locali e nazionali che già offrono i propri servizi tramite IO, o presto in arrivo.</p>
-            <div class="d-none d-md-block">
-            <div class="row my-5">
-                <div class="col-2 mb-4  text-center "><img src="{{site.imagesurl}}/assets/img/legenda-ente-nazionale.png" title="Enti nazionali"></div>
-                <div class="col-10 mb-4  d-flex align-self-center text-primary font-weight-bold text-uppercase">Enti nazionali</div>
-                <div class="col-2 text-center mb-4 "><img src="{{site.imagesurl}}/assets/img/dot.svg" title="Regioni" style="width:55px"></div>
-                <div class="col-10 mb-4  d-flex align-self-center text-primary font-weight-bold text-uppercase">Regioni</div>
-                <div class="col-2 mb-4 text-center "><img src="{{site.imagesurl}}/assets/img/dot.svg" title="Comuni" style="width:20px"></div>
-                <div class="col-10 mb-4 d-flex align-self-center text-primary font-weight-bold text-uppercase">Comuni</div>
-                <div class="col-2 text-center "><div class="d-inline-block italy-dotted-pending small"></div></div>
-                <div class="col-10 d-flex align-self-center text-primary font-weight-bold text-uppercase">Enti presto attivi</div>
-            </div>
-            </div>
-            <div class=" my-3 my-md-2 text-center text-md-left">
-            <a href="/enti/" class="btn btn-sm btn-primary text-uppercase">Vedi tutti gli enti</a>
-            </div>
-        </div>
-        </div><!--/col-->
-        <div class="col-12 col-lg-8 no-gutters position-relative italy-dotted-wrapper">
-            <div id="italy-dotted-map">
-
-                <img src="{{site.imagesurl}}/assets/img/italia-dotted.svg" class="italy-dotted-dottedmap">
-                <div class="italy-dotted-list" >
-                    {% assign countDelay = 0 %}
-                    {% for item in locali %}
-                        {% if item.status == "active" %}
-                        <div class="italy-dotted-item" style="top:{{item.coord[0]}}em;left:{{item.coord[1]}}em"
-                            data-toggle="tooltip" data-container="#section_14" title="{{item.title}}">
-                            <div class="italy-dotted-dot {{item.type}} delay-{{countDelay}}">
-                            <img src="{{site.imagesurl}}/assets/img/dot.svg" title="">
-                            </div>
-                        </div>
-                        {% else %}
-                        <div class="italy-dotted-item" style="top:{{item.coord[0]}}em;left:{{item.coord[1]}}em">
-                            <div class="italy-dotted-pending {{item.type}}" title="{{item.title}}">
-                            
-                            </div>
-                        </div>
-                        {% endif %}
-                    
-                        {% if countDelay==3 % }
-                            {% assign countDelay = 0%}
-                        {% else %}
-                            {% assign countDelay = countDelay | plus: 1 %}
-                        {% endif %}
-
-                    {% endfor %}
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-6 pl-4">
+                    <img src="{{site.imagesurl}}/assets/img/municipality.svg" alt="Enti" class="my-2">
+                    <div class="h2 text-white my-2">{{entinum | friendly_number}}</div>
+                    <div class="text-desc font-weight-bold">Enti attivi su IO</div>
+                </div>
+                <div class="col-6 pr-4">
+                    <img src="{{site.imagesurl}}/assets/img/services.svg" alt="Servizi" class="my-2">
+                    <div class="h2 text-white my-2">{{servnum | friendly_number}}</div>
+                    <div class="text-desc font-weight-bold">Servizi disponibili</div>
                 </div>
             </div>
-            <div class="nazionali-list text-left d-none d-md-block">
-                    <div class="text-primary nazionali-list__header">ENTI NAZIONALI</div>
-                    <ul class="nazionali-list__ul list-unstyled px-2">
-                        {% for item in nazionali %}
-                        <li class="my-2 {{item.status}}">{{item.title}}</li>
-                        {% endfor %}
-                    </ul>
-                </div>
-        </div><!--/col-->
+        </div><!--/col-md-6-->
+        <div class="col-md-4">
+            <div class="py-3 pl-3 pl-md-0 pr-4 pr-md-3">
 
-    </div>    
-    
+                <div class="text-desc">Scopri la lista in costante aggiornamento di tutti gli Enti che sono saliti a bordo di IO.</div>
+
+                <a class="btn btn-sm btn-outline-white text-uppercase text-white bg-primary px-5 mt-4" href="/enti/" title="Scopri gli Enti a bordo di IO" >
+                    Scopri di più
+                </a>
+            </div>
+
+        </div><!--/col-md-6-->
+
+    </div>
   </div><!--/section__14_inner-->
 </section>

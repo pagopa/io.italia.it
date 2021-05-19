@@ -80,3 +80,13 @@ jekyll-minifier:
   preserve_patterns:                # Default: (empty)
   uglifier_args:
     harmony: true
+
+enti_to_list: 50
+page_gen-dirs: true
+page_gen:
+  - data: "enti-servizi.items"
+    template: entelight
+    dir: "enti"
+    index_files: true
+    name_expr: record["o"].gsub(/[^0-9A-Za-zÀ-ú\s]/, '').gsub('  ',' ')
+    title: "o"
