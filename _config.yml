@@ -81,7 +81,7 @@ jekyll-minifier:
   uglifier_args:
     harmony: true
 
-enti_to_list: 50
+enti_to_list: 5000
 page_gen-dirs: true
 page_gen:
   - data: "enti-servizi.items"
