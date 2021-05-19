@@ -50,6 +50,7 @@ $(function() {
                 $ente.fadeIn(600);
                 if (!visibility) {
                     visibility = true;
+                    $noresults.addClass("d-none");
                     $loading.addClass("invisible");
                 }
             }
