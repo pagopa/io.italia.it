@@ -7,7 +7,7 @@ require 'down'
 
 downloadUrl = "https://assets.cdn.io.italia.it/services-webview/visible-services-extended.json"
 begin
-    file =  Down.download(downloadUrl)
+    file =  Down.download(downloadUrl, open_timeout: 5)
 rescue
     # fallback in case we cannot download the source file
     puts "File unreachable"
