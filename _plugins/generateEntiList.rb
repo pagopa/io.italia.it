@@ -105,8 +105,8 @@ def renderEntiList(file, site)
     # conversion of hash in array
     new_content["items"] = new_content["items"].values
 
-    File.write('assets/json/enti-list-webview.json', JSON.dump(new_content_webview.values))
-    File.write('assets/json/enti-list-searchable.json', JSON.dump(enti_searchable))
+    File.write('./assets/json/enti-list-webview.json', JSON.dump(new_content_webview.values))
+    File.write('./assets/json/enti-list-searchable.json', JSON.dump(enti_searchable))
     File.write('_data/enti-servizi.json', JSON.dump(new_content))
 end
 
