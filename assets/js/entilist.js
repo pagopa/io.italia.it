@@ -1,6 +1,9 @@
 $(function() {
     var enti = ".entiList__item";
     var $enti = $(enti);
+    var $noresults = $("#entiSearch__noresults");
+    var $loading = $("#entiSearch__loading");
+    var $entisearchReset = $("#entiSearchReset");
     var $filters = $(".entiList__scopefilter a");
     var $entiSearchInput = $("#entiSearchInput");
     var jsonEntiUrl = "/assets/json/enti-list-searchable.json";
@@ -42,13 +45,31 @@ $(function() {
         });
         $enti.each( function(index) {
             var $ente = $(this);
+            var visibility = false;
             if (resultsFC.includes( $ente.attr('id'))) {
-                $ente.fadeIn();
-            } else {
-                $ente.fadeOut();
+                $ente.fadeIn(600);
+                if (!visibility) {
+                    visibility = true;
+                    $noresults.addClass("d-none");
+                    $loading.addClass("invisible");
+                }
             }
-        })
+
+        });
+        if (results.length < 1) {
+            $loading.addClass("invisible");
+            $noresults.removeClass("d-none");
+        }
     }
+
+    $entisearchReset.on("click", function(e) {
+        e.preventDefault();
+        $enti.show();
+        $noresults.addClass("d-none");
+        $entiSearchInput.val("");
+        $entiSearchInput.focus();
+        $entisearchReset.addClass("invisible");
+    })
 
     $filters.on("click", function(e) {
         e.preventDefault();
@@ -74,6 +95,9 @@ $(function() {
             $enti.fadeIn();
             return false;
         }
+        $loading.removeClass("invisible");
+        $entisearchReset.removeClass("invisible");
+        $enti.hide();
         search(value);
     },1000));
 
