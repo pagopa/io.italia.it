@@ -265,7 +265,7 @@
               
               <a
                 href="/assets/download/it/fact-sheet.rtf"
-                target="_blank" class="text-decoration-none"
+                download class="text-decoration-none"
               >
                 <img
                 src="{{site.imagesurl}}/assets/img/giornalisti/media_factsheet.jpg"
@@ -354,7 +354,7 @@
                   <h2 class="my-2 my-md-3 secondary">{{post.friendlytitle | default: post.title}}</h2>      
                 </a>
                 {% if post.download_link %}
-                <a href="{{post.download_link}}" target="_blank" class="d-flex flex-row mt-3 mt-md-5">
+                <a href="{{post.download_link}}" download class="d-flex flex-row mt-3 mt-md-5">
                   <h6 class="text-primary text-uppercase mr-2 downloadcta">scarica</h6>
                   <svg class="icon icon-sm icon-primary">
                     <use xlink:href="/assets/svg/sprite.svg#it-download"></use>
