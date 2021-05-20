@@ -43,7 +43,13 @@ Il Titolare del trattamento è la società PagoPA SpA, con sede in Roma, Piazza 
 ### Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
 
 {:.d-more-1}
-La società PagoPA Spa ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato ai seguenti recapiti: - mail: [dpo@pagopa.it](mailto:dpo@pagopa.it); - PEC: [dpo@pec.pagopa.it](mailto:dpo@pec.pagopa.it); - indirizzo: Via Sardegna n. 38 - 00187, ROMA (sede operativa della società)
+La società PagoPA Spa ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato ai seguenti recapiti:
+
+{:.d-more-1}
+
+- mail: [dpo@pagopa.it](mailto:dpo@pagopa.it);
+- PEC: [dpo@pec.pagopa.it](mailto:dpo@pec.pagopa.it);
+- indirizzo: Via Sardegna n. 38 - 00187, ROMA (sede operativa della società)
 
 {:.d-more-1}
 
@@ -74,6 +80,8 @@ I cookies sono piccoli file di testo che i siti visitati inviano al terminale de
 
 {:.d-more-1}
 Utilizziamo esclusivamente cookies con dati compilati dall'utente (identificativo di sessione), cioè cookies tecnici che consentono l’inserimento degli input da parte dell’Utente, per lo svolgimento dell’Indagine e/o l’inoltro della richiesta di partecipazione al Programma. I cookies non sono utilizzati per attività di profilazione dell’Utente. Tali cookies hanno esclusivamente la finalità di eseguire il monitoraggio di sessioni e la memorizzazione di informazioni tecniche specifiche riguardanti gli Utenti che accedono ai server del Titolare, e vengono conservati fino al termine della sessione browser.
+
+{:.d-more-1}
 L’Utente può scegliere di abilitare e disabilitare i cookies intervenendo sulle impostazioni del proprio browser di navigazione secondo le istruzioni rese disponibili dai relativi fornitori ai link di seguito indicati.
 
 {:.d-more-1}
@@ -106,7 +114,12 @@ I dati degli Utenti sono raccolti per le seguenti finalità:
 
 {:.d-more-1}
 
-- permettere a un Utente di:<br> - compilare il questionario, anche al fine di candidarsi a partecipare al Programma; - richiedere di partecipare a un'Indagine e/o a un Programma; - essere avvisato nel caso venga selezionato dal Titolare per partecipare al Programma; - partecipare alle sessioni di test, condividere il proprio feedback e contribuire al miglioramento dell’App IO e/o della Piattaforma PagoPA (nel caso venga selezionato per partecipare al Programma); - utilizzare ogni altra funzionalità prevista e disponibile per gli Utenti selezionati ai fini della partecipazione al Programma.
+- permettere a un Utente di:
+  - compilare il questionario, anche al fine di candidarsi a partecipare al Programma;
+  - richiedere di partecipare a un'Indagine e/o a un Programma;
+  - essere avvisato nel caso venga selezionato dal Titolare per partecipare al Programma;
+  - partecipare alle sessioni di test, condividere il proprio feedback e contribuire al miglioramento dell’App IO e/o della Piattaforma PagoPA (nel caso venga selezionato per partecipare al Programma);
+  - utilizzare ogni altra funzionalità prevista e disponibile per gli Utenti selezionati ai fini della partecipazione al Programma.
 - permettere agli amministratori dell’App IO di svolgere tutte le funzioni di amministrazione, compresa l’identificazione degli Utenti selezionati ai fini della partecipazione al Programma per motivi di sicurezza e riservatezza, previa anonimizzazione e aggregazione quando non è più necessario per le altre finalità sopra indicate mantenere i dati in chiaro.
 - consentire lo sviluppo e il miglioramento dell’App IO e/o della Piattaforma PagoPA e delle relative funzionalità.
 
@@ -120,7 +133,12 @@ Gli Utenti possono ottenere chiarimenti sulla finalità della raccolta dei dati 
 ### Categorie di soggetti ai quali i dati personali possono essere comunicati
 
 {:.d-more-1}
-Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indicate, alcuni dati personali anche a:<br> - soggetti terzi che forniscono un servizio al Titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento. In particolare, per lo svolgimento delle sessioni di test PagoPA potrà rivolgersi a fornitori terzi del servizio in qualità di Responsabili del trattamento, operanti nell’Unione Europea; - altri soggetti pubblici che ne facciano richiesta alla PagoPA SpA per l’esecuzione di un compito di interesse pubblico o connesso all’esercizio di un pubblico potere o per adempiere a un obbligo legale.
+Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indicate, alcuni dati personali anche a:
+
+{:.d-more-1}
+
+- soggetti terzi che forniscono un servizio al Titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento. In particolare, per lo svolgimento delle sessioni di test PagoPA potrà rivolgersi a fornitori terzi del servizio in qualità di Responsabili del trattamento, operanti nell’Unione Europea;
+- altri soggetti pubblici che ne facciano richiesta alla PagoPA SpA per l’esecuzione di un compito di interesse pubblico o connesso all’esercizio di un pubblico potere o per adempiere a un obbligo legale.
 
 {:.d-more-1}
 Laddove i terzi destinatari ricevano i dati personali per l’esecuzione di un servizio commissionato da PagoPA nell’interesse di quest’ultima, gli stessi sono nominati Responsabili del trattamento da parte del Titolare ai sensi dell’art. 28 del Regolamento. L’elenco dei responsabili del trattamento è disponibile, per i fornitori coinvolti nel progetto IO, all’indirizzo https://io.italia.it/app-content/fornitori/, per gli altri prodotti e servizi di PagoPA SpA può essere richiesto al Titolare in qualsiasi momento, scrivendo a [dpo@pagopa.it](mailto:dpo@pagopa.it).
@@ -145,6 +163,8 @@ Alcuni dei fornitori terzi che utilizziamo risiedono negli USA. Abbiamo concluso
 
 {:.d-more-1}
 I dati personali raccolti saranno conservati per il periodo di tempo necessario allo svolgimento dell’Indagine e/o del Programma, e verranno cancellati o resi anonimi:
+
+{:.d-more-1}
 
 - nel momento in cui la funzionalità oggetto di test diventi pubblica;
 - in caso di mancato rilascio o abbandono del Programma, entro 6 mesi dalla raccolta.
