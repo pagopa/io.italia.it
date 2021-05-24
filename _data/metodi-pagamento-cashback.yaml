@@ -1,5 +1,5 @@
 it:
-  last_update: 23/03/2021
+  last_update: 24/05/2021
   iostatus:
     0:
       status: yes
@@ -36,7 +36,7 @@ it:
       img-small: /assets/img/cashback/metodi/ic-amex-small.svg
       img-large: /assets/img/cashback/metodi/ic-amex-large.svg
       id: amex
-    - name: Diners
+    - name: Diners Club
       img-small: /assets/img/cashback/metodi/ic-diners-small.svg
       img-large: /assets/img/cashback/metodi/ic-diners-large.svg
       id: diners
@@ -106,10 +106,10 @@ it:
         - diners
       cvv: 3
       numbers: 14
-      io: 1
-      iotext: Stiamo lavorando per supportare i pagamenti con la tua carta **Diners** su app IO.
-      cashback: 1
-      cashbacktext: Stiamo lavorando per supportare presto questa carta. Nel frattempo, verifica se è possibile abilitarla tramite uno degli [Issuer Convenzionati](https://io.italia.it/cashback/issuer).
+      io: 0
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      cashback: 0
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
         - jcb
       cvv: 3
