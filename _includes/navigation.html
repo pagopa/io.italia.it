@@ -10,15 +10,15 @@
             <span class="badge-beta">BETA</span>
             </a>
           </div>
-          <div class="col-12 col-md-9 my-5 my-md-0">
+          <div class="col-12 col-md-6 my-5 my-md-0">
             <div class="d-block d-md-flex nav-container" >
               {% for item in navigation %}
               {% include navigation-item.html navigation=navigation index=forloop.index  %}
               {% endfor %}
             </div>
           </div>
-          <div class="col-12 col-md-2 d-flex">
-            <div class="text-right social social--nav d-flex align-items-center flex-fill justify-content-center">
+          <div class="col-12 col-md-5 d-flex">
+            <div class="text-right social social--nav d-flex align-items-center flex-fill justify-content-center justify-content-md-end">
             {% include social-icons.html %}
             </div>
           </div>

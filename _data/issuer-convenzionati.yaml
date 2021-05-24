@@ -1,5 +1,5 @@
 it:
-  last_update: 23/03/2021
+  last_update: 22/05/2021
   items:
     # use alphabetical order
     #- name: American Express
@@ -20,6 +20,9 @@ it:
     - name: buddybank
       img: /assets/img/cashback/issuer/buddybank.png
       url: https://www.buddybank.com
+    - name: coffee cApp
+      img: /assets/img/cashback/issuer/venpay.png
+      url: https://www.coffeecapp.it
     - name: Enel X Pay
       img: /assets/img/cashback/issuer/enelxpay.png
       url: https://pay.enelx.com/cashback

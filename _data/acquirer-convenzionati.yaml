@@ -67,6 +67,9 @@ it:
     - name: Unicredit
       img: /assets/img/cashback/acquirer/unicredit.png
       startdate: 08/12/2020
+    - name: Venpay - coffee cApp
+      img: /assets/img/cashback/acquirer/venpay.png
+      startdate: 22/05/2021 
     - name: Viva Wallet
       img: /assets/img/cashback/acquirer/vivawallet.png
       startdate: 20/04/2021
