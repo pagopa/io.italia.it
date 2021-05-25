@@ -65,6 +65,8 @@ stages:
             inputs:
               pathtoPublish: '$(Build.ArtifactStagingDirectory)'
               artifactName: Bundle
+              parallel: true
+              parallelCount: 128
 
   # Deploy 
   - stage: 'Deploy_to_${{ parameters.environment }}'
