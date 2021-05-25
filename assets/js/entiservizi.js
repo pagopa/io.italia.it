@@ -36,10 +36,12 @@ Handlebars.registerHelper('arriving', function(q, options){
 /* This function render the list of services inside the items'list div */
 function listServices(data, target, serviceid) {
     if (!target.classList.contains("filled")) {
+        var initiator = document.getElementById("ente"+serviceid);
         var source = document.getElementById("listservices-template").innerHTML;
         var template = Handlebars.compile(source);
         var el = document.createElement("div");
         var html = template(data);
+        initiator.setAttribute("aria-expanded", "true");
         el.innerHTML = html;
         target.classList.add("filled");
         target.appendChild(el);

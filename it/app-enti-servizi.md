@@ -59,7 +59,9 @@ assets:
     <a class="entiservizi__title"
        tabIndex="1"
        role="button"
-       aria-label = "Apri i servizi di "
+       aria-controls="s{{getFc this}}"
+       aria-expanded="false"
+       id="ente{{getFc this}}"
        href="#" onClick="getServices('{{getFc this}}');return false;">{{getName this}}
       <div class="entiservizi__logo">
       <img class=""
@@ -76,7 +78,7 @@ assets:
            alt="{{getName this}}">
       </div>
     </a>
-    <div class="entiservizi__services services{{getFc this}}" >
+    <div class="entiservizi__services services{{getFc this}}" id="s{{getFc this}}" >
     </div>
     <div class="entiservizi__spinner">
     <div class="progress-spinner progress-spinner-double  progress-spinner-active ">
@@ -92,7 +94,6 @@ assets:
     {{#each s}}
       <li  >
         <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{i}}')"
-             aria-label="Apri la scheda di dettaglio di per {{n}}"
              tabIndex="2"
              role="button"
              >{{n}}
