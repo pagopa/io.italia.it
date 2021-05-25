@@ -13,12 +13,14 @@ assets:
     - "/assets/js/entiservizi.js"
 ---
 
-<form id="entiservizi__search" action="#">
+<form id="entiservizi__search" action="#" tabindex="0" >
   <div class="entiservizi__search__inner">
-    <input pattern="^[A-Za-zÀ-ú\s]+$" type="search" id="entiservizi__searchstring" placeholder="Cerca un ente" maxlength="30" minlength="3" required>
-    <button type="submit" id="entiservizi__submit"><img  src="/assets/img/icon-search.svg" alt="Cerca" ></button>
+    <input pattern="^[A-Za-zÀ-ú\s]+$" role="searchbox"
+           aria-placeholder="Cerca un Ente inserendo almeno tre caratteri, poi batti invio"
+           type="search" id="entiservizi__searchstring" placeholder="Cerca un ente" maxlength="30" minlength="3" required>
+    <button type="submit" id="entiservizi__submit" role="button" aria-label="Cerca"><img  src="/assets/img/icon-search.svg" alt="Cerca" aria-hidden="true" ></button>
   </div>
-  <div class="entiservizi__search__tip">inserisci almeno 3 caratteri e avvia la ricerca</div>
+  <div class="entiservizi__search__tip" aria-hidden="true">inserisci almeno 3 caratteri e avvia la ricerca</div>
   <div class="entiservizi__search__done"><div>Risultati della ricerca per "<span id="entiservizi__searched"></span>"</div><a href="#" title="Annulla" id="entiservizi__searchreset">annulla</a></div>
 </form>
 <div id="loading">
@@ -49,14 +51,19 @@ assets:
 </div>
 <div class="entiservizi__list__search">
 </div>
-<div class="entiservizi__list">
+<div class="entiservizi__list" aria-label="Elenco degli Enti">
 {% raw %}
 <script id="entiservizi-template" type="text/x-handlebars-template">
 {{#each this}}
   <div class="entiservizi__item {{#lazy @index}}lazy{{/lazy}} ec{{getFc this}}">
-    <a class="entiservizi__title"  href="#" onClick="getServices('{{getFc this}}');return false;">{{getName this}}
+    <a class="entiservizi__title"
+       tabIndex="1"
+       role="button"
+       aria-label = "Apri i servizi di "
+       href="#" onClick="getServices('{{getFc this}}');return false;">{{getName this}}
       <div class="entiservizi__logo">
       <img class=""
+           aria-hidden="true"
            {{#lazy @index}}
             src="/assets/img/blank-32.png"
             data-src="{{getFc this}}.png"
@@ -83,12 +90,17 @@ assets:
 <script id="listservices-template" type="text/x-handlebars-template">
 <ul class="entiservizi__serv__list">
     {{#each s}}
-      <li >
-        <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{i}}')">{{n}}
+      <li  >
+        <div class="entiservizi__serv__title" onClick="sendMessagesToRN('{{i}}')"
+             aria-label="Apri la scheda di dettaglio di per {{n}}"
+             tabIndex="2"
+             role="button"
+             >{{n}}
           {{#arriving q}}
           <span class="entiservizi__serv__quality">In arrivo</span>
           {{/arriving}}
-        <img alt="Espandi" class="entiservizi__icon" width="11" height="16"
+        <img alt="Visualizza i dettagli del servizio" class="entiservizi__icon" width="11" height="16"
+            aria-hidden="true"
             srcset="
             {{site.imagesurl}}/assets/img/icon-right-2x.png 2x,
             {{site.imagesurl}}/assets/img/icon-right.png 1x
