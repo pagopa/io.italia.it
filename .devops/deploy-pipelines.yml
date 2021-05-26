@@ -39,6 +39,8 @@ stages:
       vmImage: 'ubuntu-latest'
     jobs:
       - job: 'make_build'
+        variables:
+          JEKYLL_ENV: production
         steps:
         
           - task: UseRubyVersion@0
