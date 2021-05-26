@@ -1,5 +1,5 @@
 it:
-  last_update: 10/05/2021
+  last_update: 26/05/2021
   items:
     # use alphabetical order
     - name: Banca Sella
@@ -26,12 +26,12 @@ it:
     - name: Intesa Sanpaolo
       img: /assets/img/cashback/issuer/intesa.png
       onlylogo: true
+    - name: Poste Italiane
+      img: /assets/img/cashback/issuer/poste.png
+      onlylogo: true
     - name: UBI Banca
       img: /assets/img/cashback/issuer/ubi.png
       onlylogo: true
     - name: UniCredit
       img: /assets/img/cashback/issuer/unicredit.png
       onlylogo: true
-    - name: Poste Italiane
-      img: /assets/img/cashback/issuer/poste.png
-      # va mostrato 'in arrivo'
