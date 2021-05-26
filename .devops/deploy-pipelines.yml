@@ -54,7 +54,7 @@ stages:
 
           - script: |
               bundle install
-              bundle exec jekyll build --config _config.yml,_config_production.yml
+              JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
             displayName: 'jekyll'
 
           - task: CopyFiles@2
