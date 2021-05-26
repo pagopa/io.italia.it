@@ -1,5 +1,5 @@
 it:
-  last_update: 24/05/2021
+  last_update: 26/05/2021
   iostatus:
     0:
       status: yes
@@ -262,8 +262,8 @@ it:
       note: BancoPosta
       io: 1
       iotext: Siamo spiacenti, sembra che la tua carta non sia abilitata ai pagamenti online. Per maggiori informazioni, contatta Poste Italiane.
-      cashback: 1
-      cashbacktext: Siamo al lavoro con Poste Italiane per permetterti di aggiungere presto anche il circuito internazionale **Maestro**.
+      cashback: 0
+      cashbacktext: "Aggiungi la carta al Portafoglio, selezionando: 'Carta BancoPosta o Postepay' > **'Ti manca qualche dato?'**. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback."
     - cards:
         - postamat
         - mastercard
@@ -273,7 +273,7 @@ it:
       io: 0
       iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta BancoPosta o Postepay'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
-      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
+      cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se hai problemi, seleziona ‘Ti manca qualche dato?’. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
         - postamat
         - visaelectron
