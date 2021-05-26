@@ -1,5 +1,5 @@
 it:
-  last_update: 04/05/2021
+  last_update: 24/05/2021
   items:
     - name: Adyen
       img: /assets/img/cashback/acquirer/adyen.png
@@ -13,12 +13,12 @@ it:
     - name: Banca Sella
       img: /assets/img/cashback/acquirer/sella.png
       startdate: 08/12/2020
-    #- name: Diners Club
-    #  img: /assets/img/cashback/acquirer/diners.png
-    #  startdate: 14/12/2020
     - name: BANCOMAT Pay
       img: /assets/img/cashback/acquirer/bancomatpay.png
       startdate: 11/01/2021
+    - name: Diners Club
+      img: /assets/img/cashback/acquirer/diners.png
+      startdate: 24/05/2021
     - name: "equens/Worldline + SIX Payment Services"
       img: /assets/img/cashback/acquirer/six.png
       startdate: 01/01/2021
@@ -67,6 +67,9 @@ it:
     - name: Unicredit
       img: /assets/img/cashback/acquirer/unicredit.png
       startdate: 08/12/2020
+    - name: Venpay - coffee cApp
+      img: /assets/img/cashback/acquirer/venpay.png
+      startdate: 22/05/2021 
     - name: Viva Wallet
       img: /assets/img/cashback/acquirer/vivawallet.png
       startdate: 20/04/2021

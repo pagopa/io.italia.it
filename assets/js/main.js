@@ -277,6 +277,13 @@ $(function () {
 
 $(window).on("load", function() {
     var $posts = $('.post-load-image');
+    var $navigationitems = $('.navigation-item.withDropdown');
+
+    $navigationitems.on('click', function(e) {
+        e.preventDefault();
+        $(this).toggleClass('on');
+        $(this).parent().siblings().children().removeClass('on');
+    });
     
     $posts.each(function (el) {
         var source = $(this).attr('data-src');

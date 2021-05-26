@@ -79,3 +79,10 @@ items:
     luogo: "USA\n\n"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
     doc: "[link](https://firebase.google.com/terms/data-processing-terms)"
+  - 
+    fornitore: "Google LLC"
+    attivita: "Servizio per form, moduli e questionari online"
+    dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
+    luogo: "data center globali del fornitore, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
+    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
+    doc: "[link](https://workspace.google.com/terms/dpa_terms.html)"

@@ -1,8 +1,8 @@
-page_gen-dirs: false
+page_gen-dirs: true
 page_gen:
-  - data: "visible-services"
-    template: servizio
-    dir: "entiservizi"
-    index_files: false
-    name: "serviceId"
-    title: "serviceName"
+  - data: "enti-servizi.items"
+    template: entiservizi
+    dir: "enti"
+    index_files: true
+    name_expr: record["o"].gsub(/[^0-9A-Za-zÀ-ú\s]/, '').gsub('  ',' ')
+    title: "o"
