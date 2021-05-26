@@ -11,7 +11,7 @@ assets:
   css: "/assets/tos.css"
 ---
 
-{% assign pages = site.pages | where_exp: "item", "item.vers > 0" | sort: "vers" | reverse  %}
+{% assign pages = site.pages | where_exp: "item", "item.vers > 0 " | where_exp: "item", "item.ref contains 'app-tos-privacy'" | sort: "vers" | reverse  %}
 
 {:.d-startup}
 

@@ -11,6 +11,9 @@ it:
     - name: Cassa Centrale Banca
       img: /assets/img/cashback/issuer/cassa-centrale.png
       onlylogo: true
+    - name: Credem Banca
+      img: /assets/img/cashback/issuer/credem.png
+      onlylogo: true
     - name: Crédit Agricole
       img: /assets/img/cashback/issuer/creditagricole.png
       onlylogo: true

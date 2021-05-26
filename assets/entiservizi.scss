@@ -135,6 +135,7 @@ a {
   }
 }
 .entiservizi {
+  &__problem,
   &__searching,
   &__noresults {
     height: 80vh;
@@ -148,6 +149,23 @@ a {
     }
     &.active {
       display: flex;
+    }
+  }
+  &__item {
+    display: block;
+    text-decoration: none;
+    border-bottom: 1px solid #e6e9f2;
+  }
+  &__spinner {
+    display: none;
+    .loading + & {
+      display: block;
+    }
+    .progress-spinner {
+      width: 24px !important;
+      height: 24px !important;
+      margin: 0 auto 0.75rem auto !important;
+      border-width: 2px !important;
     }
   }
   &__logo {
@@ -168,6 +186,8 @@ a {
   &__icon {
     margin-right: 6px;
     margin-left: 10px;
+    margin-left: auto;
+    padding-left: 0.5rem;
   }
   &__content {
     display: none;
@@ -178,10 +198,12 @@ a {
   &__title {
     color: #17324d;
     font-size: 1.15rem;
-    margin: 0.75rem 0;
+    padding: 0.75rem 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 700;
+    text-decoration: none;
   }
   &__desc {
     p {
@@ -206,13 +228,21 @@ a {
     color: #17324d;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     text-decoration: none;
     &.expanded {
       .entiservizi__icon {
         transform: rotate(90deg);
       }
     }
+  }
+  &__serv__quality {
+    margin-left: 0.65rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.7rem;
+    background-color: #06c;
+    border-radius: 0.7rem;
+    color: #fff;
+    white-space: pre;
   }
 
   &__list {
@@ -256,6 +286,11 @@ a {
   }
 }
 
+.filled {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
 @keyframes spinnerAnim {
   0% {
     -webkit-transform: rotate(0);
@@ -264,5 +299,39 @@ a {
   100% {
     webkit-transform: rotate(360deg);
     transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }

@@ -470,7 +470,27 @@
 .section__14 {
   .text-desc {
     font-size: 1.1rem;
-    color: #5c6f82;
+    color: #fff;
+    position: relative;
+  }
+
+  &:before {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+    -webkit-box-shadow: 0px 0px 12px 0px rgb(2, 47, 92);
+    -moz-box-shadow: 0px 0px 12px 0px rgb(2, 47, 92);
+    box-shadow: 0px 0px 12px 0px rgb(2, 47, 92);
+    z-index: 10;
+    top: 0;
+    content: "";
+    @media screen and (min-width: $grid-breakpoints-md) {
+      &:after {
+        left: 20%;
+        width: 60%;
+      }
+    }
   }
 }
 .section__15 {

@@ -3,5 +3,31 @@
 {% assign current_url = current_url | replace:'//','/' %}
 
 <div class="text-center p-3 px-md-0 position-relative" >
-    <a title="{{item.label | strip_html }}"class="text-decoration-none{% if current_url==item.url %} active{% endif %}" href="{{item.url}}">{{item.label}}</a>
+    <a title="{{item.label | strip_html }}" data-idnav="{{item.id}}" class="navigation-item d-block text-decoration-none{% if current_url==item.url %} active{% endif %} {% if item.items or item.items_grouped %} withDropdown{% endif %}" href="{{item.url}}">{{item.label}}</a>
+    {% if item.items %}
+        {% assign menuitems = item.items %}
+        <div class="navigation__subitemsmenu" data-refnav="{{item.id}}">
+            <ul class="list-unstyled">
+            {% for menuitem in menuitems %}
+            <li><a href="{{menuitem.url }}" title="{{menuitem.label }}">{{menuitem.label }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+    {% if item.items_grouped %}
+        {% assign categories = item.items_grouped %}
+        <div class="navigation__subitemsmenu navigation__subitemsmenu--cat " data-refnav="{{item.id}}">
+            {% for category in categories %}
+                <div class="flex-fill">
+                {% assign menuitems = category.items %}
+                <div class="navigation__subitemsmenu__category">{{category.label}}</div>
+                <ul class="list-unstyled">
+                {% for menuitem in menuitems %}
+                <li><a href="{{menuitem.url }}" title="{{menuitem.label }}">{{menuitem.label }}</a></li>
+                {% endfor %}
+                </ul>
+                </div>
+            {% endfor %}
+        </div>
+    {% endif %}
 </div>
