@@ -1,82 +1,16 @@
+// INFO: Fix Bootstrap override
+
 .pagename--dashboard,
 .pagename--dashboard-cashback {
-  *[data-toggle="tooltip"] {
-    position: absolute;
+  .affix-top {
+    top: 3.5rem;
+    z-index: 1;
   }
-
-  .heading-logo {
-    max-width: 7rem;
-  }
-
-  .dashboard-mainwrapper {
-    margin-top: -8rem;
-    @media screen and (min-width: $grid-breakpoints-md) {
-      margin-top: -10rem;
-    }
-  }
-
-  .dashboardcard {
-    background-color: #fff;
-    height: 100%;
-    padding: 2rem;
-    border-radius: 0.5rem;
-    color: #5c6f82;
-
-    &__number {
-      font-size: 2.4rem;
-      font-weight: 600;
-    }
-    &__desc {
-      font-weight: 500;
-    }
-
-    .icon {
-      width: 1rem;
-      height: 1rem;
-      fill: #5c6f82;
-    }
-
-    &--dark {
-      background-color: #2d489d;
-      color: #fff;
-    }
-  }
-  .dashboard__bonus {
-    background-color: #f2f7fc;
-  }
-
-  .tooltip-inner {
-    font-size: 0.7rem;
-    background-color: #17324d;
-    margin-left: -2px;
-    line-height: 1.7;
-    padding: 10px;
-    max-width: 150px;
-    text-align: left;
-  }
-  .tooltip {
-    left: 10px !important;
-    .arrow {
-      display: block;
-    }
-  }
-  .bs-tooltip-auto[x-placement^="right"] .arrow::before,
-  .bs-tooltip-right .arrow::before {
-    border-right-color: #17324d;
-  }
-  .bs-tooltip-auto[x-placement^="left"] .arrow::before,
-  .bs-tooltip-left .arrow::before {
-    border-left-color: #17324d;
-  }
-  .bs-tooltip-auto[x-placement^="left"] .arrow,
-  .bs-tooltip-left .arrow {
-    right: 2px;
-  }
-
-  .dashboard__title {
-    &.affix-top {
-      top: 3.5rem;
-      z-index: 1;
+  @media (min-width: 992px) {
+    #__nuxt {
+      .container {
+        max-width: 960px !important;
+      }
     }
   }
 }
