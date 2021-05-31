@@ -56,6 +56,8 @@ sass:
   style: compressed
 
 jekyll-minifier:
+  exclude:
+    - 'assets/js/dashboard/app/**'
   preserve_php: true                # Default: false
   remove_spaces_inside_tags: true   # Default: true
   remove_multi_spaces: true         # Default: true
