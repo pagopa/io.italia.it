@@ -65,4 +65,6 @@ steps:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
+      ls -la $(Pipeline.Workspace)
+      ls -la $(Pipeline.Workspace)\Bundle
       az --version
