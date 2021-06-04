@@ -48,11 +48,14 @@ steps:
     JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
   displayName: 'jekyll'
 
+- script: |
+    ls -la $(Pipeline.Workspace)/_site
+  displayName: 'Check'
+
 - task: AzureCLI@1
   displayName: 'Az Cli'
   inputs:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
-      ls -la $(Pipeline.Workspace)/_site
       az --version
