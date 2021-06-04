@@ -48,23 +48,11 @@ steps:
     JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
   displayName: 'jekyll'
 
-- task: CopyFiles@2
-  displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
-  inputs:
-    SourceFolder: '_site'
-    TargetFolder: '$(Build.ArtifactStagingDirectory)'
-
-- task: PublishPipelineArtifact@1
-  inputs:
-    targetPath: '$(Build.ArtifactStagingDirectory)'
-    artifactName: site
-
 - task: AzureCLI@1
   displayName: 'Az Cli'
   inputs:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
-      ls -la $(Pipeline.Workspace)
-      ls -la $(Pipeline.Workspace)\Bundle
+      ls -la $(Pipeline.Workspace)/_site
       az --version
