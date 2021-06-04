@@ -46,10 +46,10 @@ steps:
 - script: |
     bundle install
     JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
-  displayName: 'jekyll'
+  displayName: 'Build by jekyll'
 
 - script: |
-    ls -la $(Pipeline.Workspace)/_site
+    ls -la $(Build.SourcesDirectory)/_site
   displayName: 'Check'
 
 - task: AzureCLI@1
