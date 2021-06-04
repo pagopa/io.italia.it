@@ -41,21 +41,31 @@ steps:
 - script: |
     gem install jekyll bundler
     bundle install --retry=3 --jobs=4
-  displayName: 'bundle install'
+  displayName: 'Bundle install'
 
 - script: |
     bundle install
     JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
-  displayName: 'Build by jekyll'
+  displayName: 'Build by Jekyll'
 
 - script: |
+    find . -type f | wc -l 
     ls -la $(Build.SourcesDirectory)/_site
-  displayName: 'Check'
+  displayName: 'Check Site'
 
 - task: AzureCLI@1
-  displayName: 'Az Cli'
+  displayName: 'Sync Storage'
   inputs:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
-      az --version
+      az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site"
+
+- task: AzureCLI@1
+  displayName: 'Purge CDN'
+  inputs:
+    azureSubscription: '$(AZURE_SUBSCRIPTION)'
+    scriptLocation: inlineScript
+    inlineScript: |
+      az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
+
