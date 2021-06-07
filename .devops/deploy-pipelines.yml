@@ -7,7 +7,7 @@ parameters:
     type: string
     default: prod
     values:
-      - dev
+      #- dev
       - prod
 
 # variables set on azdevops to avoid circular dependency warning
