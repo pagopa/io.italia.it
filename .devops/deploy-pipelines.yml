@@ -7,7 +7,7 @@ parameters:
     type: string
     default: prod
     values:
-      - dev
+      #- dev
       - prod
 
 # variables set on azdevops to avoid circular dependency warning
@@ -21,81 +21,51 @@ variables:
     PROFILE_CDN_NAME: $(DEV_PROFILE_CDN_NAME)
     ENDPOINT_NAME: $(DEV_ENDPOINT_NAME)
     RESOURCE_GROUP_NAME: $(DEV_RESOURCE_GROUP_NAME)
+    JEKYLL_ENV: production
   ${{ if eq(parameters['environment'], 'prod') }}:
     AZURE_SUBSCRIPTION: $(PROD_AZURE_SUBSCRIPTION)
     STORAGE_ACCOUNT_NAME: $(PROD_STORAGE_ACCOUNT_NAME)
     PROFILE_CDN_NAME: $(PROD_PROFILE_CDN_NAME)
     ENDPOINT_NAME: $(PROD_ENDPOINT_NAME)
     RESOURCE_GROUP_NAME: $(PROD_RESOURCE_GROUP_NAME)
+    JEKYLL_ENV: production
 
 pool:
   vmImage: 'ubuntu-latest'
 
-stages:
+steps:
+- task: UseRubyVersion@0
+  inputs:
+    versionSpec: '>= 2.6.4'
 
-  # Prepare Artifact with application bundle
-  - stage: Build
-    pool:
-      vmImage: 'ubuntu-latest'
-    jobs:
-      - job: 'make_build'
-        variables:
-          JEKYLL_ENV: production
-        steps:
-        
-          - task: UseRubyVersion@0
-            inputs:
-              versionSpec: '>= 2.6.4'
-          
-          - script: |
-              gem install jekyll bundler
-              bundle install --retry=3 --jobs=4
-            displayName: 'bundle install'
+- script: |
+    gem install jekyll bundler
+    bundle install --retry=3 --jobs=4
+  displayName: 'Bundle install'
 
-          - script: |
-              bundle install
-              JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
-            displayName: 'jekyll'
+- script: |
+    bundle install
+    JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
+  displayName: 'Build by Jekyll'
 
-          - task: CopyFiles@2
-            displayName: 'Copy Files to: $(Build.ArtifactStagingDirectory)'
-            inputs:
-              SourceFolder: '_site'
-              TargetFolder: '$(Build.ArtifactStagingDirectory)'
+- script: |
+    find . -type f | wc -l 
+    ls -la $(Build.SourcesDirectory)/_site
+    echo BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
+  displayName: 'Check Site'
 
-          - task: PublishBuildArtifacts@1
-            inputs:
-              pathtoPublish: '$(Build.ArtifactStagingDirectory)'
-              artifactName: Bundle
-              parallel: true
-              parallelCount: 128
+- task: AzureCLI@1
+  displayName: 'Sync Storage'
+  inputs:
+    azureSubscription: '$(AZURE_SUBSCRIPTION)'
+    scriptLocation: inlineScript
+    inlineScript: |
+      az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site"
 
-  # Deploy 
-  - stage: 'Deploy_to_${{ parameters.environment }}'
-    dependsOn:
-      - Build
-    pool:
-      vmImage: 'windows-2019'
-    jobs:
-      - job: 'deploy_to_container'
-        steps:
-          - checkout: none
-
-          - download: current
-            artifact: Bundle
-          
-          - task: AzureCLI@1
-            displayName: 'Sync Storage'
-            inputs:
-              azureSubscription: '$(AZURE_SUBSCRIPTION)'
-              scriptLocation: inlineScript
-              inlineScript: |
-                call az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Pipeline.Workspace)\Bundle"
-
-          - task: AzureCLI@1
-            displayName: 'Purge CDN'
-            inputs:
-              azureSubscription: '$(AZURE_SUBSCRIPTION)'
-              scriptLocation: inlineScript
-              inlineScript: |
-                call az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
+- task: AzureCLI@1
+  displayName: 'Purge CDN'
+  inputs:
+    azureSubscription: '$(AZURE_SUBSCRIPTION)'
+    scriptLocation: inlineScript
+    inlineScript: |
+      az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
