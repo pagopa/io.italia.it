@@ -54,19 +54,3 @@ steps:
     echo BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
   displayName: 'Check Site'
 
-- task: AzureCLI@1
-  displayName: 'Sync Storage'
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site"
-
-- task: AzureCLI@1
-  displayName: 'Purge CDN'
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
-
