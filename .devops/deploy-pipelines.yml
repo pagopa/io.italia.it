@@ -51,8 +51,8 @@ steps:
 - script: |
     find . -type f | wc -l 
     ls -la $(Build.SourcesDirectory)/_site
-    echo destination BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
-  displayName: 'Check Site'
+    echo BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
+  displayName: 'Check Site '
 
 - task: AzureCLI@1
   displayName: 'Sync Storage'
