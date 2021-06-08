@@ -64,6 +64,9 @@
             {%- endif %}
             
           </div><!--/dflex-->
+          {% if page.below_buttons %}
+            {%include {{page.below_buttons }} %}
+          {% endif %}
       {%endif %}
     </div>
     {%- if page.intro_image -%}

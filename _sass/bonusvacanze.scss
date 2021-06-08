@@ -1,5 +1,6 @@
 .pagename--bonus-vacanze,
-.pagename--cashback {
+.pagename--cashback,
+.pagename--covid-pass {
   // hack
   .page-wrapper {
     margin-bottom: -48px;
@@ -291,5 +292,67 @@ body[class*="pagename--cashback"] {
   }
   .widget-metodi-supportati.cards {
     background-color: #f2f7fc;
+  }
+}
+
+.pagename--covid-pass {
+  .covid-pass-processo {
+    background: radial-gradient(100% 100% at 50% 0%, #0073d1 0%, #00266b 100%);
+    &-item {
+      &-number {
+        color: #21dedf;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin: 0.5rem auto;
+      }
+      &-title {
+        color: #fff;
+        font-weight: 600;
+        font-size: 1.65rem;
+        line-height: 1.1;
+        margin: 1rem auto;
+      }
+      &-text {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.1rem;
+      }
+      &-img {
+        min-height: 85px;
+      }
+    }
+  }
+  #intro-slider {
+    .carousel-item {
+      img {
+        right: 650px;
+        @media screen and (min-width: $grid-breakpoints-md) {
+          right: auto;
+        }
+      }
+    }
+    &:after {
+      content: " ";
+      background: linear-gradient(
+        0deg,
+        #2d489d 10%,
+        rgba(0, 102, 204, 0.75) 50%
+      );
+      @media screen and (min-width: $grid-breakpoints-md) {
+        background: radial-gradient(
+          100% 100% at 0% 60%,
+          #2d489d 20%,
+          rgba(45, 72, 157, 0.35) 100%
+        );
+        max-width: 1280px;
+        margin: 0 auto;
+      }
+    }
+    background-color: #2d489d;
+  }
+  #introduzione {
+    &:before {
+      background-color: #2d489d;
+    }
   }
 }
