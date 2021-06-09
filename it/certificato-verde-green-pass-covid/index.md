@@ -3,13 +3,13 @@ layout: internal-w-slides
 title: Certificazione Verde COVID-19
 pre-title: Il Green Pass su IO
 image: "/assets/img/certificato-verde-green-pass-covid/social-card-covid-pass.jpg"
-description: La app IO è uno dei canali su cui è possibile ricevere la Certificazione Verde COVID-19 (EU Digital Covid Certificate), anche conosciuta come Green Pass.
+description: La app IO è uno dei canali su cui è possibile ricevere la Certificazione Verde COVID-19 (EU Digital COVID Certificate), anche conosciuta come Green Pass.
 subdescription: "Scarica l’ultima versione dell’app:"
 lang: it
 ref: covid-pass
 permalink: /certificato-verde-green-pass-covid/
 bannersup:
-  label: "La Certificazione Verde COVID-19 è disponibile su IO"
+  label: "Aspetti il tuo Certificato Verde? Appena disponibile, ti sarà inviato tramite un messaggio in app IO"
 introduction_slides:
   - /assets/img/certificato-verde-green-pass-covid/covid-pass-img.jpg
 intro_primary_text: "App Store"
