@@ -788,6 +788,7 @@ body.is-scrolled .section__2 .section-wrapper {
 }
 
 .section__covid-pass {
+  overflow-y: hidden;
   background: radial-gradient(
     100% 100% at 0% 97.11%,
     #0871b6 0%,
