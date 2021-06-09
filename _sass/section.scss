@@ -786,3 +786,34 @@ body.is-scrolled .section__2 .section-wrapper {
     );
   }
 }
+
+.section__covid-pass {
+  background: radial-gradient(
+    100% 100% at 0% 97.11%,
+    #0871b6 0%,
+    rgba(8, 113, 182, 0.1) 100%
+  );
+  background-color: #20908b;
+  position: relative;
+
+  z-index: 9;
+  .badge {
+    color: #000;
+  }
+  .lead {
+    font-size: 1rem;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      font-size: 1.2rem;
+    }
+  }
+  &-img {
+    margin-top: 15px;
+    height: 315px;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      margin-top: auto;
+      position: absolute;
+      height: 300px;
+      top: -15px;
+    }
+  }
+}

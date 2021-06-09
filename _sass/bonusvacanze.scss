@@ -296,6 +296,9 @@ body[class*="pagename--cashback"] {
 }
 
 .pagename--covid-pass {
+  .internal-page.w-slides {
+    margin-top: 56px;
+  }
   .covid-pass-processo {
     background: radial-gradient(100% 100% at 50% 0%, #0073d1 0%, #00266b 100%);
     &-item {
@@ -325,7 +328,7 @@ body[class*="pagename--cashback"] {
   #intro-slider {
     .carousel-item {
       img {
-        right: 650px;
+        right: 1010px;
         @media screen and (min-width: $grid-breakpoints-md) {
           right: auto;
         }
@@ -344,8 +347,6 @@ body[class*="pagename--cashback"] {
           #2d489d 20%,
           rgba(45, 72, 157, 0.35) 100%
         );
-        max-width: 1280px;
-        margin: 0 auto;
       }
     }
     background-color: #2d489d;
