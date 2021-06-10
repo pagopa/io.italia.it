@@ -17,11 +17,10 @@
         {{ site.title[current_lang] | smartify }}
         {%- endif -%}
     </title>
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
-
-      {% if page.assets.css %}
-    <link rel="stylesheet" href="{{ page.assets.css | append: '?' | append: buildTime | relative_url }}">
-      {%endif%}
+    <link rel="stylesheet"  href="{{ '/assets/selfhostedfonts.css' | relative_url }}">
+    {% if page.assets.css %}
+      <link rel="stylesheet" href="{{ page.assets.css | append: '?' | append: buildTime | relative_url }}">
+    {%endif%}
 
     
   </head>
