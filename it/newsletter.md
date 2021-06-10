@@ -1,6 +1,7 @@
 ---
 layout: naked
 title: La Newsletter
+has_recaptcha: true
 description: Le novità, gli aggiornamenti e le informazioni sull’app dei servizi pubblici
 lang: it
 image: /assets/img/social-card-newsletter.jpg
