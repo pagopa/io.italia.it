@@ -43,7 +43,9 @@
   {%- if jekyll.environment == 'production' -%}
     {%- include analytics/google-analytics.html -%}
   {%- endif -%}
+  {% if page.has_recaptcha == true %}
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  {% endif %}
 
   {% comment %}
   Content Security Policy

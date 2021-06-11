@@ -5,6 +5,7 @@
 layout: home
 lang: it
 ref: index
+has_recaptcha: true
 title_social: Homepage
 description_social: "Un unico punto di accesso per interagire in modo semplice e sicuro con i servizi pubblici locali e nazionali, direttamente dal tuo smartphone."
 redirect_from:
