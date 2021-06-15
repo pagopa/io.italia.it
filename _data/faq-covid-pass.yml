@@ -1,7 +1,10 @@
 it:
-  - title: Quando riceverò il Certificato Verde COVID-19 su IO?
-    body: "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale.\ 
-           Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita <https://www.dgc.gov.it> "
+  - title: Quando sarà attivo su IO il Certificato Verde COVID-19?
+    body: "La normativa italiana ha stabilito che la Certifcazione verde COVID-19, anche nota come Green Pass, verrà inviata anche su IO. Quindi, il servizio sarà disponibile in app non appena il Garante per la protezione dei dati personali avrà dato il via libera. I sistemi di IO sono già pronti a gestire questo servizio, che sarà attivo dal prossimo aggiornamento dell'app."
+  - title: Usando IO la mia privacy sarà tutelata? I miei dati personali saranno al sicuro?
+    body: "Sì. L’app IO e tutti i sistemi a essa collegati operano nel pieno rispetto del Regolamento Generale sulla protezione dei dati (GDPR). Quindi, ogni servizio esposto in app segue la normativa e i tuoi dati sono al sicuro. Inoltre, rispetto alla nuova funzionalità per la ricezione delle Certificazioni Verdi COVID-19 su IO, nessun dato sensibile legato alla tua situazione sanitaria verrà salvato in app."
+  - title: I miei dati saranno memorizzati su IO?
+    body: "I dati del tuo Certificato Verde COVID-19 vengono scaricati dalla Piattaforma Nazionale DGC solo quando vuoi visualizzare il certificato e vengono cancellati dal tuo dispositivo ogni volta che chiudi l'app IO. Non vengono salvati in nessun altro database, né in remoto né in locale. "
   - title: Se ho ottenuto l'attestato di guarigione da COVID-19 o fatto il vaccino diverso tempo fa, riceverò lo stesso il Certificato Verde su IO?
     body: "Sì, tutti certificati generati dalla Piattaforma Nazionale verranno inviati anche su IO, anche quelli relativi ad esempio a vaccinazioni completate nei mesi precedenti o ad attestati di guarigione da Covid-19 già rilasciati da tempo. Rispetto alla partenza dell'iniziativa, potrebbe essere necessario qualche giorno di attesa per ricevere tutti i vecchi certificati. Per saperne di più visita <https://www.dgc.gov.it>"
   - title: Posso ricevere su IO più di un certificato verde?
@@ -27,15 +30,17 @@ it:
   - title: Devo pagare per ricevere su IO il certificato?
     body: No, i Certificati Verdi COVID-19 su IO o su qualunque altro canale ufficiale sono sempre gratuiti.
   - title: "Ho appena fatto il vaccino, perché non trovo il mio certificato su IO?"
-    body: "Il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app. "
+    body: "Il servizio per ricevere la Certificazione Verde COVID-19 non è ancora attivo su IO. In generale, il sistema sanitario impiega del tempo per inviare i dati relativi alla tua vaccinazione alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app. "
+  - title: "Ho appena fatto un tampone, perché non trovo il mio certificato su IO?"
+    body: "Il servizio per ricevere la Certificazione Verde COVID-19 non è ancora attivo su IO. In generale, il sistema sanitario impiega del tempo per inviare i dati relativi alla tuo test negativo alla Piattaforma Nazionale DGC che genera i certificati, e serve ulteriore tempo per generare il grande numero di certificati necessari ogni giorno. Non temere, riceverai su IO un messaggio appena il tuo certificato sarà disponibile tramite l'app. "
   - title: "Dove trovo il mio Certificato Verde COVID-19 su IO?"
-    body: "I Certificati Verdi su IO sono inviati come un comune messaggio. Nella sezione messaggi, la prima che si apre all'avvio dell'app, potrai trovare i tuoi certificati."
+    body: "Il servizio per ricevere la Certificazione Verde COVID-19 non è ancora attivo su IO. In generale, i Certificati Verdi su IO sono inviati come un comune messaggio. Nella sezione messaggi, la prima che si apre all'avvio dell'app, potrai trovare i tuoi certificati."
   - title: "Il certificato digitale che trovo su IO sostituisce quello cartaceo?"
     body: "Sì, il certificato digitale e quello cartaceo contengono le stesse informazioni."
   - title: "In caso di quarantena per un contatto stretto con un positivo devo inviare una segnalazione attraverso IO?"
     body: "No, su IO ricevi semplicemente i Certificati Verdi COVID-19 e non è presente nell'app nessuna funzionalità per inviare segnalazioni al riguardo. In questo caso, la prima cosa da fare è chiedere consiglio al tuo medico che saprà suggeriti come procedere."
-  - title: "Perché il mio certificato su IO, fino a ieri visibile, è scomparso?"
-    body: "I certificati su IO non scompaiono, restano sempre a disposizione nell'elenco dei messaggi. Quando provi a visualizzare un certificato, questo viene scaricato in tempo reale dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute. In alcuni casi (certificati scaduti o annullati) potresti non vedere più il QR code e le informazioni di dettaglio. Potrai comunque contattare l'assistenza dedicata per avere maggiori informazioni."
+  - title: "Perché non vedo più il mio certificato verde su IO?"
+    body: "Il servizio per ricevere la Certificazione Verde COVID-19 non è ancora attivo su IO. Dal momento in cui lo sarà, considera che i certificati su IO non scompaiono, restano sempre a disposizione nell'elenco dei messaggi. Quando provi a visualizzare un certificato, questo viene scaricato in tempo reale dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute. In alcuni casi (certificati scaduti o annullati) potresti non vedere più il QR code e le informazioni di dettaglio. Potrai comunque contattare l'assistenza dedicata per avere maggiori informazioni."
   - title: "Devo avere la cittadinanza italiana per ricevere il certificato su IO?"
     body: "Per utilizzare IO devi disporre di SPID o della Carta di Identità Elettronica (CIE) abbinata al PIN che hai ricevuto al momento del rilascio. Se sei in possesso di questi pre-requisiti e se viene generato dalla Piattaforma Nazionale DGC un certificato associato al tuo codice fiscale, lo riceverai anche su IO."
   - title: "IO è l'unico canale attraverso cui ottenere il certificato?"
@@ -43,18 +48,18 @@ it:
   - title: "Che differenza c'è nell'ottenere il certificato su IO rispetto ad altri canali?"
     body: "Il certificato Verde COVID-19, le cui informazioni sono interamente contenute nel QR code, è sempre lo stesso, qualunque sia il canale attraverso cui scegli di ottenerlo. Per ricevere il tuo certificato tramite l'app IO, non è necessario fare nessuna richiesta esplicita, basta aver fatto accesso all'app con SPID o CIE almeno una volta e avere accettato i termini e condizioni d'uso. Inoltre, una volta ottenuto il certificato su IO, puoi salvare il relativo QR code nella galleria fotografica del tuo dispositivo con l'apposito pulsante, così da poterlo mostrare all'occorrenza anche in assenza di connessione.
 Se invece desideri avere il certificato anche in formato PDF così da poterlo stampare, ti consigliamo di utilizzare un canale diverso da IO. Consulta il sito dedicato <https://www.dgc.gov.it>"
-  - title: "I miei dati saranno memorizzati su IO?"
-    body: "I dati del tuo Certificato Verde COVID-19 vengono scaricati dalla Piattaforma Nazionale DGC solo quando vuoi visualizzare il certificato e vengono cancellati dal tuo dispositivo ogni volta che chiudi l'app IO. Non vengono salvati in nessun altro database, né in remoto né in locale. "
   - title: "Cosa succede se, dopo aver ricevuto il certificato, disattivo IO?"
     body: "Se hai salvato il certificato come immagine sul tuo dispositivo, continuerà ad essere disponibile. Altrimenti potrai scaricarlo nuovamente attraverso gli altri canali disponibili. Consulta il sito dedicato <https://www.dgc.gov.it> "
   - title: "Posso disattivare il servizio per l'ottenimento del Certificato Verde COVID-19 su IO?"
-    body: "Certamente. Se disattivi il servizio relativo ai Certificati Verdi COVID-19 erogati dal Ministero della Salute dalla sezione \"Servizi\" dell'app, da quel momento non riceverai più i tuoi certificati tramite IO, ma saranno comunque disponibili sugli altri canali. Consulta il sito dedicato <https://www.dgc.gov.it> "
+    body: "Certamente. Se disattivi il servizio relativo ai Certificati Verdi COVID-19 erogati dal Ministero della Salute dalla sezione \"Servizi\" dell'app, da quel momento non riceverai più i tuoi certificati tramite IO, ma saranno comunque disponibili sugli altri canali. Consulta il sito dedicato <https://www.dgc.gov.it>"
   - title: "Posso ricevere su IO anche altri referti sanitari?"
     body: "Dipende: se la tua Regione, l'ASL o altri enti che emettono referti sanitari hanno deciso di usare IO, potresti ricevere anche informazioni di questo tipo. Ma si tratta di un servizio distinto da quello erogato dal Ministero della Salute tramite la Piattaforma Nazionale DGC per le Certificazioni Verdi COVID-19 digitali."
+  - title: "Fino a quando è valido il mio certificato su IO?"
+    body: "Il certificato Verde su IO ha la stessa validità dei certificati ottenibili presso gli altri canali. La decisione sulla durata della validità dei certificati è indipendente da IO e spetta alle autorità competenti. Consulta il sito dedicato <https://www.dgc.gov.it> ed eventualmente il sito del Ministero della Salute <https://www.salute.gov.it> per maggiori informazioni."
   - title: "Per ottenere il certificato su IO devo per forza prima aggiornare l'app all'ultima versione disponibile?"
     body: "Si. Le funzionalità che consentono di visualizzare il Certificato Verde COVID-19 sono state realizzate ad hoc e non erano disponibili nelle versioni precedenti: per questo è necessario aggiornare l'app per visualizzare il certificato. Ricorda che l'app IO sarà per sempre gratuita, e che per l'aggiornamento bastano pochi secondi."
-  - title: "Ho ricevuto tramite sms/mail il CUN (Codice Univoco Nazionale), dove va inserito all'interno dell'app?"
-    body: "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile. Puoi utilizzare il codice CUN sugli altri canali; per saperne di più visita il sito <https://www.dgc.gov.it>"
+  - title: "Ho ricevuto tramite sms/mail il codice AUTHCODE dove va inserito all'interno dell'app?"
+    body: "Sull'app IO non devi inserire alcun codice: riceverai un messaggio non appena il tuo Certificato Verde sarà disponibile. Puoi utilizzare il codice AUTHCODE sugli altri canali; per saperne di più visita il sito <https://www.dgc.gov.it>"
   - title: "Come posso ricevere assistenza tecnica tramite IO?"
     body: "L'assistenza dell'app IO, raggiungibile tramite l'icona con il punto di domanda presente in alto a destra dell'app, ti risponderà solo se hai problemi relativi al funzionamento dell'applicazione. Se hai dubbi o domande sul certificato, puoi rivolgerti ai canali di assistenza disponibili sul sito dedicato <https://www.dgc.gov.it>"
   - title: "Posso ricevere assistenza attraverso IO anche per informazioni su aspetti sanitari? "
@@ -65,3 +70,7 @@ Se invece desideri avere il certificato anche in formato PDF così da poterlo st
     body: "Il QR code del certificato deve contenere molti dati, e per questo è piuttosto complesso. Il modo migliore per mostrare il certificato, così da renderlo più facilmente leggibile ed evitare che si deteriori nel tempo, è tramite il tuo smartphone o tablet. E, per rispettare l'ambiente, ti consigliamo di stampare documenti solo quando è strettamente necessario! :) Potrai comunque ottenere il certificato come PDF stampabile tramite gli altri canali. Consulta il sito dedicato <https://www.dgc.gov.it>"
   - title: "Dove posso salvare il certificato sull'app IO?"
     body: "Premendo il pulsante \"Salva\", puoi salvare il QR code del certificato nella galleria immagini del tuo dispositivo per poterlo usare anche se non sei connesso ad internet."
+  - title: "In quali Paesi posso viaggiare vedendo riconosciuto il mio certificato?"
+    body: "Per questo tipo d'informazione consulta il sito dedicato <https://www.dgc.gov.it>  e il portale Ue <https://reopen.europa.eu/it>"
+  - title: "In quali casi il certificato viene richiesto sul territorio nazionale?"
+    body: "Per questo tipo d'informazione consulta il sito dedicato <https://www.dgc.gov.it>"
