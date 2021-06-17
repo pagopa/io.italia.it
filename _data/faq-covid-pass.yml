@@ -36,7 +36,7 @@ it:
   - title: "Dove trovo il mio Certificato Verde COVID-19 su IO?"
     body: "Il servizio per ricevere la Certificazione Verde COVID-19 non è ancora attivo su IO. In generale, i Certificati Verdi su IO sono inviati come un comune messaggio. Nella sezione messaggi, la prima che si apre all'avvio dell'app, potrai trovare i tuoi certificati."
   - title: "Il certificato digitale che trovo su IO sostituisce quello cartaceo?"
-    body: "Sì, il certificato digitale e quello cartaceo contengono le stesse informazioni."
+    body: "La Certificazione verde COVID-19, emessa dalla piattaforma nazionale del Ministero della Salute, è in formato digitale. Su alcuni canali alternativi all'app IO è anche disponibile in versione PDF stampabile per chi desideri averne una copia cartacea. In ogni caso, entrambi i formati contengono le stesse informazioni che identificano il tuo certificato (un QR Code e un sigillo elettronico qualificato). Per maggiori dettagli sugli altri canali: <https://www.dgc.gov.it>"
   - title: "In caso di quarantena per un contatto stretto con un positivo devo inviare una segnalazione attraverso IO?"
     body: "No, su IO ricevi semplicemente i Certificati Verdi COVID-19 e non è presente nell'app nessuna funzionalità per inviare segnalazioni al riguardo. In questo caso, la prima cosa da fare è chiedere consiglio al tuo medico che saprà suggeriti come procedere."
   - title: "Perché non vedo più il mio certificato verde su IO?"
