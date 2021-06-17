@@ -25,6 +25,8 @@ it:
             url: /bonus-vacanze/
           - label: Cashback
             url: /cashback/
+          - label: Certificazione Verde COVID-19
+            url: /certificato-verde-green-pass-covid/
       - label: Tutti i servizi
         items:
           - label: Enti Nazionali
@@ -46,4 +48,6 @@ it:
         url: /bonus-vacanze/faq/
       - label: Cashback
         url: /cashback/faq/
+      - label: Certificazione Verde COVID-19
+        url: /certificato-verde-green-pass-covid/faq/
   
