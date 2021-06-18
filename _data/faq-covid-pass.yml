@@ -24,6 +24,8 @@ Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ric
     body: "Sì, su IO ricevi i certificati non appena sono generati dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute. Puoi comunque ottenere i certificati attraverso gli altri canali disponibili. Per saperne di più vai su <https://www.dgc.gov.it>"
   - title: Posso ricevere su IO i certificati dei miei familiari?
     body: "No, su IO vengono inviati esclusivamente i certificati relativi all'utente autenticato nell'app attraverso le proprie credenziali SPID o CIE. Puoi comunque ottenere i certificati relativi ai tuoi familiari attraverso gli altri canali disponibili. Per saperne di più vai su <https://www.dgc.gov.it>"
+  - title: Posso ricevere il certificato su IO anche se sono minorenne?
+    body: "Sì, per ricevere i tuoi certificati accedi a IO con la tua Carta d'Identità Elettronica."
   - title: Posso creare un account su IO a mio/a figlio/a minorenne dal mio dispositivo tramite la sua CIE e ricevere così anche il suo certificato?
     body: Sì, se tuo figlio ha CIE e il relativo PIN. Ma se hai ricevuto via mail o SMS il codice relativo ai certificati di tuo figlio, il modo più semplice per ricevere i suoi certificati è usare uno degli altri canali disponibili (che non richiedono autenticazione). Per saperne di più vai su <https://www.dgc.gov.it>
   - title: Il certificato che ricevo su IO vale sia in Italia che all'estero?
@@ -75,3 +77,6 @@ Se invece desideri avere il certificato anche in formato PDF così da poterlo st
     body: "Per questo tipo d'informazione consulta il sito dedicato <https://www.dgc.gov.it>  e il portale Ue <https://reopen.europa.eu/it>"
   - title: "In quali casi il certificato viene richiesto sul territorio nazionale?"
     body: "Per questo tipo d'informazione consulta il sito dedicato <https://www.dgc.gov.it>"
+  - title: "Usi Android e non riesci ad aggiornare IO?"
+    body: "Per provare a risolvere il problema, ti consigliamo di chiudere l'app 'Play Store' e successivamente premere questo link: <https://play.google.com/store/apps/details?id=it.pagopa.io.app> \n\n
+           In alternativa, riavvia il tuo dispositivo Android e [aggiorna nuovamente app IO dal Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app)"
