@@ -13,6 +13,8 @@ intro_primary_link:
 noheight: true
 extra_scripts:
   - "/assets/js/entilist.js"
+redirect_from:
+  - /enti-partecipanti-beta/
 ---
 
 {% include enti-list.html %}
