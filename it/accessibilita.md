@@ -91,4 +91,4 @@ Il responsabile dei processi di integrazione non è previsto nella struttura e n
 
 Procedura di attuazione ai sensi dell’art. 3-quinquies, comma 3, L. 9 gennaio 2004, n. 4 s.m.i. L’utente può inviare il reclamo al Difensore civico per il digitale, istituito ai sensi dell’art. 17 comma 1-quater CAD, esclusivamente a seguito di risposta insoddisfacente o mancata risposta al feedback notificato al soggetto erogatore.
 
-[Reclamo al Difensore civico per il digitale](https://form.agid.gov.it/form/procedura-attuazione/2a9e50ae-a7b6-4859-882a-3aa49a5c071b/)
+[Reclamo al Difensore civico per il digitale](mailto:protocollo@pec.agid.gov.it)
