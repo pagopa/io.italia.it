@@ -7,6 +7,7 @@ permalink: /accessibilita/
 redirect_from:
   - /it/accessibilita/
 narrow: true
+noheight: true
 ---
 
 ## Sezione 1
