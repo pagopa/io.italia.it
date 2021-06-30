@@ -2,7 +2,6 @@
 layout: internal-w-slides
 title: Partecipa al Cashback con l'app IO
 image: "/assets/img/cashback/social-card-cashback.jpg"
-pre-title: Servizio attivo
 description: "Lo scorso 8 dicembre 2020 ha preso il via il programma Cashback: iscriviti e attiva i tuoi metodi di pagamento per ottenere un rimborso sui tuoi acquisti effettuati con carte e app di pagamento sul territorio nazionale. Potrai concorrere anche all’assegnazione del Super Cashback.
 <span class=\"small d-block mt-2\">Il “Cashback” è una delle iniziative del <a href=\"https://www.cashlessitalia.it\" class=\"font-weight-bold text-white\">Piano Italia Cashless</a> promosso dal Governo.</span>
 <a href=\"/cashback/guida/\" class=\"d-block mt-2 small text-white\" >Leggi la Guida al Cashback completa</a>"
@@ -11,6 +10,8 @@ subdescription: "Iscriviti e attiva i tuoi metodi di pagamento"
 lang: it
 ref: cashback
 permalink: /cashback/
+bannersup:
+  label: "Inserire testo relativo alla sospensione"
 introduction_slides:
     - /assets/img/cashback/empty.png
 intro_image: "/assets/img/cashback/logo-cashback.svg"
