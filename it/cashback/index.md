@@ -11,7 +11,7 @@ lang: it
 ref: cashback
 permalink: /cashback/
 bannersup:
-  label: "Il periodo del Cashback che va dal 01/07 al 31/12/2021 è stato sospeso per decisione del Governo. I rimborsi relativi al periodo terminato il 30/06/2021 saranno erogati come previsto dalla Guida."
+  label: "Il periodo del Cashback che va dal 01/07 al 31/12/2021 è stato sospeso per decisione del Governo. Il prossimo periodo inizierà il 1° gennaio 2022."
 introduction_slides:
     - /assets/img/cashback/empty.png
 intro_image: "/assets/img/cashback/logo-cashback.svg"
