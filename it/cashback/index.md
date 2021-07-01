@@ -11,7 +11,7 @@ lang: it
 ref: cashback
 permalink: /cashback/
 bannersup:
-  label: "Il periodo del Cashback che va dal 01/07 al 31/12/2021 è stato sospeso per decisione del Governo. Il prossimo periodo inizierà il 1° gennaio 2022."
+  label: "Il periodo del Cashback che va dal 01/07 al 31/12 2021 è sospeso, come stabilito nel [Decreto Legge 30 giugno 2021 n. 99](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-06-30&atto.codiceRedazionale=21G00110&elenco30giorni=true). Il prossimo periodo inizierà l’1 gennaio 2022"
 introduction_slides:
     - /assets/img/cashback/empty.png
 intro_image: "/assets/img/cashback/logo-cashback.svg"
