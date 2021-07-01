@@ -284,3 +284,13 @@ Stiamo lavorando con i soggetti del settore dei pagamenti coinvolti nell’inizi
   - title: Perché vedo il rimborso a cui ho diritto espresso in migliaia?
     body: "In alcuni dispositivi il messaggio sul cashback a cui hai diritto riporta la cifra in un formato errato (cioè un punto al posto della virgola, prima dei centesimi di euro): verrà corretto a partire dalla prossima versione dell'app. Il valore corretto è quello riportato nella card del Cashback: ti ricordiamo che  in ciascun periodo puoi accumulare al massimo € 150,00 di rimborso."
     cat: "5|I rimborsi"
+  - title: Cosa significa che il Cashback è sospeso? 
+    body: "Il [Decreto Legge 30 giugno 2021 n. 99](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-06-30&atto.codiceRedazionale=21G00110&elenco30giorni=true) ha stabilito la sospensione del Programma Cashback per il **solo periodo che va dall’1 luglio al 31 dicembre 2021**. Al momento, il provvedimento prevede che il programma riparta nel semestre che va dall’1 gennaio 2022 al 30 giugno 2022. "
+    cat: "10|Sospensione del Cashback"
+  - title: Riceverò lo stesso i rimborsi maturati nel primo semestre 2021?
+    body: "Sì, la sospensione del secondo semestre del Cashback (come previsto dal [DL 30 giugno 2021, n.99](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-06-30&atto.codiceRedazionale=21G00110&elenco30giorni=true)) **non comporta in alcun modo la perdita dell’importo a cui hai diritto**, relativo al periodo compreso tra l’1 gennaio e il 30 giugno 2021. "
+    cat: "10|Sospensione del Cashback"
+  - title: Sono stati modificati i termini per l’accredito dei rimborsi? 
+    body: "Sì, ma solo in parte. Riceverai **il rimborso relativo al Cashback**, per un importo massimo di 150 euro, **entro 60 giorni dalla fine del periodo** (concluso al 30.06.2021), come già previsto dall'inizio del Programma.\n\n
+Il cambiamento stabilito dal [DL 30 giugno 2021, n.99](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-06-30&atto.codiceRedazionale=21G00110&elenco30giorni=true) riguarda **solo l’accredito del Super Cashback**: se ne hai diritto, riceverai quello relativo al primo semestre del 2021 (quindi per le transazioni effettuate dall’1 gennaio al 30 giugno 2021) **entro il 30 novembre 2021** e quello relativo al primo semestre del 2022 (per le transazioni effettuate dall’1 gennaio al 30 giugno 2022) entro il 30 novembre 2022. "
+    cat: "10|Sospensione del Cashback"
