@@ -35,14 +35,19 @@ it:
     disponibili a tutti i cittadini. Inoltre, tutti gli utenti potranno inviare segnalazioni o messaggi al team di sviluppo di IO, utilizzando gli appositi strumenti direttamente dall’app."
     cat: "1|Generali"
   - title: Quali servizi sono già disponibili sull’app?
-    body: "Questo dipende da dove risiedi. Sono già diverse migliaia i servizi erogati dagli enti locali e nazionali tramite IO e molti se ne aggiungeranno in futuro;\
-     a [questo link](https://io.italia.it/enti/) puoi consultare la lista, in continuo aggiornamento, di quelli già integrati e disponibili all’interno della sezione Servizi dell’app."
+    body: "Questo dipende da dove risiedi. Sono già diverse migliaia i servizi erogati dagli enti locali e nazionali tramite IO e molti se ne aggiungeranno in futuro; a [questo link](https://io.italia.it/enti/) puoi consultare la lista, in continuo aggiornamento, di quelli già integrati e disponibili all’interno della sezione Servizi dell’app."
     cat: "2|Servizi Disponibili"
-  - title: Come trovo i servizi che mi interessano?
-    body: "Dopo aver effettuato l’accesso, la lista completa degli Enti nazionali e locali con i relativi servizi già disponibili su IO è consultabile dalla sezione Servizi dell’app;\
-     nella lista dei servizi locali, puoi usare la funzione di ricerca per verificare se c’è anche il tuo Comune o altri Enti di un’area geografica di tuo interesse.\
-     \nAttenzione! Vedere la lista completa dei servizi non significa che ti contatteranno servizi che non ti riguardano: tramite IO, gli enti comunicano con te solo se in possesso del tuo codice fiscale e nel momento in cui hanno necessità di inviarti comunicazioni importanti.\
-     \nPuoi comunque modificare le tue preferenze di comunicazione in ogni momento, da 'Profilo > Preferenze' o visitando la scheda di ciascun servizio."
+  - title: Come posso usare i servizi in lista?
+    body: "Dipende dal servizio. Se nel dettaglio di un servizio non trovi alcun pulsante, è perché non è richiesta alcuna azione da parte tua: quando l'Ente ha qualcosa di importante da comunicarti, ti manderà in automatico un messaggio in app. In altri casi invece puoi trvoare il pulsante per utilizzare il servizio."
+    cat: "2|Servizi Disponibili"
+  - title: Che tipo di comunicazioni posso ricevere?
+    body: "IO manda solo messaggi utili e rivolti proprio a te: gli enti erogatori dei servizi devono conoscere il tuo codice fiscale per poterti scrivere e questo è garanzia del fatto che hanno già una relazione con te. \
+    Usando la configurazione rapida non devi pensare a niente e riceverai i messaggi che ti riguardano anche dai servizi che arriveranno in futuro. \
+    Puoi comunque modificare le tue preferenze di comunicazione in ogni momento, da 'Profilo > Preferenze' o visitando la scheda di ciascun servizio."
+    cat: "2|Servizi Disponibili"
+  - title: Cosa succede se utilizzo la confgurazione manuale?
+    body: "La configurazione manuale spegne la comunicazione di tutti i servizi, quelli attualmente presenti e quelli che arriveranno in futuro. Per ricevere i messaggi dai servizi che ti interessano dovrai configurarli uno a uno dalle relative schede servizio. \
+    Spegnendo la comunicazione tramite IO, l'ente che eroga il servizio potrà comunque contattarti attraverso i canali tradizionali disponibili (es. e-mail, posta, SMS)."
     cat: "2|Servizi Disponibili"
   - title: Come fanno gli Enti pubblici a portare i propri servizi su IO?
     body: "Tutti gli enti pubblici, nazionali e locali, possono già aggiungere i propri servizi liberamente su IO e potranno continuare a farlo dopo l’arrivo dell’app negli store nella primavera 2020.\ 
