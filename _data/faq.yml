@@ -35,13 +35,14 @@ it:
     disponibili a tutti i cittadini. Inoltre, tutti gli utenti potranno inviare segnalazioni o messaggi al team di sviluppo di IO, utilizzando gli appositi strumenti direttamente dall’app."
     cat: "1|Generali"
   - title: Quali servizi sono già disponibili sull’app?
-    body: "Questo dipende da dove risiedi. Inizialmente, sull’app troverai alcuni servizi nazionali e molti se ne aggiungeranno in futuro. La maggior parte dei servizi disponibili su IO saranno,\ 
-    invece, erogati dagli enti locali, come Comuni e Regioni; dopo aver eseguito l’accesso all’app, sarà IO a mostrarti la lista completa dei servizi già attivi nell’area geografica di tuo interesse."
+    body: "Questo dipende da dove risiedi. Sono già diverse migliaia i servizi erogati dagli enti locali e nazionali tramite IO e molti se ne aggiungeranno in futuro;\
+     a [questo link](https://io.italia.it/enti/) puoi consultare la lista, in continuo aggiornamento, di quelli già integrati e disponibili all’interno della sezione Servizi dell’app."
     cat: "2|Servizi Disponibili"
-  - title: Quanto tempo servirà per avere un numero significativo di servizi pubblici su IO?
-    body: "L’arrivo della prima versione beta pubblica di IO sugli store nella primavera 2020 dà inizio al percorso che, progressivamente, porterà gli Enti - nazionali e locali -\ 
-    a far convergere su IO un numero sempre maggiore di servizi pubblici. Ogni ente pubblico può portare in qualsiasi momento i propri servizi su IO, ma stimiamo che il periodo di tempo necessario affinché\ 
-    l’app IO veicoli la maggioranza dei servizi essenziali sia di circa due anni."
+  - title: Come trovo i servizi che mi interessano?
+    body: "Dopo aver effettuato l’accesso, la lista completa degli Enti nazionali e locali con i relativi servizi già disponibili su IO è consultabile dalla sezione Servizi dell’app;\
+     nella lista dei servizi locali, puoi usare la funzione di ricerca per verificare se c’è anche il tuo Comune o altri Enti di un’area geografica di tuo interesse.\
+     \nAttenzione! Vedere la lista completa dei servizi non significa che ti contatteranno servizi che non ti riguardano: tramite IO, gli enti comunicano con te solo se in possesso del tuo codice fiscale e nel momento in cui hanno necessità di inviarti comunicazioni importanti.\
+     \nPuoi comunque modificare le tue preferenze di comunicazione in ogni momento, da 'Profilo > Preferenze' o visitando la scheda di ciascun servizio."
     cat: "2|Servizi Disponibili"
   - title: Come fanno gli Enti pubblici a portare i propri servizi su IO?
     body: "Tutti gli enti pubblici, nazionali e locali, possono già aggiungere i propri servizi liberamente su IO e potranno continuare a farlo dopo l’arrivo dell’app negli store nella primavera 2020.\ 
