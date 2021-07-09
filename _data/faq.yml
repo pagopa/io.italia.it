@@ -38,14 +38,14 @@ it:
     body: "Questo dipende da dove risiedi. Sono già diverse migliaia i servizi erogati dagli enti locali e nazionali tramite IO e molti se ne aggiungeranno in futuro; a [questo link](https://io.italia.it/enti/) puoi consultare la lista, in continuo aggiornamento, di quelli già integrati e disponibili all’interno della sezione Servizi dell’app."
     cat: "2|Servizi Disponibili"
   - title: Come posso usare i servizi in lista?
-    body: "Dipende dal servizio. Se nel dettaglio di un servizio non trovi alcun pulsante, è perché non è richiesta alcuna azione da parte tua: quando l'Ente ha qualcosa di importante da comunicarti, ti manderà in automatico un messaggio in app. In altri casi invece puoi trvoare il pulsante per utilizzare il servizio."
+    body: "Dipende dal servizio. Se nel dettaglio di un servizio non trovi alcun pulsante, è perché non è richiesta alcuna azione da parte tua: quando l'Ente ha qualcosa di importante da comunicarti, ti manderà in automatico un messaggio in app. In altri casi, invece, puoi trovare il pulsante per utilizzare il servizio."
     cat: "2|Servizi Disponibili"
   - title: Che tipo di comunicazioni posso ricevere?
     body: "IO manda solo messaggi utili e rivolti proprio a te: gli enti erogatori dei servizi devono conoscere il tuo codice fiscale per poterti scrivere e questo è garanzia del fatto che hanno già una relazione con te. \
     Usando la configurazione rapida non devi pensare a niente e riceverai i messaggi che ti riguardano anche dai servizi che arriveranno in futuro. \
     Puoi comunque modificare le tue preferenze di comunicazione in ogni momento, da 'Profilo > Preferenze' o visitando la scheda di ciascun servizio."
     cat: "2|Servizi Disponibili"
-  - title: Cosa succede se utilizzo la confgurazione manuale?
+  - title: Cosa succede se utilizzo la configurazione manuale?
     body: "La configurazione manuale spegne la comunicazione di tutti i servizi, quelli attualmente presenti e quelli che arriveranno in futuro. Per ricevere i messaggi dai servizi che ti interessano dovrai configurarli uno a uno dalle relative schede servizio. \
     Spegnendo la comunicazione tramite IO, l'ente che eroga il servizio potrà comunque contattarti attraverso i canali tradizionali disponibili (es. e-mail, posta, SMS)."
     cat: "2|Servizi Disponibili"
