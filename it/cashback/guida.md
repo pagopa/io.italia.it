@@ -50,7 +50,7 @@ d) di essere consapevole di dover possedere tutti i requisiti autodichiarati **s
 Il **Cashback** è una delle iniziative del [Piano Italia Cashless](https://www.cashlessitalia.it) previste dalla Legge di
 Bilancio 2020 (art. 1, commi da 288 a 290, legge del 27 dicembre 2019,
 n. 160, come successivamente modificata e integrata) e dal [Decreto 24 novembre 2020, n. 156 emesso dal Ministro dell'Economia e delle
-Finanze](https://www.gazzettaufficiale.it/eli/id/2020/11/28/20G00181/sg)
+Finanze](https://www.gazzettaufficiale.it/eli/id/2020/11/28/20G00181/sg), come modificato dal [Decreto Legge 30 giugno 2021, n. 99](https://www.gazzettaufficiale.it/eli/id/2021/06/30/21G00110/sg).
 
 Il **Cashback** ti offre la possibilità di ottenere **un rimborso in denaro** in base agli acquisti effettuati, entro un certo periodo e a
 titolo privato, con **strumenti di pagamento elettronici**. Il
@@ -80,9 +80,9 @@ Pertanto, **sono esclusi** dal Programma:
 
 ### Quando inizia il Programma e quanto dura?
 
-Il Cashback si articola in **quattro periodi**. Il primo periodo sperimentale, detto **"Extra Cashback di Natale"**, inizia l'8 dicembre
-2020 e termina il 31 dicembre 2020. Successivamente, a partire dal 1° gennaio 2021, sono previsti tre ulteriori periodi della durata di sei
-mesi ciascuno, come riportato nella tabella sottostante.
+Il Cashback si articola in **Periodi**. Il primo periodo sperimentale, detto **"Extra Cashback di Natale"**, è iniziato l'8 dicembre
+2020 ed è terminato il 31 dicembre 2020. Successivamente, a partire dal 1° gennaio 2021, sono previsti ulteriori periodi della durata di sei
+mesi ciascuno, come riportato nella tabella sottostante.  A seguito delle modifiche apportate dal [Decreto Legge 30 giugno 2021, n. 99](https://www.gazzettaufficiale.it/eli/id/2021/06/30/21G00110/sg) **il secondo Semestre del Programma  (dal 1° luglio 2021 al 31 dicembre 2021) è stato sospeso**.
 
 <table class="table">
 <tr>
@@ -98,7 +98,7 @@ mesi ciascuno, come riportato nella tabella sottostante.
 <td>dal 1° gennaio 2021 al 30 giugno 2021</td>
 </tr>
 <tr>
-<td><b>2° Semestre</b></td>
+<td><b>2° Semestre SOSPESO/NON OPERATIVO</b></td>
 <td>dal 1° luglio 2021 al 31 dicembre 2021</td>
 </tr>
 <tr>
@@ -136,11 +136,11 @@ Al momento dell'adesione:
 
 Per partecipare, ti serve fornire:
 
-- il tuo **Codice Fiscale**
+- il tuo **Codice Fiscale°**
 - gli **estremi identificativi di uno o più Strumenti di Pagamento elettronici** che utilizzerai ai fini del Programma
 - il **codice IBAN** a te intestato per l'**erogazione dei rimborsi** tramite bonifico.
 
-_Nota: nel caso di registrazione al Cashback tramite l'App IO, il
+_°Nota: nel caso di registrazione al Cashback tramite l'App IO, il
 Codice Fiscale sarà ricavato in automatico dall'identità digitale SPID
 o dalla Carta d'Identità Elettronica (CIE) con cui hai effettuato il
 primo login all'App; non sarà quindi necessario reinserirlo
@@ -157,14 +157,14 @@ Diversamente, le transazioni effettuate con quella carta non potranno
 essere conteggiate ai fini della tua partecipazione al Cashback.
 
 Il **calcolo delle transazioni** necessarie per ottenere il rimborso ha
-**inizio, per ciascun Periodo del Programma, al momento del primo
+**inizio, per ciascuno dei Periodi operativi del Programma, al momento del primo
 acquisto** che effettuerai con lo strumento di pagamento registrato.
 
 <b style="color: red">NOTA BENE:</b>
 
 1.  La registrazione di uno strumento di pagamento - sull'App IO o sugli altri sistemi messi a disposizione dagli Issuer Convenzionati richiede dei **tempi tecnici per essere operativa** e consentire, quindi, l'acquisizione delle transazioni eseguite con tale Strumento ai fini del Programma. In particolare, quando registri uno strumento di pagamento all'interno dell'App IO, questo è attivo dal giorno stesso ma **saranno conteggiati come validi per il Cashback gli acquisti effettuati a partire dalle ore 00:01 del giorno seguente** all'attivazione.
 
-2.  Affinché una tua transazione possa essere acquisita ai fini del Programma, è **necessario che l'Esercente abbia concluso un accordo con un "Acquirer Convenzionato"** **per la gestione dei pagamenti con strumenti di pagamento elettronici**. Quindi,<u>prima di eseguire un pagamento, chiedi all'Esercente presso il quale effettui i tuoi acquisti se partecipa al Cashback.</u>
+2.  Affinché una tua transazione possa essere acquisita ai fini del Programma, è **necessario che l'Esercente abbia concluso un accordo con un "Acquirer Convenzionato"** **per la gestione dei pagamenti con strumenti di pagamento elettronici**. Quindi, <u>prima di eseguire un pagamento, chiedi all'Esercente</u>  presso il quale effettui i tuoi acquisti se partecipa al Cashback.
 
 3.  Le tue transazioni sono acquisite dal Programma **dopo essere state contabilizzate** dagli operatori di pagamento. Per questo motivo, potrebbero essere necessari **fino a 3 giorni lavorativi (successivi al pagamento)** prima di poter visualizzare una transazione eseguita con lo Strumento di Pagamento che hai registrato ai fini del Cashback.
 
@@ -177,9 +177,9 @@ Partecipano al Cashback le transazioni effettuate tramite POS fisici o altri dis
 - **carte prepagate**;
 - **le cosiddette carte fedeltà, ovvero carte e app di pagamento connesse a circuiti privativi e/o a spendibilità limitata** (<u>esclusi, quindi, quelli solo per accumulo punti</u>);
 - **app di pagamento**, come <u>ad esempio</u> Satispay o BANCOMAT Pay;
-- **altri sistemi di pagamento**, come <u>ad esempio</u> Google Pay e Apple Pay (a partire dal 2021).
+- **altri sistemi di pagamento**, come <u>ad esempio</u> Google Pay e Apple Pay (dal 2021).
 
-<b style="color:red"><u>Nota bene</u></b> All'avvio del Programma, **alcuni strumenti di pagamento elettronici che utilizzi potrebbero NON essere registrabili da subito**, seppur inclusi nelle categorie di cui sopra. Questo potrebbe dipendere dai tempi tecnici necessari per rendere operativi gli
+<b style="color:red"><u>Nota bene</u></b> **Alcuni strumenti di pagamento elettronici che utilizzi potrebbero NON essere registrabili da subito**, seppur inclusi nelle categorie di cui sopra. Questo potrebbe dipendere dai tempi tecnici necessari per rendere operativi gli
 strumenti di pagamento elettronici nell'ambito del Cashback.
 [_Verifica quali carte e app di pagamento puoi già attivare_](http://io.italia.it/metodi-pagamento/)
 
@@ -187,10 +187,10 @@ strumenti di pagamento elettronici nell'ambito del Cashback.
 
 La partecipazione al Cashback prevede **due tipologie di rimborso**:
 
-- a. un **rimborso in misura percentuale ("Cashback ") per ogni transazione** eseguita con uno Strumento di Pagamento elettronico registrato per l'adesione del Programma; questa tipologia di > rimborso è <u>prevista, a condizioni diverse, rispettivamente nel Periodo Sperimentale (Extra Cashback di Natale) e nei tre Semestri successivi</u>.
-  b. un **rimborso speciale ("Super Cashback")** **di tipo forfettario** **erogato sulla base di una graduatoria** che tiene conto del numero di transazioni effettuate entro un dato Periodo del Programma con gli Strumenti di Pagamento elettronici registrati; questa tipologia di rimborso <u>NON è prevista per il Periodo Sperimentale (Extra Cashback di Natale)</u>.
+- a. un **rimborso in misura percentuale ("Cashback ") per ogni transazione** eseguita con uno Strumento di Pagamento elettronico registrato per l'adesione del Programma; questa tipologia di rimborso è <u>prevista, a condizioni diverse, rispettivamente nel Periodo Sperimentale (Extra Cashback di Natale) e nei successivi Semestri operativi del Programma</u>.
+- b. un **rimborso speciale ("Super Cashback")** **di tipo forfettario** **erogato sulla base di una graduatoria** che tiene conto del numero di transazioni effettuate entro un dato Periodo operativo del Programma con gli Strumenti di Pagamento elettronici registrati; questa tipologia di rimborso <u>NON è prevista per il Periodo Sperimentale (Extra Cashback di Natale)</u>.
 
-<b style="color:red">NOTA BENE</b>: Al termine di ciascun Periodo, si conclude il conteggio
+<b style="color:red">NOTA BENE</b>: Al termine di ciascun Periodo operativo del Programma, si conclude il conteggio
 delle transazioni che ti consentono di ottenere i relativi rimborsi.
 Pertanto, tale conteggio riparte da zero all'avvio del Periodo
 successivo.
@@ -199,12 +199,15 @@ Qui di seguito ti spieghiamo come funzionano nel dettaglio le due tipologie di r
 
 ##### a) Rimborso percentuale ("Cashback")
 
-In base al Periodo di riferimento, per accedere a questo tipo di rimborso devi effettuare un **numero minimo di transazioni** con gli strumenti di pagamento elettronici preventivamente registrati ai fini del Programma. - Nel **Periodo Sperimentale (Extra Cashback di Natale)**, il numero minimo è di **10 transazioni**. - Per ciascuno dei tre **Semestri successivi**, il numero minimo è di **50 transazioni**.
+In base al Periodo di riferimento, per accedere a questo tipo di rimborso devi effettuare un **numero minimo di transazioni** con gli strumenti di pagamento elettronici preventivamente registrati ai fini del Programma. 
+
+- Nel **Periodo Sperimentale (Extra Cashback di Natale)**, il numero minimo è di **10 transazioni**. 
+- - Per ciascuno dei **successivi Semestri** operativi del Programma, il numero minimo è di **50 transazioni**.
 
 Il **rimborso è pari al 10% dell'importo di ogni transazione** ed è
 calcolato sulla base del **valore complessivo** delle transazioni
 effettuate durante il Periodo di riferimento e rilevanti ai fini del
-Programma. Per le transazioni [non è previsto un importo minimo]{.ul},
+Programma. Per le transazioni <u>non è previsto un importo minimo</u>,
 ma le transazioni di importo superiore a 150 euro concorrono, ai fini
 della partecipazione al Programma, fino all'importo massimo di 150 euro.
 **Per ogni singola transazione, quindi, il limite di rimborso ottenibile
@@ -219,7 +222,7 @@ determinata su un valore complessivo delle transazioni **mai superiore a
 
 ##### b) Rimborso speciale ("Super Cashback")
 
-In aggiunta al rimborso percentuale sopra descritto, i **primi 100.000 Aderenti** che - nel singolo periodo del Programma (<u>ad eccezione del
+In aggiunta al rimborso percentuale sopra descritto, i **primi 100.000 Aderenti** che - nel singolo periodo operativo del Programma (<u>ad eccezione del
 periodo sperimentale con l'Extra Cashback di Natale</u>) - abbiano **totalizzato il maggior numero di transazioni regolate con Strumenti di Pagamento elettronico** hanno diritto a un rimborso speciale di tipo forfettario (il cosiddetto **"Super Cashback"**) **pari a € 1.500,00.**
 
 <b style="color:red">ATTENZIONE:</b> **Se più Aderenti si collocano a pari merito nella graduatoria per ottenere il "Super Cashback", avrà priorità l'Aderente che per primo, in base alla marca temporale dell'ultima transazione, abbia totalizzato il numero di transazioni utili per l'ingresso in
@@ -230,8 +233,8 @@ posizionerebbe a pari merito con altri Aderenti che hanno effettuato 122 transaz
 effettuato la 122^ transazione ad entrare in graduatoria alla posizione 100.000 e ad avere diritto a ricevere il "Super Cashback"._
 
 **Al termine di ogni periodo di riferimento, il conteggio del numero di transazioni riparte da zero per ognuno degli Aderenti**. Se hai già
-maturato il diritto a un "Super Cashback" durante un Semestre, puoi comunque provare a ottenere un ulteriore "Super Cashback" nei Semestri
-successivi del Programma.
+maturato il diritto a un "Super Cashback" durante un Semestre, puoi comunque provare a ottenere un ulteriore "Super Cashback" nel successivo Semestre
+operativo del Programma.
 
 <table class="table">
 <tr>
@@ -245,7 +248,7 @@ successivi del Programma.
 </td>
 </tr>
 <tr>
-<td><b>1° Semestre</b> (1° gennaio 2021 – 30 giugno 2021)</td>
+<td><b>1° Semestre 2021</b> (1° gennaio 2021 – 30 giugno 2021)</td>
 <td rowspan="3">
 <u>Percentuale</u>: <b>Cashback</b> del <b>10%</b> per un <b>minimo di 50 transazioni</b> a periodo
 <p></p>
@@ -253,11 +256,11 @@ successivi del Programma.
 </td>
 </tr>
 <tr>
-<td><b>2° Semestre</b> (1° luglio 2021 – 31 dicembre 2021)</td>
+<td><b>2° Semestre 2021 (SOSPESO/NON OPERATIVO)</b> (1° luglio 2021 – 31 dicembre 2021)</td>
 
 </tr>
 <tr>
-<td><b>3° Semestre</b> (1° gennaio 2022 – 30 giugno 2022)</td>
+<td><b>1° Semestre 2022</b> (1° gennaio 2022 – 30 giugno 2022)</td>
 
 </tr>
 </table>
@@ -265,7 +268,7 @@ successivi del Programma.
 ### Come e quando sono erogati i rimborsi?
 
 L'**erogazione dei rimborsi da parte di Consap S.p.A. avviene tramite bonifico sul codice IBAN a te intestato, che hai indicato** al
-momento dell'adesione al Programma o successivamente, e comunque entro e non oltre la scadenza di ciascun periodo di riferimento.
+momento dell'adesione al Programma o successivamente, e comunque entro e non oltre 10 giorni dalla fine delperiodo per cui hai maturato il rimborso.
 
 Con l'inserimento dell'IBAN, **autorizzi** l'istituto ove è radicato il tuo conto a comunicare i dati necessari per verificare se il Codice
 Fiscale da te fornito corrisponda ad almeno un intestatario del codice IBAN indicato o a un conto di sistema. Maggiori informazioni sui dati
@@ -274,7 +277,7 @@ trattati sono disponibili nell'[**Informativa Privacy**](http://io.italia.it/cas
 Con l'inserimento dell'IBAN, **ti assumi ogni responsabilità accettando** che, nel caso in cui l'IBAN non dovesse essere a te riconducibile, potrebbero non esserti accreditati gli importi relativi ai rimborsi maturati.
 
 Nella tabella qui di seguito sono indicati i mesi in cui la società Consap S.p.A. provvederà all'erogazione dei rimborsi maturati dagli
-Aderenti per ciascuno dei periodi del Programma:
+Aderenti per ciascuno dei periodi operativi del Programma:
 
 <table class="table">
     <tr>
@@ -282,20 +285,20 @@ Aderenti per ciascuno dei periodi del Programma:
     <th>Mesi di erogazione del rimborso</th>
     </tr>
     <tr>
-    <td><b>Periodo sperimentale “Extra Cashback di Natale”</b><br>(08-31 dicembre 2020)</td>
-    <td>febbraio 2021</td>
+    <td><b>Periodo sperimentale</b><br>(08-31 dicembre 2020)</td>
+    <td>"Extra Cashback di Natale - entro febbraio 2021</td>
     </tr>
     <tr>
-    <td><b>1° Semestre </b> (1° gennaio 2021 – 30 giugno 2021)</td>
-    <td>Entro 60 giorni dal termine del periodo</td>
+    <td><b>1° Semestre 2021</b> (1° gennaio 2021 – 30 giugno 2021)</td>
+    <td>Cashback - Entro 60 giorni dal termine del periodo; Super Cashback - Entro il 30 novembre 2021</td>
     </tr>
     <tr>
-    <td><b>2° Semestre</b> (1° luglio 2021 – 31 dicembre 2021)</td>
-    <td>Entro 60 giorni dal termine del periodo</td>
+    <td><b>2° Semestre 2021 </b> (1° luglio 2021 – 31 dicembre 2021)</td>
+    <td>SOSPESO/NON OPERATIVO</td>
     </tr>
     <tr>
-    <td><b>3° Semestre</b> (1° gennaio 2022 – 30 giugno 2022)</td>
-    <td>Entro 60 giorni dal termine del periodo</td>
+    <td><b>1° Semestre 2022</b> (1° gennaio 2022 – 30 giugno 2022)</td>
+    <td>Cashback - Entro 60 giorni dal termine del periodo; Super Cashback - Entro il 30 novembre 2022</td>
     </tr>
 </table>
 
@@ -331,7 +334,7 @@ paragrafo precedente. Le transazioni effettuate con uno Strumento di
 Pagamento sospeso o cancellato non vengono considerate ai fini del
 Programma.
 
-<b><u>Nota bene:</u></b> Se scegli di cancellare o sospendere anche solo
+<b style="color:red"><u>Nota bene:</u></b> Se scegli di cancellare o sospendere anche solo
 temporaneamente uno Strumento di Pagamento precedentemente registrato,
 la disattivazione o la sospensione della raccolta delle transazioni su
 quello strumento si intende effettiva a partire dal giorno successivo;
@@ -370,7 +373,7 @@ il rimborso speciale ("Super Cashback").
 
 Puoi rivolgerti a **PagoPA S.p.A**. - utilizzando l’apposita funzione di assistenza disponibile direttamente nell’app IO - per ricevere:
 
-- assistenza tecnica per l'adesione al Programma **[tramite l'app IO](/cashback/)**;
+- assistenza tecnica per l'adesione al Programma **[tramite l'app IO](https://io.italia.it/cashback/)**;
 - assistenza in caso di mancata visualizzazione sull'**app IO** delle transazioni effettuate nell'ambito del Programma con gli Strumenti di Pagamento elettronici registrati ai fini del Cashback.
 
 Rivolgiti al tuo **Issuer Convenzionato** (cioè il soggetto che ha emesso lo Strumento di Pagamento elettronico tramite cui hai aderito al
@@ -380,14 +383,13 @@ Cashback), utilizzando i canali di assistenza da lui indicati per ricevere:
 - assistenza relativa alle transazioni effettuate nell'ambito del Programma, con gli Strumenti di Pagamento elettronici registrati sui sistemi messi a tua disposizione dallo stesso Issuer Convenzionato.
 
 **Per ogni altra esigenza di assistenza relativa alle singole operazioni di pagamento** - anche se effettuate tramite gli Strumenti di Pagamento
-elettronici registrati ai fini del Programma - dovrai comunque contattare l'**Issuer Convenzionato** e/o il circuito della carta e/o il titolare del servizio di pagamento\*\* che ti ha fornito lo Strumento di Pagamento elettronico utilizzato per quella transazione.
+elettronici registrati ai fini del Programma - dovrai comunque contattare l'**Issuer Convenzionato** e/o il circuito della carta e/o il titolare del servizio di pagamento che ti ha fornito lo Strumento di Pagamento elettronico utilizzato per quella transazione.
 
-**Esclusivamente in caso di mancato o inesatto accredito dei rimborsi** previsti dal Programma, potrai presentare reclamo a Consap S.p.A. entro 120 giorni successivi all'ultimo giorno del mese nel quale è previsto il pagamento, mediante invio dell’apposito modulo debitamente compilato e sottoscritto, unitamente agli allegati richiesti, che sarà disponibile online sul sito
-[www.consap.it](https://www.consap.it/servizi-economia/cashback/).
+**Esclusivamente in caso di mancato o inesatto accredito dei rimborsi** previsti dal Programma, per quanto attiene al Periodo sperimentale “Extra Cashback di Natale” è stato possibile presentare reclamo a **Consap S.p.A.** <u>entro 120 giorni successivi all'ultimo giorno del mese nel quale è previsto il pagamento</u>. Per quanto concerne i successivi Periodi operativi del Programma, il  1 Semestre del 2021 (1° gennaio 2021 – 30 giugno 2021) e il 1 Semestre del 2022 (1° gennaio 2022 – 30 giugno 2022), potrai presentare reclamo a Consap S.p.A. <u>non prima del quindicesimo giorno successivo alla fine del semestre di riferimento</u> ed entro rispettivamente il 29 agosto del 2021 e il 29 agosto del 2022.
 
-Consap S.p.A. ti fornirà un riscontro motivato entro 30 giorni dalla
-data di ricezione del reclamo, e in caso di accoglimento, disporrà il
-pagamento dovuto.
+Consap S.p.A ti fornisce un riscontro motivato entro 30 giorni dalla data di scadenza del termine per presentare il reclamo,  e in caso di accoglimento, disporrà il pagamento dovuto. 
+
+Il reclamo viene presentato mediante invio dell’apposito modulo debitamente compilato e sottoscritto, unitamente agli allegati richiesti, che sarà disponibile online sul sito www.consap.it. 
 
 II procedimento di reclamo descritto è **volontario** e non costituisce
 modalità alternativa di soddisfacimento della condizione di
@@ -400,4 +402,5 @@ legge.
 
 - **Legge 27 dicembre 2019, n. 160 - art. 1, commi 288 e 289** (previsione del riconoscimento del diritto a un rimborso in denaro per le persone fisiche maggiorenni residenti nel territorio dello Stato, che fuori dall'esercizio di attività di impresa, arte o professione, effettuano abitualmente acquisti con strumenti di pagamento elettronici da soggetti che svolgono attività di vendita di beni e di prestazione di servizi).
 - [Decreto 24 novembre 2020, n. 156 emesso dal Ministro dell'Economia e delle Finanze](https://www.gazzettaufficiale.it/eli/id/2020/11/28/20G00181/sg)
+- [Decreto Legge 30 giugno 2021, n. 99](https://www.gazzettaufficiale.it/eli/id/2021/06/30/21G00110/sg)
 - Per maggiori info su come partecipare al Cashback con l'app IO: [https://io.italia.it/cashback/](https://io.italia.it/cashback/)
