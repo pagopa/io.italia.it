@@ -82,7 +82,7 @@ Pertanto, **sono esclusi** dal Programma:
 
 Il Cashback si articola in **Periodi**. Il primo periodo sperimentale, detto **"Extra Cashback di Natale"**, è iniziato l'8 dicembre
 2020 ed è terminato il 31 dicembre 2020. Successivamente, a partire dal 1° gennaio 2021, sono previsti ulteriori periodi della durata di sei
-mesi ciascuno, come riportato nella tabella sottostante.  A seguito delle modifiche apportate dal [Decreto Legge 30 giugno 2021, n. 99](https://www.gazzettaufficiale.it/eli/id/2021/06/30/21G00110/sg) **il secondo Semestre del Programma  (dal 1° luglio 2021 al 31 dicembre 2021) è stato sospeso**.
+mesi ciascuno, come riportato nella tabella sottostante. A seguito delle modifiche apportate dal [Decreto Legge 30 giugno 2021, n. 99](https://www.gazzettaufficiale.it/eli/id/2021/06/30/21G00110/sg) **il secondo Semestre del Programma (dal 1° luglio 2021 al 31 dicembre 2021) è stato sospeso**.
 
 <table class="table">
 <tr>
@@ -164,7 +164,7 @@ acquisto** che effettuerai con lo strumento di pagamento registrato.
 
 1.  La registrazione di uno strumento di pagamento - sull'App IO o sugli altri sistemi messi a disposizione dagli Issuer Convenzionati richiede dei **tempi tecnici per essere operativa** e consentire, quindi, l'acquisizione delle transazioni eseguite con tale Strumento ai fini del Programma. In particolare, quando registri uno strumento di pagamento all'interno dell'App IO, questo è attivo dal giorno stesso ma **saranno conteggiati come validi per il Cashback gli acquisti effettuati a partire dalle ore 00:01 del giorno seguente** all'attivazione.
 
-2.  Affinché una tua transazione possa essere acquisita ai fini del Programma, è **necessario che l'Esercente abbia concluso un accordo con un "Acquirer Convenzionato"** **per la gestione dei pagamenti con strumenti di pagamento elettronici**. Quindi, <u>prima di eseguire un pagamento, chiedi all'Esercente</u>  presso il quale effettui i tuoi acquisti se partecipa al Cashback.
+2.  Affinché una tua transazione possa essere acquisita ai fini del Programma, è **necessario che l'Esercente abbia concluso un accordo con un "Acquirer Convenzionato"** **per la gestione dei pagamenti con strumenti di pagamento elettronici**. Quindi, <u>prima di eseguire un pagamento, chiedi all'Esercente</u> presso il quale effettui i tuoi acquisti se partecipa al Cashback.
 
 3.  Le tue transazioni sono acquisite dal Programma **dopo essere state contabilizzate** dagli operatori di pagamento. Per questo motivo, potrebbero essere necessari **fino a 3 giorni lavorativi (successivi al pagamento)** prima di poter visualizzare una transazione eseguita con lo Strumento di Pagamento che hai registrato ai fini del Cashback.
 
@@ -199,9 +199,9 @@ Qui di seguito ti spieghiamo come funzionano nel dettaglio le due tipologie di r
 
 ##### a) Rimborso percentuale ("Cashback")
 
-In base al Periodo di riferimento, per accedere a questo tipo di rimborso devi effettuare un **numero minimo di transazioni** con gli strumenti di pagamento elettronici preventivamente registrati ai fini del Programma. 
+In base al Periodo di riferimento, per accedere a questo tipo di rimborso devi effettuare un **numero minimo di transazioni** con gli strumenti di pagamento elettronici preventivamente registrati ai fini del Programma.
 
-- Nel **Periodo Sperimentale (Extra Cashback di Natale)**, il numero minimo è di **10 transazioni**. 
+- Nel **Periodo Sperimentale (Extra Cashback di Natale)**, il numero minimo è di **10 transazioni**.
 - - Per ciascuno dei **successivi Semestri** operativi del Programma, il numero minimo è di **50 transazioni**.
 
 Il **rimborso è pari al 10% dell'importo di ogni transazione** ed è
@@ -268,7 +268,7 @@ operativo del Programma.
 ### Come e quando sono erogati i rimborsi?
 
 L'**erogazione dei rimborsi da parte di Consap S.p.A. avviene tramite bonifico sul codice IBAN a te intestato, che hai indicato** al
-momento dell'adesione al Programma o successivamente, e comunque entro e non oltre 10 giorni dalla fine delperiodo per cui hai maturato il rimborso.
+momento dell'adesione al Programma o successivamente, e comunque entro e non oltre 10 giorni dalla fine del periodo per cui hai maturato il rimborso.
 
 Con l'inserimento dell'IBAN, **autorizzi** l'istituto ove è radicato il tuo conto a comunicare i dati necessari per verificare se il Codice
 Fiscale da te fornito corrisponda ad almeno un intestatario del codice IBAN indicato o a un conto di sistema. Maggiori informazioni sui dati
@@ -385,11 +385,11 @@ Cashback), utilizzando i canali di assistenza da lui indicati per ricevere:
 **Per ogni altra esigenza di assistenza relativa alle singole operazioni di pagamento** - anche se effettuate tramite gli Strumenti di Pagamento
 elettronici registrati ai fini del Programma - dovrai comunque contattare l'**Issuer Convenzionato** e/o il circuito della carta e/o il titolare del servizio di pagamento che ti ha fornito lo Strumento di Pagamento elettronico utilizzato per quella transazione.
 
-**Esclusivamente in caso di mancato o inesatto accredito dei rimborsi** previsti dal Programma, per quanto attiene al Periodo sperimentale “Extra Cashback di Natale” è stato possibile presentare reclamo a **Consap S.p.A.** <u>entro 120 giorni successivi all'ultimo giorno del mese nel quale è previsto il pagamento</u>. Per quanto concerne i successivi Periodi operativi del Programma, il  1 Semestre del 2021 (1° gennaio 2021 – 30 giugno 2021) e il 1 Semestre del 2022 (1° gennaio 2022 – 30 giugno 2022), potrai presentare reclamo a Consap S.p.A. <u>non prima del quindicesimo giorno successivo alla fine del semestre di riferimento</u> ed entro rispettivamente il 29 agosto del 2021 e il 29 agosto del 2022.
+**Esclusivamente in caso di mancato o inesatto accredito dei rimborsi** previsti dal Programma, per quanto attiene al Periodo sperimentale “Extra Cashback di Natale” è stato possibile presentare reclamo a **Consap S.p.A.** <u>entro 120 giorni successivi all'ultimo giorno del mese nel quale è previsto il pagamento</u>. Per quanto concerne i successivi Periodi operativi del Programma, il 1 Semestre del 2021 (1° gennaio 2021 – 30 giugno 2021) e il 1 Semestre del 2022 (1° gennaio 2022 – 30 giugno 2022), potrai presentare reclamo a Consap S.p.A. <u>non prima del quindicesimo giorno successivo alla fine del semestre di riferimento</u> ed entro rispettivamente il 29 agosto del 2021 e il 29 agosto del 2022.
 
-Consap S.p.A ti fornisce un riscontro motivato entro 30 giorni dalla data di scadenza del termine per presentare il reclamo,  e in caso di accoglimento, disporrà il pagamento dovuto. 
+Consap S.p.A ti fornisce un riscontro motivato entro 30 giorni dalla data di scadenza del termine per presentare il reclamo, e in caso di accoglimento, disporrà il pagamento dovuto.
 
-Il reclamo viene presentato mediante invio dell’apposito modulo debitamente compilato e sottoscritto, unitamente agli allegati richiesti, che sarà disponibile online sul sito www.consap.it. 
+Il reclamo viene presentato mediante invio dell’apposito modulo debitamente compilato e sottoscritto, unitamente agli allegati richiesti, che sarà disponibile online sul sito www.consap.it.
 
 II procedimento di reclamo descritto è **volontario** e non costituisce
 modalità alternativa di soddisfacimento della condizione di
