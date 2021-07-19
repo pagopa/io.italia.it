@@ -27,6 +27,13 @@ items:
     luogo: Italia
     garanzie: "N/A"
     doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#3)"
+    - 
+    fornitore: "Fabrick S.p.A."
+    attivita: "Servizi di elaborazione e validazione di dati bancari e finanziari (ad esempio, controllo intestazione IBAN e strumenti di pagamento)"
+    dati: "Dati identificativi, bancari e finanziari degli utenti che si avvalgono di servizi in app che richiedono validazione dei dati"
+    luogo: Italia
+    garanzie: "N/A"
+    doc: "[link](https://io.italia.it/assets/download/it/Fabrick_Addendum-1_DPA.pdf"
   - 
     fornitore: "LimeSurvey GmbH"
     attivita: "Servizio per form, moduli e questionari online"
@@ -48,11 +55,11 @@ items:
     attivita: "Raccolta dati di utilizzo dell’App IO  tramite i dispositivi per scopi di debug, incident response, assistenza tecnica e miglioramento dell’App"
     dati: "Dati di navigazione e utilizzo dell’app da parte dell’utente"
     luogo: "- Paesi Bassi\n\n 
-    - USA (per eventuali sub responsabili)\n\n
-    (in corso di valutazione la sostituzione del fornitore)"
+    - USA (per eventuali sub responsabili, solo in caso di richiesta di supporto tecnico da parte di PagoPA S.p.A. od operazioni di manutenzione da parte del fornitore)"
     garanzie: "- opzione di residenza dei dati in UE\n\n
   - clausole contrattuali standard  della Commissione Europea\n\n
-  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE"
+  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE\n\n
+  - modifica puntuale alla contrattualistica standard del fornitore, al fine di chiarire l’impossibilità per lo stesso di trattare dati per finalità proprie e ribadire la prevalenza dell’accordo privacy (DPA) sulla contrattualistica standard"
     doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#22)"
   - 
     fornitore: "Instabug, Inc."
@@ -60,7 +67,7 @@ items:
     dati: "(i) Dati forniti dall’utente nella segnalazione (NB: disincentiviamo l’utente a fornire dati “critici” o “sensibili” nelle segnalazioni)\n\n
 (ii) Dati di navigazione per migliorare l’assistenza"
     luogo: "USA\n\n
-(in corso negoziazioni su opzioni di residenza dei dati in UE e valutazione sulla sostituzione del fornitore)"
+(in corso valutazione sulla sostituzione del fornitore)"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell’UE"
     doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#21)"
