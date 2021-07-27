@@ -9,10 +9,10 @@ ref: sviluppatori
 permalink: /sviluppatori/
 redirect_from:
   - /it/sviluppatori/
-  
+
 intro_image: "/assets/img/intro-sviluppatori.svg"
 intro_primary_text: "Leggi la documentazione"
-intro_primary_link: "https://developer.io.italia.it/openapi.html"
+intro_primary_link: "https://docs.google.com/document/d/1JjNdzyGm5lLAwM3MgSUbqOGAt_4DbxOmfuywI1UAmNg/view"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Consulta documentazione dev', 1)"
 intro_secondary_text: "Contatta il team di IO"
 intro_secondary_link: "mailto:onboarding@io.italia.it"
@@ -21,4 +21,5 @@ intro_ter_text: "Registrati al Back-Office"
 intro_ter_link: "https://developer.io.italia.it/"
 intro_ter_onclick: "ga('send', 'event', 'link', 'click', 'Registrati al back-office', 1)"
 ---
+
 {% include sviluppatori.html %}
