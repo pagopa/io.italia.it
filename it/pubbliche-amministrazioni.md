@@ -18,7 +18,7 @@ redirect_from:
   - /pubbliche-amministrazioni/partecipa.html
 intro_image: "/assets/img/intro-pa.svg"
 intro_primary_text: "consulta la guida"
-intro_primary_link: "https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a"
+intro_primary_link: "https://docs.google.com/document/d/1keitC0glTKYcheUtOaQAfirUeNkPPNPy4MEayU33BGU/view"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Guida Enti', 1)"
 intro_secondary_text: "Richiedi informazioni"
 intro_secondary_link: "mailto:onboarding@io.italia.it"
