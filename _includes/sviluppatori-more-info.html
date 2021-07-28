@@ -1,0 +1,19 @@
+<div class="d-md-flex {%if include.white %}justify-content-center{%endif%}">
+    <div class="">
+        <svg class="icon icon-sm {%unless include.white %}icon-primary{%else%}icon-white{%endunless%} align-bottom">
+        <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
+        </svg>
+        <a target="_blank" href="mailto:onboarding@io.italia.it" title="Contatta il team di IO" class="small {%if include.white %}text-white{%endif%}" onclick="ga('send', 'event', 'link', 'click', 'Contatta il team dev', 1)">
+        Contatta il team di IO
+        </a>
+    </div>
+    <div class="px-2"></div>
+    <div class="">
+        <svg class="icon icon-sm {%unless include.white %}icon-primary{%else%}icon-white{%endunless%} align-bottom">
+        <use xlink:href="/assets/svg/sprite.svg#it-external-link"></use>
+        </svg>
+        <a target="_blank" href="https://developer.io.italia.it/openapi.html" title="Specifiche API" class="small {%if include.white %}text-white{%endif%}" onclick="ga('send', 'event', 'link', 'click', 'Specifiche API', 1)">
+        Specifiche API
+        </a>
+    </div>
+</div>
