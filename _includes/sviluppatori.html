@@ -248,15 +248,8 @@
             {% endif %}
         </div>
       </div>
-      <div class="row pb-5">
-        <div class="col text-center">
-          <a onclick="{{page.intro_secondary_onclick}}" href="{{page.intro_secondary_link}}" class="mr-4 text-white text-hover-green d-inline-block">
-            <svg class="icon icon-white mr-1">
-              <use xlink:href="/assets/svg/sprite.svg#it-mail"></use>
-            </svg>
-            <span>{{page.intro_secondary_text}}</span>
-          </a>
-        </div>
+      <div class="pb-5">
+          {% include sviluppatori-more-info.html white=true %}
       </div>
     </div>
   </div><!--/.section -->
