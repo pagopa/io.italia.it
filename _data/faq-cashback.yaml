@@ -197,10 +197,10 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
     body: "Sì, dal momento che quel codice IBAN risulta associato ai Codici Fiscali di entrambi partecipanti, iscritti individualmente al programma."
     cat: "5|I rimborsi"
   - title: Posso cambiare l’IBAN con cui ho aderito al Cashback? 
-    body: "Sì, puoi modificare l’IBAN in ogni momento fino alla scadenza di ciascun periodo."
+    body: "Sì, puoi modificare l’IBAN che hai indicato al momento dell’adesione al Programma o successivamente, in ogni momento ma comunque entro e non oltre 10 giorni dalla fine del periodo per cui hai maturato il rimborso."
     cat: "5|I rimborsi"
   - title: C’è una scadenza temporale entro cui devo comunicare l’IBAN per poter ricevere il rimborso?
-    body: "Sì, di norma, per consentire l’accredito degli eventuali rimborsi a cui potrai avere diritto, devi indicare il codice IBAN entro la fine del periodo di riferimento. Per il primo periodo sperimentale detto “Extra Cashback di Natale”, hai tempo per inserire il tuo IBAN fino al 9 gennaio 2021."
+    body: "Sì, per consentire l’accredito degli eventuali rimborsi a cui potrai avere diritto, devi indicare il codice IBAN entro e non oltre 10 giorni dalla fine del periodo per cui hai maturato il rimborso."
     cat: "5|I rimborsi"
   - title: Posso partecipare al Cashback indicando l’IBAN associato a una carta prepagata ricaricabile?
     body: "Sì. Ti consigliamo di tenere conto di possibili “plafond”: alcune carte prepagate ricaricabili hanno dei limiti di ricarica e di saldo, per cui non si possono sorpassare determinati massimi riferiti al giorno, al mese o all’anno."
@@ -218,17 +218,18 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
     body: "No, il rimborso è indipendente dal numero di componenti del nucleo familiare e dal numero di membri che aderiscono all'iniziativa."
     cat: "5|I rimborsi"
   - title: Quando riceverò il rimborso ottenuto sul mio conto corrente?
-    body: "I rimborsi sono erogati entro 60 giorni dal termine di ciascun periodo, con un bonifico sull’IBAN che hai comunicato. "
+    body: " I rimborsi relativi al Cashback “ordinario” (fino a un importo massimo di 150 euro) sono erogati entro 60 giorni dal termine di ciascun periodo, con un bonifico sull’IBAN che hai comunicato. I rimborsi relativi al Super Cashback maturati nel 1° semestre 2021 (per le transazioni effettuate nel periodo compreso tra il 1° gennaio e il 30 giugno 2021), saranno erogati entro il 30 novembre 2021."
     cat: "5|I rimborsi"
   - title: Per poter ottenere l’eventuale rimborso, devo totalizzare un numero minimo di acquisti validi ai fini del Cashback?
     body: "Sì, per ciascun periodo in cui è articolato il programma c’è un numero minimo di transazioni da effettuare con i metodi di pagamento elettronici attivati al Cashback: 
 
 - nell’Extra Cashback di Natale, il numero minimo è di 10 transazioni.
 
-- nei successivi tre semestri il numero minimo è di 50 transazioni."
+- nei successivi semestri di operatività del programma il numero minimo è di 50 transazioni."
     cat: "5|I rimborsi"
   - title: Fino a ieri ero in classifica per ottenere il Super Cashback e adesso non lo sono più, come mai?
-    body: "La tua posizione in graduatoria varia a seconda del numero delle transazioni valide effettuate da te e dagli altri partecipanti al programma. Il numero delle transazioni si aggiorna fino al termine di ciascuno dei periodi previsti, di conseguenza cambia anche la tua posizione. Solo alla conclusione del periodo di riferimento potrai sapere se sei rientrato o meno tra coloro che hanno diritto a ricevere il Super Cashback. "
+    body: "La tua posizione in graduatoria varia a seconda del numero delle transazioni valide effettuate da te e dagli altri partecipanti al programma. Il numero delle transazioni si aggiorna fino al termine dei conteggi relativi adi ciascuno dei periodi di riferimento, che può avvenire anche dopo il termine del periodo e tiene conto delle tempistiche di gestione dei reclami,\ 
+    di conseguenza, può cambiare anche la tua posizione. A fine di tutte le verifiche necessarie, l’app IO ti invierà un messaggio per informarti se sei rientrato o meno tra coloro che hanno diritto a ricevere il Super Cashback."
     cat: "6|Il Super Cashback"
   - title: Il Super Cashback si somma al Cashback? Posso ottenere nel semestre sia il rimborso di 1.500 euro che quello di 150 euro?
     body: "Sì, le due tipologie di rimborso si sommano, arrivando a 1.650 euro, nel caso in cui tu abbia effettuato almeno 50 transazioni valide ed essendo tra i primi 100mila cittadini che hanno totalizzato più transazioni nello stesso periodo."
