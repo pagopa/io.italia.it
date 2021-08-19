@@ -258,7 +258,7 @@ Nell’app IO è sempre possibile visualizzare l’importo del Cashback accumula
     body: "Sì, il rimborso massimo in tutti i periodi è pari a 150 euro. L’ammontare del Cashback sarà dato dalla somma dei rimborsi sulle singole transazioni valide ai fini del programma, che sono pari al 10% dell’importo per transazioni fino ai 150 euro, o pari a 15 euro per transazioni pari o superiori a 150 euro."
     cat: "8|L'Extra Cashback di Natale"
   - title: Cosa succede se mi cancello dal programma?
-    body: "La cancellazione dal programma comporta la perdita del diritto ai rimborsi per il periodo in corso. Se non vuoi perdere i rimborsi accumulati, devi aspettare che ti vengano accreditati sull’IBAN che hai comunicato (entro 60 giorni successivi alla fine di ciascun periodo). "
+    body: "La cancellazione dal programma comporta la perdita del diritto ai rimborsi per il periodo in corso. Se non vuoi perdere i rimborsi accumulati, devi aspettare che ti vengano accreditati sull’IBAN che hai comunicato (entro 60 giorni successivi alla fine di ciascun periodo nel caso del Cashback “ordinario” fino a 150 euro ed entro il 30 novembre 2021 nel caso del Super Cashback relativo al primo semestre 2021)."
     cat: "9|La cancellazione"
   - title: Posso cancellarmi dal Cashback in qualsiasi momento?
     body: "Sì. Se ti sei iscritto al programma tramite app IO, puoi sempre recedere cliccando su “Cancella la tua iscrizione al Cashback” dalla schermata di dettaglio Cashback nella sezione “Portafoglio”. Se invece per iscriverti hai usato uno dei sistemi messi a disposizione da uno degli [Issuer Convenzionati](/cashback/issuer/), puoi cancellarti  solo se non hai attivi altri metodi di pagamento su altri canali."
