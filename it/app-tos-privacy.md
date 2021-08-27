@@ -14,9 +14,7 @@ redirect_from:
   - /app-content/privacy_circuiti_internazionali.html
 ---
 
-{:.d-startup .mb-1}
-
-# Informativa privacy
+<h1 class="d-startup mb-1 small-line-height">Informativa privacy e Termini e condizioni d’uso</h1>
 
 {:.d-startup}
 
@@ -268,7 +266,7 @@ La presente informativa può essere modificata nel tempo, anche a fronte di funz
 
 {:.d-startup .mb-0}
 
-# Termini e condizioni d’uso
+## Termini e condizioni d’uso
 
 {:.d-startup}
 
