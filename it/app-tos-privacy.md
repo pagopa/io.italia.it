@@ -14,7 +14,7 @@ redirect_from:
   - /app-content/privacy_circuiti_internazionali.html
 ---
 
-<h1 class="d-startup mb-1 small-line-height">Informativa privacy e Termini e condizioni d’uso</h1>
+<h2 class="d-startup mb-1 small-line-height">Informativa privacy</h2>
 
 {:.d-startup}
 
@@ -25,7 +25,7 @@ L’App IO è gestita dalla società PagoPA S.p.A. ("PagoPA") su incarico della 
 
 {:.d-startup}
 
-## Informazioni chiave
+#### Informazioni chiave
 
 {:.d-startup}
 
