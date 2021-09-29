@@ -71,7 +71,7 @@ Ministero per i Beni e le Attività Culturali e per il Turismo: [mattia.morandi@
 
 Agenzia delle Entrate: [ae.ufficiostampa@agenziaentrate.it](mailto:ae.ufficiostampa@agenziaentrate.it)
 
-Ministro per l’Innovazione Tecnologica e la Digitalizzazione: [laura.sala@teamdigitale.it](mailto:laura.sala@teamdigitale.it)
+Ministro per l’Innovazione Tecnologica e la Digitalizzazione: [laura.sala@teamdigitale.governo.it](mailto:laura.sala@teamdigitale.governo.it)
 
 PagoPA S.p.A, per informazioni sull’app IO: [media@io.italia.it](mailto:media@io.italia.it)
 
