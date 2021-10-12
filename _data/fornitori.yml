@@ -12,21 +12,21 @@ items:
     dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza "
     luogo: Italia
     garanzie: "N/A"
-    doc: "[link 1](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#13) [link 2](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#14)"
+    doc: "[link 1](https://web.archive.org/web/20210304175957/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#13) [link 2](https://web.archive.org/web/20210304183817/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#14)"
   - 
     fornitore: "Acapo Cooperativa Sociale"
     attivita: "Servizio assistenza clienti"
     dati: "Dati necessari per trattare richieste di assistenza degli utenti"
     luogo: Italia
     garanzie: "N/A"
-    doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#16)"
+    doc: "[link](https://web.archive.org/web/20210304183817/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#16)"
   - 
     fornitore: "MailUP S.p.A."
     attivita: "Invio di email (inoltro messaggi ricevuti in-app e newsletter del progetto IO)"
     dati: "Indirizzo email degli utenti e dati inclusi nei messaggi inoltrati dall'app"
     luogo: Italia
     garanzie: "N/A"
-    doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#3)"
+    doc: "[link](https://web.archive.org/web/20210304183817/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#3)"
   - 
     fornitore: "Fabrick S.p.A."
     attivita: "Servizi di elaborazione e validazione di dati bancari e finanziari (ad esempio, controllo intestazione IBAN e strumenti di pagamento)"
@@ -49,7 +49,7 @@ items:
     garanzie: "- opzione di residenza dei dati in UE\n\n
   - clausole contrattuali standard  della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
-    doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#2)"
+    doc: "[link](https://web.archive.org/web/20210304175957/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#2)"
   - 
     fornitore: "Mixpanel, Inc."
     attivita: "Raccolta dati di utilizzo dell'App IO  tramite i dispositivi per scopi di debug, incident response, assistenza tecnica e miglioramento dell'App"
@@ -60,7 +60,7 @@ items:
   - clausole contrattuali standard  della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE\n\n
   - modifica puntuale alla contrattualistica standard del fornitore, al fine di chiarire l'impossibilità per lo stesso di trattare dati per finalità proprie e ribadire la prevalenza dell'accordo privacy (DPA) sulla contrattualistica standard"
-    doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#22)"
+    doc: "[link](https://web.archive.org/web/20210304183817/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#22)"
   - 
     fornitore: "Instabug, Inc."
     attivita: "Soluzione tecnica per l'invio di segnalazioni e la gestione dell'assistenza clienti"
@@ -70,7 +70,7 @@ items:
 (in corso valutazione sulla sostituzione del fornitore)"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
-    doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#21)"
+    doc: "[link](https://web.archive.org/web/20210304183817/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2020/#21)"
   - 
     fornitore: "Slack Technologies Limited"
     attivita: "Piattaforma di messaggistica per comunicazione interna alla PagoPA S.p.A."
@@ -78,7 +78,7 @@ items:
     luogo: "USA\n\n
     (trattamento di dati personali degli utenti eventuale e comunque marginale, solo in caso di necessità e urgenza)"
     garanzie: "- clausole contrattuali standard  della Commissione Europea"
-    doc: "[link](https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#14)"
+    doc: "[link](https://web.archive.org/web/20210304175957/https://www.pagopa.gov.it/it/pagopa-spa/societa-trasparente/bandi-gara-contratti/atti-amministrazioni-aggiudicatrici/2019/#14)"
   - 
     fornitore: "Google LLC"
     attivita: "Invio di notifiche Push"
