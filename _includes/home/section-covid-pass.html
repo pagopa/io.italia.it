@@ -1,25 +1,49 @@
 <section id="section_covid-pass" class="position-relative section section__covid-pass section--wpointers ">
     <div class="section__covid-pass_bg py-5">
-    <div  class="section__covid-pass_inner container">
-      <div class="row py-md-3 px-3 px-md-0">
-        <div class="col-12 col-md-7  pr-0 pr-md-5 order-md-2">
-        <div class="badge badge-secondary text-uppercase p-2 mb-4 badge-servizio">Servizio attivo</div>
-        <h2 class=""><a href="/certificato-verde-green-pass-covid/" title="Certificazione verde COVID-19" class="text-decoration-none text-white">La Certificazione Verde COVID-19 su IO</a></h2>
-        <p class="lead  my-2 my-md-4 text-white">
-            Se hai effettuato il vaccino, un tampone o se sei un paziente guarito dal COVID-19, riceverai tramite messaggio la tua Certificazione Verde Digitale COVID-19 per poter circolare in sicurezza in Italia e in Europa.</p>
-         <a href="/certificato-verde-green-pass-covid/" class="btn btn-sm btn-white text-primary text-uppercase  mt-2 px-5" title="Scopri di più">Scopri di più</a>
+      <div class="section__covid-pass_inner container px-md-3">
+      <div class=" row py-md-3 px-3 px-md-0">
+        <div class="col-12 col-md-7  pr-0 pr-md-4">
+          <div class="badge badge-secondary text-uppercase p-2 mb-4 badge-servizio">Servizio attivo</div>
+        <h2 class="text-white"><a href="/certificato-verde-green-pass-covid/" title="Certificazione Verde COVID-19" class="text-white text-decoration-none">La Certificazione Verde COVID&#8209;19 su IO</a></h2>
+        <p class="lead text-white my-2 my-md-4">Se hai effettuato il vaccino, un tampone o se sei un paziente guarito dal COVID-19, riceverai tramite messaggio la tua Certificazione Verde Digitale COVID&#8209;19 per poter circolare in sicurezza in Italia e in Europa.</p>
+         <a href="/certificato-verde-green-pass-covid/" class="btn btn-sm btn-white text-uppercase text-primary mt-2" title="Scopri di più">Scopri di più</a>
+         <a href="/dashboard/" class="btn btn-sm btn-white text-uppercase text-primary mt-2 ml-lg-3" title="Dashboard">Vai alla Dashboard</a>
          </div><!--/col-->
-         <div class="col-12 col-md-5 order-md-1 d-flex align-items-center flex-column position-relative">
-            <a href="/certificato-verde-green-pass-covid/" title="Certificazione verde COVID-19" class="section__covid-pass-img">
-                <img class="img-fluid screenshot" alt="Screenshot Certificato verde"
-                srcset="
-                  {{site.imagesurl}}/assets/img/certificato-verde-green-pass-covid/schermata-app-certificato-verde-2x.png 2x,
-                  {{site.imagesurl}}/assets/img/certificato-verde-green-pass-covid/schermata-app-certificato-verde.png 1x
-                  "
-                  src="{{site.imagesurl}}/assets/img/certificato-verde-green-pass-covid/schermata-app-certificato-verde.png">
-        </a>
+         <div class="col-12 col-sm-6 col-md-4 offset-md-1  ">
+            <div class="row mt-4 mt-md-0">
+              <div class="col-12 col-md-12">
+                <img src="{{site.imagesurl}}/assets/img/certificato-verde-green-pass-covid/certificati-inviati.svg" class="img-fluid my-3 my-md-0" width="55" alt="Certificati inviati">
+                <a id="certSent" class="counter d-block text-decoration-none" href="/dashboard/" title="Vai alla dashboard" >000</a>
+                <div class="counterdesc">Certificati inviati
+                  <span tabindex="0" data-toggle="tooltip" data-container="#section_covid-pass" data-placement="right" 
+                        title="Numero di certificati inviati attraverso l'app IO" class="ml-2">
+                    <svg class="icon icon-sm icon-white align-top">
+                      <use xlink:href="/assets/svg/sprite.svg#it-info-circle">
+                      </use>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+              <div class="d-block d-sm-none d-md-block p-1 p-md-3"></div>
+              <div class="col-12 col-sm-6 col-md-12">
+                <img src="{{site.imagesurl}}/assets/img/certificato-verde-green-pass-covid/certificati-visualizzati.svg" class="img-fluid my-3 my-md-0" width="55" height="55" alt="Totale visualizzazioni dei certificati in app">
+                <a id="certView" class="counter d-block text-decoration-none" href="/dashboard/" title="Vai alla dashboard" >000</a>
+                <div class="counterdesc">Totale visualizzazioni dei certificati in app
+                  <span tabindex="0" data-toggle="tooltip" data-container="#section_covid-pass" data-placement="right" 
+                        title="Visualizzazioni in app" class="ml-2">
+                    <svg class="icon icon-sm icon-white align-top">
+                      <use xlink:href="/assets/svg/sprite.svg#it-info-circle">
+                      </use>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
          </div>
       </div>
-    </div>
+      </div>
+
+
+
     </div>
   </section>
