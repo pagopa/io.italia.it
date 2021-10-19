@@ -58,27 +58,31 @@ function getServices(serviceid) {
     var request = new XMLHttpRequest();
     var url = SERVIZIPATHJSON + serviceid + ".json";
     var target = document.querySelector('.services' + serviceid);
+    // data not yet loaded
     if (!target.classList.contains("filled")) {
         target.classList.add("loading");
-    }
-    request.open("GET", url, true);
+        request.open("GET", url, true);
 
-    request.onload = function() {
-        if (this.status >= 200 && this.status < 400) {
-            var data = JSON.parse(this.response);
-            listServices(data, target, serviceid);
-        } else {
+        request.onload = function() {
+            if (this.status >= 200 && this.status < 400) {
+                var data = JSON.parse(this.response);
+                listServices(data, target, serviceid);
+            } else {
+                errorOnGetServices(serviceid);
+                target.classList.remove("loading");
+            }
+        };
+
+        request.onerror = function() {
             errorOnGetServices(serviceid);
             target.classList.remove("loading");
-        }
-    };
+        };
 
-    request.onerror = function() {
-        errorOnGetServices(serviceid);
-        target.classList.remove("loading");
-    };
-
-    request.send();
+        request.send();
+    } else {
+        target.classList.toggle('d-none-slided');
+    }
+    
 }
 /* this function manage laxy load of orgitems' list */
 function lazyload() {
