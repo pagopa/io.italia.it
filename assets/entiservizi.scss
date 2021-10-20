@@ -291,6 +291,12 @@ a {
   animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.d-none-slided {
+  -webkit-animation: slide-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-up 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  pointer-events: none;
+}
+
 @keyframes spinnerAnim {
   0% {
     -webkit-transform: rotate(0);
@@ -324,6 +330,35 @@ a {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes slide-up {
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 0;
+    height: 0;
+  }
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    height: auto;
+  }
+}
+@keyframes slide-up {
+  100% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    opacity: 0;
+    height: 0;
+  }
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    height: auto;
   }
 }
 
