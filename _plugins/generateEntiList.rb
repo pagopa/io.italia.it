@@ -19,6 +19,7 @@ def sanitizeString(str)
         return str
     end
     prepositions = /Dei |Degli |Di |Della |Delle |Dell'|Dell’|Del |Allo |Al |A |Sul |Sulla |Per | E |D'|Im |In |Am /
+    specials = / Ii/
     # drop special characters
     cleanString = str.gsub(/[!@%&" ]/,'')
     # Let's transform all the words of a OrgName in capitalize
@@ -26,7 +27,8 @@ def sanitizeString(str)
     # Solve problem with composed string ex. D'iseo -> D'Iseo
     capitalizedStringComposed = capitalizedString.gsub(/('[a-z]|-[a-z]|’[a-z])/, &:upcase)
     # Lowercase for prepositions (in italian and german)
-    return capitalizedStringComposed.gsub(prepositions, &:downcase)
+    capitalizedStringComposedPrepositions = capitalizedStringComposed.gsub(prepositions, &:downcase)
+    return capitalizedStringComposedPrepositions.gsub(specials, &:upcase)
 end
 
 def renderEntiList(file, site)
@@ -54,7 +56,8 @@ def renderEntiList(file, site)
         end
         # content creation for webview list
         new_content_webview_item = {}
-        new_content_webview_item[ item["fc"] ] = item["o"]
+        new_content_webview_item[ item["fc"] ] = sanitizeString(item["o"])
+
         scope = ""
         # ---
         item_new_values = {}
