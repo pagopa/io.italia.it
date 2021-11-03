@@ -4,8 +4,5 @@ _site
 .jekyll-cache
 .DS_Store
 _data/abi.json
-_data/enti-servizi.json
 _data/cobadgeServices.json
 assets/entijson/*.json
-assets/json/enti-list-searchable.json
-assets/json/enti-list-webview.json
