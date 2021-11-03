@@ -10,7 +10,7 @@ begin
     file =  Down.download(downloadUrl, open_timeout: 5)
 rescue
     # fallback in case we cannot download the source file
-    puts "File unreachable"
+    raise "File unreachable"
 end
 
 def sanitizeString(str)
