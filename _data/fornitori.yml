@@ -12,7 +12,7 @@ items:
     dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza "
     luogo: Italia
     garanzie: "N/A"
-    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981058390O__O06.+Allegato_2_Contratto_signed+%281%29.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981004500O__O07.+Allegato+4+-+Sicurezza_pagoPA_CentroStella+final_signed+%281%29.pdf) [link 3] (https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981024440O__OSIA_DPA_atto+aggiuntivo+%281%29.pdf)"
+    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981058390O__O06.+Allegato_2_Contratto_signed+%281%29.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981004500O__O07.+Allegato+4+-+Sicurezza_pagoPA_CentroStella+final_signed+%281%29.pdf) [link 3](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981024440O__OSIA_DPA_atto+aggiuntivo+%281%29.pdf)"
   - 
     fornitore: "Acapo Cooperativa Sociale"
     attivita: "Servizio assistenza clienti"
@@ -34,7 +34,7 @@ items:
     luogo: Italia
     garanzie: "N/A"
     doc: "[link](https://io.italia.it/assets/download/it/Fabrick_Addendum-1_DPA.pdf)"
-   - 
+  - 
     fornitore: "OneTrust Technology Limited"
     attivita: "Software gestionale per adempimenti privacy"
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
@@ -67,7 +67,7 @@ items:
   - clausole contrattuali standard  della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE\n\n
   - modifica puntuale alla contrattualistica standard del fornitore, al fine di chiarire l'impossibilità per lo stesso di trattare dati per finalità proprie e ribadire la prevalenza dell'accordo privacy (DPA) sulla contrattualistica standard"
-    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O05.+Mixpanel_DPA_EU+Residency.pdf) [link 2] (https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O06.+Mixpanel_Amendment+No.+1+to+DPA.pdf) [link 3] (https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__OMixpanel_DPA_Amendment2.pdf)"
+    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O05.+Mixpanel_DPA_EU+Residency.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O06.+Mixpanel_Amendment+No.+1+to+DPA.pdf) [link 3](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__OMixpanel_DPA_Amendment2.pdf)"
   - 
     fornitore: "Instabug, Inc."
     attivita: "Soluzione tecnica per l'invio di segnalazioni e la gestione dell'assistenza clienti"
@@ -77,7 +77,7 @@ items:
 (in corso valutazione sulla sostituzione del fornitore)"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
   - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
-    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019140O__O07.+Instabug_DPA.pdf) [link 2] (https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019270O__O08.+Instabug_Amendment+1+to+DPA.pdf)"
+    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019140O__O07.+Instabug_DPA.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019270O__O08.+Instabug_Amendment+1+to+DPA.pdf)"
   - 
     fornitore: "Slack Technologies Limited"
     attivita: "Piattaforma di messaggistica per comunicazione interna alla PagoPA S.p.A."
@@ -100,7 +100,7 @@ items:
     luogo: "data center globali del fornitore, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
     doc: "[link](https://workspace.google.com/terms/dpa_terms.html)"
-   - 
+  - 
     fornitore: "Google LLC"
     attivita: "Servizio di posta elettronica"
     dati: "Dati forniti dagli interessati nelle richieste di assistenza indirizzate alla Società"
