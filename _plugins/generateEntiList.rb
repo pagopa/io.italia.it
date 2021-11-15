@@ -21,7 +21,7 @@ def sanitizeString(str)
     prepositions = /Dei |Degli |Di |Della |Delle |Dell'|Dell’|Del |Allo |Al |A |Sul |Sulla |Per | E |D'|Im |In |Am /
     specials = / Ii/
     # drop special characters
-    cleanString = str.gsub(/[!@%&" ]/,'')
+    cleanString = str.gsub(/[!@%&" ]/,'').strip
     # Let's transform all the words of a OrgName in capitalize
     capitalizedString = cleanString.gsub(/\S+/, &:capitalize)
     # Solve problem with composed string ex. D'iseo -> D'Iseo
