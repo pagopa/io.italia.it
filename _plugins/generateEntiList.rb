@@ -33,7 +33,7 @@ end
 
 def renderEntiList(file, site)
     data_hash = JSON.parse(file.read)
-    fcBlacklist = ['15376371009']
+    fcBlacklist = ['15376371009', '00000000000', '00000000001', '00000000002', '00000000003', '00000000004', '00000000005', '00000000006']
     new_content = {}
     new_content["items"] = {}
     # Creation of an hash only to display in a json for the App Io webview
