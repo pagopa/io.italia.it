@@ -7,14 +7,14 @@ labels:
   doc: Documentazione contrattuale
 items:
   - 
-    fornitore: "Sia S.P.A."
+    fornitore: "Nexi Payments S.p.A. e NewCo 55 S.r.l. (già SIA S.p.A.)"
     attivita: "Componenti applicative piattaforma pagoPA e relativa assistenza clienti"
     dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza "
     luogo: Italia
     garanzie: "N/A"
     doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981058390O__O06.+Allegato_2_Contratto_signed+%281%29.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981004500O__O07.+Allegato+4+-+Sicurezza_pagoPA_CentroStella+final_signed+%281%29.pdf) [link 3](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981024440O__OSIA_DPA_atto+aggiuntivo+%281%29.pdf)"
   - 
-    fornitore: "Acapo Cooperativa Sociale"
+    fornitore: "aCapo Cooperativa Sociale"
     attivita: "Servizio assistenza clienti"
     dati: "Dati necessari per trattare richieste di assistenza degli utenti"
     luogo: Italia
@@ -72,7 +72,7 @@ items:
     fornitore: "Instabug, Inc."
     attivita: "Soluzione tecnica per l'invio di segnalazioni e la gestione dell'assistenza clienti"
     dati: "(i) Dati forniti dall'utente nella segnalazione (NB: disincentiviamo l'utente a fornire dati \"critici\" o \"sensibili\" nelle segnalazioni)\n\n
-(ii) Dati di navigazione per migliorare l'assistenza"
+(ii) Dati relativi al dispositivo e alla navigazione per migliorare l'assistenza"
     luogo: "USA\n\n
 (in corso valutazione sulla sostituzione del fornitore)"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
