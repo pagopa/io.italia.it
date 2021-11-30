@@ -1,6 +1,7 @@
 .pagename--bonus-vacanze,
 .pagename--cashback,
-.pagename--covid-pass {
+.pagename--covid-pass,
+.pagename--cgn {
   // hack
   .page-wrapper {
     margin-bottom: -48px;
@@ -354,6 +355,37 @@ body[class*="pagename--cashback"] {
   #introduzione {
     &:before {
       background-color: #2d489d;
+    }
+  }
+}
+
+body.pagename--cgn {
+  .screenshot {
+    height: 625px;
+  }
+  #intro-slider {
+    &:after {
+      content: " ";
+      background: linear-gradient(
+        0deg,
+        rgba(10,31,143,0.95) 10%,
+        rgba(234, 87, 123, 0.95) 50%
+      );
+      @media screen and (min-width: $grid-breakpoints-md) {
+        background: linear-gradient(
+          110deg,
+          rgba(10,31,143,0.95) 20%,
+          rgba(234, 87, 123, 0.95) 60%
+        );
+      }
+    }
+    background-color: #0A1F8F;
+    background: url($imagesurl + "/assets/img/carta-giovani-nazionale/pattern.png"),
+      radial-gradient(circle, rgba(10,31,143,0.95) 0%, rgba(234, 87, 123, 0.95));
+  }
+  #introduzione {
+    &:before {
+      background-color: #0A1F8F;
     }
   }
 }
