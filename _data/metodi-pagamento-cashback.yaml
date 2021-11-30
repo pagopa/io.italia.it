@@ -1,5 +1,5 @@
 it:
-  last_update: 26/05/2021
+  last_update: 13/12/2021
   iostatus:
     0:
       status: yes
@@ -354,8 +354,8 @@ it:
       cashbacktext: Stiamo lavorando per supportare le transazioni effettuate tramite smartphone. Nel frattempo, usa la tua carta fisica per accumulare Cashback!
     - apps:
         - paypal
-      io: 1
-      iotext: Siamo spiacenti, al momento non puoi pagare su IO con questo metodo. Nel frattempo puoi aggiungere le carte al **Portafoglio** di IO.
+      io: 0
+      iotext: Aggiungi il tuo conto PayPal nella sezione **Portafoglio**. Potrai pagare tutti gli avvisi pagoPA anche con il tuo conto corrente!
       cashback: 1
       cashbacktext: Stiamo lavorando per supportare le transazioni effettuate tramite smartphone. Nel frattempo, usa la tua carta fisica per accumulare Cashback!
     - apps:
