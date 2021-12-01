@@ -16,7 +16,7 @@ index: no-index
 noindex: true
 ---
 
-{:mt-4}
+{:.mt-4}
 La presente informativa descrive le modalità del trattamento dei dati personali del legale rappresentante e dei referenti persone fisiche ("Interessati”) di cui si avvalgono gli operatori (“Operatori”) che aderiscono al programma Carta Giovani Nazionale (“Programma”) istituito dall’art. 1 comma 413, della legge 27 dicembre 2019 n.160, come attuato dal Decreto del Ministro per le politiche giovanili e lo sport del 27 febbraio 2020 (“Decreto”), per l’offerta di agevolazioni ai titolari (“Beneficiari”) di una Carta Giovani Nazionale (“CGN”) ed è resa ai sensi degli artt. 13 e 14 del Regolamento Generale sulla Protezione dei Dati n. 679/2016 ("GDPR")
 ​
 
