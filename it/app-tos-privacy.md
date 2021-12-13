@@ -22,7 +22,7 @@ L’App IO costituisce il canale mobile del c.d. Punto di accesso telematico di 
 IO ti permette di usufruire, in un’unica app, di tutti i servizi erogati dagli Enti che aderiscono al progetto.
 
 {:.d-startup}
-## Informazioni chiave
+#### Informazioni chiave
 
 {:.d-startup}
 
