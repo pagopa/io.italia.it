@@ -86,7 +86,9 @@ Avrai inoltre la possibilità di:
 
 {:.d-more-1}
 - inserire una scadenza relativa a un avviso ricevuto nell’App nel tuo calendario, e in tal caso verrà effettuato un controllo per verificare che tu non abbia già inserito tale scadenza al fine di evitare la duplicazione di eventi nel tuo calendario; nonché 
-- ove previsto, di conservare e/o inviare alcune informazioni mediante i sistemi e le app di terze parti installate nel tuo dispositivo, in particolare per consentirti di salvare sul tuo dispositivo o condividere con l’esterno i documenti.<br> 
+- ove previsto, di conservare e/o inviare alcune informazioni mediante i sistemi e le app di terze parti installate nel tuo dispositivo, in particolare per consentirti di salvare sul tuo dispositivo o condividere con l’esterno i documenti.
+
+{:.d-more-1}
 L’utilizzo di tali funzionalità richiede i permessi di accesso, in lettura e/o scrittura a seconda dei casi, al Tuo calendario, alla fotocamera e/o alla memoria del tuo dispositivo e potrebbe comportare la condivisione di informazioni con i fornitori delle app da te scelte per il calendario, la fotocamera e l’archiviazione, secondo i termini e condizioni previsti da tali fornitori terze parti. Tale accesso è disattivato di default, quindi nessun dato potrà essere raccolto e inviato in mancanza di tua espressa autorizzazione. Potrai sempre modificare i permessi dell’App dalle impostazioni del tuo dispositivo.
 
 {:.d-more-1}
@@ -120,6 +122,8 @@ Nella sezione Profilo potrai inoltre gestire le tue impostazioni privacy ed eser
 
 {:.d-more-1}
 Per finalità diagnostiche generali di IO e, dunque, per garantire in particolare lo svolgimento di attività di debug, diagnostica, troubleshooting e, dunque, di assicurare che le funzionalità di IO siano offerte in modo efficiente, IO è integrata con dei sistemi di monitoraggio:
+
+{:.d-more-1}
 1. per la rilevazione dei dati di utilizzo, previo consenso (libero, e dunque facoltativo) degli interessati, che consentono di acquisire, tra l’altro, informazioni relative all’utilizzo e alla navigazione e informazioni relative al dispositivo;
 2. per raccogliere a livello infrastrutturale ulteriori dati e log tecnici.<br>
 Alcuni di questi dati sono associati univocamente a te, sono raccolti tramite sistemi di fornitori terzi nominati responsabili del trattamento, e sono utilizzati esclusivamente per le finalità descritte e mai per scopi di marketing o profilazione. Il consenso all’utilizzo dei dati di cui al punto 1 è facoltativo, e puoi modificarlo in ogni momento nella sezione Preferenze.<br> 
@@ -165,7 +169,9 @@ In qualità di titolare, PagoPA tratta i seguenti dati per le finalità legate a
 - informazioni sulla distribuzione, adozione, utilizzo e navigazione all’interno dell’App e delle sue funzionalità da parte del cittadino (compresa la fase di autenticazione e i servizi della piattaforma pagoPA);
 - informazioni sul dispositivo (ad esempio dettagli sul sistema operativo, dettagli sul modello del dispositivo).<br>
 Tali dati sono raccolti da PagoPA per mezzo delle apposite funzionalità integrate in IO, comprese quelle offerte dai fornitori dei servizi nominati responsabili del trattamento. Tali dati sono aggregati in modo che non si possa trarre alcun riferimento relativamente a persone identificate o identificabili.
-- altre informazioni sulla distribuzione e funzionamento dell’App trasmessi dai gestori degli app store (es. download, utenti unici, eventi di crash e anomalie, utenti nuovi, distribuzione geografica, ecc.).<br>
+- altre informazioni sulla distribuzione e funzionamento dell’App trasmessi dai gestori degli app store (es. download, utenti unici, eventi di crash e anomalie, utenti nuovi, distribuzione geografica, ecc.).
+
+{:.d-more-1}
 I gestori degli app store ove è distribuita l’App (App Store e Google Play) mettono a disposizione di PagoPA, in formato aggregato, i predetti dati in una dashboard gestita dal fornitore dello store stesso. Queste informazioni non sono riconducibili a persone fisiche identificabili. L’aggregazione è basata sul contratto di servizio in essere tra utente finale e gestore, e il relativo trattamento si configura come trattamento titolare-titolare.<br>
 In qualità di responsabile, PagoPA tratta i dati relativi alla fruizione da parte dei cittadini dei Servizi erogati dagli Enti (su istruzione degli stessi), in particolare al fine del monitoraggio del tasso di adozione dei Servizi da parte dei cittadini, dell’attuazione delle iniziative pubbliche sottese ai Servizi, per il monitoraggio dei livelli di servizio e per gli obblighi di trasparenza connessi alle attività affidate a PagoPA.<br>
 Alcuni dei dati di cui sopra sono pubblicati e aggiornati periodicamente all’indirizzo <https://io.italia.it/dashboard/>.
