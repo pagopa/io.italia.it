@@ -82,7 +82,9 @@ Ti ricordiamo che le preferenze di contatto non incidono sull’iscrizione a det
 Per offrirti un servizio migliore, per fornirti assistenza e per far fronte ad eventuali contenziosi, l’App IO conserverà lo storico delle tue preferenze, seppur per un periodo di tempo limitato.
 
 {:.d-more-1}
-Avrai inoltre la possibilità di: 
+Avrai inoltre la possibilità di:
+
+{:.d-more-1}
 - inserire una scadenza relativa a un avviso ricevuto nell’App nel tuo calendario, e in tal caso verrà effettuato un controllo per verificare che tu non abbia già inserito tale scadenza al fine di evitare la duplicazione di eventi nel tuo calendario; nonché 
 - ove previsto, di conservare e/o inviare alcune informazioni mediante i sistemi e le app di terze parti installate nel tuo dispositivo, in particolare per consentirti di salvare sul tuo dispositivo o condividere con l’esterno i documenti.<br> 
 L’utilizzo di tali funzionalità richiede i permessi di accesso, in lettura e/o scrittura a seconda dei casi, al Tuo calendario, alla fotocamera e/o alla memoria del tuo dispositivo e potrebbe comportare la condivisione di informazioni con i fornitori delle app da te scelte per il calendario, la fotocamera e l’archiviazione, secondo i termini e condizioni previsti da tali fornitori terze parti. Tale accesso è disattivato di default, quindi nessun dato potrà essere raccolto e inviato in mancanza di tua espressa autorizzazione. Potrai sempre modificare i permessi dell’App dalle impostazioni del tuo dispositivo.
@@ -158,6 +160,8 @@ Al fine di rispondere a richieste delle autorità competenti (in proprio o per c
 {:.d-more-1}
 Allo scopo di migliorare il funzionamento dell’App, permetterci di farla evolvere e fornire informazioni agli Enti erogatori, PagoPA effettua attività di trattamento di dati in forma aggregata e di reportistica sull’utilizzo dei Servizi e l’attuazione delle iniziative ad essi sottostanti, in qualità di titolare e, su istruzione dei relativi titolari, di responsabile del trattamento.<br>
 In qualità di titolare, PagoPA tratta i seguenti dati per le finalità legate alla gestione di IO, compresa la ricerca e sviluppo in chiave evolutiva:
+
+{:.d-more-1}
 - informazioni sulla distribuzione, adozione, utilizzo e navigazione all’interno dell’App e delle sue funzionalità da parte del cittadino (compresa la fase di autenticazione e i servizi della piattaforma pagoPA);
 - informazioni sul dispositivo (ad esempio dettagli sul sistema operativo, dettagli sul modello del dispositivo).<br>
 Tali dati sono raccolti da PagoPA per mezzo delle apposite funzionalità integrate in IO, comprese quelle offerte dai fornitori dei servizi nominati responsabili del trattamento. Tali dati sono aggregati in modo che non si possa trarre alcun riferimento relativamente a persone identificate o identificabili.
@@ -179,7 +183,9 @@ Alcuni Enti aderiscono a IO in qualità di aggregatori di altri enti, e in tal c
 #### 3. Trattamenti svolti da PagoPa S.p.A. in qualità di  titolare del trattamento: finalità e base giuridica
 
 {:.d-more-1}
-PagoPA S.p.A. tratta i tuoi dati in qualità di titolare del trattamento per le seguenti finalità, come previste dal paragrafo 7.1 delle [Linee Guida AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf): 
+PagoPA S.p.A. tratta i tuoi dati in qualità di titolare del trattamento per le seguenti finalità, come previste dal paragrafo 7.1 delle [Linee Guida AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf):
+
+{:.d-more-1}
 - attività necessarie alla progettazione, allo sviluppo, alla gestione e all’implementazione del Punto di accesso telematico di cui al 64-bis CAD, per la cui progettazione, sviluppo, gestione e implementazione la Presidenza del Consiglio dei Ministri si avvale di PagoPA S.p.A. ai sensi dall'art 8, comma 2 e 3, del D.L. 14 dicembre 2018, n. 135, convertito con modificazioni in Legge 11 Febbraio 2019, n. 12, ivi incluse le attività volte a permettere l’interoperabilità del Punto di accesso telematico con le piattaforme abilitanti di cui all’Allegato 3 delle Linee Guida, nonché le relative attività di assistenza, debugging e diagnostica, monitoraggio del funzionamento, utilizzo del Punto di accesso telematico e miglioramento ed evoluzione dello stesso (ricerca e sviluppo);
 - attività effettuate con riguardo alle funzionalità e/o servizi direttamente resi da PagoPA S.p.A. al cittadino su sua richiesta, ivi incluse quelle che permettano al cittadino di gestire in modo agevole e dinamico la propria relazione con gli Enti per i servizi erogati per il tramite del Punto di accesso telematico;
 - altre attività che gli sono attribuite ai sensi di legge per l’esecuzione di compiti di interesse pubblico.
@@ -188,7 +194,9 @@ PagoPA S.p.A. tratta i tuoi dati in qualità di titolare del trattamento per le 
 I dati oggetto di trattamento, ove possibile, sono pseudonimizzati in ossequio al principio di privacy by design/default di cui all’art. 25 GDPR e alla sicurezza del trattamento di cui all’art. 32 GDPR. La pseudonimizzazione viene impiegata quando l’anonimizzazione o il trattamento in forma aggregata non è necessaria o non è efficiente, in quanto da un’analisi del bilanciamento dei diritti risulta la necessità di mantenere il collegamento tra un’informazione tecnica e un dato personale per finalità concorrenti.
 
 {:.d-more-1}
-Tali finalità vengono perseguite da PagoPA in ragione delle seguenti basi giuridiche di volta in volta applicabili allo specifico trattamento, anche in modo concorrente:  
+Tali finalità vengono perseguite da PagoPA in ragione delle seguenti basi giuridiche di volta in volta applicabili allo specifico trattamento, anche in modo concorrente:
+
+{:.d-more-1}
 - esercizio di un compito di interesse pubblico, di cui all’Art. 6, comma 1, lett. e) del GDPR, e in particolare progettazione, gestione e sviluppo del punto di accesso di cui all’art. 64-bis del Codice Amministrazione Digitale, affidate a PagoPa S.p.A. dalla Presidenza del Consiglio dei Ministri ai sensi dell’art. 8, commi 2 e 3 del D.lgs. 135/2018;
 - consenso dell’interessato, di cui all’Art. 6, comma 1, lett. a) del GDPR)  laddove i cittadini richiedono volontariamente di usufruire di servizi e funzionalità di IO, anche non correlati a specifici Servizi offerti dagli Enti, ovvero laddove  i cittadini vengano messi nelle condizioni di esprimere una preferenza rispetto a un determinato trattamento di dati facoltativo; 
 - adempimento di obblighi di legge, ai sensi dell’Art. 6, comma 1, lett. c) del GDPR, laddove sia necessario per l’attuazione delle disposizioni normative applicabili alle attività svolte da PagoPA, con particolare riferimento alle norme in materia di sicurezza dei pagamenti, gestione e rendicontazione della spesa pubblica, tutela dei diritti, attribuzione di benefici economici e prevenzione delle frodi.
@@ -198,6 +206,8 @@ Tali finalità vengono perseguite da PagoPA in ragione delle seguenti basi giuri
 
 {:.d-more-1}
 Sia per l’erogazione dei servizi agli Enti erogatori sia per lo svolgimento delle operazioni di trattamento proprie di PagoPA, i dati personali saranno comunicati ai soggetti appartenenti alle seguenti categorie di destinatari:
+
+{:.d-more-1}
 - Soggetti terzi che forniscono servizi per la gestione del sistema informativo in qualità di responsabili del trattamento (o sub-responsabili), previa designazione degli stessi ai sensi dell'art. 28 del GDPR. Puoi ottenere l'elenco dei responsabili del trattamento collegandoti all’indirizzo <https://www.io.italia.it/app-content/fornitori>;
 - Enti pubblici o privati (compresi gli Enti aderenti a IO) che agiscono in qualità di titolari;
 - altri soggetti pubblici o privati che ne facciano richiesta a PagoPA per l’esecuzione di un compito di interesse pubblico o connesso all’esercizio di un pubblico potere oppure per adempiere a un obbligo legale.
@@ -209,7 +219,9 @@ Sia per l’erogazione dei servizi agli Enti erogatori sia per lo svolgimento de
 I tuoi dati personali saranno conservati per un periodo di tempo non superiore a quello necessario agli scopi per i quali essi sono stati raccolti o successivamente trattati, conformemente a quanto previsto dagli obblighi di legge e dalle informative messe a disposizione dagli Enti per ciascun Servizio.
 
 {:.d-more-1}
-Sono conservati fino all’eventuale richiesta di cancellazione da parte del cittadino: 
+Sono conservati fino all’eventuale richiesta di cancellazione da parte del cittadino:
+
+{:.d-more-1}
 - i dati necessari per l’identificazione e l’autenticazione in app; 
 - le preferenze collegate all’account;
 - i dati del titolare di uno strumento di pagamento registrato in app, gli estremi identificativi dello strumento, i dati relativi alle transazioni effettuate e le informazioni contenute negli avvisi di pagamento.
