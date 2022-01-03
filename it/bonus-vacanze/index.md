@@ -2,7 +2,6 @@
 layout: internal-w-slides
 title: Il tuo Bonus Vacanze con IO
 image: "/assets/img/bonus-vacanze/social-card-bonus.jpg"
-pre-title: Servizio attivo
 description: Richiedi e utilizza il "Bonus Vacanze" attraverso l'app IO in modo semplice e sicuro
 description_social: Dal 1° luglio richiedi e utilizza il "Bonus Vacanze" attraverso l'app IO in modo semplice e sicuro
 subdescription: "Scarica l’ultima versione dell’app:"
@@ -10,7 +9,7 @@ lang: it
 ref: bonus-vacanze
 permalink: /bonus-vacanze/
 bannersup:
-  label: "Richiedi il Bonus Vacanze su IO a partire <strong>dal 1°luglio al 31 dicembre 2020</strong>, e spendilo entro il 31 dicembre 2021."
+  label: "Il Bonus Vacanze è terminato. Pertanto, il relativo servizio su IO non è più attivo."
 introduction_slides:
   - /assets/img/bonus-vacanze/3.jpg
   - /assets/img/bonus-vacanze/1.jpg
