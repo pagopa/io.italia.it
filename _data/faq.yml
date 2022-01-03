@@ -88,7 +88,7 @@ it:
     body: "Sì, per sempre."
     cat: "1|Generali"
   - title: "L’infrastruttura su cui si basa la app è sicura?"
-    body: "Lo sviluppo dell’applicazione mobile e di tutte le componenti software a supporto avviene in conformità delle linee guida sulla sicurezza definite nel (Piano Triennale per l’ICT)[http://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html]. \
+    body: "Lo sviluppo dell’applicazione mobile e di tutte le componenti software a supporto avviene in conformità delle linee guida sulla sicurezza definite nel [Piano Triennale per l’ICT](http://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html). \
     Inoltre, tutto il codice software sviluppato è open source, per cui aperto all'analisi di tutti gli sviluppatori che vorranno verificarne la sicurezza per consolidarla o migliorarla."
     cat: "6|Sicurezza e Privacy"
   - title: Come sarà tutelata la mia privacy?
