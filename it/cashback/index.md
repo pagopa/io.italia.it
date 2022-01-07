@@ -11,7 +11,7 @@ lang: it
 ref: cashback
 permalink: /cashback/
 bannersup:
-  label: "Il Programma Cashback è terminato, come stabilito nella [Legge n. 234 del 30 dicembre 2021](https://www.gazzettaufficiale.it/do/atto/serie_generale/caricaPdf?cdimg=21G0025600000010110001&dgu=2021-12-31&art.dataPubblicazioneGazzetta=2021-12-31&art.codiceRedazionale=21G00256&art.num=1&art.tiposerie=SG) (art. 1, commi 637-644). Pertanto, il relativo servizio su IO non è più attivo."
+  label: "Il Programma Cashback è terminato, come stabilito nella [Legge n. 234 del 30 dicembre 2021](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-12-31&atto.codiceRedazionale=21G00256&elenco30giorni=true) (art. 1, commi 637-644). Pertanto, il relativo servizio su IO non è più attivo."
 introduction_slides:
     - /assets/img/cashback/empty.png
 intro_image: "/assets/img/cashback/logo-cashback.svg"
