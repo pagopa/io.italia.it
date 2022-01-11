@@ -8,17 +8,6 @@ subdescription:
 permalink: /metodi-pagamento/
 lang: it
 ref: cashback-metodi
-introduction_slides:
-grid-items:
-  - title: Abilita la tua carta agli acquisti online
-    body: "[Se la tua banca è supportata](https://io.italia.it/cashback/carta-non-abilitata-pagamenti-online), puoi aggiungere la carta anche se non ha il codice di sicurezza e usarla per il Cashback."
-    img: /assets/img/cashback/metodi/ic-toggle.svg
-  - title: Aggiungi tutti i circuiti riportati sulla carta
-    body: Se la tua carta PagoBANCOMAT ha più di un logo, segui le istruzioni in app e aggiungi il secondo circuito.
-    img: /assets/img/cashback/metodi/ic-card.svg
-  - title: Apple Pay e Google Pay sono in arrivo
-    body: Nel frattempo, aggiungi e attiva su IO la tua carta fisica se vuoi che gli acquisti siano validi per partecipare al Cashback.
-    img: /assets/img/cashback/metodi/ic-device.svg
 ---
 
 <div class="container container--mid  my-5 my-md-0">
@@ -48,5 +37,3 @@ Per questo, la lista si popolerà progressivamente, in linea con la roadmap di s
 </div><!--/.container-->
 
 {% include_relative widget-metodi-supportati.html %}
-
-{% include_relative include-footer.html %}
