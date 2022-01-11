@@ -43,22 +43,13 @@
                     </div>
                     <div class="h6">Numero carta: {{item.numbers}} cifre &middot; Codice di sicurezza: {% if item.cvv %}{{item.cvv}} cifre{%else%}non presente{%endif%}</div>
                     <div class="row my-5">
-                        <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-12">
                             <div class="d-flex">
                                 <img src="{{data.iostatus[item.io].icon}}">
                                 <b class="text-primary ml-2">{{data.iostatus[item.io].title}}</b>
                             </div>
                             <div class="font-size-reset mt-2 pr-4">
                                 {{item.iotext | markdownify}}
-                            </div>
-                        </div>
-                        <div class="col-sm-12 col-md-6">
-                            <div class="d-flex">
-                                <img src="{{data.cashbackstatus[item.cashback].icon}}">
-                                <b class="text-primary ml-2">{{data.cashbackstatus[item.cashback].title}}</b>
-                            </div>
-                            <div class="font-size-reset mt-2 pr-4">
-                                {{item.cashbacktext | markdownify}}
                             </div>
                         </div>
                     </div>
