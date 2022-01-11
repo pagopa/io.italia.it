@@ -1,5 +1,5 @@
 it:
-  last_update: 26/05/2021
+  last_update: 11/01/2021
   iostatus:
     0:
       status: yes
@@ -271,7 +271,7 @@ it:
       numbers: 16
       note: BancoPosta, Postepay
       io: 0
-      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta BancoPosta o Postepay'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se hai problemi, seleziona ‘Ti manca qualche dato?’. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -281,7 +281,7 @@ it:
       numbers: 16
       note: Postepay
       io: 0
-      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay'. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
@@ -291,7 +291,7 @@ it:
       numbers: 16
       note: Postepay
       io: 0
-      iotext: Aggiungi la carta nella sezione Portafoglio, selezionando 'Carta BancoPosta o Postepay'. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
+      iotext: Aggiungi la carta nella sezione **Portafoglio**, selezionando **'Carta di credito, debito o prepagata'**. Potrai pagare tutti gli avvisi che hanno il logo pagoPA!
       cashback: 0
       cashbacktext: Aggiungi la carta nella sezione **Portafoglio** e segui le istruzioni. Se la tua carta è già presente nel Portafoglio, selezionala per verificare lo stato del Cashback.
     - cards:
