@@ -1,14 +1,13 @@
 ---
 layout: internal-simple
 title: Quali metodi di pagamento puoi salvare su IO
-image: "/assets/img/cashback/social-card-cashback.jpg"
+image: "/assets/img/social-card-metodi.png"
 pre-title: D
 description: Lista dei metodi di pagamento attualmente attivi su IO
 subdescription:
 permalink: /metodi-pagamento/
 lang: it
 ref: cashback-metodi
-
 ---
 
 <div class="container container--mid  my-5 my-md-0">
