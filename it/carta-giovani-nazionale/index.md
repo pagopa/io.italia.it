@@ -15,7 +15,7 @@ intro_primary_text: "App Store"
 intro_primary_link: "https://apps.apple.com/it/app/io/id1501681835"
 intro_primary_customclass: "btn btn-sm btn-download btn-download--w-icon ios text-uppercase px-3 px-md-5 mr-2"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Download App: iOS', 1)"
-intro_secondary_text: "Scopri i dettagli dell’iniziativa e chi ha diritto"
+intro_secondary_text: "Scopri i dettagli dell’iniziativa"
 intro_secondary_link: "#"
 intro_secondary_disable_icon: true
 intro_secondary_customclass: "text-white small mt-2"
