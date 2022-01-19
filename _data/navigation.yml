@@ -44,6 +44,8 @@ it:
         url: /faq/
       - label: Bonus Vacanze
         url: /bonus-vacanze/faq/
+      - label: Carta Giovani Nazionale
+        url: /carta-giovani-nazionale/faq/
       - label: Cashback
         url: /cashback/faq/
       - label: Certificazione Verde COVID-19
