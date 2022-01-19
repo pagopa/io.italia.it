@@ -21,10 +21,6 @@ it:
     items_grouped:
       - label: In evidenza
         items:
-          - label: Bonus Vacanze
-            url: /bonus-vacanze/
-          - label: Cashback
-            url: /cashback/
           - label: Certificazione Verde COVID-19
             url: /certificato-verde-green-pass-covid/
           - label: Carta Giovani Nazionale

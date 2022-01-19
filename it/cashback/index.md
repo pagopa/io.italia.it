@@ -11,7 +11,7 @@ lang: it
 ref: cashback
 permalink: /cashback/
 bannersup:
-  label: "Il periodo del Cashback che va dal 01/07 al 31/12 2021 è sospeso, come stabilito nel [Decreto Legge 30 giugno 2021 n. 99](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-06-30&atto.codiceRedazionale=21G00110&elenco30giorni=true). Il prossimo periodo inizierà l’1 gennaio 2022"
+  label: "Il Programma Cashback è terminato, come stabilito nella [Legge n. 234 del 30 dicembre 2021](https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.dataPubblicazioneGazzetta=2021-12-31&atto.codiceRedazionale=21G00256&elenco30giorni=true) (art. 1, commi 637-644). Pertanto, il relativo servizio su IO non è più attivo."
 introduction_slides:
     - /assets/img/cashback/empty.png
 intro_image: "/assets/img/cashback/logo-cashback.svg"

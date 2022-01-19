@@ -35,6 +35,13 @@ items:
     garanzie: "N/A"
     doc: "[link](https://io.italia.it/assets/download/it/Fabrick_Addendum-1_DPA.pdf)"
   - 
+    fornitore: "Atlantica Digital S.p.A."
+    attivita: "Servizi di Vulnerability Assessment/Penetration Test e Security Consulting"
+    dati: "Dati personali cui il fornitore potrebbe eventualmente avere accesso nello svolgimento dei servizi affidati"
+    luogo: Italia
+    garanzie: "N/A"
+    doc: "[link](https://io.italia.it/assets/download/it/Atlantica-Digital_DPA.pdf)"
+  - 
     fornitore: "OneTrust Technology Limited"
     attivita: "Software gestionale per adempimenti privacy"
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
