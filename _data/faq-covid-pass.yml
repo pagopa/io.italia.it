@@ -14,6 +14,15 @@ Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ric
     body: Il certificato viene inviato tramite IO non appena reso disponibile dalla Piattaforma Nazionale DGC gestita dal Ministero della Salute. I criteri con cui viene generata la Certificazione Verde COVID-19 sono definiti dalla piattaforma stessa e dalle autorità competenti. Per saperne di più visita <https://www.dgc.gov.it>
   - title: Riceverò il certificato anche se installo IO dopo aver fatto il vaccino o il tampone?
     body: Sì, non appena avrai completato l'accesso ad IO (login con SPID o CIE e approvazione dei termini e condizioni d'uso), verrà avvisata la Piattaforma Nazionale DGC gestita dal Ministero della Salute che provvederà, appena possibile, ad inviarti anche su IO gli eventuali certificati.
+  - title: Posso ricevere su IO la Certificazione di esenzione dalla vaccinazione anti-COVID-19?
+    body: "Sì, puoi ricevere e visualizzare il tuo Certificato di esenzione direttamente in app.
+          Questa certificazione è valida solo in Italia e può essere utilizzata in sostituzione della Certificazione verde COVID-19 per lo svolgimento di attività e la fruizione di servizi secondo quanto previsto dalla normativa nazionale vigente. 
+
+
+          Riceverai su IO il tuo Certificato di esenzione, sotto forma di messaggio in app, non appena sarà generato dalla Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute. Non dovrai fare nessuna richiesta esplicita: basta aver fatto accesso a IO con SPID o CIE. 
+
+
+          Si ricorda che la Certificazione di esenzione è rilasciata nel caso in cui la vaccinazione stessa venga omessa o differita per la presenza di specifiche condizioni cliniche documentate, che la controindichino in maniera permanente o temporanea. "
   - title: Per ricevere il certificato su IO devo per forza avere CIE o SPID?
     body: Sì, per poter ricevere il certificato devi aver fatto almeno una volta accesso all'app con SPID o CIE ed aver approvato i termini e condizioni d'uso.
   - title: Come faccio a vedere il certificato se non ho disponibile la connessione ad Internet?
