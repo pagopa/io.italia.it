@@ -17,19 +17,19 @@ b) di essere residente in Italia;
 
 # Indice
 
-- [Cos'è la Carta Giovani Nazionale?](https://docs.google.com/document/d/1VnGWFXE5_wvJQ3zX1o0FbISjJ4GszkA-/edit#heading=h.pr9yb4mz7vxq)
+- [Cos'è la Carta Giovani Nazionale?](#cosè-la-carta-Giovani-nazionale)
 
-- [Chi sono i soggetti coinvolti?](https://docs.google.com/document/d/1VnGWFXE5_wvJQ3zX1o0FbISjJ4GszkA-/edit#heading=h.6kvyk2hmgpux)
+- [Chi sono i soggetti coinvolti?](#chi-sono-i-soggetti-coinvolti)
 
-- [Come si aderisce alla Carta Giovani Nazionale?](https://docs.google.com/document/d/1VnGWFXE5_wvJQ3zX1o0FbISjJ4GszkA-/edit#heading=h.3uoh56wufail)
+- [Come si aderisce alla Carta Giovani Nazionale?](#come-si-aderisce-al-programma)
 
-- [Come funziona il Programma?](https://docs.google.com/document/d/1VnGWFXE5_wvJQ3zX1o0FbISjJ4GszkA-/edit#heading=h.r8q7jmjuynb2)
+- [Come funziona il Programma?](#come-funziona-il-programma)
 
-- [Quali sono le regole di utilizzo della Carta e la responsabilità del Beneficiario?](https://docs.google.com/document/d/1VnGWFXE5_wvJQ3zX1o0FbISjJ4GszkA-/edit#heading=h.l5hp8x1ojsq9)
+- [Quali sono le regole di utilizzo della Carta e la responsabilità del Beneficiario?](#quali-sono-le-regole-di-utilizzo-della-carta-e-la-responsabilità-del-beneficiario)
 
-- [Quanto dura il Programma? Come si recede?](https://docs.google.com/document/d/1VnGWFXE5_wvJQ3zX1o0FbISjJ4GszkA-/edit#heading=h.o6gsfe1763p)
+- [Quanto dura il Programma? Come si recede?](#quanto-dura-il-programma-come-si-recede)
 
-- [Come faccio ad avere assistenza o a fare un reclamo? ](https://docs.google.com/document/d/1VnGWFXE5_wvJQ3zX1o0FbISjJ4GszkA-/edit#heading=h.30j0zll)
+- [Come faccio ad avere assistenza o a fare un reclamo?](#come-faccio-ad-avere-assistenza-o-a-fare-un-reclamo)
 
 # Cos'è la Carta Giovani Nazionale?
 
