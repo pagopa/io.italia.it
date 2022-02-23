@@ -18,7 +18,7 @@ b) di essere residente in Italia;
 
 # Indice
 
-- [Cos'è la Carta Giovani Nazionale?](#cosè-la-carta-Giovani-nazionale)
+- [Cos'è la Carta Giovani Nazionale?](#cosè-la-carta-giovani-nazionale)
 
 - [Chi sono i soggetti coinvolti?](#chi-sono-i-soggetti-coinvolti)
 
@@ -182,7 +182,7 @@ Il Beneficiario può rivolgersi a PagoPA S.p.A. utilizzando l'apposita funzione 
 
 Si precisa che eventuali problematiche attinenti alle transazioni attivate dai Beneficiari con gli Operatori e/o al relativo contenuto saranno di esclusiva competenza degli Operatori medesimi, rimanendo sia il Dipartimento che PagoPA S.p.A estranei rispetto alle stesse.
 
-Per ogni eventuale reclamo concernente il Programma, il Beneficiario potrà rivolgersi al Dipartimento compilando il modulo apposito messo a disposizione o scrivendo all’indirizzo email <cartagiovaninazionale@governo.it>. Una volta inviata la segnalazione, il Beneficiario potrebbe essere contattato dal Dipartimento per eventuali chiarimenti e riceverà una risposta entro 30 giorni. I dati personali acquisiti con il reclamo saranno trattati nel rispetto del Regolamento UE 679/2016 e del D.lgs. 196/2003, come da [informativa](https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari).
+Per ogni eventuale reclamo concernente il Programma, il Beneficiario potrà rivolgersi al Dipartimento compilando il modulo apposito messo a disposizione o scrivendo all’indirizzo email <cartagiovaninazionale@governo.it>. Una volta inviata la segnalazione, il Beneficiario potrebbe essere contattato dal Dipartimento per eventuali chiarimenti e riceverà una risposta entro 30 giorni. I dati personali acquisiti con il reclamo saranno trattati nel rispetto del Regolamento UE 679/2016 e del D.lgs. 196/2003, come da [informativa](https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari/).
 
 II procedimento di reclamo descritto è volontario e non costituisce modalità alternativa di soddisfacimento della condizione di procedibilità dell'azione giudiziaria eventualmente prevista dalla Legge.
 
