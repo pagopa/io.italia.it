@@ -5,6 +5,7 @@ lang: it
 ref: cgn-guida
 permalink: /carta-giovani-nazionale/guida-beneficiari/
 narrow: true
+noheight: true
 ---
 
 In questa pagina sono descritti i Termini e le Condizioni, nonché le modalità operative per partecipare all'iniziativa "Carta Giovani Nazionale" (di seguito, definita anche "Programma"). Se vuoi aderire al Programma, ti invitiamo a leggere attentamente tutte le informazioni qui fornite, così da assicurarti di avere i requisiti necessari e di avere compreso come funziona la partecipazione al Programma.
@@ -181,7 +182,7 @@ Il Beneficiario può rivolgersi a PagoPA S.p.A. utilizzando l'apposita funzione 
 
 Si precisa che eventuali problematiche attinenti alle transazioni attivate dai Beneficiari con gli Operatori e/o al relativo contenuto saranno di esclusiva competenza degli Operatori medesimi, rimanendo sia il Dipartimento che PagoPA S.p.A estranei rispetto alle stesse.
 
-Per ogni eventuale reclamo concernente il Programma, il Beneficiario potrà rivolgersi al Dipartimento compilando il modulo apposito messo a disposizione. Una volta inviata la segnalazione, il Beneficiario potrebbe essere contattato dal Dipartimento per eventuali chiarimenti e riceverà una risposta entro 30 giorni.    I dati personali acquisiti con il reclamo saranno trattati nel rispetto del Regolamento UE 679/2016 e del D.lgs. 196/2003, come da [informativa](https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari).
+Per ogni eventuale reclamo concernente il Programma, il Beneficiario potrà rivolgersi al Dipartimento compilando il modulo apposito messo a disposizione o scrivendo all’indirizzo email <cartagiovaninazionale@governo.it>. Una volta inviata la segnalazione, il Beneficiario potrebbe essere contattato dal Dipartimento per eventuali chiarimenti e riceverà una risposta entro 30 giorni. I dati personali acquisiti con il reclamo saranno trattati nel rispetto del Regolamento UE 679/2016 e del D.lgs. 196/2003, come da [informativa](https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari).
 
 II procedimento di reclamo descritto è volontario e non costituisce modalità alternativa di soddisfacimento della condizione di procedibilità dell'azione giudiziaria eventualmente prevista dalla Legge.
 
