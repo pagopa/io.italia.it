@@ -1,6 +1,7 @@
 ---
 layout: internal-w-slides
 title: Carta Giovani Nazionale
+image: "/assets/img/carta-giovani-nazionale/social-card-cgn.png"
 pre-title: In arrivo
 description: "Richiedi e utilizza la Carta Giovani Nazionale attraverso l’app IO in modo semplice e sicuro."
 subdescription: "Scarica l’ultima versione dell’app:"
