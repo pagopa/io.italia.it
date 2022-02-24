@@ -71,11 +71,20 @@
     </div>
     {%- if page.intro_image -%}
     <div class="{{colSecondClass}} order-1 order-lg-2 d-flex align-items-center justify-content-center mb-2 mb-md-0 col-intro-img">
+      {% if page.intro_image_2x %}
+      <img alt="{{page.title}}"
+            srcset="
+            {{ page.intro_image_2x | prepend: site.imagesurl }} 2x,
+            {{ page.intro_image | prepend: site.imagesurl }} 1x"
+            src="{{ page.intro_image | prepend: site.imagesurl }}"
+            >
+      {% else %}
       <img
-        class="img-fluid"
-        src="{{ page.intro_image | prepend: site.imagesurl }}"
-        alt="Messaggi"
+      class="img-fluid"
+      src="{{ page.intro_image | prepend: site.imagesurl }}"
+      alt="{{page.title}}"
       />
+      {% endif %}
     </div>
     {%- endif -%}
   </div>

@@ -5,6 +5,7 @@ lang: it
 ref: "cgn"
 permalink: /carta-giovani-nazionale/informativa-beneficiari/
 narrow: true
+noheight: true
 ---
 
 <h3>Dipartimento per le Politiche Giovanili e il Servizio Civile Universale della Presidenza del Consiglio dei ministri <br>

@@ -10,7 +10,7 @@ noheight: true
 
 In questa pagina sono descritti i Termini e le Condizioni, nonché le modalità operative per partecipare all'iniziativa "Carta Giovani Nazionale" (di seguito, definita anche "Programma"). Se vuoi aderire al Programma, ti invitiamo a leggere attentamente tutte le informazioni qui fornite, così da assicurarti di avere i requisiti necessari e di avere compreso come funziona la partecipazione al Programma.
 
-Il Programma è aperto a giovani italiani ed europei residenti in Italia, dai 18 ai 35 anni di età. Per partecipare al Programma, confermi di avere letto l'[informativa privacy](https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari) e dichiari, ai sensi e per gli effetti degli artt. 46 e 47 del DPR 445/2000 e consapevole delle sanzioni penali e della decadenza dai benefici eventualmente conseguiti in caso di dichiarazioni mendaci (artt. 75 e 76 dello stesso DPR 445/2000):
+Il Programma è aperto a giovani italiani ed europei residenti in Italia, dai 18 ai 35 anni di età. Per partecipare al Programma, confermi di avere letto l'[informativa privacy](https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari/) e dichiari, ai sensi e per gli effetti degli artt. 46 e 47 del DPR 445/2000 e consapevole delle sanzioni penali e della decadenza dai benefici eventualmente conseguiti in caso di dichiarazioni mendaci (artt. 75 e 76 dello stesso DPR 445/2000):
 
 a) di essere maggiorenne e non avere un'età superiore ai 35 anni;
 

@@ -23,6 +23,8 @@ it:
         items:
           - label: Certificazione Verde COVID-19
             url: /certificato-verde-green-pass-covid/
+          - label: Carta Giovani Nazionale
+            url: /carta-giovani-nazionale/
       - label: Tutti i servizi
         items:
           - label: Enti Nazionali
@@ -42,6 +44,8 @@ it:
         url: /faq/
       - label: Bonus Vacanze
         url: /bonus-vacanze/faq/
+      - label: Carta Giovani Nazionale
+        url: /carta-giovani-nazionale/faq/
       - label: Cashback
         url: /cashback/faq/
       - label: Certificazione Verde COVID-19
