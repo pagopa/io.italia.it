@@ -3,7 +3,7 @@ it:
     body: "La Carta Giovani Nazionale è una iniziativa che offre ai giovani una serie di sconti e agevolazioni su prodotti e servizi, tra cui esperienze di viaggio o formative, manifestazioni sportive, iniziative culturali e di intrattenimento, \
      e anche su attività di orientamento professionale. Queste agevolazioni sono offerte da diversi operatori, sia esercenti che enti pubblici."
   - title: Quali requisiti devo avere per poter richiedere la Carta Giovani Nazionale?
-    body: "Devi essere residente in Italia e avere un’età compresa tra i 18 e i 35 anni. Considerato che l’attivazione della Carta Giovani Nazionale avviene esclusivamente tramite l’app IO, \
+    body: "La Carta è dedicata ai giovani italiani ed europei residenti in Italia con un’età compresa tra i 18 e i 35 anni. Considerato che l’attivazione della Carta Giovani Nazionale avviene esclusivamente tramite l’app IO, \
     dovrai inoltre essere in possesso di [un’identità digitale (SPID o CIE)](https://io.italia.it/faq/#n1_5) per autenticarti."
   - title: Come posso richiedere la Carta Giovani Nazionale su IO?
     body: "Dopo esserti autenticato nell’app IO con SPID o CIE, entra nella sezione “Portafoglio” dell’app, premi “Aggiungi”, vai su “Sconti, Bonus e altre iniziative” e scegli la Carta Giovani Nazionale dalla lista di quelli disponibili. \
@@ -77,8 +77,11 @@ Se i casi descritti sopra non ti aiutano  a risolvere il tuo problema, contatta 
 
           Verifica le agevolazioni disponibili nei Paesi aderenti sul [sito ufficiale EYCA](https://www.eyca.org/discounts)."
   - title: "Come faccio a richiedere assistenza o a fare un reclamo?"
-    body: "Puoi rivolgerti all'assistenza dell'App IO toccando l’icona con il punto interrogativo che trovi in alto a destra di ogni schermata. Ti informiamo che eventuali problematiche relative alle transazioni effettuate o alle agevolazioni attivate sono di esclusiva competenza dei Partner dell'iniziativa. \ 
-    Eventuali reclami legati alla CGN dovranno essere indirizzati direttamente al Dipartimento delle Politiche Giovanili e il Servizio Civile Universale, compilando il [modulo](https://io.italia.it/assets/cgn/cgn_reclami.pdf) e inviandolo all’indirizzo email [cartagiovaninazionale@governo.it](mailto:cartagiovaninazionale@governo.it). \
+    body: "Per problemi di natura tecnica (es. attivazione della Carta, malfunzionamenti dell'App IO) puoi sempre contattare l'assistenza dell'App IO toccando l’icona con il punto interrogativo che trovi in alto a destra di ogni schermata.
+    
+    Ti informiamo che eventuali problematiche relative alle transazioni effettuate o alle agevolazioni attivate sono di esclusiva competenza dei Partner dell'iniziativa.
+    
+    Per problemi non dipendenti dall'app, ma sempre legati all'iniziativa puoi fare un reclamo e indirizzarlo direttamente al Dipartimento delle Politiche Giovanili e il Servizio Civile Universale, compilando il [modulo](https://io.italia.it/assets/cgn/cgn_reclami.pdf) e inviandolo all’indirizzo email [cartagiovaninazionale@governo.it](mailto:cartagiovaninazionale@governo.it). \
     Una volta inviata la segnalazione, potresti essere contattato per eventuali chiarimenti e riceverai una risposta dal Dipartimento entro 30 giorni. I dati personali acquisiti con il reclamo saranno trattati nel rispetto del Regolamento UE 679/2016 e del D.lgs. 196/2003, come da [informativa privacy](https://io.italia.it/carta-giovani-nazionale/informativa-beneficiari/)."
   - title: "Sono un professionista/istituzione e vorrei aderire al programma di Carta Giovani Nazionale in qualità di Operatore: come devo fare?"
     body: "Puoi trovare tutte le informazioni per aderire al programma a [questo indirizzo](https://www.politichegiovanili.gov.it/comunicazione/avvisi-e-bandi/dipartimento/maninteresse_cgn/)."
