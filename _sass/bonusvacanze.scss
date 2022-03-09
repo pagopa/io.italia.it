@@ -394,3 +394,59 @@ body.pagename--cgn {
     }
   }
 }
+
+.pagename--donazioni {
+  .internal-page.w-slides {
+    margin-top: 50px;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      margin-top: 56px;
+    }
+  }
+
+  #introduzione {
+    &:before {
+      content: none;
+    }
+  }
+
+  #intro-slider {
+    background-color: #2d489d;
+    height: 549px;
+    overflow: hidden;
+
+    .carousel-inner {
+      height: 100%;
+    }
+
+    .carousel-item {
+      height: 100%;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 60%;
+        right: 0;
+
+        @media screen and (min-width: $grid-breakpoints-md) {
+          object-position: center;
+        }
+      }
+    }
+    &:after {
+      content: ' ';
+      background: linear-gradient(
+        0deg,
+        #2d489d 10%,
+        rgba(45, 72, 157, 0.7) 50%
+      );
+      @media screen and (min-width: $grid-breakpoints-md) {
+        background: radial-gradient(
+          100% 100% at 0% 60%,
+          #2d489d 20%,
+          rgba(45, 72, 157, 0.3) 100%
+        );
+      }
+    }
+  }
+}

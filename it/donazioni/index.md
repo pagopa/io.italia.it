@@ -9,7 +9,7 @@ lang: it
 ref: donazioni
 permalink: /donazioni/
 introduction_slides:
-  - /assets/img/certificato-verde-green-pass-covid/covid-pass-img.jpg
+  - /assets/img/donazioni/donation-hero-image.jpg
 intro_primary_text: 'App Store'
 intro_primary_link: 'https://apps.apple.com/it/app/io/id1501681835'
 intro_primary_customclass: 'btn btn-sm btn-download btn-download--w-icon ios text-uppercase px-3 px-md-5 mr-2'
