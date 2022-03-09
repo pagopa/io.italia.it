@@ -1,7 +1,7 @@
 ---
 layout: internal-w-slides
 title: Sostieni le vittime del conflitto in Ucraina
-image: '/assets/img/carta-giovani-nazionale/social-card-cgn.png'
+image: '/assets/img/donazioni/social-card-donation.png'
 pre-title: Dona con Io
 description: 'Da oggi, con IO puoi fare una donazione alle organizzazioni umanitarie che assistono le vittime del conflitto in Ucraina. L’importo, detraibile e senza commissioni, verrà versato direttamente sul conto  dell’organizzazione a cui scegli di donare.'
 subdescription: 'Scarica l’ultima versione dell’app:'
