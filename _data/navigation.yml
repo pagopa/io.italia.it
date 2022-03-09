@@ -25,6 +25,8 @@ it:
             url: /certificato-verde-green-pass-covid/
           - label: Carta Giovani Nazionale
             url: /carta-giovani-nazionale/
+          - label: Donazioni
+            url: /donazioni/
       - label: Tutti i servizi
         items:
           - label: Enti Nazionali
@@ -50,4 +52,6 @@ it:
         url: /cashback/faq/
       - label: Certificazione Verde COVID-19
         url: /certificato-verde-green-pass-covid/faq/
+      - label: Donazioni
+        url: /donazioni/faq/
   
