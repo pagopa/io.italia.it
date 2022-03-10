@@ -2,7 +2,7 @@
 .pagename--cashback,
 .pagename--covid-pass,
 .pagename--cgn,
-.pagename--donazioni {
+.pagename--donazioni-ucraina {
   // hack
   .page-wrapper {
     margin-bottom: -48px;
@@ -395,7 +395,7 @@ body.pagename--cgn {
   }
 }
 
-.pagename--donazioni {
+.pagename--donazioni-ucraina {
   .internal-page.w-slides {
     margin-top: 50px;
     @media screen and (min-width: $grid-breakpoints-md) {
