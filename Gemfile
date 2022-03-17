@@ -8,3 +8,4 @@ gem "webrick", "~> 1.7"
 gem 'down', '~> 5.2'
 gem "jekyll-minifier", "~> 0.1.10"
 gem 'jekyll-datapage-generator', '~> 1.3.0'
+gem 'rss', '~> 0.2.9'
