@@ -3,7 +3,7 @@ layout: internal-w-slides
 title: 'Emergenza Ucraina: sostieni le vittime civili della crisi umanitaria'
 image: '/assets/img/donazioni-ucraina/social-card-donation.png'
 pre-title: Dona con Io
-description: 'Da oggi, con IO puoi fare una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina. L’importo, detraibile e senza commissioni, verrà versato direttamente sul conto  dell’organizzazione a cui scegli di donare.'
+description: 'Da oggi, con IO puoi fare una donazione alle organizzazioni umanitarie che assistono le vittime civili della crisi in Ucraina. L’importo verrà versato direttamente sul conto dell’organizzazione a cui scegli di donare.'
 subdescription: 'Scarica l’ultima versione dell’app:'
 lang: it
 ref: donazioni-ucraina
