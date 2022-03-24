@@ -1,0 +1,19 @@
+it:
+  - title: Come posso donare?
+    body: "Per donare, segui questi passaggi:\n
+        1. Apri l’app IO ed entra con SPID o CIE;\n
+        2. Premi sul box azzurro che trovi in evidenza nella sezione Messaggi. Se non lo vedi, vai allo store del tuo dispositivo e verifica di avere scaricato l’ultima versione dell’app;\n
+        3. Scegli un’organizzazione umanitaria tra quelle che trovi nella lista. Poi, seleziona l’importo che vuoi donare e premi “Continua”;\n
+        4. Usa un metodo di pagamento compatibile o selezionalo dal Portafoglio. Infine, premi “Paga” per completare la donazione."
+  - title: Con che metodi di pagamento posso fare la donazione?
+    body: "Se doni con l'app IO puoi usare carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard e con conto PayPal. Se doni [dal sito di pagoPA](https://checkout.pagopa.it/dona) puoi usare carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard."
+  - title: C'è un importo minimo?
+    body: "Sì, puoi donare da un minimo di 5 € a un massimo di 200 €. Se vuoi donare importi superiori, ripeti la donazione."
+  - title: La donazione prevede dei costi di commissione? 
+    body: "Se doni con carta di credito, debito o prepagata del circuito Visa, Maestro o Mastercard non hai costi di commissione."
+  - title: Non ho ricevuto l'email con i dettagli della donazione. Cosa posso fare?
+    body: "Se hai donato con l'app IO e non hai ricevuto nessuna email, guarda nella cartella spam e verifica che l'indirizzo che trovi nella sezione Profilo > I tuoi dati sia corretto."
+  - title: "Rappresento un'organizzazione umanitaria: posso partecipare all'iniziativa?"
+    body: "Per avere informazioni su come partecipare all'iniziativa, scrivi un'email a [affari.istituzionali@pagopa.it](mailto:affari.istituzionali@pagopa.it)."
+  - title: "Posso donare anche se non ho ancora installato l'app IO?"
+    body: "Sì, puoi fare una donazione online direttamente dal sito di pagoPA [a questo link](https://checkout.pagopa.it/dona)."
