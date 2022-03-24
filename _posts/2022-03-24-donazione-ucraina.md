@@ -14,7 +14,7 @@ IO, l’app dei servizi pubblici, ha aggiunto una funzionalità che da oggi perm
 
 Grazie alla collaborazione con **Nexi**, l’importo - detraibile - delle donazioni non sarà soggetto a commissioni in caso di pagamento con carte di credito, debito o prepagate dei circuiti supportati, e sarà quindi interamente devoluto all’organizzazione beneficiaria scelta dall’utente.
 
-Questa funzionalità è parte dell’iniziativa realizzata da PagoPA S.p.A., con il supporto del _Ministro per l’innovazione tecnologica e la transizione digitale_, **Vittorio Colao**, che vede l’adesione di **Croce Rossa Italiana, Fondazione AVSI, Fondazione Bambino Gesù Onlus, Fondazione Soleterre Onlus e Save the Children**, tra le realtà in prima linea nel fornire assistenza alle vittimi civili.
+Questa funzionalità è parte dell’iniziativa realizzata da PagoPA S.p.A., con il supporto del _Ministro per l’innovazione tecnologica e la transizione digitale_, **Vittorio Colao**, che vede l’adesione di **Croce Rossa Italiana, Fondazione AVSI, Fondazione Bambino Gesù Onlus, Fondazione Soleterre e Save the Children**, tra le realtà in prima linea nel fornire assistenza alle vittimi civili.
 
 È, inoltre, possibile effettuare una donazione anche online tramite la piattaforma pagoPA a questo [link](https://checkout.pagopa.it/dona).
 
