@@ -1,3 +1,4 @@
+{% assign mediumposts = site.data.mediumposts %}
 <div class="giornalisti">
   <div class="section section-muted section-inset-shadow section--wpointers">
     <div class="container container--mid pb-5">
@@ -421,72 +422,28 @@
       <div class="row">
         <div class="col pt-5 px-3 px-md-0">
           <div class="grid-gallery">
+            {% for item in mediumposts %}
             <div class="image-item">
               <img
-                src="{{site.imagesurl}}/assets/img/giornalisti/medium_5.jpg"
+                src="{{item.img}}"
                 class="img-fluid"
+                alt="Immagine del post Medium {{forloop.index}}"
               />
               <a
-                href="https://medium.com/io-lapp-dei-servizi-pubblici/io-iphone-android-servizi-pubblica-amministrazione-open-beta-5eac651bc894"
+                href="{{item.link}}"
                 target="_blank"
                 class="text-secondary"
+                title="Leggi l'articolo {{item.title | xml_escape}}"
               >
                 <div class="pt-4">
-                  <h5>
-                    Diario di bordo #1: l’app IO prende il largo
-                  </h5>
-                  <p class="pt-3">
-                    Tra le righe di questo blog, racconteremo le prossime tappe di un’avventura partita da un’idea ambiziosa (e forse folle) oggi divenuta realtà
-                  </p>
+                  <h5>{{item.title}}</h5>
+                  {% if item.subtitle %}
+                  <p class="pt-3">{{item.subtitle}}</p>
+                  {%endif%}
                 </div>
               </a>
             </div>
-            <div class="image-item">
-              <img
-                src="{{site.imagesurl}}/assets/img/giornalisti/medium_1.jpg"
-                class="img-fluid"
-              />
-              <a
-                href="https://medium.com/team-per-la-trasformazione-digitale/progetto-io-guida-per-gli-enti-pubblici-integrazione-servizi-pubblica-amministrazione-smartphone-cittadini-f290306a611a"
-                target="_blank"
-                class="text-secondary"
-              >
-                <div class="pt-4">
-                  <h5>
-                    Come essere parte del progetto IO: una guida per gli enti
-                    pubblici
-                  </h5>
-                  <p class="pt-3">
-                    IO, l’app dei servizi pubblici, si prepara ad arrivare negli
-                    store online. Ora tocca alle Pubbliche Amministrazioni
-                    integrarsi a IO e portare sempre più servizi sugli
-                    smartphone dei cittadini.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div class="image-item">
-              <img
-                src="{{site.imagesurl}}/assets/img/giornalisti/medium_2.jpg"
-                class="img-fluid"
-              />
-              <a
-                href="https://medium.com/team-per-la-trasformazione-digitale/progetto-io-app-store-test-feedback-cittadini-servizi-pagare-scadenze-comunicare-pubblica-amministrazione-a7225030d65d?source=collection_category---2------1-----------------------"
-                target="_blank"
-                class="text-secondary"
-              >
-                <div class="pt-4">
-                  <h5>L'app per i cittadini progettata con i cittadini</h5>
-                  <p class="pt-3">
-                    Oltre 1.000 persone stanno già utilizzando IO, l’app dei
-                    servizi pubblici. Ecco cosa stiamo imparando e come sta
-                    evolvendo il progetto grazie ai loro feedback in fase di
-                    test.
-                  </p>
-                </div>
-              </a>
-            </div>
-            
+            {%endfor%}
           </div>
         </div>
       </div>
