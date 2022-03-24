@@ -819,3 +819,38 @@ body.is-scrolled .section__2 .section-wrapper {
     }
   }
 }
+.section__cgn {
+  overflow-y: hidden;
+  background-color: #0a1f8f;
+  background: url($imagesurl + "/assets/img/carta-giovani-nazionale/pattern-home.png"),
+    linear-gradient(
+      339deg,
+      rgba(10, 31, 143, 0.95) 10%,
+      rgba(234, 87, 123, 0.95)
+    );
+  position: relative;
+
+  z-index: 9;
+  .badge {
+    color: #000;
+    font-size: 0.75rem;
+  }
+  .lead {
+    font-size: 1rem;
+    @media screen and (min-width: $grid-breakpoints-md) {
+      font-size: 1.2rem;
+    }
+  }
+  &-img {
+    width: 228px;
+
+    img {
+      bottom: -3rem;
+      position: relative;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}
