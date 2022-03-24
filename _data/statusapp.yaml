@@ -1,9 +1,13 @@
 messages: # array di oggetti
   - level: warning # valore previsto: normal, warning, critical
-    date: 2021-03-01 11:30 # formato es: YYYY-mm-dd HH:MM
+    date: 2022-03-24 11:00 # formato es: YYYY-mm-dd HH:MM
     title:
-      it: "Servizi di pagamento in app e aggiunta metodi temporaneamente non disponibili"
-      en: "In-app payments and adding new methods are down for maintenance"
+      it: "I pagamenti con PayPal sono temporaneamente non disponibili"
+      en: "Payments with PayPal are temporarily unavailable"
     message:
-      it: "Stiamo aggiornando il sistema pagoPA per implementare i nuovi requisiti previsti dalla Direttiva sui Servizi di Pagamento (conosciuta come PSD2), una normativa dell’Unione Europea per rendere ancora più sicuri i pagamenti online. I servizi di pagamento e aggiunta metodi in app potrebbero non essere disponibili."
-      en: "We're updating the pagoPA infrastructure to deploy the new requirements of the Payment Services Directive (known as PSD2), a EU regulation to make online payments even more secure. In-app payments and adding new methods might be unavailable."
+      it: "In questo momento, sull’app IO non è possibile effettuare pagamenti con PayPal. Siamo a conoscenza del problema e stiamo lavorando per risolverlo nel minor tempo possibile.  
+      Nel frattempo, abbiamo temporaneamente disabilitato il metodo: questo significa che non vedrai la card nel Portafoglio e che non potrai usarlo per pagare su IO.  
+      Non appena il problema verrà risolto, la card di PayPal comparirà di nuovo nel Portafoglio e potrai ricominciare ad usarlo."
+      en: "At this moment, on the IO app payments with PayPal are not available. We are aware of the issue and are working to fix it as quickly as possible.  
+      In the meantime, we have temporarily disabled the method: this means that you won’t see the card in the Wallet and you won’t be able to use it to make payments on IO.  
+      As soon as the issue is fixed, the PayPal card will reappear in the Wallet and you will be able to use it again."
