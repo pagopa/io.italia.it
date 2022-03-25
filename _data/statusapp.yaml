@@ -1,13 +1,9 @@
 messages: # array di oggetti
-  - level: warning # valore previsto: normal, warning, critical
-    date: 2022-03-24 11:00 # formato es: YYYY-mm-dd HH:MM
+  - level:  # valore previsto: normal, warning, critical
+    date:  # formato es: YYYY-mm-dd HH:MM
     title:
-      it: "I pagamenti con PayPal sono temporaneamente non disponibili"
-      en: "Payments with PayPal are temporarily unavailable"
+      it: ""
+      en: ""
     message:
-      it: "In questo momento, sull’app IO non è possibile effettuare pagamenti con PayPal. Siamo a conoscenza del problema e stiamo lavorando per risolverlo nel minor tempo possibile.  
-      Nel frattempo, abbiamo temporaneamente disabilitato il metodo: questo significa che non vedrai la card nel Portafoglio e che non potrai usarlo per pagare su IO.  
-      Non appena il problema verrà risolto, la card di PayPal comparirà di nuovo nel Portafoglio e potrai ricominciare ad usarlo."
-      en: "At this moment, on the IO app payments with PayPal are not available. We are aware of the issue and are working to fix it as quickly as possible.  
-      In the meantime, we have temporarily disabled the method: this means that you won’t see the card in the Wallet and you won’t be able to use it to make payments on IO.  
-      As soon as the issue is fixed, the PayPal card will reappear in the Wallet and you will be able to use it again."
+      it: ""
+      en: ""
