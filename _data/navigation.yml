@@ -34,10 +34,6 @@ it:
           - label: Enti Locali
             url: /enti/#locali
   - 
-    label: Roadmap
-    url: '/roadmap/'
-    id: 'roadmap'
-  - 
     label: FAQ
     url: '#'
     id: 'faq'
