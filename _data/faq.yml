@@ -36,19 +36,19 @@ it:
     cat: "1|Generali"
   - title: Quali servizi sono già disponibili sull’app?
     body: "Questo dipende da dove risiedi. Sono già diverse migliaia i servizi erogati dagli enti locali e nazionali tramite IO e molti se ne aggiungeranno in futuro; a [questo link](https://io.italia.it/enti/) puoi consultare la lista, in continuo aggiornamento, di quelli già integrati e disponibili all’interno della sezione Servizi dell’app."
-    cat: "3|Servizi Disponibili"
+    cat: "2|Servizi Disponibili"
   - title: Come posso usare i servizi in lista?
     body: "Dipende dal servizio. La maggior parte dei servizi non richiede alcuna azione da parte tua: sarà l’Ente, quando ha qualcosa di importante da comunicarti, a inviarti in automatico un messaggio in app. In altri casi, nel dettaglio del servizio troverai il pulsante per utilizzarlo."
-    cat: "3|Servizi Disponibili"
+    cat: "2|Servizi Disponibili"
   - title: Che tipo di comunicazioni posso ricevere?
     body: "IO manda solo messaggi utili e rivolti proprio a te: gli enti erogatori dei servizi devono conoscere il tuo codice fiscale per poterti scrivere e questo è garanzia del fatto che hanno già una relazione con te. \
     Usando la configurazione rapida non devi pensare a niente e riceverai i messaggi che ti riguardano anche dai servizi che arriveranno in futuro. \
     Puoi comunque modificare le tue preferenze di comunicazione in ogni momento, da 'Profilo > Preferenze' o visitando la scheda di ciascun servizio."
-    cat: "3|Servizi Disponibili"
+    cat: "2|Servizi Disponibili"
   - title: Come fanno gli Enti pubblici a portare i propri servizi su IO?
     body: "Tutti gli enti pubblici, nazionali e locali, possono già aggiungere i propri servizi liberamente su IO e potranno continuare a farlo dopo l’arrivo dell’app negli store nella primavera 2020.\ 
     È facile e veloce: in [questa Guida](https://io.italia.it/assets/download/it/onboarding/210729_io_app_onboarding_istruzioni-v_1.0.pdf) forniamo tutte le informazioni per aiutare le Pubbliche Amministrazioni a cogliere questa opportunità in quattro semplici passaggi."
-    cat: "5|Pubbliche Amministrazioni"
+    cat: "4|Pubbliche Amministrazioni"
   - title: Perchè devo per forza avere SPID o CIE per usare la app?
     body: "IO è un canale grazie al quale puoi ricevere da tutti gli Enti pubblici messaggi che includono tue informazioni personali come, ad esempio, quelle legate al tuo lavoro, alla tua salute o ai pagamenti verso lo Stato.\ 
     Per questo, è fondamentale essere certi che chi sta usando l’app a tuo nome, sia davvero tu. E che solo tu possa accedere alle informazioni a te destinate.\ 
@@ -64,19 +64,13 @@ it:
     body: "Le Pubbliche Amministrazioni possono contattare un cittadino semplicemente conoscendone il codice fiscale, non occorre nient’altro. Ovviamente questo codice fiscale deve essere già presente nei database del singolo ente,\ 
     e l’ente dovrà utilizzare gli strumenti di IO coerentemente con il proprio mandato istituzionale. Inoltre il cittadino avrà sempre la possibilità di disattivare singolarmente i servizi che usano l’app,\ 
     inibendo ai relativi enti la possibilità di usare IO per contattarlo."
-    cat: "5|Pubbliche Amministrazioni"
+    cat: "4|Pubbliche Amministrazioni"
   - title: "Perché il progetto IO ora fa capo a PagoPa S.p.A.? Vuol dire che gestirà solo i pagamenti dei servizi pubblici?"
     body: "[PagoPA S.p.A.](https://www.pagopa.gov.it/it/pagopa-spa/) è una società partecipata dallo Stato, creata allo scopo di rendere capillare la diffusione dei pagamenti digitali e dare impulso alla digitalizzazione dei servizi pubblici in Italia,\ 
     secondo lo stesso cambio di paradigma da cui nasce la visione di IO: mettere il cittadino al centro e proporgli servizi efficienti, semplici e intuitivi, sviluppati in base alle sue esigenze.\ 
     Per questo, in un'ottica di sviluppo e industrializzazione di entrambe le piattaforme, oltre a [pagoPA](https://www.pagopa.gov.it/it/pagopa/) la nuova società prende in carico anche la gestione di IO: per offrire ai cittadini, attraverso un’unica app,\ 
     il punto di accesso a tutti i servizi pubblici digitali. Questo consentirà all’app IO di crescere velocemente e aprirsi a nuove opportunità, secondo le logiche del sistema di mercato privato, proprio come una normale startup."
     cat: "1|Generali"
-  - title: "IO è l’app con cui si può richiedere il Bonus Vacanze?"
-    body: Sì, a partire dal 1° luglio e fino al 31 dicembre 2020 il ["Bonus Vacanze"](https://www.agenziaentrate.gov.it/portale/web/guest/bonus-vacanze1) potrà essere richiesto e sarà erogato in forma digitale, esclusivamente attraverso l’app IO. Il provvedimento è stato emanato dal Direttore dell’Agenzia delle Entrate il 17 giugno 2020, in riferimento a quanto previsto dal “Decreto Rilancio” (art. 176 del DL n. 34 del 19 maggio 2020).
-    cat: "4|Bonus e sconti"
-  - title: "Dove trovo il servizio per richiedere il Bonus Vacanze su IO?"
-    body: "Dopo esserti autenticato con SPID o CIE (versione 3.0), puoi accedere alla funzione per richiedere il Bonus Vacanze entrando nella sezione “Portafoglio” dell’app: tramite il pulsante “Aggiungi” in corrispondenza della voce nuovo Bonus/Sconto, basta scegliere “Bonus Vacanze” dalla lista di quelli disponibili. Per maggiori informazioni su come funziona, [clicca qui](/bonus-vacanze/)."
-    cat: "4|Bonus e sconti"
   - title: "Potrò usare tutti i servizi di IO anche da browser web?"
     body: "In una prima fase abbiamo deciso di concentrarci sulle applicazioni mobile e, in particolare, sulle piattaforme Android e iOS, che sono di gran lunga le più diffuse. Alcune funzioni saranno disponibili in futuro anche dal browser: inizieremo dalle funzioni relative alla gestione di privacy e sicurezza."
     cat: "1|Generali"
@@ -90,50 +84,44 @@ it:
   - title: "L’infrastruttura su cui si basa la app è sicura?"
     body: "Lo sviluppo dell’applicazione mobile e di tutte le componenti software a supporto avviene in conformità delle linee guida sulla sicurezza definite nel [Piano Triennale per l’ICT](http://pianotriennale-ict.readthedocs.io/it/latest/doc/08_sicurezza.html). \
     Inoltre, tutto il codice software sviluppato è open source, per cui aperto all'analisi di tutti gli sviluppatori che vorranno verificarne la sicurezza per consolidarla o migliorarla."
-    cat: "7|Sicurezza e Privacy"
+    cat: "6|Sicurezza e Privacy"
   - title: Come sarà tutelata la mia privacy?
     body: "IO è stato concepito e sviluppato secondo i principi e le regole imposte dalla normativa sulla protezione dei dati personali, ovvero il nuovo [Regolamento (UE) 2016/679 (cosiddetto “GDPR”)](https://eur-lex.europa.eu/legal-content/IT/TXT/HTML/?uri=CELEX:32016R0679&from=EN) e il [Codice privacy italiano](http://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-06-30;196!vig=) (d. lgs. 196/2003, come recentemente emendato); esso è quindi uno strumento sicuro che protegge le tue informazioni e i tuoi diritti. IO però rappresenta solo uno canale che le Pubbliche Amministrazioni utilizzano per interfacciarsi con i cittadini,\ 
     quindi queste ultime restano titolari dei tuoi dati personali necessari per svolgere il loro mandato istituzionale, esattamente come avviene oggi. Il team di sviluppo di IO dialoga costantemente con il [Garante per la protezione dei dati personali](https://www.garanteprivacy.it/) per rendere IO uno strumento che migliori l’esperienza del cittadino anche sotto il profilo di accessibilità e trasparenza delle informazioni relative alla sua privacy."
-    cat: "7|Sicurezza e Privacy"
+    cat: "6|Sicurezza e Privacy"
   - title: Che soluzioni sono state pensate per cittadini con disabilità?
     body: "Il progetto IO ha lo scopo di rendere disponibile un’applicazione che faciliti l’accesso di tutti i cittadini ai servizi digitali della Pubblica Amministrazione. Per questo, fin dai primi prototipi dell’app, abbiamo scelto tecnologie che garantissero l’accessibilità del prodotto al maggior numero di persone. Abbiamo iniziato progettando l’interfaccia dell’app per rispettare i bisogni specifici dei cittadini ipovedenti, sin dalla prima sperimentazione. In seguito, gli **sforzi saranno destinati a garantire il miglior supporto possibile agli strumenti di ausilio messi a disposizione dai sistemi operativi** (es. TalkBack o VoiceOver),\ 
     con l’obiettivo di rilasciare periodicamente nuove versioni dell’app IO che includano i risultati di questa attività.<br>
     Essere inclusivi verso cittadini con diverse abilità e capacità sensoriali o motorie non riguarda solo l’aspetto tecnico di sviluppo del prodotto; l’implementazione dell’accessibilità deve essere **frutto di un processo continuo, che richiede un costante confronto con gli utilizzatori finali**. Anche per questo, in linea con la natura interamente open source del progetto IO, invitiamo gli stessi cittadini a contribuire a questo processo, suggerendo qualunque proposta migliorativa per rendere l’app IO sempre più inclusiva e accessibile.\
     <br>Se riscontri problemi relativi all’accessibilità dell’app IO, puoi scrivere una email a: [io@assistenza.pagopa.it](mailto:io@assistenza.pagopa.it)"
-    cat: "6|Accessibilità"
+    cat: "5|Accessibilità"
   - title: "L‘app del progetto IO sarà disponibile solo negli store italiani, o anche in quelli esteri?"
     body: "Ora che l’app è negli store, il download è disponibile a tutti e non ha blocchi geografici. I cittadini italiani (AIRE e non) che vivono all'estero dotati di SPID o CIE possono accedere ai servizi. Qui tutte le informazioni su come ottenere SPID dall'estero: [https://www.spid.gov.it/richiedi-spid](https://www.spid.gov.it/richiedi-spid), mentre per la CIE è necessario rivolgersi al proprio consolato di riferimento."
     cat: "1|Generali"
-  - title: "IO è l’app con cui si può partecipare al Cashback?"
-    body:  Sì, l'app IO è uno dei canali attraverso cui puoi aderire al Cashback. Il programma Cashback è una delle iniziative del Piano Italia Cashless previste dalla Legge di Bilancio 2020 (art. 1, commi da 288 a 290, legge del 27 dicembre 2019, n. 160, come successivamente modificata e integrata) e dal Decreto n. 156 emesso il 24 novembre 2020 dal Ministro dell’Economia e delle Finanze (MEF). Per saperne di più, [clicca qui](/cashback/).
-    cat: "4|Bonus e sconti"
-  - title: "Dove trovo il servizio per attivare il Cashback sull’app IO?"
-    body: "Dopo aver installato l’app IO (o aggiornato l’app all’ultima versione disponibile negli store), effettua l’accesso ed entra nella sezione “Portafoglio”: lì trovi il servizio per iscriverti al Cashback e alla pagina [io.italia.it/cashback](/cashback/) trovi tutte le indicazioni su come partecipare; per ulteriori dubbi, consulta le FAQ dedicate al programma: [io.italia.it/cashback/faq](/cashback/faq/)." 
-    cat: "4|Bonus e sconti"
   - title: Quando sarà attivo su IO il Certificato Verde COVID-19?
     body: "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale. Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita <https://www.dgc.gov.it>"
-    cat: "7|Certificazioni Verdi COVID-19"
+    cat: "6|Certificazioni Verdi COVID-19"
   - title: Come posso pagare su IO?
     body: "Alla pagina metodi di pagamento trovi l'elenco aggiornato di tutti i [metodi di pagamento](https://io.italia.it/metodi-pagamento/) che puoi salvare sull’app IO."
-    cat: "2|Pagamenti"
+    cat: "3|Pagamenti"
   - title: Pagare su IO è sicuro?
     body: "Sì, è sicuro. L’app IO assicura il pieno rispetto del Regolamento Generale sulla protezione dei dati (GDPR) ai propri utenti. Nel caso dei pagamenti, i dati delle carte che aggiungi nel Portafoglio non vengono memorizzati in app, ma in un ambiente protetto secondo gli standard PCI DSS (Payment Card Industry Data Security Standard) e conservati in server situati in Italia."
-    cat: "2|Pagamenti"
+    cat: "3|Pagamenti"
   - title: Non riesco ad aggiungere la mia carta al Portafoglio. Come mai?
     body: "Molto probabilmente, la tua banca non ha autorizzato l’operazione perché sulla carta non è attivo il servizio 3D Secure."
-    cat: "2|Pagamenti"
+    cat: "3|Pagamenti"
   - title: Cos’è 3D Secure?
     body: "Quando effettui un pagamento online, la tua banca può chiederti di inserire un codice temporaneo per autorizzare la transazione. Questo servizio si chiama 3D Secure, è gratuito e ti garantisce maggiore sicurezza quando effettui un pagamento online con carta di debito o credito. In base a chi eroga il servizio, ci sono anche altre definizioni per riferirsi al 3D Secure: le più comuni sono “3DS”, “Verified by Visa”, “MasterCard Identity Check” e “SecureCode”."
-    cat: "2|Pagamenti"
+    cat: "3|Pagamenti"
   - title: Come funziona 3D Secure?
     body: "Quando effettui un pagamento online, la tua banca può chiederti di autorizzare la transazione tramite un codice temporaneo che ricevi via SMS. In questo modo, diminuisce il rischio che qualcuno possa utilizzare a tua insaputa una carta di cui sei titolare."
-    cat: "2|Pagamenti"
+    cat: "3|Pagamenti"
   - title: Come posso attivarlo?
     body: "Per attivare 3D Secure, vai sul sito o sull’app della tua banca e cerca la sezione che riguarda la sicurezza o la gestione delle carte. L’attivazione del servizio non è immediata, ti suggeriamo quindi di attendere un’ora prima di riprovare ad effettuare il pagamento.
 
 
 Se non riesci ad attivare 3D Secure o hai bisogno di aiuto, contatta il Servizio Clienti della tua banca."
-    cat: "2|Pagamenti"
+    cat: "3|Pagamenti"
   - title: Posso usare una carta virtuale?
     body: "No, non è possibile. Le banche che offrono il servizio della carta virtuale, ovvero un numero di carta che vale per un solo utilizzo o per un periodo di tempo limitato, offrono anche il servizio 3D Secure sulla carta principale. Per poter effettuare un pagamento su IO, usa quest’ultima opzione."
-    cat: "2|Pagamenti"
+    cat: "3|Pagamenti"
