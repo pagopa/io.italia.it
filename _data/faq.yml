@@ -71,12 +71,6 @@ it:
     Per questo, in un'ottica di sviluppo e industrializzazione di entrambe le piattaforme, oltre a [pagoPA](https://www.pagopa.gov.it/it/pagopa/) la nuova società prende in carico anche la gestione di IO: per offrire ai cittadini, attraverso un’unica app,\ 
     il punto di accesso a tutti i servizi pubblici digitali. Questo consentirà all’app IO di crescere velocemente e aprirsi a nuove opportunità, secondo le logiche del sistema di mercato privato, proprio come una normale startup."
     cat: "1|Generali"
-  - title: "IO è l’app con cui si può richiedere il Bonus Vacanze?"
-    body: Sì, a partire dal 1° luglio e fino al 31 dicembre 2020 il ["Bonus Vacanze"](https://www.agenziaentrate.gov.it/portale/web/guest/bonus-vacanze1) potrà essere richiesto e sarà erogato in forma digitale, esclusivamente attraverso l’app IO. Il provvedimento è stato emanato dal Direttore dell’Agenzia delle Entrate il 17 giugno 2020, in riferimento a quanto previsto dal “Decreto Rilancio” (art. 176 del DL n. 34 del 19 maggio 2020).
-    cat: "3|Bonus e sconti"
-  - title: "Dove trovo il servizio per richiedere il Bonus Vacanze su IO?"
-    body: "Dopo esserti autenticato con SPID o CIE (versione 3.0), puoi accedere alla funzione per richiedere il Bonus Vacanze entrando nella sezione “Portafoglio” dell’app: tramite il pulsante “Aggiungi” in corrispondenza della voce nuovo Bonus/Sconto, basta scegliere “Bonus Vacanze” dalla lista di quelli disponibili. Per maggiori informazioni su come funziona, [clicca qui](/bonus-vacanze/)."
-    cat: "3|Bonus e sconti"
   - title: "Potrò usare tutti i servizi di IO anche da browser web?"
     body: "In una prima fase abbiamo deciso di concentrarci sulle applicazioni mobile e, in particolare, sulle piattaforme Android e iOS, che sono di gran lunga le più diffuse. Alcune funzioni saranno disponibili in futuro anche dal browser: inizieremo dalle funzioni relative alla gestione di privacy e sicurezza."
     cat: "1|Generali"
@@ -104,12 +98,30 @@ it:
   - title: "L‘app del progetto IO sarà disponibile solo negli store italiani, o anche in quelli esteri?"
     body: "Ora che l’app è negli store, il download è disponibile a tutti e non ha blocchi geografici. I cittadini italiani (AIRE e non) che vivono all'estero dotati di SPID o CIE possono accedere ai servizi. Qui tutte le informazioni su come ottenere SPID dall'estero: [https://www.spid.gov.it/richiedi-spid](https://www.spid.gov.it/richiedi-spid), mentre per la CIE è necessario rivolgersi al proprio consolato di riferimento."
     cat: "1|Generali"
-  - title: "IO è l’app con cui si può partecipare al Cashback?"
-    body:  Sì, l'app IO è uno dei canali attraverso cui puoi aderire al Cashback. Il programma Cashback è una delle iniziative del Piano Italia Cashless previste dalla Legge di Bilancio 2020 (art. 1, commi da 288 a 290, legge del 27 dicembre 2019, n. 160, come successivamente modificata e integrata) e dal Decreto n. 156 emesso il 24 novembre 2020 dal Ministro dell’Economia e delle Finanze (MEF). Per saperne di più, [clicca qui](/cashback/).
-    cat: "3|Bonus e sconti"
-  - title: "Dove trovo il servizio per attivare il Cashback sull’app IO?"
-    body: "Dopo aver installato l’app IO (o aggiornato l’app all’ultima versione disponibile negli store), effettua l’accesso ed entra nella sezione “Portafoglio”: lì trovi il servizio per iscriverti al Cashback e alla pagina [io.italia.it/cashback](/cashback/) trovi tutte le indicazioni su come partecipare; per ulteriori dubbi, consulta le FAQ dedicate al programma: [io.italia.it/cashback/faq](/cashback/faq/)." 
-    cat: "3|Bonus e sconti"
   - title: Quando sarà attivo su IO il Certificato Verde COVID-19?
     body: "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale. Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita <https://www.dgc.gov.it>"
     cat: "6|Certificazioni Verdi COVID-19"
+  - title: Come posso pagare su IO?
+    body: "Alla pagina metodi di pagamento trovi l'elenco aggiornato di tutti i [metodi di pagamento](https://io.italia.it/metodi-pagamento/) che puoi salvare sull’app IO."
+    cat: "3|Pagamenti"
+  - title: Pagare su IO è sicuro?
+    body: "Sì, è sicuro. L’app IO assicura il pieno rispetto del Regolamento Generale sulla protezione dei dati (GDPR) ai propri utenti. Nel caso dei pagamenti, i dati delle carte che aggiungi nel Portafoglio non vengono memorizzati in app, ma in un ambiente protetto secondo gli standard PCI DSS (Payment Card Industry Data Security Standard) e conservati in server situati in Italia."
+    cat: "3|Pagamenti"
+  - title: Non riesco ad aggiungere la mia carta al Portafoglio. Come mai?
+    body: "Molto probabilmente, la tua banca non ha autorizzato l’operazione perché sulla carta non è attivo il servizio 3D Secure."
+    cat: "3|Pagamenti"
+  - title: Cos’è 3D Secure?
+    body: "Quando effettui un pagamento online, la tua banca può chiederti di inserire un codice temporaneo per autorizzare la transazione. Questo servizio si chiama 3D Secure, è gratuito e ti garantisce maggiore sicurezza quando effettui un pagamento online con carta di debito o credito. In base a chi eroga il servizio, ci sono anche altre definizioni per riferirsi al 3D Secure: le più comuni sono “3DS”, “Verified by Visa”, “MasterCard Identity Check” e “SecureCode”."
+    cat: "3|Pagamenti"
+  - title: Come funziona 3D Secure?
+    body: "Quando effettui un pagamento online, la tua banca può chiederti di autorizzare la transazione tramite un codice temporaneo che ricevi via SMS. In questo modo, diminuisce il rischio che qualcuno possa utilizzare a tua insaputa una carta di cui sei titolare."
+    cat: "3|Pagamenti"
+  - title: Come posso attivarlo?
+    body: "Per attivare 3D Secure, vai sul sito o sull’app della tua banca e cerca la sezione che riguarda la sicurezza o la gestione delle carte. L’attivazione del servizio non è immediata, ti suggeriamo quindi di attendere un’ora prima di riprovare ad effettuare il pagamento.
+
+
+Se non riesci ad attivare 3D Secure o hai bisogno di aiuto, contatta il Servizio Clienti della tua banca."
+    cat: "3|Pagamenti"
+  - title: Posso usare una carta virtuale?
+    body: "No, non è possibile. Le banche che offrono il servizio della carta virtuale, ovvero un numero di carta che vale per un solo utilizzo o per un periodo di tempo limitato, offrono anche il servizio 3D Secure sulla carta principale. Per poter effettuare un pagamento su IO, usa quest’ultima opzione."
+    cat: "3|Pagamenti"
