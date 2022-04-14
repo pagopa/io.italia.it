@@ -16,7 +16,12 @@
           {% assign gindex =  forloop.index %}
           {% if gindex > 1 %}<div class="my-3 py-3"></div>{%endif%}
 
-        {% unless include.filteredby %}<h2 class="{% if gindex == 1 %}mt-0{%endif%}">{{group.name | split: '|' | last}}</h2>{%endunless%}
+        {% unless include.filteredby %}
+        {% assign catname = group.name | split: '|' | last %}
+        <h2 class="page-faq__catname {% if gindex == 1 %}mt-0{%endif%}">
+          <a name="{{catname | slugify}}" href="#{{catname | slugify}}" title="{{catname}}">{{catname}}</a>
+        </h2>
+        {%endunless%}
         <div id="accordionDivFAQ{{gindex}}" class="collapse-faq collapse-div" role="tablist">
           {% for f in group.items %}
           {% assign anchorname = "n" | append: gindex | append: "_" | append: forloop.index %}

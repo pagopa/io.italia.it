@@ -3,6 +3,10 @@ body.pagename--faq {
 }
 
 .page-faq {
+    &__catname a {
+        text-decoration: none;
+        color: inherit;
+    }
     .collapse-faq {
         button[data-target] {
             color: $color--italia !important;
