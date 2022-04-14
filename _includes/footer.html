@@ -13,7 +13,7 @@
       <div class="col-sm-12 col-md-4 ">
         <div class="footer__badges px-2 my-2 px-md-0 my-md-0">
           <p>Scarica l'app:</p>
-          <ul class="col list-inline m-0 p-0">
+          <ul class="col list-inline m-0 p-0 d-flex flex flex-wrap" style="gap: 0.5rem;">
             <li class="list-inline-item">
               <a href="{{site.download_url.ios}}" title="Scarica da App Store"
                  onclick="ga('send', 'event', 'link', 'click', 'Download App: iOS', 1)">
@@ -31,12 +31,19 @@
       </div>
       <div class="col-sm-12 col-md-4 ">
         <div class="text-right social px-2 my-2 px-md-0 my-md-0">
-          <span>{{t.seguici}}</span>
-          {% include social-icons.html %}
+          <div class="d-flex align-items-md-end flex-column">
+            <div>
+              <span>{{t.seguici}}</span>
+              {% include social-icons.html %}
+            </div>
+            <img src="{{ '/assets/img/nextGenerationEU-outline-white.svg' | prepend: site.imagesurl }}"
+              width="200" height="47" alt="Finanziato dall'Unione Europea · NextGenerationEU"
+              style="user-select: none; margin-top: 40px" />
+         </div>
         </div>
       </div>
     </div><!--/row-->
-    <div class="row py-4 colophon">
+    <div class="row pt-3 pb-4 colophon">
       <ul class="col list-inline small">
         <li class="list-inline-item">
           {% include internal-link.html target='privacy-policy' class='small-prints' string='Privacy Policy' %}
