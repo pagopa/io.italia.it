@@ -14,7 +14,9 @@ contributors - MIT license @link https://github.com/FezVrasta/popper.js
 
 <script src="{{ '/assets/js/vendor/bootstrap-italia.min.js?' | append: buildTime | relative_url }}"></script>
 
-{%if page.layout == 'home' %} {% comment %} Parallax 3.1.0 - Copyright © 2014
+{%if page.layout == 'home' %} 
+<script src="{{ '/assets/js/home.js' }}"></script>
+{% comment %} Parallax 3.1.0 - Copyright © 2014
 Matthew Wagerfield - @wagerfield - MIT license @link
 https://github.com/wagerfield/parallax {% endcomment %}
 <script async src="{{ '/assets/js/vendor/parallax.min.js' }}"></script>
