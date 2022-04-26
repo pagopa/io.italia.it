@@ -5,6 +5,12 @@ THIS SCRIPT IS USEFUL TO GENERATE A NEW JSON WITH ENTI'S DATA
 require 'json'
 require 'down'
 
+# If the pipeline isn't scheduled, then break the flow
+if ENV['PIPELINE_TYPE']!='Schedule' && ENV['JEKYLL_ENV']=='production'
+    File.write('_data/enti-servizi.json', JSON.dump({"items":[]}))
+    return "+++++++ ENTI LIST GEN DISABLED +++++++"
+end
+
 downloadUrl = "https://assets.cdn.io.italia.it/services-webview/visible-services-extended.json"
 begin
     file =  Down.download(downloadUrl, open_timeout: 15)
@@ -61,6 +67,8 @@ def renderEntiList(file, site)
         scope = ""
         # ---
         item_new_values = {}
+        # ordering services by name
+        item["s"].sort_by! { |k| k["n"]}
         services_counter += item["s"].length()
         # for every service we use the markdownify filter
         item["s"].each_with_index do | service, index |
@@ -108,10 +116,13 @@ def renderEntiList(file, site)
     # conversion of hash in array
     new_content["items"] = new_content["items"].values
 
+    numbers_info = {"enti" => new_content["entinum"], "services" => new_content["servnum"]}
+
     enti_searchable_sorted = enti_searchable.sort
 
     File.write('./assets/json/enti-list-webview.json', JSON.dump( new_content_webview.values.sort_by{ |hsh| hsh.values[0] } ))
     File.write('./assets/json/enti-list-searchable.json', JSON.dump(enti_searchable_sorted))
+    File.write('./assets/json/enti-list-numbers.json', JSON.dump(numbers_info))
     File.write('_data/enti-servizi.json', JSON.dump(new_content))
 end
 

@@ -15,20 +15,13 @@ parameters:
 # $(MY_INDEX)
 # $(BLOB_CONTAINER_NAME)
 variables:
-  ${{ if eq(parameters['environment'], 'dev') }}:
-    AZURE_SUBSCRIPTION: $(DEV_AZURE_SUBSCRIPTION)
-    STORAGE_ACCOUNT_NAME: $(DEV_STORAGE_ACCOUNT_NAME)
-    PROFILE_CDN_NAME: $(DEV_PROFILE_CDN_NAME)
-    ENDPOINT_NAME: $(DEV_ENDPOINT_NAME)
-    RESOURCE_GROUP_NAME: $(DEV_RESOURCE_GROUP_NAME)
-    JEKYLL_ENV: production
-  ${{ if eq(parameters['environment'], 'prod') }}:
-    AZURE_SUBSCRIPTION: $(PROD_AZURE_SUBSCRIPTION)
-    STORAGE_ACCOUNT_NAME: $(PROD_STORAGE_ACCOUNT_NAME)
-    PROFILE_CDN_NAME: $(PROD_PROFILE_CDN_NAME)
-    ENDPOINT_NAME: $(PROD_ENDPOINT_NAME)
-    RESOURCE_GROUP_NAME: $(PROD_RESOURCE_GROUP_NAME)
-    JEKYLL_ENV: production
+  AZURE_SUBSCRIPTION: $(PROD_AZURE_SUBSCRIPTION)
+  STORAGE_ACCOUNT_NAME: $(PROD_STORAGE_ACCOUNT_NAME)
+  PROFILE_CDN_NAME: $(PROD_PROFILE_CDN_NAME)
+  ENDPOINT_NAME: $(PROD_ENDPOINT_NAME)
+  RESOURCE_GROUP_NAME: $(PROD_RESOURCE_GROUP_NAME)
+  JEKYLL_ENV: production
+  PIPELINE_TYPE: $(Build.Reason)
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -45,7 +38,7 @@ steps:
 
 - script: |
     bundle install
-    JEKYLL_ENV=production bundle exec jekyll build --config _config.yml,_config_production.yml
+    JEKYLL_ENV=production PIPELINE_TYPE=$(PIPELINE_TYPE) bundle exec jekyll build --config _config.yml,_config_production.yml
   displayName: 'Build by Jekyll'
 
 - script: |
@@ -54,18 +47,42 @@ steps:
     echo BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
   displayName: 'Check Site'
 
+# SYNC STORAGE AT EVERY COMMIT, so WITHOUT Enti&Servizi (PIPELINE_TYPE!=Schedule)
 - task: AzureCLI@1
-  displayName: 'Sync Storage'
+  displayName: 'Sync Storage NOT SCHEDULED'
+  condition: eq(variables['Build.Reason'], 'BatchedCI')
+  inputs:
+    azureSubscription: '$(AZURE_SUBSCRIPTION)'
+    scriptLocation: inlineScript
+    inlineScript: |
+      az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site" --exclude-path "assets/json/enti-list-webview.json;assets/json/enti-list-searchable.json;assets/json/enti-list-numbers.json;/app-content/enti-servizi.html;enti/" --exclude-pattern "assets/entijson/*.json"
+
+# SYNC STORAGE AT EVERY SCHEDULE, with Enti&Servizi (PIPELINE_TYPE==Schedule)
+- task: AzureCLI@1
+  displayName: 'Sync Storage ALL'
+  condition: eq(variables['Build.Reason'], 'Schedule')
   inputs:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
       az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site"
 
+# PURGE CDN AT EVERY COMMIT, so globally
 - task: AzureCLI@1
-  displayName: 'Purge CDN'
+  displayName: 'Purge CDN NOT SCHEDULED'
+  condition: eq(variables['Build.Reason'], 'BatchedCI')
   inputs:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
     inlineScript: |
       az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
+
+# PURGE CDN AT SCHEDULE, so only with Ent&Servizi paths
+- task: AzureCLI@1
+  displayName: 'Purge CDN SCHEDULED'
+  condition: eq(variables['Build.Reason'], 'Schedule')
+  inputs:
+    azureSubscription: '$(AZURE_SUBSCRIPTION)'
+    scriptLocation: inlineScript
+    inlineScript: |
+      az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/assets/entijson/*" "/assets/json/*" "/app-content/*" "/enti/*"
