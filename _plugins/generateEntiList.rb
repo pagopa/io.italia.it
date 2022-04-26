@@ -5,6 +5,12 @@ THIS SCRIPT IS USEFUL TO GENERATE A NEW JSON WITH ENTI'S DATA
 require 'json'
 require 'down'
 
+# If the pipeline isn't scheduled, then break the flow
+if ENV['PIPELINE_TYPE']!='Schedule' && ENV['JEKYLL_ENV']=='production'
+    File.write('_data/enti-servizi.json', JSON.dump({"items":[]}))
+    return "+++++++ ENTI LIST GEN DISABLED +++++++"
+end
+
 downloadUrl = "https://assets.cdn.io.italia.it/services-webview/visible-services-extended.json"
 begin
     file =  Down.download(downloadUrl, open_timeout: 15)
@@ -61,6 +67,8 @@ def renderEntiList(file, site)
         scope = ""
         # ---
         item_new_values = {}
+        # ordering services by name
+        item["s"].sort_by! { |k| k["n"]}
         services_counter += item["s"].length()
         # for every service we use the markdownify filter
         item["s"].each_with_index do | service, index |
