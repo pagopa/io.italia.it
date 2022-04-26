@@ -1,0 +1,1 @@
+var INFOURL="/assets/json/enti-list-numbers.json";$(window).on("load",function(){$enti=$("#home-enti-num"),$services=$("#home-servizi-num"),$.get(INFOURL,function(e){$enti.text(e.enti),$services.text(e.services)},"json").fail(function(){$enti.parent().parent().remove()})});
