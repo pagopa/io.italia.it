@@ -6,7 +6,7 @@ require 'json'
 require 'down'
 
 # If the pipeline isn't scheduled, then break the flow
-if ENV['PIPELINE_TYPE']!='Schedule' && ENV['JEKYLL_ENV']=='production'
+if ENV['PIPELINE_TYPE']=='BatchedCI' && ENV['JEKYLL_ENV']=='production'
     File.write('_data/enti-servizi.json', JSON.dump({"items":[]}))
     return "+++++++ ENTI LIST GEN DISABLED +++++++"
 end
