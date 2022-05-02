@@ -50,7 +50,7 @@ steps:
 # SYNC STORAGE AT EVERY COMMIT, so WITHOUT Enti&Servizi (PIPELINE_TYPE!=Schedule)
 - task: AzureCLI@1
   displayName: 'Sync Storage NOT SCHEDULED'
-  condition: eq(variables['Build.Reason'], 'BatchedCI')
+  condition: eq(variables['Build.Reason'], 'IndividualCI')
   inputs:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
@@ -70,7 +70,7 @@ steps:
 # PURGE CDN AT EVERY COMMIT, so globally
 - task: AzureCLI@1
   displayName: 'Purge CDN NOT SCHEDULED'
-  condition: or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'BatchedCI'))
+  condition: or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'IndividualCI'))
   inputs:
     azureSubscription: '$(AZURE_SUBSCRIPTION)'
     scriptLocation: inlineScript
