@@ -8,6 +8,11 @@ function submitNewsletter(token) {
             data: JSON.stringify(data),
             success: function(data, textStatus, xhr) {
                 if (xhr.status==200 && xhr.statusText=="OK") {
+                    try {
+                        ga('send', 'event', 'button', 'click', 'Newsletter', 1)
+                    } finally  {
+                        // USER DOESN'T CONSENT
+                    }
                     newsletterResponse(true);
                 } else {
                     newsletterResponse(false);
