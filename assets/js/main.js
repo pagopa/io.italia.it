@@ -1,3 +1,17 @@
+function newsletterResponse(success) {
+    var ko = $("#newsletter-ko");
+    var ok = $("#newsletter-ok");
+
+    if (success==true) {
+        ko.hide();
+        ok.fadeIn();
+    } else {
+        ok.hide();
+        ko.fadeIn();
+    }
+    $(".js-newsletter-submit").hide();
+}
+
 function submitNewsletter(token) {
     var subscriptionUrl = "https://api.io.italia.it/api/payportal/v1/newsletters/io/lists/4/recipients";
     var email = $("#newsletteremail").val().trim();
