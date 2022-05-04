@@ -1,17 +1,3 @@
-function newsletterResponse(success) {
-    var ko = $("#newsletter-ko");
-    var ok = $("#newsletter-ok");
-
-    if (success==true) {
-        ko.hide();
-        ok.fadeIn();
-    } else {
-        ok.hide();
-        ko.fadeIn();
-    }
-    $(".js-newsletter-submit").hide();
-}
-
 function submitNewsletter(token) {
     var subscriptionUrl = "https://api.io.italia.it/api/payportal/v1/newsletters/io/lists/4/recipients";
     var email = $("#newsletteremail").val().trim();
@@ -302,25 +288,6 @@ $(window).on("load", function() {
         $target.fadeIn('fast');
     })
 
-
-    $('.cookiebar__close').on('click', function(e) {
-        var $cookiebar = $('.cookiebar');
-        var date = new Date();
-        date.setTime(date.getTime() + (7*24*60*60*1000));
-        //var expires = "expires=" + date.toUTCString();
-        var expires = "expires=0";
-
-        document.cookie = "cookies_notnow=true;" + expires + "; path=/";
-
-        $cookiebar.removeClass('show').attr('aria-hidden','true');
-
-    });
-
-    // test if user says no-cookies-now
-    if (!(document.cookie.indexOf('cookies_consent=true') === -1 && document.cookie.indexOf('cookies_notnow=true') === -1 )) {
-        var $cookiebar = $('.cookiebar');
-        $cookiebar.removeClass('show').attr('aria-hidden','true');
-    }
 });
 
 
