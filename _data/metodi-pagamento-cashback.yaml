@@ -1,5 +1,5 @@
 it:
-  last_update: 10/05/2022
+  last_update: 11/05/2022
   iostatus:
     0:
       status: yes
@@ -343,7 +343,7 @@ it:
     - apps:
         - bancomatpay
       io: 0
-      iotext: Abbina il tuo account BANCOMAT Pay nella sezione **Portafoglio**. Potrai pagare con la carta o conto collegati! Se hai aggiunto il tuo account prima del 10 maggio 2022, eliminalo dal Portafoglio e riaggiungilo nuovamente.
+      iotext: Abbina il tuo account BANCOMAT Pay nella sezione **Portafoglio**. Potrai pagare con la carta o conto collegati! Se hai aggiunto il tuo account prima dell'11 maggio 2022, eliminalo dal Portafoglio e aggiungilo nuovamente.
       cashback: 0
       cashbacktext: Aggiungi BANCOMAT Pay nella sezione **Portafoglio** e segui le istruzioni. Se BANCOMAT Pay è già presente nel Portafoglio, selezionalo per verificare lo stato del Cashback.
     - apps:
