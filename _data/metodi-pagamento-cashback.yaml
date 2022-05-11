@@ -1,5 +1,5 @@
 it:
-  last_update: 17/01/2022
+  last_update: 11/05/2022
   iostatus:
     0:
       status: yes
@@ -342,8 +342,8 @@ it:
       cashbacktext: Stiamo lavorando per supportare le transazioni effettuate tramite smartphone. Nel frattempo, usa la tua carta fisica per accumulare Cashback! 
     - apps:
         - bancomatpay
-      io: 1
-      iotext: Stiamo lavorando per supportare i pagamenti su IO con questo metodo.
+      io: 0
+      iotext: Abbina il tuo account BANCOMAT Pay nella sezione **Portafoglio**. Potrai pagare con la carta o conto collegati! Se hai aggiunto il tuo account prima dell'11 maggio 2022, eliminalo dal Portafoglio e aggiungilo nuovamente.
       cashback: 0
       cashbacktext: Aggiungi BANCOMAT Pay nella sezione **Portafoglio** e segui le istruzioni. Se BANCOMAT Pay è già presente nel Portafoglio, selezionalo per verificare lo stato del Cashback.
     - apps:
@@ -355,7 +355,7 @@ it:
     - apps:
         - paypal
       io: 0
-      iotext: Aggiungi il tuo conto PayPal nella sezione **Portafoglio**. Potrai pagare anche con il tuo conto corrente!
+      iotext: Abbina il tuo conto PayPal nella sezione **Portafoglio**. Potrai pagare anche con il tuo conto corrente!
       cashback: 1
       cashbacktext: Stiamo lavorando per supportare le transazioni effettuate tramite smartphone. Nel frattempo, usa la tua carta fisica per accumulare Cashback!
     - apps:
