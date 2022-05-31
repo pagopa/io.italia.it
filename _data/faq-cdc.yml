@@ -1,0 +1,48 @@
+it:
+  - title: Cos’è la Carta della Cultura?
+    body: "È l’incentivo dedicato ai residenti in Italia, che consiste in un credito di 100€ per supportare le famiglie nell’acquisto di libri, sia in formato cartaceo che digitale.  
+    <br>Il credito può essere speso entro un anno dal rilascio della Carta.
+    <br>Oltre che per l’anno in corso, solo per il 2022, puoi richiedere la Carta anche per il 2020 e il 2021."
+  - title: Chi può richiederla?
+    body: "Tutti i cittadini residenti in Italia con un ISEE in corso di validità non superiore a 15.000 €.
+    <br>Si può ottenere una Carta della Cultura per nucleo familiare, se in possesso dei requisiti e nei limiti delle risorse disponibili. Questo significa che, in base al numero delle richieste, e ai fondi stanziati per l’anno di riferimento, qualcuno dotato dei requisiti potrebbe non rientrare nella graduatoria.
+    <br>Oltre che per l’anno in corso e solo per il 2022, puoi richiedere la Carta anche per gli anni 2020 e il 2021. Per gli anni precedenti l’ISEE di riferimento sarà quello valido al 31/12 dell’anno per cui si effettua la richiesta."
+  - title: Come posso richiedere Carta della Cultura tramite IO?
+    body: "Puoi richiedere Carta della Cultura dalla sezione Portafoglio di IO.
+    <br>Premi “Aggiungi” in alto a destra e seleziona “Sconti, bonus e altre iniziative”. Scegli “Carta della Cultura” e completa i passaggi.
+    <br>Se hai i requisiti richiesti, al termine della definizione della graduatoria, riceverai un messaggio di attivazione. Potrai a questo punto visualizzare la Carta della Cultura e il credito disponibile nel Portafoglio. "
+  - title: Devo inviare documenti per inoltrare la richiesta?
+    body: No, non è necessario l’invio di alcun documento. I dati relativi al tuo ISEE e il tuo nucleo familiare verranno forniti al Ministero della Cultura da INPS.
+  - title: Quanto tempo è necessario per l’attivazione?
+    body: "Una volta inoltrata la richiesta, verrà effettuato il controllo dei requisiti e stilata una graduatoria, in ordine di ISEE e nei limiti delle risorse disponibili. Una volta definita la graduatoria ciascun richiedente riceverà un messaggio con l’esito positivo o negativo della richiesta."
+  - title: Devo aggiungere un metodo di pagamento per richiedere e utilizzare la Carta?
+    body: "No, non serve aggiungere nessun metodo di pagamento. Se il buono non copre l’intera cifra del tuo acquisto, puoi pagare l’importo residuo, col metodo di pagamento che preferisci, presso l’esercente da te scelto."
+  - title: Dove posso utilizzare la mia Carta della Cultura?
+    body: "Puoi utilizzare il credito disponibile presso i negozi fisici e online aderenti all’iniziativa, consultabili nella sezione dedicata dell’app."
+  - title: Come faccio ad utilizzare la Carta della Cultura?
+    body: "Per ogni Carta attivata, puoi generare uno o più buoni, pari al credito utile al tuo acquisto, direttamente in app IO.
+    <br>Scegli “Carta della Cultura” nella sezione Portafoglio, premi “Genera Buono” e segui i passaggi richiesti.
+    <br>Una volta generato, il buono potrà essere utilizzato per acquistare presso un negozio fisico o online:
+    
+    - se effettui l’acquisto in un negozio fisico,  presenta il Codice QR o il Codice a Barre all’esercente.
+
+    - Per gli acquisti online, invece, ti verrà richiesto l’inserimento del codice univoco, presente nel buono, nell’apposito campo sul sito dell’esercente."
+  - title: Chi può utilizzare la mia Carta della Cultura?
+    body: "La/Il richiedente e i componenti del suo nucleo familiare, in possesso di un account su IO."
+  - title: "Perché non vedo i buoni generati da un componente del mio nucleo familiare?"
+    body: "I buoni sono visibili solo al componente del nucleo familiare che lo ha generato.
+    <br>Una volta generato o utilizzato il buono, i dati, rispettivamente del credito prenotato e di quello disponibile della Carta della Cultura, saranno aggiornati e visibili nella sezione Portafoglio per tutti i componenti del nucleo familiare."
+  - title: Fino a quando è valida?
+    body: "La Carta della Cultura può essere utilizzata entro un anno dalla data di rilascio."
+  - title: Quanti acquisti, online o fisici, posso effettuare usufruendo della Carta?
+    body: "Puoi generare i buoni utili ai tuoi acquisti fino a esaurimento del credito disponibile, senza un limite numerico."
+  - title: "Devo stampare il buono per utilizzarlo?"
+    body: "No, per utilizzare un buono è sufficiente mostrarlo dal tuo dispositivo nel caso di acquisti in negozio, o utilizzare il codice univoco per gli acquisti online."
+  - title: Qual è l’ISEE di riferimento per richiedere la Carta della Cultura per un anno precedente?
+    body: "Per richiedere la Carta della Cultura per  l’anno 2020 e per il 2021, l’ISEE di riferimento sarà quello valido al 31/12 dell’anno di richiesta. "
+  - title: Posso combinare un buono con un’altra forma di pagamento se il credito residuo della mia Carta è insufficiente?
+    body: "Sì, presso i punti vendita fisici aderenti. Se il credito residuo sulla tua Carta della Cultura non copre l’intero importo del tuo acquisto, puoi generare un buono parziale e pagare l’importo residuo con un altro metodo di pagamento accettato dall’esercente."
+  - title: Posso cumulare i buoni della Carta della Cultura con agevolazioni promosse da altre iniziative (pubbliche o private)? 
+    body: Ogni operatore convenzionato regola autonomamente le modalità di utilizzo dei codici sconto che mette a disposizione, inclusa l’eventuale  non cumulabilità con altre agevolazioni.
+  - title: "Sono un esercente e vorrei aderire al programma di Carta della Cultura: come devo fare? "
+    body: Puoi trovare tutte le informazioni per aderire al programma a questo indirizzo.
