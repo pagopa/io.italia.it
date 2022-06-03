@@ -2,6 +2,7 @@
 layout: internal-w-slides
 title: Carta della Cultura
 pre-title: In arrivo
+image: "/assets/img/carta-della-cultura/social-card-cdc.png"
 description: "Entra in IO e richiedi la tua Carta della Cultura, l’incentivo per l’acquisto di libri in formato cartaceo o digitale"
 subdescription: "Scarica l’ultima versione dell’app:"
 lang: it
