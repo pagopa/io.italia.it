@@ -108,13 +108,13 @@ it:
     body: "Sì, è sicuro. L’app IO assicura il pieno rispetto del Regolamento Generale sulla protezione dei dati (GDPR) ai propri utenti. Nel caso dei pagamenti, i dati delle carte che aggiungi nel Portafoglio non vengono memorizzati in app, ma in un ambiente protetto secondo gli standard PCI DSS (Payment Card Industry Data Security Standard) e conservati in server situati in Italia."
     cat: "3|Pagamenti"
   - title: Non riesco ad aggiungere la mia carta al Portafoglio. Come mai?
-    body: "Molto probabilmente, la tua banca non ha autorizzato l’operazione perché sulla carta non è attivo il servizio 3D Secure."
+    body: "Anzitutto, controlla che la carta non sia scaduta o in pausa e che i dati inseriti siano corretti. Poi, assicurati che sia abilitata ai pagamenti online e che sia tra quelle [supportate da IO](https://io.italia.it/metodi-pagamento). Se è tutto corretto ma non riesci comunque ad aggiungerla, probabilmente sulla carta non è attivo il servizio 3D Secure. Se rientri in questi casi, contatta il Servizio Clienti della tua banca."
     cat: "3|Pagamenti"
   - title: Cos’è 3D Secure?
     body: "Quando effettui un pagamento online, la tua banca può chiederti di inserire un codice temporaneo per autorizzare la transazione. Questo servizio si chiama 3D Secure, è gratuito e ti garantisce maggiore sicurezza quando effettui un pagamento online con carta di debito o credito. In base a chi eroga il servizio, ci sono anche altre definizioni per riferirsi al 3D Secure: le più comuni sono “3DS”, “Verified by Visa”, “MasterCard Identity Check” e “SecureCode”."
     cat: "3|Pagamenti"
   - title: Come funziona 3D Secure?
-    body: "Quando effettui un pagamento online, la tua banca può chiederti di autorizzare la transazione tramite un codice temporaneo che ricevi via SMS. In questo modo, diminuisce il rischio che qualcuno possa utilizzare a tua insaputa una carta di cui sei titolare."
+    body: "Quando effettui un pagamento online, la tua banca può chiederti di autorizzare la transazione, di solito tramite un codice temporaneo inviato via SMS o una notifica push. In questo modo, diminuisce il rischio che qualcuno possa utilizzare a tua insaputa una carta di cui sei titolare."
     cat: "3|Pagamenti"
   - title: Come posso attivarlo?
     body: "Per attivare 3D Secure, vai sul sito o sull’app della tua banca e cerca la sezione che riguarda la sicurezza o la gestione delle carte. L’attivazione del servizio non è immediata, ti suggeriamo quindi di attendere un’ora prima di riprovare ad effettuare il pagamento.
@@ -123,5 +123,5 @@ it:
 Se non riesci ad attivare 3D Secure o hai bisogno di aiuto, contatta il Servizio Clienti della tua banca."
     cat: "3|Pagamenti"
   - title: Posso usare una carta virtuale?
-    body: "No, non è possibile. Le banche che offrono il servizio della carta virtuale, ovvero un numero di carta che vale per un solo utilizzo o per un periodo di tempo limitato, offrono anche il servizio 3D Secure sulla carta principale. Per poter effettuare un pagamento su IO, usa quest’ultima opzione."
+    body: "Dipende dalla tipologia. Su IO, puoi utilizzare le carte virtuali che permettono di effettuare più transazioni in un arco temporale stabilito, chiamate anche carte “di durata”. Non puoi invece utilizzare le carte monouso, chiamate anche “usa e getta“."
     cat: "3|Pagamenti"
