@@ -114,3 +114,12 @@ items:
     luogo: "data center globali del fornitore, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
     doc: "[link](https://workspace.google.com/terms/dpa_terms.html)"
+  - 
+    fornitore: "Amazon Web Services EMEA SARL"
+    attivita: "Servizi di cloud computing"
+    dati: "Dati personali comuni e dati non direttamente identificativi di interessati"
+    luogo: "Italia, Germania"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+  - clausole contrattuali standard  della Commissione Europea\n\n
+  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
+    doc: ""
