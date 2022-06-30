@@ -429,13 +429,18 @@
   background-position-y: -25vw;
   position: relative;
 
+  @media screen and (min-device-pixel-ratio: 2) {
+    background-image: url($imagesurl + "/assets/img/home-complete-view-2x.png");
+  }
+
   @media screen and (min-width: $grid-breakpoints-md) {
-    background-position-x: 50vw;
+    background-position-x: 30vw;
     background-position-y: center;
     background-size: auto 100%;
   }
   @media screen and (min-width: $grid-breakpoints-lg) {
     background-size: 50vw 100%;
+    background-position-x: 50vw;
   }
 
   &_bgimage {
