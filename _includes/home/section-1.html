@@ -3,7 +3,7 @@
     <div class="section__1_img mx-auto">
     </div>
     <div class="section__1_inner container d-flex align-items-center">
-        <div class="section__1_main px-4 ">
+        <div class="section__1_main px-3 px-md-0 ">
         <div class="d-flex align-items-center mb-3 section__1__logo">
         <img src="{{ '/assets/img/io-it-logo-white.svg' | prepend: site.imagesurl }}" alt="io" class="io__icon"/>
         <span class="d-none d-sm-inline badge-beta mx-1">BETA</span>
@@ -30,18 +30,18 @@
         </a>
         </div><!--/bottoni download-->
 
-        <div class="social d-md-flex align-items-center my-5">
-        <span class="d-block d-md-inline text-white mr-md-4 my-2 my-md-0">Seguici su:</span>
-        {% include social-icons.html %}
-        </div><!--/social-->
-        <div class="text-white my-3 home-data">
+        <div class="text-white my-5 home-data">
             Installazioni totali dell'app:
-            <div>
-            <a id="downloads" href="/dashboard/" class="text-white text-decoration-none" title="VAi alla dashboard">
+            <div class="mt-2">
+            <a id="downloads" href="/dashboard/" class="text-white text-decoration-none h3" title="Vai alle statistiche">
             </a>
-            <a href="/dashboard" class="text-white ml-2">Vai alla dashboard</a>
+            <a href="/dashboard" class="text-white ml-2 ml-md-3 font-weight-semibold">Vai alle statistiche</a>
             </div>
         </div>
+        <div class="social d-md-flex align-items-center my-5">
+            <span class="d-block d-md-inline text-white mr-md-4 my-2 my-md-0">Seguici su:</span>
+            {% include social-icons.html %}
+            </div><!--/social-->
         </div>
     </div>
 </div>

@@ -422,48 +422,41 @@
 }
 
 .section__12 {
-  background-image: url($imagesurl + "/assets/img/home-usertest.jpg");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-size: cover;
-  background-position-y: -25vw;
   position: relative;
 
-  @media screen and (min-width: $grid-breakpoints-md) {
-    background-position-x: 50vw;
-    background-position-y: center;
-    background-size: auto 100%;
-  }
-  @media screen and (min-width: $grid-breakpoints-lg) {
-    background-size: 50vw 100%;
-  }
-
-  &_bgimage {
-    height: 300px;
-    @media screen and (min-width: $grid-breakpoints-md) {
-      height: 487px;
+  &_info_container {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      padding-top: 80px;
+      padding-bottom: 80px;
     }
   }
+
+  &_img_container {
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 50vw;
+      height: 100%;
+    }
+  }
+
+  &_img {
+    display: block;
+    width: 100%;
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      position: absolute;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
   &_inner {
     position: relative;
     z-index: 1;
-  }
-
-  &:after {
-    content: " ";
-    top: 45%;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: $color--italia;
-    position: absolute;
-    z-index: 0;
-  }
-  @media screen and (min-width: $grid-breakpoints-md) {
-    &:after {
-      display: none;
-    }
   }
 }
 
