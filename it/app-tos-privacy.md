@@ -115,7 +115,9 @@ L'app IO ti permette di gestire le tue preferenze e i dati del tuo account.
 
 {:.d-more-1}
 Le relative informazioni sono associate al tuo codice fiscale e memorizzate nei nostri sistemi. Conserviamo inoltre, per un periodo di tempo limitato, lo storico degli accessi e delle preferenze.<br>
-Di seguito trovi alcune informazioni importanti sul trattamento dei dati nell’ambito del tuo Profilo:<br>
+Di seguito trovi alcune informazioni importanti sul trattamento dei dati nell’ambito del tuo Profilo:
+
+{:.d-more-1}
 - Non raccogliamo informazioni biometriche, ma riceviamo dal tuo dispositivo unicamente la conferma se il riconoscimento biometrico è attivo;
 - Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;
 - La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.
