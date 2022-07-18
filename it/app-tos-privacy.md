@@ -24,6 +24,8 @@ redirect_from:
 
 ### Novità e aggiornamenti
 
+{:.d-startup}
+
 - Per garantire il corretto funzionamento di alcune caratteristiche dei messaggi in app, e per migliorare l’esperienza utente, raccogliamo e memorizziamo informazioni relative allo stato dei messaggi. Su richiesta degli enti, potremmo fornire a questi ultimi lo stato di lettura dei messaggi inviati dai propri servizi. Se utilizzi una versione dell’app pari o superiore alla **2.13.0**, puoi disabilitare in ogni momento l’invio dello stato di lettura all’interno di ciascuna scheda servizio. Se utilizzi una versione inferiore, lo stato di lettura non verrà inviato agli enti che ne fanno richiesta. Per maggiori informazioni, leggi l’informativa completa.
 - Per garantire dei tempi adeguati all’evoluzione di IO e offrire un servizio migliore, abbiamo aggiornato i tempi di conservazione dei dati personali, che puoi trovare al paragrafo 5 dell’informativa completa.
 - Per garantire che tu sia sempre tenuto al corrente dell’evoluzione di IO, abbiamo aggiornato le modalità di comunicazione delle novità.
@@ -374,6 +376,9 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
 
 {:.d-more-2}
+### Termini e condizioni d'uso
+
+{:.d-more-2}
 Questi Termini regolano il rapporto tra gli utenti di IO e PagoPA S.p.A.: stabiliscono i tuoi diritti e obblighi nell’utilizzo dell’app e delle sue funzionalità. **Leggili attentamente: scaricando e utilizzando l’app, li accetti integralmente e ti impegni a rispettarli!**
 
 {:.d-more-2}
@@ -383,8 +388,6 @@ In generale, ricorda sempre che:
 
 - l’app IO è in continua evoluzione e soggetta a continui aggiornamenti e miglioramenti, anche grazie alle tue segnalazioni e ai tuoi suggerimenti.
 - tramite l’app, potrai usufruire dei servizi resi dagli Enti che hanno aderito a IO o da altre terze parti: a questi servizi si applicano i relativi termini e condizioni aggiuntivi, che ti vengono a disposizione per ciascun servizio.
-
-
 
 {:.d-more-2}
 
