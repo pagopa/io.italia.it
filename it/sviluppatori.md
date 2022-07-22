@@ -12,7 +12,7 @@ redirect_from:
 
 intro_image: "/assets/img/intro-sviluppatori.svg"
 intro_primary_text: "Leggi la documentazione"
-intro_primary_link: "/assets/download/it/onboarding/220627_guida_tecnica_all_integrazione_dei_servizi_in_app_io-v_1.2.pdf"
+intro_primary_link: "/assets/download/it/onboarding/220725_guida_tecnica_all_integrazione_dei_servizi_in_app_io-v_1.2.pdf"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Consulta documentazione dev', 1)"
 intro_ter_text: "Registrati al Back-Office"
 intro_ter_link: "https://developer.io.italia.it/"
