@@ -139,7 +139,7 @@ items:
     - misure supplementari di tipo contrattuale, tecnico e organizzativo (riservate)"
     doc: "[DPA](https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf) [Addendum](https://d1.awsstatic.com/Supplementary_Addendum_to_the_AWS_GDPR_DPA.pdf) [SCC C2P](https://d1.awsstatic.com/Controller_to_Processor_SCCs.pdf) [SCC P2P](https://d1.awsstatic.com/Processor_to_Processor_SCCs.pdf)"
   -
-  fornitore: "Amazon Web Services EMEA SARL\n\n
+    fornitore: "Amazon Web Services EMEA SARL\n\n
     (subfornitore di Softlab Tech)"
     attivita: "Servizi di cloud computing"
     dati: "Dati comuni degli utenti che richiedono assistenza"
