@@ -10,7 +10,7 @@ items:
     fornitore: "Nexi Payments S.p.A. e Service HUB S.p.A. (già SIA S.p.A.)"
     attivita: "Componenti applicative piattaforma pagoPA e relativa assistenza clienti di terzo livello"
     dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza"
-    luogo: “Italia”
+    luogo: "Italia"
     garanzie: "N/A"
     doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981058390O__O06.+Allegato_2_Contratto_signed+%281%29.pdf) [Misure di sicurezza](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981004500O__O07.+Allegato+4+-+Sicurezza_pagoPA_CentroStella+final_signed+%281%29.pdf) [Accordo sul trattamento - supplementare](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981024440O__OSIA_DPA_atto+aggiuntivo+%281%29.pdf)"
   - 
@@ -18,28 +18,28 @@ items:
     (\"Softlab Tech\")"
     attivita: "Servizi integrati di contact center"
     dati: "Dati necessari per gestire le richieste di assistenza degli utenti"
-    luogo: “Unione Europea, con possibile trasferimento verso paesi terzi ad opera dei sub-responsabili ingaggiati dal fornitore”
+    luogo: "Unione Europea, con possibile trasferimento verso paesi terzi ad opera dei sub-responsabili ingaggiati dal fornitore"
     garanzie: "in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
     doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/legal/Softlab-Tecnocall_DPA.pdf)"  
   - 
     fornitore: "Growens S.p.A. (già MailUP S.p.A.)"
     attivita: "Invio di email (inoltro messaggi ricevuti in-app e newsletter del progetto IO)"
     dati: "Indirizzo email degli utenti e dati inclusi nei messaggi inoltrati dall'app"
-    luogo: “Italia”
+    luogo: "Italia"
     garanzie: "N/A"
     doc: "[Termini contrattuali e privacy](https://io.italia.it/assets/download/it/legal/MailUP_T%26C_DPA.pdf) [Self Assessment](https://io.italia.it/assets/download/it/legal/MailUp_Self_Assessment.pdf)"
   - 
     fornitore: "Fabrick S.p.A."
     attivita: "Servizi di elaborazione e validazione di dati bancari e finanziari (ad esempio, controllo intestazione IBAN e strumenti di pagamento)"
     dati: "Dati identificativi, bancari e finanziari degli utenti che si avvalgono di servizi in app che richiedono validazione dei dati"
-    luogo: “Italia”
+    luogo: "Italia"
     garanzie: "N/A"
     doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/legal/Fabrick_DPA.pdf) [Addendum 1](https://io.italia.it/assets/download/it/Fabrick_Addendum-1_DPA.pdf)"
   - 
     fornitore: "Atlantica Digital S.p.A."
     attivita: "Servizi di Vulnerability Assessment/Penetration Test e Security Consulting"
     dati: "Dati personali cui il fornitore potrebbe eventualmente avere accesso nello svolgimento dei servizi affidati"
-    luogo: “Italia”
+    luogo: "Italia"
     garanzie: "N/A"
     doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/Atlantica-Digital_DPA.pdf)"
   - 
@@ -132,7 +132,7 @@ items:
   - 
     fornitore: "Amazon Web Services EMEA SARL"
     attivita: "Servizi di cloud computing"
-    dati: "Dati personali comuni e dati non direttamente identificativi, oggetto di elaborazione per finalità di monitoraggio, produzione report e analisi”
+    dati: "Dati personali comuni e dati non direttamente identificativi, oggetto di elaborazione per finalità di monitoraggio, produzione report e analisi"
     luogo: "Unione Europea"
     garanzie: "- opzione di residenza dei dati in UE\n\n
     - clausole contrattuali standard della Commissione Europea\n\n
@@ -142,7 +142,7 @@ items:
   fornitore: "Amazon Web Services EMEA SARL\n\n
     (subfornitore di Softlab Tech)"
     attivita: "Servizi di cloud computing"
-    dati: "Dati comuni degli utenti che richiedono assistenza”
+    dati: "Dati comuni degli utenti che richiedono assistenza"
     luogo: "Unione Europea"
     garanzie: "- opzione di residenza dei dati in UE\n\n
     - misure supplementari di tipo contrattuale, tecnico e organizzativo (es. nessun trasferimento ad altri sub-responsabili AWS situati al di fuori dell’UE)"
