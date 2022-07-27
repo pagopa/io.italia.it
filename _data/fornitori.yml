@@ -7,84 +7,97 @@ labels:
   doc: Documentazione contrattuale
 items:
   - 
-    fornitore: "Nexi Payments S.p.A. e NewCo 55 S.r.l. (già SIA S.p.A.)"
-    attivita: "Componenti applicative piattaforma pagoPA e relativa assistenza clienti"
-    dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza "
-    luogo: Italia
+    fornitore: "Nexi Payments S.p.A. e Service HUB S.p.A. (già SIA S.p.A.)"
+    attivita: "Componenti applicative piattaforma pagoPA e relativa assistenza clienti di terzo livello"
+    dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza"
+    luogo: "Italia"
     garanzie: "N/A"
-    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981058390O__O06.+Allegato_2_Contratto_signed+%281%29.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981004500O__O07.+Allegato+4+-+Sicurezza_pagoPA_CentroStella+final_signed+%281%29.pdf) [link 3](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981024440O__OSIA_DPA_atto+aggiuntivo+%281%29.pdf)"
+    doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981058390O__O06.+Allegato_2_Contratto_signed+%281%29.pdf) [Misure di sicurezza](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981004500O__O07.+Allegato+4+-+Sicurezza_pagoPA_CentroStella+final_signed+%281%29.pdf) [Accordo sul trattamento - supplementare](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981024440O__OSIA_DPA_atto+aggiuntivo+%281%29.pdf)"
   - 
-    fornitore: "aCapo Cooperativa Sociale"
-    attivita: "Servizio assistenza clienti"
-    dati: "Dati necessari per trattare richieste di assistenza degli utenti"
-    luogo: Italia
-    garanzie: "N/A"
-    doc: "[link](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981026400O__O10.+Acapo_nomina+a+responsabile.pdf)"
+    fornitore: "RTI Softlab Tech S.p.A. - Tecnocall S.r.l.\n\n
+    (\"Softlab Tech\")"
+    attivita: "Servizi integrati di contact center"
+    dati: "Dati necessari per gestire le richieste di assistenza degli utenti"
+    luogo: "Unione Europea, con possibile trasferimento verso paesi terzi ad opera dei sub-responsabili ingaggiati dal fornitore"
+    garanzie: "in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/legal/Softlab-Tecnocall_DPA.pdf)"  
   - 
     fornitore: "Growens S.p.A. (già MailUP S.p.A.)"
     attivita: "Invio di email (inoltro messaggi ricevuti in-app e newsletter del progetto IO)"
     dati: "Indirizzo email degli utenti e dati inclusi nei messaggi inoltrati dall'app"
-    luogo: Italia
+    luogo: "Italia"
     garanzie: "N/A"
-    doc: "[link](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981009390O__OMailUp_TC_DPA.pdf)"
+    doc: "[Termini contrattuali e privacy](https://io.italia.it/assets/download/it/legal/MailUP_T%26C_DPA.pdf) [Self Assessment](https://io.italia.it/assets/download/it/legal/MailUp_Self_Assessment.pdf)"
   - 
     fornitore: "Fabrick S.p.A."
     attivita: "Servizi di elaborazione e validazione di dati bancari e finanziari (ad esempio, controllo intestazione IBAN e strumenti di pagamento)"
     dati: "Dati identificativi, bancari e finanziari degli utenti che si avvalgono di servizi in app che richiedono validazione dei dati"
-    luogo: Italia
+    luogo: "Italia"
     garanzie: "N/A"
-    doc: "[link](https://io.italia.it/assets/download/it/Fabrick_Addendum-1_DPA.pdf)"
+    doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/legal/Fabrick_DPA.pdf) [Addendum 1](https://io.italia.it/assets/download/it/Fabrick_Addendum-1_DPA.pdf)"
   - 
     fornitore: "Atlantica Digital S.p.A."
     attivita: "Servizi di Vulnerability Assessment/Penetration Test e Security Consulting"
     dati: "Dati personali cui il fornitore potrebbe eventualmente avere accesso nello svolgimento dei servizi affidati"
-    luogo: Italia
+    luogo: "Italia"
     garanzie: "N/A"
-    doc: "[link](https://io.italia.it/assets/download/it/Atlantica-Digital_DPA.pdf)"
+    doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/Atlantica-Digital_DPA.pdf)"
   - 
     fornitore: "OneTrust Technology Limited"
     attivita: "Software gestionale per adempimenti privacy"
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
-    luogo: "Germania\n\n"
-    garanzie: "N/A"
-    doc: "[link](https://github.com/pagopa/io.italia.it/blob/master/assets/download/it/OneTrust_DPA.pdf)"
+    luogo: "Germania, con possibile trasferimento verso paesi terzi (compresi USA)"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+    clausole contrattuali standard della Commissione Europea\n\n"
+    doc: "[DPA](https://io.italia.it/assets/download/it/OneTrust_DPA.pdf)"
   - 
     fornitore: "LimeSurvey GmbH"
     attivita: "Servizio per form, moduli e questionari online"
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
     luogo: "Germania\n\n"
     garanzie: "N/A"
-    doc: "[link](https://io.italia.it/assets/download/it/LimeSurvey-DPA.pdf)"
+    doc: "[DPA](https://io.italia.it/assets/download/it/legal/LimeSurvey_DPA_jul%202022.pdf)"
   - 
     fornitore: "Microsoft Ireland Operations Limited"
-    attivita: "Servizi di backup e cloud computing"
-    dati: "Tutti i dati degli utenti inclusi nel database dell'App IO"
-    luogo: Paesi Bassi, con back up in Irlanda
-    garanzie: "- opzione di residenza dei dati in UE\n\n
-  - clausole contrattuali standard  della Commissione Europea\n\n
-  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
-    doc: "[link](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981011410O__O12.+Microsoft_DPA+Dec+2020.pdf)"
+    attivita: "Hosting infrastruttura e servizi di cloud computing"
+    dati: "Tutti i dati degli utenti necessari per il funzionamento dell'App IO"
+    luogo: Paesi Bassi e Irlanda, con possibile trasferimento verso paesi terzi (compresi USA)
+    garanzie: "- opzione di residenza dei dati in UE\n\n 
+    - clausole contrattuali standard della Commissione Europea\n\n 
+    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    doc: "[DPA](https://io.italia.it/assets/download/it/legal/Microsoft_DPA_Product%26Services_sep%202021.pdf) [Compliance White Paper](https://io.italia.it/assets/download/it/legal/Microsoft_White%20Paper.pdf)"
   - 
     fornitore: "Mixpanel, Inc."
-    attivita: "Raccolta dati di utilizzo dell'App IO  tramite i dispositivi per scopi di debug, incident response, assistenza tecnica e miglioramento dell'App"
+    attivita: "Debug funzionale, troubleshooting, diagnostica, analisi su dati aggregati anche a fini di reportistica"
     dati: "Dati di navigazione e utilizzo dell'app da parte dell'utente"
     luogo: "- Paesi Bassi\n\n 
-    - USA (per eventuali sub responsabili, solo in caso di richiesta di supporto tecnico da parte di PagoPA S.p.A. od operazioni di manutenzione da parte del fornitore)"
+    - USA (solo in caso di richiesta di supporto tecnico da parte di PagoPA S.p.A. od operazioni di manutenzione da parte del fornitore)"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-  - clausole contrattuali standard  della Commissione Europea\n\n
-  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE\n\n
-  - modifica puntuale alla contrattualistica standard del fornitore, al fine di chiarire l'impossibilità per lo stesso di trattare dati per finalità proprie e ribadire la prevalenza dell'accordo privacy (DPA) sulla contrattualistica standard"
-    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O05.+Mixpanel_DPA_EU+Residency.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O06.+Mixpanel_Amendment+No.+1+to+DPA.pdf) [link 3](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__OMixpanel_DPA_Amendment2.pdf)"
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n"
+    doc: "[DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O05.+Mixpanel_DPA_EU+Residency.pdf) [Amendment 1 al DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O06.+Mixpanel_Amendment+No.+1+to+DPA.pdf) [Amendment 2 al DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__OMixpanel_DPA_Amendment2.pdf)"
   - 
-    fornitore: "Instabug, Inc."
+    fornitore: "Instabug, Inc. (**dismesso**)"
     attivita: "Soluzione tecnica per l'invio di segnalazioni e la gestione dell'assistenza clienti"
     dati: "(i) Dati forniti dall'utente nella segnalazione (NB: disincentiviamo l'utente a fornire dati \"critici\" o \"sensibili\" nelle segnalazioni)\n\n
-(ii) Dati relativi al dispositivo e alla navigazione per migliorare l'assistenza"
-    luogo: "USA\n\n
-(in corso valutazione sulla sostituzione del fornitore)"
+    (ii) Dati relativi al dispositivo e alla navigazione per migliorare l'assistenza"
+    luogo: "USA"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
-  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
-    doc: "[link 1](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019140O__O07.+Instabug_DPA.pdf) [link 2](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019270O__O08.+Instabug_Amendment+1+to+DPA.pdf)"
+    - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
+    doc: "[DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019140O__O07.+Instabug_DPA.pdf) [Amendment 1 al DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019270O__O08.+Instabug_Amendment+1+to+DPA.pdf)"
+  - 
+    fornitore: "Zendesk Inc.\n\n 
+    (sub-responsabile di Softlab Tech)"
+    attivita: "Piattaforma di gestione delle richieste di assistenza"
+    dati: "(i) Dati comuni necessari per identificare l’utente\n\n
+    (ii) Dati forniti dall'utente nella segnalazione\n\n
+    (iii) Dati relativi al dispositivo e alla navigazione (ove condivisi)"
+    luogo: "Irlanda, con possibile trasferimento verso paesi terzi (compresi USA)"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+    - norme vincolanti d’impresa\n\n\
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    doc: "[Misure adottate di default da Zendesk](https://www.zendesk.it/trust-center/)"
   - 
     fornitore: "Slack Technologies Limited"
     attivita: "Piattaforma di messaggistica per comunicazione interna alla PagoPA S.p.A."
@@ -92,34 +105,45 @@ items:
     luogo: "USA\n\n
     (trattamento di dati personali degli utenti eventuale e comunque marginale, solo in caso di necessità e urgenza)"
     garanzie: "- clausole contrattuali standard  della Commissione Europea"
-    doc: "[link](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981016550O__OSlack_DPA_sep+2021.pdf)"
+    doc: "[DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981016550O__OSlack_DPA_sep+2021.pdf)"
   - 
     fornitore: "Google LLC"
     attivita: "Invio di notifiche Push"
-    dati: "Eventuali dati inclusi nella notifica push (se presenti) e solo per utenti Android"
-    luogo: "USA\n\n"
+    dati: "Dati inclusi nella notifica push (solo per dispositivi Android)"
+    luogo: "data center globali del fornitore, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
     garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
-    doc: "[link](https://firebase.google.com/terms/data-processing-terms)"
+    doc: "[DPA e termini](https://firebase.google.com/terms/data-processing-terms)"
   - 
-    fornitore: "Google LLC"
+    fornitore: "Google Ireland Limited"
     attivita: "Servizio per form, moduli e questionari online"
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
-    luogo: "data center globali del fornitore, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
-    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
-    doc: "[link](https://workspace.google.com/terms/dpa_terms.html)"
+    luogo: "Unione Europea, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+    - clausole contrattuali standard della Commissione Europea\n\n"
+    doc: "[DPA e termini](https://workspace.google.com/terms/dpa_terms.html)"
   - 
-    fornitore: "Google LLC"
+    fornitore: "Google Ireland Limited"
     attivita: "Servizio di posta elettronica"
     dati: "Dati forniti dagli interessati nelle richieste di assistenza indirizzate alla Società"
-    luogo: "data center globali del fornitore, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
-    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
-    doc: "[link](https://workspace.google.com/terms/dpa_terms.html)"
+    luogo: "Unione Europea, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+    - clausole contrattuali standard della Commissione Europea\n\n"
+    doc: "[DPA e termini](https://workspace.google.com/terms/dpa_terms.html)"
   - 
     fornitore: "Amazon Web Services EMEA SARL"
     attivita: "Servizi di cloud computing"
-    dati: "Dati personali comuni e dati non direttamente identificativi di interessati"
-    luogo: "Italia, Germania"
+    dati: "Dati personali comuni e dati non direttamente identificativi, oggetto di elaborazione per finalità di monitoraggio, produzione report e analisi"
+    luogo: "Unione Europea"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-  - clausole contrattuali standard  della Commissione Europea\n\n
-  - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
-    doc: ""
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo (riservate)"
+    doc: "[DPA](https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf) [Addendum](https://d1.awsstatic.com/Supplementary_Addendum_to_the_AWS_GDPR_DPA.pdf) [SCC C2P](https://d1.awsstatic.com/Controller_to_Processor_SCCs.pdf) [SCC P2P](https://d1.awsstatic.com/Processor_to_Processor_SCCs.pdf)"
+  -
+    fornitore: "Amazon Web Services EMEA SARL\n\n
+    (subfornitore di Softlab Tech)"
+    attivita: "Servizi di cloud computing"
+    dati: "Dati comuni degli utenti che richiedono assistenza"
+    luogo: "Unione Europea"
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo (es. nessun trasferimento ad altri sub-responsabili AWS situati al di fuori dell’UE)"
+    doc: "N/A"
