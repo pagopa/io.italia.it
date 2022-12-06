@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: 4.2
-updated: 6 dicembre 2022
+vers: 4.1
+updated: 28 novembre 2022
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,6 +26,11 @@ redirect_from:
 
 {:.d-startup}
 
+- Per offrirti una migliore esperienza, dalla versione **2.20.0** potrai scegliere:
+    - di visualizzare il mittente e l’oggetto del messaggio nelle notifiche push;
+    - di ricevere promemoria per messaggi non ancora letti o avvisi non pagati degli enti che ne fanno richiesta.<br>
+Se utilizzi una versione dell’app pari o superiore alla 2.20.0, potrai modificare la tua preferenza in ogni momento nella sezione Profilo. Se utilizzi  una versione inferiore, riceverai solo notifiche push dal contenuto generico e non riceverai alcun promemoria.
+- Per garantire dei tempi adeguati all’evoluzione di IO e offrire un servizio migliore, abbiamo aggiornato i tempi di conservazione di alcuni dati personali, che puoi trovare al paragrafo 5 dell’informativa completa.
 - Abbiamo corretto alcuni refusi, migliorato il linguaggio e chiarito alcuni articoli per agevolarne la lettura.
 
 {:.d-startup}
@@ -74,13 +79,9 @@ Le preferenze di contatto sono configurate diversamente per i Servizi che richie
 
 {:.d-more-1}
 Per consentire l’invio delle notifiche push, applichiamo misure di pseudonimizzazione e limitazione del trattamento, ma a seconda del sistema operativo del Tuo dispositivo, il fornitore del servizio di notifica push potrebbe comunque associare a Te un identificativo univoco per poterti consegnare la notifica. Se utilizzi una versione dell’app pari o superiore alla **2.20.0**, puoi scegliere di ricevere su IO notifiche push:
-
-{:.d-more-1}
-
 - che recano un testo generico, cioè senza alcuna indicazione del mittente, dell’oggetto o del contenuto del messaggio che hai ricevuto in app, e dunque senza alcuna esposizione dei dati personali riconducibili al messaggio stesso;
 - che recano l’indicazione del mittente e dell’oggetto del messaggio, e potrebbero dunque contenere anche indicazioni sul suo contenuto. Ti ricordiamo che se scegli questa opzione, i dati della notifica vengono trattati dal gestore del tuo sistema operativo e da app di terze parti eventualmente in esecuzione sul tuo dispositivo, in qualità di titolari autonomi. Inoltre, a seconda delle impostazioni del tuo dispositivo, il contenuto della notifica potrebbe essere mostrato anche quando lo schermo è bloccato.
-
-{:.d-more-1}
+<br>
 Puoi sempre modificare la tua scelta nella sezione Preferenze del Tuo Profilo. Se utilizzi una versione inferiore alla 2.20.0, riceverai solo notifiche push dal contenuto generico.
 
 {:.d-more-1}
@@ -124,7 +125,6 @@ Le relative informazioni sono associate al tuo codice fiscale e memorizzate nei 
 Di seguito trovi alcune informazioni importanti sul trattamento dei dati nell’ambito del tuo Profilo:
 
 {:.d-more-1}
-
 - Non raccogliamo informazioni biometriche, ma riceviamo dal tuo dispositivo unicamente la conferma se il riconoscimento biometrico è attivo;
 - Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;
 - La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.
@@ -139,7 +139,6 @@ L’utilizzo di alcune funzionalità potrebbe richiedere i permessi di accesso, 
 Per garantire il corretto funzionamento di IO e dei suoi sistemi, vengono svolte attività di debug, diagnostica, troubleshooting attraverso specifici sistemi di monitoraggio:
 
 {:.d-more-1}
-
 1. per la rilevazione dei dati di utilizzo, previo consenso degli interessati, tramite cui è possibile acquisire, tra l’altro, informazioni relative all’utilizzo e alla navigazione e informazioni relative al dispositivo;
 2. per raccogliere a livello infrastrutturale ulteriori dati e log tecnici.<br>
    Alcuni di questi dati sono associati univocamente a te, sono raccolti tramite sistemi di fornitori terzi nominati responsabili del trattamento, e sono utilizzati esclusivamente per le finalità descritte e mai per scopi di marketing o profilazione. Il consenso all’utilizzo dei dati di cui al punto 1 è facoltativo, e puoi modificarlo in ogni momento nella sezione Preferenze.<br>
@@ -192,7 +191,7 @@ In qualità di titolare, PagoPA tratta i seguenti dati, aggregati in modo che no
 {:.d-more-1}
 I gestori degli app store in cui è distribuita l’App (App Store e Google Play) mettono a disposizione di PagoPA, in formato aggregato, i predetti dati in una dashboard gestita dal fornitore dello store stesso. Queste informazioni non sono riconducibili a persone fisiche identificabili. L’aggregazione è basata sul contratto di servizio in essere tra utente finale e gestore, e il relativo trattamento si configura come trattamento titolare-titolare.<br>
 In qualità di responsabile, PagoPA tratta i dati relativi alla fruizione da parte dei cittadini dei Servizi erogati dagli Enti (su istruzione degli stessi), in particolare al fine del monitoraggio del tasso di adozione dei Servizi da parte dei cittadini, dell’attuazione delle iniziative pubbliche sottese ai Servizi, per il monitoraggio dei livelli di servizio e per gli obblighi di trasparenza connessi alle attività affidate a PagoPA.<br>
-Alcuni dei dati di cui sopra sono pubblicati e aggiornati periodicamente nelle [dashboard di IO](https://io.italia.it/dashboard/).
+Alcuni dei dati di cui sopra sono pubblicati e aggiornati periodicamente nelle [dashboard di IO]((https://io.italia.it/dashboard/).
 
 {:.d-more-1}
 
@@ -241,7 +240,7 @@ Sia per l’erogazione dei servizi agli Enti sia per lo svolgimento delle operaz
 
 {:.d-more-1}
 
-- Soggetti terzi che forniscono servizi per la gestione del sistema informativo in qualità di responsabili del trattamento (o sub-responsabili), previa designazione degli stessi ai sensi dell'art. 28 del GDPR. Puoi ottenere l'elenco dei responsabili del trattamento collegandoti all’indirizzo [io.italia.it/app-content/fornitori](https://io.italia.it/app-content/fornitori/);
+- Soggetti terzi che forniscono servizi per la gestione del sistema informativo in qualità di responsabili del trattamento (o sub-responsabili), previa designazione degli stessi ai sensi dell'art. 28 del GDPR. Puoi ottenere l'elenco dei responsabili del trattamento collegandoti all’indirizzo <https://io.italia.it/app-content/fornitori/>;
 - Enti pubblici o privati (compresi gli Enti aderenti a IO) che agiscono in qualità di titolari;
 - altri soggetti pubblici o privati che ne facciano richiesta a PagoPA per l’esecuzione di un compito di interesse pubblico o connesso all’esercizio di un pubblico potere oppure per adempiere a un obbligo legale.
 
@@ -275,7 +274,7 @@ In entrambi i casi, tempi di conservazione differenti possono essere previsti di
 I dati trattati in ragione delle attività necessarie per garantire la sicurezza sono conservati fino a 6 mesi.
 
 {:.d-more-1}
-I dati relativi all’integrazione con la piattaforma pagoPA sono conservati secondo i tempi indicati nella relativa informativa.
+I dati relativi all’integrazione con la piattaforma pagoPA sono conservati secondo i tempi indicati nella relativa informativa. 
 
 {:.d-more-1}
 Per alcuni Servizi, in particolare quelli che richiedono un’iscrizione specifica (ad esempio, i Bonus), sono previsti tempi di conservazione differenti in virtù della natura del trattamento e/o delle istruzioni impartite dal titolare. Le informazioni sui relativi trattamenti sono contenute nelle informative presenti in ciascuna scheda Servizio.
@@ -294,8 +293,8 @@ Per maggiori informazioni sul tempo di conservazione dei tuoi dati, compila ques
 #### 6. Trasferimento dati fuori dall'UE
 
 {:.d-more-1}
-Alcuni dei fornitori terzi di cui ci avvaliamo per alcuni servizi essenziali all’operatività dei nostri prodotti e servizi risiedono all’estero, compresi gli USA. Abbiamo concluso con tali fornitori accordi ai sensi dell'art. 28 del Regolamento e, laddove necessario, le [Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en) per garantire adeguati livelli di tutela. Dove possibile, inoltre, selezioniamo opzioni che consentono di mantenere i dati nell’Unione Europea e abbiamo negoziato misure aggiuntive per garantirti un maggior livello di sicurezza.<br>
-Teniamo molto al principio di minimizzazione, e per questo lo applichiamo rigorosamente nell’ambito dei trattamenti che affidiamo ai nostri fornitori, semplicemente comunicando solo i dati strettamente necessari. Puoi consultare la lista dei responsabili e le relative misure adottate all’indirizzo [io.italia.it/app-content/fornitori](https://io.italia.it/app-content/fornitori/).
+Alcuni dei fornitori terzi di cui ci avvaliamo per alcuni servizi essenziali all’operatività dei nostri prodotti e servizi risiedono all’estero, compresi gli USA. Abbiamo concluso con tali fornitori accordi ai sensi dell'art. 28 del Regolamento e, laddove necessario, le Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en) per garantire adeguati livelli di tutela. Dove possibile, inoltre, selezioniamo opzioni che consentono di mantenere i dati nell’Unione Europea e abbiamo negoziato misure aggiuntive per garantirti un maggior livello di sicurezza.<br>
+Teniamo molto al principio di minimizzazione, e per questo lo applichiamo rigorosamente nell’ambito dei trattamenti che affidiamo ai nostri fornitori, semplicemente comunicando solo i dati strettamente necessari. Puoi consultare la lista dei responsabili e le relative misure adottate all’indirizzo <https://io.italia.it/app-content/fornitori/>.
 
 {:.d-more-1}
 
@@ -342,7 +341,7 @@ Per motivi connessi a una situazione particolare che ti riguarda, ti puoi opporr
 _g) Diritto di proporre reclamo a un’autorità di controllo_
 
 {:.d-more-1}
-Nel caso in cui ritieni che un trattamento violi il GDPR hai il diritto di proporre reclamo a un’autorità di controllo, in special modo nello Stato membro in cui risiedi abitualmente, lavori oppure del luogo in cui si è verificata la presunta violazione (in Italia, il Garante per la Protezione dei Dati Personali - [gpdp.it](https://www.gpdp.it), fatto salvo ogni altro ricorso amministrativo o giurisdizionale.
+Nel caso in cui ritieni che un trattamento violi il GDPR hai il diritto di proporre reclamo a un’autorità di controllo, in special modo nello Stato membro in cui risiedi abitualmente, lavori oppure del luogo in cui si è verificata la presunta violazione (in Italia, il Garante per la Protezione dei Dati Personali - www.gpdp.it), fatto salvo ogni altro ricorso amministrativo o giurisdizionale.
 
 {:.d-more-1}
 
@@ -362,7 +361,7 @@ _Email: <dpo@pagopa.it>_
 #### 9. Modifiche
 
 {:.d-more-1}
-Questa Informativa può essere modificata nel tempo, anche a fronte di funzioni aggiuntive implementate nell’app, oppure a fronte di evoluzioni normative. Eventuali revisioni e/o modifiche saranno pubblicate nell’app IO e all’indirizzo [io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html), e ti potranno essere segnalate o comunicate con le modalità adeguate all’impatto che le stesse hanno sui trattamenti e/o sui tuoi diritti.<br>
+Questa Informativa può essere modificata nel tempo, anche a fronte di funzioni aggiuntive implementate nell’app, oppure a fronte di evoluzioni normative. Eventuali revisioni e/o modifiche saranno pubblicate nell’app IO e all’indirizzo <https://io.italia.it/app-content/tos_privacy.html>, e ti potranno essere segnalate o comunicate con le modalità adeguate all’impatto che le stesse hanno sui trattamenti e/o sui tuoi diritti.<br>
 Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puoi sempre consultare le versioni precedenti cliccando sul link che trovi all’inizio di questa Informativa.
 
 <hr class="d-block" />
@@ -376,17 +375,16 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 ##### Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})<br>[Archivio versioni precedenti](/app-content/index-tos.html)
 
 {:.d-startup}
-
 ### Novità e aggiornamenti
 
 {:.d-startup}
 
 - Abbiamo corretto alcuni refusi, migliorato il linguaggio e chiarito alcuni articoli per agevolarne la lettura;
+- Per offrirti un servizio migliore, abbiamo introdotto i promemoria per ricordarti, su richiesta degli enti, dei messaggi che devi ancora leggere e dei pagamenti in scadenza.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
 
 {:.d-more-2}
-
 ### Termini e condizioni d'uso
 
 {:.d-more-2}
@@ -525,7 +523,7 @@ _e) Assistenza tecnica all'Utente e debug_
 Facciamo del nostro meglio per assicurarTi un’esperienza adatta alle Tue esigenze.<br>
 Se hai bisogno di assistenza tecnica sull’app IO, clicca sull’icona in alto a destra con il punto interrogativo (“?”) per accedere all’help contestuale, dove potrai avere informazioni sull’app o su una Funzionalità e su come contattarci per ricevere assistenza o segnalare un bug.<br>
 Tieni presente che al fine di migliorare le Funzionalità di IO e per aiutare gli Enti che erogano i Servizi al Cittadino tramite l’app IO a migliorare i loro servizi, potremmo raccogliere determinate informazioni, anche fuori dai casi di segnalazione dei bug, incluse le informazioni relative alle modalità di utilizzo diIO da parte degli Utenti e quelle relative ai dispositivi dell’Utente su cui l’appè installata.<br>
-Per maggiori informazioni sul trattamento dei dati per finalità di debug e assistenza, consulta l’informativa privacy dell’App IO, sempre disponibile in app e all’indirizzo [io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html).
+Per maggiori informazioni sul trattamento dei dati per finalità di debug e assistenza, consulta l’informativa privacy dell’App IO, sempre disponibile in app e all’indirizzo <https://io.italia.it/app-content/tos_privacy.html>.
 
 {:.d-more-2}
 
@@ -608,7 +606,7 @@ Rilasciamo alcune Funzionalità, in tutto o in parte, in via sperimentale e ciò
 {:.d-more-2}
 Crediamo che uno sviluppo open e collaborativo dei servizi pubblici digitali sia fondamentale per la trasformazione digitale del nostro Paese.<br>
 Per questo privilegiamo lo sviluppo open source per il software dell’App IO, che grazie alla sua riutilizzabilità è in grado di rendere i servizi digitali più efficaci, e quindi, più vicini alle esigenze dei cittadini. Se sei uno sviluppatore, o vuoi saperne di più su come funziona IO, visita la pagina dedicata agli sviluppatori sul nostro sito io.italia.it nella sezione dedicata agli sviluppatori.<br>
-La Società concede all’Utente una licenza personale, mondiale, gratuita, revocabile, non trasferibile e non esclusiva per utilizzare il software relativo all’App IO. Tale licenza viene rilasciata esclusivamente per permettere all’Utente di utilizzare l’App IO e le sue Funzionalità e non si estende a quegli elementi (compresi altri prodotti e servizi integrati) sottoposti a un regime diverso.<br>
+La Società concede all’Utente una licenza personale, mondiale, gratuita, revocabile, non trasferibile e non esclusiva per utilizzare il software relativo all’App IO. Tale licenza viene rilasciata esclusivamente per permettere all’Utente di utilizzare l’App IO e le sue Funzionalità e non si estende a quegli elementi (compresi altri prodotti e servizi integrati)  sottoposti a un regime diverso.<br>
 Tutti gli elementi relativi alla Piattaforma IO, all’App IO e alla Piattaforma pagoPA (compresi marchi, loghi, immagini, testi, design, layout, animazioni, nomi a dominio, brevetti, processi, segni distintivi e altri elementi suscettibili di costituire oggetto di privativa intellettuale e industriale – collettivamente definiti “Diritti IP”) sono di proprietà di PagoPA S.p.A. e/o concessi in licenza alla stessa e potrebbero essere soggetti ad un regime di licenza specifico: al di fuori dell’uso accettato di cui al precedente paragrafo, non puoi quindi sfruttare i Diritti IP senza la preventiva autorizzazione della Società e/o degli altri aventi diritto. Se hai dei dubbi su cosa puoi o non puoi utilizzare, contattaci scrivendoci a <legal@pagopa.it>.<br>
 
 {:.d-more-2}
@@ -616,7 +614,7 @@ Tutti gli elementi relativi alla Piattaforma IO, all’App IO e alla Piattaforma
 #### **8.** Modifiche ai ToS
 
 {:.d-more-2}
-Siamo sempre al lavoro per offrirTi nuove funzionalità e per migliorare IO, per questo, i presenti ToS potrebbero cambiare nel tempo. Revisioni e/o modifiche saranno sempre pubblicate nell’App IO e all’indirizzo[io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html). Nel caso in cui si tratti di modifiche unilaterali, che non richiedano una tua espressa accettazione, provvederemo a comunicartele con un preavviso di 15 giorni rispetto all’entrata in vigore, all'interno dell'App IO.<br>
+Siamo sempre al lavoro per offrirTi nuove funzionalità e per migliorare IO, per questo, i presenti ToS potrebbero cambiare nel tempo. Revisioni e/o modifiche saranno sempre pubblicate nell’App IO e all’indirizzo <https://io.italia.it/app-content/tos_privacy.html>. Nel caso in cui si tratti di modifiche unilaterali, che non richiedano una tua espressa accettazione, provvederemo a comunicartele con un preavviso di 15 giorni rispetto all’entrata in vigore, all'interno dell'App IO.<br>
 Ricorda che se installi una nuova versione di IO, o continui a utilizzare l’App o i Servizi IO, o manifesti in modalità informatica il Tuo consenso e accettazione (ove applicabile), Tu accetti le modifiche ai presenti ToS. Se non intendi accettare le modifiche, come unico rimedio potrai in qualsiasi momento, per qualsiasi motivo, senza alcun preavviso e senza alcun costo o onere, cessare l’utilizzo dell’app IO e dei Servizi IO, rimuovendo l’App IO dai dispositivi sui quali è stata installata.<br>
 Ricorda che i Termini Aggiuntivi sono applicati dagli Enti e da Terze Parti e portati a Tua conoscenza anche tramite l’App IO, ma non sono controllati da noi. Rispetto alla disponibilità e a qualsiasi variazione dei Termini Aggiuntivi, pertanto, Noi non saremo responsabili nei Tuoi confronti. Se hai dubbi o domande a questo riguardo, Ti chiediamo di rivolgerTi direttamente all’Ente o alla Terza Parte interessata.
 
@@ -634,7 +632,7 @@ L’Utente potrà, in qualsiasi momento, recedere dai presenti ToS per qualsiasi
 #### **10.** Foro competente e legge applicabile
 
 {:.d-more-2}
-I presenti ToS sono regolati dalla legge italiana. Ogni controversia che dovesse insorgere tra l’Utente e la Società in relazione ai presenti ToS e/o all’App IO sarà di competenza del giudice del luogo di residenza o domicilio dell’Utente, se qualificato come consumatore ai sensi del d.lgs. n. 206/2005. La Commissione Europea mette a disposizione dei consumatori la Piattaforma per la Risoluzione delle Controversie Online per risolvere le controversie in via stragiudiziale (Art. 14, par. 1 del Regolamento UE 524/2013). I consumatori possono effettuare un reclamo al seguente link: [ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr).<br>
+I presenti ToS sono regolati dalla legge italiana. Ogni controversia che dovesse insorgere tra l’Utente e la Società in relazione ai presenti ToS e/o all’App IO sarà di competenza del giudice del luogo di residenza o domicilio dell’Utente, se qualificato come consumatore ai sensi del d.lgs. n. 206/2005. La Commissione Europea mette a disposizione dei consumatori la Piattaforma per la Risoluzione delle Controversie Online per risolvere le controversie in via stragiudiziale (Art. 14, par. 1 del Regolamento UE 524/2013). I consumatori possono effettuare un reclamo al seguente link: <https://ec.europa.eu/consumers/odr>.<br>
 
 {:.d-more-2}
 Nelle ipotesi in cui l’Utente non sia qualificato quale consumatore ai sensi del d.lgs. n. 206/2005 le controversie relative ai presenti Tos e all’App IO saranno di competenza esclusiva del foro di Roma.
