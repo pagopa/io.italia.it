@@ -11,7 +11,7 @@ if ENV['PIPELINE_TYPE']=='BatchedCI' && ENV['JEKYLL_ENV']=='production'
     return "+++++++ ENTI LIST GEN DISABLED +++++++"
 end
 
-downloadUrl = "https://assets.cdn.io.italia.it/services-webview/visible-services-extended.json"
+downloadUrl = "https://iopstcdnassets.blob.core.windows.net/services/services-webview/test-visible-services-extended.json"
 begin
     file =  Down.download(downloadUrl, open_timeout: 15)
 rescue
