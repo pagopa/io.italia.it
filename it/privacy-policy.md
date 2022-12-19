@@ -10,23 +10,20 @@ redirect_from:
 narrow: true
 ---
 
-La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche gli “Utenti”) che consultano il sito [io.italia.it](https://io.italia.it/) (di seguito, anche il “Sito”). 
+_Versione: 2.0 - 13 dicembre 2022_
 
-L’informativa è resa ai sensi dell’art. 13 del regolamento (UE) 2016/679 (di seguito il “Regolamento”).
-La validità dell’informativa contenuta nella presente pagina è limitata al solo Sito e non si estende ad altri siti web eventualmente consultabili mediante collegamento ipertestuale.
-
-### Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
-Il DPO di PagoPA SpA può essere contattato ai seguenti recapiti:
-* mail: [dpo@pagopa.it](mailto:dpo@pagopa.it);
-* PEC: [dpo@pec.pagopa.it](mailto:dpo@pec.pagopa.it);
-* indirizzo: Via Sardegna n. 38 - 00187, ROMA (sede operativa della società)
+La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (**“Interessato/i”** o **“Utente/i”**) che consultano il sito io.italia.it (**“Sito”**).
+L’informativa è resa ai sensi degli 13 e 14 del regolamento (UE) 2016/679 (**“GDPR”**). La validità della presente informativa è limitata al solo Sito, si aggiunge alle altre informative eventualmente applicabili - quali ad esempio l’[informativa per i servizi di assistenza](https://www.pagopa.it/it/privacy-policy-assistenza/) e l’[informativa per la newsletter del progetto IO](https://io.italia.it/informativa-newsletter/) - e la sua validità non si estende ad altre risorse web eventualmente consultabili mediante link.
 
 ### Titolare del trattamento 
 
-Il Titolare del trattamento è la società PagoPA Spa, con sede in Roma, Piazza Colonna 370, CAP 00187 - n. di iscrizione a Registro Imprese di Roma, CF e P.IVA 15376371009, email [info@pagopa.it](mailto:info@pagopa.it).
+Il Titolare del trattamento è la società PagoPA S.p.A., con sede in Roma, Piazza Colonna 370, 00187 (**"Società"**)
 
-La società PagoPA Spa ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato al seguente indirizzo: [dpo@pagopa.it](mailto:dpo@pagopa.it).
-
+### Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
+La Società ha nominato un proprio Data Protection Officer (DPO)/Responsabile della Protezione dei Dati personali (RPD), ai sensi dell’art. 37 del GDPR, che può essere contattato attraverso l’apposito [form di contatto](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) o ai seguenti recapiti:
+* mail: [dpo@pagopa.it](mailto:dpo@pagopa.it);
+* PEC: [dpo@pec.pagopa.it](mailto:dpo@pec.pagopa.it);
+* indirizzo: Via Sardegna n. 38 - 00187, Roma (sede operativa della società)
 
 ### Categorie di dati trattati
 
@@ -41,17 +38,18 @@ Tali dati, necessari per la fruizione dei servizi web, vengono anche trattati al
 * controllare il corretto funzionamento dei servizi offerti.
 
 
-#### b) Dati forniti volontariamente dall’Utente
+#### b) Cookies e altri sistemi di tracciamento
 
-Il Titolare acquisirà i dati personali eventualmente forniti dall’Utente attraverso il Sito in caso di iscrizione al servizio di newsletter. Consulta [qui](/informativa-newsletter/) la nostra informativa privacy per gli iscritti alla newsletter IO.
-
-#### c) Cookies 
-
-I cookies sono piccoli file di testo che i siti visitati inviano al terminale dell’Utente, dove vengono memorizzati, per poi essere ritrasmessi agli stessi siti alla visita successiva.
+I cookies sono piccoli file di testo che i siti visitati inviano al terminale dell’Utente, dove vengono memorizzati, per poi essere ritrasmessi agli stessi siti alla visita successiva. I cookies possono essere di sessione, qualora siano conservati sul dispositivo solo per il periodo di attività del browser, o persistenti, qualora siano, invece, conservati per un periodo di tempo più lungo.
 
 Il Sito utilizza:
 
-* Cookies analytics utilizzati per raccogliere informazioni, in forma aggregata, sul numero degli Utenti e su come gli stessi visitano il Sito. Il Sito si avvale del servizio Google Analytics, la cui cookie policy può essere visionata a [questo link](https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage). Al fine di rispettare la privacy dei nostri Utenti, il servizio è utilizzato con la modalità “_anonymizeIp” che consente di mascherare gli indirizzi IP degli Utenti che navigano sul Sito internet: [maggiori informazioni sulla funzionalità](https://support.google.com/analytics/answer/2763052?hl=it). I dati sono raccolti all’unico fine di elaborare informazioni statistiche sull’uso del Sito e per verificare il corretto funzionamento dello stesso. I cookies non sono utilizzati per attività di profilazione dell’Utente. Tali cookies vengono utilizzati dal Sito unicamente se l’Utente clicca sul cookie banner e vengono conservati per un periodo non superiore a 6 mesi dal momento della raccolta, salvo che la loro ulteriore conservazione non si renda necessaria per l’accertamento di reati. L’Utente può scegliere di disabilitare i cookies intervenendo sulle impostazioni del proprio browser di navigazione secondo le istruzioni rese disponibili dai relativi fornitori ai link di seguito indicati.
+_Sistemi di tracciamento per la protezione da spam e abusi_<br>
+Per garantire la sicurezza dei sistemi preposti al funzionamento del Sito, il Sito utilizza sistemi di tracciamento di tipo CAPTCHA. Tali sistemi consentono ai gestori di pagine web di distinguere tra accesso umano e automatico (es. bot) ai siti web, proteggendoli da attività di spam e altre attività illecite.
+In particolare, il Sito utilizza il sistema reCAPTCHA offerto da Google, il quale funziona raccogliendo informazioni hardware e software, come i dati del dispositivo e dell'applicazione, e inviando questi dati a Google per l'analisi. Le informazioni raccolte in relazione all'uso di reCAPTCHA da parte degli Interessati sono altresì utilizzati per migliorare reCAPTCHA e per scopi di sicurezza generali. Queste informazioni non saranno mai utilizzate per la pubblicità personalizzata da Google. Per maggiori informazioni, è possibile consultare l’[informativa privacy](https://www.google.com/policies/privacy/) e i [termini e condizioni d’uso](https://www.google.com/policies/terms/) predisposti da Google.
+
+_Cookie analitici_<br> 
+Per raccogliere informazioni, in forma aggregata, sul numero degli Utenti e su come gli stessi visitano il Sito, il Sito utilizza cookie analitici. Il Sito si avvale del servizio Google Analytics, la cui documentazione privacy può essere visionata a [questo link](https://support.google.com/analytics/answer/6004245). Al fine di rispettare la privacy dei nostri Utenti, il servizio è utilizzato con la modalità “_anonymizeIp_” che consente di mascherare gli indirizzi IP degli Utenti che navigano sul Sito: [maggiori informazioni sulla funzionalità](https://support.google.com/analytics/answer/2763052?hl=it). I dati sono raccolti all’unico fine di elaborare informazioni statistiche sull’uso del Sito e per verificare il corretto funzionamento dello stesso. I cookie non sono utilizzati per attività di profilazione dell’Utente. Tali cookie vengono utilizzati dal Sito unicamente se l’Utente clicca sul cookie banner e vengono conservati per un periodo non superiore a 6 mesi dal momento della raccolta, salvo che la loro ulteriore conservazione non si renda necessaria  per il raggiungimento di ulteriori finalità prevalenti, in conformità alla normativa applicabile. L’Utente può scegliere di disabilitare i cookie intervenendo sulle impostazioni del proprio browser di navigazione secondo le istruzioni rese disponibili dai relativi fornitori ai link di seguito indicati.
 
     * [Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=it)
     * [Firefox](https://support.mozilla.org/it/kb/Attivare%20e%20disattivare%20i%20cookie)
@@ -60,23 +58,36 @@ Il Sito utilizza:
     * [Edge](https://support.microsoft.com/it-it/help/4027947/windows-delete-cookies)
     * [Opera](https://help.opera.com/en/latest/web-preferences/#cookies)
     
-* Un cookie per registrare il consenso dell’Utente all’utilizzo dei cookies analitici di cui sopra. 
+_Cookie tecnici_<br>
+Il Sito utilizza un cookie tecnico per registrare il consenso o il rifiuto dell’Utente rispetto alla memorizzazione dei cookie analitici di cui sopra. 
 
 ### Base giuridica del trattamento
 
-La base giuridica di tale trattamento è da rinvenirsi nei compiti istituzionali affidati alla PagoPA S.p.A., volti a favorire la conoscenza, lo sviluppo e la diffusione degli strumenti per l’attuazione dell’agenda digitale, nel caso specifico a fornire informazioni e aggiornamenti sul [progetto IO](https://io.italia.it/).
+La base giuridica del trattamento dei dati degli Utenti del Sito è da rinvenirsi nei compiti istituzionali affidati al Titolare, che includono quello di fornire informazioni e aggiornamenti sull’attività e sui progetti della Società, ai sensi dell’art. 6, comma 1, lett. e), del GDPR.
 
-La base giuridica del trattamento dei soli dati raccolti tramite cookies analitici è il consenso dell’Utente.
+La base giuridica del trattamento dei soli dati raccolti tramite cookies non tecnici è il consenso dell’Utente, ai sensi dell’art. 6, comma 1, lett. a), del GDPR.
 
+### Categorie di destinatari
 
-### Categorie di soggetti ai quali i dati personali possono essere comunicati e finalità della comunicazione
+La Società potrebbe comunicare alcuni dati personali a soggetti dei quali si avvale, in qualità di responsabili ai sensi dell’art. 28 del GDPR, per lo svolgimento di determinate attività di trattamento ovvero ad altri, cui la comunicazione sia necessaria per l’esecuzione di un compito di interesse pubblico o per adempiere a un obbligo di legge. L’elenco dei responsabili del trattamento può essere richiesto alla Società attraverso l’apposito [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8).
+I dati personali raccolti sono altresì trattati dal personale incaricato del trattamento, che agisce in base a specifiche istruzioni impartite dal Titolare.
+ 
+La lista dei fornitori coinvolti nel Progetto IO nominati Responsabili,  e copia della documentazione contrattuale relativa al trattamento dei dati personali, comprensiva delle garanzie per gli eventuali trasferimenti all’estero, è disponibile all’indirizzo [io.italia.it/app-content/fornitori](https://io.italia.it/app-content/fornitori).
 
-Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indicate, alcuni dati personali anche a soggetti terzi che forniscono un servizio al titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento. L’elenco dei responsabili del trattamento può essere richiesto al Titolare in qualsiasi momento, scrivendo a [dpo@pagopa.it](mailto:dpo@pagopa.it)
+### Trasferimento dati verso paesi terzi
+Alcuni dei fornitori che la Società utilizza per l’operatività dei suoi prodotti e servizi sono stabiliti al di fuori dello SEE, ciò che potrebbe comportare un trasferimento di dati all’estero, compresi gli USA. Tali fornitori, adeguatamente selezionati e nominati ai sensi dell’art. 28 GDPR, nel rispetto degli articoli 46, 47 e 49 del GDPR, sono conformi al GDPR e assicurano gli strumenti di trasferimento adeguati, compresa la conclusione  delle [Clausole Contrattuali Standard della Commissione Europea](https://commission.europa.eu/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_it) per garantire adeguati livelli di tutela, oltre a eventuali misure supplementari ove possibili e necessarie per rafforzare i livelli di tutela stessi.
+
+### Periodo di conservazione dei dati
+I dati personali relativi agli Utenti sono trattati per il tempo strettamente necessario al perseguimento delle finalità per le quali sono stati raccolti.  Nel rispetto dei principi di proporzionalità e necessità, i dati non sono conservati per periodi più lunghi rispetto a quelli indispensabili alla realizzazione delle finalità sopra indicate e dunque al diligente svolgimento delle attività. Maggiori informazioni sui tempi di conservazione possono essere richiesti tramite l’apposito [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8). 
+
 
 ### Diritti degli interessati
  
-Gli interessati hanno il diritto di ottenere, nei casi previsti, l’accesso ai propri dati personali e la rettifica o la cancellazione degli stessi o la limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. 15 e ss. del Regolamento). Tali richieste potranno essere indirizzate al Titolare, scrivendo a [dpo@pagopa.it](mailto:dpo@pagopa.it) 
+Gli Interessati, ai quali i dati personali si riferiscono, hanno il diritto di esercitare i diritti loro riconosciuti ai sensi degli artt. da 15 a 21 del GDPR, laddove applicabili.
+Le richieste dovranno essere inoltrate alla Società. Gli Interessati possono, altresì, contattare il Responsabile della Protezione dei Dati per tutte le questioni inerenti il trattamento dei propri dati personali e l’esercizio dei propri diritti, utilizzando l’apposito [form](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8).
  
-### Diritti di reclamo 
- 
-Gli interessati che ritengono che il trattamento dei dati personali a loro riferiti effettuato attraverso questo sito avvenga in violazione di quanto previsto dal Regolamento hanno il diritto di proporre reclamo al Garante, come previsto dall’art. 77 del Regolamento stesso, o di adire le opportune sedi giudiziarie (art. 79 del Regolamento).
+E’, inoltre, diritto degli Interessati proporre reclamo al Garante per la protezione dei dati personali.
+
+### Modifiche
+Il Titolare si riserva il diritto di apportare alla presente informativa, in qualunque momento, tutte le modifiche ritenute opportune o rese obbligatorie dalle norme di volta in volta vigenti, dandone adeguata pubblicità agli Utenti.
+Si invita, dunque, l’Utente a consultare spesso questa pagina, prendendo a riferimento la data di ultima modifica indicata all'inizio di questa informativa.
