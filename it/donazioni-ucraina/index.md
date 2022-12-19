@@ -20,7 +20,7 @@ intro_ter_customclass: "btn btn-sm btn-download btn-download--w-icon android tex
 intro_ter_onclick: "ga('send', 'event', 'link', 'click', 'Download App: Android', 1)"
 disable_br: true
 bannersup:
-  label: Il servizio non è più attivo. Se vuoi puoi donare a una delle organizzazioni umanitarie che avevano aderito all’iniziativa.
+  label: Il servizio non è più attivo. Se vuoi puoi donare a una delle <a title="Leggi il Comunicato" href="/2022/12/23/conclusa-iniziativa-donazioni-ucraina.html">organizzazioni umanitarie che avevano aderito all’iniziativa</a>.
 ---
 
 {% include donazioni-ucraina-page.html %}
