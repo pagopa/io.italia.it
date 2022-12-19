@@ -9,9 +9,6 @@ intro_image:
 intro_primary_text:
 intro_primary_link:
 noheight: true
-redirect_to: https://io.italia.it
 ---
 
-{% comment %}
 {% include faq.html source='faq-donazioni-ucraina' %}
-{% endcomment %}

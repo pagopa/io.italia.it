@@ -19,9 +19,8 @@ intro_ter_link: "https://play.google.com/store/apps/details?id=it.pagopa.io.app"
 intro_ter_customclass: "btn btn-sm btn-download btn-download--w-icon android text-uppercase px-3 px-md-5 "
 intro_ter_onclick: "ga('send', 'event', 'link', 'click', 'Download App: Android', 1)"
 disable_br: true
-redirect_to: https://io.italia.it
+bannersup:
+  label: Il servizio non è più attivo. Se vuoi puoi donare a una delle organizzazioni umanitarie che avevano aderito all’iniziativa.
 ---
 
-{% comment %}
 {% include donazioni-ucraina-page.html %}
-{% % endcomment %}
