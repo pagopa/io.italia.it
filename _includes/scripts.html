@@ -3,7 +3,7 @@
 <script src="{{ '/assets/js/fonts.js' }}"></script>
 
 {% comment %} jQuery 3.3.1 - Copyright © JS Foundation and other contributors,
-https://js.foundation/ - MIT license @link https://github.com/jquery/jquery/
+https://js.foundation/ - MIT license @link https://github.com/jquery/jquery/ 
 {% endcomment %}
 <script src="{{ '/assets/js/vendor/jquery.min.js' }}"></script>
 
@@ -14,7 +14,7 @@ contributors - MIT license @link https://github.com/FezVrasta/popper.js
 
 <script src="{{ '/assets/js/vendor/bootstrap-italia.min.js?' | append: buildTime | relative_url }}"></script>
 
-{%if page.layout == 'home' %}
+{%if page.layout == 'home' %} 
 <script src="{{ '/assets/js/home.js' }}"></script>
 {% comment %} Parallax 3.1.0 - Copyright © 2014
 Matthew Wagerfield - @wagerfield - MIT license @link
@@ -38,7 +38,7 @@ http://scrollmagic.io/docs/debug.addIndicators.html#Scene.addIndicators
   async
   src="{{ '/assets/js/vendor/debug.addIndicators.min.js' }}"
 ></script>
-{% endcomment %}
+{% endcomment %} 
 {% else %}
 {% comment %} BaguetteBox 1.10.0 - Copyright © 2018
 feimosi - MIT license @link https://github.com/feimosi/baguetteBox.js {%
@@ -73,7 +73,7 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
   <script src="{{ site.baseUrl }}/assets/js/dashboard.js"></script>
 {% endif %}
 
-{% if page.ref == 'dashboard' %}
+{% if page.ref contains 'dashboard' %}
   <script src="{{ site.baseUrl }}/assets/js/dashboard/app/app.js" defer></script>
   <script src="{{ site.baseUrl }}/assets/js/dashboard/app/vendor.js" defer></script>
 {% endif %}
