@@ -94,10 +94,10 @@ def renderEntiList(file, site)
         complete_hash = item.merge(item_new_values)
         # Unfortunately there are some Enti that has the same name, but different fiscal code
         # so we fix this merging them by org name
-        if new_content["items"].key?(item["o"])
-            new_values = complete_hash["s"] | new_content["items"][item["o"]]["s"]
-            complete_hash["s"] = new_values
-        end
+        #if new_content["items"].key?(item["o"])
+        #    new_values = complete_hash["s"] | new_content["items"][item["o"]]["s"]
+        #    complete_hash["s"] = new_values
+        #end
         # creation of a new item in the new_content hash with the org name as key
         new_content["items"][item["o"]] = complete_hash
 
