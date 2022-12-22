@@ -73,7 +73,8 @@ items:
     luogo: "- Paesi Bassi\n\n 
     - USA (solo in caso di richiesta di supporto tecnico da parte di PagoPA S.p.A. od operazioni di manutenzione da parte del fornitore)"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-    - clausole contrattuali standard della Commissione Europea\n\n"
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/REDACTED_Mixpanel_DPA_2022.pdf)"
   - 
     fornitore: "Instabug, Inc. (**dismesso**)"
