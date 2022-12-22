@@ -74,8 +74,8 @@ items:
     - USA (solo in caso di richiesta di supporto tecnico da parte di PagoPA S.p.A. od operazioni di manutenzione da parte del fornitore)"
     garanzie: "- opzione di residenza dei dati in UE\n\n
     - clausole contrattuali standard della Commissione Europea\n\n
-    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n"
-    doc: "[DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O05.+Mixpanel_DPA_EU+Residency.pdf) [Amendment 1 al DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__O06.+Mixpanel_Amendment+No.+1+to+DPA.pdf) [Amendment 2 al DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981029270O__OMixpanel_DPA_Amendment2.pdf)"
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n"
+    doc: "[DPA](https://io.italia.it/assets/download/it/legal/REDACTED_Mixpanel_DPA_2022.pdf)"
   - 
     fornitore: "Instabug, Inc. (**dismesso**)"
     attivita: "Soluzione tecnica per l'invio di segnalazioni e la gestione dell'assistenza clienti"
