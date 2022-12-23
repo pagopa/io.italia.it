@@ -9,6 +9,7 @@ intro_image:
 intro_primary_text:
 intro_primary_link:
 noheight: true
+noindex: true
 ---
 
 {% include faq.html source='faq-donazioni-ucraina' %}

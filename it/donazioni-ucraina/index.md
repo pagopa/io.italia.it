@@ -1,5 +1,6 @@
 ---
 layout: internal-w-slides
+noindex: true
 title: "Emergenza Ucraina: sostieni le vittime civili della crisi umanitaria"
 image: "/assets/img/donazioni-ucraina/social-card-donation.png"
 pre-title: Dona con Io
