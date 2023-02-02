@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: 4.2
-updated: 6 dicembre 2022
+vers: 4.3
+updated: 6 febbraio 2023
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,6 +26,7 @@ redirect_from:
 
 {:.d-startup}
 
+- Abbiamo aggiornato le sezioni che riguardano i trattamenti relativi all’integrazione con la piattaforma pagoPA e all’assistenza;
 - Abbiamo corretto alcuni refusi, migliorato il linguaggio e chiarito alcuni articoli per agevolarne la lettura.
 
 {:.d-startup}
@@ -104,7 +105,10 @@ Dalla sezione Portafoglio di IO puoi salvare e gestire in sicurezza i metodi di 
 {:.d-more-1}
 Quando registri un metodo di pagamento, è previsto il trattamento dei dati identificativi del titolare e gli estremi identificativi del metodo stesso. Questo trattamento viene effettuato da PagoPA in qualità di titolare del trattamento. Per registrare alcuni metodi di pagamento, i relativi dati sono raccolti presso terze parti e trattati anche da tali terze parti (ad esempio, fornitori di servizi bancari), e di tali trattamenti verrai informato al momento della tua richiesta di registrazione del metodo.<br>
 Grazie all’integrazione di IO con la piattaforma pagoPA, puoi effettuare pagamenti verso la Pubblica Amministrazione e, se già utilizzi pagoPA, ritroverai automaticamente nell'app i metodi di pagamento registrati e le transazioni effettuate (la ricongiunzione delle utenze avviene tramite il tuo codice fiscale). Se invece non hai mai utilizzato pagoPA in precedenza, nel momento in cui registri un metodo di pagamento su IO e/o effettui un pagamento, verrà creato un tuo profilo pagoPA.<br>
-Per ogni pagamento effettuato, la Piattaforma pagoPA trasmette le seguenti informazioni per consentirti di visualizzare il relativo riepilogo: identificativo univoco versamento (IUV), nome dell’Ente beneficiario, importo, commissioni, causale (come determinata dall’Ente), data e ora dell’operazione, gestore della transazione (es. la banca che ha emesso la carta con cui hai effettuato il pagamento) e il codice identificativo della transazione, che potrai copiare e utilizzare per ricevere assistenza sulla singola transazione. La piattaforma pagoPA tratta inoltre le informazioni dell'Ente che ha richiesto il pagamento e i tuoi dati identificativi tramite cui hai effettuato i pagamenti (codice fiscale e email).<br>
+Per ogni pagamento effettuato, vengono trattate le seguenti informazioni: 
+- dati relativi alla transazione: identificativo univoco versamento (IUV), nome dell’Ente beneficiario, importo, commissioni, causale (come determinata dall’Ente), data e ora dell’operazione, gestore della transazione (es. la banca che ha emesso la carta con cui hai effettuato il pagamento) e il codice identificativo della transazione, che potrai copiare e utilizzare per ricevere assistenza sulla singola transazione; 
+- dati identificativi del soggetto pagatore: codice fiscale e email;
+- dati identificativi del metodo di pagamento: in particolare, numero (cifrato), scadenza, circuito.<br>
 Hai, inoltre, anche la possibilità di pagare un avviso che non hai ricevuto nei Messaggi (es. un avviso cartaceo), scansionando tramite l’app IO il QR code presente nell’avviso stesso. In tal caso, IO acquisisce i dati relativi al QR code e li trasmette alla Piattaforma pagoPA per il relativo pagamento. L’utilizzo della funzionalità di lettura del QR code richiede i permessi di accesso alla fotocamera (per catturare l’immagine del QR code) e/o alla memoria (per recuperare l’immagine di un QR code archiviato) del tuo dispositivo e potrebbe comportare la condivisione di informazioni con terzi, compreso il fornitore dell’app che utilizzi per la fotocamera e l’archiviazione, secondo i termini e condizioni previsti da tale fornitore terza parte. Tale accesso è disattivato di default, quindi nessun dato potrà essere raccolto e inviato in mancanza di tua espressa autorizzazione. Puoi modificare i permessi dell’app in ogni momento dalle impostazioni del tuo dispositivo.
 
 {:.d-more-1}
@@ -149,7 +153,11 @@ Per garantire il corretto funzionamento di IO e dei suoi sistemi, vengono svolte
 **_f) Dati trattati per le attività di assistenza_**
 
 {:.d-more-1}
-Quando richiedi assistenza attraverso le apposite funzionalità in app, verranno raccolti automaticamente, tramite l’integrazione con i sistemi di fornitori terzi nominati responsabili del trattamento, alcuni dati relativi al tuo dispositivo, compresi alcuni dati personali necessari per consentire la trasmissione della segnalazione al team di assistenza (ad esempio, l’indirizzo IP) e per risolvere la tua segnalazione (ad esempio, i dati identificativi di un pagamento per cui stai richiedendo assistenza). Se utilizzi queste funzionalità, non puoi escludere la raccolta automatica di tali dati, ma puoi comunque utilizzare altri canali di assistenza (ad esempio email) che non la prevedono. Tieni presente che i nostri operatori potrebbero comunque avere bisogno di chiederti tali dati per risolvere il problema.<br>
+Quando richiedi supporto attraverso le apposite funzionalità in app, potrebbero essere raccolti automaticamente, e trasmessi previo tuo consenso ai nostri servizi di assistenza, i dati necessari per indirizzare la segnalazione, in particolare appartenenti alle seguenti categorie:
+- dati identificativi comuni: ad esempio, nome e cognome, codice fiscale, indirizzo email, identity provider;
+- dati relativi al tuo dispositivo e all’uso / navigazione in app, compresi alcuni dati personali necessari per consentire la trasmissione della segnalazione al team di assistenza (ad esempio, l’indirizzo IP e la posizione derivata);
+- dati necessari per risolvere la tua segnalazione: ad esempio, i dati identificativi di una transazione e/o di un metodo di pagamento per cui stai richiedendo assistenza.<br>
+Questi dati non vengono mai trasmessi senza il tuo consenso, e se utilizzi le funzionalità di assistenza in app, puoi escludere la raccolta automatica di tali dati, utilizzando altri canali di assistenza (ad esempio email). Tieni presente che i nostri operatori potrebbero comunque avere bisogno di chiederti tali dati per risolvere il problema.<br>
 I servizi di terze parti che utilizziamo per fornirti assistenza potrebbero inoltre raccogliere immagini e video pertinenti alla tua segnalazione, direttamente dall’app o su tua richiesta, e in tal caso è richiesta una tua conferma prima dell’invio nonché, ove desideri allegare tali file, il permesso di accesso in lettura alla memoria di archiviazione del tuo dispositivo per consentire la trasmissione degli allegati.<br>
 Quando richiedi assistenza tramite le funzionalità in app o tramite gli altri canali messi a disposizione, verranno trattati anche i dati che volontariamente ci comunicherai nel testo della tua richiesta o che vorrai allegare (ad esempio, le immagini o i video pertinenti alla segnalazione). Per quanto possibile, **ti invitiamo a non inserire dati sensibili nelle tue segnalazioni!**.<br>
 Per maggiori informazioni sul trattamento dei dati tramite i nostri canali di assistenza, consulta l’[informativa specifica](https://www.pagopa.it/it/privacy-policy-assistenza/).
@@ -185,7 +193,7 @@ In qualità di titolare, PagoPA tratta i seguenti dati, aggregati in modo che no
 
 {:.d-more-1}
 
-- informazioni sulla distribuzione, adozione, utilizzo e navigazione all’interno dell’app e delle sue funzionalità da parte degli utenti (compresa la fase di autenticazione e i servizi della piattaforma pagoPA);
+- informazioni sulla distribuzione, adozione, utilizzo e navigazione all’interno dell’app e delle sue funzionalità da parte degli utenti (compresa la fase di autenticazione, le versioni dell'app installate e i servizi della piattaforma pagoPA);
 - informazioni sul dispositivo (ad esempio dettagli sul sistema operativo, dettagli sul modello del dispositivo);
 - altre informazioni sulla distribuzione e funzionamento dell’app trasmessi dai gestori degli app store (es. download, utenti unici, eventi di crash e anomalie, utenti nuovi, distribuzione geografica, ecc.).
 
@@ -199,7 +207,7 @@ Alcuni dei dati di cui sopra sono pubblicati e aggiornati periodicamente nelle [
 #### 2. Trattamenti svolti da PagoPA S.p.A. in qualità di responsabile del trattamento per conto degli Enti: finalità e base giuridica
 
 {:.d-more-1}
-PagoPA S.p.A., cui è affidato, ai sensi dell’art. 8, commi 2 e 3 del D. Lgs. n.135/2018, il ruolo di gestire e mantenere la piattaforma IO prevista all’art. 64-bis del CAD, agisce in qualità di responsabile del trattamento con riferimento ai trattamenti relativi ai Servizi degli Enti (es. Messaggi degli Enti o verifica dei presupposti e erogazione di Bonus), e tratterà i tuoi dati in conformità alle istruzioni impartite dagli Enti stessi in qualità di titolari del trattamento.<br>
+PagoPA S.p.A., cui è affidato, ai sensi dell’art. 8, commi 2 e 3 del D. Lgs. n.135/2018, il ruolo di gestire e mantenere la piattaforma IO prevista all’art. 64-bis del CAD, agisce in qualità di responsabile del trattamento con riferimento ai trattamenti relativi ai Servizi degli Enti (es. Messaggi degli Enti o verifica dei presupposti ed erogazione di Bonus), e tratterà i tuoi dati in conformità alle istruzioni impartite dagli Enti stessi in qualità di titolari del trattamento.<br>
 Nella sezione “Servizi” sono messe a tua disposizione le informative sul trattamento dei dati personali degli Enti.<br>
 Tutti i dati personali oggetto di trattamento, inclusi eventuali particolari categorie di dati (es. dati relativi allo stato di salute), potranno essere oggetto di trattamento da parte degli Enti per le finalità e sulla base giuridica corrispondente allo specifico servizio erogato, per le quali si rinvia alle informative messe a disposizione dai singoli Enti (prevalentemente, Art. 6, comma 1, lett. e) e Art. 9, comma 1, lett. g) del GDPR).<br>
 Alcuni Enti aderiscono a IO in qualità di aggregatori di altri enti, e in tal caso agiscono come responsabili del trattamento, mentre PagoPA S.p.A. agirà come sub-responsabile del trattamento.
@@ -259,7 +267,7 @@ Sono conservati per i 3 anni successivi all'eventuale richiesta di cancellazione
 
 - i dati necessari per l’identificazione e l’autenticazione in app;
 - le preferenze collegate all’account;
-- i dati relativi alle comunicazioni provenienti dai Servizi, ad eccezione dei metadati e stati dei Messaggi di cui è stato tentato l’invio e non recapitati poiché indirizzati a persone che non hanno un profilo su IO, che vengono conservati per i 3 anni successivi al tentativo di invio. Tali dati vengono conservati per finalità proprie di PagoPA, tra cui il monitoraggio delle risorse tecniche e la prevenzione di abusi. Il contenuto delle comunicazioni, ove indirizzate a soggetti non presenti su IO o a utenti IO che hanno disabilitato le comunicazioni per quel Servizio, non vengono mai conservati.. Ti ricordiamo che puoi scaricare copia dei tuoi Messaggi in ogni momento in app, dal menu Profilo > Privacy e Condizioni d’uso > Accedi ai tuoi dati.
+- i dati relativi alle comunicazioni provenienti dai Servizi, ad eccezione dei metadati e stati delle comunicazioni di cui è stato tentato l’invio e non recapitate poiché indirizzate a persone che non hanno un profilo su IO, che vengono conservati per i 3 anni successivi al tentativo di invio. Tali dati vengono conservati per finalità proprie di PagoPA, tra cui il monitoraggio delle risorse tecniche e la prevenzione di abusi. Il contenuto delle comunicazioni, ove indirizzate a soggetti non presenti su IO o a utenti IO che hanno disabilitato le comunicazioni per quel Servizio, non vengono mai conservati.. Ti ricordiamo che puoi scaricare copia dei tuoi Messaggi in ogni momento in app, dal menu Profilo > Privacy e Condizioni d’uso > Accedi ai tuoi dati.
 
 {:.d-more-1}
 I dati trattati in ragione delle attività di assistenza vengono generalmente conservati per i 12 mesi successivi alla risoluzione del problema (corrispondente alla chiusura del relativo ticket). Fanno eccezione (i) i dati contenuti nelle richieste di esercizio dei diritti in materia di protezione dei dati personali, e (ii) i dati contenuti in richieste di assistenza di secondo e terzo livello, che possono essere conservati fino a 10 anni dalla risoluzione della problematica per finalità di audit interno ed esterno, compresa la possibilità di dare prova agli utenti della gestione delle loro richieste.
@@ -397,7 +405,7 @@ In generale, ricorda sempre che:
 
 {:.d-more-2}
 
-- l’app IO è in continua evoluzione e soggetta a continui aggiornamenti e miglioramenti, anche grazie alle tue segnalazioni e ai tuoi suggerimenti.
+- l’App IO è in continua evoluzione e soggetta a continui aggiornamenti e miglioramenti, anche grazie alle tue segnalazioni e ai tuoi suggerimenti.
 - tramite l’app, potrai usufruire dei servizi resi dagli Enti che hanno aderito a IO o da altre terze parti: a questi servizi si applicano i relativi termini e condizioni aggiuntivi, che ti vengono a disposizione per ciascun servizio.
 
 {:.d-more-2}
@@ -405,7 +413,7 @@ In generale, ricorda sempre che:
 #### **1.** Definizioni dei termini utilizzati
 
 {:.d-more-2}
-**_Account_**: l’insieme dei dati identificativi dell’Utente, che gli consentono l'accesso all’app IO.<br>
+**_Account_**: l’insieme dei dati identificativi dell’Utente, che gli consentono l'accesso all’App IO.<br>
 **_App IO_** o **_App_** o **_IO_**: l’applicazione per dispositivi mobili scaricabile da un cittadino (una persona fisica) per l’accesso ai servizi della pubblica amministrazione tramite la Piattaforma IO.<br>
 **_CAD_**: decreto legislativo 7 marzo 2005, n. 82 recante Codice dell’Amministrazione Digitale.<br>
 **_Ente_**: le pubbliche amministrazioni, le società a controllo pubblico e i gestori di pubblici servizi che hanno aderito alla Piattaforma IO per la fornitura dei loro Servizi al Cittadino.<br>
@@ -419,7 +427,7 @@ In generale, ricorda sempre che:
 **_ToS_**: i presenti termini e condizioni d’uso.<br>
 **_Termini Aggiuntivi_**: i termini e le condizioni aggiuntive rispetto ai presenti ToS, incluse le informazioni sul trattamento dei dati personali, che si applicano a specifiche Funzionalità di IO o ai singoli servizi offerti dagli Enti o dalle Terze Parti tramite l’App IO.<br>
 **_Terze Parti_**: soggetti diversi da PagoPA S.p.A. e dagli Enti, che potrebbero offrire i propri servizi attraverso IO e/o al di fuori di IO in connessione con i Servizi dell’Ente, comprese altre Autorità competenti diverse dagli Enti.<br>
-**_Utente o Tu_**: una persona fisica che abbia scaricato l’app IO.
+**_Utente o Tu_**: una persona fisica che abbia scaricato l’App IO.
 
 {:.d-more-2}
 
@@ -432,7 +440,7 @@ IO Ti permette di accedere ai Servizi erogati dagli Enti. IO rappresenta un cana
 _a) Autenticazione, accesso e sicurezza_
 
 {:.d-more-2}
-Per accedere a IO devi essere in possesso di uno strumento valido per l’autenticazione della Tua Identità Digitale riconosciuto dalla normativa vigente e rilasciato da un soggetto abilitato. Gli strumenti per l’autenticazione di un’Identità Digitale (es. SPID, CIE) non possono essere attivati tramite l’app IO, ma devono essere da Te richiesti e ottenuti, ricorrendone i requisiti, tramite i soggetti abilitati.<br>
+Per accedere a IO devi essere in possesso di uno strumento valido per l’autenticazione della Tua Identità Digitale riconosciuto dalla normativa vigente e rilasciato da un soggetto abilitato. Gli strumenti per l’autenticazione di un’Identità Digitale (es. SPID, CIE) non possono essere attivati tramite l’App IO, ma devono essere da Te richiesti e ottenuti, ricorrendone i requisiti, tramite i soggetti abilitati.<br>
 Per accedere a IO, dopo la prima autenticazione con le Tue credenziali, Ti verrà chiesto di impostare un codice di sblocco e, se il Tuo dispositivo lo consente, di usare la funzione di riconoscimento biometrico. Ricorda che Sei l’unico responsabile della sicurezza del Tuo Account e del Tuo dispositivo, e per questo è importante che le informazioni relative al Tuo Account (comprese le credenziali di accesso) non vengano condivise con altre persone.
 
 {:.d-more-2}
@@ -470,7 +478,7 @@ _e) Costi_
 
 {:.d-more-2}
 L’utilizzo dell’App IO è gratuito e non addebitiamo all’Utente alcun onere per il suo utilizzo.<br>
-Tuttavia, quando effettui un pagamento tramite l’app IO (cioè tramite la Piattaforma pagoPA integrata con IO), potrebbero essere applicati dei costi da parte del prestatore di servizi di pagamento (“**PSP**”) che hai scelto per effettuare la transazione. Prima di effettuare qualsiasi pagamento potrai sempre vedere la commissione che ciascun PSP ti chiede di pagare.<br>
+Tuttavia, quando effettui un pagamento tramite l’App IO (cioè tramite la Piattaforma pagoPA integrata con IO), potrebbero essere applicati dei costi da parte del prestatore di servizi di pagamento (“**PSP**”) che hai scelto per effettuare la transazione. Prima di effettuare qualsiasi pagamento potrai sempre vedere la commissione che ciascun PSP ti chiede di pagare.<br>
 Per utilizzare alcune Funzionalità dell’App IO è necessaria una connessione dati. Possono essere applicati costi aggiuntivi in funzione del piano dati del Tuo operatore, nonché di ulteriori costi (comprese le eventuali imposte applicabili) associati all’utilizzo della connessione dati.
 
 {:.d-more-2}
@@ -487,7 +495,7 @@ _a) Messaggi da parte degli Enti_
 L’App IO, attraverso la Funzionalità “**Messaggi**”, ti permette di ricevere comunicazioni, notifiche e avvisi di pagamento da parte degli Enti in relazione ai singoli Servizi al Cittadino. Riceverai solo Messaggi indirizzati espressamente a Te e solo per quei Servizi che avrai attivato.<br>
 A seconda del Servizio, questa Funzionalità potrebbe permettere la visualizzazione, la conservazione e la condivisione di diverse categorie di dati personali, inclusi quelli relativi allo stato del messaggio o del pagamento, al Tuo stato di salute, alla Tua posizione reddituale o alla Tua appartenenza a fasce o categorie sociali. Per informazioni sul trattamento dei Tuoi dati, consulta la nostra Informativa Privacy e i Termini Aggiuntivi del Servizio.<br>
 Ad eccezione dei Messaggi provenienti da “IO - l’app dei servizi pubblici”, con riferimento ai Messaggi inviati dagli Enti, Noi non verifichiamo né siamo responsabili del contenuto, della tempistica o dell’accuratezza dei Messaggi stessi. Pertanto, se hai dubbi o domande a questo riguardo, Ti preghiamo di rivolgerTi direttamente all’Ente interessato tramite i canali di contatto che trovi in ciascuna scheda Servizio.<br>
-Tieni presente che i Messaggi che puoi ricevere tramite l’App IO non sostituiscono e non esauriscono i mezzi e le modalità di comunicazione a disposizione degli Enti per comunicare con Te. Restano salvi, pertanto, il contenuto e gli effetti delle altre comunicazioni che Ti saranno eventualmente inviate dagli Enti tramite altri canali, sia digitali che tradizionali. Al momento, i Messaggi ricevuti tramite l’app IO **non** hanno efficacia di notifica ai sensi di legge.
+Tieni presente che i Messaggi che puoi ricevere tramite l’App IO non sostituiscono e non esauriscono i mezzi e le modalità di comunicazione a disposizione degli Enti per comunicare con Te. Restano salvi, pertanto, il contenuto e gli effetti delle altre comunicazioni che Ti saranno eventualmente inviate dagli Enti tramite altri canali, sia digitali che tradizionali. Al momento, i Messaggi ricevuti tramite l’App IO **non** hanno efficacia di notifica ai sensi di legge.
 
 {:.d-more-2}
 _b) Calendario e promemoria_
@@ -523,8 +531,8 @@ _e) Assistenza tecnica all'Utente e debug_
 
 {:.d-more-2}
 Facciamo del nostro meglio per assicurarTi un’esperienza adatta alle Tue esigenze.<br>
-Se hai bisogno di assistenza tecnica sull’app IO, clicca sull’icona in alto a destra con il punto interrogativo (“?”) per accedere all’help contestuale, dove potrai avere informazioni sull’app o su una Funzionalità e su come contattarci per ricevere assistenza o segnalare un bug.<br>
-Tieni presente che al fine di migliorare le Funzionalità di IO e per aiutare gli Enti che erogano i Servizi al Cittadino tramite l’app IO a migliorare i loro servizi, potremmo raccogliere determinate informazioni, anche fuori dai casi di segnalazione dei bug, incluse le informazioni relative alle modalità di utilizzo diIO da parte degli Utenti e quelle relative ai dispositivi dell’Utente su cui l’appè installata.<br>
+Se hai bisogno di assistenza tecnica sull’App IO, clicca sull’icona in alto a destra con il punto interrogativo (“?”) per accedere all’help contestuale, dove potrai avere informazioni sull’app o su una Funzionalità e su come contattarci per ricevere assistenza o segnalare un bug.<br>
+Tieni presente che al fine di migliorare le Funzionalità di IO e per aiutare gli Enti che erogano i Servizi al Cittadino tramite l’App IO a migliorare i loro servizi, potremmo raccogliere determinate informazioni, anche fuori dai casi di segnalazione dei bug, incluse le informazioni relative alle modalità di utilizzo di IO da parte degli Utenti e quelle relative ai dispositivi dell’Utente su cui l’app è installata.<br>
 Per maggiori informazioni sul trattamento dei dati per finalità di debug e assistenza, consulta l’informativa privacy dell’App IO, sempre disponibile in app e all’indirizzo [io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html).
 
 {:.d-more-2}
@@ -533,7 +541,7 @@ Per maggiori informazioni sul trattamento dei dati per finalità di debug e assi
 
 {:.d-more-2}
 IO ti permette di usufruire dei Servizi al Cittadino erogati dagli Enti aderenti alla Piattaforma IO.<br>
-Mentre le Funzionalità di IO e, in parte, la Piattaforma pagoPA sono gestite direttamente da Noi, i Servizi al Cittadino sono gestiti dagli Enti, e come tali la loro disponibilità, il loro contenuto e la loro funzionalità non dipendono da Noi, bensì dall’Ente, che ne ha piena responsabilità. Ai Servizi al Cittadino si applicano i Termini Aggiuntivi che ciascun Ente deve metterti sempre a disposizione anche tramite l’app IO, ad esempio nella relativa scheda di ciascun Servizio e/o nei relativi Messaggi. È importante leggere attentamente i Termini Aggiuntivi dell'Ente prima di utilizzare il Servizio.<br>
+Mentre le Funzionalità di IO e, in parte, la Piattaforma pagoPA sono gestite direttamente da Noi, i Servizi al Cittadino sono gestiti dagli Enti, e come tali la loro disponibilità, il loro contenuto e la loro funzionalità non dipendono da Noi, bensì dall’Ente, che ne ha piena responsabilità. Ai Servizi al Cittadino si applicano i Termini Aggiuntivi che ciascun Ente deve metterti sempre a disposizione anche tramite l’App IO, ad esempio nella relativa scheda di ciascun Servizio e/o nei relativi Messaggi. È importante leggere attentamente i Termini Aggiuntivi dell'Ente prima di utilizzare il Servizio.<br>
 Inoltre, nell’utilizzare l’app o i Servizi al Cittadino potresti accedere a servizi di Terze Parti: è ad esempio il caso di piattaforme abilitanti gestite dalla pubblica amministrazione, dei servizi di identificazione resi dal tuo fornitore di Identità Digitale, oppure dei servizi di pagamento forniti dai PSP. A questi servizi di Terze Parti si applicano i Termini Aggiuntivi stabiliti dalla Terza Parte per ciascuno dei suoi servizi.<br>
 Faremo del nostro meglio affinché l’app sia sempre disegnata secondo principi di trasparenza e dando la possibilità agli Enti e alle Terze Parti di segnalarti quando si applicano Termini Aggiuntivi e di fornirTi un link agli stessi in app.<br>
 Per la fruizione di alcuni Servizi o Funzionalità di IO, potrebbe essere necessario il possesso di ulteriori requisiti, e ti potrà anche essere chiesto di fornire un’autodichiarazione ai sensi di legge.<br>
@@ -567,7 +575,7 @@ L’Utente si impegna, in particolare, a non utilizzare, direttamente o indirett
 _b) Sicurezza dell’Account e dei dispositivi_
 
 {:.d-more-2}
-La sicurezza del Tuo Account è importante, e per questo non devi condividere con nessuno i dati ad esso relativi, comprese le password, il codice di sblocco per accedere all’app IO, le informazioni relative ai Tuoi metodi di pagamento o i codici univoci personali (ad esempio relativi a Bonus che hai richiesto). Ricorda che Tu sei l’unico responsabile della sicurezza dei Tuoi dispositivi e del Tuo Account, e Sei tenuto a comunicarci tempestivamente eventuali utilizzi e/o accessi non autorizzati o violazioni della sicurezza relativi al Tuo Account o alle Funzionalità di IO, scrivendo a <dpo@pagopa.it> o compilando il [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8). Se la violazione riguarda i Tuoi metodi di pagamento, Ti suggeriamo di contattare immediatamente il PSP interessato (ad es. la Tua banca).<br>
+La sicurezza del Tuo Account è importante, e per questo non devi condividere con nessuno i dati ad esso relativi, comprese le password, il codice di sblocco per accedere all’App IO, le informazioni relative ai Tuoi metodi di pagamento o i codici univoci personali (ad esempio relativi a Bonus che hai richiesto). Ricorda che Tu sei l’unico responsabile della sicurezza dei Tuoi dispositivi e del Tuo Account, e Sei tenuto a comunicarci tempestivamente eventuali utilizzi e/o accessi non autorizzati o violazioni della sicurezza relativi al Tuo Account o alle Funzionalità di IO, scrivendo a <dpo@pagopa.it> o compilando il [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8). Se la violazione riguarda i Tuoi metodi di pagamento, Ti suggeriamo di contattare immediatamente il PSP interessato (ad es. la Tua banca).<br>
 Utilizzando l’App IO, accetti che PagoPA non è in alcun modo responsabile in caso di perdita o condivisione dell’accesso al Tuo dispositivo.<br>
 Inoltre, Ti sconsigliamo vivamente di sottoporre il Tuo dispositivo a procedure di jailbreak, di abilitare permessi di root, di installare e/o eseguire software di modifica del sistema operativo e in generale di rimuovere le restrizioni software imposte dal sistema operativo stesso. In caso contrario, infatti, potresti rendere il Tuo dispositivo vulnerabile a malware, virus e altri codici dannosi e comprometterne i meccanismi di sicurezza. Inoltre l'App IO potrebbe non funzionare correttamente. Utilizzando IO, accetti che PagoPA non è in alcun modo responsabile della sicurezza, confidenzialità e integrità delle operazioni effettuate tramite l'App, incluse quelle di pagamento.<br>
 
@@ -599,7 +607,7 @@ La Società agisce come fornitore di servizi per conto degli Enti e non fornisce
 
 {:.d-more-2}
 IO può contenere collegamenti a sistemi (compresi siti web e app) di terzi. I sistemi collegati non sono controllati da Noi, e non siamo responsabili dei loro contenuti, del loro funzionamento o della loro disponibilità.<br>
-Rilasciamo alcune Funzionalità, in tutto o in parte, in via sperimentale e ciò per poterle testare con i cittadini, e alcune di queste potrebbero impattare sull’esperienza utente anche in termini di indisponibilità dei Servizi o delle Funzionalità. Le Tue segnalazioni e i Tuoi suggerimenti ci aiuteranno a migliorare l’App, pertanto Ti invitiamo a segnalarci qualunque problema o suggerimento tramite i canali messi a Tua disposizione, ma purtroppo non possiamo garantire il perfetto funzionamento o l’assenza di errori o bug, interruzioni, sospensioni o ritardi nella disponibilità dell’app IO e delle sue Funzionalità.
+Rilasciamo alcune Funzionalità, in tutto o in parte, in via sperimentale e ciò per poterle testare con i cittadini, e alcune di queste potrebbero impattare sull’esperienza utente anche in termini di indisponibilità dei Servizi o delle Funzionalità. Le Tue segnalazioni e i Tuoi suggerimenti ci aiuteranno a migliorare l’App, pertanto Ti invitiamo a segnalarci qualunque problema o suggerimento tramite i canali messi a Tua disposizione, ma purtroppo non possiamo garantire il perfetto funzionamento o l’assenza di errori o bug, interruzioni, sospensioni o ritardi nella disponibilità dell’App IO e delle sue Funzionalità.
 
 {:.d-more-2}
 
@@ -617,7 +625,7 @@ Tutti gli elementi relativi alla Piattaforma IO, all’App IO e alla Piattaforma
 
 {:.d-more-2}
 Siamo sempre al lavoro per offrirTi nuove funzionalità e per migliorare IO, per questo, i presenti ToS potrebbero cambiare nel tempo. Revisioni e/o modifiche saranno sempre pubblicate nell’App IO e all’indirizzo[io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html). Nel caso in cui si tratti di modifiche unilaterali, che non richiedano una tua espressa accettazione, provvederemo a comunicartele con un preavviso di 15 giorni rispetto all’entrata in vigore, all'interno dell'App IO.<br>
-Ricorda che se installi una nuova versione di IO, o continui a utilizzare l’App o i Servizi IO, o manifesti in modalità informatica il Tuo consenso e accettazione (ove applicabile), Tu accetti le modifiche ai presenti ToS. Se non intendi accettare le modifiche, come unico rimedio potrai in qualsiasi momento, per qualsiasi motivo, senza alcun preavviso e senza alcun costo o onere, cessare l’utilizzo dell’app IO e dei Servizi IO, rimuovendo l’App IO dai dispositivi sui quali è stata installata.<br>
+Ricorda che se installi una nuova versione di IO, o continui a utilizzare l’App o i Servizi IO, o manifesti in modalità informatica il Tuo consenso e accettazione (ove applicabile), Tu accetti le modifiche ai presenti ToS. Se non intendi accettare le modifiche, come unico rimedio potrai in qualsiasi momento, per qualsiasi motivo, senza alcun preavviso e senza alcun costo o onere, cessare l’utilizzo dell’App IO e dei Servizi IO, rimuovendo l’App IO dai dispositivi sui quali è stata installata.<br>
 Ricorda che i Termini Aggiuntivi sono applicati dagli Enti e da Terze Parti e portati a Tua conoscenza anche tramite l’App IO, ma non sono controllati da noi. Rispetto alla disponibilità e a qualsiasi variazione dei Termini Aggiuntivi, pertanto, Noi non saremo responsabili nei Tuoi confronti. Se hai dubbi o domande a questo riguardo, Ti chiediamo di rivolgerTi direttamente all’Ente o alla Terza Parte interessata.
 
 {:.d-more-2}
@@ -627,7 +635,7 @@ Ricorda che i Termini Aggiuntivi sono applicati dagli Enti e da Terze Parti e po
 {:.d-more-2}
 I presenti ToS rimarranno in vigore sino a quando gli stessi non dovessero essere superati da un aggiornamento o modifica secondo quanto previsto nei presenti ToS.<br>
 PagoPA S.p.A. potrà recedere unilateralmente dai presenti ToS, in qualsiasi momento, senza alcun preavviso, e senza alcun costo o onere, terminando le Funzionalità di IO e/o l’erogazione dei Servizi nei casi previsti dalla legge e dai presenti ToS.<br>
-L’Utente potrà, in qualsiasi momento, recedere dai presenti ToS per qualsiasi motivo, senza alcun preavviso e senza alcun costo o onere, cessando l’utilizzo dell’App IO e dei Servizi e rimuovendo l’app IO dai dispositivi sui quali è stata installata.
+L’Utente potrà, in qualsiasi momento, recedere dai presenti ToS per qualsiasi motivo, senza alcun preavviso e senza alcun costo o onere, cessando l’utilizzo dell’App IO e dei Servizi e rimuovendo l’App IO dai dispositivi sui quali è stata installata.
 
 {:.d-more-2}
 
