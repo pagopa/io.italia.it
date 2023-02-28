@@ -47,7 +47,7 @@ it:
     cat: "2|Servizi Disponibili"
   - title: Come fanno gli Enti pubblici a portare i propri servizi su IO?
     body: "Tutti gli enti pubblici, nazionali e locali, possono già aggiungere i propri servizi liberamente su IO e potranno continuare a farlo dopo l’arrivo dell’app negli store nella primavera 2020.\ 
-    È facile e veloce: in [questa Guida](https://io.italia.it/assets/download/it/onboarding/220725_io_app_onboarding_istruzioni-v_1.1.pdf) forniamo tutte le informazioni per aiutare le Pubbliche Amministrazioni a cogliere questa opportunità in quattro semplici passaggi."
+    È facile e veloce: in [questa Guida](https://docs.pagopa.it/io-guida-tecnica/) forniamo tutte le informazioni per aiutare le Pubbliche Amministrazioni a cogliere questa opportunità in quattro semplici passaggi."
     cat: "4|Pubbliche Amministrazioni"
   - title: Perchè devo per forza avere SPID o CIE per usare la app?
     body: "IO è un canale grazie al quale puoi ricevere da tutti gli Enti pubblici messaggi che includono tue informazioni personali come, ad esempio, quelle legate al tuo lavoro, alla tua salute o ai pagamenti verso lo Stato.\ 
