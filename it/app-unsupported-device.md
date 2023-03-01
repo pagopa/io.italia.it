@@ -1,5 +1,5 @@
 ---
-title: Dispositivo non più supportato
+title: Il tuo dispositivo potrebbe non essere più compatibile con l’app IO
 subtitle:
 layout: self
 ref: app-unsupported-device
@@ -11,6 +11,17 @@ assets:
 
 ## {{page.title}}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam turpis orci, sagittis a eros sit amet, posuere pharetra justo. Curabitur vel interdum nisl. Suspendisse lacinia et purus et gravida. Cras bibendum arcu a nunc consectetur, non interdum felis interdum. Nulla condimentum vitae nisl accumsan ornare. Nam faucibus iaculis sagittis. Fusce eget ornare neque. Pellentesque lectus mi, blandit a ex id, mollis sagittis risus. Cras eleifend arcu sem, vitae vestibulum lectus ultrices non. Etiam quis fermentum sapien. Fusce vel laoreet ligula.
+A partire dalle prossime versioni, IO sfrutterà una tecnologia che rende il suo utilizzo ancora più sicuro, ma che non è compatibile con alcuni dispositivi o sistemi operativi.
 
-Nulla facilisi. Aenean nisi leo, cursus vitae risus quis, malesuada lobortis magna. Integer ac dignissim purus, bibendum sodales nisl. Aenean mauris mauris, rutrum vel lectus malesuada, luctus condimentum ante. Duis id arcu placerat, mollis tellus ut, lobortis dui. Sed eu tortor sed ante consequat blandit. Fusce mollis feugiat felis, ac molestie magna aliquam vel. Integer ut semper augue. Integer a justo lectus.
+Se stai leggendo questo messaggio, probabilmente il tuo dispositivo o il sistema operativo installato non è compatibile con questa tecnologia.
+
+Assicurati che il sistema operativo sia aggiornato all’ultima versione. Se è già così, per continuare a usare IO potresti dover accedere da un altro dispositivo.
+
+<hr>
+## Your device may no longer be compatible with the IO app
+
+From the next versions IO will employ a technology that makes its use more secure, but which is not compatible with some devices or operating systems.
+
+If you are reading this, your device or the operating system installed may not be compatible with this technology.
+
+Make sure your operating system is updated to the latest version. If it already is, you may have to login from another device to continue using IO.
