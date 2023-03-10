@@ -13,7 +13,7 @@ it:
       - label: per i Giornalisti
         url: /giornalisti/
       - label: IO in numeri
-        url: /dashboard/
+        url: /numeri/
   - 
     label: Servizi su IO
     url: '#'
