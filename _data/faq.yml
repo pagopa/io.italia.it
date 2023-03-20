@@ -98,6 +98,10 @@ it:
   - title: "L‘app del progetto IO sarà disponibile solo negli store italiani, o anche in quelli esteri?"
     body: "Ora che l’app è negli store, il download è disponibile a tutti e non ha blocchi geografici. I cittadini italiani (AIRE e non) che vivono all'estero dotati di SPID o CIE possono accedere ai servizi. Qui tutte le informazioni su come ottenere SPID dall'estero: [https://www.spid.gov.it/richiedi-spid](https://www.spid.gov.it/richiedi-spid), mentre per la CIE è necessario rivolgersi al proprio consolato di riferimento."
     cat: "1|Generali"
+  - title: "Quando apro l’app vedo un messaggio che dice che il mio dispositivo non è più compatibile con IO. Come mai?"
+    body: "IO ha iniziato a sfruttare una tecnologia che rende il suo utilizzo ancora più sicuro ma che non è compatibile con alcuni dispositivi, solitamente se sono datati o usano versioni non aggiornate del sistema operativo.<br>
+Se quando apri l’app vedi un messaggio che ti dice che non puoi più usarla sul quel dispositivo, significa che non è compatibile con questa tecnologia. Assicurati che il sistema operativo sia aggiornato all’ultima versione. Se è già così, per continuare a usare IO dovrai accedere da un altro dispositivo."
+    cat: "1|Generali"
   - title: Quando sarà attivo su IO il Certificato Verde COVID-19?
     body: "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale. Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita <https://www.dgc.gov.it>"
     cat: "6|Certificazioni Verdi COVID-19"
