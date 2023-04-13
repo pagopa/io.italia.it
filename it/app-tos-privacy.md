@@ -187,6 +187,7 @@ Per un numero ristretto di utilizzatori è disponibile una funzionalità sperime
 
 {:.d-more-1}
 Se scegli di utilizzare Firma con IO, PagoPA tratterà in qualità di titolare, nella misura strettamente necessaria a garantire la funzionalità:
+
 {:.d-more-1}
 
 - i dati contenuti nel documento;
