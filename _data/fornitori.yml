@@ -42,7 +42,16 @@ items:
     luogo: "Italia"
     garanzie: "N/A"
     doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/Atlantica-Digital_DPA.pdf)"
-  - 
+  -
+    fornitore: "Namirial S.p.A."
+    attivita: "Servizi di emissione di certificati per firma digitale e conservazione a norma"
+    dati: "Dati identificativi e di contatto, dati relativi ai documenti degli utenti che si avvalgono delle funzionalità di firma"
+    luogo: "Italia, con possibile trasferimento verso paesi terzi (compresi USA)"
+    garanzie: "- opzione di residenza dei dati in UE\n\n 
+    - clausole contrattuali standard della Commissione Europea\n\n 
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    doc: "N/A"
+   -
     fornitore: "OneTrust Technology Limited"
     attivita: "Software gestionale per adempimenti privacy"
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
