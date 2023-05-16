@@ -1,17 +1,8 @@
 it:
   - title: Come posso installare l'app?
-    body: "IO è disponibile sull’[App Store di Apple](https://apps.apple.com/it/app/io/id1501681835) per dispositivi con sistema operativo iOS 11 e superiori e su [Google Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app) per i dispositivi con sistema operativo Android 5.0 e superiori. 
-    Tieni comunque presente che, sebbene la disponibilità dell’app IO negli store garantisca una ampia copertura delle versioni di Android e iOS, dalle più obsolete all’ultima disponibile, 
-    il nostro team di assistenza può fornirti supporto solo sui modelli di smartphone più recenti, con i seguenti requisiti minimi relativi al sistema operativo:\
+    body: "IO è disponibile sull’[App Store di Apple](https://apps.apple.com/it/app/io/id1501681835) per dispositivi con sistema operativo iOS 11 e superiori e su [Google Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app) per i dispositivi con sistema operativo Android 6.0 e superiori. 
     
-    - **Android 6 e versioni successive**
-    
-    - **iOS 11 o superiore**\
-    
-
-    I dispositivi aggiornati a queste versioni di sistema operativo, includono gli aggiornamenti di sicurezza più recenti che sono un prerequisito per poter registrare e utilizzare alcuni metodi di pagamento 
-    sulle app del proprio smartphone, tra cui la stessa app IO.<br>
-    Più in generale, queste versioni di sistema operativo garantiscono prestazioni superiori e supportano tecnologie più evolute, consentendo 
+    I dispositivi aggiornati a queste versioni di sistema operativo includono gli aggiornamenti di sicurezza più recenti, garantiscono prestazioni superiori e supportano tecnologie più evolute, consentendo 
     anche al nostro team di sviluppo di introdurre nuove funzionalità e servizi sull'app IO per un'esperienza utente sempre più ottimale."
     cat: "1|Generali"
   - title: Cosa significa che l'app è disponibile negli store in versione open beta? 
@@ -52,11 +43,11 @@ it:
   - title: Perchè devo per forza avere SPID o CIE per usare la app?
     body: "IO è un canale grazie al quale puoi ricevere da tutti gli Enti pubblici messaggi che includono tue informazioni personali come, ad esempio, quelle legate al tuo lavoro, alla tua salute o ai pagamenti verso lo Stato.\ 
     Per questo, è fondamentale essere certi che chi sta usando l’app a tuo nome, sia davvero tu. E che solo tu possa accedere alle informazioni a te destinate.\ 
-    Accedere con le tue credenziali [SPID](https://innovazione.gov.it/it/progetti/spid/) ti consente di garantire la tua identità all’app in modo sicuro. **In alternativa, se hai più di 14 anni compiuti, puoi usare la tua Carta d’Identità Elettronica ([CIE 3.0](https://www.cartaidentita.interno.gov.it/identificazione-digitale/entra-con-cie/))***\ 
+    Accedere con le tue credenziali [SPID](https://www.spid.gov.it/) ti consente di garantire la tua identità all’app in modo sicuro. **In alternativa, se hai più di 14 anni compiuti, puoi usare la tua Carta d’Identità Elettronica ([CIE 3.0](https://www.cartaidentita.interno.gov.it/))***\ 
     abbinata al PIN che hai ricevuto al momento del rilascio della nuova carta e che garantisce che tu possa essere l’unico ad utilizzarla (anche in caso di furto del documento).\ 
     In seguito alla prima registrazione, potrai accedere più facilmente digitando il codice di sblocco di 6 cifre scelto da te o tramite riconoscimento biometrico (impronta digitale o riconoscimento del volto).\ <br>
     <b>Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere periodicamente l’autenticazione con SPID o CIE</b>. Ogni sessione attiva su IO, infatti, ha una durata di trenta giorni; trascorso questo periodo, dovrai accedere nuovamente con le tue credenziali SPID o CIE\ 
-    per continuare a usare l’app (e tornare poi a sbloccarla con il codice a 6 cifre  o il riconoscimento biometrico prescelto).  
+    per continuare a usare l’app (e tornare poi a sbloccarla con il codice a 6 cifre o il riconoscimento biometrico prescelto).  
     <i class='small text-muted d-block'>* Nota: La funzionalità “Entra con CIE” è disponibile su dispositivi Android (versione 6.0 e superiori) dotati di tecnologia NFC. Sono inoltre supportati gli iPhone (dal modello 7 in su) con sistema operativo iOS 13 (o superiore).</i>
     "
     cat: "1|Generali"
@@ -66,9 +57,9 @@ it:
     inibendo ai relativi enti la possibilità di usare IO per contattarlo."
     cat: "4|Pubbliche Amministrazioni"
   - title: "Perché il progetto IO ora fa capo a PagoPa S.p.A.? Vuol dire che gestirà solo i pagamenti dei servizi pubblici?"
-    body: "[PagoPA S.p.A.](https://www.pagopa.gov.it/it/pagopa-spa/) è una società partecipata dallo Stato, creata allo scopo di rendere capillare la diffusione dei pagamenti digitali e dare impulso alla digitalizzazione dei servizi pubblici in Italia,\ 
+    body: "[PagoPA S.p.A.](https://www.pagopa.it) è una società partecipata dallo Stato, creata allo scopo di rendere capillare la diffusione dei pagamenti digitali e dare impulso alla digitalizzazione dei servizi pubblici in Italia,\ 
     secondo lo stesso cambio di paradigma da cui nasce la visione di IO: mettere il cittadino al centro e proporgli servizi efficienti, semplici e intuitivi, sviluppati in base alle sue esigenze.\ 
-    Per questo, in un'ottica di sviluppo e industrializzazione di entrambe le piattaforme, oltre a [pagoPA](https://www.pagopa.gov.it/it/pagopa/) la nuova società prende in carico anche la gestione di IO: per offrire ai cittadini, attraverso un’unica app,\ 
+    Per questo, in un'ottica di sviluppo e industrializzazione di entrambe le piattaforme, oltre a [pagoPA](https://www.pagopa.gov.it) la nuova società prende in carico anche la gestione di IO: per offrire ai cittadini, attraverso un’unica app,\ 
     il punto di accesso a tutti i servizi pubblici digitali. Questo consentirà all’app IO di crescere velocemente e aprirsi a nuove opportunità, secondo le logiche del sistema di mercato privato, proprio come una normale startup."
     cat: "1|Generali"
   - title: "Potrò usare tutti i servizi di IO anche da browser web?"
