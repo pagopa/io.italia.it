@@ -176,3 +176,13 @@
     }
   }
 }
+
+.section-firma {
+  background: url("/assets/img/hero-solid-dark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .badge.new {
+    background-color: #00C5CA;
+  }
+}
