@@ -17,7 +17,7 @@ _paq.push(["enableLinkTracking"]);
 // this function removes the "old" google analytics cookies
 document.addEventListener("DOMContentLoaded", function () {
   var cookies = Cookies.get();
-  var gaCookies = Object.keys(cookies).filter((k) => k.startsWith("_ga"));
+  var gaCookies = Object.keys(cookies).filter((k) => k.startsWith("_g"));
   for (var gc in gaCookies) {
     Cookies.remove(gaCookies[gc], { path: "" });
   }
