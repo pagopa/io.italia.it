@@ -19,6 +19,6 @@ document.addEventListener("DOMContentLoaded", function () {
   var cookies = Cookies.get();
   var gaCookies = Object.keys(cookies).filter((k) => k.startsWith("_g"));
   for (var gc in gaCookies) {
-    Cookies.remove(gaCookies[gc], { path: "" });
+    Cookies.remove(gaCookies[gc], { path: "", domain: ".io.italia.it" });
   }
 });
