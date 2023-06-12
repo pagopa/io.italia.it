@@ -40,8 +40,20 @@ function submitNewsletter(token) {
   });
 }
 
-function ga() {
+function ga(
+  originalEvent,
+  eventName,
+  eventHit,
+  eventCategory,
+  eventLabel,
+  eventValue
+) {
   // ex custom event function for G. Analytics
+  try {
+    _paq.push(["trackEvent", eventHit, eventCategory, eventLabel, eventValue]);
+  } catch (error) {
+    console.log("Problem with the pushEvent " + error);
+  }
 }
 
 $(function () {
