@@ -93,3 +93,10 @@ page_gen:
     index_files: true
     name_expr: record["o"].gsub(/[^0-9A-Za-zÀ-ú\s]/, '').gsub('  ',' ')
     title: "o"
+  - data: "diccilatua.items" # DICCI LA TUA REDIRECTS
+    template: redirect
+    dir: "diccilatua"
+    index_files: true
+    name: slugname
+    title: title
+    

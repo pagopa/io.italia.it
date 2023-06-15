@@ -1,0 +1,9 @@
+items:
+  # - 
+  #  slugname: nome-della-url
+  #  title: Titolo della pagina
+  #  redirect_to: url-di-destinazione.html
+  - 
+    slugname: ces-pagamento
+    title: Questionario soddisfazione processo di pagamento
+    redirect_to: "https://pagopa.qualtrics.com/jfe/form/SV_064FV80j4PXaUsu"
