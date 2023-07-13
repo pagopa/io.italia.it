@@ -1,4 +1,10 @@
 it:
+  - title: Chi può usare l’app IO?
+    body: "Possono usare l’app IO tutti i cittadini maggiorenni, residenti in Italia e dotati di un’identità digitale SPID o CIE*.
+
+    
+<i class='small text-muted d-block'>* Nota: se hai una età inferiore a 18 anni, al momento non è possibile effettuare l'accesso con Carta d'Identità Elettronica, come stabilito dal Ministero dell’Interno, d’intesa con il [Garante della Privacy](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9880472).</i>"
+    cat: "1|Generali"
   - title: Come posso installare l'app?
     body: "IO è disponibile sull’[App Store di Apple](https://apps.apple.com/it/app/io/id1501681835) per dispositivi con sistema operativo iOS 11 e superiori e su [Google Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app) per i dispositivi con sistema operativo Android 6.0 e superiori. 
     
@@ -41,15 +47,12 @@ it:
     È facile e veloce: in [questa Guida](https://docs.pagopa.it/io-guida-tecnica/) forniamo tutte le informazioni per aiutare le Pubbliche Amministrazioni a cogliere questa opportunità in quattro semplici passaggi."
     cat: "4|Pubbliche Amministrazioni"
   - title: Perchè devo per forza avere SPID o CIE per usare la app?
-    body: "IO è un canale grazie al quale puoi ricevere da tutti gli Enti pubblici messaggi che includono tue informazioni personali come, ad esempio, quelle legate al tuo lavoro, alla tua salute o ai pagamenti verso lo Stato.\ 
-    Per questo, è fondamentale essere certi che chi sta usando l’app a tuo nome, sia davvero tu. E che solo tu possa accedere alle informazioni a te destinate.\ 
-    Accedere con le tue credenziali [SPID](https://www.spid.gov.it/) ti consente di garantire la tua identità all’app in modo sicuro. **In alternativa, se hai più di 14 anni compiuti, puoi usare la tua Carta d’Identità Elettronica ([CIE 3.0](https://www.cartaidentita.interno.gov.it/))***\ 
-    abbinata al PIN che hai ricevuto al momento del rilascio della nuova carta e che garantisce che tu possa essere l’unico ad utilizzarla (anche in caso di furto del documento).\ 
-    In seguito alla prima registrazione, potrai accedere più facilmente digitando il codice di sblocco di 6 cifre scelto da te o tramite riconoscimento biometrico (impronta digitale o riconoscimento del volto).\ <br>
-    <b>Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere periodicamente l’autenticazione con SPID o CIE</b>. Ogni sessione attiva su IO, infatti, ha una durata di trenta giorni; trascorso questo periodo, dovrai accedere nuovamente con le tue credenziali SPID o CIE\ 
-    per continuare a usare l’app (e tornare poi a sbloccarla con il codice a 6 cifre o il riconoscimento biometrico prescelto).  
-    <i class='small text-muted d-block'>* Nota: La funzionalità “Entra con CIE” è disponibile su dispositivi Android (versione 6.0 e superiori) dotati di tecnologia NFC. Sono inoltre supportati gli iPhone (dal modello 7 in su) con sistema operativo iOS 13 (o superiore).</i>
-    "
+    body: "IO è un canale grazie al quale puoi ricevere da tutti gli Enti pubblici messaggi che includono tue informazioni personali come, ad esempio, quelle legate al tuo lavoro, alla tua salute o ai pagamenti verso lo Stato. Per questo, è fondamentale essere certi che chi sta usando l’app a tuo nome, sia davvero tu. E che solo tu possa accedere alle informazioni a te destinate. Accedere con le tue credenziali [SPID](https://www.spid.gov.it/) ti consente di garantire la tua identità all’app in modo sicuro. In alternativa, puoi usare la tua Carta d’Identità Elettronica [(CIE 3.0)*](https://www.cartaidentita.interno.gov.it/) abbinata al PIN che hai ricevuto al momento del rilascio della nuova carta e che garantisce che tu possa essere l’unico ad utilizzarla (anche in caso di furto del documento). In seguito alla prima registrazione, potrai accedere più facilmente digitando il codice di sblocco di 6 cifre scelto da te o tramite riconoscimento biometrico (impronta digitale o riconoscimento del volto).
+Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere periodicamente l’identificazione con SPID o CIE. Ogni sessione attiva su IO, infatti, ha una durata di trenta giorni; trascorso questo periodo, dovrai accedere nuovamente con le tue credenziali SPID o CIE per continuare a usare l’app (e tornare poi a sbloccarla con il codice a 6 cifre o il riconoscimento biometrico prescelto).
+
+
+<i class='small text-muted d-block'>* Nota: La funzionalità “Entra con CIE” è disponibile su dispositivi Android (versione 6.0 e superiori) dotati di tecnologia NFC. Sono inoltre supportati gli iPhone (dal modello 7 in su) con sistema operativo iOS 13 (o superiore).</i>
+"
     cat: "1|Generali"
   - title: Come fanno le Pubbliche Amministrazioni a sapere chi contattare tramite IO? 
     body: "Le Pubbliche Amministrazioni possono contattare un cittadino semplicemente conoscendone il codice fiscale, non occorre nient’altro. Ovviamente questo codice fiscale deve essere già presente nei database del singolo ente,\ 
