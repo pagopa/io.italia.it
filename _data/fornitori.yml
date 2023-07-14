@@ -22,7 +22,7 @@ items:
     garanzie: "in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
     doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/legal/Softlab-Tecnocall_DPA.pdf)"  
   - 
-    fornitore: "Growens S.p.A. (già MailUP S.p.A.)"
+    fornitore: "MailUP S.p.A."
     attivita: "Invio di email (inoltro messaggi ricevuti in-app e newsletter del progetto IO)"
     dati: "Indirizzo email degli utenti e dati inclusi nei messaggi inoltrati dall'app"
     luogo: "Italia"
