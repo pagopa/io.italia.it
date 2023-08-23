@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: 4.5
-updated: 17 aprile 2023
+vers: 4.6
+updated: 28 agosto 2023
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,8 +26,7 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo inserito le sezioni che disciplinano i trattamenti connessi alla funzionalità sperimentale di firma dei documenti;
-- Abbiamo migliorato il linguaggio di alcune sezioni e chiarito i trattamenti connessi alla lettura di codici a barre;
+- Abbiamo aggiornato la sezione che riguarda i trasferimenti di dati all'estero;
 - Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
 
 {:.d-startup}
@@ -57,7 +56,7 @@ La validità di questa informativa è limitata all’utilizzo delle funzionalit�
 Per usare IO devi accedere tramite la tua identità digitale (SPID o CIE). IO ottiene direttamente dal fornitore dell’identità digitale i dati necessari alla tua identificazione.<br>
 Questi dati vengono trattati da PagoPA in qualità di titolare del trattamento per permetterti di utilizzare l'app IO, le sue funzionalità e i servizi forniti dagli Enti, e vengono memorizzati per permetterti di gestire le tue preferenze (cfr. sotto la sezione _Dati trattati nella sezione "Profilo"_).<br>
 Tra questi, gli Enti utilizzeranno il tuo codice fiscale per raggiungerti tramite l'app IO.<br>
-Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune funzionalità dell’app, IO genera sul tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche. Queste operazioni costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo tu ad accedere al tuo account.
+Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune funzionalità dell’app, IO genera sul tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche. Queste attività costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo tu ad autorizzare specifiche operazioni. Se accedi a IO a seguito di un reindirizzamento da una terza parte, PagoPA e/o la terza parte potrebbero trattare e conservare i dati necessari per consentire la comunicazione e garantirne la sicurezza (ad esempio, il tuo indirizzo IP).
 
 {:.d-more-1}
 **_b) Dati trattati nella sezione "Messaggi"_**
@@ -92,7 +91,7 @@ Su richiesta degli Enti, potremmo fornire a questi ultimi, in qualità di respon
 
 {:.d-more-1}
 Alcuni Messaggi possono contenere degli allegati o altro contenuto dinamico. In alcuni casi potrai conservare e/o inviare alcune di queste informazioni mediante sistemi e app di terze parti installate nel tuo dispositivo, ad esempio per salvare i file in locale o condividerli con terzi.<br>
-Anche se i Messaggi provengono da Enti che hanno diritto a contattarti, PagoPA non controlla queste informazioni né il loro contenuto.Per questo motivo, per qualsiasi problema, anche con riferimento agli allegati, dovrai rivolgerti all’Ente attraverso i contatti presenti nella relativa scheda Servizio.<br>
+Anche se i Messaggi provengono da Enti che hanno diritto a contattarti, PagoPA non controlla queste informazioni né il loro contenuto. Per questo motivo, per qualsiasi problema, anche con riferimento agli allegati, dovrai rivolgerti all’Ente attraverso i contatti presenti nella relativa scheda Servizio.<br>
 L’utilizzo delle funzionalità di salvataggio e condivisione richiede i permessi di accesso, in lettura e/o scrittura, alla memoria del tuo dispositivo e/o ad app di fornitori terze parti e potrebbe comportare la condivisione di informazioni con tali fornitori e con terzi, secondo i termini e condizioni applicabili. A seconda delle impostazioni del tuo dispositivo, nessun dato potrà essere raccolto e inviato senza la tua espressa autorizzazione. Ti ricordiamo che PagoPA e gli Enti rimarranno estranei a qualsiasi vicenda successiva alla ricezione del messaggio, come il salvataggio e/o la condivisione.
 
 {:.d-more-1}
@@ -190,9 +189,8 @@ Se scegli di utilizzare Firma con IO, PagoPA tratterà in qualità di titolare, 
 
 {:.d-more-1}
 
-- i dati contenuti nel documento;
-- i dati necessari per consentire l’identificazione e l’autenticazione sicura dell’utente firmatario (in particolare, i dati anagrafici e di contatto, le chiavi crittografiche);
-- tutti gli altri dati, ove applicabile in relazione alle attività di trattamento strettamente connesse alla funzionalità, al suo utilizzo da parte degli utenti, nonché al funzionamento di IO, i cui trattamenti sono descritti altrove in questa informativa.
+- i dati necessari per consentire l’identificazione e l’autenticazione sicura dell’utente firmatario (in particolare, i dati anagrafici e di contatto, gli identificativi univoci del documento e/o della richiesta di firma, le chiavi crittografiche);
+- tutti gli altri dati, ove applicabile in relazione alle attività di trattamento strettamente connesse alla funzionalità, al suo utilizzo da parte degli utenti, nonché al funzionamento di IO, i cui trattamenti sono descritti altrove in questa informativa.<br>
   Alcuni di questi dati potrebbero essere condivisi, previo tuo consenso, con soggetti terzi specificamente autorizzati, con particolare riferimento ai fornitori dei servizi fiduciari qualificati impiegati da PagoPA, che trattano i tuoi dati in qualità di titolari autonomi. Tutti gli altri dati, compresi quelli contenuti nel documento da firmare, sono trattati da tali fornitori in qualità di responsabili del trattamento, per il tempo necessario e con la sola finalità di consentire l’erogazione del servizio, secondo le best practice del settore. Per ogni dettaglio su questi trattamenti, ti invitiamo a consultare l’informativa e i termini e condizioni di servizio che ti verranno messi a disposizione prima della firma.<br>
   Ti ricordiamo che gli Enti rimangono titolari autonomi dei dati trattati in ragione del procedimento amministrativo cui si riferiscono i documenti oggetto di firma. Per ogni dettaglio su questi trattamenti, ti invitiamo a consultare l’informativa privacy che ciascun Ente mette a disposizione.<br>
   Ti ricordiamo che Firma con IO è una funzionalità sperimentale, come tale non possiamo garantirti che sia esente da malfunzionamenti o errori. La tua opinione è importante per noi, per questo se hai dubbi o suggerimenti ti invitiamo a contattarci cliccando sul punto interrogativo presente in alto a destra di ogni schermata dell’app.
@@ -341,8 +339,8 @@ Per maggiori informazioni sul tempo di conservazione dei tuoi dati, compila ques
 #### 6. Trasferimento dati fuori dall'UE
 
 {:.d-more-1}
-Alcuni dei fornitori terzi di cui ci avvaliamo per alcuni servizi essenziali all’operatività dei nostri prodotti e servizi risiedono all’estero, compresi gli USA. Abbiamo concluso con tali fornitori accordi ai sensi dell'art. 28 del Regolamento e, laddove necessario, le [Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en) per garantire adeguati livelli di tutela. Dove possibile, inoltre, selezioniamo opzioni che consentono di mantenere i dati nell’Unione Europea e abbiamo negoziato misure aggiuntive per garantirti un maggior livello di sicurezza.<br>
-Teniamo molto al principio di minimizzazione, e per questo lo applichiamo rigorosamente nell’ambito dei trattamenti che affidiamo ai nostri fornitori, semplicemente comunicando solo i dati strettamente necessari. Puoi consultare la lista dei responsabili e le relative misure adottate all’indirizzo [io.italia.it/app-content/fornitori](https://io.italia.it/app-content/fornitori/).
+Alcuni dei fornitori terzi di cui ci avvaliamo per alcuni servizi essenziali all’operatività dei nostri prodotti e servizi risiedono all’estero, compresi gli USA. Abbiamo concluso con tali fornitori accordi ai sensi dell'art. 28 del Regolamento ee utilizziamo uno o più meccanismi che garantiscano adeguati livelli di tutela (es. verifica dell’adesione degli stessi al [Data Privacy Framework](https://www.dataprivacyframework.gov/s/), sottoscrizione di [Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en)). Dove possibile, inoltre, selezioniamo opzioni che consentono di mantenere i dati nell’Unione Europea e abbiamo negoziato misure aggiuntive per garantirti un maggior livello di sicurezza.<br>
+Teniamo molto al principio di minimizzazione, e per questo lo applichiamo rigorosamente nell’ambito dei trattamenti che affidiamo ai nostri fornitori, semplicemente comunicando solo i dati strettamente necessari. Puoi consultare la lista dei responsabili e le relative misure adottate all’indirizzo [io.italia.it/app-content/fornitori](https://io.italia.it/app-content/fornitori/)
 
 {:.d-more-1}
 
@@ -351,7 +349,7 @@ Teniamo molto al principio di minimizzazione, e per questo lo applichiamo rigoro
 {:.d-more-1}
 Per il trattamento dei dati per i quali PagoPA agisce come responsabile del trattamento, potrai esercitare i tuoi diritti nei confronti dei titolari del trattamento, gli Enti, secondo quanto indicato nelle rispettive informative rese disponibile nella sezione “Servizi”, all’interno della scheda di ciascun servizio.<br>
 La cancellazione del tuo account IO comporta la cancellazione dei tuoi dati personali all’interno di IO (in conformità a quanto indicato nel precedente paragrafo 5), ma non comporta la cancellazione dei tuoi dati da parte dell’Ente, cui dovrai rivolgere apposita richiesta ai sensi e in conformità con la relativa informativa.<br>
-Potrai invece esercitare i seguenti diritti, rispetto ai tuoi dati personali trattati da PagoPa in qualità di titolare del trattamento ai sensi del precedente paragrafo 3, attraverso le apposite funzionalità presenti nell’App oppure compilando l’apposito **[modulo web](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8)**.
+Potrai invece esercitare i seguenti diritti, rispetto ai tuoi dati personali trattati da PagoPA in qualità di titolare del trattamento ai sensi del precedente paragrafo 3, attraverso le apposite funzionalità presenti nell’App oppure compilando l’apposito **[modulo web](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8)**.
 
 {:.d-more-1}
 _a) Diritto di accesso_
@@ -396,7 +394,7 @@ Nel caso in cui ritieni che un trattamento violi il GDPR hai il diritto di propo
 #### 8. Contatti
 
 {:.d-more-1}
-Per qualsiasi domanda sul trattamento dei dati effettuato nell’ambito di IO,compila questo **[modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8)** oppure contattarci ai seguenti recapiti:
+Per qualsiasi domanda sul trattamento dei dati effettuato nell’ambito di IO, e per contattare il DPO (Data Protection Officer), puoi compilare l'apposito **[modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8)** oppure contattarci ai seguenti recapiti:
 
 {:.d-more-1}
 _PagoPA S.p.A._<br>
@@ -428,7 +426,6 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 
 {:.d-startup}
 
-- Abbiamo introdotto una sezione che disciplina la funzionalità sperimentale di firma dei documenti provenienti dagli Enti;
 - Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
@@ -576,7 +573,7 @@ Tieni presente che al fine di migliorare le Funzionalità di IO e per aiutare gl
 Per maggiori informazioni sul trattamento dei dati per finalità di debug e assistenza, consulta l’informativa privacy dell’App IO, sempre disponibile in app e all’indirizzo [io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html).
 
 {:.d-more-2}
-_f) Sottoscrizione di documenti in app_
+_f) Sottoscrizione di documenti in app (beta)_
 
 {:.d-more-2}
 Per un numero ristretto di utilizzatori è disponibile una Funzionalità sperimentale che consente di firmare digitalmente gli atti inviati dagli Enti. Gli Enti aderenti alla sperimentazione potranno inviarti un messaggio tramite il nuovo servizio nazionale “Firma con IO” per chiederti di firmare un documento da sottoscrivere direttamente tramite l’App IO, ottenendo gratuitamente un certificato di firma digitale emesso da un fornitore di servizi fiduciari qualificati. Puoi attivare e disattivare il servizio e gestire le modalità di comunicazione in ogni momento dalla scheda servizio. Potrai anche accedere alla Funzionalità scansionando direttamente il codice a barre messo a disposizione da un Ente, e in tale occasione per procedere all’operazione di firma ti verrà chiesto, se non l’hai già fatto, di attivare il servizio.<br>
@@ -654,9 +651,9 @@ L’Utente si obbliga a manlevare e tenere indenne la Società e i suoi dipenden
 La Società agisce come fornitore di servizi per conto degli Enti e non fornisce direttamente i Servizi al Cittadino o i servizi di Terze Parti ed è responsabile unicamente delle Funzionalità di IO, con le precisazioni e le limitazioni che seguono.
 
 {:.d-more-2}
-IO può contenere collegamenti a sistemi (compresi siti web e app) di terzi. I sistemi collegati non sono controllati da Noi, e non siamo responsabili dei loro contenuti, del loro funzionamento o della loro disponibilità.<br>
+IO può contenere collegamenti a sistemi (compresi siti web e app) di Terze Parti, oppure tali Terze Parti possono incorporare nei propri sistemi meccanismi di reindirizzamento a IO per consentirti di usufruire di alcuni Servizi e Funzionalità. I Sistemi, i collegamenti e reindirizzamenti di Terze Parti non sono controllati da Noi, e non siamo responsabili dei loro contenuti, del loro funzionamento o della loro disponibilità.<br>
 Rilasciamo alcune Funzionalità, in tutto o in parte, in via sperimentale e ciò per poterle testare con i cittadini, e alcune di queste potrebbero impattare sull’esperienza utente anche in termini di indisponibilità dei Servizi o delle Funzionalità. Le Tue segnalazioni e i Tuoi suggerimenti ci aiuteranno a migliorare l’App, pertanto Ti invitiamo a segnalarci qualunque problema o suggerimento tramite i canali messi a Tua disposizione, ma purtroppo non possiamo garantire il perfetto funzionamento o l’assenza di errori o bug, interruzioni, sospensioni o ritardi nella disponibilità dell’App IO e delle sue Funzionalità.<br>
-Inoltre, in considerazione della continua evoluzione delle tecnologie su cui si basa IO, potrebbe darsi l'eventualità che l'utilizzo, in tutto o in parte, di alcune Funzionalità e Servizi (incluso il supporto a determinati dispositivi e/o versioni di sistemi operativi), sia reso indisponibile. In alcuni casi, ove il Tuo dispositivo e/o la versione del sistema operativo in esecuzione non siano compatibili con i nostri standard, potrebbe non esserTi più consentito l'accesso all'App. In tali casi, cercheremo di fornirTi un preavviso ragionevole per poter adottare le misure necessarie e continuare ad utilizzare l'App, ove possibile. Tieni presente che tale preavviso non è dovuto in caso di situazioni urgenti, quali, a titolo esemplificativo e non esaustivo, la prevenzione di usi impropri da parte di utenti o terzi non autorizzati, il rispetto di requisiti di legge o la risoluzione di problemi operativi o di sicurezza. In alcuni casi, inoltre, la disponibilità dei Servizi, delle Funzionalità e dell'App IO nel suo complesso potrebbe essere influenzata da fattori al di fuori del nostro controllo, in particolare in caso di eventi di forza maggiore
+Inoltre, in considerazione della continua evoluzione delle tecnologie su cui si basa IO, potrebbe darsi l'eventualità che l'utilizzo, in tutto o in parte, di alcune Funzionalità e Servizi (incluso il supporto a determinati dispositivi e/o versioni di sistemi operativi), sia reso indisponibile. In alcuni casi, ove il Tuo dispositivo e/o la versione del sistema operativo in esecuzione non siano compatibili con i nostri standard, potrebbe non esserTi più consentito l'accesso all'App. In tali casi, cercheremo di fornirTi un preavviso ragionevole per poter adottare le misure necessarie e continuare ad utilizzare l'App, ove possibile. Tieni presente che tale preavviso non è dovuto in caso di situazioni urgenti, quali, a titolo esemplificativo e non esaustivo, la prevenzione di usi impropri da parte di utenti o terzi non autorizzati, il rispetto di requisiti di legge o la risoluzione di problemi operativi o di sicurezza. In alcuni casi, inoltre, la disponibilità dei Servizi, delle Funzionalità e dell'App IO nel suo complesso potrebbe essere influenzata da fattori al di fuori del nostro controllo, in particolare in caso di eventi di forza maggiore.
 
 {:.d-more-2}
 
