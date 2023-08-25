@@ -22,7 +22,7 @@ items:
     garanzie: "in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
     doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/legal/Softlab-Tecnocall_DPA.pdf)"  
   - 
-    fornitore: "Growens S.p.A. (già MailUP S.p.A.)"
+    fornitore: "MailUP S.p.A."
     attivita: "Invio di email (inoltro messaggi ricevuti in-app e newsletter del progetto IO)"
     dati: "Indirizzo email degli utenti e dati inclusi nei messaggi inoltrati dall'app"
     luogo: "Italia"
@@ -46,10 +46,11 @@ items:
     fornitore: "Namirial S.p.A."
     attivita: "Servizi di emissione di certificati per firma digitale e conservazione a norma"
     dati: "Dati identificativi e di contatto, dati relativi ai documenti degli utenti che si avvalgono delle funzionalità di firma"
-    luogo: "Italia, con possibile trasferimento verso paesi terzi (compresi USA)"
+    luogo: "Italia, con possibile trasferimento verso paesi terzi (compresi USA) tramite propri sub-fornitori"
     garanzie: "- opzione di residenza dei dati in UE\n\n 
     - clausole contrattuali standard della Commissione Europea\n\n 
-    - misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
+    - adesione al Data Privacy Framework"
     doc: "[Accordo sul trattamento](/assets/download/it/legal/DPA_PagoPA-Namirial.pdf)"
   - 
     fornitore: "OneTrust Technology Limited"
@@ -57,7 +58,8 @@ items:
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
     luogo: "Germania, con possibile trasferimento verso paesi terzi (compresi USA)"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-    - clausole contrattuali standard della Commissione Europea\n\n"
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - adesione al Data Privacy Framework"
     doc: "[DPA](https://io.italia.it/assets/download/it/OneTrust_DPA.pdf)"
   - 
     fornitore: "LimeSurvey GmbH"
@@ -73,7 +75,8 @@ items:
     luogo: Paesi Bassi e Irlanda, con possibile trasferimento verso paesi terzi (compresi USA)
     garanzie: "- opzione di residenza dei dati in UE\n\n 
     - clausole contrattuali standard della Commissione Europea\n\n 
-    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
+    - adesione al Data Privacy Framework"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/Microsoft_DPA_Product%26Services_sep%202021.pdf) [Compliance White Paper](https://io.italia.it/assets/download/it/legal/Microsoft_White%20Paper.pdf)"
   - 
     fornitore: "Mixpanel, Inc."
@@ -83,7 +86,8 @@ items:
     - USA (solo in caso di richiesta di supporto tecnico da parte di PagoPA S.p.A. od operazioni di manutenzione da parte del fornitore)"
     garanzie: "- opzione di residenza dei dati in UE\n\n
     - clausole contrattuali standard della Commissione Europea\n\n
-    - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n"
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
+    - adesione al Data Privacy Framework"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/REDACTED_Mixpanel_DPA_2022.pdf)"
   - 
     fornitore: "Instabug, Inc. (**dismesso**)"
@@ -105,7 +109,8 @@ items:
     garanzie: "- opzione di residenza dei dati in UE\n\n
     - norme vincolanti d’impresa\n\n\
     - clausole contrattuali standard della Commissione Europea\n\n
-    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
+    - adesione al Data Privacy Framework"
     doc: "[Misure adottate di default da Zendesk](https://www.zendesk.it/trust-center/)"
   - 
     fornitore: "Slack Technologies Limited"
@@ -113,14 +118,16 @@ items:
     dati: "Dati eventualmente inclusi in messaggi scambiati internamente tramite lo strumento di messaggistica interna per risoluzione di problematiche urgenti"
     luogo: "USA\n\n
     (trattamento di dati personali degli utenti eventuale e comunque marginale, solo in caso di necessità e urgenza)"
-    garanzie: "- clausole contrattuali standard  della Commissione Europea"
+    garanzie: "- clausole contrattuali standard  della Commissione Europea\n\n
+    - adesione al Data Privacy Framework (controllante)"
     doc: "[DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981016550O__OSlack_DPA_sep+2021.pdf)"
   - 
     fornitore: "Google LLC"
     attivita: "Invio di notifiche Push"
     dati: "Dati inclusi nella notifica push (solo per dispositivi Android)"
     luogo: "data center globali del fornitore, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
-    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n"
+    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
+    - adesione al Data Privacy Framework"
     doc: "[DPA e termini](https://firebase.google.com/terms/data-processing-terms)"
   - 
     fornitore: "Google Ireland Limited"
@@ -128,7 +135,8 @@ items:
     dati: "Dati forniti dagli interessati nei campi compilabili di uno specifico form"
     luogo: "Unione Europea, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-    - clausole contrattuali standard della Commissione Europea\n\n"
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - adesione al Data Privacy Framework (controllante)"
     doc: "[DPA e termini](https://workspace.google.com/terms/dpa_terms.html)"
   - 
     fornitore: "Google Ireland Limited"
@@ -136,7 +144,8 @@ items:
     dati: "Dati forniti dagli interessati nelle richieste di assistenza indirizzate alla Società"
     luogo: "Unione Europea, con possibile trasferimento verso paesi terzi (compresi USA)\n\n"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-    - clausole contrattuali standard della Commissione Europea\n\n"
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - adesione al Data Privacy Framework (controllante)"
     doc: "[DPA e termini](https://workspace.google.com/terms/dpa_terms.html)"
   - 
     fornitore: "Amazon Web Services EMEA SARL"
@@ -145,7 +154,8 @@ items:
     luogo: "Unione Europea"
     garanzie: "- opzione di residenza dei dati in UE\n\n
     - clausole contrattuali standard della Commissione Europea\n\n
-    - misure supplementari di tipo contrattuale, tecnico e organizzativo (riservate)"
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo (riservate)\n\n
+    - adesione al Data Privacy Framework (controllante)"
     doc: "[DPA](https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf) [Addendum](https://d1.awsstatic.com/Supplementary_Addendum_to_the_AWS_GDPR_DPA.pdf) [SCC C2P](https://d1.awsstatic.com/Controller_to_Processor_SCCs.pdf) [SCC P2P](https://d1.awsstatic.com/Processor_to_Processor_SCCs.pdf)"
   -
     fornitore: "Amazon Web Services EMEA SARL\n\n
@@ -154,5 +164,6 @@ items:
     dati: "Dati comuni degli utenti che richiedono assistenza"
     luogo: "Unione Europea"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-    - misure supplementari di tipo contrattuale, tecnico e organizzativo (es. nessun trasferimento ad altri sub-responsabili AWS situati al di fuori dell’UE)"
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo (es. nessun trasferimento ad altri sub-responsabili AWS situati al di fuori dell’UE)\n\n
+    - adesione al Data Privacy Framework (controllante)"
     doc: "N/A"
