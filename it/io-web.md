@@ -14,6 +14,11 @@ intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg text-upperca
 disable_br: true
 has_recaptcha: false
 intro_wide: "single"
+
+esci_da_io_link: "#esci"
+blocca_accesso_io_link: "#blocca"
+riabilita_accesso_io_link: "#riabilita"
+faq_url: "#faq"
 ---
 
 {% include io-web.html %}

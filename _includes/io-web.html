@@ -21,9 +21,9 @@
           </p>
           <div class="py-3">
             <a target="_blank"
-              href="#" title="Esci da IO"
+              href="{{page.esci_da_io_link}}" title="Esci da IO"
               class="btn btn-white-light btn-sm text-uppercase"
-              onclick="#">Esci da IO</a>
+              onclick="{{page.esci_da_io_link}}">Esci da IO</a>
           </div>
         </div>
       </div>
@@ -52,9 +52,9 @@
           </p>
           <div class="py-3">
             <a target="_blank"
-              href="#" title="Blocca accesso a IO"
+              href="{{page.blocca_accesso_io_link}}" title="Blocca accesso a IO"
               class="btn btn-white-light btn-sm text-uppercase"
-              onclick="#">Blocca accesso a IO</a>
+              onclick="{{page.blocca_accesso_io_link}}">Blocca accesso a IO</a>
           </div>
         </div>
       </div>
@@ -81,15 +81,16 @@
           </p>
           <div class="py-3">
             <a target="_blank"
-              href="#" title="Sblocca l'accesso a IO"
+              href="{{page.riabilita_accesso_io_link}}" title="Sblocca l'accesso a IO"
               class="btn btn-white-light btn-sm text-uppercase"
-              onclick="#">Sblocca l'accesso a IO</a>
+              onclick="{{page.riabilita_accesso_io_link}}">Sblocca l'accesso a IO</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+{% if page.faq_url %}
   <div class="section section-muted section--wpointers dubbi-domande">
       <div class="row">
         <div class="col-md-8 offset-md-2 col-lg-6 offset-lg-3 pt-5 px-3 px-md-0 text-center text-white">
@@ -101,11 +102,12 @@
           </p>
           <div class="py-3">
             <a target="_blank"
-              href="#" title="Leggi le FAQ"
+              href="{{page.faq_url}}" title="Leggi le FAQ"
               class="btn btn-white btn-sm text-uppercase"
-              onclick="#">Leggi le FAQ</a>
+              onclick="{{page.faq_url}}">Leggi le FAQ</a>
           </div>
         </div>
       </div>
   </div>
+{%endif%}
 </div>
