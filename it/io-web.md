@@ -13,7 +13,7 @@ intro_primary_link: "#"
 intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg text-uppercase px-3 px-md-5 mr-2"
 disable_br: true
 has_recaptcha: false
-intro_wide: true
+intro_wide: "single"
 ---
 
 {% include io-web.html %}

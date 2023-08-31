@@ -1,6 +1,8 @@
 {% assign colFirstClass = "col-lg-7" %}
 {% assign colSecondClass = "col-lg-5" %}
-{% if page.intro_wide %}
+{% if page.intro_wide=="single" %}
+  {% assign colFirstClass = "col-lg-10 offset-lg-2" %}
+{% elsif page.intro_wide %}
   {% assign colFirstClass = "col-lg-9" %}
   {% assign colSecondClass = "col-lg-3" %}
 {% elsif page.intro_image==false %}
@@ -39,7 +41,7 @@
               {% if page.disable_br %} {%else%}<br class="d-block d-lg-none">{%endif%}
               <a target="_blank"
                 href="{{ page.intro_ter_link }}" title="{{page.intro_ter_text}}"
-                class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}" 
+                class="{{page.intro_ter_customclass | default: 'btn btn-outline-primary btn-sm text-uppercase ml-lg-1 mt-3 mt-lg-0'}}"
                 {% if page.intro_ter_onclick %}onclick="{{page.intro_ter_onclick}}"{% endif %}
                 >{{ page.intro_ter_text }}</a>
               {%- endif %}
@@ -59,10 +61,10 @@
               >
                 {{ page.intro_secondary_text }}
               </a>
-              
+
             </div>
             {%- endif %}
-            
+
           </div><!--/dflex-->
           {% if page.below_buttons %}
             {%include {{page.below_buttons }} %}
