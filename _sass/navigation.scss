@@ -242,3 +242,19 @@
     height: 22px;
   }
 }
+
+.btn.accedi {
+
+  @media screen and (max-width: $grid-breakpoints-sm) {
+      margin-top: 25px !important;
+  }
+
+  color: white;
+  
+  .icon {
+    fill: white;
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+  }
+}

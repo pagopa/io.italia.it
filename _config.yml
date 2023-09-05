@@ -31,6 +31,7 @@ facebook_appid: 544232192644134
 download_url:
   ios: "https://apps.apple.com/it/app/io/id1501681835"
   android: "https://play.google.com/store/apps/details?id=it.pagopa.io.app"
+io_web_login_url: "#io-web-url"
 
 # Build settings
 markdown: kramdown
@@ -99,4 +100,3 @@ page_gen:
     index_files: true
     name: slugname
     title: title
-    
