@@ -113,14 +113,14 @@ items:
     - adesione al Data Privacy Framework"
     doc: "[Misure adottate di default da Zendesk](https://www.zendesk.it/trust-center/)"
   - 
-    fornitore: "Slack Technologies Limited"
+    fornitore: "Salesforce.com Italy S.r.l."
     attivita: "Piattaforma di messaggistica per comunicazione interna alla PagoPA S.p.A."
     dati: "Dati eventualmente inclusi in messaggi scambiati internamente tramite lo strumento di messaggistica interna per risoluzione di problematiche urgenti"
     luogo: "USA\n\n
     (trattamento di dati personali degli utenti eventuale e comunque marginale, solo in caso di necessità e urgenza)"
     garanzie: "- clausole contrattuali standard  della Commissione Europea\n\n
     - adesione al Data Privacy Framework (controllante)"
-    doc: "[DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981016550O__OSlack_DPA_sep+2021.pdf)"
+    doc: "[DPA](https://io.italia.it/assets/download/it/Slack-Salesforce_DPA.pdf)"
   - 
     fornitore: "Google LLC"
     attivita: "Invio di notifiche Push"
