@@ -68,6 +68,16 @@ items:
     luogo: "Germania\n\n"
     garanzie: "N/A"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/LimeSurvey_DPA_jul%202022.pdf)"
+   -
+    fornitore: "Qualtrics LLC\n\n
+    (subfornitore di Softlab)"
+    attivita: "Servizio per form, moduli e questionari online"
+    dati: "Dati forniti dagli interessati nei campi del questionario, dati di navigazione e utilizzo dell'app da parte dell'utente"
+    luogo: "Germania, con possibile trasferimento verso paesi terzi (compresi USA)("
+    garanzie: "- opzione di residenza dei dati in UE\n\n
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
+    doc: "N/A"
   - 
     fornitore: "Microsoft Ireland Operations Limited"
     attivita: "Hosting infrastruttura e servizi di cloud computing"
@@ -75,9 +85,9 @@ items:
     luogo: Paesi Bassi e Irlanda, con possibile trasferimento verso paesi terzi (compresi USA)
     garanzie: "- opzione di residenza dei dati in UE\n\n 
     - clausole contrattuali standard della Commissione Europea\n\n 
-    - in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
-    - adesione al Data Privacy Framework"
-    doc: "[DPA](https://io.italia.it/assets/download/it/legal/Microsoft_DPA_Product%26Services_sep%202021.pdf) [Compliance White Paper](https://io.italia.it/assets/download/it/legal/Microsoft_White%20Paper.pdf)"
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
+    - adesione al Data Privacy Framework (controllante)"
+    doc: [Compliance White Paper](https://io.italia.it/assets/download/it/legal/Microsoft_White%20Paper.pdf)"
   - 
     fornitore: "Mixpanel, Inc."
     attivita: "Debug funzionale, troubleshooting, diagnostica, analisi su dati aggregati anche a fini di reportistica"
