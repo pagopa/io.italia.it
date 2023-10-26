@@ -15,7 +15,7 @@ assets:
 
 {:.d-startup}
 
-### Archivio "Informativa privacy e Termini e condizioni d’uso"
+### Archivio "Informativa privacy e Accordo di riservatezza - Programma Beta"
 
 {:.d-startup}
 

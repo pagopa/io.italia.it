@@ -14,7 +14,7 @@ assets:
 
 {:.d-startup .mb-1 }
 Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})
-
+<br/>
 [Archivio versioni precedenti](/app-content/index-tos-beta.html)
 
 {:.d-startup .mb-1}
