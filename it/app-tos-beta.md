@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-beta
 permalink: /app-content/beta_test.html
-vers: 1
-updated: 20 maggio 2021
+vers: 2.0
+updated: 25 ottobre 2023
 assets:
   js:
     - "/assets/js/tos.js"
@@ -24,7 +24,7 @@ Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})
 ## Informativa sul trattamento dei dati personali
 
 {:.d-startup}
-La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche “Utente”) che partecipano a un’indagine (“Indagine”) mediante la compilazione di un questionario e/o a un programma di test per le funzionalità dell’App IO o della piattaforma pagoPA (“Programma”), anche mediante la registrazione video delle sessioni di test.
+La presente informativa descrive le modalità del trattamento dei dati personali degli utenti (di seguito, anche “Utente”) che partecipano a un’indagine (“Indagine”) mediante la compilazione di un questionario e/o a un programma di test ("Programma") per le funzionalità dell’App IO, della piattaforma pagoPA o di alti prodotti e servizi gestiti da PagoPA S.p.A. ("Società"), anche mediante la registrazione video delle sessioni di test.
 
 <div class="read-more d-startup" data-more="d-more-1">Leggi tutto</div>
 
@@ -36,20 +36,21 @@ La presente informativa, resa ai sensi dell’art. 13 e 14 del regolamento (UE) 
 ### Titolare del trattamento
 
 {:.d-more-1}
-Il Titolare del trattamento è la società PagoPA SpA, con sede in Roma, Piazza Colonna 370, CAP 00187 - n. di iscrizione a Registro Imprese di Roma, CF e P.IVA 15376371009.
+Il Titolare del trattamento è la società PagoPA S.p.A., con sede in Roma, Piazza Colonna 370, CAP 00187 - n. di iscrizione a Registro Imprese di Roma, CF e P.IVA 15376371009.
 
 {:.d-more-1}
 
 ### Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
 
 {:.d-more-1}
-La società PagoPA Spa ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento UE 2016/679, che può essere contattato ai seguenti recapiti:
+PagoPA S.p.A. ha nominato un proprio Responsabile della Protezione dei dati, ai sensi dell’art. 37 del Regolamento, che può essere contattato tramite l'apposito [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) oppure ai seguenti recapiti:
 
 {:.d-more-1}
+_PagoPA S.p.A._<br>
+_Sede legale in Piazza Colonna, 370 - 00187 Roma_<br>
+_Sede operativa: Via Sardegna, 38 - 00187 Roma_ <br>
+_Email: <dpo@pagopa.it>_
 
-- mail: [dpo@pagopa.it](mailto:dpo@pagopa.it);
-- PEC: [dpo@pec.pagopa.it](mailto:dpo@pec.pagopa.it);
-- indirizzo: Via Sardegna n. 38 - 00187, ROMA (sede operativa della società)
 
 {:.d-more-1}
 
@@ -60,7 +61,7 @@ La società PagoPA Spa ha nominato un proprio Responsabile della Protezione dei 
 #### a) Dati forniti volontariamente dall’Utente
 
 {:.d-more-1}
-Se scegli di partecipare a un'Indagine e/o di partecipare a un Programma, verranno raccolte alcune informazioni che ti riguardano, e in particolare:
+Se scegli di partecipare a un'Indagine e/o di partecipare a un Programma, potrebbero essere raccolte alcune informazioni che ti riguardano, tra cui:
 
 {:.d-more-1}
 
@@ -118,10 +119,10 @@ I dati degli Utenti sono raccolti per le seguenti finalità:
   - compilare il questionario, anche al fine di candidarsi a partecipare al Programma;
   - richiedere di partecipare a un'Indagine e/o a un Programma;
   - essere avvisato nel caso venga selezionato dal Titolare per partecipare al Programma;
-  - partecipare alle sessioni di test, condividere il proprio feedback e contribuire al miglioramento dell’App IO e/o della Piattaforma PagoPA (nel caso venga selezionato per partecipare al Programma);
+  - partecipare alle sessioni di test, condividere il proprio feedback e contribuire al miglioramento dell’App IO, della Piattaforma PagoPA e/o degli altri (nel caso venga selezionato per partecipare al Programma);
   - utilizzare ogni altra funzionalità prevista e disponibile per gli Utenti selezionati ai fini della partecipazione al Programma.
-- permettere agli amministratori dell’App IO di svolgere tutte le funzioni di amministrazione, compresa l’identificazione degli Utenti selezionati ai fini della partecipazione al Programma per motivi di sicurezza e riservatezza, previa anonimizzazione e aggregazione quando non è più necessario per le altre finalità sopra indicate mantenere i dati in chiaro.
-- consentire lo sviluppo e il miglioramento dell’App IO e/o della Piattaforma PagoPA e delle relative funzionalità.
+- permettere agli amministratori di sistema di svolgere tutte le funzioni di amministrazione, compresa l’identificazione degli Utenti selezionati ai fini della partecipazione al Programma per motivi di sicurezza e riservatezza, previa anonimizzazione e aggregazione quando non è più necessario per le altre finalità sopra indicate mantenere i dati in chiaro.
+- consentire lo sviluppo e il miglioramento dell’App IO, della Piattaforma PagoPA e/o degli altri prodotti e servizi della Società delle relative funzionalità.
 
 {:.d-more-1}
 I dati personali dell’Utente possono essere utilizzati dal Titolare in giudizio o nelle fasi propedeutiche alla sua eventuale instaurazione per la difesa da abusi perpetrati dall’Utente.<br>
@@ -137,11 +138,11 @@ Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indica
 
 {:.d-more-1}
 
-- soggetti terzi che forniscono un servizio al Titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento. In particolare, per lo svolgimento delle sessioni di test PagoPA potrà rivolgersi a fornitori terzi del servizio in qualità di Responsabili del trattamento, operanti nell’Unione Europea;
-- altri soggetti pubblici che ne facciano richiesta alla PagoPA SpA per l’esecuzione di un compito di interesse pubblico o connesso all’esercizio di un pubblico potere o per adempiere a un obbligo legale.
+- soggetti terzi che forniscono un servizio al Titolare stesso e che tratteranno detti dati personali in qualità di responsabili del trattamento. In particolare, per lo svolgimento delle sessioni di test la Società potrà rivolgersi a fornitori terzi del servizio in qualità di Responsabili del trattamento;
+- altri soggetti pubblici che ne facciano richiesta alla Società per l’esecuzione di un compito di interesse pubblico o connesso all’esercizio di un pubblico potere o per adempiere a un obbligo legale.
 
 {:.d-more-1}
-Laddove i terzi destinatari ricevano i dati personali per l’esecuzione di un servizio commissionato da PagoPA nell’interesse di quest’ultima, gli stessi sono nominati Responsabili del trattamento da parte del Titolare ai sensi dell’art. 28 del Regolamento. L’elenco dei responsabili del trattamento è disponibile, per i fornitori coinvolti nel progetto IO, all’indirizzo https://io.italia.it/app-content/fornitori/, per gli altri prodotti e servizi di PagoPA SpA può essere richiesto al Titolare in qualsiasi momento, scrivendo a [dpo@pagopa.it](mailto:dpo@pagopa.it).
+Laddove i terzi destinatari ricevano i dati personali per l’esecuzione di un servizio commissionato dalla Società nell’interesse di quest’ultima, gli stessi sono nominati Responsabili del trattamento da parte del Titolare ai sensi dell’art. 28 del Regolamento. L’elenco dei responsabili del trattamento è disponibile, per i fornitori coinvolti nel progetto IO, all’indirizzo https://io.italia.it/app-content/fornitori/, per gli altri prodotti e servizi della Società può essere richiesto al Titolare in qualsiasi momento, tramite l'apposito [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) oppure scrivendo a [dpo@pagopa.it](mailto:dpo@pagopa.it).
 
 {:.d-more-1}
 
@@ -155,14 +156,15 @@ Il Titolare potrebbe pubblicare i risultati dell'Indagine o della partecipazione
 ### Luogo di trattamento dei dati
 
 {:.d-more-1}
-Alcuni dei fornitori terzi che utilizziamo risiedono negli USA. Abbiamo concluso con tali fornitori accordi di servizio ai sensi dell’art. 28 del Regolamento. Tutti i fornitori sono conformi al Regolamento e, in assenza di altre misure di garanzia previste dal Regolamento, abbiamo concluso con loro le Clausole Contrattuali della Commissione Europea per garantire adeguati livelli di tutela. Una copia delle garanzie poste in essere è disponibile, per i fornitori coinvolti nel progetto IO, all’indirizzo https://io.italia.it/app-content/fornitori/, per gli altri prodotti e servizi di PagoPA SpA può essere richiesta al Titolare in qualsiasi momento, scrivendo a [dpo@pagopa.it](mailto:dpo@pagopa.it)
+Alcuni dei fornitori terzi di cui ci avvaliamo per alcuni servizi essenziali all’operatività dei nostri prodotti e servizi risiedono all’estero, compresi gli USA. Abbiamo concluso con tali fornitori accordi ai sensi dell'art. 28 del GDPR e utilizziamo uno o più meccanismi che garantiscano adeguati livelli di tutela (es. verifica dell’adesione degli stessi al [Data Privacy Framework](https://www.dataprivacyframework.gov/s/), sottoscrizione di [Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en)). Dove possibile, inoltre, selezioniamo opzioni che consentono di mantenere i dati nell’Unione Europea e abbiamo negoziato misure aggiuntive per garantirti un maggior livello di sicurezza.<br>
+Teniamo molto al principio di minimizzazione, e per questo lo applichiamo rigorosamente nell’ambito dei trattamenti che affidiamo ai nostri fornitori, semplicemente comunicando solo i dati strettamente necessari. Puoi consultare la lista dei responsabili e le relative misure adottate per i fornitori coinvolti nel progetto IO, all’indirizzo [io.italia.it/app-content/fornitori](https://io.italia.it/app-content/fornitori/), per gli altri prodotti e servizi della SOcietà ogni informazione può essere richiesta al titolare in qualsiasi momento, tramite l'apposito [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) oppure a [dpo@pagopa.it](mailto:dpo@pagopa.it).
 
 {:.d-more-1}
 
 ### Tempi di conservazione dei dati
 
 {:.d-more-1}
-I dati personali raccolti saranno conservati per il periodo di tempo necessario allo svolgimento dell’Indagine e/o del Programma, e verranno cancellati o resi anonimi:
+I dati personali raccolti saranno conservati per il periodo di tempo necessario allo svolgimento dell’Indagine e/o del Programma, e successivamente verranno cancellati o resi anonimi. In particolare, nell'ambito di un Programma di test:
 
 {:.d-more-1}
 
@@ -170,21 +172,21 @@ I dati personali raccolti saranno conservati per il periodo di tempo necessario 
 - in caso di mancato rilascio o abbandono del Programma, entro 6 mesi dalla raccolta.
 
 {:.d-more-1}
-Resta salvo il trattamento fondato su altra base giuridica, ivi inclusa quella di fare fronte a eventuali contestazioni o contenziosi, e in tal caso i dati verranno successivamente trattati conformemente a quanto previsto dagli obblighi di legge. Per maggiori informazioni è possibile scrivere a dpo@pagopa.it
+Resta salvo il trattamento fondato su altra base giuridica, ivi inclusa quella di fare fronte a eventuali contestazioni o contenziosi, e in tal caso i dati verranno successivamente trattati conformemente a quanto previsto dagli obblighi di legge. Per maggiori informazioni è possibile scrivere al Titolare tramite l'apposito [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8) oppure a [dpo@pagopa.it](mailto:dpo@pagopa.it).
 
 {:.d-more-1}
 
 ### Diritti degli interessati
 
 {:.d-more-1}
-Gli Interessati hanno il diritto di ottenere, nei casi previsti, l’accesso ai propri dati personali e la rettifica o la cancellazione degli stessi nelle forme e nei limiti previsti dal Regolamento negli artt. 15 e ss. Inoltre, gli interessati, laddove ricorrano i presupposti, hanno diritto alla limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. 18 e 21 del Regolamento). Tali richieste potranno essere indirizzate al Titolare, scrivendo a dpo@pagopa.it
+Gli Interessati hanno il diritto di ottenere, nei casi previsti, l’accesso ai propri dati personali e la rettifica o la cancellazione degli stessi nelle forme e nei limiti previsti dal Regolamento negli artt. 15 e ss. Inoltre, gli interessati, laddove ricorrano i presupposti, hanno diritto alla limitazione del trattamento che li riguarda o di opporsi al trattamento (artt. 18 e 21 del Regolamento). Tali richieste potranno essere indirizzate al Titolare, tramite l'apposito **[modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8)** oppure a [dpo@pagopa.it](mailto:dpo@pagopa.it).
 
 {:.d-more-1}
 
 ### Diritti di reclamo
 
 {:.d-more-1}
-Gli interessati che ritengono che il trattamento dei dati personali a loro riferiti, effettuato attraverso il Portale avvenga in violazione di quanto previsto dal Regolamento hanno il diritto di proporre reclamo al Garante, come previsto dall’art. 77 del Regolamento stesso, o di adire le opportune sedi giudiziarie (art. 79 del Regolamento).
+Gli interessati che ritengono che il trattamento dei dati personali a loro riferiti, effettuato attraverso il Programma o l'Indagine avvenga in violazione di quanto previsto dal Regolamento hanno il diritto di proporre reclamo al Garante, come previsto dall’art. 77 del Regolamento stesso, o di adire le opportune sedi giudiziarie (art. 79 del Regolamento).
 
 <hr class="d-block" />
 
