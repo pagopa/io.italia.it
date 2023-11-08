@@ -77,7 +77,7 @@ items:
     - clausole contrattuali standard della Commissione Europea\n\n 
     - misure supplementari di tipo contrattuale, tecnico e organizzativo (riservate)\n\n
     - adesione al Data Privacy Framework (controllante)"
-    doc: "[Compliance White Paper](https://io.italia.it/assets/download/it/legal/Microsoft_White%20Paper.pdf)"
+    doc: "[DPA](https://io.italia.it/assets/download/it/legal/Microsoft_DPA_2023_standard) [Compliance White Paper](https://io.italia.it/assets/download/it/legal/Microsoft_White%20Paper.pdf)"
   - 
     fornitore: "Mixpanel, Inc."
     attivita: "Debug funzionale, troubleshooting, diagnostica, analisi su dati aggregati anche a fini di reportistica"
