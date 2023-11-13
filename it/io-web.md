@@ -9,15 +9,15 @@ ref: io-web
 permalink: /io-web/
 
 intro_primary_text: "Accedi"
-intro_primary_link: "https://ioapp.it/it/accedi"
+intro_primary_link: "https://ioapp.it/it/accedi/"
 intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg text-uppercase px-3 px-md-5 mr-2"
 disable_br: true
 has_recaptcha: false
 intro_wide: "single"
 
-esci_da_io_link: "https://ioapp.it/esci"
-blocca_accesso_io_link: "https://ioapp.it/it/accedi"
-riabilita_accesso_io_link: "https://ioapp.it/it/accedi"
+esci_da_io_link: "https://ioapp.it/it/esci/"
+blocca_accesso_io_link: "https://ioapp.it/it/accedi/"
+riabilita_accesso_io_link: "https://ioapp.it/it/accedi/"
 faq_url: "#faq"
 ---
 
