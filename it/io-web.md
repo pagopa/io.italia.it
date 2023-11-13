@@ -1,6 +1,6 @@
 ---
 layout: internal
-title: Il portale web di IO
+title: Accedi a IO dal web
 subtitle: L’app che facilita la vita del cittadino
 description: Accedendo al portale web di IO potrai visualizzare i tuoi dati salvati sull’app e le informazioni sugli accessi a IO. Inoltre, potrai gestire la sicurezza del tuo profilo in caso di furto o smarrimento del dispositivo, o se la tua identità digitale rischia di essere compromessa.
 description_social: Accedendo al portale web di IO potrai visualizzare i tuoi dati salvati sull’app e le informazioni sugli accessi a IO. Inoltre, potrai gestire la sicurezza del tuo profilo in caso di furto o smarrimento del dispositivo, o se la tua identità digitale rischia di essere compromessa.
