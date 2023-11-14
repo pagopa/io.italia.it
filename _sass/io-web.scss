@@ -1,8 +1,10 @@
-.page-io-web {
-
-  @media screen and (min-width: $grid-breakpoints-lg) {
-    margin-top: -100px;
+.pagename--io-web {
+  #introduzione {
+    min-height: auto !important;
   }
+}
+
+.page-io-web {
 
   margin-bottom: -48px;
 
