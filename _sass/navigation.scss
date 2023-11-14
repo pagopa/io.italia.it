@@ -244,18 +244,10 @@
   }
 }
 
-.btn.accedi {
+.btn.btn-io-web {
 
-  @media screen and (max-width: $grid-breakpoints-sm) {
-      margin-top: 25px !important;
+  @media screen and (max-width: $grid-breakpoints-lg) {
+      margin-top: 50px !important;
   }
 
-  color: white;
-  
-  .icon {
-    fill: white;
-    height: 20px;
-    width: 20px;
-    margin-right: 8px;
-  }
 }
