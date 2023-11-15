@@ -10,6 +10,7 @@ permalink: /io-web/
 
 intro_primary_text: "Accedi"
 intro_primary_link: "https://ioapp.it/it/accedi/"
+intro_primary_onclick: "console.log('accedi_io_onclick')"
 intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg text-uppercase px-3 px-md-5 mr-2"
 disable_br: true
 has_recaptcha: false
@@ -22,6 +23,7 @@ blocca_accesso_io_onclick: "console.log('blocca_accesso_io_onclick')"
 riabilita_accesso_io_link: "https://ioapp.it/it/accedi/"
 riabilita_accesso_io_onclick: "console.log('riabilita_accesso_io_onclick')"
 faq_url: "#faq"
+faq_onclick: "console.log('faq_onclick')"
 ---
 
 {% include io-web.html %}
