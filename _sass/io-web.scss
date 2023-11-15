@@ -29,7 +29,12 @@
   }
 
   .screenshot1 {
-    content: url("/assets/img/io-web/uscire-da-io.png");
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/uscire-da-io.png");
+    }
+    @media screen and (max-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/uscire-da-io-mobile.png");
+    }
   }
 
   .screenshot2 {
@@ -37,7 +42,12 @@
   }
 
   .screenshot3 {
-    content: url("/assets/img/io-web/codice-sblocco.png");
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/codice-sblocco.png");
+    }
+    @media screen and (max-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/codice-sblocco-mobile.png");
+    }
   }
 
 }
