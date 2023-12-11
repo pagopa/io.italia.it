@@ -17,10 +17,10 @@ has_recaptcha: false
 intro_wide: "single"
 
 esci_da_io_link: "https://ioapp.it/it/esci/"
-esci_da_io_onclick: "console.log('esci_da_io_onclick')"
-blocca_accesso_io_onclick: "console.log('blocca_accesso_io_onclick')"
-riabilita_accesso_io_onclick: "console.log('riabilita_accesso_io_onclick')"
+esci_da_io_onclick: ""
+blocca_accesso_io_onclick: ""
+riabilita_accesso_io_onclick: ""
 faq_url: "#faq"
-faq_onclick: "console.log('faq_onclick')"
+faq_onclick: ""
 ---
 {% include io-web.html %}
