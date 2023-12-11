@@ -12,7 +12,7 @@ it:
     anche al nostro team di sviluppo di introdurre nuove funzionalità e servizi sull'app IO per un'esperienza utente sempre più ottimale."
     cat: "1|Generali"
   - title: Se non ho più il mio dispositivo, posso uscire da IO?
-    body: Si, puoi farlo [accedendo a questa pagina](https://ioapp.it/it/esci/). Autenticati con SPID o CIE e segui le indicazioni.
+    body: Sì, puoi farlo [accedendo a questa pagina](https://ioapp.it/it/esci/). Autenticati con SPID o CIE e segui le indicazioni.
     cat: "1|Generali"
   - title: Qual è la differenza tra accesso rapido e accesso ogni 30 giorni?
     body: Nel primo caso, dovrai autenticarti con SPID o CIE solo una volta all’anno o se ti disconnetti dall’app. Tutte le altre volte, per entrare potrai usare solo il codice di sblocco dell’app o il riconoscimento tramite volto o impronta. Se invece scegli di accedere ogni 30 giorni, dovrai autenticarti con SPID o CIE ogni 30 giorni.
