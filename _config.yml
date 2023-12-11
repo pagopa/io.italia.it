@@ -32,7 +32,7 @@ download_url:
   ios: "https://apps.apple.com/it/app/io/id1501681835"
   android: "https://play.google.com/store/apps/details?id=it.pagopa.io.app"
 io_web_login_url: "https://ioapp.it/it/accedi/"
-io_web_login_onclick: "console.log('accedi_io_onclick')"
+io_web_login_onclick: ""
 
 # Build settings
 markdown: kramdown
