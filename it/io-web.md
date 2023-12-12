@@ -10,7 +10,7 @@ permalink: /io-web/
 
 intro_primary_text: "Accedi"
 intro_primary_link: "https://ioapp.it/it/accedi/"
-intro_primary_onclick: "console.log('accedi_io_onclick')"
+intro_primary_onclick: ""
 intro_primary_customclass: "btn btn-sm btn-primary btn-download--bg text-uppercase px-3 px-md-5 mr-2"
 disable_br: true
 has_recaptcha: false
