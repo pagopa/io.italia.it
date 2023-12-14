@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: 4.6
-updated: 28 agosto 2023
+vers: 4.7
+updated: 18 dicembre 2023
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,8 +26,9 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo aggiornato la sezione che riguarda i trasferimenti di dati all'estero;
-- Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
+- Abbiamo introdotto una nuova Funzionalità di remotizzazione dei contenuti presenti nei Messaggi;
+- Abbiamo descritto i trattamenti relativi alla raccolta delle opinioni degli utenti;
+- Abbiamo corretto alcuni refusi, chiarito alcuni trattamenti e migliorato il linguaggio di alcuni articoli.
 
 {:.d-startup}
 Sotto trovi l'informativa completa, che puoi consultare in ogni momento nella sezione "Profilo" dell'app.
@@ -62,7 +63,7 @@ Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune funzio
 **_b) Dati trattati nella sezione "Messaggi"_**
 
 {:.d-more-1}
-I messaggi inviati tramite IO possono contenere dati personali comuni e particolari categorie di dati personali (c.d. “dati sensibili”), compresi dati relativi al tuo stato di salute, in particolare nel caso di messaggi inviati da Servizi connessi all’emergenza epidemiologica da COVID-19.
+L’App IO consente agli Enti che ne fanno richiesta di inviare messaggi a contenuto remoto tramite un’apposita funzionalità sperimentale. Con remoto si intende che, qualora l’Ente decida di utilizzare questa Funzionalità, il contenuto dei messaggi, così come già avviene per gli allegati, rimarrà sempre sui sistemi dell’Ente e sarà visibile soltanto da Te quando deciderai di aprire il messaggio. Questa Funzionalità, inoltre, abilita contenuti dinamici, consentendo agli Enti mittenti di modificare nel tempo i contenuti del messaggio. **IO ti avvisa della presenza di contenuti dinamici e per qualsiasi problema o per esercitare i tuoi diritti in qualità di interessato ai sensi del GDPR, dovrai rivolgerti direttamente all’Ente attraverso i contatti presenti nella relativa scheda Servizio.**
 
 {:.d-more-1}
 Al tuo primo accesso all’app, potrai scegliere quali Servizi possono contattarti e potrai modificare la tua scelta in ogni momento, sia alla voce “Preferenze” della sezione Profilo (passando dalla configurazione rapida a quella manuale, e viceversa), sia nella scheda di ciascun Servizio, in cui potrai anche impostarne i canali (messaggi in app e notifiche push). Sempre alla voce “Preferenze” della sezione Profilo puoi anche impostare la preferenza globale rispetto all’inoltro via email dei messaggi in app, che di default non è attivo. A prescindere dalla Tua scelta, ti ricordiamo che **su IO riceverai solo messaggi a te espressamente indirizzati**.
@@ -75,7 +76,7 @@ Se scegli la _configurazione manuale_, dovrai attivare singolarmente le comunica
 Le preferenze di contatto sono configurate diversamente per i Servizi che richiedono un’iscrizione specifica. Tali Servizi speciali, ad esempio i Bonus, devono essere attivati espressamente e, una volta completata l’iscrizione, non potrai disabilitare la ricezione dei messaggi fino a che non decidi di disiscriverti dal Servizio. Potrai comunque configurare le notifiche push a livello di Servizio e l’inoltro via email dei messaggi a livello globale.
 
 {:.d-more-1}
-Per consentire l’invio delle notifiche push, applichiamo misure di pseudonimizzazione e limitazione del trattamento, ma a seconda del sistema operativo del Tuo dispositivo, il fornitore del servizio di notifica push potrebbe comunque associare a Te un identificativo univoco per poterti consegnare la notifica. Se utilizzi una versione dell’app pari o superiore alla **2.20.0**, puoi scegliere di ricevere su IO notifiche push:
+Per consentire l’invio delle notifiche push, applichiamo misure di pseudonimizzazione e limitazione del trattamento, ma a seconda del sistema operativo del Tuo dispositivo, il fornitore del servizio di notifica push potrebbe comunque associare a Te un identificativo univoco per poterti consegnare la notifica. Puoi scegliere di ricevere su IO notifiche push:
 
 {:.d-more-1}
 
@@ -83,15 +84,18 @@ Per consentire l’invio delle notifiche push, applichiamo misure di pseudonimiz
 - che recano l’indicazione del mittente e dell’oggetto del messaggio, e potrebbero dunque contenere anche indicazioni sul suo contenuto. Ti ricordiamo che se scegli questa opzione, i dati della notifica vengono trattati dal gestore del tuo sistema operativo e da app di terze parti eventualmente in esecuzione sul tuo dispositivo, in qualità di titolari autonomi. Inoltre, a seconda delle impostazioni del tuo dispositivo, il contenuto della notifica potrebbe essere mostrato anche quando lo schermo è bloccato.
 
 {:.d-more-1}
-Puoi sempre modificare la tua scelta nella sezione Preferenze del Tuo Profilo. Se utilizzi una versione inferiore alla 2.20.0, riceverai solo notifiche push dal contenuto generico.
+Puoi sempre modificare la tua scelta nella sezione Preferenze del Tuo Profilo.
+
+{:.d-more-1}
+I messaggi inviati tramite IO possono contenere dati personali comuni, e/o relativi a condanne penali e reati, e/o categorie particolari (c.d. “dati sensibili”), compresi dati relativi al tuo stato di salute, in particolare nel caso di messaggi inviati da Servizi connessi all’emergenza epidemiologica da COVID-19. È responsabilità degli Enti contrassegnare un messaggio e/o un Servizio come potenzialmente veicolante informazioni sensibili, in tal caso verranno propagate notifiche push generiche e il messaggio non ti verrà inoltrato via mail, a prescindere dalle preferenze da te impostate.
 
 {:.d-more-1}
 Per garantire il corretto funzionamento di alcune caratteristiche delle comunicazioni provenienti dai Servizi, e per migliorare l’esperienza utente, raccogliamo e memorizziamo, in qualità di titolari del trattamento, informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti. Questo trattamento è di natura esclusivamente tecnica ed è strettamente necessario per offrire i servizi di comunicazione e per la corretta gestione dei pagamenti, per cui non può essere disabilitato.<br>
-Su richiesta degli Enti, potremmo fornire a questi ultimi, in qualità di responsabili del trattamento, lo stato di lettura dei Messaggi inviati dai propri Servizi e/o lo stato di avvenuto pagamento di un avviso contenuto in un Messaggio, al fine di consentire agli stessi di valutarne l’efficacia, anche al fine di effettuare successive comunicazioni di promemoria agli utenti che non abbiano letto un Messaggio o abbiano un avviso di pagamento in scadenza. Se utilizzi una versione dell’app pari o superiore alla **2.13.0**, puoi disabilitare in ogni momento l’invio dello stato di lettura all’interno di ciascuna scheda Servizio. Se utilizzi una versione inferiore, lo stato di lettura non verrà mai comunicato agli Enti. Se utilizzi una versione dell’app pari o superiore alla **2.20.0** puoi modificare in ogni momento la tua scelta rispetto alla ricezione di promemoria nella sezione Preferenze del tuo Profilo. Se utilizzi una versione inferiore, la funzionalità promemoria è disabilitata.
+Su richiesta degli Enti, potremmo fornire a questi ultimi, in qualità di responsabili del trattamento, lo stato di lettura dei Messaggi inviati dai propri Servizi e/o lo stato di avvenuto pagamento di un avviso contenuto in un Messaggio, al fine di consentire agli stessi di valutarne l’efficacia, anche al fine di effettuare successive comunicazioni di promemoria agli utenti che non abbiano letto un Messaggio o abbiano un avviso di pagamento in scadenza. Ti ricordiamo che  puoi sempre disabilitare l’invio dello stato di lettura all’interno di ciascuna scheda Servizio e modificare in ogni momento la tua scelta rispetto alla ricezione di promemoria nella sezione Preferenze del tuo Profilo..
 
 {:.d-more-1}
-Alcuni Messaggi possono contenere degli allegati o altro contenuto dinamico. In alcuni casi potrai conservare e/o inviare alcune di queste informazioni mediante sistemi e app di terze parti installate nel tuo dispositivo, ad esempio per salvare i file in locale o condividerli con terzi.<br>
-Anche se i Messaggi provengono da Enti che hanno diritto a contattarti, PagoPA non controlla queste informazioni né il loro contenuto. Per questo motivo, per qualsiasi problema, anche con riferimento agli allegati, dovrai rivolgerti all’Ente attraverso i contatti presenti nella relativa scheda Servizio.<br>
+Alcuni Messaggi possono contenere degli allegati. In alcuni casi potrai conservare e/o inviare alcune di queste informazioni mediante sistemi e app di terze parti installate nel tuo dispositivo, ad esempio per salvare i file in locale o condividerli con terzi.<br>
+Anche se i Messaggi provengono da Enti che hanno diritto a contattarti, PagoPA potrebbe non controllare queste informazioni né il loro contenuto, che potrebbero cambiare nel tempo. **Per questo motivo, per qualsiasi problema, anche con riferimento agli allegati, dovrai rivolgerti all’Ente attraverso i contatti presenti nella relativa scheda Servizio.**<br>
 L’utilizzo delle funzionalità di salvataggio e condivisione richiede i permessi di accesso, in lettura e/o scrittura, alla memoria del tuo dispositivo e/o ad app di fornitori terze parti e potrebbe comportare la condivisione di informazioni con tali fornitori e con terzi, secondo i termini e condizioni applicabili. A seconda delle impostazioni del tuo dispositivo, nessun dato potrà essere raccolto e inviato senza la tua espressa autorizzazione. Ti ricordiamo che PagoPA e gli Enti rimarranno estranei a qualsiasi vicenda successiva alla ricezione del messaggio, come il salvataggio e/o la condivisione.
 
 {:.d-more-1}
@@ -133,6 +137,7 @@ Di seguito trovi alcune informazioni importanti sul trattamento dei dati nell’
 
 {:.d-more-1}
 
+- Potremmo utilizzare l’email da te indicata nella sezione Profilo per inviarti comunicazioni importanti relative all’app o al tuo account;
 - Non raccogliamo informazioni biometriche, ma riceviamo dal tuo dispositivo unicamente la conferma se il riconoscimento biometrico è attivo;
 - Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;
 - La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.
@@ -196,6 +201,20 @@ Se scegli di utilizzare Firma con IO, PagoPA tratterà in qualità di titolare, 
   Ti ricordiamo che Firma con IO è una funzionalità sperimentale, come tale non possiamo garantirti che sia esente da malfunzionamenti o errori. La tua opinione è importante per noi, per questo se hai dubbi o suggerimenti ti invitiamo a contattarci cliccando sul punto interrogativo presente in alto a destra di ogni schermata dell’app.
 
 {:.d-more-1}
+**Raccolta dell’opinione degli utenti**
+
+{:.d-more-1}
+In alcuni casi potremmo chiederti di condividere con noi la tua opinione sull’esperienza d’uso, attraverso questionari o indagini. Se scegli di partecipare, potrebbero essere raccolte alcune informazioni che ti riguardano, tra cui:
+
+{:.d-more-1}
+- Le tue risposte alle domande del questionario o dell’indagine;
+- Dati identificativi e di contatto (es. nome e cognome, codice fiscale, indirizzo e-mail, telefono) e altri dati comuni;
+- Ove applicabile, dati relativi al dispositivo, dati di utilizzo, di traffico e connessione raccolti tramite i sistemi di monitoraggio di IO, oppure il cui trattamento è intrinseco nel funzionamento tecnico della comunicazione web.
+
+{:.d-more-1}
+Nel rispetto del principio di minimizzazione del trattamento, ai sensi dell’art. 5 GDPR, tratteremo esclusivamente i dati strettamente necessari per la finalità di monitoraggio del funzionamento, utilizzo del Punto di accesso telematico e miglioramento ed evoluzione dello stesso (ricerca e sviluppo)  e conserveremo le tue risposte soltanto per il tempo necessario alle operazioni di aggregazione.
+
+{:.d-more-1}
 **Sicurezza**
 
 {:.d-more-1}
@@ -224,7 +243,7 @@ In qualità di titolare, PagoPA tratta i seguenti dati, aggregati in modo che no
 {:.d-more-1}
 
 - informazioni sulla distribuzione, adozione, utilizzo e navigazione all’interno dell’app e delle sue funzionalità da parte degli utenti (compresa la fase di autenticazione, le versioni dell'app installate e i servizi della piattaforma pagoPA);
-- informazioni sul dispositivo (ad esempio dettagli sul sistema operativo, dettagli sul modello del dispositivo);
+- informazioni sul dispositivo (ad esempio dettagli sul sistema operativo, dettagli sul modello del dispositivo), traffico e connessione;
 - altre informazioni sulla distribuzione e funzionamento dell’app trasmessi dai gestori degli app store (es. download, utenti unici, eventi di crash e anomalie, utenti nuovi, distribuzione geografica, ecc.).
 
 {:.d-more-1}
@@ -275,7 +294,7 @@ L’interessato ha il diritto di revocare il proprio consenso in qualsiasi momen
 #### 4. Persone autorizzate al trattamento e categorie di destinatari
 
 {:.d-more-1}
-Sia per l’erogazione dei servizi agli Enti sia per lo svolgimento delle operazioni di trattamento proprie di PagoPA, i dati personali saranno trattati da persone a ciò deputate, le quali agiscono in base a specifiche istruzioni e sotto la diretta autorità di PagoPA, comunicati a soggetti appartenenti alle seguenti categorie di destinatari:
+Sia per l’erogazione dei servizi agli Enti sia per lo svolgimento delle operazioni di trattamento proprie di PagoPA, i dati personali saranno trattati da persone a ciò deputate, le quali agiscono in base a specifiche istruzioni e sotto la diretta autorità di PagoPA, e inoltre potrebbero essere comunicati a soggetti appartenenti alle seguenti categorie di destinatari:
 
 {:.d-more-1}
 
@@ -304,7 +323,7 @@ Sono conservati per l'intero ciclo di vita del tuo account, e fino a 3 anni succ
 \* tempi di conservazione differenti potrebbero essere previsti di volta in volta dagli specifici servizi e funzionalità che utilizzano i nostri protocolli di crittografia per autenticarti in modo sicuro. Consulta sempre l’informativa privacy dei servizi per ogni dettaglio.
 
 {:.d-more-1}
-Una volta recapitati nella tua inbox (cioè visibili nella sezione Messaggi di IO), i documenti che possono essere sottoscritti tramite “Firma con IO” sono conservati sui nostri sistemi e rimangono a tua disposizione per la firma per il lasso di tempo determinato dall’Ente e indicato nel messaggio. Dopo la sottoscrizione, potrai accedere ai documenti, inoltrarli o condividerli per i successivi 90 giorni, dopodiché verranno rimossi dai nostri sistemi. Il certificato di firma e le altre informazioni soggette a conservazione a norma sono conservati per 20 anni presso il fornitore di servizi fiduciari qualificati che ha emesso il certificato di firma. Ti invitiamo a consultare le informative privacy messe a disposizione dagli Enti e dai fornitori di servizi fiduciari qualificati per conoscere i tempi di conservazione delle altre informazioni, compresi i dati personali, trattate in connessione con le operazioni di firma.
+Una volta recapitati nella tua inbox (cioè visibili nella sezione Messaggi di IO), i documenti che possono essere sottoscritti tramite “Firma con IO” sono conservati sui nostri sistemi e rimangono a tua disposizione per la firma per il lasso di tempo determinato dall’Ente e indicato nel messaggio. Dopo la sottoscrizione, potrai accedere ai documenti, inoltrarli o condividerli per i successivi 90 giorni, dopodiché verranno rimossi dai nostri sistemi. Il certificato di firma e le altre informazioni soggette a conservazione a norma sono conservati per 20 anni presso il fornitore di servizi fiduciari qualificati che ha emesso il certificato di firma. Ti invitiamo a consultare le informative privacy messe a disposizione dagli Enti e dal fornitore di servizi fiduciari qualificati per conoscere i tempi di conservazione delle altre informazioni, compresi i dati personali, trattate in connessione con le operazioni di firma.
 
 {:.d-more-1}
 I dati trattati in ragione delle attività di assistenza vengono generalmente conservati per i 12 mesi successivi alla risoluzione del problema (corrispondente alla chiusura del relativo ticket). Fanno eccezione (i) i dati contenuti nelle richieste di esercizio dei diritti in materia di protezione dei dati personali, e (ii) i dati contenuti in richieste di assistenza di secondo e terzo livello, che possono essere conservati fino a 10 anni dalla risoluzione della problematica per finalità di audit interno ed esterno, compresa la possibilità di dare prova agli utenti della gestione delle loro richieste.
@@ -384,10 +403,10 @@ _e) Diritto di opposizione al trattamento_
 Per motivi connessi a una situazione particolare che ti riguarda, ti puoi opporre all'ulteriore trattamento dei tuoi dati personali, basato sull’esercizio di un compito di interesse pubblico, salvo il caso in cui PagoPA dimostri l'esistenza di motivi legittimi cogenti alla prosecuzione dell'attività di trattamento che prevalgono sui tuoi interessi, diritti e libertà, ovvero per l'accertamento, l’esercizio o la difesa di un diritto in sede giudiziaria.
 
 {:.d-more-1}
-_g) Diritto di proporre reclamo a un’autorità di controllo_
+_g) Diritto di proporre reclamo ad un’autorità di controllo_
 
 {:.d-more-1}
-Nel caso in cui ritieni che un trattamento violi il GDPR hai il diritto di proporre reclamo a un’autorità di controllo, in special modo nello Stato membro in cui risiedi abitualmente, lavori oppure del luogo in cui si è verificata la presunta violazione (in Italia, il Garante per la Protezione dei Dati Personali - [gpdp.it](https://www.gpdp.it), fatto salvo ogni altro ricorso amministrativo o giurisdizionale.
+Nel caso in cui ritieni che un trattamento violi il GDPR hai il diritto di proporre reclamo ad un’autorità di controllo, nello Stato membro in cui risiedi abitualmente, lavori oppure del luogo in cui si è verificata la presunta violazione (in Italia, il Garante per la Protezione dei Dati Personali - [gpdp.it](https://www.gpdp.it), fatto salvo ogni altro ricorso amministrativo o giurisdizionale.
 
 {:.d-more-1}
 
@@ -426,6 +445,8 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 
 {:.d-startup}
 
+- Abbiamo descritto i casi di modifica unilaterale delle presenti condizioni;
+- Abbiamo introdotto una sezione che regola la nuova Funzionalità di remotizzazione dei contenuti presenti nei Messaggi;
 - Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
@@ -484,7 +505,7 @@ Per accedere a IO, dopo la prima autenticazione con le Tue credenziali, Ti verr�
 _b) Età_
 
 {:.d-more-2}
-Al momento l’App IO è disponibile solo per coloro che abbiano compiuto il quattordicesimo anno d’età. Tieni inoltre presente che alcuni Servizi o alcune Funzionalità di IO potrebbero non essere disponibili se hai meno di 18 anni.
+Al momento l’App IO è disponibile solo per coloro che abbiano compiuto il diciottesimo anno d’età.
 
 {:.d-more-2}
 _c) Dispositivi e software_
@@ -532,6 +553,7 @@ _a) Messaggi da parte degli Enti_
 L’App IO, attraverso la Funzionalità “**Messaggi**”, Ti permette di ricevere comunicazioni, notifiche e avvisi di pagamento da parte degli Enti in relazione ai singoli Servizi al Cittadino. Riceverai solo Messaggi indirizzati espressamente a Te e solo per quei Servizi che avrai attivato.<br>
 A seconda del Servizio, questa Funzionalità potrebbe permettere la visualizzazione, la conservazione e la condivisione di diverse categorie di dati personali, inclusi quelli relativi allo stato del messaggio o del pagamento, al Tuo stato di salute, alla Tua posizione reddituale o alla Tua appartenenza a fasce o categorie sociali. Per informazioni sul trattamento dei Tuoi dati, consulta la nostra Informativa Privacy e i Termini Aggiuntivi del Servizio.<br>
 Ad eccezione dei Messaggi provenienti da “IO - l’app dei servizi pubblici”, con riferimento ai Messaggi inviati dagli Enti, Noi non verifichiamo né siamo responsabili del contenuto, della tempistica o dell’accuratezza dei Messaggi stessi. Pertanto, se hai dubbi o domande a questo riguardo, Ti preghiamo di rivolgerTi direttamente all’Ente interessato tramite i canali di contatto che trovi in ciascuna scheda Servizio.<br>
+L’App IO, attraverso la Funzionalità sperimentale dei Messaggi a contenuto remotizzato, Ti permette di ricevere comunicazioni da parte degli Enti che scelgono di veicolare il contenuto dei messaggi in forma remotizzata. Ti ricordiamo che al momento questa Funzionalità consente agli Enti mittenti di modificare nel tempo i contenuti del messaggio. **Anche se l'App IO Ti avvisa con un banner della possibilità che un messaggio a contenuto dinamico possa cambiare nel tempo, la responsabilità del suo contenuto, con particolare riferimento alla sua accuratezza e disponibilità, è esclusivamente in capo all'Ente mittente, senza che la Società possa essere ritenuta in alcun modo responsabile per eventuali errori e/o per i danni direttamente e/o indirettamente collegati al suo utilizzo.** Per questo motivo, per qualsiasi problema, dovrai rivolgerTi all’Ente attraverso i contatti presenti nella relativa scheda Servizio.<br>
 Tieni presente che i Messaggi che puoi ricevere tramite l’App IO non sostituiscono e non esauriscono i mezzi e le modalità di comunicazione a disposizione degli Enti per comunicare con Te. Restano salvi, pertanto, il contenuto e gli effetti delle altre comunicazioni che Ti saranno eventualmente inviate dagli Enti tramite altri canali, sia digitali che tradizionali.
 
 {:.d-more-2}
@@ -560,7 +582,7 @@ _d) Servizi di pagamento e integrazione con la Piattaforma pagoPA_
 
 {:.d-more-2}
 Tramite l’integrazione con la Piattaforma pagoPA, l’App IO Ti consente di eseguire le operazioni di pagamento verso gli Enti nonché di utilizzare i servizi della Piattaforma pagoPA, ivi incluso salvare e gestire i Tuoi metodi di pagamento preferiti all’interno della sezione Portafoglio di IO, ad esempio per effettuare più rapidamente successive operazioni di pagamento o per accedere ad ulteriori Servizi al Cittadino e Funzionalità di IO.<br>
-Ti ricordiamo che quando esegui dei pagamenti verso gli Enti tramite l’integrazione con la Piattaforma pagoPA, l’App IO può solo avvisarti del buon esito della transazione, ma non ancora dell’effettiva chiusura della tua posizione debitoria, per la quale dovrai rivolgerti all’Ente creditore.<br>
+Ti ricordiamo che quando esegui dei pagamenti verso gli Enti tramite l’integrazione con la Piattaforma pagoPA, l’App IO può solo avvisarti dell'esito della transazione. **Per la quietanza di pagamento, con effetto liberatorio ai sensi di legge, invece, dovrai sempre rivolgerti all’Ente creditore.** <br>
 All’interno della sezione Portafoglio potrai sempre visualizzare e gestire la Tua adesione ai Servizi degli Enti e alle Funzionalità di IO, compresi i Bonus. In alcuni casi e per alcuni Servizi erogati tramite IO che danno diritto a richiedere un pagamento a Tuo favore da parte di un Ente, la Piattaforma pagoPA può verificare l’IBAN da Te inserito al fine di evitare errori di versamento.
 
 {:.d-more-2}
@@ -670,8 +692,17 @@ Tutti gli elementi relativi alla Piattaforma IO, all’App IO e alla Piattaforma
 #### **8.** Modifiche ai ToS
 
 {:.d-more-2}
-Siamo sempre al lavoro per offrirTi nuove funzionalità e per migliorare IO, per questo, i presenti ToS potrebbero cambiare nel tempo. Revisioni e/o modifiche saranno sempre pubblicate nell’App IO e all’indirizzo[io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html). Nel caso in cui si tratti di modifiche unilaterali, che non richiedano una tua espressa accettazione, provvederemo a comunicartele con un preavviso di 15 giorni rispetto all’entrata in vigore, all'interno dell'App IO.<br>
-Ricorda che se installi una nuova versione di IO, o continui a utilizzare l’App o i Servizi IO, o manifesti in modalità informatica il Tuo consenso e accettazione (ove applicabile), Tu accetti le modifiche ai presenti ToS. Se non intendi accettare le modifiche, come unico rimedio potrai in qualsiasi momento, per qualsiasi motivo, senza alcun preavviso e senza alcun costo o onere, cessare l’utilizzo dell’App IO e dei Servizi IO, rimuovendo l’App IO dai dispositivi sui quali è stata installata.<br>
+Siamo sempre al lavoro per offrirTi nuove funzionalità e per migliorare IO, per questo, i presenti ToS potrebbero cambiare nel tempo. Revisioni e/o modifiche saranno sempre pubblicate nell’App IO e all’indirizzo [io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html).<br> 
+PagoPA S.p.A può modificare unilateralmente i presenti ToS per i seguenti giustificati motivi, al fine di:
+- i) sopravvenute esigenze tecniche e gestionali;
+- ii) intervenuti mutamenti del quadro normativo/regolamentare che richiedano un adattamento dei presenti ToS;
+- iii) adeguare i presenti ToS a qualsiasi decisione emessa da un tribunale, da un’associazione dei consumatori o da qualsiasi altra autorità competente, che riguardi il contenuto dell’App IO;
+- iv) prevenire abusi o danni per ragioni di sicurezza;
+- v) riflettere i cambiamenti e gli sviluppi dell’App IO. 
+
+{:.d-more-2}
+Fermo restando quanto sopra, nel caso in cui si tratti di modifiche unilaterali che incidono in modo sostanziale e strutturale sui tuoi diritti ed obblighi rispetto all’uso di IO, provvederemo a comunicartele con un preavviso di 15 (quindici) giorni rispetto all’entrata in vigore, all'interno dell'App IO.<br>
+Se continui a utilizzare l'App o i Servizi IO dopo l'entrata in vigore delle modifiche ai presenti ToS, considereremo ciò come un'accettazione da parte Tua. Se non intendi accettare le modifiche, come unico rimedio potrai in qualsiasi momento, per qualsiasi motivo, senza alcun preavviso e senza alcun costo o onere, cessare l’utilizzo dell’App IO e dei Servizi IO, rimuovendo l’App IO dai dispositivi sui quali è stata installata.<br>
 Ricorda che i Termini Aggiuntivi sono applicati dagli Enti e da Terze Parti e portati a Tua conoscenza anche tramite l’App IO, ma non sono controllati da noi. Rispetto alla disponibilità e a qualsiasi variazione dei Termini Aggiuntivi, pertanto, Noi non saremo responsabili nei Tuoi confronti. Se hai dubbi o domande a questo riguardo, Ti chiediamo di rivolgerTi direttamente all’Ente o alla Terza Parte interessata.
 
 {:.d-more-2}
@@ -694,7 +725,7 @@ I presenti ToS sono regolati dalla legge italiana. Ogni controversia che dovesse
 Nelle ipotesi in cui l’Utente non sia qualificato quale consumatore ai sensi del d.lgs. n. 206/2005, le controversie relative ai presenti ToS e/o all’App IO saranno di competenza esclusiva del foro di Roma.
 
 {:.d-more-2}
-I presenti ToS sono sempre consultabili all’interno dell’app, nella sezione "Profilo" sotto "Privacy e condizioni d’uso".
+I presenti ToS sono sempre consultabili all’interno dell’app, nella sezione "Profilo" sotto "Privacy e Condizioni d’uso".
 
 {:.d-more-2}
-Ai sensi degli articoli 1341 e 1342 del codice civile, cliccando sul tasto “Accetta” l’Utente dichiara espressamente di aver letto, compreso e accettato i seguenti articoli dei presenti termini e condizioni d’uso: **(2.b) Età**; **(3.c) Bonus**; **(3.f) Sottoscrizione di documenti in app**; **(4) I Servizi al Cittadino e i servizi di Terze Parti**; **(5) Responsabilità e obblighi dell’Utente**; **(6) Esclusioni e limitazione di responsabilità di PagoPA S.p.A.**; **(8) Modifiche ai ToS**; **(9) Recesso**; e **(10) Foro competente e legge applicabile**.
+Ai sensi degli articoli 1341 e 1342 del codice civile, cliccando sul tasto “Accetta” l’Utente dichiara espressamente di aver letto, compreso e accettato i seguenti articoli dei presenti termini e condizioni d’uso: **(2.b) Età**; **(3.c) Bonus**; **(3.f) Sottoscrizione di documenti in app (beta)**; **(4) I Servizi al Cittadino e i servizi di Terze Parti**; **(5) Responsabilità e obblighi dell’Utente**; **(6) Esclusioni e limitazione di responsabilità di PagoPA S.p.A.**; **(8) Modifiche ai ToS**; **(9) Recesso**; e **(10) Foro competente e legge applicabile**.
