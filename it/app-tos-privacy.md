@@ -692,13 +692,15 @@ Tutti gli elementi relativi alla Piattaforma IO, all’App IO e alla Piattaforma
 #### **8.** Modifiche ai ToS
 
 {:.d-more-2}
-Siamo sempre al lavoro per offrirTi nuove funzionalità e per migliorare IO, per questo, i presenti ToS potrebbero cambiare nel tempo. Revisioni e/o modifiche saranno sempre pubblicate nell’App IO e all’indirizzo [io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html).<br> 
-PagoPA S.p.A può modificare unilateralmente i presenti ToS per i seguenti giustificati motivi, al fine di:
-- i) sopravvenute esigenze tecniche e gestionali;
-- ii) intervenuti mutamenti del quadro normativo/regolamentare che richiedano un adattamento dei presenti ToS;
-- iii) adeguare i presenti ToS a qualsiasi decisione emessa da un tribunale, da un’associazione dei consumatori o da qualsiasi altra autorità competente, che riguardi il contenuto dell’App IO;
-- iv) prevenire abusi o danni per ragioni di sicurezza;
-- v) riflettere i cambiamenti e gli sviluppi dell’App IO. 
+Siamo sempre al lavoro per offrirTi nuove funzionalità e per migliorare IO, per questo, i presenti ToS potrebbero cambiare nel tempo. Revisioni e/o modifiche saranno sempre pubblicate nell’App IO e all’indirizzo [io.italia.it/app-content/tos_privacy.html](https://io.italia.it/app-content/tos_privacy.html).<br/>PagoPA S.p.A può modificare unilateralmente i presenti ToS per i seguenti giustificati motivi, al fine di:
+
+{:.d-more-2}
+
+- (i) sopravvenute esigenze tecniche e gestionali;
+- (ii) intervenuti mutamenti del quadro normativo/regolamentare che richiedano un adattamento dei presenti ToS;
+- (iii) adeguare i presenti ToS a qualsiasi decisione emessa da un tribunale, da un’associazione dei consumatori o da qualsiasi altra autorità competente, che riguardi il contenuto dell’App IO;
+- (iv) prevenire abusi o danni per ragioni di sicurezza;
+- (v) riflettere i cambiamenti e gli sviluppi dell’App IO. 
 
 {:.d-more-2}
 Fermo restando quanto sopra, nel caso in cui si tratti di modifiche unilaterali che incidono in modo sostanziale e strutturale sui tuoi diritti ed obblighi rispetto all’uso di IO, provvederemo a comunicartele con un preavviso di 15 (quindici) giorni rispetto all’entrata in vigore, all'interno dell'App IO.<br>
