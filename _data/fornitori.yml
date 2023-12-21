@@ -68,7 +68,7 @@ items:
     luogo: "Germania\n\n"
     garanzie: "N/A"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/LimeSurvey_DPA_jul%202022.pdf)"
-  -
+  - 
     fornitore: "Qualtrics LLC\n\n
     (subfornitore di Softlab)"
     attivita: "Servizio per form, moduli e questionari online"
@@ -78,7 +78,7 @@ items:
     - clausole contrattuali standard della Commissione Europea\n\n
     - misure supplementari di tipo contrattuale, tecnico e organizzativo"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/Qualtrics_DPA_2023.pdf)"
-    - 
+  - 
     fornitore: "Microsoft Ireland Operations Limited"
     attivita: "Hosting infrastruttura e servizi di cloud computing"
     dati: "Tutti i dati degli utenti necessari per il funzionamento dell'App IO"
