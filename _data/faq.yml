@@ -25,12 +25,12 @@ it:
 
     - Livello di sicurezza 1: richiede un nome utente e una password;
 
-    - livello di sicurezza 2: richiede un nome utente e una password, o accesso tramite app se il fornitore di identità digitale lo prevede, ma si aggiunge un ulteriore passaggio di verifica (es. un codice OTP);
+    - livello di sicurezza 2: richiede un nome utente e una password, ma si aggiunge un ulteriore passaggio di verifica (per esempio un codice OTP o l’accesso tramite app se il fornitore di identità digitale lo prevede);
 
-    - livello di sicurezza 3: richiede un un nome utente, una password e un supporto fisico, come ad esempio la CIE.
+    - livello di sicurezza 3: nel caso della CIE richiede un nome utente, una password e un supporto fisico; nel caso dello SPID richiede un nome utente, una password, l’accesso tramite app se il fornitore di identità digitale lo prevede e un ulteriore PIN.
 
 
-    Per maggiori informazioni sui livelli di sicurezza della CIE, [visita questo sito](https://www.cartaidentita.interno.gov.it/info-utili/identificazione-digitale/#:~:text=livello%201%3A%20accesso%20mediante%20una,per%20la%20lettura%20della%20CIE). Per maggiori informazioni sui livelli di sicurezza di SPID, visita il sito del tuo provider."
+    Per le informazioni sui livelli di sicurezza di SPID, visita il sito del tuo Identity Provider. Per maggiori informazioni sui livelli di sicurezza della CIE, [visita questo sito](https://www.cartaidentita.interno.gov.it/info-utili/identificazione-digitale/#:~:text=livello%201%3A%20accesso%20mediante%20una,per%20la%20lettura%20della%20CIE)."
     cat: "1|Generali"
   - title: Cosa significa che l'app è disponibile negli store in versione open beta? 
     body: "Dal marzo 2019 circa duemila cittadini in diversi territori hanno sperimentato l’app in versione _closed-beta_ (beta “chiusa”): abbiamo dato la possibilità a un numero limitato di persone,\
