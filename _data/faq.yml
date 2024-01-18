@@ -12,7 +12,7 @@ it:
     anche al nostro team di sviluppo di introdurre nuove funzionalità e servizi sull’app IO per un’esperienza utente sempre più ottimale."
     cat: "1|Generali"
   - title: Se non ho più il mio dispositivo, posso uscire da IO?
-    body: Sì, puoi farlo [accedendo a questa pagina](https://ioapp.it/it/esci/). Autenticati con SPID o CIE e segui le indicazioni.
+    body: Sì, in caso di furto o smarrimento del tuo dispositivo, puoi uscire da IO [accedendo a questa pagina](https://ioapp.it/it/esci/). Autenticati con SPID o CIE e segui le indicazioni.
     cat: "1|Generali"
   - title: Qual è la differenza tra accesso rapido e accesso ogni 30 giorni?
     body: Nel primo caso, dovrai autenticarti con SPID o CIE solo una volta all’anno o se ti disconnetti dall’app. Tutte le altre volte, per entrare potrai usare solo il codice di sblocco dell’app o il riconoscimento tramite volto o impronta. Se invece scegli di accedere ogni 30 giorni, dovrai autenticarti con SPID o CIE ogni 30 giorni.
@@ -20,17 +20,17 @@ it:
   - title: Se scelgo di autenticarmi ogni 30 giorni o una volta l’anno, posso poi modificare la scelta?
     body: Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Profilo dell’app e e premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti.
     cat: "1|Generali"
-  - title: Cosa sono i livelli di sicurezza?
+  - title: Cosa sono i livelli di sicurezza di un’identità digitale?
     body: "Ogni identità digitale, come SPID e CIE, è associata a uno o più livelli di sicurezza. Esistono tre livelli di sicurezza:
 
     - Livello di sicurezza 1: richiede un nome utente e una password;
 
-    - livello di sicurezza 2: richiede un nome utente e una password, ma si aggiunge un ulteriore passaggio di verifica (per esempio un codice OTP o l’accesso tramite app se il fornitore di identità digitale lo prevede);
+    - livello di sicurezza 2: richiede un nome utente e una password, ma si aggiunge un ulteriore passaggio di verifica (per esempio un codice OTP via SMS), oppure l’accesso tramite app se il fornitore di identità digitale lo prevede;
 
-    - livello di sicurezza 3: nel caso della CIE richiede un nome utente, una password e un supporto fisico; nel caso dello SPID richiede un nome utente, una password, l’accesso tramite app se il fornitore di identità digitale lo prevede e un ulteriore PIN.
+    - livello di sicurezza 3: richiede l'utilizzo fisico della Carta di Identità Elettronica e un dispositivo capace di leggerla, come ad esempio, uno smartphone con tecnologia NFC. Per SPID, richiede un ulteriore passaggio di sicurezza rispetto al livello di sicurezza 2, come ad esempio l’inserimento di un PIN. Non tutti i fornitori di identità digitale SPID supportano il livello di sicurezza 3.
 
 
-    Per le informazioni sui livelli di sicurezza di SPID, visita il sito del tuo Identity Provider. Per maggiori informazioni sui livelli di sicurezza della CIE, [visita questo sito](https://www.cartaidentita.interno.gov.it/info-utili/identificazione-digitale/#:~:text=livello%201%3A%20accesso%20mediante%20una,per%20la%20lettura%20della%20CIE)."
+    Per conoscere il tuo livello di sicurezza SPID, chiedi al tuo Identity Provider. Per maggiori informazioni sui livelli di sicurezza della CIE, [visita questo sito](https://www.cartaidentita.interno.gov.it/info-utili/identificazione-digitale/#:~:text=livello%201%3A%20accesso%20mediante%20una,per%20la%20lettura%20della%20CIE)."
     cat: "1|Generali"
   - title: Cosa significa che l'app è disponibile negli store in versione open beta? 
     body: "Dal marzo 2019 circa duemila cittadini in diversi territori hanno sperimentato l’app in versione _closed-beta_ (beta “chiusa”): abbiamo dato la possibilità a un numero limitato di persone,\
