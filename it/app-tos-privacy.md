@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: 4.7
-updated: 18 dicembre 2023
+vers: 4.8
+updated: 29 gennaio 2024
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,8 +26,8 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo introdotto una nuova Funzionalità di remotizzazione dei contenuti presenti nei Messaggi;
-- Abbiamo descritto i trattamenti relativi alla raccolta delle opinioni degli utenti;
+- Abbiamo introdotto una funzionalità di notifica che ti invia un’email ogni volta che accedi ad IO con la tua identità digitale;
+- Abbiamo introdotto una nuova funzionalità sperimentale e facoltativa che ti consente di autenticarti in app in tutta sicurezza senza inserire le credenziali SPID/CIE per un tempo massimo di 1 anno;
 - Abbiamo corretto alcuni refusi, chiarito alcuni trattamenti e migliorato il linguaggio di alcuni articoli.
 
 {:.d-startup}
@@ -51,13 +51,14 @@ La validità di questa informativa è limitata all’utilizzo delle funzionalit�
 #### 1. Categorie di dati trattati e finalità
 
 {:.d-more-1}
-**_a) Dati trattati al momento dell'autenticazione_**
+**_a) Dati trattati al momento dell'identificazione e dell'autenticazione_**
 
 {:.d-more-1}
 Per usare IO devi accedere tramite la tua identità digitale (SPID o CIE). IO ottiene direttamente dal fornitore dell’identità digitale i dati necessari alla tua identificazione.<br>
 Questi dati vengono trattati da PagoPA in qualità di titolare del trattamento per permetterti di utilizzare l'app IO, le sue funzionalità e i servizi forniti dagli Enti, e vengono memorizzati per permetterti di gestire le tue preferenze (cfr. sotto la sezione _Dati trattati nella sezione "Profilo"_).<br>
 Tra questi, gli Enti utilizzeranno il tuo codice fiscale per raggiungerti tramite l'app IO.<br>
-Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune funzionalità dell’app, IO genera sul tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche. Queste attività costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo tu ad autorizzare specifiche operazioni. Se accedi a IO a seguito di un reindirizzamento da una terza parte, PagoPA e/o la terza parte potrebbero trattare e conservare i dati necessari per consentire la comunicazione e garantirne la sicurezza (ad esempio, il tuo indirizzo IP).
+Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune funzionalità dell’app, IO genera sul tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche associate alla tua identità. Queste attività costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo tu ad autorizzare specifiche operazioni. Inoltre, se scegli di abilitare la funzionalità sperimentale “Login Veloce”, le chiavi crittografiche possono essere utilizzate per consentirti di accedere in app in tutta sicurezza senza inserire nuovamente le tue credenziali per un tempo massimo di 1 anno.<br> 
+Se accedi a IO a seguito di un reindirizzamento da una terza parte, PagoPA e/o la terza parte potrebbero trattare e conservare i dati necessari per consentire la comunicazione e garantirne la sicurezza (ad esempio, il tuo indirizzo IP).
 
 {:.d-more-1}
 **_b) Dati trattati nella sezione "Messaggi"_**
@@ -137,7 +138,7 @@ Di seguito trovi alcune informazioni importanti sul trattamento dei dati nell’
 
 {:.d-more-1}
 
-- Potremmo utilizzare l’email da te indicata nella sezione Profilo per inviarti comunicazioni importanti relative all’app o al tuo account;
+- Potremmo utilizzare l’email da te indicata nella sezione Profilo per inviarti comunicazioni importanti relative all’app o al tuo account. Tra queste, ti segnaliamo che riceverai un’email a ogni accesso effettuato su IO tramite SPID o CIE: se rilevi un accesso non autorizzato, puoi bloccare il profilo seguendo il link contenuto nella comunicazione e-mail;
 - Non raccogliamo informazioni biometriche, ma riceviamo dal tuo dispositivo unicamente la conferma se il riconoscimento biometrico è attivo;
 - Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;
 - La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.
@@ -329,7 +330,8 @@ Una volta recapitati nella tua inbox (cioè visibili nella sezione Messaggi di I
 I dati trattati in ragione delle attività di assistenza vengono generalmente conservati per i 12 mesi successivi alla risoluzione del problema (corrispondente alla chiusura del relativo ticket). Fanno eccezione (i) i dati contenuti nelle richieste di esercizio dei diritti in materia di protezione dei dati personali, e (ii) i dati contenuti in richieste di assistenza di secondo e terzo livello, che possono essere conservati fino a 10 anni dalla risoluzione della problematica per finalità di audit interno ed esterno, compresa la possibilità di dare prova agli utenti della gestione delle loro richieste.
 
 {:.d-more-1}
-I dati di log delle richieste di accesso tramite SPID/CIE sono conservati per 24 mesi dall’invio della richiesta di autenticazione, nel rispetto delle prescrizioni di legge.
+I dati di log delle richieste di accesso tramite SPID/CIE sono conservati per 24 mesi dall’invio della richiesta di identificazione, nel rispetto delle prescrizioni di legge.<br>
+Se abiliti la funzionalità sperimentale “Login Veloce”, le richieste di autenticazione effettuate verso i nostri sistemi tramite le chiavi crittografiche associate alla tua identità verranno conservate per 24 mesi.
 
 {:.d-more-1}
 I dati trattati in ragione delle attività di debug e diagnostica sono generalmente conservati per 24 mesi. I dati contenuti negli altri log tecnici sono di norma conservati per 90 giorni.<br>
@@ -445,8 +447,8 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 
 {:.d-startup}
 
-- Abbiamo descritto i casi di modifica unilaterale delle presenti condizioni;
-- Abbiamo introdotto una sezione che regola la nuova Funzionalità di remotizzazione dei contenuti presenti nei Messaggi;
+- Abbiamo introdotto una nuova funzionalità sperimentale e facoltativa che ti consente di autenticarti in app in tutta sicurezza senza inserire le credenziali SPID/CIE per un tempo massimo di 1 anno;
+- Abbiamo introdotto una funzionalità che ti consente di effettuare da web il logout remoto o bloccare l’accesso a IO in caso di usi non autorizzati della tua identità digitale;
 - Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
@@ -495,11 +497,11 @@ In generale, ricorda sempre che:
 IO Ti permette di accedere ai Servizi erogati dagli Enti. IO rappresenta un canale complementare agli altri canali (digitali e tradizionali) già utilizzati dagli Enti per comunicare e fornire i propri servizi ai cittadini. La Società, quindi, ​non si sostituisce agli Enti, bensì li supporta nell’erogazione dei propri servizi, che restano nella loro disponibilità e responsabilità esclusiva.
 
 {:.d-more-2}
-_a) Autenticazione, accesso e sicurezza_
+_a) Identificazione, autenticazione, accesso e sicurezza_
 
 {:.d-more-2}
-Per accedere a IO devi essere in possesso di uno strumento valido per l’autenticazione della Tua Identità Digitale riconosciuto dalla normativa vigente e rilasciato da un soggetto abilitato. Gli strumenti per l’autenticazione di un’Identità Digitale (es. SPID, CIE) non possono essere attivati tramite l’App IO, ma devono essere da Te richiesti e ottenuti, ricorrendone i requisiti, tramite i soggetti abilitati.<br>
-Per accedere a IO, dopo la prima autenticazione con le Tue credenziali, Ti verrà chiesto di impostare un codice di sblocco e, se il Tuo dispositivo lo consente, di usare la funzione di riconoscimento biometrico. Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune Funzionalità dell'App, IO genera sul Tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche. Queste operazioni costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo Tu ad accedere al Tuo account. Ricorda che Sei l’unico responsabile della sicurezza del Tuo Account e del Tuo dispositivo, e per questo è importante che le informazioni relative al Tuo Account (comprese le credenziali di accesso) non vengano condivise con altre persone.
+Per accedere a IO devi essere in possesso di un’Identità Digitale, cioè di uno strumento valido per l’identificazione informatica riconosciuto dalla normativa vigente e rilasciato da un soggetto abilitato. Gli strumenti per l’identificazione informatica (es. SPID, CIE) non possono essere attivati tramite l’App IO, ma devono essere da Te richiesti e ottenuti, ricorrendone i requisiti, tramite i soggetti abilitati.<br>
+Per accedere a IO, dopo la prima identificazione con le Tue credenziali, Ti verrà chiesto di impostare un codice di sblocco e, se il Tuo dispositivo lo consente, di usare la funzione di riconoscimento biometrico. Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune Funzionalità dell'App, IO genera sul Tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche. Queste operazioni costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo Tu ad accedere al Tuo account. Se decidi di attivare la Funzionalità sperimentale di “Login Veloce”, non dovrai più reinserire le credenziali di accesso alla Tua Identità Digitale per 1 anno, in quanto verranno verificate le chiavi crittografiche già memorizzate sul Tuo dispositivo, per consentirti di accedere in tutta sicurezza. Ricorda che Sei l’unico responsabile della sicurezza del Tuo Account e del Tuo dispositivo, e per questo è importante che le informazioni relative al Tuo Account (comprese le credenziali di accesso) non vengano condivise con altre persone.
 
 {:.d-more-2}
 _b) Età_
@@ -529,7 +531,7 @@ In questa sezione puoi trovare anche un fac-simile del Tuo codice fiscale, ma ri
 Nella sezione Preferenze del Tuo Profilo puoi visualizzare in ogni momento le impostazioni dell’App IO e le informazioni relative al Tuo Account. Ricorda che alcune di queste informazioni non possono essere modificate all’interno dell’App, ad esempio perché sono associate alla Tua Identità Digitale.
 
 {:.d-more-2}
-Nella sezione Preferenze puoi anche visualizzare e gestire l’indirizzo e-mail su cui ricevere le comunicazioni relative al Tuo Account e su cui vuoi ricevere l’inoltro dei Messaggi che gli Enti ti inviano su IO. Poiché tutte le comunicazioni su IO sono personali, **ricordati di inserire un indirizzo e-mail valido e personale, a cui hai accesso solo Tu!**
+Nella sezione Preferenze puoi anche visualizzare e gestire l’indirizzo e-mail su cui ricevere le comunicazioni relative al Tuo Account e su cui vuoi ricevere l’inoltro dei Messaggi che gli Enti ti inviano su IO. A questo indirizzo Ti segnaliamo inoltre ogni accesso effettuato su IO: se rilevi un accesso non autorizzato, puoi bloccare il profilo seguendo il link contenuto nella comunicazione e-mail. Poiché tutte le comunicazioni su IO sono personali, **ricordati di inserire un indirizzo e-mail valido e personale, a cui hai accesso solo Tu!**
 
 {:.d-more-2}
 _e) Costi_
@@ -642,7 +644,9 @@ L’Utente si impegna, in particolare, a non utilizzare, direttamente o indirett
 _b) Sicurezza dell’Account e dei dispositivi_
 
 {:.d-more-2}
-La sicurezza del Tuo Account è importante, e per questo non devi condividere con nessuno i dati ad esso relativi, comprese le password, il codice di sblocco per accedere all’App IO, le informazioni relative ai Tuoi metodi di pagamento o i codici univoci personali (ad esempio relativi a Bonus che hai richiesto). Ricorda che Tu sei l’unico responsabile della sicurezza dei Tuoi dispositivi e del Tuo Account, e Sei tenuto a comunicarci tempestivamente eventuali utilizzi e/o accessi non autorizzati o violazioni della sicurezza relativi al Tuo Account o alle Funzionalità di IO, scrivendo a <dpo@pagopa.it> o compilando il [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8). Se la violazione riguarda i Tuoi metodi di pagamento, Ti suggeriamo di contattare immediatamente il PSP interessato (ad es. la Tua banca).<br>
+La sicurezza del Tuo Account è importante, e per questo non devi condividere con nessuno i dati ad esso relativi, comprese le password, il codice di sblocco per accedere all’App IO, le informazioni relative ai Tuoi metodi di pagamento o i codici univoci personali (ad esempio relativi a Bonus che hai richiesto). <br> 
+**Se smarrisci il Tuo dispositivo, perdi il controllo delle credenziali oppure credi che qualcuno stia utilizzando la Tua Identità Digitale, devi immediatamente effettuare il logout remoto o bloccare nuovi accessi a IO tramite il sito [ioapp.it](https://ioapp.it)**.<br>
+Ricorda che Tu sei l’unico responsabile della sicurezza dei Tuoi dispositivi e del Tuo Account, e Sei tenuto a comunicarci tempestivamente eventuali utilizzi e/o accessi non autorizzati o violazioni della sicurezza relativi al Tuo Account o alle Funzionalità di IO, scrivendo a <dpo@pagopa.it> o compilando il [modulo online](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8). Se la violazione riguarda i Tuoi metodi di pagamento, Ti suggeriamo di contattare immediatamente il PSP interessato (ad es. la Tua banca).<br>
 Utilizzando l’App IO, accetti che PagoPA non è in alcun modo responsabile in caso di perdita o condivisione dell’accesso al Tuo dispositivo.<br>
 Inoltre, Ti sconsigliamo vivamente di sottoporre il Tuo dispositivo a procedure di jailbreak, di abilitare permessi di root, di installare e/o eseguire software di modifica del sistema operativo e in generale di rimuovere le restrizioni software imposte dal sistema operativo stesso. In caso contrario, infatti, potresti rendere il Tuo dispositivo vulnerabile a malware, virus e altri codici dannosi e comprometterne i meccanismi di sicurezza. Inoltre l'App IO potrebbe non funzionare correttamente. Utilizzando IO, accetti che PagoPA non è in alcun modo responsabile della sicurezza, confidenzialità e integrità delle operazioni effettuate tramite l'App, incluse quelle di pagamento.<br>
 
