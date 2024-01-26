@@ -4,7 +4,6 @@ THIS SCRIPT IS USEFUL TO GENERATE A NEW JSON WITH ENTI'S DATA
 =end
 require 'json'
 require 'down'
-require 'oj'
 
 # If the pipeline isn't scheduled, then break the flow
 if ENV['PIPELINE_TYPE']=='BatchedCI' && ENV['JEKYLL_ENV']=='production'
@@ -121,12 +120,10 @@ def renderEntiList(file, site)
 
     enti_searchable_sorted = enti_searchable.sort
 
-    Oj.default_options = {:mode => :compat , :ascii_only => true}
-
-    File.write('./assets/json/enti-list-webview.json', Oj.dump( new_content_webview.values.sort_by{ |hsh| hsh.values[0] } ))
-    File.write('./assets/json/enti-list-searchable.json', Oj.dump(enti_searchable_sorted))
-    File.write('./assets/json/enti-list-numbers.json', Oj.dump(numbers_info))
-    File.write('_data/enti-servizi.json', Oj.dump(new_content))
+    File.write('./assets/json/enti-list-webview.json', JSON.dump( new_content_webview.values.sort_by{ |hsh| hsh.values[0] } ).gsub(/[\p{Cntrl}]/, ''))
+    File.write('./assets/json/enti-list-searchable.json', JSON.dump(enti_searchable_sorted).gsub(/[\p{Cntrl}]/, ''))
+    File.write('./assets/json/enti-list-numbers.json', JSON.dump(numbers_info).gsub(/[\p{Cntrl}]/, ''))
+    File.write('_data/enti-servizi.json', JSON.dump(new_content).gsub(/[\p{Cntrl}]/, ''))
 end
 
 Jekyll::Hooks.register :site, :after_init do |site|
