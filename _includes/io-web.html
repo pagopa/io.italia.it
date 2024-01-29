@@ -1,0 +1,112 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign t = site.data.t[current_lang] %}
+<div class="page-io-web">
+  <div class="section section-muted section-inset-shadow section--wpointers">
+    <div class="container pt-5 pt-lg-0 pb-5 pb-lg-0">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2 pl-3 pt-3 py-lg-5 px-lg-5 text-center align-items-center d-lg-flex">
+          <img class="img-fluid rounded screenshot screenshot1"
+            alt="Screenshot uscire da IO" />
+        </div>
+        <div class="col-lg-5 offset-lg-1 order-lg-1 pl-3 pt-3 py-lg-5 px-lg-5 ">
+          <h4 class="text-primary pb-4 pt-lg-4">
+            Non hai più il tuo dispositivo?
+          </h4>
+          <p>
+            In caso di smarrimento o furto del dispositivo su cui è installata l’app IO, puoi terminare la sessione
+            attiva e impedire l’accesso ai tuoi dati uscendo dall’app tramite il portale web di IO.
+          </p>
+          <p>
+            Ricorda che se accedi al tuo profilo IO da un dispositivo diverso, quello precedente verrà automaticamente
+            disconnesso, richiedendo un nuovo accesso con SPID o CIE.
+          </p>
+          <div class="py-3">
+            <a target="_blank" href="{{page.esci_da_io_link}}" title="Esci da IO"
+              class="btn btn-white-light btn-sm text-uppercase" onclick="{{page.esci_da_io_onclick}}">Esci da IO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section section-muted section--wpointers">
+    <div class="container pt-5 pt-lg-0 pb-5 pb-lg-0">
+      <div class="row">
+        <div class="offset-lg-2 col-lg-4 pl-3 pt-3 py-lg-5 px-lg-5 text-center align-items-center d-lg-flex">
+          <img class="img-fluid rounded screenshot screenshot2"
+            alt="Screenshot accesso bloccato" />
+        </div>
+        <div class="col-lg-6 pl-3 pt-3 py-lg-5 px-lg-5 ">
+          <h4 class="text-primary pb-4 pt-lg-4">
+            Sospetti che la tua identità digitale sia compromessa?
+          </h4>
+          <p>
+            Se sospetti che qualcuno possa utilizzare la tua identità digitale per accedere a IO puoi bloccare
+            temporaneamente l’accesso all’app con tutte le tue identità SPID e contattare il tuo Identity Provider per
+            metterla al sicuro. Anche dopo il blocco, sarà consentito entrare sull’app IO con CIE in quanto garantisce
+            un livello di sicurezza maggiore.
+          </p>
+          <p>
+            Per aiutarti a individuare eventuali compromissioni della tua identità, IO ti invia un’email ogni volta che
+            viene effettuato un nuovo accesso all’app con SPID o CIE.
+          </p>
+          <div class="py-3">
+            <a target="_blank" href="{{site.io_web_login_url}}" title="Blocca accesso a IO"
+              class="btn btn-white-light btn-sm text-uppercase" onclick="{{page.blocca_accesso_io_onclick}}">Blocca accesso
+              a IO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section section-muted section--wpointers">
+    <div class="container pt-5 pt-lg-0 pb-5 pb-lg-0">
+      <div class="row">
+        <div class="col-lg-6 order-lg-2 pl-3 pt-3 py-lg-5 px-lg-5 text-center align-items-center d-lg-flex">
+          <img class="img-fluid rounded screenshot screenshot3"
+            alt="Screenshot codice sblocco" />
+        </div>
+        <div class="col-lg-5 offset-lg-1 order-lg-1 pl-3 pt-3 py-lg-5 px-lg-5 ">
+          <h4 class="text-primary pb-4 pt-lg-4">
+            La tua identità digitale è di nuovo al sicuro?
+          </h4>
+          <p>
+            In seguito al blocco dell’accesso a IO, se hai risolto i problemi di sicurezza legati alla tua identità
+            digitale puoi ripristinare l’accesso all’app sul portale web di IO utilizzando il codice di ripristino che
+            ti è stato fornito in fase di blocco.
+          </p>
+          <p>
+            Se non hai il codice di ripristino puoi accedere al portale con un’identità SPID o CIE di livello 3, il
+            massimo livello di sicurezza, e ripristinare l’accesso senza inserire il codice.
+          </p>
+          <p>
+            <a href="/faq/#n1_6" title="Cosa sono i livelli di sicurezza">Cosa sono i livelli di sicurezza?</a>
+          </p>
+          <div class="py-3">
+            <a target="_blank" href="{{site.io_web_login_url}}" title="Sblocca l'accesso a IO"
+              class="btn btn-white-light btn-sm text-uppercase" onclick="{{page.riabilita_accesso_io_onclick}}">Sblocca
+              l'accesso a IO</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% if page.faq_url %}
+  <div class="section section-muted section--wpointers dubbi-domande">
+    <div class="row">
+      <div class="col-lg-12 pt-5 px-3 px-lg-0 text-center text-white">
+        <h2 class="pb-4">
+          Dubbi o domande?
+        </h2>
+        <p>
+          Se non ti è chiaro come mantenere al sicuro i tuoi dati su IO , puoi consultare le nostre FAQ.
+        </p>
+        <div class="py-3">
+          <a href="{{page.faq_url}}" title="Leggi le FAQ" class="btn btn-white btn-sm text-uppercase"
+            onclick="{{page.faq_onclick}}">Leggi le FAQ</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {%endif%}
+</div>

@@ -11,6 +11,27 @@ it:
     I dispositivi aggiornati a queste versioni di sistema operativo includono gli aggiornamenti di sicurezza più recenti, garantiscono prestazioni superiori e supportano tecnologie più evolute, consentendo 
     anche al nostro team di sviluppo di introdurre nuove funzionalità e servizi sull’app IO per un’esperienza utente sempre più ottimale."
     cat: "1|Generali"
+  - title: Se non ho più il mio dispositivo, posso uscire da IO?
+    body: Sì, in caso di furto o smarrimento del tuo dispositivo, puoi uscire da IO [accedendo a questa pagina](https://ioapp.it/it/esci/). Autenticati con SPID o CIE e segui le indicazioni.
+    cat: "1|Generali"
+  - title: Qual è la differenza tra accesso rapido e accesso ogni 30 giorni?
+    body: Nel primo caso, dovrai autenticarti con SPID o CIE solo una volta all’anno o se ti disconnetti dall’app. Tutte le altre volte, per entrare potrai usare solo il codice di sblocco dell’app o il riconoscimento tramite volto o impronta. Se invece scegli di accedere ogni 30 giorni, dovrai autenticarti con SPID o CIE ogni 30 giorni.
+    cat: "1|Generali"
+  - title: Se scelgo di autenticarmi ogni 30 giorni o una volta l’anno, posso poi modificare la scelta?
+    body: Sì, puoi modificare la tua scelta uscendo da IO. Per farlo, vai nella sezione Profilo dell’app e e premi su Logout/Esci. In questo modo ti verrà richiesta una nuova autenticazione e potrai decidere nuovamente con che frequenza autenticarti.
+    cat: "1|Generali"
+  - title: Cosa sono i livelli di sicurezza di un’identità digitale?
+    body: "Ogni identità digitale, come SPID e CIE, è associata a uno o più livelli di sicurezza. Esistono tre livelli di sicurezza:
+
+    - Livello di sicurezza 1: richiede un nome utente e una password;
+
+    - livello di sicurezza 2: richiede un nome utente e una password, ma si aggiunge un ulteriore passaggio di verifica (per esempio un codice OTP via SMS), oppure l’accesso tramite app se il fornitore di identità digitale lo prevede;
+
+    - livello di sicurezza 3: richiede l'utilizzo fisico della Carta di Identità Elettronica e un dispositivo capace di leggerla, come ad esempio, uno smartphone con tecnologia NFC. Per SPID, richiede un ulteriore passaggio di sicurezza rispetto al livello di sicurezza 2, come ad esempio l’inserimento di un PIN. Non tutti i fornitori di identità digitale SPID supportano il livello di sicurezza 3.
+
+
+    Per conoscere il tuo livello di sicurezza SPID, chiedi al tuo Identity Provider. Per maggiori informazioni sui livelli di sicurezza della CIE, [visita questo sito](https://www.cartaidentita.interno.gov.it/info-utili/identificazione-digitale/#:~:text=livello%201%3A%20accesso%20mediante%20una,per%20la%20lettura%20della%20CIE)."
+    cat: "1|Generali"
   - title: Cosa significa che l'app è disponibile negli store in versione open beta? 
     body: "Dal marzo 2019 circa duemila cittadini in diversi territori hanno sperimentato l’app in versione _closed-beta_ (beta “chiusa”): abbiamo dato la possibilità a un numero limitato di persone,\
      invitate dagli Enti che per primi hanno aderito al progetto (ACI, Comuni di Milano, Torino, Palermo, Ripalta Cremasca e Valsamoggia),\ 
@@ -64,9 +85,6 @@ Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere pe
     secondo lo stesso cambio di paradigma da cui nasce la visione di IO: mettere il cittadino al centro e proporgli servizi efficienti, semplici e intuitivi, sviluppati in base alle sue esigenze.\ 
     Per questo, in un'ottica di sviluppo e industrializzazione di entrambe le piattaforme, oltre a [pagoPA](https://www.pagopa.gov.it) la nuova società prende in carico anche la gestione di IO: per offrire ai cittadini, attraverso un’unica app,\ 
     il punto di accesso a tutti i servizi pubblici digitali. Questo consentirà all’app IO di crescere velocemente e aprirsi a nuove opportunità, secondo le logiche del sistema di mercato privato, proprio come una normale startup."
-    cat: "1|Generali"
-  - title: "Potrò usare tutti i servizi di IO anche da browser web?"
-    body: "In una prima fase abbiamo deciso di concentrarci sulle applicazioni mobile e, in particolare, sulle piattaforme Android e iOS, che sono di gran lunga le più diffuse. Alcune funzioni saranno disponibili in futuro anche dal browser: inizieremo dalle funzioni relative alla gestione di privacy e sicurezza."
     cat: "1|Generali"
   - title: "Come posso essere sicuro che l’app continuerà ad esistere e ad essere aggiornata?"
     body: "Il [CAD, “Codice dell’Amministrazione Digitale”](https://cad.readthedocs.io/), istituisce il “punto di accesso telematico”, tramite cui le pubbliche amministrazioni rendono fruibili ai cittadini  i propri servizi in rete (articoli [7](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo1_sezione2_art7.html) e [64-bis](https://cad.readthedocs.io/it/v2017-12-13/_rst/capo5_sezione3_art64-bis.html)). IO è il punto unico di accesso telematico che permette ai cittadini di comunicare e accedere ai servizi della pubblica amministrazione in forma digitale e in modo integrato, anche attraverso dispositivi mobili. \

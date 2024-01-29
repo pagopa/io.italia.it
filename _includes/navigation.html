@@ -1,25 +1,33 @@
 {% assign navigation = site.data.navigation[current_lang] %}
-<nav class="navbar navbar-light navigation navbar-expand-md py-0 shadow">
+<nav class="navbar navbar-light navigation navbar-expand-lg py-0 shadow">
   <div class="navbar-collapse offcanvas-collapse">
     <div class="navbar-nav mr-auto w-100" >
       <div class="container">
         <div class="row">
-          <div class="col-12 col-md-1 pt-2 d-none d-md-block">
+          <div class="col-12 col-lg-1 pt-2 d-none d-lg-block">
             <a class="d-flex align-items-center navbar-logo" title="Home" href="/">
             <img src="{{ '/assets/img/io-it-logo-blue.svg' | prepend: site.imagesurl }}" alt="Logo IO app" class="io__icon"/>
             <span class="badge-beta">BETA</span>
             </a>
           </div>
-          <div class="col-12 col-md-6 my-5 my-md-0">
-            <div class="d-block d-md-flex nav-container" >
+          <div class="col-12 col-lg-6 my-5 my-lg-0">
+            <div class="d-block d-lg-flex nav-container" >
               {% for item in navigation %}
               {% include navigation-item.html navigation=navigation index=forloop.index  %}
               {% endfor %}
             </div>
           </div>
-          <div class="col-12 col-md-5 d-flex">
-            <div class="text-right social social--nav d-flex align-items-center flex-fill justify-content-center justify-content-md-end">
+          <div class="col-12 col-lg-3 d-flex">
+            <div class="text-right social social--nav d-flex align-items-center flex-fill justify-content-center justify-content-lg-end">
             {% include social-icons.html %}
+            </div>
+          </div>
+          <div class="col-12 col-lg-2 d-flex">
+            <div class="w-100 text-center">
+              <a target="_blank" href="{{site.io_web_login_url}}" title="Accedi" class="btn btn-sm btn-primary btn-io-web user m-2" 
+              onclick="{{site.io_web_login_onclick}}">
+                  Accedi
+              </a>
             </div>
           </div>
         </div>
