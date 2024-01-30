@@ -10,7 +10,7 @@
             <span class="badge-beta">BETA</span>
             </a>
           </div>
-          <div class="col-12 col-lg-6 my-5 my-lg-0">
+          <div class="col-12 col-lg-5 my-5 my-lg-0">
             <div class="d-block d-lg-flex nav-container" >
               {% for item in navigation %}
               {% include navigation-item.html navigation=navigation index=forloop.index  %}
@@ -22,11 +22,11 @@
             {% include social-icons.html %}
             </div>
           </div>
-          <div class="col-12 col-lg-2 d-flex">
+          <div class="col-12 col-lg-3 d-flex">
             <div class="w-100 text-center">
-              <a target="_blank" href="{{site.io_web_login_url}}" title="Accedi" class="btn btn-sm btn-primary btn-io-web user m-2" 
+              <a target="_blank" href="{{site.io_web_login_url}}" title="Gestisci accesso" class="btn btn-sm btn-primary btn-io-web m-2"
               onclick="{{site.io_web_login_onclick}}">
-                  Accedi
+                  Gestisci accesso
               </a>
             </div>
           </div>
