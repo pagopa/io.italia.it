@@ -1,0 +1,72 @@
+.pagename--io-web {
+  #introduzione {
+    min-height: auto !important;
+  }
+}
+
+.page-io-web {
+
+  margin-bottom: -48px;
+
+  .btn.btn-white-light {
+    color: #0066CC;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 1.5px solid #06C;
+  }
+
+  .btn.btn-white {
+    color: #0066CC;
+  }
+
+  .section.dubbi-domande {
+    background: #2D489D;
+    min-height: 360px;
+  }
+
+  .screenshot {
+    max-height: 520px;
+  }
+
+  .screenshot1 {
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/uscire-da-io.png");
+    }
+    @media screen and (max-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/uscire-da-io-mobile.png");
+      float: right;
+    }
+
+    @media screen and (max-width: $grid-breakpoints-sm) and (max-width: $grid-breakpoints-lg) {
+      max-height: 450px;
+    }
+
+    @media screen and (max-width: $grid-breakpoints-sm) {
+      max-height: 300px;
+    }
+
+  }
+
+  .screenshot2 {
+    content: url("/assets/img/io-web/accesso-bloccato.png");
+  }
+
+  .screenshot3 {
+    @media screen and (min-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/codice-sblocco.png");
+    }
+    @media screen and (max-width: $grid-breakpoints-lg) {
+      content: url("/assets/img/io-web/codice-sblocco-mobile.png");
+      float: right;
+    }
+
+    @media screen and (max-width: $grid-breakpoints-sm) and (max-width: $grid-breakpoints-lg) {
+      max-height: 450px;
+    }
+
+    @media screen and (max-width: $grid-breakpoints-sm) {
+      max-height: 300px;
+    }
+  }
+
+}

@@ -667,6 +667,18 @@ body.is-scrolled .section__2 .section-wrapper {
   }
 }
 
+a.btn-io-web {
+  color: white !important;
+  &.user {
+    &:before {
+      content: url($imagesurl + "/assets/img/icon-user.svg");
+      position: relative;
+      top: 2px;
+      left: -4px;
+    }
+  }
+} 
+
 .btn-download {
   background-color: #fff;
   color: $color--italia;

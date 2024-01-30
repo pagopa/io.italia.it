@@ -17,7 +17,7 @@
   width: 100%;
   z-index: 100;
   padding: 8px 16px !important;
-  @media screen and (min-width: $grid-breakpoints-md) {
+  @media screen and (min-width: $grid-breakpoints-lg) {
     z-index: 4;
   }
   color: $color--italia;
@@ -67,11 +67,12 @@
     }
   }
 }
+
 .navbar-logo {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  @media screen and (min-width: $grid-breakpoints-md) {
+  @media screen and (min-width: $grid-breakpoints-lg) {
     -webkit-box-pack: left;
     -ms-flex-pack: left;
     justify-content: left;
@@ -104,14 +105,14 @@
   transition: all 0.5s ease-out;
   background: white;
   z-index: 100;
-  @media screen and (min-width: $grid-breakpoints-md) {
+  @media screen and (min-width: $grid-breakpoints-lg) {
     z-index: 3;
   }
   &__subitemsmenu {
     display: none;
     padding: 0.5rem 1rem;
     border-bottom: 1px solid #ddd;
-    @media screen and (min-width: $grid-breakpoints-md) {
+    @media screen and (min-width: $grid-breakpoints-lg) {
       padding: 1.5rem 1.5rem 1rem 1.5rem;
       position: absolute;
       top: 100%;
@@ -130,7 +131,7 @@
       font-weight: 600;
       text-align: center;
       color: #17324d;
-      @media screen and (min-width: $grid-breakpoints-md) {
+      @media screen and (min-width: $grid-breakpoints-lg) {
         text-align: left;
         margin-bottom: 1rem;
       }
@@ -139,11 +140,11 @@
       display: block;
     }
     &--cat {
-      @media screen and (min-width: $grid-breakpoints-md) {
+      @media screen and (min-width: $grid-breakpoints-lg) {
         width: 500px;
       }
       .on + & {
-        @media screen and (min-width: $grid-breakpoints-md) {
+        @media screen and (min-width: $grid-breakpoints-lg) {
           display: -webkit-box !important;
           display: -ms-flexbox !important;
           display: flex !important;
@@ -157,7 +158,7 @@
       display: block;
       text-align: center;
       padding: 0.3rem 0;
-      @media screen and (min-width: $grid-breakpoints-md) {
+      @media screen and (min-width: $grid-breakpoints-lg) {
         text-align: left;
         &:hover {
           text-decoration: underline;
@@ -169,7 +170,7 @@
     color: $color--italia;
     font-size: 21px;
     font-weight: 600;
-    @media screen and (min-width: $grid-breakpoints-md) {
+    @media screen and (min-width: $grid-breakpoints-lg) {
       font-size: 16px;
     }
     &.active:after {
@@ -185,7 +186,7 @@
   }
   & {
     position: fixed;
-    @media screen and (min-width: $grid-breakpoints-md) {
+    @media screen and (min-width: $grid-breakpoints-lg) {
       top: 0;
     }
     right: 0;
@@ -241,4 +242,12 @@
   svg {
     height: 22px;
   }
+}
+
+.btn.btn-io-web {
+
+  @media screen and (max-width: $grid-breakpoints-lg) {
+      margin-top: 50px !important;
+  }
+
 }
