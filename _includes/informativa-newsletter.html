@@ -1,0 +1,18 @@
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
+{% assign t = site.data.t[current_lang] %}
+
+<!-- OneTrust Privacy Notice start -->
+  <!-- Container in which the privacy notice will be rendered -->
+  <div id="otnotice-7dfa3ae0-c14c-4ea1-a25e-d5a377c73017" class="otnotice"></div>
+
+  <script src="https://privacyportalde-cdn.onetrust.com/privacy-notice-scripts/otnotice-1.0.min.js" type="text/javascript" charset="UTF-8" id="otprivacy-notice-script">
+    </script>
+
+  <script type="text/javascript" charset="UTF-8">
+      // To ensure external settings are loaded, use the Initialized promise:
+      OneTrust.NoticeApi.Initialized.then(function() {
+        OneTrust.NoticeApi.LoadNotices(["https://privacyportalde-cdn.onetrust.com/77f17844-04c3-4969-a11d-462ee77acbe1/privacy-notices/draft/7dfa3ae0-c14c-4ea1-a25e-d5a377c73017.json"], false);
+      });
+    </script>
+
+  <!-- OneTrust Privacy Notice end -->
