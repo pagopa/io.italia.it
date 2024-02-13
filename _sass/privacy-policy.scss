@@ -4,11 +4,19 @@
     }
 
     a {
-        scroll-margin-top: 55px;
+        scroll-margin-top: 80px;
+    }
+
+    .otnotice-menu-selected-container {
+        margin-top: 50px;
     }
 
     .otnotice-menu-selected {
-        visibility: hidden;
+        font-weight: 600;
+        font-size: 2.222rem;
     }
 
+    .otnotice-section-content h2#isPasted {
+        display: none;
+    }
 }
