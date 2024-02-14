@@ -139,6 +139,6 @@ it:
     desc: "IO è un progetto <b>Open Source</b> che crescerà di giorno in giorno, coinvolgendo enti e servizi diversi. Iscriviti alla newsletter per restare aggiornato."
     placeholder: Indirizzo e-mail
     button: Iscriviti
-    privacy-policy-disclaimer: Inserendo il tuo indirizzo email stai accettando la nostra <a class="text-white text-hover-green" href="/informativa-newsletter/"><u>informativa sul trattamento dei dati personali per la newsletter</u></a>.
+    privacy-policy-disclaimer: Inserendo il tuo indirizzo email, acconsenti al trattamento dei tuoi dati personali secondo quanto indicato nell'<a class="text-white text-hover-green" href="/informativa-newsletter/"><u>informativa sul trattamento dei dati personali per la newsletter</u></a>.
   sicurezza: Sicurezza
   accessibilita: Dichiarazione di accessibilità
