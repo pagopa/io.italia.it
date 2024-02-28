@@ -12,10 +12,10 @@ redirect_from:
 
 intro_image: "/assets/img/intro-sviluppatori.svg"
 intro_primary_text: "Leggi la documentazione"
-intro_primary_link: "https://docs.pagopa.it/io-guida-tecnica/"
+intro_primary_link: "https://developer.pagopa.it/app-io/guides/io-guida-tecnica"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Consulta documentazione dev', 1)"
 intro_ter_text: "Registrati al Back-Office"
-intro_ter_link: "https://docs.pagopa.it/io-guida-tecnica/setup-iniziale"
+intro_ter_link: "https://developer.pagopa.it/app-io/guides/io-guida-tecnica/setup-iniziale"
 intro_ter_onclick: "ga('send', 'event', 'link', 'click', 'Registrati al back-office', 1)"
 below_buttons: sviluppatori-more-info.html
 ---
