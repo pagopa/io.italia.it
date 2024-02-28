@@ -5,5 +5,5 @@ lang: it
 ref: cgn-guida
 permalink: /carta-giovani-nazionale/guida-operatori/
 narrow: true
-redirect_to: https://docs.pagopa.it/carta-giovani-nazionale/
+redirect_to: https://developer.pagopa.it/app-io/guides/carta-giovani-nazionale
 ---
