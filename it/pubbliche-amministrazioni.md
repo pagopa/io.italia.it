@@ -18,7 +18,7 @@ redirect_from:
   - /pubbliche-amministrazioni/partecipa.html
 intro_image: "/assets/img/intro-pa.svg"
 intro_primary_text: "consulta la guida"
-intro_primary_link: "https://docs.pagopa.it/io-guida-tecnica/"
+intro_primary_link: "https://developer.pagopa.it/app-io/guides/io-guida-tecnica"
 intro_primary_onclick: "ga('send', 'event', 'link', 'click', 'Guida Enti', 1)"
 intro_secondary_text: "Richiedi informazioni"
 intro_secondary_link: "mailto:onboarding@io.italia.it"
