@@ -23,6 +23,8 @@ it:
         items:
           - label: Certificazione Verde COVID-19
             url: /certificato-verde-green-pass-covid/
+          - label: Carta della Cultura
+            url: /carta-cultura/
           - label: Carta Giovani Nazionale
             url: /carta-giovani-nazionale/
       - label: Tutti i servizi

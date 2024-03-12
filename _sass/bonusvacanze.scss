@@ -2,6 +2,7 @@
 .pagename--cashback,
 .pagename--covid-pass,
 .pagename--cgn,
+.pagename--cdc,
 .pagename--donazioni-ucraina {
   // hack
   .page-wrapper {
@@ -391,6 +392,33 @@ body.pagename--cgn {
   #introduzione {
     &:before {
       background-color: #0a1f8f;
+    }
+  }
+}
+
+body.pagename--cdc {
+  .esercente {
+    background: #08429F;
+  }
+  .screenshot {
+    height: 625px;
+  }
+  #intro-slider {
+    background-color: #0a1f8f;
+    background:
+    linear-gradient( 200deg,
+      #0A1F8F 25%,
+        rgb(32, 100, 203) 100%
+      );
+  }
+  #introduzione {
+    &:before {
+      background-color: rgb(32, 100, 203) 100%;
+    }
+  }
+  .carosel-inner {
+    &:after {
+      background: none !important;
     }
   }
 }
