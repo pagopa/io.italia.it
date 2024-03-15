@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/numeri", {data:[{}],fetch:{},mutations:void 0});
