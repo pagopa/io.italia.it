@@ -4,21 +4,22 @@
 <script src="{{ '/assets/js/vendor/js.cookie.min.js' }}"></script>
 
 {% comment %} jQuery 3.3.1 - Copyright © JS Foundation and other contributors,
-https://js.foundation/ - MIT license @link https://github.com/jquery/jquery/ {%
-endcomment %}
+https://js.foundation/ - MIT license @link https://github.com/jquery/jquery/ 
+{% endcomment %}
 <script src="{{ '/assets/js/vendor/jquery.min.js' }}"></script>
 
 {% comment %} PopperJS 1.14.3 - Copyright © 2016 Federico Zivolo and
-contributors - MIT license @link https://github.com/FezVrasta/popper.js {%
-endcomment %}
+contributors - MIT license @link https://github.com/FezVrasta/popper.js
+{% endcomment %}
 <script src="{{ '/assets/js/vendor/popper.min.js' }}"></script>
 
 <script src="{{ '/assets/js/vendor/bootstrap-italia.min.js?' | append: buildTime | relative_url }}"></script>
 
-{%if page.layout == 'home' %}
+{%if page.layout == 'home' %} 
 <script src="{{ '/assets/js/home.js' }}"></script>
-{% comment %} Parallax 3.1.0 - Copyright © 2014 Matthew Wagerfield - @wagerfield
-- MIT license @link https://github.com/wagerfield/parallax {% endcomment %}
+{% comment %} Parallax 3.1.0 - Copyright © 2014
+Matthew Wagerfield - @wagerfield - MIT license @link
+https://github.com/wagerfield/parallax {% endcomment %}
 <script async src="{{ '/assets/js/vendor/parallax.min.js' }}"></script>
 
 <script src="{{ '/assets/js/vendor/owl.carousel.min.js' }}"></script>
@@ -38,7 +39,9 @@ http://scrollmagic.io/docs/debug.addIndicators.html#Scene.addIndicators
   async
   src="{{ '/assets/js/vendor/debug.addIndicators.min.js' }}"
 ></script>
-{% endcomment %} {% else %} {% comment %} BaguetteBox 1.10.0 - Copyright © 2018
+{% endcomment %} 
+{% else %}
+{% comment %} BaguetteBox 1.10.0 - Copyright © 2018
 feimosi - MIT license @link https://github.com/feimosi/baguetteBox.js {%
 endcomment %}
 <script src="{{ '/assets/js/vendor/baguetteBox.min.js' }}"></script>
@@ -47,48 +50,47 @@ endcomment %}
 MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/vendor/stickybits.min.js' }}"></script>
 
-{% endif %} {%if page.ref == 'roadmap' %}
-<script src="{{ '/assets/js/roadmap/filter.js?' | append: buildTime | relative_url }}"></script>
-{% endif %} {%if page.ref contains 'faq' %}
-<script src="{{ '/assets/js/faq/faq.js' }}"></script>
-{% endif %} {%if page.ref == 'giornalisti' %}
-<script src="{{ '/assets/js/giornalisti.js' }}"></script>
-{% endif %} {%if page.ref == 'pubbliche-amministrazioni' %}
-<script src="{{ '/assets/js/pub-amm.js' }}"></script>
-{% endif %} {% if page.ref == 'index' or page.ref=='bonus-vacanze' %}
-<script src="{{ site.baseUrl }}/assets/js/dashboard.js"></script>
-{% endif %} {% if page.ref contains 'dashboard' %}
-<script
-  defer=""
-  crossorigin=""
-  nomodule=""
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/polyfills.js"
-></script>
-<script
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/webpack.js"
-  defer=""
-  crossorigin=""
-></script>
-<script
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/main.js"
-  defer=""
-  crossorigin=""
-></script>
-<script
-  defer=""
-  crossorigin=""
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/pages/_app.js"
-></script>
 
-{% endif %} {% if page.ref == 'cashback-metodi' %}
+
+{% endif %}
+
+{%if page.ref == 'roadmap' %}
+<script src="{{ '/assets/js/roadmap/filter.js?' | append: buildTime | relative_url }}"></script>
+{% endif %}
+
+{%if page.ref contains 'faq' %}
+<script src="{{ '/assets/js/faq/faq.js' }}"></script>
+{% endif %}
+
+{%if page.ref == 'giornalisti' %}
+<script src="{{ '/assets/js/giornalisti.js' }}"></script>
+{% endif %}
+
+{%if page.ref == 'pubbliche-amministrazioni' %}
+<script src="{{ '/assets/js/pub-amm.js' }}"></script>
+{% endif %}
+
+{% if page.ref == 'index' or page.ref=='bonus-vacanze' %}
+  <script src="{{ site.baseUrl }}/assets/js/dashboard.js"></script>
+{% endif %}
+
+{% if page.ref contains 'dashboard' %}
+  <script src="{{ site.baseUrl }}/assets/js/dashboard/app/app.js" defer></script>
+  <script src="{{ site.baseUrl }}/assets/js/dashboard/app/vendor.js" defer></script>
+{% endif %}
+
+{% if page.ref == 'cashback-metodi' %}
 <script src="{{ '/assets/js/cashback-metodi.js?' | append: buildTime | relative_url }}"></script>
 {% endif %}
+
 
 <script
   async
   src="{{ '/assets/js/main.js?' | append: buildTime | relative_url }}"
 ></script>
 
-{% if page.extra_scripts != nil %} {% for s in page.extra_scripts %}
-<script src="{{ s | append: '?' | append: buildTime | relative_url }}"></script>
-{% endfor %} {% endif %}
+{% if page.extra_scripts != nil %}
+  {% for s in page.extra_scripts %}
+    <script src="{{ s | append: '?' | append: buildTime | relative_url }}"></script>
+  {% endfor %}
+{% endif %}

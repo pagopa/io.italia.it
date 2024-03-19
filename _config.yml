@@ -43,11 +43,6 @@ plugins:
   - jekyll-minifier
 
 include: [".well-known"]
-include:
-  # Allow dashboard assets starting with _
-  - _next*
-  - _app.js
-  - _app.css
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
