@@ -45,6 +45,7 @@ steps:
     find . -type f | wc -l 
     ls -la $(Build.SourcesDirectory)/_site
     echo BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
+  continueOnError: false
   displayName: 'Check Site'
 
 # SYNC STORAGE AT EVERY COMMIT, so WITHOUT Enti&Servizi (PIPELINE_TYPE!=Schedule)
