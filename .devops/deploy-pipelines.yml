@@ -26,68 +26,63 @@ variables:
 pool:
   vmImage: 'ubuntu-latest'
 
-steps:
-- task: UseRubyVersion@0
-  inputs:
-    versionSpec: '>= 2.6.4'
 
-- script: |
-    gem install jekyll bundler
-    bundle install --retry=3 --jobs=4
-  displayName: 'Bundle install'
-
-- script: |
-    bundle install
-    JEKYLL_ENV=production PIPELINE_TYPE=$(PIPELINE_TYPE) bundle exec jekyll build --config _config.yml,_config_production.yml
-  displayName: 'Build by Jekyll'
-
-- script: |
-    find . -type f | wc -l 
-    ls -la $(Build.SourcesDirectory)/_site
-    echo BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
-  continueOnError: false
-  displayName: 'Check Site'
-
-# SYNC STORAGE AT EVERY COMMIT, so WITHOUT Enti&Servizi (PIPELINE_TYPE!=Schedule)
-- task: AzureCLI@1
-  displayName: 'Sync Storage NOT SCHEDULED'
-  condition: and(succeeded(), eq(variables['Build.Reason'], 'IndividualCI'))
-  continueOnError: false
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site" --exclude-path "assets/json/enti-list-webview.json;assets/json/enti-list-searchable.json;assets/json/enti-list-numbers.json;/app-content/enti-servizi.html;enti/" --exclude-pattern "assets/entijson/*.json"
-
-# SYNC STORAGE AT EVERY SCHEDULE, with Enti&Servizi (PIPELINE_TYPE==Schedule)
-- task: AzureCLI@1
-  displayName: 'Sync Storage ALL'
-  condition: and(succeeded(), or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'Schedule')))
-  continueOnError: false
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site"
-
-# PURGE CDN AT EVERY COMMIT, so globally
-- task: AzureCLI@1
-  displayName: 'Purge CDN NOT SCHEDULED'
-  condition: and(succeeded(), or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'IndividualCI')))
-  continueOnError: false
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
-
-# PURGE CDN AT SCHEDULE, so only with Ent&Servizi paths
-- task: AzureCLI@1
-  displayName: 'Purge CDN SCHEDULED'
-  condition: and(succeeded(), eq(variables['Build.Reason'], 'Schedule'))
-  continueOnError: false
-  inputs:
-    azureSubscription: '$(AZURE_SUBSCRIPTION)'
-    scriptLocation: inlineScript
-    inlineScript: |
-      az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/assets/entijson/*" "/assets/json/*" "/app-content/*" "/enti/*"
+stages:
+  - stage: Prepare_and_build
+    steps:
+    - task: UseRubyVersion@0
+      inputs:
+        versionSpec: '>= 2.6.4'
+    - script: |
+        gem install jekyll bundler
+        bundle install --retry=3 --jobs=4
+      displayName: 'Bundle install'
+    - script: |
+        bundle install
+        JEKYLL_ENV=production PIPELINE_TYPE=$(PIPELINE_TYPE) bundle exec jekyll build --config _config.yml,_config_production.yml
+      displayName: 'Build by Jekyll'
+    - script: |
+        find . -type f | wc -l 
+        ls -la $(Build.SourcesDirectory)/_site
+        echo BLOB_CONTAINER_NAME: $(BLOB_CONTAINER_NAME) 
+      displayName: 'Check Site'
+  - stage: Sync_and_purge
+    dependes_on: Prepare_and_build
+    condition: succeeded()
+    steps:
+    # SYNC STORAGE AT EVERY COMMIT, so WITHOUT Enti&Servizi (PIPELINE_TYPE!=Schedule)
+    - task: AzureCLI@1
+      displayName: 'Sync Storage NOT SCHEDULED'
+      condition: eq(variables['Build.Reason'], 'IndividualCI')
+      inputs:
+        azureSubscription: '$(AZURE_SUBSCRIPTION)'
+        scriptLocation: inlineScript
+        inlineScript: |
+          az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site" --exclude-path "assets/json/enti-list-webview.json;assets/json/enti-list-searchable.json;assets/json/enti-list-numbers.json;/app-content/enti-servizi.html;enti/" --exclude-pattern "assets/entijson/*.json"
+    # SYNC STORAGE AT EVERY SCHEDULE, with Enti&Servizi (PIPELINE_TYPE==Schedule)
+    - task: AzureCLI@1
+      displayName: 'Sync Storage ALL'
+      condition: or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'Schedule'))
+      inputs:
+        azureSubscription: '$(AZURE_SUBSCRIPTION)'
+        scriptLocation: inlineScript
+        inlineScript: |
+          az storage blob sync --container $(BLOB_CONTAINER_NAME) --account-name $(STORAGE_ACCOUNT_NAME) -s "$(Build.SourcesDirectory)/_site"
+    # PURGE CDN AT EVERY COMMIT, so globally
+    - task: AzureCLI@1
+      displayName: 'Purge CDN NOT SCHEDULED'
+      condition: or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'IndividualCI'))
+      inputs:
+        azureSubscription: '$(AZURE_SUBSCRIPTION)'
+        scriptLocation: inlineScript
+        inlineScript: |
+          az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/*"
+    # PURGE CDN AT SCHEDULE, so only with Ent&Servizi paths
+    - task: AzureCLI@1
+      displayName: 'Purge CDN SCHEDULED'
+      condition: eq(variables['Build.Reason'], 'Schedule')
+      inputs:
+        azureSubscription: '$(AZURE_SUBSCRIPTION)'
+        scriptLocation: inlineScript
+        inlineScript: |
+          az cdn endpoint purge -g $(RESOURCE_GROUP_NAME) -n $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/assets/entijson/*" "/assets/json/*" "/app-content/*" "/enti/*"
