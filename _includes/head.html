@@ -1,62 +1,116 @@
-{% assign buildTime =  site.time | date: '%Y%m%d%H%M' %}
+{% assign buildTime = site.time | date: '%Y%m%d%H%M' %}
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{ page.description_social | default: page.description | default: site.description[current_lang] | smartify | truncate: 140  }}">
-  <meta name="author" content="{{ site.authors[current_lang] }}">
-  <meta name="generator" content="Jekyll v{{ jekyll.version }}">
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta
+    name="description"
+    content="{{ page.description_social | default: page.description | default: site.description[current_lang] | smartify | truncate: 140  }}"
+  />
+  <meta name="author" content="{{ site.authors[current_lang] }}" />
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
 
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+  <link
+    rel="canonical"
+    href="{{ site.url }}{{ page.url | replace:'index.html',''}}"
+  />
 
   {%- if page.index == 'no-index'-%}
-  <meta name="robots" content=" noindex, nofollow">
+  <meta name="robots" content=" noindex, nofollow" />
   {%- endif -%}
 
   <title>
-    {%- if page.title -%}
-    {{ page.title | smartify }} – {{ site.title[current_lang] | smartify }}
-    {%- else -%}
-    {{ site.title[current_lang] | smartify }}
-    {%- endif -%}
+    {%- if page.title -%} {{ page.title | smartify }} – {{
+    site.title[current_lang] | smartify }} {%- else -%} {{
+    site.title[current_lang] | smartify }} {%- endif -%}
   </title>
 
-  <link rel="stylesheet" href="{{ '/assets/css/vendor/bootstrap-italia.min.css?' | append: buildTime | relative_url }}">
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/vendor/bootstrap-italia.min.css?' | append: buildTime | relative_url }}"
+  />
 
-  {% comment %}
-  BaguetteBox 1.10.0 - Copyright © 2018 feimosi - MIT license
-  https://github.com/feimosi/baguetteBox.js
-  {% endcomment %}
-  <link rel="stylesheet" href="{{ '/assets/css/vendor/baguetteBox.min.css' }}" />
-  <link rel="stylesheet" href="{{ '/assets/main.css?' | append: buildTime | relative_url }}">
+  {% comment %} BaguetteBox 1.10.0 - Copyright © 2018 feimosi - MIT license
+  https://github.com/feimosi/baguetteBox.js {% endcomment %}
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/vendor/baguetteBox.min.css' }}"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/main.css?' | append: buildTime | relative_url }}"
+  />
 
-  {% include favicons.html %}
-  {% include social.html %}
-
-  {% if site.google_verify %}
-  <meta name="google-site-verification" content="{{ site.google_verify }}">
-  {% endif %}
-
-  {% if page.ref contains 'dashboard' or page.ref == 'index' or page.ref=='bonus-vacanze' %}
-    <link rel="stylesheet" href="{{ site.baseUrl }}/assets/js/dashboard/app/app.css">
-  {% endif %}
-
-  {%- if jekyll.environment == 'production' -%}
-    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="{{site.ot_key}}" ></script>
-    {%- include analytics/analytics.html -%}
-  {% else %}
-    <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="{{site.ot_key}}-test" ></script>
-  {%- endif -%}
-  {% if page.has_recaptcha == true %}
+  {% include favicons.html %} {% include social.html %} {% if site.google_verify
+  %}
+  <meta name="google-site-verification" content="{{ site.google_verify }}" />
+  {% endif %} {% if page.ref contains 'dashboard' or page.ref == 'index' or
+  page.ref=='bonus-vacanze' %}
+  <!-- <link rel="stylesheet" href="{{ site.baseUrl }}/assets/js/dashboard/app/app.css"> -->
+  <!-- Allow Bootstrap override -->
+  <link
+    rel="preload"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/index.css"
+    as="style"
+    crossorigin=""
+  />
+  <link
+    rel="stylesheet"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/index.css"
+    crossorigin=""
+    data-n-p=""
+  />
+  <link
+    rel="preload"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/_app.css"
+    as="style"
+    crossorigin=""
+  />
+  <link
+    rel="stylesheet"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/_app.css"
+    crossorigin=""
+    data-n-p=""
+  />
+  {% endif %} {%- if jekyll.environment == 'production' -%}
+  <script
+    src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    type="text/javascript"
+    charset="UTF-8"
+    data-domain-script="{{site.ot_key}}"
+  ></script>
+  {%- include analytics/analytics.html -%} {% else %}
+  <script
+    src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    type="text/javascript"
+    charset="UTF-8"
+    data-domain-script="{{site.ot_key}}-test"
+  ></script>
+  {% endif %} {%- if jekyll.environment == 'production' -%}
+  <script
+    src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    type="text/javascript"
+    charset="UTF-8"
+    data-domain-script="{{site.ot_key}}"
+  ></script>
+  {%- include analytics/analytics.html -%} {% else %}
+  <script
+    src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"
+    type="text/javascript"
+    charset="UTF-8"
+    data-domain-script="{{site.ot_key}}-test"
+  ></script>
+  {%- endif -%} {% if page.has_recaptcha == true %}
   <script src="https://www.recaptcha.net/recaptcha/api.js" async defer></script>
-  {% endif %}
-
-  {% comment %}
-  Content Security Policy
-  {% endcomment %}
-  {% unless page.no-csp %}
-  <meta http-equiv="Content-Security-Policy" 
-  content="default-src 'self'; connect-src 'self' https://*.cookielaw.org https://*.onetrust.com https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com https://api.io.italia.it https://pagopa.matomo.cloud; font-src 'self'; img-src 'self' data: https://*.cookielaw.org https://*.onetrust.com https://static-web.io.italia.it *.medium.com https://assets.cdn.io.italia.it; frame-src https://www.youtube-nocookie.com https://www.google.com https://www.recaptcha.net ; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.cookielaw.org https://*.onetrust.com https://www.gstatic.com https://www.google.com https://www.recaptcha.net https://www.gstatic.com/recaptcha/ https://pagopa.matomo.cloud; style-src 'self' 'unsafe-inline';">
+  {% endif %} {% comment %} Content Security Policy {% endcomment %} {% unless
+  page.no-csp %}
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; connect-src 'self' https://*.cookielaw.org https://*.onetrust.com https://pdnd-prod-dl-1-public-data.s3.eu-central-1.amazonaws.com https://api.io.italia.it https://pagopa.matomo.cloud; font-src 'self'; img-src 'self' data: https://*.cookielaw.org https://*.onetrust.com https://static-web.io.italia.it *.medium.com https://assets.cdn.io.italia.it; frame-src https://www.youtube-nocookie.com https://www.google.com https://www.recaptcha.net ; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.cookielaw.org https://*.onetrust.com https://www.gstatic.com https://www.google.com https://www.recaptcha.net https://www.gstatic.com/recaptcha/ https://pagopa.matomo.cloud; style-src 'self' 'unsafe-inline';"
+  />
   {% endunless %}
 </head>
