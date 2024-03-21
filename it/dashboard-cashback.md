@@ -6,6 +6,11 @@ lang: it
 permalink: /cashback/dashboard/
 ref: dashboard-cashback
 image: /assets/img/cashback/social-card-cashback-dashboard.jpg
+extra_scripts:
+  - /assets/js/dashboard/_next/static/chunks/polyfills.js
+  - /assets/js/dashboard/_next/static/chunks/webpack.js
+  - /assets/js/dashboard/_next/static/chunks/main.js
+  - /assets/js/dashboard/_next/static/chunks/pages/_app.js
 ---
 
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %}
