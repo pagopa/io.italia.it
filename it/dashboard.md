@@ -8,6 +8,11 @@ ref: dashboard
 image: /assets/img/social-card-stats.jpg
 redirect_from:
   - /dashboard/
+extra_scripts:
+  - /assets/js/dashboard/_next/static/chunks/polyfills.js
+  - /assets/js/dashboard/_next/static/chunks/webpack.js
+  - /assets/js/dashboard/_next/static/chunks/main.js
+  - /assets/js/dashboard/_next/static/chunks/pages/_app.js
 ---
 
 {% assign current_lang = page.lang | default: site.lang | default: 'it' %}

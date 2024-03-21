@@ -57,29 +57,8 @@ MIT license https://github.com/dollarshaveclub/stickybits {% endcomment %}
 <script src="{{ '/assets/js/pub-amm.js' }}"></script>
 {% endif %} {% if page.ref == 'index' or page.ref=='bonus-vacanze' %}
 <script src="{{ site.baseUrl }}/assets/js/dashboard.js"></script>
-{% endif %} {% if page.ref contains 'dashboard' %}
-<script
-  defer=""
-  crossorigin=""
-  nomodule=""
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/polyfills.js"
-></script>
-<script
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/webpack.js"
-  defer=""
-  crossorigin=""
-></script>
-<script
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/main.js"
-  defer=""
-  crossorigin=""
-></script>
-<script
-  src="{{ site.baseurl }}/assets/js/dashboard/_next/static/chunks/pages/_app.js"
-  defer=""
-  crossorigin=""
-></script>
-{% endif %} {% if page.ref == 'cashback-metodi' %}
+{% endif %}
+{% if page.ref == 'cashback-metodi' %}
 <script src="{{ '/assets/js/cashback-metodi.js?' | append: buildTime | relative_url }}"></script>
 {% endif %}
 
