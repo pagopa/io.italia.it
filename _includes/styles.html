@@ -1,0 +1,42 @@
+<link
+    rel="stylesheet"
+    href="{{ '/assets/css/vendor/bootstrap-italia.min.css?' | append: buildTime | relative_url }}"
+  />
+
+  {% comment %} BaguetteBox 1.10.0 - Copyright © 2018 feimosi - MIT license
+  https://github.com/feimosi/baguetteBox.js {% endcomment %}
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/css/vendor/baguetteBox.min.css' }}"
+  />
+  <link
+    rel="stylesheet"
+    href="{{ '/assets/main.css?' | append: buildTime | relative_url }}"
+  />
+
+  {% if page.ref contains 'dashboard' or page.ref=='bonus-vacanze' %}
+  <link
+    rel="preload"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/index.css"
+    as="style"
+    crossorigin=""
+  />
+  <link
+    rel="stylesheet"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/index.css"
+    crossorigin=""
+    data-n-p=""
+  />
+  <link
+    rel="preload"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/_app.css"
+    as="style"
+    crossorigin=""
+  />
+  <link
+    rel="stylesheet"
+    href="{{ site.baseurl }}/assets/js/dashboard/_next/static/css/pages/_app.css"
+    crossorigin=""
+    data-n-p=""
+  />
+  {% endif %}
