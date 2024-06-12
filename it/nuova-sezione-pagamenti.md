@@ -6,6 +6,7 @@ ref: "nuova-sezione-pagamenti"
 permalink: /nuova-sezione-pagamenti/
 narrow: true
 noheight: true
+index: no-index
 ---
 
 Stiamo rinnovando la sezione Portafoglio e a breve arriverà la nuova sezione Pagamenti, con l’obiettivo di mostrarti più facilmente le tue ricevute pagoPA e offrirti un’esperienza di pagamento ancora più intuitiva. **Per questo motivo stiamo riorganizzando i metodi di pagamento salvati in app.**
