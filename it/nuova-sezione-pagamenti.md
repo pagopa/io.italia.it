@@ -48,7 +48,7 @@ Scegli questo metodo se vuoi pagare inserendo di volta in volta le tue credenzia
 
 Se nel tuo conto PayPal sono presenti più carte o conti bancari, potrai scegliere dove addebitare la spesa per ogni pagamento.
 
-Potrai anche scegliere di pagare in 3 rate senza interessi, secondo quanto previsto dalle Condizioni d’uso di PayPal. Per maggiori informazioni, [leggi le domande frequenti](https://www.paypal.com/it/webapps/mpp/ua/faq){:target="\_blank"}.
+Potrai anche scegliere di pagare in 3 rate senza interessi, secondo quanto previsto dalle Condizioni d’uso di PayPal. Per maggiori informazioni, [visita il sito PayPal](https://www.paypal.com/it/webapps/mpp/pay-public-administration-with-paypal){:target="\_blank"}.
 
 ### Pagamento veloce con PayPal
 
