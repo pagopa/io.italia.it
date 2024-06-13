@@ -31,7 +31,7 @@ Non preoccuparti: potrai continuare a usare BANCOMAT Pay® per i tuoi pagamenti 
 
 In fase di pagamento, seleziona BANCOMAT Pay® dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.
 
-Per maggiori informazioni, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0){:target="\_blank"} o [leggi le domande frequenti](https://bancomat.it/it/faq/){:target="\_blank"}.
+Per maggiori informazioni, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0){:target="\_blank"} o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay){:target="\_blank"}.
 
 Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità.
 
