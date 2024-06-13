@@ -31,7 +31,7 @@ Non preoccuparti: potrai continuare a usare BANCOMAT Pay® per i tuoi pagamenti 
 
 In fase di pagamento, seleziona BANCOMAT Pay® dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.
 
-Per maggiori informazioni, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0){:target="\_blank"} o [leggi le domande frequenti](https://bancomat.it/it/faq/){:target="\_blank"}.
+Per maggiori informazioni, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0){:target="\_blank"} o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay){:target="\_blank"}.
 
 Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità.
 
@@ -48,7 +48,7 @@ Scegli questo metodo se vuoi pagare inserendo di volta in volta le tue credenzia
 
 Se nel tuo conto PayPal sono presenti più carte o conti bancari, potrai scegliere dove addebitare la spesa per ogni pagamento.
 
-Potrai anche scegliere di pagare in 3 rate senza interessi, secondo quanto previsto dalle Condizioni d’uso di PayPal. Per maggiori informazioni, [leggi le domande frequenti](https://www.paypal.com/it/webapps/mpp/ua/faq){:target="\_blank"}.
+**Potrai anche scegliere di pagare in 3 rate senza interessi**, secondo quanto previsto dalle Condizioni d’uso di PayPal.
 
 ### Pagamento veloce con PayPal
 
