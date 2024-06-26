@@ -19,7 +19,7 @@ Scopri le novità per:
 
 ## Carte di debito o credito
 
-Dal 1° luglio 2024, se presenti, verranno rimosse le carte scadute.
+Dal 1° luglio 2024, se presenti, verranno rimosse le carte scadute o non compatibili con i pagamenti online.
 Presto potrai anche pagare gli avvisi pagoPA senza dover per forza salvare la carta nel Portafoglio: può tornare utile, per esempio, se usi carte monouso o usa e getta.
 
 Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità.
