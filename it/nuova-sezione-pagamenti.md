@@ -19,14 +19,14 @@ Scopri le novità per:
 
 ## Carte di debito o credito
 
-Dal 1° luglio 2024, se presenti, verranno rimosse le carte scadute o non compatibili con i pagamenti online.
+A partire dal mese di luglio 2024, se presenti, verranno rimosse le carte scadute o non compatibili con i pagamenti online.
 Presto potrai anche pagare gli avvisi pagoPA senza dover per forza salvare la carta nel Portafoglio: può tornare utile, per esempio, se usi carte monouso o usa e getta.
 
 Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità.
 
 ## BANCOMAT Pay®
 
-Dal 1° luglio 2024 il tuo account BANCOMAT Pay® non sarà più presente nel Portafoglio.
+A partire dal mese di luglio 2024 il tuo account BANCOMAT Pay® non sarà più presente nel Portafoglio.
 Non preoccuparti: potrai continuare a usare BANCOMAT Pay® per i tuoi pagamenti tramite pagoPA.
 
 In fase di pagamento, seleziona BANCOMAT Pay® dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.
@@ -37,7 +37,7 @@ Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove f
 
 ## PayPal
 
-Dal 1° luglio 2024 il tuo account PayPal non sarà più presente nel Portafoglio.
+A partire dal mese di luglio 2024 il tuo account PayPal non sarà più presente nel Portafoglio.
 Non preoccuparti: potrai continuare a usare PayPal per i tuoi pagamenti tramite pagoPA.
 
 In fase di pagamento, potrai scegliere tra due modalità: “PayPal” e “Pagamento veloce con PayPal”.
