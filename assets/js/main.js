@@ -14,7 +14,7 @@ function newsletterResponse(success) {
 
 function submitNewsletter(token) {
   var subscriptionUrl =
-    "https://api.io.italia.it/api/payportal/v1/newsletters/io/lists/4/recipients";
+    "https://news-p-weu-core-app-fn.azurewebsites.net/api/v1/newsletters/io/lists/4/recipients";
   var email = $("#newsletteremail").val().trim();
   var groups = $("#group").val().split(",");
   var data = { recaptchaToken: token, email: email, groups: groups };
