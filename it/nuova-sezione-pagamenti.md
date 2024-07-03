@@ -42,7 +42,7 @@ Non preoccuparti: potrai continuare a usare PayPal per i tuoi pagamenti tramite 
 
 In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.
 
-### PayPal (anche in 3 rate)
+### PayPal (anche in 3 rate) - in arrivo
 
 Scegli questo metodo se vuoi pagare inserendo di volta in volta le tue credenziali PayPal e il gestore del pagamento che si occuperà della transazione.
 
