@@ -40,7 +40,7 @@ Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove f
 A partire dal mese di luglio 2024 il tuo account PayPal non sarà più presente nel Portafoglio.
 Non preoccuparti: potrai continuare a usare PayPal per i tuoi pagamenti tramite pagoPA.
 
-In fase di pagamento, potrai scegliere tra due modalità: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.
+In fase di pagamento, potrai scegliere tra due nuove modalità: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.
 
 ### PayPal (anche in 3 rate)
 
