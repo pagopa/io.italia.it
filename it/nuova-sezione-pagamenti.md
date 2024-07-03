@@ -9,7 +9,7 @@ noheight: true
 index: no-index
 ---
 
-Stiamo rinnovando la sezione Portafoglio e a breve arriverà la nuova sezione Pagamenti, con l’obiettivo di mostrarti più facilmente le tue ricevute pagoPA e offrirti un’esperienza di pagamento ancora più intuitiva. **Per questo motivo stiamo riorganizzando i metodi di pagamento salvati in app.**
+Stiamo rinnovando la sezione Portafoglio e a breve arriverà la nuova sezione Pagamenti, con l’obiettivo di mostrarti più facilmente le tue ricevute pagoPA e offrirti un’esperienza di pagamento ancora più intuitiva. **Per questo motivo stiamo riorganizzando i metodi di pagamento salvati in app. Le novità descritte di seguito saranno disponibili quando vedrai comparire in app la nuova sezione Pagamenti.**
 
 Scopri le novità per:
 
