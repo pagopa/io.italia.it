@@ -11,7 +11,7 @@ index: no-index
 
 Stiamo rinnovando la sezione Portafoglio e a breve arriverà la nuova sezione Pagamenti, con l’obiettivo di mostrarti più facilmente le tue ricevute pagoPA e offrirti un’esperienza di pagamento ancora più intuitiva. **Per questo motivo stiamo riorganizzando i metodi di pagamento salvati in app.**
 
-Scopri le novità per:
+Scopri le novità in arrivo per:
 
 - [Carte di debito o credito](#carte-di-debito-o-credito)
 - [BANCOMAT Pay®](#bancomat-pay)
@@ -22,7 +22,7 @@ Scopri le novità per:
 A partire dal mese di luglio 2024, se presenti, verranno rimosse le carte scadute o non compatibili con i pagamenti online.
 Presto potrai anche pagare gli avvisi pagoPA senza dover per forza salvare la carta nel Portafoglio: può tornare utile, per esempio, se usi carte monouso o usa e getta.
 
-Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità.
+Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità in arrivo.
 
 ## BANCOMAT Pay®
 
@@ -33,7 +33,7 @@ In fase di pagamento, seleziona BANCOMAT Pay® dall’elenco dei metodi disponib
 
 Per maggiori informazioni, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0){:target="\_blank"} o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay){:target="\_blank"}.
 
-Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità.
+Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità in arrivo.
 
 ## PayPal
 
@@ -67,4 +67,4 @@ Per maggiori informazioni, [visita il sito PayPal](https://www.paypal.com/it/csh
 
 <br>
 
-Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità.
+Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità in arrivo.
