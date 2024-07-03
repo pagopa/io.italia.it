@@ -40,9 +40,9 @@ Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove f
 A partire dal mese di luglio 2024 il tuo account PayPal non sarà più presente nel Portafoglio.
 Non preoccuparti: potrai continuare a usare PayPal per i tuoi pagamenti tramite pagoPA.
 
-In fase di pagamento, potrai scegliere tra due modalità: “PayPal” e “Pagamento veloce con PayPal”.
+In fase di pagamento, potrai scegliere tra due modalità: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.
 
-### PayPal
+### PayPal (anche in 3 rate)
 
 Scegli questo metodo se vuoi pagare inserendo di volta in volta le tue credenziali PayPal e il gestore del pagamento che si occuperà della transazione.
 
@@ -50,7 +50,7 @@ Se nel tuo conto PayPal sono presenti più carte o conti bancari, potrai sceglie
 
 Potrai anche scegliere di pagare in 3 rate senza interessi gli avvisi idonei, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).
 
-### Pagamento veloce con PayPal
+### PayPal pagamento veloce
 
 Scegli questo metodo se vuoi salvare il tuo conto PayPal nel Portafoglio di IO e pagare gli avvisi pagoPA più velocemente.
 
