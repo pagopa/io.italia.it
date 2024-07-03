@@ -48,7 +48,7 @@ Scegli questo metodo se vuoi pagare inserendo di volta in volta le tue credenzia
 
 Se nel tuo conto PayPal sono presenti più carte o conti bancari, potrai scegliere dove addebitare la spesa per ogni pagamento.
 
-Potrai anche scegliere di pagare in 3 rate senza interessi gli avvisi idonei, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).
+Presto potrai anche scegliere di pagare in 3 rate senza interessi gli avvisi idonei, secondo quanto previsto dai [Termini e Condizioni d’uso di Paga in 3 Rate - PayPal](https://www.paypal.com/it/webapps/mpp/campaigns/pay-in-3-full).
 
 ### PayPal pagamento veloce
 
