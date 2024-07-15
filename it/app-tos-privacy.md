@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: 4.8
-updated: 29 gennaio 2024
+vers: 4.9
+updated: 17 luglio 2024
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,8 +26,7 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo introdotto una funzionalità di notifica che ti invia un’email ogni volta che accedi ad IO con la tua identità digitale;
-- Abbiamo introdotto una nuova funzionalità sperimentale e facoltativa che ti consente di autenticarti in app in tutta sicurezza senza inserire le credenziali SPID/CIE per un tempo massimo di 1 anno;
+- Abbiamo introdotto la nuova sezione Pagamenti;
 - Abbiamo corretto alcuni refusi, chiarito alcuni trattamenti e migliorato il linguaggio di alcuni articoli.
 
 {:.d-startup}
@@ -103,27 +102,27 @@ L’utilizzo delle funzionalità di salvataggio e condivisione richiede i permes
 Per offrirti un servizio migliore, per fornirti assistenza e per far fronte ad eventuali contenziosi, IO conserverà lo storico delle tue preferenze, anche se per un periodo di tempo limitato. Questo trattamento viene effettuato da PagoPA in qualità di titolare del trattamento.
 
 {:.d-more-1}
-**_c) Dati trattati nella sezione "Portafoglio"_**
+**_c) Dati trattati nelle sezioni "Portafoglio" e "Pagamenti"_**
 
 {:.d-more-1}
 Dalla sezione Portafoglio di IO puoi salvare e gestire in sicurezza i metodi di pagamento con cui desideri pagare gli avvisi pagoPA o abilitare Servizi degli Enti o Funzionalità di IO.
 
 {:.d-more-1}
 Quando registri un metodo di pagamento, è previsto il trattamento dei dati identificativi del titolare e gli estremi identificativi del metodo stesso. Questo trattamento viene effettuato da PagoPA in qualità di titolare del trattamento. Per registrare alcuni metodi di pagamento, i relativi dati sono raccolti presso terze parti e trattati anche da tali terze parti (ad esempio, fornitori di servizi bancari), e di tali trattamenti verrai informato al momento della tua richiesta di registrazione del metodo.<br>
-Grazie all’integrazione di IO con la piattaforma pagoPA, puoi effettuare pagamenti verso la Pubblica Amministrazione e, se già utilizzi pagoPA, ritroverai automaticamente nell'app i metodi di pagamento registrati e le transazioni effettuate (la ricongiunzione delle utenze avviene tramite il tuo codice fiscale). Se invece non hai mai utilizzato pagoPA in precedenza, nel momento in cui registri un metodo di pagamento su IO e/o effettui un pagamento, verrà creato un tuo profilo pagoPA.<br>
+Grazie all’integrazione di IO con la piattaforma pagoPA, puoi effettuare pagamenti verso la Pubblica Amministrazione e ritrovare nella sezione Pagamenti dell'app le transazioni effettuate (la ricongiunzione avviene tramite il tuo codice fiscale).<br>
 Per ogni pagamento effettuato, vengono trattate le seguenti informazioni:
 
 {:.d-more-1}
 
-- dati relativi alla transazione: identificativo univoco versamento (IUV), nome dell’Ente beneficiario, importo, commissioni, causale (come determinata dall’Ente), data e ora dell’operazione, gestore della transazione (es. la banca che ha emesso la carta con cui hai effettuato il pagamento) e il codice identificativo della transazione, che potrai copiare e utilizzare per ricevere assistenza sulla singola transazione;
-- dati identificativi del soggetto pagatore: codice fiscale e email;
+- dati relativi alla transazione: identificativo univoco versamento (IUV), numero avviso (NAV) nome dell’Ente beneficiario, importo, commissioni, causale (come determinata dall’Ente), tassonomia tributo, data e ora dell’operazione, gestore della transazione (es. la banca che ha emesso la carta con cui hai effettuato il pagamento), codice autorizzativo e il codice identificativo della transazione;
+- dati identificativi dell'interessato: ove applicabile, codice fiscale, nome e cognome, email;
 - dati identificativi del metodo di pagamento: in particolare, numero (cifrato), scadenza, circuito.<br>
   Hai, inoltre, anche la possibilità di pagare un avviso che non hai ricevuto nei Messaggi (es. un avviso cartaceo), scansionando tramite l’app IO il codice a barre presente nell’avviso stesso. In tal caso, IO acquisisce i dati relativi al codice a barre e li trasmette alla Piattaforma pagoPA per il relativo pagamento.
 
 {:.d-more-1}
 Nella sezione Portafoglio è possibile richiedere e abilitare sui tuoi metodi di pagamento servizi e funzionalità che consentono di attivare carte sconto, benefici, vantaggi o agevolazioni, anche in forma di beni e servizi e compresi i pagamenti in denaro (“**Bonus**”). Per la verifica del tuo diritto, la determinazione dell’importo e per l’erogazione e l’utilizzo dei Bonus saranno trattati dati personali relativi a te e/o (ove applicabile) al tuo nucleo familiare, anche raccolti presso terze parti, per conto dell’Ente.<br>
 Le informazioni sui dati personali richiesti ai fini dei Bonus e sui relativi trattamenti sono contenute nelle informative privacy messe a disposizione in ciascuna scheda Bonus dagli Enti che agiscono in qualità di titolari del trattamento. Alcuni dati, ove sono comunicati dall’Ente o da altri soggetti autorizzati, non potranno essere modificati. Per modificare questi dati o per esercitare i tuoi diritti rispetto ai trattamenti relativi alla verifica dei requisiti di un Bonus o alla sua erogazione, puoi rivolgerti all’Ente, utilizzando i canali di contatto indicati nella relativa informativa privacy.<br>
-Trovi maggiori informazioni e dettagli sui trattamenti effettuati tramite la piattaforma pagoPA nella relativa informativa specifica, cui si rinvia per ogni dettaglio. <br>
+Alcuni dei dati sopra menzionati potrebbero essere trattati anche in altre sezioni dell'app, ad esempio nella sezione Messaggi se hai abilitato l'invio delle ricevute dei tuoi pagamenti. Trovi maggiori informazioni e dettagli sui trattamenti effettuati tramite la piattaforma pagoPA nella relativa informativa specifica, cui si rinvia per ogni dettaglio. <br>
 Ti invitiamo a far leggere le informative sul trattamento dei dati personali anche ai tuoi familiari i cui dati saranno oggetto di trattamento, ove applicabile, per la verifica della presenza dei requisiti di un Bonus e per l’erogazione dello stesso.
 
 {:.d-more-1}
@@ -447,8 +446,7 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 
 {:.d-startup}
 
-- Abbiamo introdotto una nuova funzionalità sperimentale e facoltativa che ti consente di autenticarti in app in tutta sicurezza senza inserire le credenziali SPID/CIE per un tempo massimo di 1 anno;
-- Abbiamo introdotto una funzionalità che ti consente di effettuare da web il logout remoto o bloccare l’accesso a IO in caso di usi non autorizzati della tua identità digitale;
+- Abbiamo modificato la sezione che riguarda i servizi di pagamento e l'integrazione con la piattaforma pagoPA;
 - Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
@@ -583,9 +581,9 @@ L’accesso ai Servizi che Ti permettono di effettuare richieste (compresi i Bon
 _d) Servizi di pagamento e integrazione con la Piattaforma pagoPA_
 
 {:.d-more-2}
-Tramite l’integrazione con la Piattaforma pagoPA, l’App IO Ti consente di eseguire le operazioni di pagamento verso gli Enti nonché di utilizzare i servizi della Piattaforma pagoPA, ivi incluso salvare e gestire i Tuoi metodi di pagamento preferiti all’interno della sezione Portafoglio di IO, ad esempio per effettuare più rapidamente successive operazioni di pagamento o per accedere ad ulteriori Servizi al Cittadino e Funzionalità di IO.<br>
+L’App IO Ti consente di eseguire le operazioni di pagamento verso gli Enti, nonché di salvare e gestire i Tuoi metodi di pagamento preferiti all’interno della sezione Portafoglio di IO, ad esempio per effettuare più rapidamente successive operazioni di pagamento o per accedere ad ulteriori Servizi al Cittadino e Funzionalità di IO.<br>
 Ti ricordiamo che quando esegui dei pagamenti verso gli Enti tramite l’integrazione con la Piattaforma pagoPA, l’App IO può solo avvisarti dell'esito della transazione. **Per la quietanza di pagamento, con effetto liberatorio ai sensi di legge, invece, dovrai sempre rivolgerti all’Ente creditore.** <br>
-All’interno della sezione Portafoglio potrai sempre visualizzare e gestire la Tua adesione ai Servizi degli Enti e alle Funzionalità di IO, compresi i Bonus. In alcuni casi e per alcuni Servizi erogati tramite IO che danno diritto a richiedere un pagamento a Tuo favore da parte di un Ente, la Piattaforma pagoPA può verificare l’IBAN da Te inserito al fine di evitare errori di versamento.
+All’interno della sezione Portafoglio potrai sempre visualizzare e gestire la Tua adesione ai Servizi degli Enti e alle Funzionalità di IO, compresi i Bonus.
 
 {:.d-more-2}
 _e) Assistenza tecnica all'Utente e debug_
