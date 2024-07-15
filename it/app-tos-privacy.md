@@ -114,7 +114,7 @@ Per ogni pagamento effettuato, vengono trattate le seguenti informazioni:
 
 {:.d-more-1}
 
-- dati relativi alla transazione: identificativo univoco versamento (IUV), numero avviso (NAV) nome dell’Ente beneficiario, importo, commissioni, causale (come determinata dall’Ente), tassonomia tributo, data e ora dell’operazione, gestore della transazione (es. la banca che ha emesso la carta con cui hai effettuato il pagamento), codice autorizzativo e il codice identificativo della transazione;
+- dati relativi alla transazione: identificativo univoco versamento (IUV), codice avviso (NAV), nome dell’Ente beneficiario, importo, commissioni, causale (come determinata dall’Ente), tassonomia tributo, data e ora dell’operazione, gestore della transazione (es. la banca che ha emesso la carta con cui hai effettuato il pagamento), codice autorizzativo e il codice identificativo della transazione;
 - dati identificativi dell'interessato: ove applicabile, codice fiscale, nome e cognome, email;
 - dati identificativi del metodo di pagamento: in particolare, numero (cifrato), scadenza, circuito.<br>
   Hai, inoltre, anche la possibilità di pagare un avviso che non hai ricevuto nei Messaggi (es. un avviso cartaceo), scansionando tramite l’app IO il codice a barre presente nell’avviso stesso. In tal caso, IO acquisisce i dati relativi al codice a barre e li trasmette alla Piattaforma pagoPA per il relativo pagamento.
