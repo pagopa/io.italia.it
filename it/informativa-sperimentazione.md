@@ -1,6 +1,5 @@
 ---
-layout: internal
-title: Informativa sul trattamento dei dati personali
+layout: truly-naked
 lang: it
 ref: "informativa-sperimentazione"
 permalink: /informativa-sperimentazione/

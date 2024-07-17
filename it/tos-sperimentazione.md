@@ -1,6 +1,5 @@
 ---
-layout: internal
-title: Informativa sui TOS
+layout: truly-naked
 lang: it
 ref: "tos-sperimentazione"
 permalink: /tos-sperimentazione/
