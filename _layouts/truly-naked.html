@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+{% assign t = site.data.t[current_lang] %}
+
+<div class="mt-5">
+
+  <article class="{{ page.layout }}">
+    
+        {{content}}
+    
+  </article>
+</div>
