@@ -1,6 +1,6 @@
 ---
 layout: internal
-title: Arriva la nuova sezione Pagamenti!
+title: È arrivata la nuova sezione Pagamenti!
 lang: it
 ref: "nuova-sezione-pagamenti"
 permalink: /nuova-sezione-pagamenti/
@@ -9,7 +9,7 @@ noheight: true
 index: no-index
 ---
 
-Stiamo rinnovando la sezione Portafoglio e a breve arriverà la nuova sezione Pagamenti, con l’obiettivo di mostrarti più facilmente le tue ricevute pagoPA e offrirti un’esperienza di pagamento ancora più intuitiva. **Per questo motivo stiamo riorganizzando i metodi di pagamento salvati in app.**
+Abbiamo rinnovato la sezione Portafoglio ed è arrivata la nuova sezione Pagamenti, con l’obiettivo di mostrarti più facilmente le tue ricevute pagoPA e offrirti un’esperienza di pagamento ancora più intuitiva. **Per questo motivo abbiamo riorganizzato i metodi di pagamento salvati in app.**
 
 Scopri le novità in arrivo per:
 
@@ -19,30 +19,29 @@ Scopri le novità in arrivo per:
 
 ## Carte di debito o credito
 
-A partire dal mese di luglio 2024, se presenti, verranno rimosse le carte scadute o non compatibili con i pagamenti online.
-Presto potrai anche pagare gli avvisi pagoPA senza dover per forza salvare la carta nel Portafoglio: può tornare utile, per esempio, se usi carte monouso o usa e getta.
+Abbiamo rimosso, se presenti, le carte scadute o non compatibili con i pagamenti online. Se le vedi ancora nel tuo Portafoglio, aggiorna IO all'ultima versione disponibile.
 
-Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità in arrivo.
+Presto potrai anche pagare gli avvisi pagoPA senza dover per forza salvare la carta nel Portafoglio: può tornare utile, per esempio, se usi carte monouso o usa e getta.
 
 ## BANCOMAT Pay®
 
-A partire dal mese di luglio 2024 il tuo account BANCOMAT Pay® non sarà più presente nel Portafoglio.
-Non preoccuparti: potrai continuare a usare BANCOMAT Pay® per i tuoi pagamenti tramite pagoPA.
+Abbiamo rimosso il tuo account BANCOMAT Pay® dal Portafoglio.
+Non preoccuparti: puoi continuare a usare BANCOMAT Pay® per i tuoi pagamenti tramite pagoPA.
 
 In fase di pagamento, seleziona BANCOMAT Pay® dall’elenco dei metodi disponibili e, quando richiesto, inserisci il numero di cellulare associato al tuo IBAN.
 
 Per maggiori informazioni, [guarda il video tutorial](https://www.youtube.com/watch?v=mil4jEuaMo0){:target="\_blank"} o [leggi le domande frequenti](https://bancomat.it/it/privati/bancomat-pay){:target="\_blank"}.
 
-Aggiorna IO all'ultima versione disponibile per usare l'app con tutte le nuove funzionalità in arrivo.
+Se vedi ancora il tuo account nel Portafoglio, aggiorna IO all'ultima versione disponibile.
 
 ## PayPal
 
-A partire dal mese di luglio 2024 il tuo account PayPal non sarà più presente nel Portafoglio.
-Non preoccuparti: potrai continuare a usare PayPal per i tuoi pagamenti tramite pagoPA.
+Abbiamo rimosso il tuo account PayPal dal Portafoglio. Se lo vedi ancora nel tuo Portafoglio, aggiorna IO all'ultima versione disponibile.
+Non preoccuparti: puoi continuare a usare PayPal per i tuoi pagamenti tramite pagoPA.
 
 In fase di pagamento, potrai scegliere tra due nuovi metodi: “PayPal (anche in 3 rate)” e “PayPal pagamento veloce”.
 
-### PayPal (anche in 3 rate) - in arrivo
+### PayPal (anche in 3 rate) - IN ARRIVO
 
 Scegli questo metodo se vuoi pagare inserendo di volta in volta le tue credenziali PayPal e il gestore del pagamento che si occuperà della transazione.
 
