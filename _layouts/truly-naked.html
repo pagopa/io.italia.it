@@ -1,15 +1,38 @@
----
-layout: default
----
-
-{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+<!DOCTYPE html>
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %}
 {% assign t = site.data.t[current_lang] %}
+{% assign buildTime =  site.time | date: '%Y%m%d%H%M' %}
+<html lang="{{ current_lang }}">
 
-<div class="mt-5">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="{{ page.description | default: site.description[current_lang] | smartify }}">
+    <meta name="robots" content=" noindex, nofollow">
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; child-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.onetrust.com; style-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; connect-src 'self' https://*.onetrust.com; font-src 'self'; frame-src 'self'; img-src 'self' https://assets.cdn.io.italia.it; manifest-src 'self'; media-src 'self'; worker-src 'none';" >
+    <title>
+        {%- if page.title -%}
+        {{ page.title | smartify }} – {{ site.title[current_lang] | smartify }}
+        {%- else -%}
+        {{ site.title[current_lang] | smartify }}
+        {%- endif -%}
+    </title>
 
-  <article class="{{ page.layout }}">
+    <link rel="stylesheet"  href="{{ '/assets/selfhostedfonts.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/trulynaked.css' | relative_url }}"/>
     
-        {{content}}
+    {% if page.assets.css %}
+      <link rel="stylesheet" href="{{ page.assets.css | append: '?' | append: buildTime | relative_url }}">
+    {%endif%}
     
-  </article>
-</div>
+  </head>
+
+  <body class="layout--{{page.layout}} pagename--{{page.ref}} {{page.body_class}}">
+
+    {{ content }}
+
+  </body>
+
+</html>
