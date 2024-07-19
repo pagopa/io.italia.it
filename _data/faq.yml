@@ -5,11 +5,15 @@ it:
     
 <i class='small text-muted d-block'>* Nota: se hai una età inferiore a 18 anni, al momento non è possibile effettuare l'accesso con Carta d'Identità Elettronica, come stabilito dal Ministero dell’Interno, d’intesa con il [Garante della Privacy](https://www.garanteprivacy.it/home/docweb/-/docweb-display/docweb/9880472).</i>"
     cat: "1|Generali"
-  - title: Come posso installare l'app?
-    body: "IO è disponibile sull’[App Store di Apple](https://apps.apple.com/it/app/io/id1501681835) per dispositivi con sistema operativo iOS 12 e superiori e su [Google Play Store](https://play.google.com/store/apps/details?id=it.pagopa.io.app) per i dispositivi con sistema operativo Android 6.0 e superiori.
+  - title: Come posso installare l’app?
+    body: "Puoi scaricare l’app IO da:
+
+    - [App Store](https://apps.apple.com/it/app/io/id1501681835) se hai iOS 14 o versioni successive
     
-    I dispositivi aggiornati a queste versioni di sistema operativo includono gli aggiornamenti di sicurezza più recenti, garantiscono prestazioni superiori e supportano tecnologie più evolute, consentendo 
-    anche al nostro team di sviluppo di introdurre nuove funzionalità e servizi sull’app IO per un’esperienza utente sempre più ottimale."
+    - [Google Play](https://play.google.com/store/apps/details?id=it.pagopa.io.app) Store sa hai Android 7.1 o versioni successive.
+    
+    
+    Aggiornare l’app alla versione più recente ti garantisce maggiore sicurezza, prestazioni ottimali e accesso alle tecnologie più avanzate. Ciò permette anche al nostro team di sviluppare continuamente nuove funzionalità e rendere l’app più efficiente e facile da usare."
     cat: "1|Generali"
   - title: Se non ho più il mio dispositivo, posso uscire da IO?
     body: Sì, in caso di furto o smarrimento del tuo dispositivo, puoi uscire da IO [accedendo a questa pagina](https://ioapp.it/it/esci/). Autenticati con SPID o CIE e segui le indicazioni.
@@ -110,9 +114,14 @@ Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere pe
   - title: "L‘app del progetto IO sarà disponibile solo negli store italiani, o anche in quelli esteri?"
     body: "Ora che l’app è negli store, il download è disponibile a tutti e non ha blocchi geografici. I cittadini italiani (AIRE e non) che vivono all'estero dotati di SPID o CIE possono accedere ai servizi. Qui tutte le informazioni su come ottenere SPID dall'estero: [https://www.spid.gov.it/richiedi-spid](https://www.spid.gov.it/richiedi-spid), mentre per la CIE è necessario rivolgersi al proprio consolato di riferimento."
     cat: "1|Generali"
-  - title: "Quando apro l’app vedo un messaggio che dice che il mio dispositivo non è più compatibile con IO. Come mai?"
-    body: "IO ha iniziato a sfruttare una tecnologia che rende il suo utilizzo ancora più sicuro ma che non è compatibile con alcuni dispositivi, solitamente se sono datati o usano versioni non aggiornate del sistema operativo.<br>
-Se quando apri l’app vedi un messaggio che ti dice che non puoi più usarla su quel dispositivo, significa che non è compatibile con questa tecnologia. Assicurati che il sistema operativo sia aggiornato all’ultima versione. Se è già così, per continuare a usare IO dovrai accedere da un altro dispositivo."
+  - title: "Perché l'app IO mi dice che il mio dispositivo non è più compatibile?"
+    body: "IO aggiorna la propria tecnologia per garantire sicurezza e un’esperienza d’uso migliore. L’app potrebbe non funzionare su dispositivi meno recenti o su quelli non aggiornati.
+    
+    Se vedi questo messaggio:
+    
+    - Aggiorna il sistema del tuo dispositivo all’ultima versione disponibile.
+    
+    - Se è già aggiornato, il tuo dispositivo potrebbe non supportare la versione attuale di IO. Se è già aggiornato, il tuo dispositivo potrebbe non supportare la versione attuale di IO. In questo caso, se desideri continuare a usare IO, sarà necessario installarla su un dispositivo più recente."
     cat: "1|Generali"
   - title: Quando sarà attivo su IO il Certificato Verde COVID-19?
     body: "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale. Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita <https://www.dgc.gov.it>"
