@@ -12,7 +12,7 @@ items:
     dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza"
     luogo: "Unione Europea, con possibile trasferimento verso paesi terzi ad opera dei sub-responsabili ingaggiati dal fornitore"
     garanzie: "N/A"
-    doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981058390O__O06.+Allegato_2_Contratto_signed+%281%29.pdf) [Misure di sicurezza](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981004500O__O07.+Allegato+4+-+Sicurezza_pagoPA_CentroStella+final_signed+%281%29.pdf) [Accordo sul trattamento - supplementare](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981024440O__OSIA_DPA_atto+aggiuntivo+%281%29.pdf)"
+    doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/2333816563192823270O__O20230926173626032_accordo_quadro_nexi_payments_spa_signedsigned.pdf)
   - 
     fornitore: "RTI Softlab Next S.r.l. (già Softlab Tech S.p.A.) - Tecnocall S.r.l.\n\n
     (\"Softlab\")"
@@ -36,12 +36,12 @@ items:
     garanzie: "N/A"
     doc: "[Accordo](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/2326817050538503270O__Oaccordo_quadro_piattaforma_banking_servicesdocx_signed_1.pdf)"
   - 
-    fornitore: "Atlantica Digital S.p.A."
+    fornitore: "Aizoon Consulting S.r.l."
     attivita: "Servizi di Vulnerability Assessment/Penetration Test e Security Consulting"
     dati: "Dati personali cui il fornitore potrebbe eventualmente avere accesso nello svolgimento dei servizi affidati"
     luogo: "Italia"
     garanzie: "N/A"
-    doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/Atlantica-Digital_DPA.pdf)"
+    doc: "[Accordo](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/249414464910583270O__O20240403180931425_accordo_quadro_aizoonsignedsigned.pdf)"
   - 
     fornitore: "Namirial S.p.A."
     attivita: "Servizi di emissione di certificati per firma digitale e conservazione a norma"
@@ -69,8 +69,7 @@ items:
     garanzie: "N/A"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/LimeSurvey_DPA_jul%202022.pdf)"
   - 
-    fornitore: "Qualtrics LLC\n\n
-    (subfornitore di Softlab)"
+    fornitore: "Qualtrics LLC"
     attivita: "Servizio per form, moduli e questionari online"
     dati: "Dati forniti dagli interessati nei campi del questionario, dati di navigazione e utilizzo dell'app da parte dell'utente"
     luogo: "Germania, con possibile trasferimento verso paesi terzi (compresi USA)"
@@ -100,14 +99,16 @@ items:
     - adesione al Data Privacy Framework"
     doc: "[DPA](https://io.italia.it/assets/download/it/legal/REDACTED_Mixpanel_DPA_2022.pdf)"
   - 
-    fornitore: "Instabug, Inc. (**dismesso**)"
-    attivita: "Soluzione tecnica per l'invio di segnalazioni e la gestione dell'assistenza clienti"
-    dati: "(i) Dati forniti dall'utente nella segnalazione (NB: disincentiviamo l'utente a fornire dati \"critici\" o \"sensibili\" nelle segnalazioni)\n\n
-    (ii) Dati relativi al dispositivo e alla navigazione per migliorare l'assistenza"
-    luogo: "USA"
-    garanzie: "- clausole contrattuali standard della Commissione Europea\n\n
-    - clausole contrattuali aggiuntive a supplemento delle clausole contrattuali standard della Commissione Europea per tutelare i trasferimenti di dati al di fuori dell'UE"
-    doc: "[DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019140O__O07.+Instabug_DPA.pdf) [Amendment 1 al DPA](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/212981019270O__O08.+Instabug_Amendment+1+to+DPA.pdf)"
+    fornitore: "Functional Software, Inc. d/b/a Sentry"
+    attivita: "Strumento di analisi crash e performance"
+    dati: "Informazioni anonime sul dispositivo, sulla versione dell’app installata, sull’evento diagnostico"
+    luogo: "Germania"
+    garanzie: "- anonimizzazione dei dati personali\n\n
+    - opzione di residenza dei dati in UE\n\n
+    - clausole contrattuali standard della Commissione Europea\n\n
+    - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
+    - adesione al Data Privacy Framework"
+    doc: "[DPA]()"
   - 
     fornitore: "Zendesk Inc.\n\n 
     (sub-responsabile di Softlab)"
