@@ -12,7 +12,7 @@ items:
     dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza"
     luogo: "Unione Europea, con possibile trasferimento verso paesi terzi ad opera dei sub-responsabili ingaggiati dal fornitore"
     garanzie: "N/A"
-    doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/2333816563192823270O__O20230926173626032_accordo_quadro_nexi_payments_spa_signedsigned.pdf)
+    doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/2333816563192823270O__O20230926173626032_accordo_quadro_nexi_payments_spa_signedsigned.pdf)"
   - 
     fornitore: "RTI Softlab Next S.r.l. (già Softlab Tech S.p.A.) - Tecnocall S.r.l.\n\n
     (\"Softlab\")"
@@ -108,7 +108,7 @@ items:
     - clausole contrattuali standard della Commissione Europea\n\n
     - misure supplementari di tipo contrattuale, tecnico e organizzativo\n\n
     - adesione al Data Privacy Framework"
-    doc: "[DPA]()"
+    doc: "[DPA](/assets/download/it/Sentry_DPA_Redacted.pdf)"
   - 
     fornitore: "Zendesk Inc.\n\n 
     (sub-responsabile di Softlab)"
