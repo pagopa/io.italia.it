@@ -36,20 +36,6 @@ it:
 
     Per conoscere il tuo livello di sicurezza SPID, chiedi al tuo Identity Provider. Per maggiori informazioni sui livelli di sicurezza della CIE, [visita questo sito](https://www.cartaidentita.interno.gov.it/info-utili/identificazione-digitale/#:~:text=livello%201%3A%20accesso%20mediante%20una,per%20la%20lettura%20della%20CIE)."
     cat: "1|Generali"
-  - title: Cosa significa che l'app è disponibile negli store in versione open beta? 
-    body: "Dal marzo 2019 circa duemila cittadini in diversi territori hanno sperimentato l’app in versione _closed-beta_ (beta “chiusa”): abbiamo dato la possibilità a un numero limitato di persone,\
-     invitate dagli Enti che per primi hanno aderito al progetto (ACI, Comuni di Milano, Torino, Palermo, Ripalta Cremasca e Valsamoggia),\ 
-     di installare e testare IO sul proprio smartphone con un primo set di funzionalità e servizi reali.\ 
-     Con l’arrivo di IO negli store nella primavera 2020, abbiamo reso disponibile la versione beta “aperta” dell'app (_open beta_) a tutti i cittadini.\ 
-     Significa che **chiunque lo desideri può scaricare e installare IO sul proprio smartphone, partecipando alla sperimentazione di un prodotto che non è ancora** al pieno delle sue potenzialità,\ 
-     ma che evolverà e migliorerà continuamente anche grazie all’esperienza diretta e ai feedback delle persone a cui è destinato."
-    cat: "1|Generali"
-  - title: Perché, dopo un anno di test, l’app è ancora in beta?
-    body: "L'uscita di IO sugli store è un passo importante per i servizi pubblici digitali in Italia e un’ulteriore tappa di questo progetto così ambizioso.\ 
-    Rendendo disponibile l’app in versione beta a tutti i cittadini, infatti, abbiamo dato inizio alla **seconda fase della sperimentazione, fondamentale per favorire l’adozione di IO a livello nazionale.**\  
-    La prima fase di test dell’app in closed-beta è servita a individuare e risolvere malfunzionamenti (_bug_) e a ottimizzare l’esperienza utente, grazie ai feedback dei primi cittadini coinvolti.\ 
-    Ora, con l’app disponibile in _open beta_ sugli store, **l’obiettivo è tarare e ottimizzare l’infrastruttura e i processi su vasta scala**, mentre sempre più Enti procedono all’integrazione dei propri servizi su IO."
-    cat: "1|Generali"
   - title: I cittadini possono contribuire allo sviluppo dell’app anche ora che IO è negli store online?
     body: "Sì. IO è un progetto collettivo, un “bene comune”, e così sarà sempre. Fin da subito, abbiamo progettato l’app insieme ai cittadini partendo dall’analisi delle loro esigenze,\ 
     e continueremo a farla crescere grazie al contributo costante degli utenti.\ 
