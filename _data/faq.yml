@@ -113,13 +113,21 @@ Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere pe
     body: "Il Certificato Verde COVID-19 viene inviato tramite IO non appena la Piattaforma Nazionale DGC di cui è titolare il Ministero della Salute lo genera. I tempi di generazione del certificato dipendono da diversi fattori, compresa la velocità con cui le varie strutture sanitarie inviano i dati alla Piattaforma Nazionale. Dalla partenza dell'iniziativa potrebbe essere necessario qualche giorno per ricevere tutti i certificati. Per saperne di più visita <https://www.dgc.gov.it>"
     cat: "6|Certificazioni Verdi COVID-19"
   - title: Come posso pagare su IO?
-    body: "Alla pagina metodi di pagamento trovi l'elenco aggiornato di tutti i [metodi di pagamento](https://io.italia.it/metodi-pagamento/) che puoi salvare sull’app IO."
+    body: "Puoi scegliere tra vari metodi di pagamento, tra cui:
+
+    - Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron
+    - BANCOMAT Pay
+    - PayPal pagamento veloce
+    - PayPal (anche in 3 rate)
+
+
+    Saranno presto disponibili altri metodi di pagamento."
     cat: "3|Pagamenti"
   - title: Pagare su IO è sicuro?
     body: "Sì, è sicuro. L’app IO assicura il pieno rispetto del Regolamento Generale sulla protezione dei dati (GDPR) ai propri utenti. Nel caso dei pagamenti, i dati delle carte che aggiungi nel Portafoglio non vengono memorizzati in app, ma in un ambiente protetto secondo gli standard PCI DSS (Payment Card Industry Data Security Standard) e conservati in server situati in Italia."
     cat: "3|Pagamenti"
   - title: Non riesco ad aggiungere la mia carta al Portafoglio. Come mai?
-    body: "Anzitutto, controlla che la carta non sia scaduta, bloccata o in pausa, che i dati inseriti siano corretti e che non siano stati superati i limiti massimi di spesa. Poi, assicurati che sia abilitata ai pagamenti online e che sia tra quelle [supportate da IO](https://io.italia.it/metodi-pagamento). Se è tutto corretto ma non riesci comunque ad aggiungerla, probabilmente sulla carta non è attivo il servizio 3D Secure. Se rientri in questi casi, contatta il Servizio Clienti della tua banca."
+    body: "Anzitutto, controlla che la carta non sia scaduta, bloccata o in pausa, che i dati inseriti siano corretti e che non siano stati superati i limiti massimi di spesa. Poi, assicurati che sia abilitata ai pagamenti online. Se è tutto corretto ma non riesci comunque ad aggiungerla, probabilmente sulla carta non è attivo il servizio 3D Secure. Se rientri in questi casi, contatta il Servizio Clienti della tua banca."
     cat: "3|Pagamenti"
   - title: Cos’è 3D Secure?
     body: "Quando effettui un pagamento online, la tua banca può chiederti di inserire un codice temporaneo per autorizzare la transazione. Questo servizio si chiama 3D Secure, è gratuito e ti garantisce maggiore sicurezza quando effettui un pagamento online con carta di debito o credito. In base a chi eroga il servizio, ci sono anche altre definizioni per riferirsi al 3D Secure: le più comuni sono “3DS”, “Verified by Visa”, “MasterCard Identity Check” e “SecureCode”."
