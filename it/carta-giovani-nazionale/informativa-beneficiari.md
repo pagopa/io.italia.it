@@ -39,7 +39,7 @@ La validità della presente informativa è limitata al solo Programma, si aggiun
 
 # Titolare del Trattamento
 
-Titolare del trattamento è il Dipartimento per le Politiche Giovanili e il Servizio Civile Universale presso la Presidenza del Consiglio dei Ministri, Via della Ferratella in Laterano, 51, 00184 Roma, in persona del Capo Dipartimento pro-tempore, domiciliato per la carica presso la predetta sede (<dpo@serviziocivile.it>).
+Titolare del trattamento è il Dipartimento per le Politiche Giovanili e il Servizio Civile Universale presso la Presidenza del Consiglio dei Ministri, Via della Ferratella in Laterano, 51, 00184 Roma, in persona del Capo Dipartimento pro-tempore, domiciliato per la carica presso la predetta sede (<privacy@serviziocivile.it>).
 
 # Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
 
