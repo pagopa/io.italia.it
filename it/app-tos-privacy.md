@@ -454,7 +454,6 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 
 {:.d-startup}
 
-- Abbiamo modificato la sezione che riguarda i servizi di pagamento e l'integrazione con la piattaforma pagoPA;
 - Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
