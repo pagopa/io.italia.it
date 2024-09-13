@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: 4.9
-updated: 15 luglio 2024
+vers: 4.10
+updated: 23 settembre 2024
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,11 +26,12 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo introdotto la nuova sezione Pagamenti;
+- La sezione “Profilo” diventa “Impostazioni” ed è raggiungibile dall’icona a forma di rotella in alto a destra di ogni schermata dell’app;
+- Per migliorare la stabilità dell’app, abbiamo introdotto uno strumento di rilevazione di crash e misurazione della performance, utilizzando dati anonimizzati alla fonte; 
 - Abbiamo corretto alcuni refusi, chiarito alcuni trattamenti e migliorato il linguaggio di alcuni articoli.
 
 {:.d-startup}
-Sotto trovi l'informativa completa, che puoi consultare in ogni momento nella sezione "Profilo" dell'app.
+Sotto trovi l'informativa completa, che puoi consultare in ogni momento anche in app.
 
 <div class="read-more d-startup" data-more="d-more-1">Leggi tutto</div>
 
@@ -54,7 +55,7 @@ La validità di questa informativa è limitata all’utilizzo delle funzionalit�
 
 {:.d-more-1}
 Per usare IO devi accedere tramite la tua identità digitale (SPID o CIE). IO ottiene direttamente dal fornitore dell’identità digitale i dati necessari alla tua identificazione.<br>
-Questi dati vengono trattati da PagoPA in qualità di titolare del trattamento per permetterti di utilizzare l'app IO, le sue funzionalità e i servizi forniti dagli Enti, e vengono memorizzati per permetterti di gestire le tue preferenze (cfr. sotto la sezione _Dati trattati nella sezione "Profilo"_).<br>
+Questi dati vengono trattati da PagoPA in qualità di titolare del trattamento per permetterti di utilizzare l'app IO, le sue funzionalità e i servizi forniti dagli Enti, e vengono memorizzati per permetterti di gestire le tue preferenze (cfr. sotto la sezione _Dati trattati nella sezione "Impostazioni"_).<br>
 Tra questi, gli Enti utilizzeranno il tuo codice fiscale per raggiungerti tramite l'app IO.<br>
 Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune funzionalità dell’app, IO genera sul tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche associate alla tua identità. Queste attività costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo tu ad autorizzare specifiche operazioni. Inoltre, se scegli di abilitare la funzionalità sperimentale “Login Veloce”, le chiavi crittografiche possono essere utilizzate per consentirti di accedere in app in tutta sicurezza senza inserire nuovamente le tue credenziali per un tempo massimo di 1 anno.<br> 
 Se accedi a IO a seguito di un reindirizzamento da una terza parte, PagoPA e/o la terza parte potrebbero trattare e conservare i dati necessari per consentire la comunicazione e garantirne la sicurezza (ad esempio, il tuo indirizzo IP).
@@ -66,7 +67,7 @@ Se accedi a IO a seguito di un reindirizzamento da una terza parte, PagoPA e/o l
 L’App IO consente agli Enti che ne fanno richiesta di inviare messaggi a contenuto remoto tramite un’apposita funzionalità sperimentale. Con remoto si intende che, qualora l’Ente decida di utilizzare questa Funzionalità, il contenuto dei messaggi, così come già avviene per gli allegati, rimarrà sempre sui sistemi dell’Ente e sarà visibile soltanto da Te quando deciderai di aprire il messaggio. Questa Funzionalità, inoltre, abilita contenuti dinamici, consentendo agli Enti mittenti di modificare nel tempo i contenuti del messaggio. **IO ti avvisa della presenza di contenuti dinamici e per qualsiasi problema o per esercitare i tuoi diritti in qualità di interessato ai sensi del GDPR, dovrai rivolgerti direttamente all’Ente attraverso i contatti presenti nella relativa scheda Servizio.**
 
 {:.d-more-1}
-Al tuo primo accesso all’app, potrai scegliere quali Servizi possono contattarti e potrai modificare la tua scelta in ogni momento, sia alla voce “Preferenze” della sezione Profilo (passando dalla configurazione rapida a quella manuale, e viceversa), sia nella scheda di ciascun Servizio, in cui potrai anche impostarne i canali (messaggi in app e notifiche push). Sempre alla voce “Preferenze” della sezione Profilo puoi anche impostare la preferenza globale rispetto all’inoltro via email dei messaggi in app, che di default non è attivo. A prescindere dalla Tua scelta, ti ricordiamo che **su IO riceverai solo messaggi a te espressamente indirizzati**.
+Al tuo primo accesso all’app, potrai scegliere quali Servizi possono contattarti e potrai modificare la tua scelta in ogni momento, sia da Impostazioni > Preferenze, raggiungibile dall’icona a forma di rotella in alto a destra, (passando dalla configurazione rapida a quella manuale, e viceversa), sia nella scheda di ciascun Servizio, in cui potrai anche impostarne i canali (messaggi in app e notifiche push). Sempre nella sezione “Preferenze” della sezione Profilo puoi anche impostare la preferenza globale rispetto all’inoltro via email dei messaggi in app, che di default non è attivo. A prescindere dalla Tua scelta, ti ricordiamo che **su IO riceverai solo messaggi a te espressamente indirizzati**.
 
 {:.d-more-1}
 Se scegli la _configurazione rapida_ abiliterai la ricezione di messaggi in app e di notifiche push di tutti i Servizi presenti e futuri. Se lo desideri, potrai disattivare e riattivare manualmente ciascun Servizio dalla lista Servizi.<br>
@@ -84,14 +85,14 @@ Per consentire l’invio delle notifiche push, applichiamo misure di pseudonimiz
 - che recano l’indicazione del mittente e dell’oggetto del messaggio, e potrebbero dunque contenere anche indicazioni sul suo contenuto. Ti ricordiamo che se scegli questa opzione, i dati della notifica vengono trattati dal gestore del tuo sistema operativo e da app di terze parti eventualmente in esecuzione sul tuo dispositivo, in qualità di titolari autonomi. Inoltre, a seconda delle impostazioni del tuo dispositivo, il contenuto della notifica potrebbe essere mostrato anche quando lo schermo è bloccato.
 
 {:.d-more-1}
-Puoi sempre modificare la tua scelta nella sezione Preferenze del Tuo Profilo.
+Puoi sempre modificare la tua scelta da Impostazioni > Preferenze, raggiungibile dall’icona a forma di rotella in alto a destra.
 
 {:.d-more-1}
 I messaggi inviati tramite IO possono contenere dati personali comuni, e/o relativi a condanne penali e reati, e/o categorie particolari (c.d. “dati sensibili”), compresi dati relativi al tuo stato di salute, in particolare nel caso di messaggi inviati da Servizi connessi all’emergenza epidemiologica da COVID-19. È responsabilità degli Enti contrassegnare un messaggio e/o un Servizio come potenzialmente veicolante informazioni sensibili, in tal caso verranno propagate notifiche push generiche e il messaggio non ti verrà inoltrato via mail, a prescindere dalle preferenze da te impostate.
 
 {:.d-more-1}
 Per garantire il corretto funzionamento di alcune caratteristiche delle comunicazioni provenienti dai Servizi, e per migliorare l’esperienza utente, raccogliamo e memorizziamo, in qualità di titolari del trattamento, informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti. Questo trattamento è di natura esclusivamente tecnica ed è strettamente necessario per offrire i servizi di comunicazione e per la corretta gestione dei pagamenti, per cui non può essere disabilitato.<br>
-Su richiesta degli Enti, potremmo fornire a questi ultimi, in qualità di responsabili del trattamento, lo stato di lettura dei Messaggi inviati dai propri Servizi e/o lo stato di avvenuto pagamento di un avviso contenuto in un Messaggio, al fine di consentire agli stessi di valutarne l’efficacia, anche al fine di effettuare successive comunicazioni di promemoria agli utenti che non abbiano letto un Messaggio o abbiano un avviso di pagamento in scadenza. Ti ricordiamo che  puoi sempre disabilitare l’invio dello stato di lettura all’interno di ciascuna scheda Servizio e modificare in ogni momento la tua scelta rispetto alla ricezione di promemoria nella sezione Preferenze del tuo Profilo..
+Su richiesta degli Enti, potremmo fornire a questi ultimi, in qualità di responsabili del trattamento, lo stato di lettura dei Messaggi inviati dai propri Servizi e/o lo stato di avvenuto pagamento di un avviso contenuto in un Messaggio, al fine di consentire agli stessi di valutarne l’efficacia, anche al fine di effettuare successive comunicazioni di promemoria agli utenti che non abbiano letto un Messaggio o abbiano un avviso di pagamento in scadenza. Ti ricordiamo che  puoi sempre disabilitare l’invio dello stato di lettura all’interno di ciascuna scheda Servizio e modificare in ogni momento la tua scelta rispetto alla ricezione di promemoria da Impostazioni > Preferenze, raggiungibile dall’icona a forma di rotella in alto a destra.
 
 {:.d-more-1}
 Alcuni Messaggi possono contenere degli allegati. In alcuni casi potrai conservare e/o inviare alcune di queste informazioni mediante sistemi e app di terze parti installate nel tuo dispositivo, ad esempio per salvare i file in locale o condividerli con terzi.<br>
@@ -126,18 +127,18 @@ Alcuni dei dati sopra menzionati potrebbero essere trattati anche in altre sezio
 Ti invitiamo a far leggere le informative sul trattamento dei dati personali anche ai tuoi familiari i cui dati saranno oggetto di trattamento, ove applicabile, per la verifica della presenza dei requisiti di un Bonus e per l’erogazione dello stesso.
 
 {:.d-more-1}
-**_d) Dati trattati nella sezione "Profilo"_**
+**_d) Dati trattati nella sezione "Impostazioni"_**
 
 {:.d-more-1}
-L'app IO ti permette di gestire le tue preferenze e i dati del tuo account.
+L'app IO ti permette di gestire le tue preferenze e i dati del tuo account o profilo utente.
 
 {:.d-more-1}
 Le relative informazioni sono associate al tuo codice fiscale e memorizzate nei nostri sistemi. Conserviamo inoltre, per un periodo di tempo limitato, lo storico degli accessi e delle preferenze.<br>
-Di seguito trovi alcune informazioni importanti sul trattamento dei dati nell’ambito del tuo Profilo:
+Di seguito trovi alcune informazioni importanti sul trattamento dei dati rattati in relazione alle impostazioni del tuo profilo:
 
 {:.d-more-1}
 
-- Potremmo utilizzare l’email da te indicata nella sezione Profilo per inviarti comunicazioni importanti relative all’app o al tuo account. Tra queste, ti segnaliamo che riceverai un’email a ogni accesso effettuato su IO tramite SPID o CIE: se rilevi un accesso non autorizzato, puoi bloccare il profilo seguendo il link contenuto nella comunicazione e-mail;
+- Potremmo utilizzare l’email da te indicata nelle Impostazioni per inviarti comunicazioni importanti relative all’app o al tuo account. Tra queste, ti segnaliamo che riceverai un’email a ogni accesso effettuato su IO tramite SPID o CIE: se rilevi un accesso non autorizzato, puoi bloccare il profilo seguendo il link contenuto nella comunicazione e-mail;
 - Non raccogliamo informazioni biometriche, ma riceviamo dal tuo dispositivo unicamente la conferma se il riconoscimento biometrico è attivo;
 - Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;
 - La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.
@@ -154,9 +155,13 @@ Per garantire il corretto funzionamento di IO e dei suoi sistemi, vengono svolte
 {:.d-more-1}
 
 1. per la rilevazione dei dati di utilizzo, previo consenso degli interessati, tramite cui è possibile acquisire, tra l’altro, informazioni relative all’utilizzo e alla navigazione e informazioni relative al dispositivo;
-2. per raccogliere a livello infrastrutturale ulteriori dati e log tecnici.<br>
+2.per la rilevazione di eventi di crash e performance, che consentono di acquisire informazioni utili all’analisi degli eventi rilevati e monitorare la performance (in termini di stabilità) dell’App. I dati raccolti sono anonimizzati alla fonte;
+3. per raccogliere a livello infrastrutturale ulteriori dati e log tecnici.<br>
+
+{:.d-more-1}
+
    Alcuni di questi dati sono associati univocamente a te, sono raccolti tramite sistemi di fornitori terzi nominati responsabili del trattamento, e sono utilizzati esclusivamente per le finalità descritte e mai per scopi di marketing o profilazione. Il consenso all’utilizzo dei dati di cui al punto 1 è facoltativo, e puoi modificarlo in ogni momento nella sezione Preferenze.<br>
-   I dati di cui al punto 2, invece, sono raccolti automaticamente dalla nostra infrastruttura e non sono soggetti a consenso poiché assolvono ad ulteriori finalità e si fondano su basi giuridiche differenti.
+   I dati di cui ai punti 2 e 3, invece, sono raccolti automaticamente dalla nostra infrastruttura e non sono soggetti a consenso poiché assolvono ad ulteriori finalità e si fondano su basi giuridiche differenti.
 
 {:.d-more-1}
 **_f) Dati trattati per le attività di assistenza_**
@@ -196,6 +201,9 @@ Se scegli di utilizzare Firma con IO, PagoPA tratterà in qualità di titolare, 
 
 - i dati necessari per consentire l’identificazione e l’autenticazione sicura dell’utente firmatario (in particolare, i dati anagrafici e di contatto, gli identificativi univoci del documento e/o della richiesta di firma, le chiavi crittografiche);
 - tutti gli altri dati, ove applicabile in relazione alle attività di trattamento strettamente connesse alla funzionalità, al suo utilizzo da parte degli utenti, nonché al funzionamento di IO, i cui trattamenti sono descritti altrove in questa informativa.<br>
+
+{:.d-more-1}
+
   Alcuni di questi dati potrebbero essere condivisi, previo tuo consenso, con soggetti terzi specificamente autorizzati, con particolare riferimento ai fornitori dei servizi fiduciari qualificati impiegati da PagoPA, che trattano i tuoi dati in qualità di titolari autonomi. Tutti gli altri dati, compresi quelli contenuti nel documento da firmare, sono trattati da tali fornitori in qualità di responsabili del trattamento, per il tempo necessario e con la sola finalità di consentire l’erogazione del servizio, secondo le best practice del settore. Per ogni dettaglio su questi trattamenti, ti invitiamo a consultare l’informativa e i termini e condizioni di servizio che ti verranno messi a disposizione prima della firma.<br>
   Ti ricordiamo che gli Enti rimangono titolari autonomi dei dati trattati in ragione del procedimento amministrativo cui si riferiscono i documenti oggetto di firma. Per ogni dettaglio su questi trattamenti, ti invitiamo a consultare l’informativa privacy dell'Ente.<br>
   Ti ricordiamo che Firma con IO è una funzionalità sperimentale, come tale non possiamo garantirti che sia esente da malfunzionamenti o errori. La tua opinione è importante per noi, per questo se hai dubbi o suggerimenti ti invitiamo a contattarci cliccando sul punto interrogativo presente in alto a destra di ogni schermata dell’app.
@@ -316,7 +324,7 @@ Sono conservati per l'intero ciclo di vita del tuo account, e fino a 3 anni succ
 
 - i dati necessari per l’identificazione e l’autenticazione in app, ad eccezione delle chiavi crittografiche pubbliche, che vengono associate al tuo profilo e conservate fino a un massimo di 2 anni dall’operazione di scrittura\*;
 - le preferenze collegate all’account;
-- i dati relativi alle comunicazioni provenienti dai Servizi, ad eccezione dei metadati e stati delle comunicazioni di cui è stato tentato l’invio e non recapitate poiché indirizzate a persone che non hanno un profilo su IO, che vengono conservati per i 3 anni successivi al tentativo di invio. Tali dati vengono conservati per finalità proprie di PagoPA, tra cui il monitoraggio delle risorse tecniche e la prevenzione di abusi. Il contenuto delle comunicazioni, ove indirizzate a soggetti non presenti su IO o a utenti IO che hanno disabilitato le comunicazioni per quel Servizio, non vengono mai conservati. Ti ricordiamo che puoi scaricare copia dei tuoi Messaggi in ogni momento in app, dal menu Profilo > Privacy e Condizioni d’uso > Accedi ai tuoi dati.
+- i dati relativi alle comunicazioni provenienti dai Servizi, ad eccezione dei metadati e stati delle comunicazioni di cui è stato tentato l’invio e non recapitate poiché indirizzate a persone che non hanno un profilo su IO, che vengono conservati per i 3 anni successivi al tentativo di invio. Tali dati vengono conservati per finalità proprie di PagoPA, tra cui il monitoraggio delle risorse tecniche e la prevenzione di abusi. Il contenuto delle comunicazioni, ove indirizzate a soggetti non presenti su IO o a utenti IO che hanno disabilitato le comunicazioni per quel Servizio, non vengono mai conservati. Ti ricordiamo che puoi scaricare copia dei tuoi Messaggi in ogni momento in app, da Impostazioni > Privacy e Condizioni d’uso > Accedi ai tuoi dati.
 
 {:.d-more-1}
 
@@ -333,8 +341,8 @@ I dati di log delle richieste di accesso tramite SPID/CIE sono conservati per 24
 Se abiliti la funzionalità sperimentale “Login Veloce”, le richieste di autenticazione effettuate verso i nostri sistemi tramite le chiavi crittografiche associate alla tua identità verranno conservate per 24 mesi.
 
 {:.d-more-1}
-I dati trattati in ragione delle attività di debug e diagnostica sono generalmente conservati per 24 mesi. I dati contenuti negli altri log tecnici sono di norma conservati per 90 giorni.<br>
-In entrambi i casi, tempi di conservazione differenti possono essere previsti di volta in volta per particolari progetti o categorie di dati, tenendo conto della natura del trattamento.
+I dati trattati in ragione delle attività di debug e diagnostica sono generalmente conservati per 24 mesi. I dati contenuti negli altri log tecnici sono di norma conservati per 90 giorni, ad eccezione di quelli raccolti in forma anonima che vengono conservati senza limiti di tempo.<br>
+In ogni caso, tempi di conservazione differenti possono essere previsti di volta in volta per particolari progetti o categorie di dati, tenendo conto della natura del trattamento.
 
 {:.d-more-1}
 I dati trattati in ragione delle attività necessarie per garantire la sicurezza sono conservati fino a 6 mesi.
@@ -376,7 +384,7 @@ _a) Diritto di accesso_
 
 {:.d-more-1}
 Hai il diritto di ottenere da PagoPA la conferma che siano o meno in corso trattamenti di dati personali che ti riguardano e in tal caso, di ottenere l'accesso ai dati personali.<br>
-Puoi ottenere copia dei tuoi dati anche utilizzando la **funzione “Accedi ai tuoi dati”** nella sezione “Profilo” cliccando su “Privacy e condizioni d’uso” dell’App IO. In questo caso, la riceverai con modalità sicure mediante un link in app.
+Puoi ottenere copia dei tuoi dati anche utilizzando la **funzione “Accedi ai tuoi dati”** da Impostazioni  > Preferenze > “Privacy e condizioni d’uso” dell’app IO, raggiungibile dall’icona a forma di rotella in alto a destra. In questo caso, la riceverai con modalità sicure mediante un link in app.
 
 {:.d-more-1}
 _b) Diritto di rettifica_
@@ -388,7 +396,7 @@ Hai il diritto di ottenere la rettifica dei dati personali inesatti che ti rigua
 _c) Diritto alla cancellazione_
 
 {:.d-more-1}
-Hai il diritto di ottenere la cancellazione dei dati personali che ti riguardano, nei limiti e nei casi espressamente previsti dal GDPR, anche utilizzando la **funzione “Elimina il tuo account”** nella sezione “Profilo” cliccando su “Privacy e condizioni d’uso” dell’app IO.<br>
+Hai il diritto di ottenere la cancellazione dei dati personali che ti riguardano, nei limiti e nei casi espressamente previsti dal GDPR, anche utilizzando la **funzione “Elimina il tuo account”** da Impostazioni > Preferenze > “Privacy e condizioni d’uso” dell’app IO, raggiungibile dall’icona a forma di rotella in alto a destra.<br>
 PagoPA ha tuttavia il diritto di disattendere l'esercizio del suddetto diritto se prevale il diritto alla libertà di espressione e di informazione oppure per l'esercizio di un obbligo di legge, l’esercizio di finalità di pubblico interesse o per difendere un proprio diritto in giudizio.
 
 {:.d-more-1}
@@ -446,7 +454,6 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 
 {:.d-startup}
 
-- Abbiamo modificato la sezione che riguarda i servizi di pagamento e l'integrazione con la piattaforma pagoPA;
 - Abbiamo corretto alcuni refusi e migliorato il linguaggio di alcuni articoli.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
@@ -471,7 +478,7 @@ In generale, ricorda sempre che:
 #### **1.** Definizioni dei termini utilizzati
 
 {:.d-more-2}
-**_Account_**: l’insieme dei dati identificativi dell’Utente, che gli consentono l'accesso all’App IO.<br>
+**_Account_**: il profilo utente, comprensivo delle informazioni personali e delle preferenze, che identificano un Utente e gli consentono l'accesso all’App IO.<br>
 **_App IO_** o **_App_** o **_IO_**: l’applicazione per dispositivi mobili scaricabile da un cittadino (una persona fisica) per l’accesso ai servizi della pubblica amministrazione tramite la Piattaforma IO.<br>
 **_CAD_**: decreto legislativo 7 marzo 2005, n. 82 recante Codice dell’Amministrazione Digitale.<br>
 **_Ente_**: le pubbliche amministrazioni, le società a controllo pubblico e i gestori di pubblici servizi ai sensi dell’art. 2, co. 2, CAD, che hanno aderito alla Piattaforma IO per la fornitura dei loro Servizi al Cittadino.<br>
@@ -499,7 +506,7 @@ _a) Identificazione, autenticazione, accesso e sicurezza_
 
 {:.d-more-2}
 Per accedere a IO devi essere in possesso di un’Identità Digitale, cioè di uno strumento valido per l’identificazione informatica riconosciuto dalla normativa vigente e rilasciato da un soggetto abilitato. Gli strumenti per l’identificazione informatica (es. SPID, CIE) non possono essere attivati tramite l’App IO, ma devono essere da Te richiesti e ottenuti, ricorrendone i requisiti, tramite i soggetti abilitati.<br>
-Per accedere a IO, dopo la prima identificazione con le Tue credenziali, Ti verrà chiesto di impostare un codice di sblocco e, se il Tuo dispositivo lo consente, di usare la funzione di riconoscimento biometrico. Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune Funzionalità dell'App, IO genera sul Tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche. Queste operazioni costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo Tu ad accedere al Tuo account. Se decidi di attivare la Funzionalità sperimentale di “Login Veloce”, non dovrai più reinserire le credenziali di accesso alla Tua Identità Digitale per 1 anno, in quanto verranno verificate le chiavi crittografiche già memorizzate sul Tuo dispositivo, per consentirti di accedere in tutta sicurezza. Ricorda che Sei l’unico responsabile della sicurezza del Tuo Account e del Tuo dispositivo, e per questo è importante che le informazioni relative al Tuo Account (comprese le credenziali di accesso) non vengano condivise con altre persone.
+Per accedere a IO, dopo la prima identificazione con le Tue credenziali, Ti verrà chiesto di impostare un codice di sblocco e, se il Tuo dispositivo lo consente, di usare la funzione di riconoscimento biometrico. Per verificare e garantire le autorizzazioni durante l'utilizzo di alcune Funzionalità dell'App, IO genera sul Tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche. Queste operazioni costituiscono misure di sicurezza tramite cui ci assicuriamo che sia solo Tu ad accedere al Tuo Account. Se decidi di attivare la Funzionalità sperimentale di “Login Veloce”, non dovrai più reinserire le credenziali di accesso alla Tua Identità Digitale per 1 anno, in quanto verranno verificate le chiavi crittografiche già memorizzate sul Tuo dispositivo, per consentirti di accedere in tutta sicurezza. Ricorda che Sei l’unico responsabile della sicurezza del Tuo Account e del Tuo dispositivo, e per questo è importante che le informazioni relative al Tuo Account (comprese le credenziali di accesso) non vengano condivise con altre persone.
 
 {:.d-more-2}
 _b) Età_
@@ -517,19 +524,19 @@ L’App IO è disponibile per dispositivi Android su [Google Play](https://play.
 Siamo sempre all’opera per offrirTi nuove funzionalità e nuovi servizi, pertanto aggiorniamo regolarmente l’App IO per assicurarTi un utilizzo ottimale e per migliorare l’esperienza del cittadino, Ti consigliamo di scaricare e installare tutti gli aggiornamenti pubblicati. Tieni presente che in virtù della continua evoluzione dei nostri standard di sicurezza, alcuni dispositivi e/o versioni di sistemi operativi potrebbero non essere compatibili con IO. Ti avviseremo in anticipo quando cesserà il supporto per questi dispositivi e versioni dei sistemi operativi, fornendoTi le informazioni necessarie per continuare ad utilizzare l'App, ove possibile.
 
 {:.d-more-2}
-_d) Profilo e gestione delle Preferenze_
+_d) Impostazioni e gestione delle Preferenze_
 
 {:.d-more-2}
-Nel Tuo Profilo puoi consultare e gestire le Tue Preferenze, visualizzare l’Informativa Privacy e i ToS, avere informazioni sull’app e gestire il Tuo Account.
+Dalle Impostazioni dell’app (l’icona a forma di rotella in alto a destra) puoi consultare e gestire le Tue Preferenze, visualizzare l’Informativa Privacy e i ToS, avere informazioni sull’app e gestire il Tuo Account.
 
 {:.d-more-2}
 In questa sezione puoi trovare anche un fac-simile del Tuo codice fiscale, ma ricorda che esso non sostituisce il documento fisico, bensì ne permette la lettura dei dati o del codice a barre.
 
 {:.d-more-2}
-Nella sezione Preferenze del Tuo Profilo puoi visualizzare in ogni momento le impostazioni dell’App IO e le informazioni relative al Tuo Account. Ricorda che alcune di queste informazioni non possono essere modificate all’interno dell’App, ad esempio perché sono associate alla Tua Identità Digitale.
+Nella sezione Preferenze puoi visualizzare in ogni momento le impostazioni dell’App IO e le informazioni relative al Tuo Account. Ricorda che alcune di queste informazioni non possono essere modificate all’interno dell’App, ad esempio perché sono associate alla Tua Identità Digitale.
 
 {:.d-more-2}
-Nella sezione Preferenze puoi anche visualizzare e gestire l’indirizzo e-mail su cui ricevere le comunicazioni relative al Tuo Account e su cui vuoi ricevere l’inoltro dei Messaggi che gli Enti ti inviano su IO. A questo indirizzo Ti segnaliamo inoltre ogni accesso effettuato su IO: se rilevi un accesso non autorizzato, puoi bloccare il profilo seguendo il link contenuto nella comunicazione e-mail. Poiché tutte le comunicazioni su IO sono personali, **ricordati di inserire un indirizzo e-mail valido e personale, a cui hai accesso solo Tu!**
+Nella sezione Preferenze puoi anche visualizzare e gestire l’indirizzo e-mail su cui ricevere le comunicazioni relative al Tuo Account e su cui vuoi ricevere l’inoltro dei Messaggi che gli Enti ti inviano su IO. A questo indirizzo Ti segnaliamo inoltre ogni accesso effettuato su IO: se rilevi un accesso non autorizzato, puoi bloccare il tuo Account seguendo il link contenuto nella comunicazione e-mail. Poiché tutte le comunicazioni su IO sono personali, **ricordati di inserire un indirizzo e-mail valido e personale, a cui hai accesso solo Tu!**
 
 {:.d-more-2}
 _e) Costi_
@@ -561,7 +568,7 @@ _b) Calendario e promemoria_
 
 {:.d-more-2}
 IO Ti permette di inserire le eventuali scadenze relative ai Messaggi ricevuti nell’App nel calendario del Tuo dispositivo. La disponibilità e l’operatività di questa funzionalità dipende dal sistema operativo del Tuo dispositivo e dal servizio di calendario da Te utilizzato.<br>
-Su richiesta degli Enti, possiamo inviarti promemoria per ricordarti di messaggi non ancora letti o pagamenti in scadenza. Puoi abilitare e disabilitare i promemoria nella sezione Preferenze del tuo Profilo.
+Su richiesta degli Enti, possiamo inviarti promemoria per ricordarti di messaggi non ancora letti o pagamenti in scadenza. Puoi abilitare e disabilitare i promemoria da Impostazioni > Preferenze, raggiungibile dall’icona a forma di rotella in alto a destra.
 
 {:.d-more-2}
 _c) Bonus_
@@ -729,7 +736,7 @@ I presenti ToS sono regolati dalla legge italiana. Ogni controversia che dovesse
 Nelle ipotesi in cui l’Utente non sia qualificato quale consumatore ai sensi del d.lgs. n. 206/2005, le controversie relative ai presenti ToS e/o all’App IO saranno di competenza esclusiva del foro di Roma.
 
 {:.d-more-2}
-I presenti ToS sono sempre consultabili all’interno dell’app, nella sezione "Profilo" sotto "Privacy e Condizioni d’uso".
+I presenti ToS sono sempre consultabili all’interno dell’app, da Impostazioni > Preferenze > "Privacy e Condizioni d’uso", raggiungibile dall’icona a forma di rotella in alto a destra.
 
 {:.d-more-2}
 Ai sensi degli articoli 1341 e 1342 del codice civile, cliccando sul tasto “Accetta” l’Utente dichiara espressamente di aver letto, compreso e accettato i seguenti articoli dei presenti termini e condizioni d’uso: **(2.b) Età**; **(3.c) Bonus**; **(3.f) Sottoscrizione di documenti in app (beta)**; **(4) I Servizi al Cittadino e i servizi di Terze Parti**; **(5) Responsabilità e obblighi dell’Utente**; **(6) Esclusioni e limitazione di responsabilità di PagoPA S.p.A.**; **(8) Modifiche ai ToS**; **(9) Recesso**; e **(10) Foro competente e legge applicabile**.
