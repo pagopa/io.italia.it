@@ -11,7 +11,7 @@ assets:
   css: "/assets/tos.css"
 ---
 
-{% assign pages = site.pages | where_exp: "item", "item.vers > 0 " | where_exp: "item", "item.ref contains 'app-tos-privacy'" | sort: "vers" | reverse  %}
+{% assign pages = site.pages | where_exp: "item", "item.vers" | where_exp: "item", "item.ref contains 'app-tos-privacy'" | where_exp: "item", "item.path contains 'it/tos/'" | sort: "vers" | reverse  %}
 
 {:.d-startup}
 
@@ -20,7 +20,7 @@ assets:
 {:.d-startup}
 
 <ul>
-{% for pag in pages offset: 1 %}
+{% for pag in pages %}
     <li><a href="{{pag.url}}">versione n.{{pag.vers}} ({{pag.updated}})</a></li>
 {% endfor %}
 </ul>
