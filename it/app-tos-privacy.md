@@ -5,7 +5,7 @@ layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
 vers: "4.91"
-updated: 23 settembre 2024
+updated: 24 settembre 2024
 assets:
   js:
     - "/assets/js/tos.js"
