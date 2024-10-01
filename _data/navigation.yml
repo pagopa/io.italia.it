@@ -46,4 +46,5 @@ it:
         url: /cashback/faq/
       - label: Certificazione Verde COVID-19
         url: /certificato-verde-green-pass-covid/faq/
-  
+      - label: Documenti su IO
+        url: /wallet/faq/
