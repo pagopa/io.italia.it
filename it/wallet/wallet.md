@@ -1,14 +1,14 @@
 ---
 layout: internal-w-slides
 title: Documenti su IO
-image: "/assets/img/certificato-verde-green-pass-covid/social-card-covid-pass.jpg"
+image: "/assets/img/wallet/wallet_hero.png"
 description: La versione digitale dei tuoi documenti personali sempre con te, sull’app IO.
 subdescription: "Scarica l’ultima versione dell’app:"
 lang: it
 ref: wallet
 permalink: /wallet/
 introduction_slides:
-  - /assets/img/certificato-verde-green-pass-covid/covid-pass-img.jpg
+  - /assets/img/wallet/wallet_hero.png
 intro_primary_text: "App Store"
 intro_primary_link: "https://apps.apple.com/it/app/io/id1501681835"
 intro_primary_customclass: "btn btn-sm btn-download btn-download--w-icon ios text-uppercase px-3 px-md-5 mr-2"
