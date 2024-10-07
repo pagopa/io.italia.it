@@ -155,7 +155,7 @@ Per garantire il corretto funzionamento di IO e dei suoi sistemi, vengono svolte
 {:.d-more-1}
 
 1. per la rilevazione dei dati di utilizzo, previo consenso degli interessati, tramite cui è possibile acquisire, tra l’altro, informazioni relative all’utilizzo e alla navigazione e informazioni relative al dispositivo;
-2.per la rilevazione di eventi di crash e performance, che consentono di acquisire informazioni utili all’analisi degli eventi rilevati e monitorare la performance (in termini di stabilità) dell’App. I dati raccolti sono anonimizzati alla fonte;
+2. per la rilevazione di eventi di crash e performance, che consentono di acquisire informazioni utili all’analisi degli eventi rilevati e monitorare la performance (in termini di stabilità) dell’App. I dati raccolti sono anonimizzati alla fonte;
 3. per raccogliere a livello infrastrutturale ulteriori dati e log tecnici.<br>
 
 {:.d-more-1}
