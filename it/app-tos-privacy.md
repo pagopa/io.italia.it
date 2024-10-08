@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: "4.91"
-updated: 24 settembre 2024
+vers: "4.92"
+updated: 9 ottobre 2024
 assets:
   js:
     - "/assets/js/tos.js"
@@ -26,9 +26,8 @@ redirect_from:
 
 {:.d-startup}
 
-- La sezione “Profilo” diventa “Impostazioni” ed è raggiungibile dall’icona a forma di rotella in alto a destra di ogni schermata dell’app;
-- Per migliorare la stabilità dell’app, abbiamo introdotto uno strumento di rilevazione di crash e misurazione della performance, utilizzando dati anonimizzati alla fonte; 
-- Abbiamo corretto alcuni refusi, chiarito alcuni trattamenti e migliorato il linguaggio di alcuni articoli.
+- Per consentire la partecipazione della cittadinanza all’introduzione di funzionalità sperimentali, potremmo trattare alcuni dati che ti riguardano;
+- Abbiamo corretto alcuni refusi.
 
 {:.d-startup}
 Sotto trovi l'informativa completa, che puoi consultare in ogni momento anche in app.
@@ -43,7 +42,7 @@ Sotto trovi l'informativa completa, che puoi consultare in ogni momento anche in
 L’app IO (“IO”) costituisce il canale mobile del c.d. Punto di accesso telematico di cui all’art. 64-bis del D.Lgs. 82/2005 (Codice dell’Amministrazione Digitale - “CAD”). IO è gestita dalla società PagoPA S.p.A. (“**PagoPA**”) su incarico della Presidenza del Consiglio dei Ministri.<br>
 Questa informativa, resa ai sensi degli artt. 13 e 14 del Regolamento (UE) 2016/679 (“**GDPR**”), descrive le modalità con cui trattiamo i dati personali degli utenti dell'app IO.<br>
 L’utilizzo dei servizi erogati tramite IO non modifica la titolarità dei tuoi dati personali. Pertanto, le pubbliche amministrazioni, le società a controllo pubblico e i gestori di pubblici servizi che aderiscono a IO per rendere fruibili i loro servizi ai cittadini (di seguito "**Enti**") restano i titolari dei relativi trattamenti.<br>
-PagoPA agisce come titolare autonomo del trattamento unicamente rispetto alle attività previste dalle [Linee Guida AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf) sul punto di accesso telematico ai servizi della Pubblica Amministrazione, come meglio si dirà in seguito al Paragrafo 3.<br>
+PagoPA agisce come titolare autonomo del trattamento unicamente rispetto alle attività previste dalle [Linee Guida AgID](https://www.agid.gov.it/sites/agid/files/2024-05/lg_punto_accesso_telematico_servizi_pa_3112021.pdf) sul punto di accesso telematico ai servizi della Pubblica Amministrazione, come meglio si dirà in seguito al Paragrafo 3.<br>
 La validità di questa informativa è limitata all’utilizzo delle funzionalità di IO (come definite nei Termini e condizioni d’uso dell’app) e si aggiunge alle altre informative eventualmente applicabili, in particolare alle informative messe a disposizione dagli Enti per ciascun Servizio (reperibili nella scheda di ciascun Servizio), all’informativa della piattaforma pagoPA e all’[informativa relativa alle attività di assistenza](https://www.pagopa.it/it/privacy-policy-assistenza/), e non si estende ad altre risorse online eventualmente consultabili mediante collegamento ipertestuale.
 
 {:.d-more-1}
@@ -117,7 +116,9 @@ Per ogni pagamento effettuato, vengono trattate le seguenti informazioni:
 
 - dati relativi alla transazione: identificativo univoco versamento (IUV), codice avviso (NAV), nome dell’Ente beneficiario, importo, commissioni, causale (come determinata dall’Ente), tassonomia tributo, data e ora dell’operazione, gestore della transazione (es. la banca che ha emesso la carta con cui hai effettuato il pagamento), codice autorizzativo e il codice identificativo della transazione;
 - dati identificativi dell'interessato: ove applicabile, codice fiscale, nome e cognome, email;
-- dati identificativi del metodo di pagamento: in particolare, numero (cifrato), scadenza, circuito.<br>
+- dati identificativi del metodo di pagamento: in particolare, numero (cifrato), scadenza, circuito.
+
+{:.d-more-1}
   Hai, inoltre, anche la possibilità di pagare un avviso che non hai ricevuto nei Messaggi (es. un avviso cartaceo), scansionando tramite l’app IO il codice a barre presente nell’avviso stesso. In tal caso, IO acquisisce i dati relativi al codice a barre e li trasmette alla Piattaforma pagoPA per il relativo pagamento.
 
 {:.d-more-1}
@@ -173,7 +174,9 @@ Quando richiedi supporto attraverso le apposite funzionalità in app, potrebbero
 
 - dati identificativi comuni: ad esempio, nome e cognome, codice fiscale, indirizzo email, identity provider;
 - dati relativi al tuo dispositivo e all’uso / navigazione in app, compresi alcuni dati personali necessari per consentire la trasmissione della segnalazione al team di assistenza (ad esempio, l’indirizzo IP e la posizione derivata);
-- dati necessari per risolvere la tua segnalazione: ad esempio, i dati identificativi di una transazione e/o di un metodo di pagamento per cui stai richiedendo assistenza.<br>
+- dati necessari per risolvere la tua segnalazione: ad esempio, i dati identificativi di una transazione e/o di un metodo di pagamento per cui stai richiedendo assistenza.
+
+{:.d-more-1}
   Questi dati non vengono mai trasmessi senza il tuo consenso, e se utilizzi le funzionalità di assistenza in app, puoi escludere la raccolta automatica di tali dati, utilizzando altri canali di assistenza (ad esempio email). Tieni presente che i nostri operatori potrebbero comunque avere bisogno di chiederti tali dati per risolvere il problema.<br>
   I servizi di terze parti che utilizziamo per fornirti assistenza potrebbero inoltre raccogliere immagini e video pertinenti alla tua segnalazione, direttamente dall’app o su tua richiesta, e in tal caso è richiesta una tua conferma prima dell’invio nonché, ove desideri allegare tali file, il permesso di accesso in lettura alla memoria di archiviazione del tuo dispositivo per consentire la trasmissione degli allegati.<br>
   Quando richiedi assistenza tramite le funzionalità in app o tramite gli altri canali messi a disposizione, verranno trattati anche i dati che volontariamente ci comunicherai nel testo della tua richiesta o che vorrai allegare (ad esempio, le immagini o i video pertinenti alla segnalazione). Per quanto possibile, **ti invitiamo a non inserire dati sensibili nelle tue segnalazioni!**.<br>
@@ -209,6 +212,12 @@ Se scegli di utilizzare Firma con IO, PagoPA tratterà in qualità di titolare, 
   Ti ricordiamo che Firma con IO è una funzionalità sperimentale, come tale non possiamo garantirti che sia esente da malfunzionamenti o errori. La tua opinione è importante per noi, per questo se hai dubbi o suggerimenti ti invitiamo a contattarci cliccando sul punto interrogativo presente in alto a destra di ogni schermata dell’app.
 
 {:.d-more-1}
+**Altre funzionalità sperimentali**
+
+{:.d-more-1}
+In alcuni casi, l’introduzione di funzionalità sperimentali potrebbe rendere necessario un rilascio graduale. Gli utenti, in questo caso, vengono abilitati secondo criteri determinati, sulla base di un piano di apertura progressiva che ha la finalità di mitigare potenziali impatti tecnici derivanti dal rilascio. Come impostazione di partenza, tutte le persone che hanno un account su IO sono potenzialmente idonee ad essere abilitate alle funzionalità sperimentali. Per consentire la selezione e partecipazione di tutte le persone che rientrano nei criteri della sperimentazione, potrebbero essere trattati il tuo codice fiscale e altre informazioni che ti riguardano, tra cui la data del tuo ultimo accesso in app. Puoi opporti in ogni momento a tale trattamento secondo le modalità descritte nel paragrafo 7 “Diritti degli interessati” della presente informativa. 
+
+{:.d-more-1}
 **Raccolta dell’opinione degli utenti**
 
 {:.d-more-1}
@@ -226,7 +235,7 @@ Nel rispetto del principio di minimizzazione del trattamento, ai sensi dell’ar
 **Sicurezza**
 
 {:.d-more-1}
-In misura strettamente necessaria e proporzionata a soddisfare le finalità legate alla necessità di garantire la sicurezza di IO, potrebbero essere trattati alcuni dei dati raccolti in virtù delle attività di trattamento sopra descritte, anche a seguito di attivazione dei sistemi di alerting predisposti sull’infrastruttura, in conformità a quanto previsto dall’art. 7.5.5. delle [Linee Guida AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf).<br>
+In misura strettamente necessaria e proporzionata a soddisfare le finalità legate alla necessità di garantire la sicurezza di IO, potrebbero essere trattati alcuni dei dati raccolti in virtù delle attività di trattamento sopra descritte, anche a seguito di attivazione dei sistemi di alerting predisposti sull’infrastruttura, in conformità a quanto previsto dall’art. 7.5.5. delle [Linee Guida AgID](https://www.agid.gov.it/sites/agid/files/2024-05/lg_punto_accesso_telematico_servizi_pa_3112021.pdf).<br>
 Vengono inoltre svolte con cadenza periodica, anche mediante società terze nominate responsabili del trattamento, attività di vulnerability assessment e penetration test al fine di valutare la sicurezza dei sistemi. Nell’ambito di queste attività potrebbero essere trattati alcuni dati personali, a cui vengono applicate misure di pseudonimizzazione o privilegiato il trattamento in forma aggregata ove l’anonimizzazione non sia possibile per il conseguimento della finalità.
 
 {:.d-more-1}
@@ -242,7 +251,7 @@ Al fine di gestire eventuali contenziosi (in proprio o per conto degli Enti inte
 Al fine di rispondere a richieste delle autorità competenti (in proprio o per conto degli Enti), ivi incluse quelle che svolgono poteri di controllo e/o vigilanza circa l’operato di PagoPA e i risultati raggiunti dalla stessa rispetto a compiti o obiettivi impartiti, PagoPA potrebbe trattare alcuni dei dati raccolti in virtù delle attività di trattamento sopra descritte. In ogni caso, le richieste vengono gestite ed evase a seguito di una verifica circa la base giuridica e più in generale della liceità e vengono applicate, per quanto consentito dalla legge, misure di minimizzazione adeguate, privilegiando, ove possibile la trasmissione di dati aggregati o pseudonimizzati.
 
 {:.d-more-1}
-**Trattamento di dati aggregati e reportistica**<br>
+**Trattamento di dati aggregati e reportistica**
 
 {:.d-more-1}
 Allo scopo di migliorare il funzionamento dell’app, per consentirne l’evoluzione e fornire informazioni utili agli Enti per migliorare i propri Servizi, vengono svolte attività di trattamento di dati in forma aggregata e di reportistica sull’utilizzo di IO, dei Servizi e sull’attuazione delle iniziative ad essi sottostanti. Tali trattamenti sono effettuati da PagoPA in qualità di titolare e, su istruzione dei relativi titolari, di responsabile del trattamento.<br>
@@ -274,7 +283,7 @@ Alcuni Enti aderiscono a IO in qualità di aggregatori di altri enti, e in tal c
 #### 3. Trattamenti svolti da PagoPa S.p.A. in qualità di titolare del trattamento: finalità e base giuridica
 
 {:.d-more-1}
-PagoPA S.p.A. tratta i tuoi dati in qualità di titolare del trattamento per le seguenti finalità, come previste dal paragrafo 7.1 delle [Linee Guida AgID](https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/213121604430O__OLG+Punto+accesso+telematico+servizi+PA_3.11.2021.pdf):
+PagoPA S.p.A. tratta i tuoi dati in qualità di titolare del trattamento per le seguenti finalità, come previste dal paragrafo 7.1 delle [Linee Guida AgID](https://www.agid.gov.it/sites/agid/files/2024-05/lg_punto_accesso_telematico_servizi_pa_3112021.pdf):
 
 {:.d-more-1}
 
