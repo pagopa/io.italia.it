@@ -827,12 +827,7 @@ a.btn-io-web {
 .section__wallet {
   overflow-y: hidden;
   background-color: #0a1f8f;
-  background: url($imagesurl + "/assets/img/carta-giovani-nazionale/pattern-home.png"),
-    linear-gradient(
-      339deg,
-      rgba(10, 31, 143, 0.95) 10%,
-      rgba(11, 62, 227, 0.95)
-    );
+  background: url($imagesurl + "/assets/img/wallet/pattern-home.png");
   position: relative;
   z-index: 9;
   .text-container {
