@@ -1,14 +1,14 @@
 ---
 layout: internal-w-slides
 title: Documenti su IO
-image: "/assets/img/wallet/wallet_hero.png"
+image: "/assets/img/documenti-su-io/wallet_hero.png"
 description: La versione digitale dei tuoi documenti personali sempre con te, sull’app IO.
 subdescription: "Scarica l’ultima versione dell’app:"
 lang: it
-ref: wallet
-permalink: /wallet/
+ref: documenti-su-io
+permalink: /documenti-su-io/
 introduction_slides:
-  - /assets/img/wallet/wallet_hero.png
+  - /assets/img/documenti-su-io/wallet_hero.png
 intro_primary_text: "App Store"
 intro_primary_link: "https://apps.apple.com/it/app/io/id1501681835"
 intro_primary_customclass: "btn btn-sm btn-download btn-download--w-icon ios text-uppercase px-3 px-md-5 mr-2"
@@ -20,4 +20,4 @@ intro_ter_onclick: "ga('send', 'event', 'link', 'click', 'Download App: Android'
 disable_br: true
 ---
 
-{% include wallet.html %}
+{% include documenti-su-io.html %}
