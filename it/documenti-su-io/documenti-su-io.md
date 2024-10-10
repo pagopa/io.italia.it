@@ -1,5 +1,6 @@
 ---
 layout: internal-w-slides
+pre-title: In arrivo
 title: Documenti su IO
 image: "/assets/img/documenti-su-io/wallet_hero.png"
 description: La versione digitale dei tuoi documenti personali sempre con te, sull’app IO.
