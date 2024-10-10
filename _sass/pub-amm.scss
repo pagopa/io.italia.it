@@ -118,16 +118,16 @@
       transition: background-image 0.2s linear;
     }
     &[data-slideid="1"]::before {
-      background-image: url($imagesurl + "/assets/img/pub-amm-1.JPG");
+      background-image: url($imagesurl + "/assets/img/pub-amm-1.jpg");
     }
     &[data-slideid="2"]::before {
-      background-image: url($imagesurl + "/assets/img/pub-amm-2.JPG");
+      background-image: url($imagesurl + "/assets/img/pub-amm-2.jpg");
     }
     &[data-slideid="3"]::before {
-      background-image: url($imagesurl + "/assets/img/pub-amm-3.JPG");
+      background-image: url($imagesurl + "/assets/img/pub-amm-3.jpg");
     }
     &[data-slideid="4"]::before {
-      background-image: url($imagesurl + "/assets/img/pub-amm-4.JPG");
+      background-image: url($imagesurl + "/assets/img/pub-amm-4.jpg");
     }
 
     .card-slider {
