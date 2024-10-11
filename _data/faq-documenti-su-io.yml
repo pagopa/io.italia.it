@@ -9,3 +9,14 @@ it:
     body: "Documenti su IO è la nuova funzionalità di IO che ti consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali. Al momento sono disponibili Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità."
   - title: Perché devo usare SPID o CIE per attivare Documenti su IO?
     body: "Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in app con SPID o CIE. Questo passaggio è necessario per garantire che i documenti che ottieni siano con certezza quelli associati alla tua identità."
+  - title: I miei dati sono al sicuro?
+    body: "Sì. La sicurezza dei tuoi dati è sempre garantita e la tua identità è verificata grazie all’autenticazione con SPID o CIE. IO condivide i tuoi dati con IPZS - Istituto Poligrafico e Zecca dello Stato per identificarti e solo per il tempo necessario a consentire l’aggiunta della versione digitale dei documenti al Portafoglio."
+  - title: Quali documenti posso aggiungere al mio Portafoglio dell’app IO?
+    body: "Al momento puoi aggiungere all’app IO le versioni digitali di Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità se possiedi già le versioni fisiche di tali documenti e sono in corso di validità."
+  - title: Qual è l’origine dei dati presenti nelle versioni digitali dei documenti?
+    body: "I dati dei tuoi documenti sono forniti dall’ente che rilascia anche il documento fisico e che ne certifica l’autenticità, ad esempio MIT - Direzione generale per la Motorizzazione
+ per la Patente di guida, Istituto Nazionale Previdenza Sociale per la Carta Europea della Disabilità e MEF - Ragioneria Generale dello Stato per la Tessera Sanitaria - Tessera europea di assicurazione malattia."
+  - title: Con chi sono condivisi i dati presenti nelle versioni digitali dei documenti?
+    body: "I dati dei tuoi documenti provengono dall’ente titolare della banca dati (es. MIT - Direzione generale per la Motorizzazione) e sono condivisi con l’ente che emette la versione digitale del documento (IPZS - Istituto Poligrafico e Zecca dello Stato) solo per il tempo necessario ad aggiungerli al Portafoglio dell’app IO. I dati non vengono trattati da PagoPA S.p.A. ma restano memorizzati solo sul tuo dispositivo."
+  - title: Documenti su IO è una funzionalità gratuita?
+    body: "Sì, non dovrai pagare nulla per usare Documenti su IO, come per tutte le altre funzionalità dell’app IO."
