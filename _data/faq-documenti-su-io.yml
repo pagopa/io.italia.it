@@ -1,7 +1,11 @@
 it:
-  - title: Question 1?
-    body: "Anwer 1"
-  - title: Question 2?
-    body: "Anwer 2"
-  - title: Question 3?
-    body: "Anwer 3"
+  - title: Documenti su IO è IT-Wallet?
+    body: "Documenti su IO è la nuova funzionalità dell’app IO che rappresenta il primo passo verso il  Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+  - title: Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?
+    body: "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli maggiormente attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti entro fine anno."
+  - title: In che modo potrò sapere quando la funzionalità sarà disponibile per me?
+    body: "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
+  - title: Cos’è Documenti su IO?
+    body: "Documenti su IO è la nuova funzionalità di IO che ti consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali. Al momento sono disponibili Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità."
+  - title: Perché devo usare SPID o CIE per attivare Documenti su IO?
+    body: "Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in app con SPID o CIE. Questo passaggio è necessario per garantire che i documenti che ottieni siano con certezza quelli associati alla tua identità."
