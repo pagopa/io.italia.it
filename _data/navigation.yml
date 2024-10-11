@@ -38,13 +38,13 @@ it:
     items:
       - label: Generali
         url: /faq/
-      - label: Bonus Vacanze
-        url: /bonus-vacanze/faq/
+      - label: Documenti su IO
+        url: /documenti-su-io/faq/
       - label: Carta Giovani Nazionale
         url: /carta-giovani-nazionale/faq/
+      - label: Bonus Vacanze
+        url: /bonus-vacanze/faq/
       - label: Cashback
         url: /cashback/faq/
       - label: Certificazione Verde COVID-19
         url: /certificato-verde-green-pass-covid/faq/
-      - label: Documenti su IO
-        url: /documenti-su-io/faq/
