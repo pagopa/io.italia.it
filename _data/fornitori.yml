@@ -14,13 +14,13 @@ items:
     garanzie: "N/A"
     doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/2333816563192823270O__O20230926173626032_accordo_quadro_nexi_payments_spa_signedsigned.pdf)"
   - 
-    fornitore: "RTI Softlab Next S.r.l. (già Softlab Tech S.p.A.) - Tecnocall S.r.l.\n\n
-    (\"Softlab\")"
+    fornitore: "S.M.I. Technologies and Consulting S.r.l.\n\n
+    (\"SMI\")"
     attivita: "Servizi integrati di contact center"
     dati: "Dati necessari per gestire le richieste di assistenza degli utenti"
     luogo: "Unione Europea, con possibile trasferimento verso paesi terzi ad opera dei sub-responsabili ingaggiati dal fornitore"
-    garanzie: "in negoziazione misure supplementari di tipo contrattuale, tecnico e organizzativo"
-    doc: "[Nomina a responsabile](https://io.italia.it/assets/download/it/legal/Softlab-Tecnocall_DPA.pdf)"  
+    garanzie: "N/A"
+    doc: "[Nomina a responsabile](https://amministrazionetrasparente.pagopa.it/moduli/downloadFile.php?file=oggetto_allegati/2333817314070603270O__Oall_e_dpa.pdf)"  
   - 
     fornitore: "MailUP S.p.A."
     attivita: "Invio di email (inoltro messaggi ricevuti in-app e newsletter del progetto IO)"
@@ -110,8 +110,7 @@ items:
     - adesione al Data Privacy Framework"
     doc: "[DPA](/assets/download/it/Sentry_DPA_Redacted.pdf)"
   - 
-    fornitore: "Zendesk Inc.\n\n 
-    (sub-responsabile di Softlab)"
+    fornitore: "Zendesk Inc."
     attivita: "Piattaforma di gestione delle richieste di assistenza"
     dati: "(i) Dati comuni necessari per identificare l’utente\n\n
     (ii) Dati forniti dall'utente nella segnalazione\n\n
@@ -170,11 +169,11 @@ items:
     doc: "[DPA](https://d1.awsstatic.com/legal/aws-gdpr/AWS_GDPR_DPA.pdf) [Addendum](https://d1.awsstatic.com/Supplementary_Addendum_to_the_AWS_GDPR_DPA.pdf) [SCC C2P](https://d1.awsstatic.com/Controller_to_Processor_SCCs.pdf) [SCC P2P](https://d1.awsstatic.com/Processor_to_Processor_SCCs.pdf)"
   -
     fornitore: "Amazon Web Services EMEA SARL\n\n
-    (subfornitore di Softlab)"
+    (subfornitore di SMI)"
     attivita: "Servizi di cloud computing"
     dati: "Dati comuni degli utenti che richiedono assistenza"
     luogo: "Unione Europea"
     garanzie: "- opzione di residenza dei dati in UE\n\n
-    - misure supplementari di tipo contrattuale, tecnico e organizzativo (es. nessun trasferimento ad altri sub-responsabili AWS situati al di fuori dell’UE)\n\n
+    - clausole contrattuali standard della Commissione Europea\n\n
     - adesione al Data Privacy Framework (controllante)"
     doc: "N/A"
