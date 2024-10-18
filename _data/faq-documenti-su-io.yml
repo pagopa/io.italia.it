@@ -18,5 +18,23 @@ it:
  per la Patente di guida, Istituto Nazionale Previdenza Sociale per la Carta Europea della Disabilità e MEF - Ragioneria Generale dello Stato per la Tessera Sanitaria - Tessera europea di assicurazione malattia."
   - title: Con chi sono condivisi i dati presenti nelle versioni digitali dei documenti?
     body: "I dati dei tuoi documenti provengono dall’ente titolare della banca dati (es. MIT - Direzione generale per la Motorizzazione) e sono condivisi con l’ente che emette la versione digitale del documento (IPZS - Istituto Poligrafico e Zecca dello Stato) solo per il tempo necessario ad aggiungerli al Portafoglio dell’app IO. I dati non vengono trattati da PagoPA S.p.A. ma restano memorizzati solo sul tuo dispositivo."
+  - title: Cosa significa “versione digitale” di un documento?
+    body: "Le versioni digitali dei documenti sono copie autentiche dei documenti fisici all’interno di un’applicazione digitale."
   - title: Documenti su IO è una funzionalità gratuita?
     body: "Sì, non dovrai pagare nulla per usare Documenti su IO, come per tutte le altre funzionalità dell’app IO."
+  - title: Quali sono i requisiti tecnici minimi per attivare Documenti su IO?
+    body: "Per attivare Documenti su IO, assicurati che il tuo dispositivo soddisfi questi requisiti minimi:
+
+- per iOS: dispositivi con una versione di iOS pari o successiva a quella supportata dagli iPhone 6s e successivi;
+
+- per Android: dispositivi con Android 8.0 o versioni successive.
+
+
+È inoltre necessario che il dispositivo non sia compromesso, ossia non siano state rimosse le restrizioni imposte dal sistema operativo (ad esempio, il jailbreak per iOS o il rooting per Android). 
+
+
+Se il tuo dispositivo soddisfa questi requisiti ma continui a riscontrare problemi nell'attivazione di Documenti su IO, potrebbe dipendere da limitazioni legate a servizi Google o al sistema operativo Apple (ad esempio, alcune funzioni potrebbero non essere disponibili o non attivarsi se il dispositivo non è aggiornato o se sono presenti delle limitazioni di configurazione del sistema operativo).
+
+
+Ti ricordiamo infine che eventuali problemi nell’attivazione della funzionalità potrebbero dipendere anche da fattori quali le politiche di sicurezza o restrizioni specifiche imposte da Google o Apple. 
+"
