@@ -1,12 +1,12 @@
 it:
-  - title: Cosa sono i Documenti su IO?
-    body: "I **Documenti su IO** sono il primo passo verso il  Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale."
+  - title: Cos’è Documenti su IO?
+    body: "**Documenti su IO** è il primo passo verso il  Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
   - title: Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?
-    body: "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli maggiormente attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti entro fine anno."
+    body: "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti entro fine anno."
   - title: In che modo potrò sapere quando la funzionalità sarà disponibile per me?
     body: "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
-  - title: Cos’è Documenti su IO?
-    body: "Documenti su IO è la nuova funzionalità di IO che ti consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali. Al momento sono disponibili, per chi ne è in possesso, la Patente di guida, la Tessera Sanitaria - Tessera europea di assicurazione malattia e la Carta Europea della Disabilità."
+  - title: Quali documenti sono disponibili se attivo Documenti su IO?
+    body: "Al momento sono disponibili, per chi ne è in possesso, la Patente di guida, la Tessera Sanitaria - Tessera europea di assicurazione malattia e la Carta Europea della Disabilità."
   - title: Perché devo usare SPID o CIE per attivare Documenti su IO?
     body: "Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in app con SPID o CIE. Questo passaggio è necessario per garantire che i documenti che ottieni siano con certezza quelli associati alla tua identità."
   - title: I miei dati sono al sicuro?
