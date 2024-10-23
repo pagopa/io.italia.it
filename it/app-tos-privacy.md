@@ -681,15 +681,9 @@ Ti avviseremo in anticipo quando cesserà il supporto per questi dispositivi e v
 {:.d-more-2}
 
 Dalle Impostazioni dell’app (l’icona a forma di rotella in alto a destra) puoi consultare e gestire le tue preferenze, leggere l’informativa privacy e le condizioni d’uso, avere informazioni sull’app e gestire il tuo Account. 
-
-{:.d-more-2}
 Nelle Impostazioni puoi trovare anche un fac-simile del tuo codice fiscale.Ricorda: non sostituisce il documento fisico, ma ne permette soltanto la lettura dei dati o del codice a barre.
-
-{:.d-more-2}
 Nella sezione Impostazioni puoi visualizzare in ogni momento le impostazioni di IO e le informazioni relative al tuo Account.<br>
-Ricorda: alcune di queste informazioni non possono essere modificate all’interno di IO, ad esempio perché sono associate alla tua Identità Digitale.
-
-{:.d-more-2}
+Ricorda che alcune di queste informazioni non possono essere modificate all’interno di IO, ad esempio perché sono associate alla tua Identità Digitale.
 Nella sezione Preferenze puoi anche visualizzare e gestire l’indirizzo e-mail su cui ricevere le comunicazioni relative al tuo Account e su cui inoltrare i Messaggi che gli Enti ti inviano su IO.<br> 
 A questo indirizzo ti segnaliamo anche ogni accesso effettuato su IO: se rilevi un accesso non autorizzato, puoi bloccare il tuo Account seguendo il link contenuto nella email.<br>
 Poiché tutte le comunicazioni su IO sono personali, ricordati di inserire un indirizzo e-mail valido e personale, a cui hai accesso solo tu.
@@ -906,9 +900,7 @@ Chi usa IO si obbliga a manlevare e tenere indenne PagoPA e i suoi dipendenti, d
 ### **5.4 Misure che PagoPA può adottare** 
 
 {:.d-more-2}
-**PagoPA può adottare autonomamente tutte le misure necessarie se fai un uso illecito o comunque vietato di IO o se violi queste condizioni.** 
-
-{:.d-more-2}
+**PagoPA può adottare autonomamente tutte le misure necessarie se fai un uso illecito o comunque vietato di IO o se violi queste condizioni.**<br>
 Ad esempio, può sospendere o interrompere l’Account, l’uso delle Funzionalità, dei Servizi e di IO nel suo complesso.<br>
 Oltre a ciò, PagoPA e i terzi (inclusi gli Enti) possono esercitare a loro tutela le azioni previste dalla legge. 
 
