@@ -100,6 +100,7 @@ Se scegli la _configurazione rapida_ abiliterai la ricezione di messaggi in app 
 Se scegli la _configurazione manuale_, dovrai attivare singolarmente le comunicazioni dei Servizi di tuo interesse. Potrai sempre modificare la tua preferenza direttamente in ciascuna scheda Servizio.
 - nella scheda di ciascun Servizio, in cui potrai anche scegliere il modo in cui ricevere le comunicazioni (ad esempio, messaggi in app e notifiche push). Potrai modificare la tua scelta in ogni momento.
 
+{:.d-more-1}
 **A prescindere dalla tua scelta, ti ricordiamo che su IO riceverai solo messaggi a te espressamente indirizzati**
 
 {:.d-more-1}
@@ -234,6 +235,7 @@ Alcuni di questi dati sono associati univocamente a te, sono raccolti tramite si
 {:.d-more-1}
 Quando richiedi assistenza in app, potrebbero essere raccolti automaticamente alcuni dati per gestire la segnalazione. Si tratta di: 
 
+{:.d-more-1}
 - dati identificativi comuni: ad esempio, nome e cognome, codice fiscale, indirizzo email, identity provider;
 - dati relativi al tuo dispositivo e all’uso / navigazione in app, compresi alcuni dati personali necessari per trasmettere la segnalazione a chi si occupa di assistenza (ad esempio, l’indirizzo IP e la posizione derivata);
 - dati necessari per risolvere la tua segnalazione: ad esempio, i dati identificativi di una transazione e/o di un metodo di pagamento per cui stai richiedendo assistenza.
