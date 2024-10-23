@@ -7,12 +7,10 @@
   top: 160px;
   left: 50%;
   margin-left: -$device-width/2;
-  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxpdmVsbG9fMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgdmlld0JveD0iMCAwIDczMiAxNTg1IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA3MzIgMTU4NTsiIHhtbDpzcGFjZT0icHJlc2VydmUiPgo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPgoJLnN0MHtmaWxsLXJ1bGU6ZXZlbm9kZDtjbGlwLXJ1bGU6ZXZlbm9kZDtmaWxsOiNGRkZGRkY7fQo8L3N0eWxlPgo8ZyBpZD0iX3gyRF93aXAiPgoJPGcgaWQ9ImlvLml0YWxpYS5pdC0tLWhvbWUiPgoJCTxnIGlkPSJtb2NrdXAiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuMDAwMDAwLCAzMzkuMDAwMDAwKSI+CgkJCTxwYXRoIGlkPSJDb21iaW5lZC1TaGFwZSIgY2xhc3M9InN0MCIgZD0iTTE4OS0zMzkuNHYyMWMwLDE0LjksMTIuMSwyNywyNywyN2gzMDNjMTQuOSwwLDI3LTEyLjEsMjctMjd2LTIxaDEyNgoJCQkJYzMzLjEsMCw2MCwyNi45LDYwLDYwdjE0NjQuOWMwLDMzLjItMjYuOSw2MC02MCw2MEg2MGMtMzMuMSwwLTYwLTI2LjktNjAtNjBWLTI3OS4zYzAtMzMuMiwyNi45LTYwLDYwLTYwSDE4OXoiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==); // img/device.svg
   background-size: cover;
   text-align: center;
   overflow: hidden;
   border-radius: $device-border-radius;
-  box-shadow: $device-box-shadow;
   transition: opacity .5s ease-out, margin-top .5s ease-in-out,
               opacity .5s linear, visibility .1s linear;
 
@@ -79,7 +77,6 @@
   width: 70%;
   margin: 16px 15%;
   border-radius: $device-border-radius;
-  box-shadow: $device-box-shadow;
   @media screen and (min-width: $grid-breakpoints-md) {
     width: 50%;
     margin: 16px 25%;
@@ -93,5 +90,4 @@
   width: 70%;
   margin: 16px 15%;
   border-radius: $device-border-radius;
-  box-shadow: $device-box-shadow;
 }

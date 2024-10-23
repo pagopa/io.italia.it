@@ -1,0 +1,39 @@
+it:
+  - title: Cos’è Documenti su IO?
+    body: "**Documenti su IO** è il primo passo verso il  Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
+  - title: Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?
+    body: "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti entro fine anno."
+  - title: In che modo potrò sapere quando la funzionalità sarà disponibile per me?
+    body: "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
+  - title: Quali documenti sono disponibili se attivo Documenti su IO?
+    body: "Al momento sono disponibili, per chi ne è in possesso, la Patente di guida, la Tessera Sanitaria - Tessera europea di assicurazione malattia e la Carta Europea della Disabilità."
+  - title: Perché devo usare SPID o CIE per attivare Documenti su IO?
+    body: "Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in app con SPID o CIE. Questo passaggio è necessario per garantire che i documenti che ottieni siano con certezza quelli associati alla tua identità."
+  - title: I miei dati sono al sicuro?
+    body: "Sì. La sicurezza dei tuoi dati è sempre garantita e la tua identità è verificata grazie all’autenticazione con SPID o CIE.  IO condivide i tuoi dati con Istituto Poligrafico e Zecca dello Stato per identificarti e solo per il tempo necessario a consentire l’aggiunta della versione digitale dei documenti al Portafoglio."
+  - title: Quali documenti posso aggiungere al mio Portafoglio dell’app IO?
+    body: "Al momento puoi aggiungere all’app IO le versioni digitali di Patente di guida, Tessera Sanitaria - Tessera europea di assicurazione malattia e Carta Europea della Disabilità se possiedi già le versioni fisiche di tali documenti e sono in corso di validità."
+  - title: Qual è l’origine dei dati presenti nelle versioni digitali dei documenti?
+    body: "I dati dei tuoi documenti sono forniti dall’ente che rilascia anche il documento fisico e che ne certifica l’autenticità. In particolare, il Ministero delle Infrastrutture e dei Trasporti - Direzione generale per la Motorizzazione per la Patente di guida, l’Istituto Nazionale di Previdenza Sociale per la Carta Europea della Disabilità e il Ministero dell'Economia e delle Finanze - Ragioneria Generale dello Stato per la Tessera Sanitaria - Tessera europea di assicurazione malattia."
+  - title: Con chi sono condivisi i dati presenti nelle versioni digitali dei documenti?
+    body: "I dati dei tuoi documenti provengono dall’ente titolare della banca dati (es. Ministero delle Infrastrutture e dei Trasporti - Direzione generale per la Motorizzazione per la Patente di guida) e sono condivisi con l’ente che emette la versione digitale del documento (Istituto Poligrafico e Zecca dello Stato) solo per il tempo necessario ad aggiungerli al Portafoglio dell’app IO. I dati non vengono trattati da PagoPA S.p.A. ma restano memorizzati solo sul tuo dispositivo."
+  - title: Cosa significa “versione digitale” di un documento?
+    body: "Le versioni digitali dei documenti sono copie autentiche dei documenti fisici all’interno di un’applicazione digitale a norma di legge."
+  - title: Documenti su IO è una funzionalità gratuita?
+    body: "Sì, non dovrai pagare nulla per usare Documenti su IO, come per tutte le altre funzionalità dell’app IO."
+  - title: Quali sono i requisiti tecnici minimi per attivare Documenti su IO?
+    body: "Per attivare Documenti su IO, assicurati che il tuo dispositivo soddisfi questi requisiti minimi:
+
+- per iOS: dispositivi con una versione di iOS pari o successiva a quella supportata dagli iPhone 6s e successivi;
+
+- per Android: dispositivi con Android 8.0 o versioni successive.
+
+
+È inoltre necessario che il dispositivo non sia compromesso, ossia non siano state rimosse le restrizioni imposte dal sistema operativo (ad esempio, il jailbreak per iOS o il rooting per Android). 
+
+
+Se il tuo dispositivo soddisfa questi requisiti ma continui a riscontrare problemi nell'attivazione di Documenti su IO, potrebbe dipendere da limitazioni legate a servizi Google o al sistema operativo Apple (ad esempio, alcune funzioni potrebbero non essere disponibili o non attivarsi se il dispositivo non è aggiornato o se sono presenti delle limitazioni di configurazione del sistema operativo).
+
+
+Ti ricordiamo infine che eventuali problemi nell’attivazione della funzionalità potrebbero dipendere anche da fattori quali le politiche di sicurezza o restrizioni specifiche imposte da Google o Apple. 
+"

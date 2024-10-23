@@ -824,6 +824,36 @@ a.btn-io-web {
     }
   }
 }
+.section__documenti-su-io {
+  overflow-y: hidden;
+  background-color: #0a1f8f;
+  background: url($imagesurl + "/assets/img/documenti-su-io/pattern-home.png");
+  position: relative;
+  z-index: 9;
+  .text-container {
+    .lead {
+      font-size: 1rem;
+      @media screen and (min-width: $grid-breakpoints-md) {
+        font-size: 1.2rem;
+      }
+    }
+    @media (max-width: $grid-breakpoints-md) {
+      position: relative;
+      top: -25em;
+    }
+  }
+  &-img {
+    width: 228px;
+    img {
+      bottom: -24px;
+      position: relative;
+      @media (max-width: $grid-breakpoints-md) {
+        bottom: -26em;
+        display: inline-block;
+      }
+    }
+  }
+}
 .section__cgn {
   overflow-y: hidden;
   background-color: #0a1f8f;
