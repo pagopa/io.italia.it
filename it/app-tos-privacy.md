@@ -18,7 +18,7 @@ redirect_from:
 
 {:.d-startup}
 
-##### Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})<br>[Archivio versioni precedenti](/app-content/index-tos.html)
+#### Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})<br>[Archivio versioni precedenti](/app-content/index-tos.html)
 
 {:.d-startup}
 
@@ -104,20 +104,20 @@ Se scegli la _configurazione manuale_, dovrai attivare singolarmente le comunica
 
 {:.d-more-1}
 
-##### **Inoltro dei messaggi ricevuti**
+#### **Inoltro dei messaggi ricevuti**
 
 {:.d-more-1}
 Sempre da Impostazioni > Preferenze, raggiungibile dall’icona a forma di rotella in alto a destra, puoi anche decidere se abilitare l’inoltro via email dei messaggi ricevuti su IO. Come impostazione di partenza, questa funzione di inoltro non è attiva. 
 
 {:.d-more-1}
 
-##### **Preferenze di contatto per i Servizi che richiedono un’iscrizione specifica**
+#### **Preferenze di contatto per i Servizi che richiedono un’iscrizione specifica**
 
 {:.d-more-1}
 Le preferenze di contatto sono configurate diversamente per i Servizi che richiedono un’iscrizione specifica. Questo tipo di Servizi, ad esempio i Bonus, devono essere attivati espressamente e, una volta completata l’iscrizione, non potrai disabilitare la ricezione dei messaggi fino a che non decidi di disiscriverti dal Servizio. Potrai comunque configurare le notifiche push a livello di singolo Servizio e l’inoltro via email dei messaggi a livello globale.
 
 {:.d-more-1}
-##### **Notifiche push**
+#### **Notifiche push**
 
 {:.d-more-1}
 Per poterti inviare le notifiche push, applichiamo misure di pseudonimizzazione e limitazione del trattamento. Tuttavia il fornitore del servizio di notifica push potrebbe comunque associare a te un identificativo univoco per poterti consegnare la notifica, a seconda del sistema operativo del tuo dispositivo. Puoi scegliere di ricevere su IO notifiche push:
@@ -135,7 +135,7 @@ Se gli Enti hanno contrassegnato un messaggio e/o un Servizio come “sensibile�
 
 {:.d-more-1}
 
-##### **Informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti**
+#### **Informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti**
 
 {:.d-more-1}
 Per fare in modo che funzionino alcune caratteristiche delle comunicazioni inviate dai Servizi, e per migliorare l’esperienza delle persone che usano l’app, raccogliamo e memorizziamo, in qualità di titolari del trattamento, informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti. È un trattamento di natura esclusivamente tecnica ed è strettamente necessario per offrire i servizi di comunicazione e per gestire in modo corretto i pagamenti, e per questo non può essere disabilitato.<br>
@@ -144,7 +144,7 @@ Puoi sempre disabilitare l’invio dello stato di lettura all’interno di ciasc
 
 {:.d-more-1}
 
-###### **Allegati ai messaggi**
+#### **Allegati ai messaggi**
 
 {:.d-more-1}
 Alcuni messaggi possono contenere allegati. In alcuni casi potrai conservare e inviare alcune di queste informazioni mediante sistemi e app di terze parti in esecuzione sul tuo dispositivo, ad esempio per salvare i file o condividerli con terzi.<br>
@@ -152,14 +152,14 @@ Anche se i messaggi provengono da Enti che hanno diritto di contattarti, PagoPA 
 
 {:.d-more-1}
 
-###### **Quando si salvano e si condividono i messaggi**
+#### **Quando si salvano e si condividono i messaggi**
 
 {:.d-more-1}
 Per salvare e condividere i messaggi e gli allegati chiederemo il permesso di accedere, in lettura e/o scrittura, alla memoria del tuo dispositivo e/o ad app di terze parti. Ciò potrebbe significare condividere informazioni con questi fornitori e con terzi. A seconda delle impostazioni del tuo dispositivo, nessun dato potrà essere raccolto e inviato senza la tua espressa autorizzazione. PagoPA e gli Enti rimarranno estranei a qualsiasi vicenda successiva alla ricezione del messaggio, come il salvataggio e/o la condivisione.
 
 {:.d-more-1}
 
-###### **Storico delle preferenze**
+#### **Storico delle preferenze**
 
 {:.d-more-1}
 Per offrirti un servizio migliore, per fornirti assistenza e per far fronte a eventuali contenziosi, IO conserverà lo storico delle tue preferenze, anche se per un periodo di tempo limitato. Questo trattamento viene fatto da PagoPA in qualità di titolare del trattamento.
@@ -168,13 +168,13 @@ Per offrirti un servizio migliore, per fornirti assistenza e per far fronte a ev
 **_C) Dati trattati nelle sezioni "Portafoglio" e “Pagamenti”_**
 
 {:.d-more-1}
-** Quando registri un metodo di pagamento**<br>
+**Quando registri un metodo di pagamento**<br>
 In IO puoi salvare e gestire in sicurezza i metodi di pagamento con cui desideri pagare gli avvisi pagoPA.<br>
 Quando registri un metodo di pagamento, sono trattati i dati identificativi del titolare e gli estremi identificativi del metodo registrato. Questo trattamento è fatto da PagoPA in qualità di titolare del trattamento. Per registrare alcuni metodi di pagamento, i dati sono raccolti presso terze parti e trattati anche da queste(ad esempio, fornitori di servizi bancari). Quando richiederai di registrare il metodo di pagamento sarai informato di questi trattamenti.<br>
 Grazie all’integrazione di IO con la piattaforma pagoPA, puoi eseguire pagamenti verso la Pubblica Amministrazione. Se già usi la piattaforma pagoPA, ritroverai automaticamente le transazioni effettuate nella sezione Pagamenti di IO. Ciò avviene sulla base del tuo codice fiscale.
 
 {:.d-more-1}
-** Quando fai un pagamento**<br>
+**Quando fai un pagamento**<br>
 Per ogni pagamento eseguito, sono trattate queste informazioni:
 
 {:.d-more-1}
@@ -204,7 +204,7 @@ Le informazioni relative a preferenze e account sono associate al tuo codice fis
 Ecco come trattiamo i dati contenuti nella sezione Impostazioni:
 
 {:.d-more-1}
-**Email**: <br>Potremmo usare l’email che hai inserito nella sezione Impostazioni per inviarti comunicazioni importanti relative all’app o al tuo account. Ad esempio, riceverai, un’email in occasione di ogni accesso effettuato a IO tramite SPID o CIE: se rilevi un accesso non autorizzato, puoi bloccare l’account seguendo il link contenuto nella comunicazione e-mail;<br>
+**Email**: Potremmo usare l’email che hai inserito nella sezione Impostazioni per inviarti comunicazioni importanti relative all’app o al tuo account. Ad esempio, riceverai, un’email in occasione di ogni accesso effettuato a IO tramite SPID o CIE: se rilevi un accesso non autorizzato, puoi bloccare l’account seguendo il link contenuto nella comunicazione e-mail;<br>
 **Informazioni Biometriche**: Non raccogliamo informazioni biometriche, ma riceviamo dal tuo dispositivo soltanto la conferma se il riconoscimento biometrico è attivo;<br>
 **Calendario e scadenze**: Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;<br>
 **Lingua**: La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.
@@ -277,7 +277,9 @@ I dati contenuti nel documento da firmare, invece, sono trattati da tali fornito
 Ti ricordiamo che gli Enti rimangono titolari autonomi dei dati trattati in ragione del procedimento amministrativo a cui si riferiscono i documenti da firmare. Per ogni dettaglio su questi trattamenti, ti invitiamo a consultare l’informativa privacy dell'Ente.<br>
 
 {:.d-more-1}
-**Documenti su IO (beta)**<br>
+**Documenti su IO (beta)**
+
+{:.d-more-1}
 Per alcune persone è disponibile una funzionalità sperimentale che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione. Se sei incluso nella sperimentazione visualizzerai in app, nelle sezioni Messaggi e Portafoglio, una comunicazione in app per accedere alla funzionalità. Potresti anche ricevere un messaggio dalla Società che descrive più dettagliatamente la funzionalità e le modalità di disattivazione, nonché, successivamente alla tua richiesta di alcuni documenti, un messaggio dal soggetto emittente che ti informa della disponibilità degli stessi. 
  
 {:.d-more-1}
@@ -374,7 +376,7 @@ Alcuni Enti aderiscono a IO in qualità di aggregatori di altri enti; in tal cas
 PagoPA tratta i tuoi dati in qualità di titolare del trattamento per le seguenti finalità, come previste dal paragrafo 7.1 delle [Linee Guida AgID](https://www.agid.gov.it/sites/agid/files/2024-05/lg_punto_accesso_telematico_servizi_pa_3112021.pdf):
 
 {:.d-more-1}
-- attività necessarie alla progettazione, allo sviluppo, alla gestione e all’implementazione del Punto di accesso telematico di cui all’art. 64-bis CAD.In questa attività sono incluse le attività volte a permettere l’interoperabilità del Punto di accesso telematico con le piattaforme abilitanti di cui all’Allegato 3 delle Linee Guida AgID e le attività di assistenza, debugging e diagnostica, monitoraggio del funzionamento, utilizzo del Punto di accesso telematico e miglioramento ed evoluzione dello stesso (ricerca e sviluppo);
+- attività necessarie alla progettazione, allo sviluppo, alla gestione e all’implementazione del Punto di accesso telematico di cui all’art. 64-bis CAD. In questa attività sono incluse le attività volte a permettere l’interoperabilità del Punto di accesso telematico con le piattaforme abilitanti di cui all’Allegato 3 delle Linee Guida AgID e le attività di assistenza, debugging e diagnostica, monitoraggio del funzionamento, utilizzo del Punto di accesso telematico e miglioramento ed evoluzione dello stesso (ricerca e sviluppo);
 - attività effettuate con riguardo alle funzionalità e/o servizi direttamente resi da PagoPA ai cittadini su loro richiesta, incluse quelle che permettono agli stessi di gestire la propria relazione con gli Enti per i Servizi erogati attraverso Punto di accesso telematico;
 - altre attività che le sono attribuite ai sensi di legge per l’esecuzione di compiti di interesse pubblico.
 
@@ -389,7 +391,7 @@ Le finalità vengono perseguite da PagoPA in ragione delle seguenti basi giuridi
 
 - esercizio di un compito di interesse pubblico (art. 6(1)(e)del GDPR), e in particolare progettazione, gestione e sviluppo del punto di accesso previsto dall’art. 64-bis del CAD. Attività affidate a PagoPA dalla Presidenza del Consiglio dei Ministri in base all’art. 8, commi 2 e 3 del D.lgs. 135/2018;
 - adempimento di obblighi di legge (art. 6(1)(c) del GDPR) per attuare le norme applicabili alle attività svolte da PagoPA. In particolare le norme in materia di sicurezza dei pagamenti, gestione e rendicontazione della spesa pubblica, tutela dei diritti, attribuzione di benefici economici e prevenzione delle frodi;
-- consenso dell’interessato (art. 6(1)(a)del GDPR), se i cittadini richiedono volontariamente di usufruire di servizi e funzionalità di IO, anche non correlati a specifici Servizi offerti dagli Enti;oppure quando i cittadini possono esprimere una preferenza rispetto a un trattamento facoltativo di dati.
+- consenso dell’interessato (art. 6(1)(a)del GDPR), se i cittadini richiedono volontariamente di usufruire di servizi e funzionalità di IO, anche non correlati a specifici Servizi offerti dagli Enti; oppure quando i cittadini possono esprimere una preferenza rispetto a un trattamento facoltativo di dati.
 
 {:.d-more-1}
 L’interessato ha il diritto di revocare il proprio consenso in qualsiasi momento. La revoca del consenso non pregiudica la liceità dei trattamenti basati sul consenso prima della revoca.
@@ -417,7 +419,7 @@ I tuoi dati personali saranno conservati per un periodo di tempo non superiore a
 Qui di seguito indichiamo per quanto conserviamo i dati trattati in relazione al tipo di attività eseguita:
 
 {:.d-more-1}
-** Identificazione e autenticazione**<br>
+**Identificazione e autenticazione**<br>
 I dati necessari per l’identificazione e l’autenticazione in app, sono conservati per l’intero ciclo di vita del tuo account e fino a 3 anni successivi all’eventuale richiesta di cancellazione, con le seguenti eccezioni: 
 
 {:.d-more-1}
@@ -539,7 +541,7 @@ Hai il diritto di ottenere la limitazione del trattamento quando ricorre una del
 - per il periodo necessario a verificare l'eventuale prevalenza dei motivi legittimi di PagoPA nel caso in cui ti sia opposto al trattamento.
 
 {:.d-more-1}
-_ Diritto di opposizione al trattamento_
+_Diritto di opposizione al trattamento_
 
 {:.d-more-1}
 Per motivi connessi a una situazione particolare che ti riguarda, ti puoi opporre all'ulteriore trattamento dei tuoi dati personali, basato sull’esercizio di un compito di interesse pubblico.<br> 
@@ -583,7 +585,7 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 
 {:.d-startup}
 
-##### Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})<br>[Archivio versioni precedenti](/app-content/index-tos.html)
+#### Data ultimo aggiornamento: {{page.updated}} (v. {{page.vers}})<br>[Archivio versioni precedenti](/app-content/index-tos.html)
 
 {:.d-startup}
 
