@@ -14,6 +14,8 @@ redirect_from:
   - /app-content/privacy_circuiti_internazionali.html
   - /informativa-sperimentazione/
   - /it/informativa-sperimentazione/
+  - /tos-sperimentazione/
+  - /it/tos-sperimentazione/
 ---
 
 <h2 class="d-startup mb-1 small-line-height">Informativa privacy</h2>
