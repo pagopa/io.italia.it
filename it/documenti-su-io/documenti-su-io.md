@@ -20,7 +20,7 @@ intro_ter_customclass: "btn btn-sm btn-download btn-download--w-icon android tex
 intro_ter_onclick: "ga('send', 'event', 'link', 'click', 'Download App: Android', 1)"
 disable_br: true
 redirect_from:
-  - /documenti
+  - /documenti/
 ---
 
 {% include documenti-su-io.html %}
