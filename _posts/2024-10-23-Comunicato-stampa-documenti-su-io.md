@@ -15,7 +15,7 @@ _Butti: “Dopo due anni di lavoro, oggi il primo passo verso la realizzazione d
 
 Roma, 23 ottobre 2024 - In attesa della piena operatività del Sistema di portafoglio digitale italiano - **Sistema IT-Wallet**, inizia il rilascio pubblico di **Documenti su IO**, la nuova funzionalità che permette ai cittadini di aggiungere al **Portafoglio di app IO** – l’app dei servizi pubblici – la versione digitale della Patente di guida, della Tessera Sanitaria - Tessera Europea di Assicurazione Malattia e della Carta Europea della Disabilità. 
 
-I tre documenti digitali potranno essere utilizzati in sostituzione dei corrispettivi documenti fisici e nello specifico, in questa prima fase, **solo per interazioni offline**:
+I tre documenti digitali potranno essere utilizzati in sostituzione dei corrispettivi documenti fisici e nello specifico, in questa prima fase, **solo per contesti di verifica dal vivo**:
 
 - la **Patente di guida** potrà essere utilizzata solo in Italia per dimostrare di essere abilitato alla guida in caso di controlli delle forze dell’ordine;
 - la **Tessera Sanitaria** - Tessera Europea di Assicurazione Malattia permetterà di accedere alle prestazioni fornite dal Servizio Sanitario Nazionale;  
