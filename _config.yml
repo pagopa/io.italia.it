@@ -94,13 +94,15 @@ page_gen:
     index_files: true
     name_expr: record["o"].gsub(/[^0-9A-Za-zÀ-ú\s]/, '').gsub('  ',' ')
     title: "o"
+  - data: "enti-servizi.items"
+    template: entelight-embeddable
+    dir: "enti-embeddable"
+    index_files: true
+    name_expr: record["o"].gsub(/[^0-9A-Za-zÀ-ú\s]/, '').gsub('  ',' ')
+    title: "o"
   - data: "diccilatua.items" # DICCI LA TUA REDIRECTS
     template: simple-redirect
     dir: "diccilatua"
     index_files: true
     name: slugname
     title: title
-
-webrick:
-  headers:
-     frame-ancestors: 'https://d3br9qrgc13ul1.cloudfront.net'

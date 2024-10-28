@@ -15,4 +15,4 @@ extra_scripts:
   - "/assets/js/entilist.js"
 ---
 
-{% include enti-list.html %}
+{% include enti-list-embeddable.html %}
