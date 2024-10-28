@@ -100,7 +100,3 @@ page_gen:
     index_files: true
     name: slugname
     title: title
-
-webrick:
-  headers:
-     frame-ancestors: 'https://d3br9qrgc13ul1.cloudfront.net'
