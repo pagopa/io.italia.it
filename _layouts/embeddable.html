@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% assign current_lang = page.lang | default: site.lang | default: 'it' %} 
+{% assign t = site.data.t[current_lang] %}
+
+<script src="{{ '/assets/js/iframe-resizer@5.3.1.js' }}"></script>
+
+<div class="internal-page {% if page.narrow %}narrow{%endif%}">
+
+  <article class="{{ page.layout }}">
+    {% include sections/introduction.html %} {% if page.narrow %}
+    <div class="container mw-60">
+      {% endif %}
+      <div class="internal-page__content {% unless page.nomargin %}mb-5{%endunless%}">
+        {{content}}
+      </div>
+      {% if page.narrow %}
+    </div>
+    {% endif %}
+  </article>
+</div>
