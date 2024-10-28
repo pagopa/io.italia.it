@@ -1,0 +1,40 @@
+{% assign buildTime = site.time | date: '%Y%m%d%H%M' %}
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <meta
+    name="description"
+    content="{{ page.description_social | default: page.description | default: site.description[current_lang] | smartify | truncate: 140  }}"
+  />
+  <meta name="author" content="{{ site.authors[current_lang] }}" />
+  <meta name="generator" content="Jekyll v{{ jekyll.version }}" />
+
+  <link
+    rel="canonical"
+    href="{{ site.url }}{{ page.url | replace:'index.html',''}}"
+  />
+
+  {%- if page.index == 'no-index'-%}
+    <meta name="robots" content=" noindex, nofollow" />
+  {%- endif -%}
+
+  <title>
+    {%- if page.title -%} {{ page.title | smartify }} – {{
+    site.title[current_lang] | smartify }} {%- else -%} {{
+    site.title[current_lang] | smartify }} {%- endif -%}
+  </title>
+
+  {% include favicons.html %}
+  
+  {% if site.google_verify %}
+    <meta name="google-site-verification" content="{{ site.google_verify }}" />
+  {% endif %}
+
+  {% include styles.html %}
+
+</head>
