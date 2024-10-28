@@ -59,6 +59,7 @@ sass:
 jekyll-minifier:
   exclude:
     - "assets/js/dashboard/_next/**"
+    - "assets/js/iframe-resizer@5.3.1.js"
   preserve_php: true # Default: false
   remove_spaces_inside_tags: true # Default: true
   remove_multi_spaces: true # Default: true
