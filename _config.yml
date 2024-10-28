@@ -59,7 +59,7 @@ sass:
 jekyll-minifier:
   exclude:
     - "assets/js/dashboard/_next/**"
-    - "assets/js/iframe-resizer@5.3.1.js"
+    - "assets/js/iframe-resizer@5.3.2.js"
   preserve_php: true # Default: false
   remove_spaces_inside_tags: true # Default: true
   remove_multi_spaces: true # Default: true
@@ -100,3 +100,7 @@ page_gen:
     index_files: true
     name: slugname
     title: title
+
+webrick:
+  headers:
+     frame-ancestors: 'https://d3br9qrgc13ul1.cloudfront.net'
