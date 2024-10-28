@@ -1,0 +1,22 @@
+---
+description: In questa pagina puoi consultare l’elenco di tutti i servizi che l’Ente ha messo a disposizione dei cittadini sull’app IO.
+---
+<!DOCTYPE html>
+{% assign current_lang = 'it' %}
+{% assign t = site.data.t[current_lang] %}
+<html lang="{{current_lang}}">
+
+  {%- include head.html -%}
+
+  <body class="overflow-x--hidden layout--{{page.layout}}" data-ente-fc="{{page.fc}}">
+
+  {%- include scripts.html -%}
+  <script src="{{ site.baseurl }}/assets/js/vendor/handlebars.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/ente-embeddable.js"></script>
+  <script
+  async
+  src="{{ '/assets/js/main.js?' | append: buildTime | relative_url }}"
+></script>
+   </body>
+
+</html>
