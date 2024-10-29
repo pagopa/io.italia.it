@@ -8,7 +8,7 @@
                 <div class="input-group-text"><svg class="icon icon-primary"><use xlink:href="/assets/svg/sprite.svg#it-search"></use></svg></div>
               </div>
               <input type="text" class="form-control" id="entiSearchInput" name="entiSearchInput" >
-              <label for="entiSearchInput">Cerca un Ente nazionale o locale</label>
+              <label for="entiSearchInput">Cerca un Ente</label>
             </div>
             <div>
               <a href="#" id="entiSearchReset" title="Annulla la ricerca" class="small ml-2 invisible">Annulla la ricerca</a>
@@ -18,7 +18,7 @@
 </div>
 <div id="entiList" class="collapse-div px-3 px-md-0" role="tablist">
     <div class="container container--mid">
-        <div class="mb-3 mb-md-1">
+      <div class="mb-3 mb-md-1 d-none">
         <div class="small text-primary">Filtra per Ente:</div>
         <ul class="list-inline entiList__filter my-2 entiList__scopefilter">
             <li class="list-inline-item"><a href="#" title="Tutti" class="active" data-scope-selector="">Tutti</a></li>
@@ -36,12 +36,8 @@
       <div id="entiSearch__noresults" class="d-none" >
         <div class="text-center">
         <img alt="Nessun risultato" class=""
-                      srcset="
-                      {{site.imagesurl}}/assets/img/question-2x.png 2x,
-                      {{site.imagesurl}}/assets/img/question.png 1x
-                      "
-                      src="{{site.imagesurl}}/assets/img/question.png"
-                      >
+          srcset="{{site.imagesurl}}/assets/img/question-2x.png 2x,{{site.imagesurl}}/assets/img/question.png 1x"
+          src="{{site.imagesurl}}/assets/img/question.png">
         <p class="my-2">Nessun risultato trovato</p>
         </div>
       </div>

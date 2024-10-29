@@ -7,10 +7,10 @@ layout: default-embeddable
 
 <script src="{{ '/assets/js/iframe-resizer@5.3.2.js' }}"></script>
 
-<div class="internal-page {% if page.narrow %}narrow{%endif%}">
+<div class="internal-page-embeddable {% if page.narrow %}narrow{%endif%}">
 
   <article class="{{ page.layout }}">
-    {% include sections/introduction.html %} {% if page.narrow %}
+    {% if page.narrow %}
     <div class="container mw-60">
       {% endif %}
       <div class="internal-page__content {% unless page.nomargin %}mb-5{%endunless%}">
