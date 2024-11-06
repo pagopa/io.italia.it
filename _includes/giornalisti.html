@@ -317,7 +317,7 @@
       <div class="row">
         <div class="col pt-5 px-3 px-md-0">
           <div class="grid-gallery">
-            {% for item in mediumposts %}
+            {% for item in mediumposts limit:3%}
             <div class="image-item">
               <img
                 src="{{item.img}}"
