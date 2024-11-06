@@ -1,8 +1,8 @@
 ---
 layout: internal
-title: IO, una novità da raccontare
+title: IO, un'app da raccontare
 subtitle: Comunicati stampa, immagini, video, presentazioni, ecc.
-description: Sei un giornalista e sei alla ricerca di materiale per scrivere un articolo sul progetto IO? In questa area puoi trovare informazioni, comunicati stampa, presentazioni e altre risorse multimediali da poter scaricare.
+description: Sei un giornalista e sei alla ricerca di materiale per scrivere un articolo sull'app IO? In questa area puoi trovare informazioni, comunicati stampa e immagini da consultare e scaricare.
 description_social: 'Un unico punto di accesso per interagire in modo semplice e sicuro con i servizi pubblici locali e nazionali, direttamente dal tuo smartphone.'
 lang: it
 ref: giornalisti
