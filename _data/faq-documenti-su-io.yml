@@ -4,13 +4,13 @@ it:
   - title: Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?
     body: "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti a partire dal mese di dicembre e secondo il seguente calendario di abilitazione:
 
-- dal 23 ottobre 50.000 cittadini;
+    - dal 23 ottobre 50.000 cittadini;
 
-- dal 6 novembre 250.000;
+    - dal 6 novembre 250.000;
 
-- dal 30 novembre 1.000.000;
+    - dal 30 novembre 1.000.000;
 
-- dal 4 dicembre per tutti gli utenti dell'app IO."
+    - dal 4 dicembre per tutti gli utenti dell'app IO."
   - title: In che modo potrò sapere quando la funzionalità sarà disponibile per me?
     body: "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
   - title: Quali documenti sono disponibili se attivo Documenti su IO?
@@ -31,17 +31,35 @@ it:
     body: "Sì, non dovrai pagare nulla per usare Documenti su IO, come per tutte le altre funzionalità dell’app IO."
   - title: Quali sono i requisiti tecnici minimi per attivare Documenti su IO?
     body: "Per attivare Documenti su IO, assicurati che il tuo dispositivo soddisfi questi requisiti minimi:
-
-- per iOS: dispositivi con una versione di iOS pari o successiva a quella supportata dagli iPhone 6s e successivi;
-
-- per Android: dispositivi con Android 8.0 o versioni successive.
-
-
-È inoltre necessario che il dispositivo non sia compromesso, ossia non siano state rimosse le restrizioni imposte dal sistema operativo (ad esempio, il jailbreak per iOS o il rooting per Android). 
+  
+    - per iOS: dispositivi con una versione di iOS pari o successiva a quella supportata dagli iPhone 6s e successivi;
+  
+    - per Android: dispositivi con Android 8.0 o versioni successive.
 
 
-Se il tuo dispositivo soddisfa questi requisiti ma continui a riscontrare problemi nell'attivazione di Documenti su IO, potrebbe dipendere da limitazioni legate a servizi Google o al sistema operativo Apple (ad esempio, alcune funzioni potrebbero non essere disponibili o non attivarsi se il dispositivo non è aggiornato o se sono presenti delle limitazioni di configurazione del sistema operativo).
+    ###### Requisiti di integrità del dispositivo e dell’app
 
 
-Ti ricordiamo infine che eventuali problemi nell’attivazione della funzionalità potrebbero dipendere anche da fattori quali le politiche di sicurezza o restrizioni specifiche imposte da Google o Apple. 
-"
+    Il tuo dispositivo non deve essere compromesso, ossia non deve essere stato modificato per rimuovere le restrizioni di sicurezza imposte dal sistema operativo  (ad esempio, il jailbreak per iOS o il rooting per Android). Inoltre è necessario che l’app in esecuzione sia quella ufficiale firmata e scaricata dagli store di Android ed Apple (rispettivamente Play Store e App Store),
+
+
+    ###### Controlli di integrità
+
+
+    Per garantire l’integrità del tuo dispositivo e dell’app, usiamo i servizi messi a disposizione da Google ed Apple (per Android i servizi Play Integrity API e Key Attestation, mentre per Apple il servizio DeviceCheck).
+    <br/>**Nota:** tieni presente che i controlli di integrità potrebbero avvenire anche dopo l’attivazione di Documenti su IO, per rilevare eventuali anomalie del dispositivo o dell’app in esecuzione. Se rilevate, la funzionalità Documenti su IO viene automaticamente disattivata.
+
+
+    ###### Altri fattori che possono impedire l’attivazione
+
+
+    Se il tuo dispositivo soddisfa le condizioni sopra indicate ma continui a riscontrare problemi nell'attivazione di Documenti su IO, potrebbe dipendere da limitazioni legate a servizi Google o al sistema operativo Apple (ad esempio, alcune funzioni potrebbero non essere disponibili o non attivarsi se il dispositivo non è aggiornato o se sono presenti delle limitazioni di configurazione del sistema operativo).
+
+
+    Ti ricordiamo infine che eventuali problemi nell’attivazione della funzionalità potrebbero dipendere anche da fattori quali le politiche di sicurezza o restrizioni specifiche imposte da Google o Apple. 
+
+    "
+  - title: Posso disattivare i Documenti su IO?
+    body: "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi disattivare Documenti su IO da web, accedendo al sito ioapp.it, che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti. "
+
+
