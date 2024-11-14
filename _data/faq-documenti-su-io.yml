@@ -46,7 +46,7 @@ it:
     ###### Controlli di integrità
 
 
-    Per garantire l’integrità del tuo dispositivo e dell’app, usiamo i servizi messi a disposizione da Google ed Apple (per Android i servizi Play Integrity API e Key Attestation, mentre per Apple il servizio DeviceCheck).
+    Per garantire l’integrità del tuo dispositivo e dell’app, usiamo i servizi messi a disposizione da Google ed Apple (per Android i servizi [Play Integrity API](https://developer.android.com/google/play/integrity?hl=it) e [Key Attestation](https://developer.android.com/privacy-and-security/security-key-attestation), mentre per Apple il servizio [DeviceCheck](https://developer.apple.com/documentation/devicecheck)).
     <br/>**Nota:** tieni presente che i controlli di integrità potrebbero avvenire anche dopo l’attivazione di Documenti su IO, per rilevare eventuali anomalie del dispositivo o dell’app in esecuzione. Se rilevate, la funzionalità Documenti su IO viene automaticamente disattivata.
 
 
@@ -60,6 +60,6 @@ it:
 
     "
   - title: Posso disattivare i Documenti su IO?
-    body: "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi disattivare Documenti su IO da web, accedendo al sito ioapp.it, che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti. "
+    body: "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi disattivare Documenti su IO da web, accedendo al sito [ioapp.it](http://ioapp.it), che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti. "
 
 
