@@ -1,4 +1,4 @@
----
+--
 layout: internal
 title: "E-distribuzione sbarca sull'app IO: un filo diretto con i clienti per le comunicazioni di servizio"
 lang: it
@@ -7,6 +7,7 @@ ref: comunicato-stampa-edistribuzione
 date: 2023-04-04
 friendlydate: 4 aprile 2023
 narrow: true
+
 ---
 
 - _E-Distribuzione aderisce all’app IO, il punto di accesso telematico per interagire in modo semplice e sicuro con i servizi pubblici direttamente da smartphone_
