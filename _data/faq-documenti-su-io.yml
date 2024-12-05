@@ -1,18 +1,38 @@
 it:
   - title: Cos’è Documenti su IO?
     body: "**Documenti su IO** è il primo passo verso il  Sistema IT-Wallet, cioè il Sistema di portafoglio digitale italiano istituito all’art. 64-quater del Codice dell’Amministrazione Digitale. Documenti su IO è infatti la nuova funzionalità di IO che consente di aggiungere al Portafoglio dell’app la versione digitale dei tuoi documenti personali."
-  - title: Perché la funzionalità Documenti su IO non è ancora attiva sulla mia app IO?
-    body: "Il rilascio della funzionalità avverrà in modo graduale. La funzionalità sarà resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app. In ogni caso, Documenti su IO sarà disponibile per tutti a partire dal mese di dicembre e secondo il seguente calendario di abilitazione:
-
+  - title: Qual è stato il calendario di abilitazione di Documenti su IO?
+    body: "Il rilascio della funzionalità è avvenuto in modo graduale. La funzionalità è stata resa disponibile in modo progressivo agli utenti di IO individuati sulla base di un criterio randomico a partire da quelli attivi in app, secondo il seguente calendario di abilitazione:
+    
     - dal 23 ottobre 50.000 cittadini;
 
     - dal 6 novembre 250.000;
 
     - dal 20 novembre 1.000.000;
 
-    - dal 4 dicembre per tutti gli utenti dell'app IO."
-  - title: In che modo potrò sapere quando la funzionalità sarà disponibile per me?
-    body: "Riceverai una comunicazione sull’app IO quando Documenti su IO sarà disponibile per te (un messaggio in app o un banner informativo). Per non perderti la comunicazione, ti suggeriamo di attivare la ricezione delle notifiche push nelle impostazioni di IO e/o del tuo dispositivo."
+    - dal 4 dicembre per tutti gli utenti dell’app IO."
+  - title: Quando avviene il rilascio dei documenti digitali su IO?
+    body: "
+
+    ###### Patente di guida
+
+    L’emissione della versione digitale di Patente di guida non avviene in tempo reale: una volta che hai richiesto il documento riceverai successivamente in app un messaggio che ti informa che la tua Patente su IO è pronta per essere aggiunta al Portafoglio. 
+
+    Tieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale (da qualche ora a qualche giorno).
+
+    ###### Tessera sanitaria - Tessera europea di assicurazione malattia
+
+    L’emissione della versione digitale della Tessera sanitaria - Tessera europea di assicurazione malattia avviene solitamente in tempo reale.
+
+    Tieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto. 
+
+    ###### Carta Europea della Disabilità 
+
+    L’emissione della versione digitale della Carta Europea della Disabilità avviene solitamente in tempo reale.
+
+    Tieni presente che in momenti di picco delle richieste i tempi potrebbero essere più lunghi del normale. In caso di rallentamenti ti invitiamo a riprovare dopo qualche minuto. 
+
+    "
   - title: Quali documenti sono disponibili se attivo Documenti su IO?
     body: "Al momento sono disponibili, per chi ne è in possesso, la Patente di guida, la Tessera Sanitaria - Tessera europea di assicurazione malattia e la Carta Europea della Disabilità."
   - title: Perché devo usare SPID o CIE per attivare Documenti su IO?
