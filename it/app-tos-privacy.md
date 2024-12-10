@@ -29,7 +29,7 @@ redirect_from:
 ### Novità e aggiornamenti
 
 {:.d-startup}
-- Abbiamo inserito dettagliato maggiormente la sezione della funzionalità “Documenti su IO”.
+- Abbiamo inserito dettagliato maggiormente la sezione relativa alla funzionalità “Documenti su IO”.
 - Abbiamo corretto qualche refuso.
 
 {:.d-startup}
