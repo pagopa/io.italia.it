@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: "5.0"
-updated: 23 ottobre 2024
+vers: "5.1"
+updated: 10 dicembre 2024
 assets:
   js:
     - "/assets/js/tos.js"
@@ -29,8 +29,8 @@ redirect_from:
 ### Novità e aggiornamenti
 
 {:.d-startup}
-- Abbiamo sintetizzato e semplificato il linguaggio dell’informativa per renderlo più leggibile, chiarendo anche alcuni trattamenti e correggendo i refusi;
-- Abbiamo inserito una sezione specifica per le funzionalità sperimentali e introdotto “Documenti su IO”.
+- Abbiamo inserito dettagliato maggiormente la sezione della funzionalità “Documenti su IO”.
+- Abbiamo corretto qualche refuso.
 
 {:.d-startup}
 Sotto trovi l'informativa completa, che puoi consultare in ogni momento anche in app.
@@ -226,7 +226,7 @@ Come impostazione di partenza, questo accesso è disattivato di default: nessun 
 Per fare in modo che IO funzioni bene svolgiamo attività di debug (ricerca e rimozione di errori), diagnostica, troubleshooting (ricerca e risoluzione di problemi). In pratica:
 
 {:.d-more-1}
-- con il tuo consenso, rileviamo i dati di utilizzo. In questo modo possiamo acquisire, tra l’altro, informazioni relative all’uso e alla navigazione in app e informazioni relative al dispositivo. Il consenso a questo trattamento è facoltativo. Puoi modificarlo in ogni momento nella sezione Preferenze;
+- con il tuo consenso, rileviamo i dati di utilizzo. In questo modo possiamo acquisire, tra l’altro, informazioni relative all’uso e alla navigazione in app e informazioni relative al dispositivo. Il consenso a questo trattamento è facoltativo. Puoi modificarlo in ogni momento nella sezione Privacy e Condizioni d'uso;
 - rileviamo informazioni utili per analizzare eventuali anomalie e monitorare la stabilità dell’app. I dati raccolti sono anonimizzati alla fonte;
 - raccogliamo a livello infrastrutturale ulteriori dati e log tecnici.
 
@@ -286,18 +286,30 @@ Ti ricordiamo che gli Enti rimangono titolari autonomi dei dati trattati in ragi
 **Documenti su IO (beta)**
 
 {:.d-more-1}
-Per alcune persone è disponibile una funzionalità sperimentale che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione. Se sei incluso nella sperimentazione visualizzerai in app, nelle sezioni Messaggi e Portafoglio, una comunicazione in app per accedere alla funzionalità. Potresti anche ricevere un messaggio dalla Società che descrive più dettagliatamente la funzionalità e le modalità di disattivazione, nonché, successivamente alla tua richiesta di alcuni documenti, un messaggio dal soggetto emittente che ti informa della disponibilità degli stessi. 
+Nelle more della piena funzionalità del Sistema IT-Wallet per gli utenti di IO è disponibile una funzionalità che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione, tramite l’Ente incaricato normativamente della loro emissione. Nelle sezioni Messaggi e Portafoglio, trovi un banner per accedere alla funzionalità. Potresti aver ricevuto una comunicazione tramite email o messaggio in app dalla Società che descrive più dettagliatamente la funzionalità e le modalità di disattivazione. Puoi attivare Documenti su IO tramite il banner, se lo chiudi per errore, potrai ritrovarlo al tuo successivo accesso. Successivamente all’attivazione, qualora tu abbia richiesto le versioni digitali dei documenti, potresti ricevere un messaggio dal soggetto emittente che ti informa della disponibilità degli stessi.
  
 {:.d-more-1}
 Se scegli di utilizzare Documenti su IO, PagoPA tratterà in qualità di titolare del trattamento, nella misura strettamente necessaria a erogare la funzionalità su tua richiesta:
 
 {:.d-more-1}
-- i dati necessari per consentire l’attivazione della funzionalità, l’identificazione (ossia, codice fiscale, email, il codice univoco che identifica la tua richiesta di attivazione della funzionalità e le chiavi crittografiche) e l’aggiunta di uno specifico documento(ossia il codice univoco della richiesta e le chiavi crittografiche);
+- i dati necessari per consentire l’attivazione della funzionalità (ossia, codice fiscale, email, il codice univoco che identifica la tua richiesta di attivazione della funzionalità e le chiavi crittografiche);
+- i dati necessari per l’aggiunta di uno specifico documento (ossia il codice univoco della richiesta che ne identifica la tipologia e le chiavi crittografiche);
+- l’indirizzo email, nel caso in cui tu richieda di disattivare la funzionalità tramite il portale ioapp.it.
 - tutti gli altri dati, legati all’uso e al funzionamento di IO, il cui trattamento è descritto nelle varie sezioni di questa informativa.
 
 {:.d-more-1}
-Se acconsenti, alcuni di questi dati sono condivisi con l’Ente incaricato di emettere i documenti in versione digitale, il quale li tratta per il tempo strettamente necessario a raggiungere la finalità.<br> 
-L’attivazione della funzionalità è su base volontaria. Puoi disattivarla in ogni momento cliccando su “Cos’è” nella sezione Portafoglio.
+Con riferimento alle chiavi crittografiche, una di esse sarà conservata dalla Società, mentre l’altra sarà conservata esclusivamente nel tuo dispositivo, e utilizzata, quando aggiungi un documento, per garantire l’affidabilità e la sicurezza della richiesta.
+Con riferimento al codice della richiesta della versione digitale di un documento personale, il trattamento è svolto, ai sensi dell’art. 9, par.2, lett. g) del GDPR (come specificato dall’art. 2-sexies, comma 2, del d.lgs. n. 196/2003 lett. a)), limitatamente ai casi in cui la semplice tipologia di Credenziale è idonea rivelare categorie particolari di dati (ad esempio, ottenimento della Carta Europea della Disabilità).
+
+{:.d-more-1}
+Se richiedi l’attivazione della funzionalità o l’aggiunta di un documento, i dati relativi alla tipologia di documento richiesto, unitamente ad un’attestazione circa l'integrità e la sicurezza della richiesta, sono condivisi dalla Società con l’Ente incaricato di emettere i documenti in versione digitale, il quale li tratterà per il tempo strettamente necessario a raggiungere la finalità. <br>Ti invitiamo a verificare l’informativa dell’Ente incaricato di emettere i documenti in versione digitale per verificare come tratta i tuoi dati. I documenti che aggiungi non sono conservati dalla Società ma rimangono unicamente sul tuo dispositivo. La Società non accede in nessun momento al contenuto dei documenti.<br>
+Inoltre, al tuo primo utilizzo della funzionalità, la Società trasmette alcuni dati di navigazione (in particolare, il tuo indirizzo IP) al fornitore del sistema operativo del tuo dispositivo, al fine di assicurare la sicurezza della conservazione dei dati e della funzionalità che hai richiesto. I fornitori di sistemi operativi sono titolari autonomi. Per sapere come trattano i tuoi dati ti invitiamo a consultare le loro informative. 
+
+{:.d-more-1}
+Successivamente all’attivazione di Documenti su IO, il tuo codice fiscale sarà associato alla tua richiesta di attivazione della suddetta funzionalità unicamente per permetterti di esercitare i tuoi diritti ma non sarà trattato quando richiedi l’emissione di un documento.
+
+{:.d-more-1}
+L’attivazione della funzionalità è su base volontaria. Puoi disattivarla in ogni momento cliccando su “Cos’è” nella sezione Portafoglio o tramite il portale ioapp.it (in particolare, se non hai più il controllo del tuo dispositivo mobile).
 
 {:.d-more-1}
 **_H) Dati trattati per altre attività_**
@@ -452,9 +464,9 @@ Dopo che sono stati recapitati nella tua inbox (cioè, sono visibili nella sezio
 Dopo la firma, potrai accedere ai documenti, inoltrarli o condividerli per i successivi 90 giorni. Scaduti i 90 giorni verranno rimossi dai nostri sistemi. Il certificato di firma e le altre informazioni soggette a conservazione a norma sono conservati per 20 anni presso il fornitore di servizi fiduciari qualificati che ha emesso il certificato di firma. Ti invitiamo a consultare le informative privacy messe a disposizione dagli Enti e dal fornitore di servizi fiduciari qualificati per conoscere i tempi di conservazione delle altre informazioni, compresi i dati personali, trattate in connessione con le operazioni di firma.
 
 {:.d-more-1}
-**Documenti su IO (beta)**<br>
-I dati relativi all’attivazione della funzionalità sono conservati fino alla successiva eventuale disattivazione.<br>
-I dati trattati nell’ambito dell’ottenimento delle versioni digitali dei documenti sono trattati per il tempo strettamente necessario alla condivisione con il soggetto emettitore degli stessi e non conservati ulteriormente.
+**Documenti su IO (beta)** <br>
+I dati relativi all’attivazione della funzionalità sono conservati per tutto il tempo che la stessa rimane attiva.<br>Successivamente, conserveremo evidenza del fatto che hai attivato e poi disattivato nei termini di legge, per dare seguito a richieste di contestazioni o richieste provenienti dall’Autorità Giudiziaria (ad esempio, relativamente a reati), fatte salve esigenze di conservazione più lunghe nel caso di inizio di procedimenti giudiziali o amministrativi che richiedano tempi di conservazione maggiori.<br>
+I dati trattati nell’ambito dell’ottenimento delle versioni digitali dei documenti (ad esempio, le chiavi crittografiche e i dati che identificano la tipologia della richiesta) sono trattati per il tempo strettamente necessario alla condivisione con l’Ente incaricato di emettere  gli stessi. Tali dati non sono conservati da PagoPA una volta terminata l’emissione del documento.
 
 {:.d-more-1}
 **Integrazione con la piattaforma pagoPA**<br>
@@ -831,7 +843,7 @@ Ti invitiamo a leggere le informative privacy messe a disposizione dagli Enti e 
 ## **3.7 Documenti su IO (beta)**
 
 {:.d-more-2}
-Per alcuni cittadini è disponibile una Funzionalità sperimentale che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione. Se sei incluso nella sperimentazione visualizzerai in app, nelle sezioni Messaggi e Portafoglio, una comunicazione per accedere alla funzionalità. <br>
+Nelle more della piena funzionalità del Sistema IT-Wallet per gli utenti di IO è disponibileuna Funzionalità sperimentale che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione. Se sei incluso nella sperimentazione visualizzerai in app, nelle sezioni Messaggi e Portafoglio, una comunicazione per accedere alla funzionalità. <br>
 Rispetto alle versioni digitali dei documenti emessi dagli Enti, noi non verifichiamo né siamo responsabili del contenuto e della loro correttezza formale e sostanziale. Pertanto, se hai dubbi o domande a questo riguardo, ti invitiamo ad aprire una segnalazione tramite il punto interrogativo presente in alto a destra in ogni schermata dell’app, oppure tramite i canali di contatto dell’Ente, se mostrati in app.<br>
 Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in IO con SPID o CIE. Questo passaggio è necessario per garantire che le versioni digitali dei documenti che richiedi siano associati alla tua Identità Digitale.<br>
 Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali. Per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. In tal modo la funzionalità sarà automaticamente disattivata sul precedente dispositivo. In questa prima fase sperimentale, **le versioni digitali dei documenti potrebbero non avere lo stesso valore legale del corrispondente documento fisico**. Ad esempio, la versione digitale della patente è valida solamente in alcuni contesti d’uso e verifica (es. controlli stradali) per dimostrare l’abilitazione alla guida.
