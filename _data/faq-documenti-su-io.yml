@@ -76,11 +76,20 @@ it:
     Se il tuo dispositivo soddisfa le condizioni sopra indicate ma continui a riscontrare problemi nell'attivazione di Documenti su IO, potrebbe dipendere dall’assenza di un PIN di sblocco o di sblocco biometrico sul tuo dispositivo, oppure da limitazioni legate a servizi Google o al sistema operativo Apple (ad esempio, alcune funzioni potrebbero non essere disponibili o non attivarsi se il dispositivo non è aggiornato o se sono presenti delle limitazioni di configurazione del sistema operativo).
 
 
-    Ti ricordiamo infine che eventuali problemi nell’attivazione della funzionalità potrebbero dipendere anche da fattori quali le politiche di sicurezza o restrizioni specifiche imposte da Google o Apple. 
+    Ti ricordiamo infine che eventuali problemi nell’attivazione della funzionalità potrebbero dipendere anche da fattori quali le politiche di sicurezza o restrizioni specifiche imposte da Google o Apple.
+
+    Tieni presente che l’assistenza di app IO non può effettuare controlli che riguardano l’integrità del tuo dispositivo. 
 
     "
   - title: Posso disattivare i Documenti su IO?
     body: "Sì, puoi disattivare la funzionalità Documenti su IO direttamente in app. Inoltre, puoi disattivare Documenti su IO da web, accedendo al sito [ioapp.it](http://ioapp.it), che ti consente di gestire alcune delle funzionalità dell’app IO anche se hai smarrito o non hai più il controllo sul tuo dispositivo. Tieni presente che se disattivi Documenti su IO, tutte le versioni digitali dei documenti che hai aggiunto al Portafoglio dell’app saranno rimosse; potrai comunque riattivare la funzionalità in futuro e aggiungere nuovamente le versioni digitali dei tuoi documenti. "
   - title: Posso usare Documenti su IO contemporaneamente su più dispositivi?
     body: "No, per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. Questa operazione disattiverà automaticamente la funzionalità dal dispositivo usato in precedenza."
+  - title: In quali casi posso usare le versioni digitali dei documenti che aggiungo all’app IO?
+    body: "Puoi usare i documenti digitali al posto di quelli fisici in questi casi:
+    
+    - **Patente di guida:** in Italia, in contesti di verifica dal vivo da parte delle Forze dell’ordine, esclusivamente per dimostrare la tua idoneità alla guida.
 
+    - **Tessera Sanitaria - Tessera europea di assicurazione malattia:** in Italia, per accedere alle prestazioni fornite dal Servizio Sanitario Nazionale (prenotazione esami in presenza, erogazione di ricette per farmaci, etc.).
+
+    - **Carta Europea della Disabilità:** in Italia, per gli stessi casi d’uso oggi previsti con la presentazione del documento fisico."
