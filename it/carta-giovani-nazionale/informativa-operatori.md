@@ -5,12 +5,12 @@ description: |-
   Dipartimento per le Politiche Giovanili e il Servizio Civile Universale
   Presidenza del Consiglio dei ministri
 lang: it
-ref: "cgn"
+ref: 'cgn'
 permalink: /carta-giovani-nazionale/informativa-operatori/
 introduction_slides:
   - /assets/img/cashback/empty.png
-intro_image: "/assets/img/carta-giovani-nazionale/logo-cgn.png"
-intro_image_2x: "/assets/img/carta-giovani-nazionale/logo-cgn-2x.png"
+intro_image: '/assets/img/carta-giovani-nazionale/logo-cgn.png'
+intro_image_2x: '/assets/img/carta-giovani-nazionale/logo-cgn-2x.png'
 narrow: true
 index: no-index
 noindex: true
@@ -72,13 +72,13 @@ Il trattamento di cui alla presente informativa è fondato sulle seguenti basi g
   I dati personali degli Interessati possono essere utilizzati dal Titolare in giudizio o nelle fasi propedeutiche alla sua eventuale instaurazione per la difesa da abusi perpetrati dagli Interessati.
   Gli Interessati possono ottenere chiarimenti sulla finalità della raccolta dei dati o su quali dati siano effettivamente acquisiti, contattando il Titolare.
   ​
-  I dati personali indicati in questa informativa sono trattati dal Titolare ai fini della stipula ed esecuzione della convenzione con l’Operatore aderente al Programma, nonché per lo svolgimento e l’attuazione del Programma stesso, in particolare per le seguenti finalità:
+  I dati personali indicati in questa informativa sono trattati dal Titolare ai fini della stipula ed esecuzione della convenzione con l’Operatore aderente al Programma, nonché per lo svolgimento e l’attuazione del Programma stesso (ad esempio per finalità di assistenza e gestione dei reclami), in particolare per le seguenti finalità:
 
 1. creazione del profilo Operatore nel Portale ed inserimento dello stesso nell’elenco pubblicato nell’App IO e sui siti web dedicati alla CGN e al circuito EYCA;
 2. registrazione e conservazione, all’interno del Portale, dei dati personali degli Interessati per la gestione del profilo Operatore e la gestione amministrativa del rapporto di convenzionamento e delle agevolazioni;
 3. esecuzione di ogni altro obbligo derivante dai contratti stipulati con il Titolare e/o con i suoi partner per l’attuazione del Programma;
 4. adempimento di obblighi previsti dalla legge, da regolamenti o dalla normativa comunitaria vigente pro-tempore;
-5. svolgimento, mediante sistemi anche automatizzati di comunicazione, previo consenso dell’Operatore, di operazioni di promozione e comunicazione connesse al Programma e alle altre iniziative istituzionali del Titolare.
+5. svolgimento, mediante sistemi anche automatizzati, previo consenso dell’Operatore, di operazioni di promozione e comunicazione connesse al Programma e alle altre iniziative istituzionali del Titolare o di acquisizione di informazioni a fini statistici e/o funzionali alla migliore gestione o allo sviluppo del Programma.
    ​
    Tutti i dati relativi al Programma, ove rilevanti, verranno altresì trattati dal Titolare, anche avvalendosi di PagoPA S.p.A., in forma aggregata, e successivamente conservati senza limiti di tempo, al fine della verifica dell’attuazione, del funzionamento e dell’andamento del Programma, nonché per finalità di trasparenza rispetto allo svolgimento del Programma. Tali dati sono aggregati in modo che non si possa trarre alcun riferimento relativamente a persone identificate o identificabili.
    ​
@@ -88,7 +88,8 @@ Il trattamento di cui alla presente informativa è fondato sulle seguenti basi g
 Il Titolare ha nominato quali Responsabili del trattamento, ai sensi dell'art. 28 del GDPR:
 
 - PagoPA S.p.A., di cui il Titolare si avvale per l’attuazione del Programma, in particolare per le attività di richiesta e utilizzo della CGN da parte dei Beneficiari attraverso l’App IO, nonché per la gestione del portale Operatori di cui alla presente informativa. L’elenco dei fornitori di cui PagoPA S.p.A. si avvale per la gestione dell’App IO è disponibile all’indirizzo [https://io.italia.it/app-content/fornitori/](https://io.italia.it/app-content/fornitori/). Il responsabile della protezione dei dati di PagoPA S.p.A. può essere contattato all’indirizzo [dpo@pagopa.it](mailto:dpo@pagopa.it).
-  Studiare Sviluppo S.r.l., di cui il Titolare si avvale per l’attuazione e monitoraggio del Programma di cui all’art. 4, commi 4 e 7 del Decreto, in particolare per l’individuazione degli Operatori, la gestione del processo di convenzionamento, l’assistenza agli Operatori convenzionati e le attività di comunicazione e promozione del Programma. Il responsabile della protezione dei dati di Studiare Sviluppo S.r.l. può essere contattato all’indirizzo [agambescia@studiaresviluppo.it](mailto:agambescia@studiaresviluppo.it)
+
+- Eutalia S.r.l.(già Studiare Sviluppo S.r.l.), di cui il Titolare si avvale per l’attuazione e monitoraggio del Programma di cui all’art. 4, commi 4 e 7 del Decreto, in particolare per l’individuazione degli Operatori, la gestione del processo di convenzionamento, l’assistenza agli Operatori convenzionati e le attività di comunicazione e promozione del Programma. Il responsabile della protezione dei dati di Eutalia S.r.l. può essere contattato all’indirizzo privacy@eutalia.eu
   ​
 
 ### Categorie di soggetti ai quali i dati personali possono essere comunicati
@@ -102,13 +103,13 @@ Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indica
 
 ### Trasferimento dati fuori dall’UE
 
-Alcuni dei fornitori terzi che PagoPA S.p.A. utilizza per l’operatività dei suoi prodotti e servizi risiedono al di fuori dell’Unione Europea, compresi gli USA, ciò che potrebbe comportare un trasferimento di dati all’estero. Tali fornitori, adeguatamente selezionati e nominati ai sensi dell’art. 28 GDPR, nel rispetto degli articoli 46, 47 e 49 del GDPR, sono conformi al GDPR e hanno stipulato le Clausole Contrattuali Standard della Commissione Europea per garantire adeguati livelli di tutela, oltre a eventuali misure supplementari ove possibili e necessarie per rafforzare i livelli di tutela stessi. La lista dei fornitori coinvolti nel Progetto IO, comprensiva dei dati trattati, delle garanzie per gli eventuali trasferimenti all’estero, e copia della documentazione contrattuale relativa al trattamento dei dati personali, è disponibile all’indirizzo [https://io.italia.it/app-content/fornitori/](https://io.italia.it/app-content/fornitori/)
+Alcuni dei fornitori terzi che PagoPA S.p.A. utilizza per l’operatività dei suoi prodotti e servizi risiedono al di fuori dell’Unione Europea, compresi gli USA. PagoPA S.p.A. ha concluso con tali fornitori accordi ai sensi dell’art. 28 del GDPR e utilizzato uno o più meccanismi che garantiscono un adeguato livello di tutela (es. verifica dell’adesione degli stessi al [Data Privacy Framework](https://www.dataprivacyframework.gov/), sottoscrizione di [Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en). Laddove possibile, inoltre, vengono selezionate opzioni che consentono di mantenere i dati nell’Unione Europea e sono applicate misure aggiuntive per garantire un livello di protezione adeguato. La lista dei fornitori essenziali all’operatività di IO, comprensiva dei dati trattati, delle garanzie per gli eventuali trasferimenti all’estero, e copia della documentazione contrattuale relativa al trattamento dei dati personali, è disponibile all’indirizzo <https://io.italia.it/app-content/fornitori/>.
 ​
 
 ### Tempi di conservazione dei dati
 
 Senza pregiudizio dei diversi tempi di conservazione indicati in questa informativa, tutti gli altri dati personali raccolti saranno trattati per la durata del rapporto contrattuale con l’Operatore convenzionato e cancellati da PagoPA S.p.A. su comunicazione del Dipartimento che informa della cessazione del rapporto convenzionale con l’Operatore, ovvero alla richiesta dell’interessato di procedere alla cancellazione ai sensi dell’art. 17 del GDPR. Successivamente alla scadenza del rapporto contrattuale essi sono conservati dal Dipartimento per 7 anni, necessari per far fronte a eventuali contenziosi.
-In caso di instaurazione di un contenzioso, i dati verranno trattati fino alla sua definizione, vale a dire fino all’esaurimento dei termini per proporre impugnazione.
+In caso di instaurazione di un contenzioso, i dati verranno trattati fino alla sua definizione, vale a dire fino all’esaurimento dei termini per proporre impugnazione nonchè per il tempo necessario e funzionale alle esigenze di tutela entro cui determinati diritti e/o azioni possano essere esperiti (vedi in particolare prescrizione, decadenze,etc).
 Le informazioni necessarie a imputare alle singole identità digitali le operazioni effettuate dagli Interessati sul Portale (c.d. log SPID) sono conservati da PagoPA S.p.A. per 24 mesi in ossequio a quanto previsto dal comma 2 dell’articolo 13 del DPCM del 24 ottobre 2014.
 I dati trattati in forma aggregata sono conservati senza limiti di tempo.
 Per maggiori informazioni è possibile scrivere al Titolare.
