@@ -2,10 +2,9 @@
 layout: internal
 title: Informativa sul trattamento dei dati personali Carta Giovani Nazionale
 lang: it
-ref: "cgn"
+ref: 'cgn'
 permalink: /carta-giovani-nazionale/informativa-beneficiari/
 narrow: true
-noheight: true
 ---
 
 <h3>Dipartimento per le Politiche Giovanili e il Servizio Civile Universale della Presidenza del Consiglio dei ministri <br>
@@ -19,9 +18,9 @@ La validità della presente informativa è limitata al solo Programma, si aggiun
 
 ### INFORMATIVA SINTETICA
 
-- Il Titolare del trattamento dei dati personali è il Dipartimento per le Politiche Giovanili e il Servizio Civile Universale presso la Presidenza del Consiglio dei Ministri ("Dipartimento"), che si avvale di PagoPA S.p.A. e Studiare Sviluppo S.r.l., in qualità di Responsabili del trattamento dei dati personali ai sensi dell'art. 28 del GDPR, per lo svolgimento delle attività necessarie a garantire la partecipazione dei Beneficiari al Programma e la fruizione delle agevolazioni a loro dedicate per l'accesso o l'acquisto di beni e servizi ("Agevolazioni") offerte dagli operatori aderenti al Programma che hanno stipulato apposita convenzione con il Dipartimento ("Operatori").
+- Il Titolare del trattamento dei dati personali è il Dipartimento per le Politiche Giovanili e il Servizio Civile Universale presso la Presidenza del Consiglio dei Ministri ("Dipartimento"), che si avvale di PagoPA S.p.A. e Eutalia S.r.l. (già Studiare Sviluppo S.r.l.)con sede legale in Roma(RM), 00191, Via Flaminia n. 888, in qualità di Responsabili del trattamento dei dati personali ai sensi dell'art. 28 del GDPR, per lo svolgimento delle attività necessarie a garantire la partecipazione dei Beneficiari al Programma e la fruizione delle agevolazioni a loro dedicate per l'accesso o l'acquisto di beni e servizi ("Agevolazioni") offerte dagli operatori aderenti al Programma che hanno stipulato apposita convenzione con il Dipartimento ("Operatori").
 
-- Al fine di partecipare al Programma e fruire delle Agevolazioni, è necessario che il Beneficiario conferisca i propri dati registrandosi sull'App IO con la propria identità digitale, prendendo visione dei termini e condizioni d'uso e dell'informativa privacy dell'App IO (sempre disponibili in app e all'indirizzo <https://io.italia.it/app-content/tos_privacy.html>) e successivamente richieda una CGN prendendo visione dei termini e condizioni d'uso del Programma e della  presente informativa privacy.
+- Al fine di partecipare al Programma e fruire delle Agevolazioni, è necessario che il Beneficiario conferisca i propri dati registrandosi sull'App IO con la propria identità digitale, prendendo visione dei termini e condizioni d'uso e dell'informativa privacy dell'App IO (sempre disponibili in app e all'indirizzo <https://io.italia.it/app-content/tos_privacy.html>) e successivamente richieda una CGN prendendo visione dei termini e condizioni d'uso del Programma e della presente informativa privacy.
 
 - L'adesione al Programma è volontaria e il rifiuto del Beneficiario di fornire i dati richiesti comporta l'impossibilità di partecipare al Programma e di ottenere le Agevolazioni.
 
@@ -29,9 +28,9 @@ La validità della presente informativa è limitata al solo Programma, si aggiun
 
 - Il Beneficiario può in qualsiasi momento recedere dal Programma, con conseguente cancellazione dei dati relativi alla propria adesione.
 
-- L'App IO utilizza strumenti di tracciamento per finalità di diagnostica e debug che  permettono di raccogliere dati relativi all'utilizzo dell'App da parte degli utenti. Alcuni dei dati acquisiti con questi strumenti sono associati univocamente all'utente, ma non sono mai utilizzati per finalità di marketing o profilazione. Alcuni di questi dati vengono aggregati e successivamente utilizzati per consentire l'elaborazione di statistiche. E' richiesto il consenso dell'utente all'utilizzo di tali strumenti di tracciamento, e può essere revocato in ogni momento nella sezione Preferenze dell'App IO.
+- L'App IO utilizza strumenti di tracciamento per finalità di diagnostica e debug che permettono di raccogliere dati relativi all'utilizzo dell'App da parte degli utenti. Alcuni dei dati acquisiti con questi strumenti sono associati univocamente all'utente, ma non sono mai utilizzati per finalità di marketing o profilazione. Alcuni di questi dati vengono aggregati e successivamente utilizzati per consentire l'elaborazione di statistiche. E' richiesto il consenso dell'utente all'utilizzo di tali strumenti di tracciamento, e può essere revocato in ogni momento nella sezione Preferenze dell'App IO.
 
-- L'App IO raccoglie automaticamente alcuni dati relativi al dispositivo al momento di una richiesta di assistenza inoltrata attraverso le apposite funzionalità presenti in app, compresi alcuni dati personali necessari per trasmettere la segnalazione al team di assistenza e risolvere il ticket. In caso di richiesta di assistenza tramite tali funzionalità, non è possibile escludere la raccolta automatica di tali dati, ma è sempre possibile utilizzare gli altri canali di assistenza messi a disposizione da PagoPA S.p.A. (ad esempio email) che non prevedono tale raccolta automatica, tenendo presente che gli operatori potrebbero comunque avere bisogno di richiedere tali dati per risolvere la problematica
+- L'App IO raccoglie automaticamente alcuni dati relativi al dispositivo al momento di una richiesta di assistenza inoltrata attraverso le apposite funzionalità presenti in app, compresi alcuni dati personali necessari per trasmettere la segnalazione al team di assistenza e risolvere il ticket. In caso di richiesta di assistenza tramite tali funzionalità, non è possibile escludere la raccolta automatica di tali dati, ma è sempre possibile utilizzare gli altri canali di assistenza messi a disposizione da PagoPA S.p.A. (ad esempio email) che non prevedono tale raccolta automatica, tenendo presente che gli operatori potrebbero comunque avere bisogno di richiedere tali dati per risolvere la problematica.
 
 - PagoPA S.p.A., come Responsabile del trattamento, potrebbe utilizzare fornitori che sono situati al di fuori dell'UE nel rispetto delle misure di garanzia previste dal GDPR.
 
@@ -39,7 +38,7 @@ La validità della presente informativa è limitata al solo Programma, si aggiun
 
 # Titolare del Trattamento
 
-Titolare del trattamento è il Dipartimento per le Politiche Giovanili e il Servizio Civile Universale presso la Presidenza del Consiglio dei Ministri, Via della Ferratella in Laterano, 51, 00184 Roma, in persona del Capo Dipartimento pro-tempore, domiciliato per la carica presso la predetta sede (<privacy@serviziocivile.it>).
+Titolare del trattamento è il Dipartimento per le Politiche Giovanili e il Servizio Civile Universale presso la Presidenza del Consiglio dei Ministri, Via della Ferratella in Laterano, 51, 00184 Roma, in persona del Capo Dipartimento pro-tempore, domiciliato per la carica presso la predetta sede (<dpo@serviziocivile.it>).
 
 # Data protection officer (DPO) o Responsabile Protezione Dati (RPD)
 
@@ -69,7 +68,7 @@ I dati relativi alle ricerche effettuate dai Beneficiari rispetto agli Operatori
 
 Il trattamento dei dati personali connesso alla fruizione delle Agevolazioni tramite gli acquisti effettuati presso gli Operatori aderenti al Programma è regolato dalle informative privacy che gli Operatori (quali autonomi Titolari del relativo trattamento) mettono a disposizione dei propri clienti. Tali dati non vengono mai condivisi con l'App IO né con il titolare.
 
-L'App IO utilizza strumenti di tracciamento per finalità di diagnostica e debug che  permettono di raccogliere dati relativi all'utilizzo dell'App da parte degli utenti. Alcuni dei dati acquisiti con questi strumenti sono associati univocamente all'utente, ma non sono mai utilizzati per finalità di marketing o profilazione. Alcuni di questi dati vengono aggregati e successivamente utilizzati per consentire l'elaborazione di statistiche. E' richiesto il consenso dell'utente all'utilizzo di tali strumenti di tracciamento, e può essere revocato in ogni momento nella sezione Preferenze dell'App IO.
+L'App IO utilizza strumenti di tracciamento per finalità di diagnostica e debug che permettono di raccogliere dati relativi all'utilizzo dell'App da parte degli utenti. Alcuni dei dati acquisiti con questi strumenti sono associati univocamente all'utente, ma non sono mai utilizzati per finalità di marketing o profilazione. Alcuni di questi dati vengono aggregati e successivamente utilizzati per consentire l'elaborazione di statistiche. E' richiesto il consenso dell'utente all'utilizzo di tali strumenti di tracciamento, e può essere revocato in ogni momento nella sezione Preferenze dell'App IO.
 
 L'App IO raccoglie automaticamente alcuni dati relativi al dispositivo al momento di una richiesta di assistenza inoltrata attraverso le apposite funzionalità presenti in app, compresi alcuni dati personali necessari per trasmettere la segnalazione al team di assistenza e risolvere il ticket. In caso di richiesta di assistenza tramite tali funzionalità, non è possibile escludere la raccolta automatica di tali dati, ma è sempre possibile utilizzare gli altri canali di assistenza messi a disposizione da PagoPA S.p.A. (ad esempio email) che non prevedono tale raccolta automatica, tenendo presente che gli operatori potrebbero comunque avere bisogno di richiedere tali dati per risolvere la problematica.
 
@@ -91,7 +90,7 @@ La base giuridica del trattamento è da rinvenirsi:
 
 - nell'esecuzione di un compito di interesse pubblico ai sensi dell'art. 6, comma 1, lett. e) del GDPR e dell'art. 2-ter del Codice Privacy, come individuato dall'art. 1, commi 413 e 414 della Legge 27 dicembre 2019, n. 160, e dal Decreto;
 
-- nell'esecuzione di un contratto di cui l'interessato è parte o all'esecuzione di misure precontrattuali adottate su richiesta dello stesso ai sensi dell'art. 6, comma 1, lett. b) del GDPR ovvero sul consenso (art. 6, comma 1, lett. a) del GDPR) laddove i Beneficiari richiedano  volontariamente di partecipare al Programma;
+- nell'esecuzione di un contratto di cui l'interessato è parte o all'esecuzione di misure precontrattuali adottate su richiesta dello stesso ai sensi dell'art. 6, comma 1, lett. b) del GDPR ovvero sul consenso (art. 6, comma 1, lett. a) del GDPR) laddove i Beneficiari richiedano volontariamente di partecipare al Programma;
 
 - nell'adempimento di obblighi di legge, ai sensi dell'art. 6, comma 1, lett. c) del GDPR, in particolare con riferimento alle disposizioni normative in materia di gestione e rendicontazione della spesa pubblica, tutela dei diritti, attribuzione di benefici economici e prevenzione delle frodi, e dunque nell'obbligo di monitoraggio del Programma come individuato dall'art. 7 del Decreto.
 
@@ -115,7 +114,7 @@ Il Titolare ha nominato quali Responsabili del trattamento, ai sensi dell'art. 2
 
 - PagoPA S.p.A., di cui il Titolare si avvale per l'attuazione del Programma, in particolare per le attività di richiesta e utilizzo della CGN da parte dei Beneficiari attraverso l'App IO, nonché per la gestione del portale Operatori di cui alla presente informativa. L'elenco dei fornitori di cui PagoPA S.p.A. si avvale per la gestione dell'App IO è disponibile all'indirizzo <https://io.italia.it/app-content/fornitori>. Il responsabile della protezione dei dati di PagoPA S.p.A. può essere contattato all'indirizzo <dpo@pagopa.it> o attraverso l'apposito [modulo web](https://privacyportal-de.onetrust.com/webform/77f17844-04c3-4969-a11d-462ee77acbe1/9ab6533d-be4a-482e-929a-0d8d2ab29df8).
 
-- Studiare Sviluppo S.r.l., di cui il Titolare si avvale per l'attuazione e monitoraggio del Programma di cui all'art. 4, commi 4 e 7 del Decreto, in particolare per l'individuazione degli Operatori, la gestione del processo di convenzionamento, l'assistenza agli Operatori convenzionati e le attività di comunicazione e promozione del Programma. Il responsabile della protezione dei dati di Studiare Sviluppo S.r.l. può essere contattato all'indirizzo <agambescia@studiaresviluppo.it>
+- Eutalia S.r.l. (già Studiare Sviluppo S.r.l.), di cui il Titolare si avvale per l'attuazione e monitoraggio del Programma di cui all'art. 4, commi 4 e 7 del Decreto, in particolare per l'individuazione degli Operatori, la gestione del processo di convenzionamento, l'assistenza agli Operatori convenzionati e le attività di comunicazione e promozione del Programma. Il responsabile della protezione dei dati di Eutalia S.r.l. può essere contattato all'indirizzo privacy@eutalia.eu
 
 #### Categorie di di soggetti ai quali i dati personali possono essere comunicati
 
@@ -129,7 +128,7 @@ Il Titolare potrà comunicare, per il perseguimento delle finalità sopra indica
 
 # Trasferimento dati fuori dall'UE
 
-Alcuni dei fornitori terzi che PagoPA S.p.A. utilizza per l'operatività dei suoi prodotti e servizi risiedono al di fuori dell'Unione Europea, compresi gli USA, ciò che potrebbe comportare un trasferimento di dati all'estero. Tali fornitori,  adeguatamente selezionati e nominati ai sensi dell'art. 28 GDPR, nel rispetto degli articoli 46, 47 e 49 del GDPR, sono conformi al GDPR e hanno stipulato le [Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en) per garantire adeguati livelli di tutela, oltre a eventuali misure supplementari ove possibili e necessarie per rafforzare i livelli di tutela stessi. La lista dei fornitori coinvolti nel Progetto IO, comprensiva dei dati trattati, delle garanzie per gli eventuali trasferimenti all'estero, e copia della documentazione contrattuale relativa al trattamento dei dati personali, è disponibile all'indirizzo <https://io.italia.it/app-content/fornitori>.
+Alcuni dei fornitori terzi che PagoPA S.p.A. utilizza per l'operatività dei suoi prodotti e servizi risiedono al di fuori dell'Unione Europea, compresi gli USA. PagoPA S.p.A. ha concluso con tali fornitori accordi ai sensi dell’art. 28 del GDPR e utilizzato uno o più meccanismi che garantiscono un adeguato livello di tutela (es. verifica dell’adesione degli stessi al [Data Privacy Framework](https://www.dataprivacyframework.gov/), sottoscrizione di [Clausole Contrattuali Standard della Commissione Europea](https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en). Laddove possibile, inoltre, vengono selezionate opzioni che consentono di mantenere i dati nell’Unione Europea e sono applicate misure aggiuntive per garantire un livello di protezione adeguato. La lista dei fornitori essenziali all’operatività di IO, comprensiva dei dati trattati, delle garanzie per gli eventuali trasferimenti all’estero, e copia della documentazione contrattuale relativa al trattamento dei dati personali, è disponibile all’indirizzo <https://io.italia.it/app-content/fornitori/>.
 
 # Tempi di conservazione dei dati
 
