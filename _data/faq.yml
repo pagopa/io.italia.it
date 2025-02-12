@@ -119,10 +119,18 @@ Ma ricorda: sempre per ragioni di sicurezza, l’app ti chiederà di ripetere pe
     body: "Puoi scegliere tra vari metodi di pagamento, tra cui:
 
     - Carte di credito o di debito (anche prepagate) del circuito American Express, Maestro, Mastercard, Visa e Visa Electron
-    - BANCOMAT Pay
+
+    - BANCOMAT Pay ®
+
+    - MyBank, [se la tua banca aderisce al servizio](https://mybank.eu/download/MyBank_List_of_Payer_PSPs.pdf)
+
+    - Paga con Postepay
+
     - PayPal pagamento veloce
+
     - PayPal (anche in 3 rate)
 
+    - Satispay
 
     Saranno presto disponibili altri metodi di pagamento."
     cat: "3|Pagamenti"
