@@ -29,7 +29,7 @@ pool:
 steps:
   - task: UseRubyVersion@0
     inputs:
-      versionSpec: "3.1.7"
+      versionSpec: "3.2.8"
 
   - script: |
       gem install jekyll bundler
@@ -50,7 +50,7 @@ steps:
   # SYNC STORAGE AT EVERY COMMIT, so WITHOUT Enti&Servizi (PIPELINE_TYPE!=Schedule)
   - task: AzureCLI@1
     displayName: "Sync Storage NOT SCHEDULED"
-    condition: eq(variables['Build.Reason'], 'IndividualCI')
+    condition: and(succeeded(), eq(variables['Build.Reason'], 'IndividualCI'))
     inputs:
       azureSubscription: "$(AZURE_SUBSCRIPTION)"
       scriptLocation: inlineScript
@@ -60,7 +60,7 @@ steps:
   # SYNC STORAGE AT EVERY SCHEDULE, with Enti&Servizi (PIPELINE_TYPE==Schedule)
   - task: AzureCLI@1
     displayName: "Sync Storage ALL"
-    condition: or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'Schedule'))
+    condition: and(succeeded(), or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'Schedule')))
     inputs:
       azureSubscription: "$(AZURE_SUBSCRIPTION)"
       scriptLocation: inlineScript
@@ -70,7 +70,7 @@ steps:
   # PURGE CDN AT EVERY COMMIT, so globally
   - task: AzureCLI@1
     displayName: "Purge CDN NOT SCHEDULED"
-    condition: or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'IndividualCI'))
+    condition: and(succeeded(), or(eq(variables['Build.Reason'], 'Manual'), eq(variables['Build.Reason'], 'IndividualCI')))
     inputs:
       azureSubscription: "$(AZURE_SUBSCRIPTION)"
       scriptLocation: inlineScript
@@ -80,7 +80,7 @@ steps:
   # PURGE CDN AT SCHEDULE, so only with Ent&Servizi paths
   - task: AzureCLI@1
     displayName: "Purge CDN SCHEDULED"
-    condition: eq(variables['Build.Reason'], 'Schedule')
+    condition: and(succeeded(), eq(variables['Build.Reason'], 'Schedule'))
     inputs:
       azureSubscription: "$(AZURE_SUBSCRIPTION)"
       scriptLocation: inlineScript
