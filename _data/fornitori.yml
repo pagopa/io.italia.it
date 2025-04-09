@@ -7,10 +7,10 @@ labels:
   doc: Documentazione contrattuale
 items:
   - 
-    fornitore: "Nexi Payments S.p.A. e Service HUB S.p.A. (già SIA S.p.A.)"
-    attivita: "Componenti applicative piattaforma pagoPA e relativa assistenza clienti di terzo livello"
-    dati: "Dati relativi alla sezione Portafoglio e relative segnalazioni e richieste di assistenza"
-    luogo: "Unione Europea, con possibile trasferimento verso paesi terzi ad opera dei sub-responsabili ingaggiati dal fornitore"
+    fornitore: "Nexi Payments S.p.A."
+    attivita: "Componenti applicative piattaforma pagoPA"
+    dati: "Dati relativi alle transazioni e ai metodi di pagamento"
+    luogo: "Italia"
     garanzie: "N/A"
     doc: "[Accordo sul trattamento](https://pagopa.portaleamministrazionetrasparente.it/moduli/downloadFile.php?file=oggetto_allegati/2333816563192823270O__O20230926173626032_accordo_quadro_nexi_payments_spa_signedsigned.pdf)"
   - 
@@ -22,7 +22,7 @@ items:
     garanzie: "N/A"
     doc: "[Nomina a responsabile](https://amministrazionetrasparente.pagopa.it/moduli/downloadFile.php?file=oggetto_allegati/2333817314070603270O__Oall_e_dpa.pdf)"  
   - 
-    fornitore: "MailUP S.p.A."
+    fornitore: "TeamSystem S.p.A. (già MailUP S.p.A.)"
     attivita: "Invio di email (inoltro messaggi ricevuti in-app e newsletter del progetto IO)"
     dati: "Indirizzo email degli utenti e dati inclusi nei messaggi inoltrati dall'app"
     luogo: "Italia"
