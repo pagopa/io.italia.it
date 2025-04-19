@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: '5.1'
-updated: 10 dicembre 2024
+vers: '5.2'
+updated: 23 aprile 2025
 assets:
   js:
     - '/assets/js/tos.js'
@@ -30,8 +30,11 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo inserito dettagliato maggiormente la sezione relativa alla funzionalità “Documenti su IO”.
-- Abbiamo corretto qualche refuso.
+- Abbiamo migliorato il linguaggio della sezione “Documenti su IO”.
+- Abbiamo introdotto una funzionalità con cui puoi accedere direttamente, in modo semplice e sicuro, ad alcuni servizi della pubblica amministrazione;
+- Ora puoi inviarci suggerimenti liberi o valutare l’app direttamente dalle Impostazioni;
+- Abbiamo chiarito il linguaggio di alcuni trattamenti e corretto alcuni refusi.
+
 
 {:.d-startup}
 Sotto trovi l'informativa completa, che puoi consultare in ogni momento anche in app.
@@ -59,7 +62,7 @@ IO è gestita dalla società PagoPA S.p.A. (“**PagoPA**”) su incarico della 
 #### Chi è il titolare del trattamento
 
 {:.d-more-1}
-PagoPA agisce come titolare autonomo del trattamento unicamente rispetto alle attività previste dalle [Linee Guida AgID](https://www.agid.gov.it/sites/agid/files/2024-05/lg_punto_accesso_telematico_servizi_pa_3112021.pdf) in relazione al punto di accesso telematico ai servizi della Pubblica Amministrazione. Queste attività sono indicate nel paragrafo 3.<br>
+PagoPA agisce come titolare autonomo del trattamento rispetto alle attività previste dalle [Linee Guida AgID](https://www.agid.gov.it/sites/agid/files/2024-05/lg_punto_accesso_telematico_servizi_pa_3112021.pdf) in relazione al punto di accesso telematico ai servizi della Pubblica Amministrazione. Queste attività sono indicate nel paragrafo 3.<br>
 Le pubbliche amministrazioni, le società a controllo pubblico e i gestori di pubblici servizi ("**Enti**") che forniscono servizi tramite IO (“**Servizi**”) restano titolari dei trattamenti da loro eseguiti.
 
 {:.d-more-1}
@@ -71,7 +74,7 @@ Per capire come sono trattati i propri dati personali, chi usa IO può consultar
 
 {:.d-more-1}
 
-- le informative messe a disposizione dagli Enti per Servizi da loro forniti (reperibili all’interno di IO nella scheda di ciascun Servizio);
+- le informative messe a disposizione nella scheda di ciascun Servizio su IO;
 - l’informativa della piattaforma pagoPA;
 - l’[informativa relativa alle attività di assistenza](https://www.pagopa.it/it/privacy-policy-assistenza/).
 
@@ -88,13 +91,15 @@ PagoPA tratta questi dati in qualità di titolare del trattamento perchè tu pos
 Questi dati vengono anche memorizzati perchè tu possa gestire le tue preferenze .<br>
 Tra questi dati c’è il codice fiscale, che gli Enti useranno per raggiungerti tramite l'app IO.<br>
 Per verificare e garantire le autorizzazioni durante l'uso di alcune funzionalità dell’app, IO genera sul tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche associate alla tua identità. Queste attività costituiscono misure di sicurezza grazie alle quali ci assicuriamo che sia solo tu ad autorizzare specifiche operazioni. Inoltre, se scegli di abilitare la funzionalità “Login Veloce”, le chiavi crittografiche possono essere usate per consentirti di accedere a IO in tutta sicurezza senza inserire nuovamente le tue credenziali per un periodo massimo di 1 anno.<br>
-Se accedi a IO dopo un reindirizzamento di una terza parte, sia PagoPA che la terza parte potrebbero trattare e conservare i dati necessari per consentire la comunicazione e garantirne la sicurezza (ad esempio, il tuo indirizzo IP).
+Se accedi a IO dopo un reindirizzamento di una terza parte, sia PagoPA che la terza parte potrebbero trattare e conservare i dati necessari per consentire la comunicazione e garantirne la sicurezza (ad esempio, il tuo indirizzo IP).<br>
+IO ti consente di accedere a Servizi e/o dati che risiedono su sistemi informatici esterni all’app e pertanto richiedono un’autenticazione forte. Chiediamo il tuo consenso per condividere con l’Ente i dati necessari per l’accesso a tali Servizi, oppure per ricevere dai sistemi le informazioni che ti riguardano e mostrarteli.<br>
+Questi dati sono trattati da PagoPA e dall’Ente erogatore in qualità di titolari autonomi oppure da PagoPA in qualità di responsabile per conto dell’Ente, a seconda dei casi. Consulta sempre le informative privacy che ti vengono presentate al momento del trattamento.
 
 {:.d-more-1}
 **_B) Dati trattati nella sezione "Messaggi"_**
 
 {:.d-more-1}
-Gli Enti possono inviare messaggi a contenuto remoto e dinamico tramite una funzionalità di IO. Contenuto remoto significa che il contenuto dei messaggi rimarrà sempre sui sistemi dell’Ente e sarà visibile soltanto a te quando aprirai il messaggio. Contenuto dinamico significa che gli Enti possono modificare nel tempo i contenuti del messaggio inviato. **IO ti avvisa della presenza di contenuti dinamici. Per esercitare i tuoi diritti in qualità di interessato previsti dal GDPR, dovrai rivolgerti direttamente all’Ente tramite i contatti presenti nella scheda Servizio.**
+Su IO puoi ricevere messaggi a contenuto remoto e dinamico. Contenuto remoto significa che il contenuto dei messaggi rimarrà sempre sui sistemi del mittente e sarà visibile soltanto a te quando aprirai il messaggio. Contenuto dinamico significa che i mittenti possono modificare nel tempo i contenuti del messaggio inviato. **IO ti avvisa della presenza di contenuti dinamici. Per esercitare i tuoi diritti in qualità di interessato previsti dal GDPR, dovrai rivolgerti direttamente all’Ente tramite i contatti presenti nella scheda Servizio.**
 
 {:.d-more-1}
 Quando accedi per la prima volta a IO, puoi scegliere quali Servizi possono contattarti.<br>
@@ -112,21 +117,21 @@ Puoi farlo:
 
 {:.d-more-1}
 
-#### **Inoltro dei messaggi ricevuti**
+**Inoltro dei messaggi ricevuti**
 
 {:.d-more-1}
 Sempre da Impostazioni > Preferenze, raggiungibile dall’icona a forma di rotella in alto a destra, puoi anche decidere se abilitare l’inoltro via email dei messaggi ricevuti su IO. Come impostazione di partenza, questa funzione di inoltro non è attiva.
 
 {:.d-more-1}
 
-#### **Preferenze di contatto per i Servizi che richiedono un’iscrizione specifica**
+**Preferenze di contatto per i Servizi che richiedono un’iscrizione specifica**
 
 {:.d-more-1}
 Le preferenze di contatto sono configurate diversamente per i Servizi che richiedono un’iscrizione specifica. Questo tipo di Servizi, ad esempio i Bonus, devono essere attivati espressamente e, una volta completata l’iscrizione, non potrai disabilitare la ricezione dei messaggi fino a che non decidi di disiscriverti dal Servizio. Potrai comunque configurare le notifiche push a livello di singolo Servizio e l’inoltro via email dei messaggi a livello globale.
 
 {:.d-more-1}
 
-#### **Notifiche push**
+**Notifiche push**
 
 {:.d-more-1}
 Per poterti inviare le notifiche push, applichiamo misure di pseudonimizzazione e limitazione del trattamento. Tuttavia il fornitore del servizio di notifica push potrebbe comunque associare a te un identificativo univoco per poterti consegnare la notifica, a seconda del sistema operativo del tuo dispositivo. Puoi scegliere di ricevere su IO notifiche push:
@@ -145,7 +150,7 @@ Se gli Enti hanno contrassegnato un messaggio e/o un Servizio come “sensibile�
 
 {:.d-more-1}
 
-#### **Informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti**
+**Informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti**
 
 {:.d-more-1}
 Per fare in modo che funzionino alcune caratteristiche delle comunicazioni inviate dai Servizi, e per migliorare l’esperienza delle persone che usano l’app, raccogliamo e memorizziamo, in qualità di titolari del trattamento, informazioni relative ai metadati e allo stato delle comunicazioni e dei pagamenti. È un trattamento di natura esclusivamente tecnica ed è strettamente necessario per offrire i servizi di comunicazione e per gestire in modo corretto i pagamenti, e per questo non può essere disabilitato.<br>
@@ -154,7 +159,7 @@ Puoi sempre disabilitare l’invio dello stato di lettura all’interno di ciasc
 
 {:.d-more-1}
 
-#### **Allegati ai messaggi**
+**Allegati ai messaggi**
 
 {:.d-more-1}
 Alcuni messaggi possono contenere allegati. In alcuni casi potrai conservare e inviare alcune di queste informazioni mediante sistemi e app di terze parti in esecuzione sul tuo dispositivo, ad esempio per salvare i file o condividerli con terzi.<br>
@@ -162,14 +167,14 @@ Anche se i messaggi provengono da Enti che hanno diritto di contattarti, PagoPA 
 
 {:.d-more-1}
 
-#### **Quando si salvano e si condividono i messaggi**
+**Quando si salvano e si condividono i messaggi**
 
 {:.d-more-1}
 Per salvare e condividere i messaggi e gli allegati chiederemo il permesso di accedere, in lettura e/o scrittura, alla memoria del tuo dispositivo e/o ad app di terze parti. Ciò potrebbe significare condividere informazioni con questi fornitori e con terzi. A seconda delle impostazioni del tuo dispositivo, nessun dato potrà essere raccolto e inviato senza la tua espressa autorizzazione. PagoPA e gli Enti rimarranno estranei a qualsiasi vicenda successiva alla ricezione del messaggio, come il salvataggio e/o la condivisione.
 
 {:.d-more-1}
 
-#### **Storico delle preferenze**
+**Storico delle preferenze**
 
 {:.d-more-1}
 Per offrirti un servizio migliore, per fornirti assistenza e per far fronte a eventuali contenziosi, IO conserverà lo storico delle tue preferenze, anche se per un periodo di tempo limitato. Questo trattamento viene fatto da PagoPA in qualità di titolare del trattamento.
@@ -198,7 +203,7 @@ Puoi anche pagare un avviso che non hai ricevuto nei Messaggi (ad esempio un avv
 
 {:.d-more-1}
 **Bonus**<br>
-Nella sezione Portafoglio puoi richiedere e abilitare servizi e funzionalità che consentono di attivare carte sconto, benefici, vantaggi o agevolazioni, anche in forma di beni e servizi e compresi i pagamenti in denaro (“**Bonus**”). Per verificare il diritto, determinare l’importo, erogare e usare i Bonus, saranno trattati, per conto dell’Ente promotore, dati personali relativi a te e/o (ove applicabile) al tuo nucleo familiare, anche raccolti presso terze parti.<br>
+Tramite IO puoi richiedere e abilitare servizi e funzionalità che consentono di ottenere carte sconto, benefici, vantaggi o agevolazioni, anche in forma di beni e servizi e compresi i pagamenti in denaro (“**Bonus**”). Puoi visualizzare e gestire i Bonus all’interno della sezione Portafoglio. Per verificare il diritto, determinare l’importo, erogare e usare i Bonus, saranno trattati, per conto dell’Ente promotore, dati personali relativi a te e/o (ove applicabile) al tuo nucleo familiare, anche raccolti presso terze parti.<br>
 Le informazioni sui dati personali richiesti per i Bonus e sui relativi trattamenti sono contenute nelle informative privacy messe a disposizione in ciascuna scheda Bonus dagli Enti che agiscono in qualità di titolari del trattamento. Per modificare questi dati o per esercitare i tuoi diritti rispetto ai trattamenti relativi a un Bonus o verificarne i requisiti di erogazione, puoi rivolgerti all’Ente, utilizzando i canali di contatto indicati nella sua informativa privacy.<br>
 Alcuni dati, sopra menzionati, non potranno essere modificati.<br>
 Ti invitiamo a far leggere le informative sul trattamento dei dati personali anche ai tuoi familiari i cui dati saranno eventualmente trattati per erogare un Bonus o per verificarne i requisiti.<br>
@@ -208,17 +213,15 @@ Trovi maggiori informazioni sui trattamenti svolti tramite la piattaforma pagoPA
 **_D) Dati trattati nella sezione "Impostazioni"_**
 
 {:.d-more-1}
-In IO puoi gestire le tue preferenze e i dati del tuo account.
-
-{:.d-more-1}
-Le informazioni relative a preferenze e account sono associate al tuo codice fiscale e memorizzate nei nostri sistemi. Conserviamo lo storico degli accessi e delle preferenze per un periodo di tempo limitato.<br>
+In IO puoi gestire le tue preferenze e i dati del tuo account. Le informazioni relative a preferenze e account sono associate al tuo codice fiscale e memorizzate nei nostri sistemi. Conserviamo lo storico degli accessi e delle preferenze per un periodo di tempo limitato.<br>
 Ecco come trattiamo i dati contenuti nella sezione Impostazioni:
 
 {:.d-more-1}
 **Email**: Potremmo usare l’email che hai inserito nella sezione Impostazioni per inviarti comunicazioni importanti relative all’app o al tuo account. Ad esempio, riceverai, un’email in occasione di ogni accesso effettuato a IO tramite SPID o CIE: se rilevi un accesso non autorizzato, puoi bloccare l’account seguendo il link contenuto nella comunicazione e-mail;<br>
 **Informazioni Biometriche**: Non raccogliamo informazioni biometriche, ma riceviamo dal tuo dispositivo soltanto la conferma se il riconoscimento biometrico è attivo;<br>
 **Calendario e scadenze**: Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;<br>
-**Lingua**: La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.
+**Lingua**: La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.<br>
+**Aspetto dell’app**: Questa informazione viene utilizzata esclusivamente per applicare la tua scelta in relazione all’aspetto che deve avere l’app.
 
 {:.d-more-1}
 **Accesso ad app e strumenti del dispositivo**<br>
@@ -233,17 +236,15 @@ Per fare in modo che IO funzioni bene svolgiamo attività di debug (ricerca e ri
 
 {:.d-more-1}
 
-- con il tuo consenso, rileviamo i dati di utilizzo. In questo modo possiamo acquisire, tra l’altro, informazioni relative all’uso e alla navigazione in app e informazioni relative al dispositivo. Il consenso a questo trattamento è facoltativo. Puoi modificarlo in ogni momento nella sezione Privacy e Condizioni d'uso;
-- rileviamo informazioni utili per analizzare eventuali anomalie e monitorare la stabilità dell’app. I dati raccolti sono anonimizzati alla fonte;
-- raccogliamo a livello infrastrutturale ulteriori dati e log tecnici.
+1. con il tuo consenso, rileviamo i dati di utilizzo. In questo modo possiamo acquisire, tra l’altro, informazioni relative all’uso e alla navigazione in app e informazioni relative al dispositivo. Il consenso a questo trattamento è facoltativo. Puoi modificarlo in ogni momento nella sezione Privacy e Condizioni d'uso;
+2. rileviamo informazioni utili per analizzare eventuali anomalie e monitorare la stabilità dell’app. I dati raccolti sono anonimizzati alla fonte;
+3. raccogliamo a livello infrastrutturale ulteriori dati e log tecnici.
 
 {:.d-more-1}
 Alcuni di questi dati sono associati univocamente a te, sono raccolti tramite sistemi di fornitori terzi nominati responsabili del trattamento, e sono utilizzati soltanto per questi scopi e mai per scopi di marketing o profilazione. I dati di cui ai punti 2 e 3 sono raccolti automaticamente dalla nostra infrastruttura e non sono soggetti a consenso.
 
 {:.d-more-1}
-**_F) Dati trattati per le attività di assistenza_**
-
-{:.d-more-1}
+**_F) Dati trattati per le attività di assistenza_**<br>
 Quando richiedi assistenza in app, potrebbero essere raccolti automaticamente alcuni dati per gestire la segnalazione. Si tratta di:
 
 {:.d-more-1}
@@ -269,8 +270,10 @@ Per maggiori informazioni sul trattamento dei dati tramite i nostri canali di as
 {:.d-more-1}
 La missione di IO è quella di evolversi per migliorare la digitalizzazione dei servizi pubblici. Per realizzare questa missione abbiamo pensato che la cosa migliore sia testare nuove funzionalità direttamente con i cittadini. Per questo, troverai alcune funzionalità sperimentali disponibili in app.<br>
 In alcuni casi, l’introduzione di funzionalità sperimentali potrebbe rendere necessario un rilascio graduale. I cittadini, in questo caso, vengono abilitati secondo criteri determinati, sulla base di un piano di apertura progressiva che ha la finalità di mitigare potenziali impatti tecnici derivanti dal rilascio. Come impostazione di partenza, tutte le persone che hanno un account su IO sono potenzialmente idonee ad essere abilitate alle funzionalità sperimentali.<br>
-Per consentire la selezione e partecipazione di tutte le persone che rientrano nei criteri della sperimentazione, potrebbero essere trattati il tuo codice fiscale e altre informazioni che ti riguardano, tra cui la data del tuo ultimo accesso in app. Puoi opporti in ogni momento a tale trattamento secondo le modalità descritte nel paragrafo 7 “Quali sono i tuoi diritti e come puoi esercitarli” della presente informativa.<br>
-Tieni presente che per queste funzionalità sperimentali non possiamo garantirti che non ci siano malfunzionamenti o errori. La tua opinione è importante per noi, per questo se hai dubbi o suggerimenti ti invitiamo a contattarci premendo il punto interrogativo presente in alto a destra di ogni schermata dell’app.
+Per consentire la selezione e partecipazione di tutte le persone che rientrano nei criteri della sperimentazione, potrebbero essere trattati il tuo codice fiscale e altre informazioni che ti riguardano, tra cui la data del tuo ultimo accesso in app. Puoi opporti in ogni momento a tale trattamento secondo le modalità descritte nel paragrafo 7 “Quali sono i tuoi diritti e come puoi esercitarli” della presente informativa.
+
+{:.d-more-1}
+Tieni presente che per queste funzionalità sperimentali non possiamo garantirti che non ci siano malfunzionamenti o errori. La tua opinione è importante per noi, per questo se hai dubbi o suggerimenti ti invitiamo a contattarci premendo su “Hai un suggerimento?” che trovi nelle Impostazioni dell’app.
 
 {:.d-more-1}
 **Firma con IO (beta)**
@@ -288,23 +291,23 @@ Se scegli di usare Firma con IO, PagoPA tratterà, in qualità di titolare e nel
 
 {:.d-more-1}
 Per permetterti di utilizzare la funzionalità, chiediamo il tuo consenso a condividere i tuoi dati, nella misura strettamente necessaria, con i fornitori dei servizi fiduciari qualificati usati da PagoPA, i quali trattano tali dati in qualità di titolari autonomi.<br>
-I dati contenuti nel documento da firmare, invece, sono trattati da tali fornitori in qualità di responsabili del trattamento, per il tempo necessario e con la sola finalità di consentire l’erogazione del Servizio. Per ogni dettaglio su questi trattamenti, ti invitiamo a leggere l’informativa e le condizioni di servizio che ti verranno messi a disposizione prima di firmare.<br>
+I dati contenuti nel documento da firmare, invece, sono trattati da tali fornitori in qualità di responsabili del trattamento per conto di PagoPA, per il tempo necessario e con la sola finalità di consentire l’erogazione del Servizio. Per ogni dettaglio su questi trattamenti, ti invitiamo a leggere l’informativa e le condizioni di servizio che ti verranno messi a disposizione prima di firmare.<br>
 Ti ricordiamo che gli Enti rimangono titolari autonomi dei dati trattati in ragione del procedimento amministrativo a cui si riferiscono i documenti da firmare. Per ogni dettaglio su questi trattamenti, ti invitiamo a consultare l’informativa privacy dell'Ente.<br>
 
 {:.d-more-1}
 **Documenti su IO (beta)**
 
 {:.d-more-1}
-Nelle more della piena funzionalità del Sistema IT-Wallet per gli utenti di IO è disponibile una funzionalità che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione, tramite l’Ente incaricato normativamente della loro emissione. Nelle sezioni Messaggi e Portafoglio, trovi un banner per accedere alla funzionalità. Potresti aver ricevuto una comunicazione tramite email o messaggio in app dalla Società che descrive più dettagliatamente la funzionalità e le modalità di disattivazione. Successivamente all’attivazione, qualora tu abbia richiesto le versioni digitali dei documenti, potresti ricevere un messaggio dal soggetto emittente che ti informa della disponibilità degli stessi.
+In attesa della piena operatività del Sistema di portafoglio digitale italiano (IT-Wallet), su IO è disponibile una funzionalità che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione, tramite l’Ente incaricato ai sensi della normativa applicabile. Nelle sezioni Messaggi e Portafoglio, trovi un banner per accedere alla funzionalità. Potresti aver ricevuto una comunicazione tramite email o in app che descrive più dettagliatamente la funzionalità e le modalità di disattivazione. Puoi attivare Documenti su IO tramite il banner, se lo chiudi per errore, potrai ritrovarlo al tuo successivo accesso. Successivamente all’attivazione, se hai richiesto le versioni digitali dei tuoi documenti, potresti ricevere un messaggio dal soggetto emittente che ti informa della loro disponibilità. 
+L’attivazione della funzionalità è su base volontaria. Puoi disattivarla in ogni momento cliccando su “Cos’è?” nella sezione Portafoglio.
 
 {:.d-more-1}
 Se scegli di utilizzare Documenti su IO, PagoPA tratterà in qualità di titolare del trattamento, nella misura strettamente necessaria a erogare la funzionalità su tua richiesta:
 
 {:.d-more-1}
 
-- i dati necessari per consentire l’attivazione della funzionalità (ossia, codice fiscale, email, il codice univoco che identifica la tua richiesta di attivazione della funzionalità e le chiavi crittografiche);
-- i dati necessari per l’aggiunta di uno specifico documento (ossia il codice univoco della richiesta che ne identifica la tipologia e le chiavi crittografiche);
-- l’indirizzo email, nel caso in cui tu richieda di disattivare la funzionalità tramite il portale account.ioapp.it.
+- i dati necessari per attivare la funzionalità, cioè i dati necessari per identificarti (codice fiscale, email, il codice univoco che identifica la tua richiesta di attivazione della funzionalità e le chiavi crittografiche);
+- i dati necessari per aggiungere la versione digitale del documento al Portafolio di IO (il codice univoco della richiesta e le chiavi crittografiche);
 - tutti gli altri dati, legati all’uso e al funzionamento di IO, il cui trattamento è descritto nelle varie sezioni di questa informativa.
 
 {:.d-more-1}
@@ -312,7 +315,8 @@ Con riferimento alle chiavi crittografiche, una di esse sarà conservata dalla S
 Con riferimento al codice della richiesta della versione digitale di un documento personale, il trattamento è svolto, ai sensi dell’art. 9, par.2, lett. g) del GDPR (come specificato dall’art. 2-sexies, comma 2, del d.lgs. n. 196/2003 lett. a)), limitatamente ai casi in cui la semplice tipologia di Credenziale è idonea rivelare categorie particolari di dati (ad esempio, ottenimento della Carta Europea della Disabilità).
 
 {:.d-more-1}
-Se richiedi l’attivazione della funzionalità o l’aggiunta di un documento, i dati relativi alla tipologia di documento richiesto, unitamente ad un’attestazione circa l'integrità e la sicurezza della richiesta, sono condivisi dalla Società con l’Ente incaricato di emettere i documenti in versione digitale, il quale li tratterà per il tempo strettamente necessario a raggiungere la finalità. <br>Ti invitiamo a verificare l’informativa dell’Ente incaricato di emettere i documenti in versione digitale per verificare come tratta i tuoi dati. I documenti che aggiungi non sono conservati dalla Società ma rimangono unicamente sul tuo dispositivo. La Società non accede in nessun momento al contenuto dei documenti.<br>
+Se richiedi l’attivazione della funzionalità o l’aggiunta di un documento, i dati relativi alla tipologia di documento richiesto, unitamente ad un’attestazione circa l'integrità e la sicurezza della richiesta, sono condivisi dalla Società con l’Ente incaricato di emettere i documenti in versione digitale, il quale li tratterà per il tempo strettamente necessario a raggiungere la finalità.<br>
+Ti invitiamo a verificare l’informativa dell’Ente incaricato di emettere i documenti in versione digitale per verificare come tratta i tuoi dati. I documenti che aggiungi non sono conservati dalla Società ma rimangono unicamente sul tuo dispositivo. La Società non accede in nessun momento al contenuto dei documenti.<br>
 Inoltre, al tuo primo utilizzo della funzionalità, la Società trasmette alcuni dati di navigazione (in particolare, il tuo indirizzo IP) al fornitore del sistema operativo del tuo dispositivo, al fine di assicurare la sicurezza della conservazione dei dati e della funzionalità che hai richiesto. I fornitori di sistemi operativi sono titolari autonomi. Per sapere come trattano i tuoi dati ti invitiamo a consultare le loro informative.
 
 {:.d-more-1}
@@ -339,11 +343,15 @@ In alcuni casi potremmo chiederti di condividere con noi la tua opinione sull’
 {:.d-more-1}
 
 - le risposte alle domande del questionario o dell’indagine;
-- dati identificativi e di contatto (ad esempio nome e cognome, codice fiscale, indirizzo email, telefono) e altri dati comuni;
-- i dati relativi al dispositivo, dati di utilizzo, di traffico e connessione raccolti tramite i sistemi di monitoraggio di IO, oppure il cui trattamento è intrinseco nel funzionamento tecnico della comunicazione web.
+- dati relativi al dispositivo, dati di utilizzo, di traffico e connessione raccolti tramite i sistemi integrati con IO, oppure il cui trattamento è intrinseco nel funzionamento tecnico della comunicazione web;
+- dove richiesto, dati identificativi e di contatto (ad esempio nome e cognome, codice fiscale, indirizzo email, telefono) e altri dati comuni.
 
 {:.d-more-1}
-Tratteremo esclusivamente i dati strettamente necessari per monitorare il funzionamento, l’uso del Punto di accesso telematico e il suo miglioramento ed evoluzione, anche in ottica di ricerca e sviluppo. Conserveremo le tue risposte soltanto per il tempo necessario alle operazioni di aggregazione.
+Puoi anche lasciarci suggerimenti liberi, nell’apposita sezione “Hai un suggerimento?” nelle Impostazioni dell’app.<br> 
+**In ogni caso, ti invitiamo a non inserire dati personali, inclusi dati sensibili, nelle tue segnalazioni**.
+
+{:.d-more-1}
+Tratteremo esclusivamente i dati strettamente necessari per monitorare il funzionamento, l’uso del Punto di accesso telematico e il suo miglioramento ed evoluzione, anche in ottica di ricerca e sviluppo. Conserveremo le tue risposte soltanto per il tempo necessario al raggiungimento di queste finalità.
 
 {:.d-more-1}
 **Sicurezza**
@@ -384,15 +392,15 @@ I gestori degli app store in cui è distribuita l’app (App Store e Google Play
 
 {:.d-more-1}
 In qualità di responsabile, PagoPA tratta i dati relativi alla fruizione da parte dei cittadini dei Servizi erogati dagli Enti (su istruzione dei cittadini) per monitorare il tasso di adozione dei Servizi da parte dei cittadini, l’attuazione delle iniziative pubbliche sottese ai Servizi, i livelli di servizio e gli obblighi di trasparenza connessi alle attività affidate a PagoPA.<br>
-Alcuni di questi dati aggregati sulla diffusione e l’uso di IO sono pubblicati e aggiornati periodicamente in una [pagina del nostro sito](https://io.italia.it/dashboard/).
+Alcuni di questi dati aggregati sulla diffusione e l’uso di IO sono pubblicati e aggiornati periodicamente in una [pagina del nostro sito](https://ioapp.it/numeri/).
 
 {:.d-more-1}
 
 #### 2. Trattamenti eseguiti da PagoPA in qualità di responsabile del trattamento per conto degli Enti: per quali scopi e su quali basi giuridiche
 
 {:.d-more-1}
-A PagoPA è affidato il ruolo di gestire e mantenere il cosiddetto Punto di accesso telematico previsto all’art. 64-bis del CAD. Questo ruolo le è affidato in base all’art. 8, commi 2 e 3 del D.Lgs. n. 135/2018. In questo ruolo, PagoPA agisce come responsabile del trattamento dei dati e in base alle istruzioni impartite dagli Enti nell’ambito dei Servizi erogati dagli stessi, in qualità di(ad esempio titolari del trattamento.<br>
-Nella sezione “Servizi” di IO puoi trovare le informative sul trattamento dei dati personali degli Enti.<br>
+A PagoPA è affidato il ruolo di gestire e mantenere il cosiddetto Punto di accesso telematico previsto all’art. 64-bis del CAD. Questo ruolo le è affidato in base all’art. 8, commi 2 e 3 del D.Lgs. n. 135/2018. In questo ruolo, PagoPA agisce come responsabile del trattamento dei dati e in base alle istruzioni impartite dagli Enti nell’ambito dei Servizi erogati dagli stessi, in qualità di titolari del trattamento.<br>
+In ciascuna scheda Servizio di IO puoi trovare le informative sul trattamento dei dati personali degli Enti.<br>
 Tutti i dati personali trattati, inclusi eventuali particolari categorie di dati (ad esempio dati relativi allo stato di salute), potranno essere trattati dagli Enti per le finalità e sulla base giuridica relativa a ciascun Servizio erogato.<br>
 Alcuni Enti aderiscono a IO in qualità di aggregatori di altri enti; in tal caso agiscono come responsabili del trattamento, mentre PagoPA agisce come sub-responsabile del trattamento.
 
@@ -407,7 +415,7 @@ PagoPA tratta i tuoi dati in qualità di titolare del trattamento per le seguent
 {:.d-more-1}
 
 - attività necessarie alla progettazione, allo sviluppo, alla gestione e all’implementazione del Punto di accesso telematico di cui all’art. 64-bis CAD. In questa attività sono incluse le attività volte a permettere l’interoperabilità del Punto di accesso telematico con le piattaforme abilitanti di cui all’Allegato 3 delle Linee Guida AgID e le attività di assistenza, debugging e diagnostica, monitoraggio del funzionamento, utilizzo del Punto di accesso telematico e miglioramento ed evoluzione dello stesso (ricerca e sviluppo);
-- attività effettuate con riguardo alle funzionalità e/o servizi direttamente resi da PagoPA ai cittadini su loro richiesta, incluse quelle che permettono agli stessi di gestire la propria relazione con gli Enti per i Servizi erogati attraverso Punto di accesso telematico;
+- attività effettuate con riguardo alle funzionalità e/o servizi direttamente resi da PagoPA ai cittadini su loro richiesta, incluse quelle che permettono agli stessi di gestire in modo agevole e dinamico la propria relazione con gli Enti per i servizi erogati attraverso Punto di accesso telematico;
 - altre attività che le sono attribuite ai sensi di legge per l’esecuzione di compiti di interesse pubblico.
 
 {:.d-more-1}
@@ -469,7 +477,7 @@ Sono conservate per l’intero ciclo di vita del tuo account e fino a 3 anni suc
 {:.d-more-1}
 **Comunicazioni provenienti dai Servizi**<br>
 I dati relativi alle comunicazioni provenienti dai Servizi sono conservati per l’intero ciclo di vita del tuo account e fino a 3 anni successivi all’eventuale tua richiesta di cancellazione.<br>
-Fanno eccezione i metadati e stati delle comunicazioni di cui è stato tentato l’invio e non recapitate perché indirizzate a persone che non hanno un account su IO: questi vengono conservati per i 3 anni successivi al tentativo di invio. Tali dati vengono conservati per finalità proprie di PagoPA, tra cui il monitoraggio delle risorse tecniche e la prevenzione di abusi. Il contenuto delle comunicazioni non non viene mai salvato se sono indirizzate a soggetti non presenti su IO o a persone che usano IO che hanno disabilitato le comunicazioni per quel Servizio.<br>
+Fanno eccezione i metadati e stati delle comunicazioni di cui è stato tentato l’invio e non recapitate perché indirizzate a persone che non hanno un account su IO: questi vengono conservati per i 3 anni successivi al tentativo di invio. Tali dati vengono conservati per finalità proprie di PagoPA, tra cui il monitoraggio delle risorse tecniche e la prevenzione di abusi. Il contenuto delle comunicazioni non viene mai salvato se sono indirizzate a soggetti non presenti su IO o a persone che usano IO che hanno disabilitato le comunicazioni per quel Servizio.<br>
 Ti ricordiamo che puoi scaricare copia dei tuoi Messaggi in ogni momento in app, dal menu Impostazioni > Privacy e Condizioni d’uso > Accedi ai tuoi dati.
 
 {:.d-more-1}
@@ -479,7 +487,8 @@ Dopo la firma, potrai accedere ai documenti, inoltrarli o condividerli per i suc
 
 {:.d-more-1}
 **Documenti su IO (beta)** <br>
-I dati relativi all’attivazione della funzionalità sono conservati per tutto il tempo che la stessa rimane attiva.<br>Successivamente, conserveremo evidenza del fatto che hai attivato e poi disattivato nei termini di legge, per dare seguito a richieste di contestazioni o richieste provenienti dall’Autorità Giudiziaria (ad esempio, relativamente a reati), fatte salve esigenze di conservazione più lunghe nel caso di inizio di procedimenti giudiziali o amministrativi che richiedano tempi di conservazione maggiori.<br>
+I dati relativi all’attivazione della funzionalità sono conservati per tutto il tempo che la stessa rimane attiva.<br>
+Successivamente, conserveremo evidenza del fatto che hai attivato e poi disattivato nei termini di legge, per dare seguito a richieste di contestazioni o richieste provenienti dall’Autorità Giudiziaria (ad esempio, relativamente a reati), fatte salve esigenze di conservazione più lunghe nel caso di inizio di procedimenti giudiziali o amministrativi che richiedano tempi di conservazione maggiori.<br>
 I dati trattati nell’ambito dell’ottenimento delle versioni digitali dei documenti (ad esempio, le chiavi crittografiche e i dati che identificano la tipologia della richiesta) sono trattati per il tempo strettamente necessario alla condivisione con l’Ente incaricato di emettere gli stessi. Tali dati non sono conservati da PagoPA una volta terminata l’emissione del documento.
 
 {:.d-more-1}
