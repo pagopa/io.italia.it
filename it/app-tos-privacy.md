@@ -309,7 +309,7 @@ Se scegli di utilizzare Documenti su IO, PagoPA tratterà in qualità di titolar
 - i dati necessari per attivare la funzionalità, cioè i dati necessari per identificarti (codice fiscale, email, il codice univoco che identifica la tua richiesta di attivazione della funzionalità e le chiavi crittografiche);
 - i dati necessari per aggiungere la versione digitale del documento al Portafoglio di IO (il codice univoco della richiesta e le chiavi crittografiche);
 - al primo utilizzo, alcuni dati di navigazione (compreso l’indirizzo IP) per verificare l’integrità del tuo dispositivo;
-- l’indirizzo email, se disattivi la funzionalità tramite il portale <account.ioapp.it>, per comunicarti l’accesso sul portale e l’avvenuta disattivazione;
+- l’indirizzo email, se disattivi la funzionalità tramite il portale [account.ioapp.it]((https://account.ioapp.it/), per comunicarti l’accesso sul portale e l’avvenuta disattivazione;
 - tutti gli altri dati, legati all’uso e al funzionamento di IO, il cui trattamento è descritto nelle varie sezioni di questa informativa.
 
 {:.d-more-1}
@@ -733,9 +733,18 @@ Ti avviseremo in anticipo quando cesserà il supporto per questi dispositivi e v
 {:.d-more-2}
 
 Dalle Impostazioni dell’app (l’icona a forma di rotella in alto a destra) puoi consultare e gestire le tue preferenze, leggere l’informativa privacy e le condizioni d’uso, avere informazioni sull’app e gestire il tuo Account.
+
+{:.d-more-2}
+
 Nelle Impostazioni puoi trovare anche un fac-simile del tuo codice fiscale.Ricorda: non sostituisce il documento fisico, ma ne permette soltanto la lettura dei dati o del codice a barre.
+
+{:.d-more-2}
+
 Nella sezione Impostazioni puoi visualizzare in ogni momento le impostazioni di IO e le informazioni relative al tuo Account.<br>
 Ricorda che alcune di queste informazioni non possono essere modificate all’interno di IO, ad esempio perché sono associate alla tua Identità Digitale.
+
+{:.d-more-2}
+
 Nella sezione Preferenze puoi anche visualizzare e gestire l’indirizzo e-mail su cui ricevere le comunicazioni relative al tuo Account e su cui inoltrare i Messaggi che ricevi su IO.<br>
 A questo indirizzo inviamo comunicazioni importanti per te e ti segnaliamo anche ogni accesso effettuato su IO: se rilevi un accesso non autorizzato, puoi bloccare il tuo Account seguendo il link contenuto nella email.<br>
 **Poiché tutte le comunicazioni su IO sono personali, ricordati di inserire un indirizzo e-mail valido e personale, a cui hai accesso solo tu.**
@@ -847,11 +856,11 @@ Ciò accade solo in alcuni casi e per alcuni Servizi erogati rispetto a cui hai 
 
 {:.d-more-2}
 
-## **3.5 Assistenza tecnica**
+## **3.5 Aiuto e Feedback**
 
 {:.d-more-2}
 Facciamo del nostro meglio per assicurarti un’esperienza adatta alle tue esigenze.<br>
-Se hai bisogno di assistenza tecnica, clicca sull’icona in alto a destra con il punto interrogativo (“?”) per accedere a una pagina in cui troverai informazioni su IO o su una Funzionalità e su come contattarci per richiedere aiuto.<br>
+Se hai bisogno di **assistenza tecnica**, clicca sull’icona in alto a destra con il punto interrogativo (“?”) per accedere a una pagina in cui troverai informazioni su IO o su una Funzionalità e su come contattarci per richiedere aiuto.<br>
 Se vuoi lasciarci un feedback, cioè inviarci un **suggerimento** o **valutare l’app negli store**, puoi farlo in ogni momento dalla sezione Impostazioni dell’App, raggiungibile dall’icona in alto a destra a forma di rotella.<br>
 In alcuni casi potremmo chiederti feedback facoltativo sulla tua esperienza in app. Anche se non riceverai una risposta, le tue segnalazioni sono importanti e ci aiutano a migliorare l’app per tutti i Cittadini.<br>
 Rispetto all’assistenza tecnica, ci impegniamo a rispondere a tutte le richieste, ma a volte (ad esempio, per alto volume di richieste o problemi complessi) potremmo non garantire una risposta completa o immediata.
@@ -883,7 +892,7 @@ In attesa della piena operatività del Sistema di portafoglio digitale italiano 
 Rispetto alle versioni digitali dei documenti emessi dagli Enti, noi non verifichiamo né siamo responsabili del contenuto e della loro correttezza formale e sostanziale. Pertanto, se hai dubbi o domande a questo riguardo, ti invitiamo ad aprire una segnalazione tramite il punto interrogativo presente in alto a destra in ogni schermata dell’app, oppure tramite i canali di contatto dell’Ente, se mostrati in app.<br>
 Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in IO con SPID o CIE. Questo passaggio è necessario per garantire che le versioni digitali dei documenti che richiedi siano associati alla tua Identità Digitale.<br>
 Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali, consultarli e presentarli anche in modalità offline.<br> 
-Stiamo lavorando per rendere l’app IO compatibile con sempre più dispositivi mobili. Al momento, la Funzionalità potrebbe non essere disponibile sui dispositivi meno recenti o che non soddisfano determinati standard di sicurezza.<br>. 
+Stiamo lavorando per rendere l’app IO compatibile con sempre più dispositivi mobili. Al momento, la Funzionalità potrebbe non essere disponibile sui dispositivi meno recenti o che non soddisfano determinati standard di sicurezza.<br>
 Per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. In tal modo la funzionalità sarà automaticamente disattivata sul precedente dispositivo. In questa prima fase sperimentale, **le versioni digitali dei documenti potrebbero non avere lo stesso valore legale del corrispondente documento fisico**. Ad esempio, la versione digitale della patente è valida solamente in alcuni contesti d’uso e verifica (es. controlli stradali) per dimostrare l’abilitazione alla guida.
 
 {:.d-more-2}
@@ -894,7 +903,7 @@ Per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo d
 Grazie a IO puoi usufruire dei Servizi forniti dagli Enti che aderiscono a IO.<br>
 Gli Enti gestiscono i loro Servizi; quindi, la loro disponibilità, il loro contenuto e la loro funzionalità non dipendono da PagoPA, ma dall’Ente, che ne ha piena responsabilità.<br>
 Ai Servizi degli Enti si applicano i Termini Aggiuntivi che ciascun Ente ti mette a disposizione anche tramite IO, ad esempio nella scheda di ciascun Servizio o nei Messaggi, e che ti invitiamo a leggere.<br>
-In alcuni casi, per usufruire di alcuni Servizi IO ti reindirizza, con il tuo consenso, verso risorse informatiche esterne, per poterti autenticare direttamente senza reinserire le credenziali della Tua Identità Digitale. Anche in questi casi, la responsabilità dei Servizi, in particolare la loro disponibilità e l’accuratezza delle informazioni e dei contenuti, rimangono in capo all’Ente.<br> 
+In alcuni casi, per usufruire di alcuni Servizi, IO ti reindirizza, con il tuo consenso, verso risorse informatiche esterne, per poterti autenticare direttamente senza reinserire le credenziali della Tua Identità Digitale. Anche in questi casi, la responsabilità dei Servizi, in particolare la loro disponibilità e l’accuratezza delle informazioni e dei contenuti, rimangono in capo all’Ente.<br> 
 Nell’usare IO potresti accedere a servizi gestiti in tutto in parte da PagoPA o di Terze Parti: ad esempio, piattaforme abilitanti integrate con IO, servizi di identificazione resi dal tuo fornitore di Identità Digitale, servizi di pagamento forniti dai PSP oppure servizi necessari per erogare i certificati di firma digitale. A questi servizi si applicano i Termini Aggiuntivi stabiliti dal gestore.<br>
 Per fruire di alcuni Servizi o Funzionalità, è necessario possedere ulteriori requisiti, e ti potrebbe anche essere chiesto di fornire un’autodichiarazione.<br>
 Se ci segnalerai un problema o un malfunzionamento dei Servizi forniti dagli Enti o dei servizi di Terze Parti, potremmo informarli e metterti in contatto con loro per aiutarti a risolvere il problema. Ad ogni modo, per eventuali reclami, istanze o altre questioni relative alla disponibilità, al funzionamento e al contenuto di questi servizi, dovrai rivolgerti direttamente all’Ente o alla Terza Parte in questione. Potrai trovare i loro contatti all’interno di ciascuna scheda Servizio.
@@ -1039,4 +1048,4 @@ Se chi usa IO non è qualificabile come consumatore, ogni controversia sarà di 
 Queste condizioni sono sempre consultabili in app e all’indirizzo <https://io.italia.it/app-content/tos_privacy.html>
 
 {:.d-more-2}
-Cliccando sul tasto “Accetta” chi usa IO dichiara di aver letto, compreso e accettato i seguenti articoli delle Condizioni d’uso (in base agli articoli 1341 e 1342 del Codice civile): **3.3 Bonus**, **3.6 Firma con IO (beta)**, **3.7 Documenti su IO (beta)**, **4. I Servizi degli Enti, le piattaforme integrate e i servizi di Terze Part**, **5. Obblighi e responsabilità di chi usa IO**, **6. Esclusioni e limitazione di responsabilità di PagoPA S.p.A.**, **8. Recesso**, **9. Modifiche delle Condizioni d’uso**, **10. Foro competente e legge applicabile**.
+Cliccando sul tasto “Accetta” chi usa IO dichiara di aver letto, compreso e accettato i seguenti articoli delle Condizioni d’uso (in base agli articoli 1341 e 1342 del Codice civile): **3.3 Bonus**, **3.6 Firma con IO (beta)**, **3.7 Documenti su IO (beta)**, **4. I Servizi degli Enti, le piattaforme integrate e i servizi di Terze Parti**, **5. Obblighi e responsabilità di chi usa IO**, **6. Esclusioni e limitazione di responsabilità di PagoPA S.p.A.**, **8. Recesso**, **9. Modifiche delle Condizioni d’uso**, **10. Foro competente e legge applicabile**.
