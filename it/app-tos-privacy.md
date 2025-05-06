@@ -309,7 +309,7 @@ Se scegli di utilizzare Documenti su IO, PagoPA tratterà in qualità di titolar
 - i dati necessari per attivare la funzionalità, cioè i dati necessari per identificarti (codice fiscale, email, il codice univoco che identifica la tua richiesta di attivazione della funzionalità e le chiavi crittografiche);
 - i dati necessari per aggiungere la versione digitale del documento al Portafoglio di IO (il codice univoco della richiesta e le chiavi crittografiche);
 - al primo utilizzo, alcuni dati di navigazione (compreso l’indirizzo IP) per verificare l’integrità del tuo dispositivo;
-- l’indirizzo email, se disattivi la funzionalità tramite il portale [account.ioapp.it]((https://account.ioapp.it/), per comunicarti l’accesso sul portale e l’avvenuta disattivazione;
+- l’indirizzo email, se disattivi la funzionalità tramite il portale [account.ioapp.it](https://account.ioapp.it/), per comunicarti l’accesso sul portale e l’avvenuta disattivazione;
 - tutti gli altri dati, legati all’uso e al funzionamento di IO, il cui trattamento è descritto nelle varie sezioni di questa informativa.
 
 {:.d-more-1}
@@ -736,7 +736,7 @@ Dalle Impostazioni dell’app (l’icona a forma di rotella in alto a destra) pu
 
 {:.d-more-2}
 
-Nelle Impostazioni puoi trovare anche un fac-simile del tuo codice fiscale.Ricorda: non sostituisce il documento fisico, ma ne permette soltanto la lettura dei dati o del codice a barre.
+Nelle Impostazioni puoi trovare anche un fac-simile del tuo codice fiscale. Ricorda: non sostituisce il documento fisico, ma ne permette soltanto la lettura dei dati o del codice a barre.
 
 {:.d-more-2}
 
