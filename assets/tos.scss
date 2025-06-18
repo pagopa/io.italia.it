@@ -4,6 +4,53 @@
 
 @import "self";
 
+:root {
+  --color-black: #0E0F13;
+  --color-grey-850: #1E2026;
+  --color-grey-700: #555C70;
+  --color-grey-300: #BBC2D6;
+  --color-grey-100: #E8EBF1;
+  --color-white: #FFFFFF;
+  --color-blueIO-500: #0B3EE3;
+  --color-blueIO-300: #6D8BEE;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --body-secondary: var(--color-grey-850);
+    --body-tertiary: var(--color-grey-700);
+    --app-background: var(--color-white);
+    --interactive-elem: var(--color-blueIO-500);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-secondary: var(--color-grey-100);
+    --body-tertiary: var(--color-grey-300);
+    --app-background: var(--color-black);
+    --interactive-elem: var(--color-blueIO-300);
+  }
+}
+
+body {
+  background-color: var(--app-background);
+  color: var(--body-tertiary);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  color: var(--body-secondary);
+}
+
+:is(a) {
+  color: var(--interactive-elem);
+}
+
+:is(hr) {
+  border-color: var(--body-tertiary);
+  opacity: 0.5;
+}
+
 .d-startup-hide {
   & > *:not(.d-startup) {
     display: none;
@@ -12,9 +59,9 @@
 
 .read-more {
   font-weight: 700;
-  color: $color--italia;
+  color: var(--interactive-elem);
   padding: 6px 0;
-  border-bottom: 1px solid $color--italia;
+  border-bottom: 1px solid var();
   display: inline-block;
   cursor: pointer;
 }
