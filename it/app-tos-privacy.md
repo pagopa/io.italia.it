@@ -4,8 +4,8 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: '5.2'
-updated: 6 maggio 2025
+vers: '5.3'
+updated: 1 agosto 2025
 assets:
   js:
     - '/assets/js/tos.js'
@@ -30,9 +30,7 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo migliorato il linguaggio della sezione “Documenti su IO”.
-- Abbiamo introdotto una funzionalità con cui puoi accedere direttamente, in modo semplice e sicuro, ad alcuni servizi della pubblica amministrazione;
-- Ora puoi inviarci suggerimenti liberi o valutare l’app direttamente dalle Impostazioni;
+- Abbiamo limitato il numero di accessi possibili offline a Documenti su IO per la tua sicurezza.
 - Abbiamo chiarito il linguaggio di alcuni trattamenti e corretto alcuni refusi.
 
 
@@ -317,7 +315,7 @@ Se acconsenti, alcuni di questi dati sono condivisi con l’Ente che emette la v
 Le chiavi crittografiche sono verificate quotidianamente e automaticamente per motivi di sicurezza, al fine di assicurare l’integrità delle versioni digitali dei tuoi documenti anche quando li usi offline. Quando ottieni la versione digitale di un documento, IO confronta la chiave pubblica conservata sui sistemi di PagoPA, con quella privata che risiede nel tuo dispositivo, per garantire l’affidabilità e la sicurezza dell’operazione.
 
 {:.d-more-1}
-Il codice univoco della richiesta è trattato, ai sensi dell’art. 9, par.2, lett. g) del GDPR (come specificato dall’art. 2-sexies, comma 2, lett. a) del D. Lgs. n. 196/2003), solo quando il tipo di documento è potenzialmente in grado di  rivelare categorie particolari di dati (ad esempio, ottenimento della Carta Europea della Disabilità).
+Il codice univoco della richiesta è trattato, ai sensi dell’art. 9, par.2, lett. g) del GDPR (come specificato dall’art. 2-sexies, comma 2, lett. aa) del D. Lgs. n. 196/2003), solo quando il tipo di documento è potenzialmente in grado di  rivelare categorie particolari di dati (ad esempio, ottenimento della Carta Europea della Disabilità).
 
 {:.d-more-1}
 I documenti che aggiungi non sono conservati da PagoPA ma rimangono unicamente sul tuo dispositivo. PagoPA non accede in nessun momento al contenuto dei documenti.<br>
@@ -888,12 +886,13 @@ Ti invitiamo a leggere le informative privacy messe a disposizione dagli Enti e 
 ## **3.7 Documenti su IO (beta)**
 
 {:.d-more-2}
-In attesa della piena operatività del Sistema di portafoglio digitale italiano (IT-Wallet), su IO è disponibile una Funzionalità sperimentale che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione. Se sei incluso nella sperimentazione visualizzerai in app, nelle sezioni Messaggi e Portafoglio, una comunicazione per accedere alla funzionalità. <br>
+In attesa della piena operatività del Sistema di portafoglio digitale italiano (IT-Wallet), su IO è disponibile una Funzionalità sperimentale che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione. Nelle sezioni Messaggi e Portafoglio, trovi un banner per accedere alla Funzionalità. <br>
 Rispetto alle versioni digitali dei documenti emessi dagli Enti, noi non verifichiamo né siamo responsabili del contenuto e della loro correttezza formale e sostanziale. Pertanto, se hai dubbi o domande a questo riguardo, ti invitiamo ad aprire una segnalazione tramite il punto interrogativo presente in alto a destra in ogni schermata dell’app, oppure tramite i canali di contatto dell’Ente, se mostrati in app.<br>
 Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in IO con SPID o CIE. Questo passaggio è necessario per garantire che le versioni digitali dei documenti che richiedi siano associati alla tua Identità Digitale.<br>
 Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali, consultarli e presentarli anche in modalità offline.<br> 
 Stiamo lavorando per rendere l’app IO compatibile con sempre più dispositivi mobili. Al momento, la Funzionalità potrebbe non essere disponibile sui dispositivi meno recenti o che non soddisfano determinati standard di sicurezza.<br>
-Per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. In tal modo la funzionalità sarà automaticamente disattivata sul precedente dispositivo. In questa prima fase sperimentale, **le versioni digitali dei documenti potrebbero non avere lo stesso valore legale del corrispondente documento fisico**. Ad esempio, la versione digitale della patente è valida solamente in alcuni contesti d’uso e verifica (es. controlli stradali) per dimostrare l’abilitazione alla guida.
+Per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. In tal modo la funzionalità sarà automaticamente disattivata sul precedente dispositivo. Ugualmente per motivi di sicurezza, l'accesso alla Funzionalità potrebbe richiedere una nuova autenticazione online dopo quattro accessi offline consecutivi. Se non procedi con l’autenticazione la Funzionalità sarà temporaneamente indisponibile fino alla riconnessione.<br>
+In questa prima fase sperimentale, **le versioni digitali dei documenti potrebbero non avere lo stesso valore legale del corrispondente documento fisico**. Ad esempio, la versione digitale della patente è valida solamente in alcuni contesti d’uso e verifica (es. controlli stradali) per dimostrare l’abilitazione alla guida.
 
 {:.d-more-2}
 
