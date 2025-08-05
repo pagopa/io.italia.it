@@ -30,7 +30,6 @@ redirect_from:
 
 {:.d-startup}
 
-- Abbiamo limitato il numero di accessi possibili offline a Documenti su IO per la tua sicurezza.
 - Abbiamo chiarito il linguaggio di alcuni trattamenti e corretto alcuni refusi.
 
 
@@ -641,8 +640,7 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 {:.d-startup}
 
 - Abbiamo sintetizzato e semplificato il linguaggio per renderlo più leggibile, chiarendo anche alcuni passaggi e correggendo i refusi;
-- Abbiamo introdotto una funzionalità che ti consente di accedere direttamente, in modo semplice e sicuro, ad alcuni servizi della pubblica amministrazione;
-- Oltre all’assistenza tecnica, ora puoi inviarci suggerimenti liberi o valutare l’app.
+- Abbiamo limitato il numero di accessi possibili offline a Documenti su IO per la tua sicurezza.
 
 <div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
 
