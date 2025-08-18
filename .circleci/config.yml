@@ -8,7 +8,7 @@ var_1: &cache_key v3-dependencies-{{ checksum "Gemfile.lock" }}
 defaults: &defaults
   working_directory: /home/circleci/io.italia.it
   docker:
-    - image: circleci/ruby:2.6.4-node
+    - image: circleci/ruby:2.6.4-node@sha256:b99e98f51821b26b6c266dd816b3b8b635a397a9307cd6aa235972619acee4aa
       environment:
         BUNDLE_JOBS: 3
         BUNDLE_RETRY: 3
