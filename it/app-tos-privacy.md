@@ -4,12 +4,12 @@ subtitle:
 layout: self
 ref: app-tos-privacy
 permalink: /app-content/tos_privacy.html
-vers: '5.3'
+vers: "5.3"
 updated: 1 agosto 2025
 assets:
   js:
-    - '/assets/js/tos.js'
-  css: '/assets/tos.css'
+    - "/assets/js/tos.js"
+  css: "/assets/tos.css"
 redirect_from:
   - /app-content/privacy_circuiti_internazionali.html
   - /informativa-sperimentazione/
@@ -32,11 +32,12 @@ redirect_from:
 
 - Abbiamo chiarito il linguaggio di alcuni trattamenti e corretto alcuni refusi.
 
-
 {:.d-startup}
 Sotto trovi l'informativa completa, che puoi consultare in ogni momento anche in app.
 
-<div class="read-more d-startup" data-more="d-more-1">Leggi tutto</div>
+<div class="d-startup">
+  <a class="read-more" role="button" title="Leggi tutto" data-more="d-more-1">Leggi tutto</a>
+</div>
 
 {:.d-more-1}
 
@@ -295,7 +296,7 @@ Ti ricordiamo che gli Enti rimangono titolari autonomi dei dati trattati in ragi
 **Documenti su IO (beta)**
 
 {:.d-more-1}
-In attesa della piena operatività del Sistema di portafoglio digitale italiano (IT-Wallet), su IO è disponibile una funzionalità che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione, tramite l’Ente incaricato ai sensi della normativa applicabile. Nelle sezioni Messaggi e Portafoglio, trovi un banner per accedere alla funzionalità. Potresti aver ricevuto una comunicazione tramite email o in app che descrive più dettagliatamente la funzionalità e le modalità di disattivazione. Puoi attivare Documenti su IO tramite il banner, se lo chiudi per errore, potrai ritrovarlo al tuo successivo accesso. Successivamente all’attivazione, se hai richiesto le versioni digitali dei tuoi documenti, potresti ricevere un messaggio dal soggetto emittente che ti informa della loro disponibilità. 
+In attesa della piena operatività del Sistema di portafoglio digitale italiano (IT-Wallet), su IO è disponibile una funzionalità che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione, tramite l’Ente incaricato ai sensi della normativa applicabile. Nelle sezioni Messaggi e Portafoglio, trovi un banner per accedere alla funzionalità. Potresti aver ricevuto una comunicazione tramite email o in app che descrive più dettagliatamente la funzionalità e le modalità di disattivazione. Puoi attivare Documenti su IO tramite il banner, se lo chiudi per errore, potrai ritrovarlo al tuo successivo accesso. Successivamente all’attivazione, se hai richiesto le versioni digitali dei tuoi documenti, potresti ricevere un messaggio dal soggetto emittente che ti informa della loro disponibilità.
 L’attivazione della funzionalità è su base volontaria. Puoi disattivarla in ogni momento cliccando su “Cos’è?” nella sezione Portafoglio.
 
 {:.d-more-1}
@@ -310,11 +311,11 @@ Se scegli di utilizzare Documenti su IO, PagoPA tratterà in qualità di titolar
 - tutti gli altri dati, legati all’uso e al funzionamento di IO, il cui trattamento è descritto nelle varie sezioni di questa informativa.
 
 {:.d-more-1}
-Se acconsenti, alcuni di questi dati sono condivisi con l’Ente che emette la versione digitale dei documenti, il quale li tratta per il tempo strettamente necessario a mettere a disposizione il documento. Il trattamento da parte dell’Ente emittente è regolato dall’informativa privacy che trovi nel dettaglio del documento.<br> 
+Se acconsenti, alcuni di questi dati sono condivisi con l’Ente che emette la versione digitale dei documenti, il quale li tratta per il tempo strettamente necessario a mettere a disposizione il documento. Il trattamento da parte dell’Ente emittente è regolato dall’informativa privacy che trovi nel dettaglio del documento.<br>
 Le chiavi crittografiche sono verificate quotidianamente e automaticamente per motivi di sicurezza, al fine di assicurare l’integrità delle versioni digitali dei tuoi documenti anche quando li usi offline. Quando ottieni la versione digitale di un documento, IO confronta la chiave pubblica conservata sui sistemi di PagoPA, con quella privata che risiede nel tuo dispositivo, per garantire l’affidabilità e la sicurezza dell’operazione.
 
 {:.d-more-1}
-Il codice univoco della richiesta è trattato, ai sensi dell’art. 9, par.2, lett. g) del GDPR (come specificato dall’art. 2-sexies, comma 2, lett. aa) del D. Lgs. n. 196/2003), solo quando il tipo di documento è potenzialmente in grado di  rivelare categorie particolari di dati (ad esempio, ottenimento della Carta Europea della Disabilità).
+Il codice univoco della richiesta è trattato, ai sensi dell’art. 9, par.2, lett. g) del GDPR (come specificato dall’art. 2-sexies, comma 2, lett. aa) del D. Lgs. n. 196/2003), solo quando il tipo di documento è potenzialmente in grado di rivelare categorie particolari di dati (ad esempio, ottenimento della Carta Europea della Disabilità).
 
 {:.d-more-1}
 I documenti che aggiungi non sono conservati da PagoPA ma rimangono unicamente sul tuo dispositivo. PagoPA non accede in nessun momento al contenuto dei documenti.<br>
@@ -345,7 +346,7 @@ In alcuni casi potremmo chiederti di condividere con noi la tua opinione sull’
 - dove richiesto, dati identificativi e di contatto (ad esempio nome e cognome, codice fiscale, indirizzo email, telefono) e altri dati comuni.
 
 {:.d-more-1}
-Puoi anche lasciarci suggerimenti liberi, nell’apposita sezione “Hai un suggerimento?” nelle Impostazioni dell’app.<br> 
+Puoi anche lasciarci suggerimenti liberi, nell’apposita sezione “Hai un suggerimento?” nelle Impostazioni dell’app.<br>
 **In ogni caso, ti invitiamo a non inserire dati personali, inclusi dati sensibili, nelle tue segnalazioni**.
 
 {:.d-more-1}
@@ -487,7 +488,7 @@ Dopo la firma, potrai accedere ai documenti, inoltrarli o condividerli per i suc
 **Documenti su IO (beta)**<br>
 I dati necessari per attivare la funzionalità sono conservati fino a che non decidi di disattivarla.<br>
 Le richieste di attivazione e disattivazione verranno conservate senza limiti di tempo per finalità di contenzioso ai sensi dell’art. 17, comma 3, GDPR.<br>
-I dati necessari per ottenere le versioni digitali dei documenti sono trattati per il tempo strettamente necessario alla condivisione con l’Ente che li emette. 
+I dati necessari per ottenere le versioni digitali dei documenti sono trattati per il tempo strettamente necessario alla condivisione con l’Ente che li emette.
 
 {:.d-more-1}
 **Integrazione con la piattaforma pagoPA**<br>
@@ -523,7 +524,7 @@ Tutti i dati precedenti possono essere conservati per il tempo necessario a gest
 
 {:.d-more-1}
 **Conservazione ulteriore**<br>
-Nei casi in cui hai richiesto la cancellazione dei tuoi dati personali, alcuni di questi possono essere ulteriormente conservati, ai sensi dell’art. 17, comma 3, GDPR, per gestire eventuali contenziosi, per l'esecuzione di un compito svolto nel pubblico interesse oppure nell'esercizio di pubblici poteri di cui è investito il titolare. 
+Nei casi in cui hai richiesto la cancellazione dei tuoi dati personali, alcuni di questi possono essere ulteriormente conservati, ai sensi dell’art. 17, comma 3, GDPR, per gestire eventuali contenziosi, per l'esecuzione di un compito svolto nel pubblico interesse oppure nell'esercizio di pubblici poteri di cui è investito il titolare.
 
 {:.d-more-1}
 **Come sono conservati i dati**<br>
@@ -642,7 +643,9 @@ Indichiamo sempre la data in cui sono state pubblicate le ultime modifiche e puo
 - Abbiamo sintetizzato e semplificato il linguaggio per renderlo più leggibile, chiarendo anche alcuni passaggi e correggendo i refusi;
 - Abbiamo limitato il numero di accessi possibili offline a Documenti su IO per la tua sicurezza.
 
-<div class="read-more d-startup" data-more="d-more-2">Leggi tutto</div>
+<div class="d-startup">
+  <a class="read-more" role="button" title="Leggi tutto" data-more="d-more-2">Leggi tutto</a>
+</div>
 
 {:.d-more-2}
 
@@ -887,7 +890,7 @@ Ti invitiamo a leggere le informative privacy messe a disposizione dagli Enti e 
 In attesa della piena operatività del Sistema di portafoglio digitale italiano (IT-Wallet), su IO è disponibile una Funzionalità sperimentale che consente di ottenere la versione digitale dei documenti personali rilasciati dalla Pubblica Amministrazione. Nelle sezioni Messaggi e Portafoglio, trovi un banner per accedere alla Funzionalità. <br>
 Rispetto alle versioni digitali dei documenti emessi dagli Enti, noi non verifichiamo né siamo responsabili del contenuto e della loro correttezza formale e sostanziale. Pertanto, se hai dubbi o domande a questo riguardo, ti invitiamo ad aprire una segnalazione tramite il punto interrogativo presente in alto a destra in ogni schermata dell’app, oppure tramite i canali di contatto dell’Ente, se mostrati in app.<br>
 Per attivare Documenti su IO ti chiediamo di autenticarti nuovamente in IO con SPID o CIE. Questo passaggio è necessario per garantire che le versioni digitali dei documenti che richiedi siano associati alla tua Identità Digitale.<br>
-Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali, consultarli e presentarli anche in modalità offline.<br> 
+Se attivi Documenti su IO puoi custodire nel Portafoglio dell’app IO la versione digitale di alcuni dei tuoi documenti personali, consultarli e presentarli anche in modalità offline.<br>
 Stiamo lavorando per rendere l’app IO compatibile con sempre più dispositivi mobili. Al momento, la Funzionalità potrebbe non essere disponibile sui dispositivi meno recenti o che non soddisfano determinati standard di sicurezza.<br>
 Per ragioni di sicurezza, ogni volta che accedi all’app IO da un dispositivo diverso, dovrai ripetere l'attivazione di Documenti su IO e aggiungere nuovamente le versioni digitali dei tuoi documenti. In tal modo la funzionalità sarà automaticamente disattivata sul precedente dispositivo. Ugualmente per motivi di sicurezza, l'accesso alla Funzionalità potrebbe richiedere una nuova autenticazione online dopo quattro accessi offline consecutivi. Se non procedi con l’autenticazione la Funzionalità sarà temporaneamente indisponibile fino alla riconnessione.<br>
 In questa prima fase sperimentale, **le versioni digitali dei documenti potrebbero non avere lo stesso valore legale del corrispondente documento fisico**. Ad esempio, la versione digitale della patente è valida solamente in alcuni contesti d’uso e verifica (es. controlli stradali) per dimostrare l’abilitazione alla guida.
@@ -900,7 +903,7 @@ In questa prima fase sperimentale, **le versioni digitali dei documenti potrebbe
 Grazie a IO puoi usufruire dei Servizi forniti dagli Enti che aderiscono a IO.<br>
 Gli Enti gestiscono i loro Servizi; quindi, la loro disponibilità, il loro contenuto e la loro funzionalità non dipendono da PagoPA, ma dall’Ente, che ne ha piena responsabilità.<br>
 Ai Servizi degli Enti si applicano i Termini Aggiuntivi che ciascun Ente ti mette a disposizione anche tramite IO, ad esempio nella scheda di ciascun Servizio o nei Messaggi, e che ti invitiamo a leggere.<br>
-In alcuni casi, per usufruire di alcuni Servizi, IO ti reindirizza, con il tuo consenso, verso risorse informatiche esterne, per poterti autenticare direttamente senza reinserire le credenziali della Tua Identità Digitale. Anche in questi casi, la responsabilità dei Servizi, in particolare la loro disponibilità e l’accuratezza delle informazioni e dei contenuti, rimangono in capo all’Ente.<br> 
+In alcuni casi, per usufruire di alcuni Servizi, IO ti reindirizza, con il tuo consenso, verso risorse informatiche esterne, per poterti autenticare direttamente senza reinserire le credenziali della Tua Identità Digitale. Anche in questi casi, la responsabilità dei Servizi, in particolare la loro disponibilità e l’accuratezza delle informazioni e dei contenuti, rimangono in capo all’Ente.<br>
 Nell’usare IO potresti accedere a servizi gestiti in tutto in parte da PagoPA o di Terze Parti: ad esempio, piattaforme abilitanti integrate con IO, servizi di identificazione resi dal tuo fornitore di Identità Digitale, servizi di pagamento forniti dai PSP oppure servizi necessari per erogare i certificati di firma digitale. A questi servizi si applicano i Termini Aggiuntivi stabiliti dal gestore.<br>
 Per fruire di alcuni Servizi o Funzionalità, è necessario possedere ulteriori requisiti, e ti potrebbe anche essere chiesto di fornire un’autodichiarazione.<br>
 Se ci segnalerai un problema o un malfunzionamento dei Servizi forniti dagli Enti o dei servizi di Terze Parti, potremmo informarli e metterti in contatto con loro per aiutarti a risolvere il problema. Ad ogni modo, per eventuali reclami, istanze o altre questioni relative alla disponibilità, al funzionamento e al contenuto di questi servizi, dovrai rivolgerti direttamente all’Ente o alla Terza Parte in questione. Potrai trovare i loro contatti all’interno di ciascuna scheda Servizio.
