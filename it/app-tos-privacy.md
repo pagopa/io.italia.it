@@ -957,7 +957,7 @@ Rilasciamo alcune Funzionalità, in tutto o in parte, in via sperimentale e ciò
 Può capitare che alcuni Servizi o Funzionalità non siano disponibili.
 Le tue segnalazioni e i tuoi suggerimenti ci aiuteranno a migliorare IO: ti invitiamo a segnalarci qualunque problema o suggerimento tramite i canali disponibili. Comunque, non possiamo garantire il perfetto funzionamento o l’assenza di errori o bug, interruzioni, sospensioni o ritardi nella disponibilità di IO, dei Servizi e delle sue Funzionalità.<br>
 Inoltre, considerata la continua evoluzione delle tecnologie su cui si basa IO, è possibile che non sia più possibile usare alcuni Servizi e Funzionalità e non sia più fornito il supporto a determinati dispositivi o a versioni di sistemi operativi.<br>
-In alcuni casi, se il tuo dispositivo e/o la versione del sistema operativo in esecuzione non siano più compatibili con i nostri standard, potresti non accedere più a IO.<br>
+In alcuni casi, se il tuo dispositivo e/o la versione del sistema operativo in esecuzione non sono più compatibili con i nostri standard, potresti non accedere più a IO.<br>
 In questi casi, cercheremo di avvisarti per tempo, indicandoti anche, se possibile, quali misure adottare per continuare a usare IO.<br>
 Questo preavviso non è dovuto in caso di situazioni urgenti. Ad esempio, per prevenire usi impropri da parte di chi usa IO o terzi non autorizzati, per rispettare i requisiti di legge o per risolvere problemi operativi o di sicurezza.<br>
 In alcuni casi la disponibilità dei Servizi, delle Funzionalità e di IO nel suo complesso potrebbe essere influenzata da fattori al di fuori del nostro controllo, come eventi di forza maggiore.
