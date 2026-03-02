@@ -177,7 +177,7 @@ Puoi sempre modificare la tua scelta da Impostazioni > Preferenze.
 
 
 {:.d-more-1}
-**_C) Dati relativi ai pagamenti e ai bonus”_**
+**_C) Dati relativi ai pagamenti e ai bonus_**
 
 {:.d-more-1}
 **Quando registri un metodo di pagamento**<br>
