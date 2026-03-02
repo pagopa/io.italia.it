@@ -793,7 +793,7 @@ Puoi sempre visualizzare e gestire i tuoi Bonus nella sezione “Portafoglio” 
 ### **3.3.2 Per richiedere un Bonus**
 
 {:.d-more-2}
-Per aggiungere un Bonus ti verrà chiesto di inserire o confermare delle informazioni. Alcune di queste non sono modificabili perché, ad esempio, sono collegate alla tua Identità Digitale o sono di competenza dell’Ente che eroga il Bonus o di Terze Parti (comprese altre autorità competenti)<br>
+Per richiedere un Bonus ti verrà chiesto di inserire o confermare delle informazioni. Alcune di queste non sono modificabili perché, ad esempio, sono collegate alla tua Identità Digitale o sono di competenza dell’Ente che eroga il Bonus o di Terze Parti (comprese altre autorità competenti)<br>
 PagoPA non ha l'obbligo di verificare che tu possieda i requisiti legati a stati, qualità personali o fatti che ti riguardano.<br>
 Sei la sola persona responsabile dei dati che inserisci, che condividi con altre applicazioni o terzi (quando è prevista la funzione di archiviazione o condivisione) o che comunque comunichi agli Enti, a Terze Parti (comprese le altre autorità) anche tramite IO.<br>
 Sei responsabile anche della correttezza e della veridicità di questi dati e sei consapevole delle conseguenze, anche penali, che potrebbero derivare da eventuali dichiarazioni incomplete, inesatte, intempestive o false.<br>
