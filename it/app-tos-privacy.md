@@ -849,7 +849,7 @@ Ti invitiamo a leggere le informative privacy messe a disposizione dagli Enti e 
 
 ## **3.7 Funzionalità sperimentali**
 Su IO sono disponibili alcune Funzionalità sperimentali, che vengono testate direttamente con i Cittadini. La sperimentazione può riguardare soluzioni innovative anche basate su nuove tecnologie, oppure rilasciate in base a specifici criteri, ad esempio disponibili solo per alcuni utenti.<br>  
-L’uso delle Funzionalità sperimentali sono regolate da queste condizioni d’uso e da eventuali Termini Aggiuntivi che ti verranno presentati prima di usare la Funzionalità.<br>
+L’uso delle Funzionalità sperimentali è regolato da queste condizioni d’uso e da eventuali Termini Aggiuntivi che ti verranno presentati prima di usare la Funzionalità.<br>
 In quanto sperimentali, non possiamo garantire che siano esenti da errori, bug o interruzioni, e non garantiamo che tali Funzionalità diventino definitive o rimangano disponibili nel tempo.<br>
 Usando le Funzionalità sperimentali, accetti che PagoPA non sia 
 responsabile di eventuali danni o disservizi derivanti dall'uso di tali Funzionalità sperimentali, fatta salva l'applicazione delle norme inderogabili di legge. 
