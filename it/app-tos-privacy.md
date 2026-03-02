@@ -88,7 +88,7 @@ Per capire come sono trattati i propri dati personali, chi usa IO può consultar
 {:.d-more-1}
 Per accedere a IO devi usare la tua identità digitale SPID (Sistema Pubblico di Identità Digitale) oppure CIE (Carta d’Identità Elettronica). IO ottiene i dati per identificarti direttamente dal fornitore dell’identità digitale.<br>
 PagoPA tratta questi dati in qualità di titolare del trattamento perché tu possa usare l'app IO, le sue funzionalità e i Servizi forniti dagli Enti.<br>
-Questi dati vengono anche memorizzati perchè tu possa gestire le tue preferenze.<br>
+Questi dati vengono anche memorizzati perché tu possa gestire le tue preferenze.<br>
 Il tuo codice fiscale, ottenuto tramite SPID/CIE, è il dato essenziale che usiamo per identificarti, permetterti di gestire le preferenze e raggiungerti in app tramite messaggi, banner e altre comunicazioni.<br>
 Per verificare e garantire le autorizzazioni durante l'uso di alcune funzionalità dell’app, IO genera sul tuo dispositivo e memorizza nei propri sistemi alcune informazioni, tra cui chiavi crittografiche associate alla tua identità. Queste attività costituiscono misure di sicurezza grazie alle quali ci assicuriamo che sia solo tu ad autorizzare specifiche operazioni. Inoltre, se scegli di abilitare la funzionalità “Login Veloce”, le chiavi crittografiche possono essere usate per consentirti di accedere a IO in tutta sicurezza senza inserire nuovamente le tue credenziali per un periodo massimo di 1 anno.<br>
 Se accedi a IO dopo un reindirizzamento di una terza parte, sia PagoPA che la terza parte potrebbero trattare e conservare i dati necessari per consentire la comunicazione e garantirne la sicurezza (ad esempio, il tuo indirizzo IP).<br>
