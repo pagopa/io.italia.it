@@ -204,7 +204,7 @@ Ecco quali sono le categorie di dati che trattiamo per queste finalità:
 
 {:.d-more-1}
 **Email**: L’indirizzo  che hai indicato nella sezione Impostazioni viene utilizzato, su tua richiesta, per inviarti l’anteprima dei messaggi ricevuti in app e per gestire le tue richieste di supporto. Riceverai inoltre comunicazioni importanti relative all’app o al tuo account. In particolare, per tua sicurezza, ti invieremo una comunicazione a ogni accesso effettuato tramite SPID o CIE: se rilevi un accesso non autorizzato, puoi bloccare l’account seguendo il link contenuto nella comunicazione;<br>
-**Preferenze sulle comunicazioni**: Sono le informazioni necessarie per consentirti di ricevere comunicazioni su IO, come descritto altrove in questa informativa.
+**Preferenze sulle comunicazioni**: Sono le informazioni necessarie per consentirti di ricevere comunicazioni su IO, come descritto altrove in questa informativa.<br>
 **Calendario e scadenze**: Se decidi di inserire nel calendario del tuo dispositivo una scadenza relativa a un avviso di pagamento ricevuto in app, verrà trattato l’indirizzo email associato al calendario scelto. Inoltre, IO dovrà verificare che tu non abbia già inserito tale scadenza nel tuo calendario, al fine di evitare la duplicazione di eventi;<br>
 **Lingua**: La preferenza relativa alla lingua viene condivisa con gli Enti per dare loro la possibilità di offrirti i Servizi nella lingua prescelta.<br>
 **Aspetto dell’app**: Questa informazione viene utilizzata esclusivamente per applicare la tua scelta in relazione all’aspetto che deve avere l’app.
