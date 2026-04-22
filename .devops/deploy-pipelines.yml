@@ -85,4 +85,4 @@ steps:
       azureSubscription: "$(AZURE_SUBSCRIPTION)"
       scriptLocation: inlineScript
       inlineScript: |
-        az afd endpoint purge -g $(RESOURCE_GROUP_NAME) ---endpoint-name $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/assets/entijson/*" "/assets/json/*" "/app-content/*" "/enti/*"
+        az afd endpoint purge -g $(RESOURCE_GROUP_NAME) --endpoint-name $(ENDPOINT_NAME) --profile-name $(PROFILE_CDN_NAME) --content-paths "/assets/entijson/*" "/assets/json/*" "/app-content/*" "/enti/*"
